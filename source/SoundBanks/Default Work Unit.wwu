@@ -65,6 +65,28 @@
 					</ObjectExclusionList>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="wpn" ID="{5F03E5D9-6D30-473F-ACCF-E697FF28FCC8}">
+					<ObjectInclusionList>
+						<ObjectRef Name="wpn_large_extra_NPC" ID="{A0F658F0-7858-41DE-BAD2-EA7E3FE1E322}" WorkUnitID="{E811023D-8930-4266-8283-3B46EAFCF06B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="wpn_automatic_NPC" ID="{2CF34E44-E937-4234-B906-F7B4F1F8C0F7}" WorkUnitID="{E811023D-8930-4266-8283-3B46EAFCF06B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="wpn_main_PC" ID="{D9E960DF-A5D2-4339-82BD-2362EAE49C2D}" WorkUnitID="{E811023D-8930-4266-8283-3B46EAFCF06B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="wpn_main_NPC" ID="{34F0B5E6-4275-4346-9784-40D4568C4DC1}" WorkUnitID="{E811023D-8930-4266-8283-3B46EAFCF06B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="wpn_huge_NPC" ID="{81539F8A-C35A-444A-B57D-9F168A43EBD7}" WorkUnitID="{E811023D-8930-4266-8283-3B46EAFCF06B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="wpn_meduim_PC" ID="{82A24B75-9272-4478-9FFC-2BCEEC62A07D}" WorkUnitID="{E811023D-8930-4266-8283-3B46EAFCF06B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="wpn_small_PC" ID="{080EB964-60E4-44D6-8111-FF2C685485FE}" WorkUnitID="{E811023D-8930-4266-8283-3B46EAFCF06B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="wpn_meduim_NPC" ID="{E4EC0D72-BB76-4536-99B5-D1B4957F90EF}" WorkUnitID="{E811023D-8930-4266-8283-3B46EAFCF06B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="wpn_large_PC" ID="{2702412F-E4F1-4579-97AE-739FF3FC427F}" WorkUnitID="{E811023D-8930-4266-8283-3B46EAFCF06B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="wpn_large_extra_PC" ID="{64C6B0AE-44EA-46C2-BDFC-E452410BBFA7}" WorkUnitID="{E811023D-8930-4266-8283-3B46EAFCF06B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="wpn_large_NPC" ID="{5517230D-232A-46DE-B0E5-7305DEC6743A}" WorkUnitID="{E811023D-8930-4266-8283-3B46EAFCF06B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="wpn_main_extra_PC" ID="{BD901E3E-1B0C-483E-B531-7573E1CA2696}" WorkUnitID="{E811023D-8930-4266-8283-3B46EAFCF06B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="wpn_small_NPC" ID="{F6F4DC18-2492-4A1E-B7B9-61C9F85B74BA}" WorkUnitID="{E811023D-8930-4266-8283-3B46EAFCF06B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="wpn_main_extra_NPC" ID="{F29581B2-0A16-4E83-B299-AC47CDF1DB61}" WorkUnitID="{E811023D-8930-4266-8283-3B46EAFCF06B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="wpn_huge_PC" ID="{366FE8CB-4DDF-4F35-B9EB-DFE85C23AA1F}" WorkUnitID="{E811023D-8930-4266-8283-3B46EAFCF06B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="wpn_automatic_PC" ID="{CA4EF258-E160-4FA3-A3DC-1EE47006DCBA}" WorkUnitID="{E811023D-8930-4266-8283-3B46EAFCF06B}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>
