@@ -13,7 +13,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="wpn_medium" ID="{D481D18E-740B-49E7-A088-04D459FAB867}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+									<ObjectRef Name="wpn_medium_PC" ID="{7C7D7895-1C9D-4866-A06E-A61A375F2405}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -28,7 +28,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="wpn_automatic" ID="{DE09A338-60CC-487E-B1D5-CB523F2CB3F0}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+									<ObjectRef Name="wpn_automatic_NPC" ID="{9BEF9391-85F0-4A45-99CC-E51A11E21ADB}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -43,7 +43,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="wpn_large" ID="{E10C9E56-B8D2-42B2-9F4E-AE8F24CBF5EB}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+									<ObjectRef Name="wpn_large_NPC" ID="{E10C9E56-B8D2-42B2-9F4E-AE8F24CBF5EB}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -58,7 +58,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="wpn_main" ID="{1C3FB4FA-314B-4F64-9914-11F18591A3FD}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+									<ObjectRef Name="wpn_main_PC" ID="{1C3FB4FA-314B-4F64-9914-11F18591A3FD}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -73,7 +73,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="wpn_medium" ID="{D481D18E-740B-49E7-A088-04D459FAB867}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+									<ObjectRef Name="wpn_medium_NPC" ID="{D481D18E-740B-49E7-A088-04D459FAB867}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -88,7 +88,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="wpn_large" ID="{E10C9E56-B8D2-42B2-9F4E-AE8F24CBF5EB}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+									<ObjectRef Name="wpn_large_NPC" ID="{E10C9E56-B8D2-42B2-9F4E-AE8F24CBF5EB}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -103,7 +103,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="wpn_main" ID="{1C3FB4FA-314B-4F64-9914-11F18591A3FD}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+									<ObjectRef Name="wpn_main_NPC" ID="{4BE85C9D-38B8-4151-822C-623F80F68F65}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -118,7 +118,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="wpn_small" ID="{95040B24-A4D8-4C91-8496-FE66DFA96385}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+									<ObjectRef Name="wpn_small_NPC" ID="{55556FEB-6061-4AF6-BAE8-C57B4ECCAAF2}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -133,7 +133,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="wpn_huge" ID="{69E88E52-5EE7-43AD-BFB7-3046C38EFB1E}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+									<ObjectRef Name="wpn_huge_PC" ID="{69E88E52-5EE7-43AD-BFB7-3046C38EFB1E}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -148,7 +148,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="wpn_small" ID="{95040B24-A4D8-4C91-8496-FE66DFA96385}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+									<ObjectRef Name="wpn_small_PC" ID="{95040B24-A4D8-4C91-8496-FE66DFA96385}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -163,7 +163,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="wpn_huge" ID="{69E88E52-5EE7-43AD-BFB7-3046C38EFB1E}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+									<ObjectRef Name="wpn_huge_NPC" ID="{9A9AFE9D-4249-4C59-BC45-A174A6C19681}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -178,7 +178,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="wpn_automatic" ID="{DE09A338-60CC-487E-B1D5-CB523F2CB3F0}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+									<ObjectRef Name="wpn_automatic_PC" ID="{DE09A338-60CC-487E-B1D5-CB523F2CB3F0}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -193,7 +193,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="wpn_huge" ID="{69E88E52-5EE7-43AD-BFB7-3046C38EFB1E}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+									<ObjectRef Name="wpn_huge_PC" ID="{69E88E52-5EE7-43AD-BFB7-3046C38EFB1E}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -208,7 +208,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="wpn_main" ID="{1C3FB4FA-314B-4F64-9914-11F18591A3FD}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+									<ObjectRef Name="wpn_main_PC" ID="{1C3FB4FA-314B-4F64-9914-11F18591A3FD}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -223,7 +223,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="wpn_huge" ID="{69E88E52-5EE7-43AD-BFB7-3046C38EFB1E}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+									<ObjectRef Name="wpn_large_NPC" ID="{E10C9E56-B8D2-42B2-9F4E-AE8F24CBF5EB}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -238,7 +238,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="wpn_main" ID="{1C3FB4FA-314B-4F64-9914-11F18591A3FD}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+									<ObjectRef Name="wpn_main_NPC" ID="{4BE85C9D-38B8-4151-822C-623F80F68F65}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
