@@ -1,0 +1,47 @@
+<WwiseDocument Type="WorkUnit" ID="{700832D4-51C8-4711-8A21-279B3D02B4AB}" SchemaVersion="85">
+  <GameParameters>
+    <WorkUnit Name="Physical_Collision" ID="{700832D4-51C8-4711-8A21-279B3D02B4AB}" PersistMode="Standalone">
+      <ChildrenList>
+        <GameParameter Name="RTPC_ext_collision_impulse_object" ID="{4E7DB0EF-CD63-4897-8937-C14736B60EF4}">
+          <Comment>We need to rename the parameter in RTPC_ext_collision_impulse_object</Comment>
+          <PropertyList>
+            <Property Name="InitialValue" Type="Real64" Value="0" />
+            <Property Name="Max" Type="Real64" Value="1" />
+          </PropertyList>
+        </GameParameter>
+        <GameParameter Name="RTPC_ext_collision_impulse_tank" ID="{CB93BE27-A8FB-4174-B4BA-85C6DA7428CE}">
+          <PropertyList>
+            <Property Name="InitialValue" Type="Real64" Value="0" />
+            <Property Name="Max" Type="Real64" Value="1" />
+          </PropertyList>
+        </GameParameter>
+        <GameParameter Name="RTPC_int_friction_release" ID="{B0CCE3B3-E74F-41AC-9123-9232A18D4049}">
+          <PropertyList>
+            <Property Name="InitialValue" Type="Real64" Value="-60" />
+            <Property Name="Max" Type="Real64" Value="0" />
+            <Property Name="Min" Type="Real64" Value="-60" />
+            <Property Name="RTPCRamping" Type="int16" Value="1" />
+            <Property Name="SlewRateDown" Type="Real64" Value="100" />
+            <Property Name="SlewRateUp" Type="Real64" Value="0" />
+          </PropertyList>
+        </GameParameter>
+        <GameParameter Name="RTPC_int_friction_sideChain" ID="{C76A2151-2A7B-41FC-8757-432C51C3C38B}">
+          <PropertyList>
+            <Property Name="InitialValue" Type="Real64" Value="-60" />
+            <Property Name="Max" Type="Real64" Value="0" />
+            <Property Name="Min" Type="Real64" Value="-60" />
+            <Property Name="RTPCRamping" Type="int16" Value="1" />
+            <Property Name="SlewRateDown" Type="Real64" Value="0" />
+            <Property Name="SlewRateUp" Type="Real64" Value="0" />
+          </PropertyList>
+        </GameParameter>
+        <GameParameter Name="RTPC_ext_friction_weight" ID="{FD9DB737-D11A-46D2-8E2B-290E612E90CF}">
+          <PropertyList>
+            <Property Name="InitialValue" Type="Real64" Value="0" />
+            <Property Name="Max" Type="Real64" Value="200" />
+          </PropertyList>
+        </GameParameter>
+      </ChildrenList>
+    </WorkUnit>
+  </GameParameters>
+</WwiseDocument>

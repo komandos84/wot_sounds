@@ -1,0 +1,43 @@
+<WwiseDocument Type="WorkUnit" ID="{E10885BD-A6FC-47D0-9A19-8119968DCD4E}" SchemaVersion="85">
+  <GameParameters>
+    <WorkUnit Name="Fortifierd_Area" ID="{E10885BD-A6FC-47D0-9A19-8119968DCD4E}" PersistMode="Standalone">
+      <Comment>Stronghold</Comment>
+      <ChildrenList>
+        <GameParameter Name="RTPC_ext_buildings_number" ID="{753F6CD6-02F5-430D-974A-B256782A3666}">
+          <Comment>External RTPC - transmits information on a total number fo structures built</Comment>
+          <PropertyList>
+            <Property Name="InitialValue" Type="Real64" Value="0" />
+            <Property Name="Max" Type="Real64" Value="10" />
+            <Property Name="RTPCRamping" Type="int16" Value="1" />
+            <Property Name="SlewRateDown" Type="Real64" Value="3" />
+            <Property Name="SlewRateUp" Type="Real64" Value="3" />
+          </PropertyList>
+        </GameParameter>
+        <GameParameter Name="RTPC_ext_transport_mode" ID="{34C37B4A-EF44-4BD9-8891-C51E70A7F957}">
+          <Comment>External RTPC - tracks the cases when a player enters/exits the Transportation mode. 
+0 – a player is not in the Transportation mode
+1 – a player is in the Transportation mode</Comment>
+          <PropertyList>
+            <Property Name="InitialValue" Type="Real64" Value="0" />
+            <Property Name="Max" Type="Real64" Value="1" />
+            <Property Name="RTPCRamping" Type="int16" Value="1" />
+            <Property Name="SlewRateDown" Type="Real64" Value="2" />
+            <Property Name="SlewRateUp" Type="Real64" Value="2" />
+          </PropertyList>
+        </GameParameter>
+        <GameParameter Name="RTPC_ext_defence_period" ID="{63520A19-310F-4724-ABBF-857953508380}">
+          <Comment>External RTPC - considers the state of activating the defense period
+0 – the defense period is deactivated
+2 – the defense period is activated</Comment>
+          <PropertyList>
+            <Property Name="InitialValue" Type="Real64" Value="0" />
+            <Property Name="Max" Type="Real64" Value="1" />
+            <Property Name="RTPCRamping" Type="int16" Value="1" />
+            <Property Name="SlewRateDown" Type="Real64" Value="2" />
+            <Property Name="SlewRateUp" Type="Real64" Value="2" />
+          </PropertyList>
+        </GameParameter>
+      </ChildrenList>
+    </WorkUnit>
+  </GameParameters>
+</WwiseDocument>

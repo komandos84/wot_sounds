@@ -1,0 +1,410 @@
+<WwiseDocument Type="WorkUnit" ID="{8EC00CD4-5767-4023-A222-F966184A3709}" SchemaVersion="85">
+  <Events>
+    <WorkUnit Name="Ambient" ID="{8EC00CD4-5767-4023-A222-F966184A3709}" PersistMode="Standalone">
+      <Comment>Environment</Comment>
+      <ChildrenList>
+        <Folder Name="static_objects" ID="{28BD87D6-68A1-45E3-9796-E5239B036287}" ShortID="236977963">
+          <ChildrenList>
+            <Event Name="ambient_static_objects_air_defense" ID="{31226421-BB6E-41A6-99E1-2E5A91B10396}">
+              <Comment>Event - Air defense</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_static_objects_impeller" ID="{D3313C47-7C72-4650-9404-E2A059CC5B77}">
+              <Comment>Event - Old wind mill</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_static_objects_mill" ID="{B1B80739-25E4-439D-9A46-2A872C8FDBDC}">
+              <Comment>Event - Mill</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_static_objects_propeller" ID="{BDEE5326-7873-4219-B09D-EDF8A25DE521}">
+              <Comment>Event - Propeller</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_static_objects_water_mill" ID="{AFFE2490-D651-435B-AA97-1902BFC2EEFF}">
+              <Comment>Event - Water mill</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_static_objects_water_tower" ID="{2864394A-E020-4F09-B02D-FFA853F2E3B5}">
+              <Comment>Event - Water tower</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_static_objects_flag_flapping" ID="{591DA617-F19E-4C75-BAB6-2FB11E963BFE}">
+              <Comment>Event - Flag (waving in the wind)</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+          </ChildrenList>
+        </Folder>
+        <Folder Name="trees" ID="{1C5D079A-CD5A-4311-B444-A9C81E3A8152}" ShortID="1039538507">
+          <ChildrenList>
+            <Event Name="ambient_trees_coniferous_comb_big_01" ID="{092D7524-D3A0-4B15-BB93-8E57D83F539F}">
+              <Comment>Event - Conifers</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_trees_green_comb_big_01" ID="{D6981331-4645-4C7B-B7ED-74A3AC972D24}">
+              <Comment>Event - Tall green trees</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_trees_green_comb_big_02" ID="{4A45FC24-E9AB-4CA9-ACA5-021DE0C6A258}">
+              <Comment>Event - Tall green trees</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_trees_green_comb_mid_01" ID="{BA24FF55-0D62-49AA-80AD-322A3E539A0E}">
+              <Comment>Event - Medium green trees</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_trees_green_comb_mid_02" ID="{51458E26-0ED0-4185-9C48-CB8347458072}">
+              <Comment>Event - Medium green trees</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_trees_green_comb_small_01" ID="{F6D06294-0B4D-4EF3-A587-4EDEBDA86EE5}">
+              <Comment>Event - Small green trees</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_trees_large_leaves_comb_mid_01" ID="{CD85EB85-C991-41BC-9717-0D39F425DD81}">
+              <Comment>Event - Tall broadleaved trees</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_trees_large_leaves_comb_small_01" ID="{7E5B28F9-FAE1-45DB-A405-C6D8353AE417}">
+              <Comment>Event - Medium broadleaved trees</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_trees_without_foliage_bush_big_01" ID="{10464211-7CCC-41BB-A358-3503F976A7EE}">
+              <Comment>Event - Large bushes without leaves</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_trees_without_foliage_tree_big_01" ID="{262C897D-74FA-462E-B105-B7B8A483E16D}">
+              <Comment>Event - Tall trees without leaves</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_trees_dry_comb_big_01" ID="{C59325A1-0096-4D6B-BF02-081FEE8A16C1}">
+              <Comment>Event - Tall dry conifers</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_trees_dry_comb_mid_01" ID="{3D0DF045-CE81-49A7-A346-CF137FB7EA15}">
+              <Comment>Event - Medium dry conifers</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_trees_dry_comb_mid_02" ID="{8AA0BC4E-C208-48FA-8867-8240CE790C73}">
+              <Comment>Event - Medium dry conifers</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_trees_yellow_dry_comb_big_01" ID="{6B9D0168-9854-42D6-98F6-86F97E0E4995}">
+              <Comment>Event - Tall dry autumn trees</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_trees_yellow_dry_comb_big_02" ID="{A9F0A6C4-286C-4BF1-BE3B-8D6901D9C5C3}">
+              <Comment>Event - Medium dry autumn trees</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_trees_yellow_dry_comb_small_01" ID="{047280F8-0EF0-4CE7-8CB1-802A83D94804}">
+              <Comment>Event - Small dry audumn trees</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_trees_yellow_soft_comb_big_01" ID="{B7E3EC79-1BA5-4B4C-9056-EF7FF223986E}">
+              <Comment>Event - Tall audumn trees</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_trees_yellow_soft_comb_mid_01" ID="{FE2BF15D-170B-4DD8-981E-A5EBF71A8615}">
+              <Comment>Event - Medium autumn trees</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_trees_yellow_soft_comb_small_01" ID="{85F801AF-EC37-4A51-A032-D3DFC4EDACB2}">
+              <Comment>Event - Small autumn trees</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_trees_green_bush_few_foliage_01" ID="{092A999D-909B-46F2-987F-211C64D70CDB}">
+              <Comment>Even - Green bushes and trees</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_trees_coniferous_01" ID="{0AD61031-8222-421E-85E7-E737B12C0AB3}">
+              <Comment>Event - Conifers</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_trees_yellow_tree_few_foliage_01" ID="{FF360C3F-C7A8-4A77-B8BA-5843A710031D}">
+              <Comment>Event - Autumn trees with a small amount of leaves</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_palm_green_big" ID="{2301F9F5-68CB-4619-9835-00EDA4F082DF}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_palm_green_mid" ID="{22FF39EC-3101-40E9-88D0-4060C5431AF9}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_trees_without_foliage_tree_big_02" ID="{FAE41A6F-C7C4-471C-955B-019EC9A33C8D}">
+              <Comment>Event - Large trees withou leaves</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_bush_yellow_dry_small_01" ID="{02756DD3-CBB4-42DA-B97C-C1FA643DE1B0}">
+              <Comment>Event - Small dry trees in autumn</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_bush_yellow_dry_big_01" ID="{C61D26BC-9021-4AD2-B4E2-6C313F7B79D3}">
+              <Comment>Event - Large dry trees in autumn</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_trees_crack" ID="{F6532CCC-C85D-4261-878B-338918302550}">
+              <ChildrenList></ChildrenList>
+            </Event>
+          </ChildrenList>
+        </Folder>
+        <Folder Name="burn" ID="{109D50FA-8FB6-4F5D-8CE9-8A49260131F0}" ShortID="694193812">
+          <ChildrenList>
+            <Event Name="ambient_burn_static_mid" ID="{4AC04A71-CF3F-40A7-ACA5-9A04794B6AE8}">
+              <Comment>Event - Medium fire on a map</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_burn_static_big" ID="{7AF17C2A-476B-4D85-93E4-7B9C5F49E5C1}">
+              <Comment>Event - Large fire on a map</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_burn_static_small" ID="{553C4978-0DB9-4961-9312-F7419E29EA80}">
+              <Comment>Event - Small fire on a map</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+          </ChildrenList>
+        </Folder>
+        <Folder Name="wind" ID="{F55BDA97-7C95-4347-B3B0-F9DC5300442F}" ShortID="991467229">
+          <ChildrenList>
+            <Event Name="ambient_wind_autumn_01" ID="{27E63781-7FD2-4CF4-BCD6-758481F2A61A}">
+              <Comment>Event - Autumn wind</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_wind_winter_01" ID="{F8B0A6BE-2DB7-4AE7-B1FD-C33340DC5552}">
+              <Comment>Event - Winter wind</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_wind_summer_01" ID="{BD85B8F0-0899-43F0-AA6C-66ECA9299375}">
+              <Comment>Event - Summer wind</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_wind_spring_01" ID="{539ADE99-2566-4167-920B-D9EF7E2CF2F0}">
+              <Comment>Event - Spring wind</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_wind_desert_01" ID="{686E2A46-6EE9-4300-BD27-6F5F0FEED8A5}">
+              <Comment>Event - Desert wind</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+          </ChildrenList>
+        </Folder>
+        <Folder Name="nature" ID="{88FDE6E6-D226-4303-8D35-36B7DD792D3B}" ShortID="158856680">
+          <ChildrenList>
+            <Event Name="ambient_nature_swamp" ID="{F2C055B0-3542-4C5D-8A16-FF696F448684}">
+              <Comment>Event - Swamp sounds</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_nature_birds_crows" ID="{A9FF7307-210D-4AD6-A607-0EEF073B5EF8}">
+              <Comment>Event - Crows</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_nature_birds_seagulls" ID="{F633B1D4-65F7-4CC6-B6B6-5778F5CC6283}">
+              <Comment>Event - Seagulls</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_nature_birds_forestBirds" ID="{311EFAE7-100A-4273-AF1E-D03134FA86DD}">
+              <Comment>Event - Forest birds</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_nature_birds_eagle" ID="{D0CADEAE-05B2-448C-A56B-E0E85AE45AD0}">
+              <Comment>Event - Eagle</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_nature_birds_woodpecker" ID="{2A782F66-4A03-4656-B1A7-8A06585E436E}">
+              <Comment>Event - Woodpecker</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_nature_birds_cuty_autumn_birds" ID="{6C16FE81-9710-44BC-A2F8-89334C81ED1E}">
+              <Comment>Event - Autumn birds</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_nature_birds_forest_autumn_birds" ID="{FFD7A591-D3FC-4492-8CE3-79C413594E2E}">
+              <Comment>Event - Forest birds</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_nature_birds_sparrow" ID="{C0B2DB7F-6E71-4DA3-862E-82E84D23EE92}">
+              <Comment>Event - Sparrow</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_nature_birds_winter_birds" ID="{7BE0856F-33A0-4BD9-995E-993D10BF0C1F}">
+              <Comment>Event - Winter birds</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_nature_birds_winter_crow" ID="{444B394B-BE52-44FC-A44C-3718ABC0BF91}">
+              <Comment>Event - Winter crows</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_nature_village" ID="{943CB574-27A1-410E-B70A-941F76116462}">
+              <Comment>Event - Vilage sounds</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_nature_village_without_birds" ID="{96864527-F46A-4902-BB09-C61962E8D796}">
+              <Comment>Event - Vilage sounds without birds</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_nature_animals_cat" ID="{170BF18F-6AF1-467F-96B7-1410A2EC5C57}">
+              <Comment>Event - Cat</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_nature_animals_crickets_01" ID="{5DCFEABB-37FE-4DCC-8054-0FD38887E2C8}">
+              <Comment>Event - Crickets (loop)</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_nature_animals_crickets_02" ID="{1A9F7F4E-877B-4EF4-A9FA-0B330C9D2DD0}">
+              <Comment>Event - Crickets (loop)</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_nature_animals_crickets_oneshot" ID="{324D6FCD-159C-48C9-A7CB-E60AE4BBACD3}">
+              <Comment>Event - Crickets (oneshot)</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_nature_animals_duck" ID="{D410FC25-4DF5-4845-92C1-DC43573AC233}">
+              <Comment>Event - Duck</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_nature_animals_duck_water" ID="{48DF985E-85AD-42DE-A4FF-FB8FA3AC50D0}">
+              <Comment>Event - Duck in the water</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_nature_animals_snake" ID="{3B7AB6F3-BDDD-43D9-BB4D-24088900CCE5}">
+              <Comment>Event - Snake</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_nature_birds_flock_of_pigeons" ID="{013ECA9E-E349-4213-A7C6-D9FFB83A2B5F}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_nature_birds_doweTakeoff" ID="{28B8D5AD-BE4D-4723-A866-823C59188205}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_nature_birds_dowe_light" ID="{A65DEF39-4D79-43A1-89AD-E0750BC5B7AD}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_nature_trigger_soaring_birds" ID="{1B3F9F7F-8520-4B19-9E2A-F65321604F67}">
+              <ChildrenList></ChildrenList>
+            </Event>
+          </ChildrenList>
+        </Folder>
+        <Folder Name="water" ID="{9C3F9DEF-2D9F-4838-BEE1-F54A3A00F305}" ShortID="1062998465">
+          <ChildrenList>
+            <Event Name="ambient_water_flow" ID="{8333FE48-DE1F-42A6-BAA4-00DEEAE16ED1}">
+              <Comment>Event - River flow</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_water_small_01" ID="{78B0D096-DFBB-4201-A9A6-49C851B76A91}">
+              <Comment>Event - Still water</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_water_small_02" ID="{DBCB2B00-1F38-43C3-8064-952A64839E0A}">
+              <Comment>Event - Still water</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_water_waterfall_big" ID="{FD0BA5B8-EE3B-422C-9362-64B36DB63B00}">
+              <Comment>Event - Large waterfall</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_water_waterfall_med" ID="{FD94E97E-5935-4B6B-A3A7-EE485362AE75}">
+              <Comment>Event - Medium waterfall</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_water_waterfall_small" ID="{20AEE6F3-FC5B-4F9C-A9B8-5B9D306F5C73}">
+              <Comment>Event - Small waterfall</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_water_seaside" ID="{9E1E27B5-BB86-4A36-97B3-633CE06F2E9D}">
+              <Comment>Event - Sea water</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_water_coastal_line_big" ID="{E2A319F8-0E5F-4835-BE0A-166FAAD06C83}">
+              <Comment>Event - Water at the seashore</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_water_lapping_boats" ID="{F83F737C-14F0-484E-A065-9FA81880EE77}">
+              <Comment>Event - Water near boats</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_water_coastal_line_little_01" ID="{114A4BCF-7534-426C-AF23-334EEE992C10}">
+              <Comment>Event - Water at the seashore</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_water_coastal_line_little_02" ID="{7CB0413F-899B-43D5-A182-D6505A3D50EE}">
+              <Comment>Event - Water at the seashore</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_water_calm_01" ID="{BD104FD5-36E0-4EA6-A83B-0D4D09CDE37D}">
+              <Comment>Event - Still water</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_water_calm_02" ID="{EA0FAC15-C447-4772-95C9-237263652652}">
+              <Comment>Event - Still water</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_water_water_pier_01" ID="{31455449-DA1B-4DF9-93BD-16924B5978FF}">
+              <Comment>Event - Water at the pier</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_water_water_pier_02" ID="{307A6E6A-2493-421C-B09F-B367C245549C}">
+              <Comment>Event - Water at the pier</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_water_seaside_02" ID="{D1B0F5E1-EF99-4657-89A8-D8E41DA447E6}">
+              <Comment>Event - Water near the sea</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+          </ChildrenList>
+        </Folder>
+        <Folder Name="objects" ID="{AD0693FF-CB8F-4902-A1DF-3B05DDDAF5FB}" ShortID="1059832545">
+          <ChildrenList>
+            <Event Name="ambient_objects_church_bell" ID="{EE5F1F38-B6ED-467E-AC88-DBB88CF38780}">
+              <Comment>Event - Bell</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_objects_tower_clock" ID="{4668A22D-9834-4BBE-9BC3-EA169AA4E006}">
+              <Comment>Event - Tower clock</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_objects_tower_clock_fo" ID="{911C3C46-3B61-4DB9-A3FA-A3DE07F44357}">
+              <Comment>Event - Tower clock</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_objects_elevator" ID="{F64C0124-300E-475E-B167-EBE9D0305D98}">
+              <Comment>Event - Elevator</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_objects_train" ID="{0B50CD47-26EF-47EF-A0C5-B8DF7341DC62}">
+              <Comment>Event - Train</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_objects_factory" ID="{08DF1DCD-55E2-4B56-921C-C589A16BFCC9}">
+              <Comment>Event - Plant</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_objects_steamboat_whistle" ID="{E6DC10C8-0CAB-422E-BBEC-6893FACC3BA8}">
+              <Comment>Event - Ship’s whistle</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ambient_objects_rockslide" ID="{5E9D13CB-6FCF-4E7E-9285-DF0C8CD53009}">
+              <Comment>Event - Coarse creep</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+          </ChildrenList>
+        </Folder>
+        <Folder Name="weather" ID="{8F99E083-C308-4247-8547-8ABD3AB604F2}" ShortID="875151955">
+          <ChildrenList>
+            <Folder Name="tunderstorm" ID="{ECEC32AE-A522-4975-B03C-5E6D81AB75C1}" ShortID="709788754">
+              <ChildrenList>
+                <Event Name="ambient_static_objects_inf_lightning" ID="{0595F562-9F2F-48BE-9100-C2C577D6E1C8}">
+                  <Comment>Event - Lightning</Comment>
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="ambient_static_objects_inf_lightning_clouds" ID="{A7952738-724C-47A7-A293-32D6908233CE}">
+                  <Comment>Event - Thunder</Comment>
+                  <ChildrenList></ChildrenList>
+                </Event>
+              </ChildrenList>
+            </Folder>
+          </ChildrenList>
+        </Folder>
+      </ChildrenList>
+    </WorkUnit>
+  </Events>
+</WwiseDocument>
