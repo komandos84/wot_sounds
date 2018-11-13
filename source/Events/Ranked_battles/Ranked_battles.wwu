@@ -1,0 +1,1114 @@
+<WwiseDocument Type="WorkUnit" ID="{0B1A4DB1-F2A6-4D5F-A88C-27E5EF1F5F18}" SchemaVersion="85">
+  <Events>
+    <WorkUnit Name="Ranked_battles" ID="{0B1A4DB1-F2A6-4D5F-A88C-27E5EF1F5F18}" PersistMode="Standalone">
+      <ChildrenList>
+        <Folder Name="ranked_battles" ID="{8FB4F95E-0022-45C2-939C-BB170F997517}" ShortID="611817772">
+          <ChildrenList>
+            <Event Name="gui_rb_rank_Entrance" ID="{BB285E76-B40A-4736-AEDA-E6633668A9AE}">
+              <ChildrenList>
+                <Action Name="" ID="{A4B3FE2D-DD00-4534-B9B1-EC59755FA4E0}" ShortID="1009130769">
+                  <PropertyList>
+                    <Property Name="ActionType" Type="int16" Value="4" />
+                    <Property Name="FadeCurve" Type="int16" Value="3" />
+                    <Property Name="FadeTime" Type="Real64" Value="4" />
+                    <Property Name="Scope" Type="int16" Value="1" />
+                  </PropertyList>
+                  <ReferenceList>
+                    <Reference Name="Target">
+                      <ObjectRef Name="Lobby_music_garage" ID="{DF2A1F41-AA0C-4A44-A849-C562F02C0643}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}" />
+                    </Reference>
+                  </ReferenceList>
+                </Action>
+                <Action Name="" ID="{F17147C6-C9B2-485C-AF5C-5E8044E6E167}" ShortID="42462600">
+                  <PropertyList>
+                    <Property Name="ActionType" Type="int16" Value="5" />
+                    <Property Name="FadeCurve" Type="int16" Value="3" />
+                    <Property Name="FadeTime" Type="Real64" Value="8" />
+                    <Property Name="Scope" Type="int16" Value="1" />
+                  </PropertyList>
+                  <ReferenceList>
+                    <Reference Name="Target">
+                      <ObjectRef Name="MUSIC_extended" ID="{484836C3-B5EE-45A1-9FFD-EDFBF6E801D1}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}" />
+                    </Reference>
+                  </ReferenceList>
+                </Action>
+                <Action Name="" ID="{EFCA62E8-CA71-49E9-97A9-49E8A1B011F1}" ShortID="290201278">
+                  <PropertyList>
+                    <Property Name="ActionType" Type="int16" Value="1" />
+                    <Property Name="Delay" Type="Real64">
+                      <ModifierList>
+                        <ModifierInfo>
+                          <Modifier Name="" ID="{D6B5C374-7945-43D4-8B35-AE83B63BEFB2}">
+                            <PropertyList>
+                              <Property Name="Max" Type="Real64" Value="5" />
+                            </PropertyList>
+                          </Modifier>
+                        </ModifierInfo>
+                      </ModifierList>
+                    </Property>
+                    <Property Name="FadeCurve" Type="int16" Value="3" />
+                    <Property Name="FadeTime" Type="Real64" Value="30" />
+                  </PropertyList>
+                  <ReferenceList>
+                    <Reference Name="Target">
+                      <ObjectRef Name="rank_hangar_music_Relaxed" ID="{77B052CA-C722-44CC-AE49-932D592821F0}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                    </Reference>
+                  </ReferenceList>
+                </Action>
+                <Action Name="" ID="{1C106298-96A0-4F57-9972-28E14792FAEC}" ShortID="114367903">
+                  <PropertyList>
+                    <Property Name="ActionType" Type="int16" Value="38" />
+                    <Property Name="GameParameterValue" Type="Real64" Value="3" />
+                    <Property Name="Scope" Type="int16" Value="1" />
+                  </PropertyList>
+                  <ReferenceList>
+                    <Reference Name="Target">
+                      <ObjectRef Name="RTPC_int_ranked_battles_delay" ID="{4A642D3A-9F22-401C-AA91-52F16BAC1E2D}" WorkUnitID="{E14745B6-6881-4160-A3F0-9AEDBBC6B8B2}" />
+                    </Reference>
+                  </ReferenceList>
+                </Action>
+                <Action Name="" ID="{AAA2CD5A-AB1E-4649-B137-28EEA0657057}" ShortID="307186804">
+                  <PropertyList>
+                    <Property Name="ActionType" Type="int16" Value="4" />
+                    <Property Name="Scope" Type="int16" Value="1" />
+                  </PropertyList>
+                  <ReferenceList>
+                    <Reference Name="Target">
+                      <ObjectRef Name="LOBBY_MUSIC_RESULT" ID="{5DDDAA70-5A93-4EAB-8C32-6680943C43AC}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}" />
+                    </Reference>
+                  </ReferenceList>
+                </Action>
+              </ChildrenList>
+            </Event>
+            <Event Name="gui_rb_rank_Exit" ID="{53202F10-511E-4724-ADFD-DDA09B5B4B8A}">
+              <ChildrenList>
+                <Action Name="" ID="{904B4556-E0D4-4ECA-A2D7-2BC926267DF1}" ShortID="863886412">
+                  <PropertyList>
+                    <Property Name="ActionType" Type="int16" Value="5" />
+                    <Property Name="FadeCurve" Type="int16" Value="3" />
+                    <Property Name="FadeTime" Type="Real64" Value="8" />
+                    <Property Name="Scope" Type="int16" Value="1" />
+                  </PropertyList>
+                  <ReferenceList>
+                    <Reference Name="Target">
+                      <ObjectRef Name="Lobby_music_garage" ID="{DF2A1F41-AA0C-4A44-A849-C562F02C0643}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}" />
+                    </Reference>
+                  </ReferenceList>
+                </Action>
+                <Action Name="" ID="{8197A1D7-65F4-402F-A9BA-6CE6FE2BBC13}" ShortID="1003358841">
+                  <PropertyList>
+                    <Property Name="ActionType" Type="int16" Value="4" />
+                    <Property Name="FadeCurve" Type="int16" Value="3" />
+                    <Property Name="FadeTime" Type="Real64" Value="4" />
+                    <Property Name="Scope" Type="int16" Value="1" />
+                  </PropertyList>
+                  <ReferenceList>
+                    <Reference Name="Target">
+                      <ObjectRef Name="MUSIC_extended" ID="{484836C3-B5EE-45A1-9FFD-EDFBF6E801D1}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}" />
+                    </Reference>
+                  </ReferenceList>
+                </Action>
+                <Action Name="" ID="{87C0C189-4764-44E7-A423-DA3EF5F74D92}" ShortID="670376692">
+                  <PropertyList>
+                    <Property Name="ActionType" Type="int16" Value="39" />
+                    <Property Name="Scope" Type="int16" Value="1" />
+                  </PropertyList>
+                  <ReferenceList>
+                    <Reference Name="Target">
+                      <ObjectRef Name="RTPC_int_ranked_battles_delay" ID="{4A642D3A-9F22-401C-AA91-52F16BAC1E2D}" WorkUnitID="{E14745B6-6881-4160-A3F0-9AEDBBC6B8B2}" />
+                    </Reference>
+                  </ReferenceList>
+                </Action>
+                <Action Name="" ID="{50F73B25-5152-4119-AEAE-689E726FAD1B}" ShortID="566305636">
+                  <PropertyList>
+                    <Property Name="ActionType" Type="int16" Value="39" />
+                    <Property Name="Scope" Type="int16" Value="1" />
+                  </PropertyList>
+                  <ReferenceList>
+                    <Reference Name="Target">
+                      <ObjectRef Name="RTPC_int_ranked_battles_delay_music" ID="{A1AFF2D1-93D2-412E-9203-BAC35318E0EF}" WorkUnitID="{E14745B6-6881-4160-A3F0-9AEDBBC6B8B2}" />
+                    </Reference>
+                  </ReferenceList>
+                </Action>
+                <Action Name="" ID="{EAA00FA8-27B4-4E9B-B4AC-2C364276BEF0}" ShortID="897850723">
+                  <PropertyList>
+                    <Property Name="ActionType" Type="int16" Value="5" />
+                    <Property Name="FadeCurve" Type="int16" Value="5" />
+                    <Property Name="FadeTime" Type="Real64" Value="1" />
+                    <Property Name="Scope" Type="int16" Value="1" />
+                  </PropertyList>
+                  <ReferenceList>
+                    <Reference Name="Target">
+                      <ObjectRef Name="LOBBY_MUSIC_RESULT" ID="{5DDDAA70-5A93-4EAB-8C32-6680943C43AC}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}" />
+                    </Reference>
+                  </ReferenceList>
+                </Action>
+              </ChildrenList>
+            </Event>
+            <Folder Name="award" ID="{B788D02E-2222-4E0B-87E9-2A30780F875B}" ShortID="466591265">
+              <ChildrenList>
+                <Event Name="gui_rb_rank_wood_box_1" ID="{6D4E732B-C765-44A7-AB12-E9210116BF8C}">
+                  <ChildrenList>
+                    <Action Name="" ID="{6A65A9C3-0088-4708-8E2D-C527F68384CD}" ShortID="380651170">
+                      <PropertyList>
+                        <Property Name="ActionType" Type="int16" Value="1" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="gui_rb_rank_wood_box_1" ID="{150EE759-5957-46A5-B132-E4D57B4FC128}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                  </ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_wood_box_2" ID="{D8168D5F-8D12-4E00-975B-73C35D6B1CE0}">
+                  <ChildrenList>
+                    <Action Name="" ID="{E357415C-757D-459D-9AB1-0487AEB9675C}" ShortID="552767628">
+                      <PropertyList>
+                        <Property Name="ActionType" Type="int16" Value="1" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="gui_rb_rank_wood_box_2" ID="{CF6A6480-E1F5-46E0-B887-0E235A800E71}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                  </ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_wood_box_3" ID="{1A10CE0A-8508-464E-89AD-01EE5EF832AD}">
+                  <ChildrenList>
+                    <Action Name="" ID="{D5985319-25BC-47A9-9379-2409936CAA50}" ShortID="912208701">
+                      <PropertyList>
+                        <Property Name="ActionType" Type="int16" Value="1" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="gui_rb_rank_wood_box_3" ID="{A0E0B356-7C4F-4049-A591-36BAB7ABD730}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                  </ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_wood_box_4" ID="{45B6621B-CF34-4025-B85F-FAE5B49F4327}">
+                  <ChildrenList>
+                    <Action Name="" ID="{00AA5C32-D18A-410E-BB20-F3F3A8EE5258}" ShortID="534904035">
+                      <PropertyList>
+                        <Property Name="ActionType" Type="int16" Value="1" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="gui_rb_rank_wood_box_4" ID="{AA5335A2-D51C-4FCC-A0B0-092931E232FC}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                  </ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_metal_box_3" ID="{23823F02-EB4E-44BC-A638-54508FE79E44}">
+                  <ChildrenList>
+                    <Action Name="" ID="{78F53CC2-EBD8-4ECE-AEFC-05EA8D7162E2}" ShortID="111935966">
+                      <PropertyList>
+                        <Property Name="ActionType" Type="int16" Value="1" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="gui_rb_rank_metal_box_3" ID="{2C4E2E82-EDA6-4812-80EF-6842A6DBF938}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                  </ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_metal_box_2" ID="{10DAAC0A-BAD4-4A31-A480-7B94720F7EC0}">
+                  <ChildrenList>
+                    <Action Name="" ID="{5AB6BEFF-F7EF-4E25-A3E9-19E3F4D085F6}" ShortID="4611950">
+                      <PropertyList>
+                        <Property Name="ActionType" Type="int16" Value="1" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="gui_rb_rank_metal_box_2" ID="{61B78478-3229-4C11-9479-0D052C669043}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                  </ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_metal_box_1" ID="{2AFCE57B-5B72-4412-B415-CC5CA4119CA4}">
+                  <ChildrenList>
+                    <Action Name="" ID="{9C306A7E-537C-48BC-9BEB-EF90BEFAA51D}" ShortID="655571791">
+                      <PropertyList>
+                        <Property Name="ActionType" Type="int16" Value="1" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="gui_rb_rank_metal_box_1" ID="{92340186-1420-4093-9CB7-7447310CA332}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                  </ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_wood_box_max" ID="{77067CA9-2295-4CF9-8BCD-81D446254CDE}">
+                  <ChildrenList>
+                    <Action Name="" ID="{F86AEB2E-A5F8-4223-8CB3-911055FD3C16}" ShortID="52939274">
+                      <PropertyList>
+                        <Property Name="ActionType" Type="int16" Value="1" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="gui_rb_rank_wood_box_max" ID="{91090AE3-4A2A-41DD-A58E-E5D2E4BCC0BD}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                  </ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_result" ID="{1BB08B8F-2A83-48A5-AABA-E66977C9EF30}">
+                  <ChildrenList>
+                    <Action Name="" ID="{00E64329-0F1F-46AC-BB48-3F17053BEDB2}" ShortID="137072472">
+                      <PropertyList>
+                        <Property Name="ActionType" Type="int16" Value="1" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="gui_rb_rank_result" ID="{0BD2C4A8-2BC8-49E7-8279-079520FF49D1}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                  </ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_reward" ID="{E2F7719D-9620-402D-AB2D-3F5C4C710B40}">
+                  <ChildrenList>
+                    <Action Name="" ID="{B771800A-155F-4596-BDFD-02AD7C3DA1BA}" ShortID="1003708935">
+                      <PropertyList>
+                        <Property Name="ActionType" Type="int16" Value="1" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="gui_rb_rank_reward" ID="{DE4FD5C2-895D-4015-9B21-E2CEDF9A7A49}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                  </ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_exactly" ID="{950459D5-72CD-4A00-A2DD-44B872E9A5A4}">
+                  <ChildrenList>
+                    <Action Name="" ID="{D2C518DE-AD25-48E4-9C95-71C1543DCB5B}" ShortID="176761663">
+                      <PropertyList>
+                        <Property Name="ActionType" Type="int16" Value="1" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="gui_rb_rank_exactly" ID="{310948C3-231E-4220-8E46-4FA0847CE074}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                  </ChildrenList>
+                </Event>
+              </ChildrenList>
+            </Folder>
+            <Folder Name="change_rank" ID="{1DF6B360-1D3B-41BF-8301-68DACEA89F00}" ShortID="562644761">
+              <ChildrenList>
+                <Event Name="gui_rb_rank_max" ID="{B5FF5120-9E50-45AF-A7CE-866F43641518}">
+                  <ChildrenList>
+                    <Action Name="" ID="{B4F18F5D-5845-459D-AC82-76A202D06CA5}" ShortID="853966620">
+                      <PropertyList>
+                        <Property Name="ActionType" Type="int16" Value="1" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="gui_rb_rank_max" ID="{AB9168A8-755A-45BA-821F-31F3190087BD}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                  </ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_flicker" ID="{6E546C71-6F28-4C7C-9CEF-9B396513B6E4}">
+                  <ChildrenList>
+                    <Action Name="" ID="{BB80D9FB-1701-4A4F-9501-12A08C87071E}" ShortID="470058672">
+                      <PropertyList>
+                        <Property Name="ActionType" Type="int16" Value="1" />
+                        <Property Name="Delay" Type="Real64" Value="0.6" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="gui_rb_rank_flicker" ID="{F95B9D08-7C16-45E8-94E0-399080AD66E4}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                  </ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_1" ID="{FED07943-6589-4911-B554-D3CC08E84C64}">
+                  <ChildrenList>
+                    <Action Name="" ID="{09A7CD3A-AA50-4E4A-B8E7-1E2F4DFE5375}" ShortID="507993336">
+                      <PropertyList>
+                        <Property Name="ActionType" Type="int16" Value="1" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="gui_rb_rank_1" ID="{D6CE0B10-602C-4070-AB2B-93058FEC9184}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                  </ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_5" ID="{092069AF-1A58-4C24-B110-ACADF7E59624}">
+                  <ChildrenList>
+                    <Action Name="" ID="{8CB17409-F515-46A0-BE41-56B90E0F9C9A}" ShortID="877360333">
+                      <PropertyList>
+                        <Property Name="ActionType" Type="int16" Value="1" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="gui_rb_rank_5" ID="{67C9032B-0FF8-486F-8096-12255034F936}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                  </ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_2" ID="{A566E1CA-717E-4454-B5EA-8E474A7BC2B6}">
+                  <ChildrenList>
+                    <Action Name="" ID="{6DC2705B-CABA-4ABF-998F-4CD85F59E9A6}" ShortID="211578429">
+                      <PropertyList>
+                        <Property Name="ActionType" Type="int16" Value="1" />
+                        <Property Name="Delay" Type="Real64" Value="1" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="gui_rb_rank_2" ID="{C220D915-6107-404E-AC6B-07B4C5B0E994}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                  </ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_3" ID="{CA860562-F3C1-41B4-874F-42F3F244DA9B}">
+                  <ChildrenList>
+                    <Action Name="" ID="{6E82E0AE-BE84-4822-A33C-4073328A55CB}" ShortID="585388797">
+                      <PropertyList>
+                        <Property Name="ActionType" Type="int16" Value="1" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="gui_rb_rank_3" ID="{B6F48E44-B55A-4EB3-A8A3-D519A6AEB559}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                  </ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_4" ID="{9C9B900D-DC61-49CB-865F-A7B54A1BA61C}">
+                  <ChildrenList>
+                    <Action Name="" ID="{C64B0E73-AA72-48C6-A460-8C031A87BF34}" ShortID="561300799">
+                      <PropertyList>
+                        <Property Name="ActionType" Type="int16" Value="1" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="gui_rb_rank_4" ID="{1669CFF8-F7CE-43C7-8449-93D4A843DC86}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                  </ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_arrow_up" ID="{30AB10FB-4E3E-40D0-B824-5917EFEF6A6C}">
+                  <ChildrenList>
+                    <Action Name="" ID="{8459B917-28B4-45B6-ABE5-98055A173778}" ShortID="500879357">
+                      <PropertyList>
+                        <Property Name="ActionType" Type="int16" Value="1" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="gui_rb_rank_arrow_up" ID="{220B8D72-AB39-4856-99EF-DB736FEA4635}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                  </ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_arrow_down" ID="{613B4BFD-88F1-42D0-B85A-79A5D5531CB3}">
+                  <ChildrenList>
+                    <Action Name="" ID="{81EF244A-0C65-4A78-81B5-5F9FD7AC55D1}" ShortID="317434825">
+                      <PropertyList>
+                        <Property Name="ActionType" Type="int16" Value="1" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="gui_rb_rank_arrow_down" ID="{2FBC1698-01FB-4366-9411-12AA25EF8872}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                  </ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_down" ID="{DE3C2033-BACF-4BBD-B88A-E64620E0FDF6}">
+                  <ChildrenList>
+                    <Action Name="" ID="{D63B2622-82B6-4C86-B413-C916AA4FF0AF}" ShortID="452727414">
+                      <PropertyList>
+                        <Property Name="ActionType" Type="int16" Value="1" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="gui_rb_rank_down" ID="{E7A2A6A5-BC0F-4D54-B498-C096837D2E74}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                  </ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_back" ID="{6F07A007-4D01-40C0-849E-08A2FC457835}">
+                  <ChildrenList>
+                    <Action Name="" ID="{44D2FCE9-E6B5-479B-A151-1DE5D4D3D456}" ShortID="916063984">
+                      <PropertyList>
+                        <Property Name="ActionType" Type="int16" Value="1" />
+                        <Property Name="Delay" Type="Real64" Value="2" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="gui_rb_rank_back" ID="{015765CD-4DB0-46AB-92D3-DE500B8F5DA1}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                  </ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_back2" ID="{1C1D37FA-7106-4976-A9B7-B294834E8EA4}">
+                  <ChildrenList>
+                    <Action Name="" ID="{A2D5B54B-6F64-4326-986D-68D78B33516A}" ShortID="585316272">
+                      <PropertyList>
+                        <Property Name="ActionType" Type="int16" Value="1" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="gui_rb_rank_back" ID="{015765CD-4DB0-46AB-92D3-DE500B8F5DA1}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                  </ChildrenList>
+                </Event>
+              </ChildrenList>
+            </Folder>
+            <Folder Name="welcome_animation" ID="{149FF089-FF01-459F-868A-4F2822749F2F}" ShortID="1024108505">
+              <ChildrenList>
+                <Event Name="gui_rb_input_animation_01" ID="{BBEC187C-5CAB-4A40-A48F-178CE347F23F}">
+                  <ChildrenList>
+                    <Action Name="" ID="{B8E61F47-BFF1-40CE-AF50-D0067AE81727}" ShortID="150359050">
+                      <PropertyList>
+                        <Property Name="ActionType" Type="int16" Value="1" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="gui_rb_input_animation_02" ID="{71BC9A59-8042-411A-B839-410BF994DE65}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                    <Action Name="" ID="{1D127C80-7D9E-4009-BAB1-34650EDD6881}" ShortID="228125399">
+                      <PropertyList>
+                        <Property Name="ActionType" Type="int16" Value="1" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="rank_welcom_music" ID="{CF61811D-E406-4F14-B0E7-1CC99E760C02}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                    <Action Name="" ID="{7A594EDD-AFD1-41D4-B370-50C9CE5FE27A}" ShortID="48420488">
+                      <PropertyList>
+                        <Property Name="ActionType" Type="int16" Value="4" />
+                        <Property Name="FadeCurve" Type="int16" Value="3" />
+                        <Property Name="FadeTime" Type="Real64" Value="1" />
+                        <Property Name="Scope" Type="int16" Value="1" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="MUSIC_extended" ID="{484836C3-B5EE-45A1-9FFD-EDFBF6E801D1}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                    <Action Name="" ID="{01208859-1093-4341-ADD0-EE0447426B0E}" ShortID="1014980365">
+                      <PropertyList>
+                        <Property Name="ActionType" Type="int16" Value="38" />
+                        <Property Name="GameParameterValue" Type="Real64" Value="30" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="RTPC_int_ranked_battles_delay_music" ID="{A1AFF2D1-93D2-412E-9203-BAC35318E0EF}" WorkUnitID="{E14745B6-6881-4160-A3F0-9AEDBBC6B8B2}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                  </ChildrenList>
+                </Event>
+                <Event Name="gui_rb_input_animation_02" ID="{DDD17E93-050E-46E3-A067-C6B802D9B283}">
+                  <ChildrenList>
+                    <Action Name="" ID="{5FACE627-B5A9-435B-A7D9-7DF5AC31135C}" ShortID="747983926">
+                      <PropertyList>
+                        <Property Name="ActionType" Type="int16" Value="1" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="gui_rb_input_animation_01" ID="{1C37AC9C-5BE0-491C-B5B2-67B1E4890D6A}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                  </ChildrenList>
+                </Event>
+                <Event Name="gui_rb_input_animation_03" ID="{C9E87878-5A69-4FEC-94CE-D7087448B185}">
+                  <ChildrenList>
+                    <Action Name="" ID="{BAE28F87-66B6-4E3B-A736-5297A641BF4E}" ShortID="213413818">
+                      <PropertyList>
+                        <Property Name="ActionType" Type="int16" Value="1" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="gui_rb_input_animation_03" ID="{FAD1F97F-96FD-46F8-83F2-D6F65592F4AD}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                  </ChildrenList>
+                </Event>
+                <Event Name="gui_rb_input_rank" ID="{EEF1B847-94D7-4D94-BB89-5D4D5A2BD0F0}">
+                  <ChildrenList>
+                    <Action Name="" ID="{41AFEA66-650A-4C6A-8B79-158CE4DB5FE5}" ShortID="961798205">
+                      <PropertyList>
+                        <Property Name="ActionType" Type="int16" Value="1" />
+                        <Property Name="Delay" Type="Real64" Value="0.1" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="gui_rb_input_rank" ID="{6EB5A891-C0B6-4001-87F5-23EE67DF9E81}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                  </ChildrenList>
+                </Event>
+                <Event Name="gui_rb_input_rank_max" ID="{A7B9A446-8413-4EEC-8569-C2C1BCFFDE03}">
+                  <ChildrenList>
+                    <Action Name="" ID="{FFC228CE-2D31-4B09-BF5C-BC266023253F}" ShortID="892210342">
+                      <PropertyList>
+                        <Property Name="ActionType" Type="int16" Value="1" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="gui_rb_input_rank_max" ID="{4EB10414-2B9D-485A-ABF3-84F456DC7102}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                  </ChildrenList>
+                </Event>
+                <Event Name="gui_rb_input_rank_back" ID="{35A03E1B-2925-4813-A0FD-D2CA6A59EC26}">
+                  <ChildrenList>
+                    <Action Name="" ID="{4C2C5DE2-4F3A-4B9C-A537-44924AE63CCF}" ShortID="54500208">
+                      <PropertyList>
+                        <Property Name="ActionType" Type="int16" Value="1" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="gui_rb_input_rank_back" ID="{6C0A906F-345D-4BDA-AB50-741FCB10EBDD}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                  </ChildrenList>
+                </Event>
+                <Event Name="gui_rb_input_rank_unity" ID="{57D44465-BFB9-473D-8625-3AA8CBA8A036}">
+                  <ChildrenList>
+                    <Action Name="" ID="{18EFE43E-8D24-4479-AFFE-4E6E7EDE7EB2}" ShortID="498779916">
+                      <PropertyList>
+                        <Property Name="ActionType" Type="int16" Value="1" />
+                        <Property Name="Delay" Type="Real64" Value="0.1" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="gui_rb_input_rank_unity" ID="{E7AC51C0-6EBF-47CA-83A3-AC493ACA6BB0}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                  </ChildrenList>
+                </Event>
+                <Event Name="gui_rb_input_rule" ID="{FA479617-863A-4560-82DD-22E5AEE20678}">
+                  <ChildrenList>
+                    <Action Name="" ID="{E456BBC2-23B4-4ED4-812A-E88BD7693DBB}" ShortID="1071543371">
+                      <PropertyList>
+                        <Property Name="ActionType" Type="int16" Value="1" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="gui_rb_input_rule_start" ID="{43317586-7A3C-4A41-8CB1-812CA334B64D}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                    <Action Name="" ID="{0E413FE5-9A69-42B6-8FE5-832EB96CFAA6}" ShortID="422379124">
+                      <PropertyList>
+                        <Property Name="ActionType" Type="int16" Value="1" />
+                        <Property Name="Delay" Type="Real64" Value="2.55" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="gui_rb_input_rule_end" ID="{3A7C7177-7538-4BFA-83F8-541045926876}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                    <Action Name="" ID="{3D49640B-6CED-43D4-83CA-88B907465D1D}" ShortID="660348299">
+                      <PropertyList>
+                        <Property Name="ActionType" Type="int16" Value="2" />
+                        <Property Name="Delay" Type="Real64" Value="0.01" />
+                        <Property Name="FadeCurve" Type="int16" Value="3" />
+                        <Property Name="FadeTime" Type="Real64" Value="9" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="rank_welcom_music" ID="{CF61811D-E406-4F14-B0E7-1CC99E760C02}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                  </ChildrenList>
+                </Event>
+              </ChildrenList>
+            </Folder>
+            <Folder Name="change_rank_postmortem" ID="{DC1AE9B3-7DEF-450F-BF63-66EC34F9A4EF}" ShortID="745542125">
+              <ChildrenList>
+                <Event Name="gui_rb_rank_1_postmortem" ID="{4D2179FF-3AA2-4E4C-93F2-1503F14B4C88}">
+                  <ChildrenList>
+                    <Action Name="" ID="{B55179A9-B872-4422-9E8D-5E4419837BCE}" ShortID="832292219">
+                      <PropertyList>
+                        <Property Name="ActionType" Type="int16" Value="1" />
+                        <Property Name="Delay" Type="Real64" Value="0.2" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="gui_rb_rank_1_postmortem" ID="{52256C2F-905D-49E6-8E88-9AA4F1C66813}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                    <Action Name="" ID="{5E928D29-E7A4-4889-ABF3-CB408EA2813A}" ShortID="405165094">
+                      <PropertyList>
+                        <Property Name="AbsoluteOrRelative" Type="int16" Value="1" />
+                        <Property Name="ActionType" Type="int16" Value="38" />
+                        <Property Name="GameParameterValue" Type="Real64" Value="-1" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="RTPC_int_ranked_battles_delay" ID="{4A642D3A-9F22-401C-AA91-52F16BAC1E2D}" WorkUnitID="{E14745B6-6881-4160-A3F0-9AEDBBC6B8B2}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                  </ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_2_postmortem" ID="{D4327FAC-5D0B-4C6B-BDC0-08BAD95A2E62}">
+                  <ChildrenList>
+                    <Action Name="" ID="{705596B3-A1B7-4E64-BBBB-0426B07C139C}" ShortID="576599447">
+                      <PropertyList>
+                        <Property Name="ActionType" Type="int16" Value="1" />
+                        <Property Name="Delay" Type="Real64" Value="0.2" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="gui_rb_rank_2_postmortem" ID="{EEBEDCD8-3C7A-418E-9F01-99ED8129C399}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                    <Action Name="" ID="{B0EF59CA-CD03-4CA9-8692-CB80FEB1A641}" ShortID="53084812">
+                      <PropertyList>
+                        <Property Name="AbsoluteOrRelative" Type="int16" Value="1" />
+                        <Property Name="ActionType" Type="int16" Value="38" />
+                        <Property Name="GameParameterValue" Type="Real64" Value="-1" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="RTPC_int_ranked_battles_delay" ID="{4A642D3A-9F22-401C-AA91-52F16BAC1E2D}" WorkUnitID="{E14745B6-6881-4160-A3F0-9AEDBBC6B8B2}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                  </ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_3_postmortem" ID="{4C880325-C2C0-41AA-8FC6-DB7D4A3F268A}">
+                  <ChildrenList>
+                    <Action Name="" ID="{0C1A0C41-7888-469E-9DD9-156B9BCA0BFC}" ShortID="740403717">
+                      <PropertyList>
+                        <Property Name="ActionType" Type="int16" Value="1" />
+                        <Property Name="Delay" Type="Real64" Value="0.2" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="gui_rb_rank_3_postmortem" ID="{142F8BB0-4C4B-47B7-A51D-D02D45FB78B8}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                  </ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_4_postmortem" ID="{E97B434E-7730-46BB-848F-DA6814932303}">
+                  <ChildrenList>
+                    <Action Name="" ID="{4D7B5561-0F77-4048-A55A-823DB0637CED}" ShortID="1011968706">
+                      <PropertyList>
+                        <Property Name="ActionType" Type="int16" Value="1" />
+                        <Property Name="Delay" Type="Real64" Value="0.3" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="gui_rb_rank_4_postmortem" ID="{8395CAA7-BA9A-4D7A-8F80-CD337313EA0F}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                  </ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_5_postmortem" ID="{FA1BB386-F004-42E4-89E7-47AE5DA01C79}">
+                  <ChildrenList>
+                    <Action Name="" ID="{64A5BAF4-9346-4A9A-8978-B824C9366F73}" ShortID="86209658">
+                      <PropertyList>
+                        <Property Name="ActionType" Type="int16" Value="1" />
+                        <Property Name="Delay" Type="Real64" Value="0.3" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="gui_rb_rank_5_postmortem" ID="{2CF376DB-D2EB-4814-B4F7-855FC8F08FFB}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                  </ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_max_postmortem" ID="{ADB9A793-459F-4F5E-BAF7-C3776AC77484}">
+                  <ChildrenList>
+                    <Action Name="" ID="{8819B019-3E2C-4077-A826-3C47C35EC913}" ShortID="972821203">
+                      <PropertyList>
+                        <Property Name="ActionType" Type="int16" Value="1" />
+                        <Property Name="Delay" Type="Real64" Value="0.2" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="gui_rb_rank_max_postmortem" ID="{85F81337-05E4-4D64-BD3D-65DF532537B1}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                  </ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_down_postmortem" ID="{9C58DE29-6878-4695-9135-BBEAD587154A}">
+                  <ChildrenList>
+                    <Action Name="" ID="{10F12405-8BEB-43CF-BB85-D9029A122794}" ShortID="125993488">
+                      <PropertyList>
+                        <Property Name="ActionType" Type="int16" Value="1" />
+                        <Property Name="Delay" Type="Real64" Value="0.45" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="gui_rb_rank_down_postmortem_00" ID="{059D22C5-F898-44F2-B914-C9D6B940A388}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                    <Action Name="" ID="{5C286C8F-DEFC-43D0-9924-D2E4F060E7EC}" ShortID="558660603">
+                      <PropertyList>
+                        <Property Name="ActionType" Type="int16" Value="1" />
+                        <Property Name="Delay" Type="Real64" Value="1.89" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="gui_rb_rank_down_postmortem_01" ID="{6B29CF18-0E18-4389-8D26-DB58B715BD9C}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                  </ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_up_postmortem" ID="{07127366-485E-451A-ABB6-B61A70BAE782}">
+                  <ChildrenList>
+                    <Action Name="" ID="{17050CA5-8509-4C6F-917C-0CFE889D58CB}" ShortID="974829971">
+                      <PropertyList>
+                        <Property Name="ActionType" Type="int16" Value="1" />
+                        <Property Name="Delay" Type="Real64" Value="0.45" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="gui_rb_rank_up_postmortem_00" ID="{F904269E-F8FF-4D5D-80DA-002603E92994}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                    <Action Name="" ID="{7CC04A8E-2AE2-44C2-931B-5D8F02D7F2B3}" ShortID="549101570">
+                      <PropertyList>
+                        <Property Name="ActionType" Type="int16" Value="1" />
+                        <Property Name="Delay" Type="Real64" Value="1.89" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="gui_rb_rank_up_postmortem_01" ID="{6ED3636D-8543-452E-A7F4-9EBDDBBE2B82}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                  </ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_arrow_up_nothing" ID="{1FA70A63-A09C-41AF-805D-8EB703C591B4}">
+                  <ChildrenList>
+                    <Action Name="" ID="{F9393ECA-1E51-429C-A78E-A1060F4DA5FA}" ShortID="802895366">
+                      <PropertyList>
+                        <Property Name="ActionType" Type="int16" Value="1" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="gui_rb_rank_arrow_up_nothing" ID="{EF5D8908-90A1-45D9-AF6D-9CF05AA19B5C}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                  </ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_arrow_up_final" ID="{7303FDFB-0ECB-4D0E-92FE-F2C6D4198DF7}">
+                  <Comment>1.32 - perfect for arrows but not for popup</Comment>
+                  <ChildrenList>
+                    <Action Name="" ID="{D3F229ED-ED96-4BFF-93A8-010EDCB5375F}" ShortID="1003890724">
+                      <PropertyList>
+                        <Property Name="ActionType" Type="int16" Value="1" />
+                        <Property Name="Delay" Type="Real64" Value="1.29" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="gui_rb_rank_arrow_up_final_00" ID="{E73106A4-7765-4BAD-A702-9381B8C0A156}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                  </ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_arrow_down_final" ID="{FFA1F304-230B-4C6D-A9E4-582D4A15CE6F}">
+                  <Comment>1,2 - идеально по стрелка но не по отлету</Comment>
+                  <ChildrenList>
+                    <Action Name="" ID="{F3F28349-EAA4-41ED-ADC3-C82267A94D6F}" ShortID="372417572">
+                      <PropertyList>
+                        <Property Name="ActionType" Type="int16" Value="1" />
+                        <Property Name="Delay" Type="Real64" Value="1.23" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="gui_rb_rank_arrow_down_final_00" ID="{1D2D3347-0BEA-461C-B608-569DAD0F473A}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                  </ChildrenList>
+                </Event>
+              </ChildrenList>
+            </Folder>
+            <Event Name="gui_rb_rank_Exit_input_animation" ID="{0FD7DCF4-A8B0-46D6-94C1-3B0016F1E62E}">
+              <ChildrenList>
+                <Action Name="" ID="{90C91B8C-3CA8-4088-A003-42C4532E8792}" ShortID="940076389">
+                  <PropertyList>
+                    <Property Name="ActionType" Type="int16" Value="2" />
+                    <Property Name="FadeCurve" Type="int16" Value="3" />
+                    <Property Name="FadeTime" Type="Real64" Value="3" />
+                  </PropertyList>
+                  <ReferenceList>
+                    <Reference Name="Target">
+                      <ObjectRef Name="rank_welcom_music" ID="{CF61811D-E406-4F14-B0E7-1CC99E760C02}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                    </Reference>
+                  </ReferenceList>
+                </Action>
+                <Action Name="" ID="{5DEC2633-1FFD-4F30-A013-0CE5A3A6E7FF}" ShortID="77741550">
+                  <PropertyList>
+                    <Property Name="ActionType" Type="int16" Value="2" />
+                  </PropertyList>
+                  <ReferenceList>
+                    <Reference Name="Target">
+                      <ObjectRef Name="gui_rb_input_animation_02" ID="{71BC9A59-8042-411A-B839-410BF994DE65}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                    </Reference>
+                  </ReferenceList>
+                </Action>
+                <Action Name="" ID="{86F4298E-F454-4EBA-9FDD-ED241CAFFB19}" ShortID="770279787">
+                  <PropertyList>
+                    <Property Name="ActionType" Type="int16" Value="2" />
+                  </PropertyList>
+                  <ReferenceList>
+                    <Reference Name="Target">
+                      <ObjectRef Name="gui_rb_input_animation_03" ID="{FAD1F97F-96FD-46F8-83F2-D6F65592F4AD}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                    </Reference>
+                  </ReferenceList>
+                </Action>
+                <Action Name="" ID="{BD282587-CA76-44A6-A746-B47AF400E975}" ShortID="310983166">
+                  <PropertyList>
+                    <Property Name="ActionType" Type="int16" Value="2" />
+                  </PropertyList>
+                  <ReferenceList>
+                    <Reference Name="Target">
+                      <ObjectRef Name="gui_rb_input_rank_max" ID="{4EB10414-2B9D-485A-ABF3-84F456DC7102}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                    </Reference>
+                  </ReferenceList>
+                </Action>
+                <Action Name="" ID="{3B8DD3AC-62FF-48CF-AADB-88CC4FE47B42}" ShortID="625332006">
+                  <PropertyList>
+                    <Property Name="ActionType" Type="int16" Value="2" />
+                  </PropertyList>
+                  <ReferenceList>
+                    <Reference Name="Target">
+                      <ObjectRef Name="gui_rb_input_rank_unity" ID="{E7AC51C0-6EBF-47CA-83A3-AC493ACA6BB0}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                    </Reference>
+                  </ReferenceList>
+                </Action>
+                <Action Name="" ID="{8CC16D60-E1BA-4212-A251-83295706FC90}" ShortID="585655577">
+                  <PropertyList>
+                    <Property Name="ActionType" Type="int16" Value="2" />
+                  </PropertyList>
+                  <ReferenceList>
+                    <Reference Name="Target">
+                      <ObjectRef Name="gui_rb_input_rule_start" ID="{43317586-7A3C-4A41-8CB1-812CA334B64D}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                    </Reference>
+                  </ReferenceList>
+                </Action>
+                <Action Name="" ID="{C0311E87-1310-46A9-A1A5-BC30CB4DA3EA}" ShortID="79064741">
+                  <PropertyList>
+                    <Property Name="ActionType" Type="int16" Value="2" />
+                  </PropertyList>
+                  <ReferenceList>
+                    <Reference Name="Target">
+                      <ObjectRef Name="gui_rb_input_rule_end" ID="{3A7C7177-7538-4BFA-83F8-541045926876}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                    </Reference>
+                  </ReferenceList>
+                </Action>
+                <Action Name="" ID="{747EB129-4411-4F2A-955C-5EB3003B9C94}" ShortID="282941537">
+                  <PropertyList>
+                    <Property Name="ActionType" Type="int16" Value="2" />
+                  </PropertyList>
+                  <ReferenceList>
+                    <Reference Name="Target">
+                      <ObjectRef Name="gui_rb_input_rank" ID="{6EB5A891-C0B6-4001-87F5-23EE67DF9E81}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                    </Reference>
+                  </ReferenceList>
+                </Action>
+                <Action Name="" ID="{0364D05F-0CB5-4695-A9C9-8AB9AFE68C2C}" ShortID="949446283">
+                  <PropertyList>
+                    <Property Name="ActionType" Type="int16" Value="2" />
+                  </PropertyList>
+                  <ReferenceList>
+                    <Reference Name="Target">
+                      <ObjectRef Name="gui_rb_input_rank_back" ID="{6C0A906F-345D-4BDA-AB50-741FCB10EBDD}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                    </Reference>
+                  </ReferenceList>
+                </Action>
+                <Action Name="" ID="{A355C0FC-D97B-466A-86C4-72761B631C67}" ShortID="543013542">
+                  <PropertyList>
+                    <Property Name="ActionType" Type="int16" Value="5" />
+                    <Property Name="FadeCurve" Type="int16" Value="3" />
+                    <Property Name="FadeTime" Type="Real64" Value="6" />
+                    <Property Name="Scope" Type="int16" Value="1" />
+                  </PropertyList>
+                  <ReferenceList>
+                    <Reference Name="Target">
+                      <ObjectRef Name="MUSIC_extended" ID="{484836C3-B5EE-45A1-9FFD-EDFBF6E801D1}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}" />
+                    </Reference>
+                  </ReferenceList>
+                </Action>
+                <Action Name="" ID="{CB383565-F9A7-4936-9731-6B8FCAF41BC6}" ShortID="514613027">
+                  <PropertyList>
+                    <Property Name="ActionType" Type="int16" Value="39" />
+                  </PropertyList>
+                  <ReferenceList>
+                    <Reference Name="Target">
+                      <ObjectRef Name="RTPC_int_ranked_battles_delay_music" ID="{A1AFF2D1-93D2-412E-9203-BAC35318E0EF}" WorkUnitID="{E14745B6-6881-4160-A3F0-9AEDBBC6B8B2}" />
+                    </Reference>
+                  </ReferenceList>
+                </Action>
+              </ChildrenList>
+            </Event>
+            <Folder Name="shield_animations" ID="{D1FFDF29-11B4-4BAE-A3E5-678248FDE94D}" ShortID="1005689156">
+              <ChildrenList>
+                <Event Name="gui_rb_rank_shield_break" ID="{B0231594-B3E2-405A-B1DB-944D023E8CC9}">
+                  <ChildrenList>
+                    <Action Name="" ID="{4DE4293B-21B0-4B1C-A6A1-436A08A92DF9}" ShortID="18186901">
+                      <PropertyList>
+                        <Property Name="ActionType" Type="int16" Value="1" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="gui_rb_rank_shield_break" ID="{D01D2C44-A74D-4816-99AF-5C8A3B2D0836}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                  </ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_shield_damage" ID="{E93E8D3D-539A-4EE2-AD13-BF3669674B2D}">
+                  <ChildrenList>
+                    <Action Name="" ID="{DD215B5A-9F86-4EC7-82B7-D0192FD8FBAC}" ShortID="569649338">
+                      <PropertyList>
+                        <Property Name="ActionType" Type="int16" Value="1" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="gui_rb_rank_shield_damage" ID="{4003B935-B712-4699-A292-0BE40A6F3FE1}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                  </ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_shield_receive" ID="{30C76707-1653-451B-8E35-C2C335DCFC30}">
+                  <ChildrenList>
+                    <Action Name="" ID="{266F8643-9BA9-4548-8A58-E4B4B2275C73}" ShortID="1065930764">
+                      <PropertyList>
+                        <Property Name="ActionType" Type="int16" Value="1" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="gui_rb_rank_shield_receive" ID="{0DED7731-E661-44D1-9D0B-6957B7470187}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                  </ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_shield_restore" ID="{9A465D5D-44A8-42F9-ACF4-0CAA0DBFB11F}">
+                  <ChildrenList>
+                    <Action Name="" ID="{1B435B55-371A-4CBE-902C-B688F393A551}" ShortID="497243344">
+                      <PropertyList>
+                        <Property Name="ActionType" Type="int16" Value="1" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="gui_rb_rank_shield_restore" ID="{F737BA8E-6DEA-473C-A6EA-F5DE8D7244DB}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                  </ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_shield_break_small" ID="{794A7CB3-9AAB-4064-BC73-06F0DF2461A7}">
+                  <ChildrenList>
+                    <Action Name="" ID="{721A67CB-D7FF-4035-B2A1-29B673C66A57}" ShortID="750484691">
+                      <PropertyList>
+                        <Property Name="ActionType" Type="int16" Value="1" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="gui_rb_rank_shield_break_small" ID="{AF520608-0361-4A2F-9AAE-6231C4A368E1}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                  </ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_shield_damage_small" ID="{D485DE6C-9F7E-4FDE-B7C7-B4FC2FF502A7}">
+                  <ChildrenList>
+                    <Action Name="" ID="{F7F32322-CE6D-4FE1-B406-553BC1FB1CD2}" ShortID="180737226">
+                      <PropertyList>
+                        <Property Name="ActionType" Type="int16" Value="1" />
+                        <Property Name="FadeCurve" Type="int16" Value="0" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="gui_rb_rank_shield_damage_small" ID="{474CFEE2-0805-4246-9110-D3E2DF63FE51}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                  </ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_shield_receive_small" ID="{A1BBE6E4-2876-4157-BF9A-0D61A261B7A5}">
+                  <ChildrenList>
+                    <Action Name="" ID="{901324F0-58E1-4CBE-8150-4BFDB7AAA92F}" ShortID="261286518">
+                      <PropertyList>
+                        <Property Name="ActionType" Type="int16" Value="1" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="gui_rb_rank_shield_receive_small" ID="{D70A22D2-52AD-49A1-B744-ADA49008409B}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                  </ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_shield_restore_small" ID="{1EED134A-80E7-4756-92F5-6D99B1489941}">
+                  <ChildrenList>
+                    <Action Name="" ID="{71C7988D-C398-4E0C-B643-F9958C606178}" ShortID="143195015">
+                      <PropertyList>
+                        <Property Name="ActionType" Type="int16" Value="1" />
+                      </PropertyList>
+                      <ReferenceList>
+                        <Reference Name="Target">
+                          <ObjectRef Name="gui_rb_rank_shield_restore_small" ID="{69323E45-748A-4C2E-8123-1789CDE65BCC}" WorkUnitID="{D1190D75-6C01-49B9-AD56-06A89350A5FC}" />
+                        </Reference>
+                      </ReferenceList>
+                    </Action>
+                  </ChildrenList>
+                </Event>
+              </ChildrenList>
+            </Folder>
+          </ChildrenList>
+        </Folder>
+      </ChildrenList>
+    </WorkUnit>
+  </Events>
+</WwiseDocument>

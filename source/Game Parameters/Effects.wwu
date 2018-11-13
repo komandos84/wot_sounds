@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{867ED733-436A-4786-B6C6-D7EB62CB1177}" SchemaVersion="85">
+	<GameParameters>
+		<WorkUnit Name="Effects" ID="{867ED733-436A-4786-B6C6-D7EB62CB1177}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="RTPC_int_effects_stereo_delay_DelayTime_left" ID="{CC7F5572-E0BF-4E07-8E8A-4F7D07187AFF}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0.03"/>
+						<Property Name="Max" Type="Real64" Value="2"/>
+						<Property Name="Min" Type="Real64" Value="0.03"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_int_effects_stereo_delay_DelayTime_right" ID="{A0386AA9-563B-4FB2-992E-B6BBC4E95616}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0.03"/>
+						<Property Name="Max" Type="Real64" Value="2"/>
+						<Property Name="Min" Type="Real64" Value="0.03"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>
