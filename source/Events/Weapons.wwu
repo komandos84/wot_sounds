@@ -193,7 +193,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="wpn_huge_PC" ID="{69E88E52-5EE7-43AD-BFB7-3046C38EFB1E}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+									<ObjectRef Name="wpn_large_extra_PC" ID="{394A2C89-90E1-4CC1-8C8A-D9C434FCA24A}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -208,7 +208,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="wpn_main_PC" ID="{1C3FB4FA-314B-4F64-9914-11F18591A3FD}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+									<ObjectRef Name="wpn_main_extra_PC" ID="{5034B62A-D50B-4EDC-BD66-4D187A72DD10}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -223,7 +223,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="wpn_large_NPC" ID="{E10C9E56-B8D2-42B2-9F4E-AE8F24CBF5EB}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+									<ObjectRef Name="wpn_large_extra_NPC" ID="{1726596A-1012-402A-A126-044455F5D763}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -238,7 +238,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="wpn_main_NPC" ID="{4BE85C9D-38B8-4151-822C-623F80F68F65}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+									<ObjectRef Name="wpn_main_extra_NPC" ID="{C312EF3C-0C01-4E5D-B83B-EBB50A6ABE9B}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

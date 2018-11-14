@@ -67,22 +67,30 @@
 				</SoundBank>
 				<SoundBank Name="wpn" ID="{5F03E5D9-6D30-473F-ACCF-E697FF28FCC8}">
 					<ObjectInclusionList>
+						<ObjectRef Name="gun_rld_12_25mm" ID="{68CC51DF-8DE5-41C7-B79C-FBB39A5047AE}" WorkUnitID="{258FCDEE-B4FE-42C2-8FEE-6A41D76BDD47}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="wpn_large_extra_NPC" ID="{A0F658F0-7858-41DE-BAD2-EA7E3FE1E322}" WorkUnitID="{E811023D-8930-4266-8283-3B46EAFCF06B}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="wpn_automatic_NPC" ID="{2CF34E44-E937-4234-B906-F7B4F1F8C0F7}" WorkUnitID="{E811023D-8930-4266-8283-3B46EAFCF06B}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="wpn_main_PC" ID="{D9E960DF-A5D2-4339-82BD-2362EAE49C2D}" WorkUnitID="{E811023D-8930-4266-8283-3B46EAFCF06B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="gun_rld_20_45mm" ID="{BEF34523-CEC9-4344-BFB8-CDB8FEA4EDFF}" WorkUnitID="{258FCDEE-B4FE-42C2-8FEE-6A41D76BDD47}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="wpn_main_NPC" ID="{34F0B5E6-4275-4346-9784-40D4568C4DC1}" WorkUnitID="{E811023D-8930-4266-8283-3B46EAFCF06B}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="wpn_huge_NPC" ID="{81539F8A-C35A-444A-B57D-9F168A43EBD7}" WorkUnitID="{E811023D-8930-4266-8283-3B46EAFCF06B}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="wpn_meduim_PC" ID="{82A24B75-9272-4478-9FFC-2BCEEC62A07D}" WorkUnitID="{E811023D-8930-4266-8283-3B46EAFCF06B}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="wpn_small_PC" ID="{080EB964-60E4-44D6-8111-FF2C685485FE}" WorkUnitID="{E811023D-8930-4266-8283-3B46EAFCF06B}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="wpn_meduim_NPC" ID="{E4EC0D72-BB76-4536-99B5-D1B4957F90EF}" WorkUnitID="{E811023D-8930-4266-8283-3B46EAFCF06B}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="wpn_large_PC" ID="{2702412F-E4F1-4579-97AE-739FF3FC427F}" WorkUnitID="{E811023D-8930-4266-8283-3B46EAFCF06B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="gun_rld_automat_reloading_short_oneshell" ID="{12D6E92A-E633-4623-9C7B-10F135C75F68}" WorkUnitID="{258FCDEE-B4FE-42C2-8FEE-6A41D76BDD47}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="wpn_large_extra_PC" ID="{64C6B0AE-44EA-46C2-BDFC-E452410BBFA7}" WorkUnitID="{E811023D-8930-4266-8283-3B46EAFCF06B}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="wpn_large_NPC" ID="{5517230D-232A-46DE-B0E5-7305DEC6743A}" WorkUnitID="{E811023D-8930-4266-8283-3B46EAFCF06B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="gun_rld_50_75mm" ID="{4AFE9AEF-74C8-4727-B3BC-FF7B91C8C7E0}" WorkUnitID="{258FCDEE-B4FE-42C2-8FEE-6A41D76BDD47}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="gun_rld_115_152mm" ID="{A3B2BE6A-B444-4785-9FD5-4C51192E1D70}" WorkUnitID="{258FCDEE-B4FE-42C2-8FEE-6A41D76BDD47}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="wpn_main_extra_PC" ID="{BD901E3E-1B0C-483E-B531-7573E1CA2696}" WorkUnitID="{E811023D-8930-4266-8283-3B46EAFCF06B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="gun_rld_85_107mm" ID="{9FAC5AD6-4AB2-49E2-BB08-A5BDD345FFD9}" WorkUnitID="{258FCDEE-B4FE-42C2-8FEE-6A41D76BDD47}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="wpn_small_NPC" ID="{F6F4DC18-2492-4A1E-B7B9-61C9F85B74BA}" WorkUnitID="{E811023D-8930-4266-8283-3B46EAFCF06B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="gun_rld_155_170mm" ID="{406BFD83-445E-4C23-9E5F-78ABE57776DF}" WorkUnitID="{258FCDEE-B4FE-42C2-8FEE-6A41D76BDD47}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="wpn_main_extra_NPC" ID="{F29581B2-0A16-4E83-B299-AC47CDF1DB61}" WorkUnitID="{E811023D-8930-4266-8283-3B46EAFCF06B}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="wpn_huge_PC" ID="{366FE8CB-4DDF-4F35-B9EB-DFE85C23AA1F}" WorkUnitID="{E811023D-8930-4266-8283-3B46EAFCF06B}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="wpn_automatic_PC" ID="{CA4EF258-E160-4FA3-A3DC-1EE47006DCBA}" WorkUnitID="{E811023D-8930-4266-8283-3B46EAFCF06B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="gun_rld_autoloader_short_oneshell" ID="{D24B92DA-BDA1-4FCC-971C-B309A050FAAB}" WorkUnitID="{258FCDEE-B4FE-42C2-8FEE-6A41D76BDD47}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
