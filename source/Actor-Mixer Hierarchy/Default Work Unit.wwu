@@ -11,6 +11,96 @@
 			</PropertyList>
 			<ChildrenList>
 				<ActorMixer Name="weapon_sound" ID="{CB826B10-9CDC-4F83-A422-22461569EABF}" ShortID="407112755">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{AB4FB1D3-7808-464A-89A1-4DA008B3F64A}" ShortID="515098147">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_int_blend_600m" ID="{97B3AD47-9AA2-460D-8E08-7F4C0AB859D4}" WorkUnitID="{99AED538-0B7F-42D5-942E-04185D409E05}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{E016E87F-C482-4BFF-91C8-35FCF5177519}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>-6</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>Log1</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>4</XPos>
+												<YPos>-12</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>Log1</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>8</XPos>
+												<YPos>-15</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>Log1</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>16</XPos>
+												<YPos>-18</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>Log1</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>32</XPos>
+												<YPos>-21</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>Log1</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>64</XPos>
+												<YPos>-24</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>Log1</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>128</XPos>
+												<YPos>-27</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>Log1</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>256</XPos>
+												<YPos>-30</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>Log1</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>512</XPos>
+												<YPos>-33</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>Log1</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>569.84293</XPos>
+												<YPos>-53.02258</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>Log1</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>600</XPos>
+												<YPos>-200</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -23,11 +113,6 @@
 						<RandomSequenceContainer Name="wpn_automatic_PC" ID="{DE09A338-60CC-487E-B1D5-CB523F2CB3F0}" ShortID="133492411">
 							<PropertyList>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>12</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -99,11 +184,6 @@
 						<RandomSequenceContainer Name="wpn_huge_PC" ID="{69E88E52-5EE7-43AD-BFB7-3046C38EFB1E}" ShortID="454795954">
 							<PropertyList>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>12</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -194,11 +274,6 @@
 						<RandomSequenceContainer Name="wpn_large_NPC" ID="{E10C9E56-B8D2-42B2-9F4E-AE8F24CBF5EB}" ShortID="639756420">
 							<PropertyList>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-3</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -233,11 +308,6 @@
 						<RandomSequenceContainer Name="wpn_main_PC" ID="{1C3FB4FA-314B-4F64-9914-11F18591A3FD}" ShortID="449317136">
 							<PropertyList>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>12</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -309,11 +379,6 @@
 						<RandomSequenceContainer Name="wpn_medium_NPC" ID="{D481D18E-740B-49E7-A088-04D459FAB867}" ShortID="508771414">
 							<PropertyList>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-3</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -348,11 +413,6 @@
 						<RandomSequenceContainer Name="wpn_small_PC" ID="{95040B24-A4D8-4C91-8496-FE66DFA96385}" ShortID="413440180">
 							<PropertyList>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>12</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -374,6 +434,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="small01" ID="{FFFCF983-2B8D-4C0B-81F3-A0D40D51A48E}" ShortID="58212156">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="LoopEnd" Type="Real64" Value="1.76104166666667"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>small01.wav</AudioFile>
 										</AudioFileSource>
@@ -424,11 +488,6 @@
 						<RandomSequenceContainer Name="wpn_automatic_NPC" ID="{9BEF9391-85F0-4A45-99CC-E51A11E21ADB}" ShortID="819380345">
 							<PropertyList>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-3</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -466,11 +525,6 @@
 						<RandomSequenceContainer Name="wpn_huge_NPC" ID="{9A9AFE9D-4249-4C59-BC45-A174A6C19681}" ShortID="398787077">
 							<PropertyList>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-3</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -508,11 +562,6 @@
 						<RandomSequenceContainer Name="wpn_large_PC" ID="{E30CA4A9-AA09-4F72-9BE7-B81B27369544}" ShortID="232427499">
 							<PropertyList>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>12</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -609,11 +658,6 @@
 						<RandomSequenceContainer Name="wpn_main_NPC" ID="{4BE85C9D-38B8-4151-822C-623F80F68F65}" ShortID="513891406">
 							<PropertyList>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-3</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -651,11 +695,6 @@
 						<RandomSequenceContainer Name="wpn_medium_PC" ID="{7C7D7895-1C9D-4866-A06E-A61A375F2405}" ShortID="573787301">
 							<PropertyList>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>12</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -730,11 +769,6 @@
 						<RandomSequenceContainer Name="wpn_small_NPC" ID="{55556FEB-6061-4AF6-BAE8-C57B4ECCAAF2}" ShortID="636880460">
 							<PropertyList>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-3</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -772,11 +806,6 @@
 						<RandomSequenceContainer Name="wpn_large_extra_NPC" ID="{1726596A-1012-402A-A126-044455F5D763}" ShortID="783906766">
 							<PropertyList>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-3</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -811,11 +840,6 @@
 						<RandomSequenceContainer Name="wpn_large_extra_PC" ID="{394A2C89-90E1-4CC1-8C8A-D9C434FCA24A}" ShortID="367713961">
 							<PropertyList>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>12</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -890,11 +914,6 @@
 						<RandomSequenceContainer Name="wpn_main_extra_NPC" ID="{C312EF3C-0C01-4E5D-B83B-EBB50A6ABE9B}" ShortID="797109770">
 							<PropertyList>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-3</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -932,11 +951,6 @@
 						<RandomSequenceContainer Name="wpn_main_extra_PC" ID="{5034B62A-D50B-4EDC-BD66-4D187A72DD10}" ShortID="762699329">
 							<PropertyList>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>12</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1005,54 +1019,77 @@
 								</CustomStateList>
 							</StateInfo>
 						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="gun_reloaded" ID="{29E761F4-D5AF-47A8-9DAB-D2F97E02FD17}" ShortID="1040723606">
-							<PropertyList>
-								<Property Name="OverrideOutput" Type="bool" Value="True"/>
-								<Property Name="Pitch" Type="int32">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{C515961F-13D8-43DA-929D-00025685EC4E}"/>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>21</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
+					</ChildrenList>
+				</ActorMixer>
+				<RandomSequenceContainer Name="gun_reloaded" ID="{29E761F4-D5AF-47A8-9DAB-D2F97E02FD17}" ShortID="1040723606">
+					<PropertyList>
+						<Property Name="OverrideOutput" Type="bool" Value="True"/>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{C515961F-13D8-43DA-929D-00025685EC4E}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{220942E7-50BC-4F1C-9BA9-79A8CF0A9F8C}" ShortID="806367304">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_int_reloading_oneshell_sc" ID="{1E846E6D-C727-4192-81EB-704063248606}" WorkUnitID="{37A94ED0-8F69-4048-AAC1-097D1FA64423}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{997B3F5C-9C62-48D3-BAAD-966F37394D7B}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>-48</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="060_reload" ID="{237ADD9E-23E9-4F92-AB8E-AE80861F6318}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="gun_reloaded" ID="{FCBA07B9-0AAF-484B-A70F-AFC10FE78EB4}" ShortID="448228244">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B5EFB14B-A840-4B3E-9C23-270361C5C997}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="060_reload" ID="{237ADD9E-23E9-4F92-AB8E-AE80861F6318}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="gun_reloaded" ID="{FCBA07B9-0AAF-484B-A70F-AFC10FE78EB4}" ShortID="448228244">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B5EFB14B-A840-4B3E-9C23-270361C5C997}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="gun_reloaded" ID="{B963A8DD-BE60-4320-B220-FA58783A2A02}" ShortID="949253839">
-											<Language>SFX</Language>
-											<AudioFile>gun_reloaded.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="gun_reloaded" ID="{B963A8DD-BE60-4320-B220-FA58783A2A02}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
+								<AudioFileSource Name="gun_reloaded" ID="{B963A8DD-BE60-4320-B220-FA58783A2A02}" ShortID="949253839">
+									<Language>SFX</Language>
+									<AudioFile>gun_reloaded.wav</AudioFile>
+								</AudioFileSource>
 							</ChildrenList>
-						</RandomSequenceContainer>
+							<ActiveSourceList>
+								<ActiveSource Name="gun_reloaded" ID="{B963A8DD-BE60-4320-B220-FA58783A2A02}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
-				</ActorMixer>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
