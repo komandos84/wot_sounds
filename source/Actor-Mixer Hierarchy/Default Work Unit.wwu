@@ -27,66 +27,66 @@
 										<PointList>
 											<Point>
 												<XPos>0</XPos>
-												<YPos>0</YPos>
+												<YPos>6</YPos>
 												<Flags>5</Flags>
 											</Point>
 											<Point>
 												<XPos>1</XPos>
-												<YPos>-6</YPos>
+												<YPos>3</YPos>
 												<Flags>0</Flags>
 												<SegmentShape>Log1</SegmentShape>
 											</Point>
 											<Point>
 												<XPos>4</XPos>
-												<YPos>-12</YPos>
+												<YPos>0</YPos>
 												<Flags>0</Flags>
 												<SegmentShape>Log1</SegmentShape>
 											</Point>
 											<Point>
 												<XPos>8</XPos>
-												<YPos>-15</YPos>
+												<YPos>-3</YPos>
 												<Flags>0</Flags>
 												<SegmentShape>Log1</SegmentShape>
 											</Point>
 											<Point>
 												<XPos>16</XPos>
-												<YPos>-18</YPos>
+												<YPos>-6</YPos>
 												<Flags>0</Flags>
 												<SegmentShape>Log1</SegmentShape>
 											</Point>
 											<Point>
 												<XPos>32</XPos>
-												<YPos>-21</YPos>
+												<YPos>-9</YPos>
 												<Flags>0</Flags>
 												<SegmentShape>Log1</SegmentShape>
 											</Point>
 											<Point>
 												<XPos>64</XPos>
-												<YPos>-24</YPos>
+												<YPos>-12</YPos>
 												<Flags>0</Flags>
 												<SegmentShape>Log1</SegmentShape>
 											</Point>
 											<Point>
 												<XPos>128</XPos>
-												<YPos>-27</YPos>
+												<YPos>-15</YPos>
 												<Flags>0</Flags>
 												<SegmentShape>Log1</SegmentShape>
 											</Point>
 											<Point>
 												<XPos>256</XPos>
-												<YPos>-30</YPos>
+												<YPos>-18</YPos>
 												<Flags>0</Flags>
 												<SegmentShape>Log1</SegmentShape>
 											</Point>
 											<Point>
 												<XPos>512</XPos>
-												<YPos>-33</YPos>
+												<YPos>-21</YPos>
 												<Flags>0</Flags>
 												<SegmentShape>Log1</SegmentShape>
 											</Point>
 											<Point>
 												<XPos>569.84293</XPos>
-												<YPos>-53.02258</YPos>
+												<YPos>-27</YPos>
 												<Flags>0</Flags>
 												<SegmentShape>Log1</SegmentShape>
 											</Point>
