@@ -244,6 +244,30 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="wpn_TNSH_auto_NPC" ID="{312E8328-9BD1-46D6-8393-9B9CD972060A}">
+					<Comment>Automatical TNSH gun NPC</Comment>
+				</Event>
+				<Event Name="wpn_MTLS_auto_PC" ID="{C13ADF80-DB3E-40F7-A7E3-7778B9915893}">
+					<Comment>Automatical MTLS gun PC</Comment>
+				</Event>
+				<Event Name="wpn_MTLS_auto_NPC" ID="{2F34CC12-800B-4110-BD39-1600953D1894}">
+					<Comment>Automatical MTLS gun NPC</Comment>
+				</Event>
+				<Event Name="wpn_TNSH_auto_PC" ID="{E655D82C-1B20-492F-BF4A-09ED3374E392}">
+					<Comment>Automatical TNSH gun PC</Comment>
+				</Event>
+				<Event Name="wpn_Gochkins_auto_PC" ID="{52810A34-5A41-49C9-861B-DACEF61FE677}">
+					<Comment>Automatical Gochkins gun PC</Comment>
+				</Event>
+				<Event Name="wpn_Gochkins_auto_NPC" ID="{70DF8D89-0A9F-4E41-B0AF-0576DA281DF3}">
+					<Comment>Automatical Gochkins gun NPC</Comment>
+				</Event>
+				<Event Name="wpn_KwK_L46_PC" ID="{7CC8BFF0-D273-4ADD-A21B-5CABE8719D9A}">
+					<Comment>KwK_L46 gun PC</Comment>
+				</Event>
+				<Event Name="wpn_KwK_L46_NPC" ID="{AB838EE1-4A7F-4DE9-A3E7-E01FF6A2C03D}">
+					<Comment>KwK_L46 gun NPC</Comment>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
