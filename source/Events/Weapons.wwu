@@ -28,7 +28,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="wpn_automatic_NPC" ID="{9BEF9391-85F0-4A45-99CC-E51A11E21ADB}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+									<ObjectRef Name="wpn_TNSH_auto_PC" ID="{C9E3E4F9-1CB5-47C4-8F0B-FC4ED90E8D2C}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -43,7 +43,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="wpn_large_NPC" ID="{E10C9E56-B8D2-42B2-9F4E-AE8F24CBF5EB}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+									<ObjectRef Name="wpn_large_PC" ID="{E30CA4A9-AA09-4F72-9BE7-B81B27369544}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -73,7 +73,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="wpn_medium_NPC" ID="{D481D18E-740B-49E7-A088-04D459FAB867}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+									<ObjectRef Name="wpn_medium_PC" ID="{7C7D7895-1C9D-4866-A06E-A61A375F2405}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -88,7 +88,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="wpn_large_NPC" ID="{E10C9E56-B8D2-42B2-9F4E-AE8F24CBF5EB}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+									<ObjectRef Name="wpn_large_PC" ID="{E30CA4A9-AA09-4F72-9BE7-B81B27369544}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -103,7 +103,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="wpn_main_NPC" ID="{4BE85C9D-38B8-4151-822C-623F80F68F65}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+									<ObjectRef Name="wpn_main_PC" ID="{1C3FB4FA-314B-4F64-9914-11F18591A3FD}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -118,7 +118,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="wpn_small_NPC" ID="{55556FEB-6061-4AF6-BAE8-C57B4ECCAAF2}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+									<ObjectRef Name="wpn_small_PC" ID="{95040B24-A4D8-4C91-8496-FE66DFA96385}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -163,7 +163,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="wpn_huge_NPC" ID="{9A9AFE9D-4249-4C59-BC45-A174A6C19681}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+									<ObjectRef Name="wpn_huge_PC" ID="{69E88E52-5EE7-43AD-BFB7-3046C38EFB1E}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -178,7 +178,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="wpn_automatic_PC" ID="{DE09A338-60CC-487E-B1D5-CB523F2CB3F0}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+									<ObjectRef Name="wpn_TNSH_auto_PC" ID="{C9E3E4F9-1CB5-47C4-8F0B-FC4ED90E8D2C}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -223,7 +223,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="wpn_large_extra_NPC" ID="{1726596A-1012-402A-A126-044455F5D763}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+									<ObjectRef Name="wpn_large_extra_PC" ID="{394A2C89-90E1-4CC1-8C8A-D9C434FCA24A}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -238,7 +238,157 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="wpn_main_extra_NPC" ID="{C312EF3C-0C01-4E5D-B83B-EBB50A6ABE9B}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+									<ObjectRef Name="wpn_main_extra_PC" ID="{5034B62A-D50B-4EDC-BD66-4D187A72DD10}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="wpn_TNSH_auto_NPC" ID="{312E8328-9BD1-46D6-8393-9B9CD972060A}">
+					<Comment>Automatical TNSH gun NPC</Comment>
+					<ChildrenList>
+						<Action Name="" ID="{7DF6E9C4-01CF-4E40-B935-E2FEF958177B}" ShortID="1058109498">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="wpn_TNSH_auto_PC" ID="{C9E3E4F9-1CB5-47C4-8F0B-FC4ED90E8D2C}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="wpn_MTLS_auto_PC" ID="{C13ADF80-DB3E-40F7-A7E3-7778B9915893}">
+					<Comment>Automatical MTLS gun PC</Comment>
+					<ChildrenList>
+						<Action Name="" ID="{C6AB85F0-6D03-4397-8822-43987B2AAC9C}" ShortID="225319012">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="wpn_TNSH_auto_PC" ID="{C9E3E4F9-1CB5-47C4-8F0B-FC4ED90E8D2C}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="wpn_MTLS_auto_NPC" ID="{2F34CC12-800B-4110-BD39-1600953D1894}">
+					<Comment>Automatical MTLS gun NPC</Comment>
+					<ChildrenList>
+						<Action Name="" ID="{2E46F2EF-B2F9-43FA-AF15-45E95C358657}" ShortID="140155663">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="wpn_TNSH_auto_PC" ID="{C9E3E4F9-1CB5-47C4-8F0B-FC4ED90E8D2C}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="wpn_TNSH_auto_PC" ID="{E655D82C-1B20-492F-BF4A-09ED3374E392}">
+					<Comment>Automatical TNSH gun PC</Comment>
+					<ChildrenList>
+						<Action Name="" ID="{625E0FC8-C9DE-4004-8D3A-B0D7B88325F1}" ShortID="198699829">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="wpn_TNSH_auto_PC" ID="{C9E3E4F9-1CB5-47C4-8F0B-FC4ED90E8D2C}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="wpn_Gochkins_auto_PC" ID="{52810A34-5A41-49C9-861B-DACEF61FE677}">
+					<Comment>Automatical Gochkins gun PC</Comment>
+					<ChildrenList>
+						<Action Name="" ID="{78F22F08-4BDD-460B-8661-4313F5557647}" ShortID="596554819">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="wpn_Gochkins_auto_PC" ID="{AF9D97AF-9AE9-4830-B9FA-8D713CCCEB4B}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="wpn_Gochkins_auto_NPC" ID="{70DF8D89-0A9F-4E41-B0AF-0576DA281DF3}">
+					<Comment>Automatical Gochkins gun NPC</Comment>
+					<ChildrenList>
+						<Action Name="" ID="{89F1E19F-EFF5-42BB-94CC-2CCD975FA564}" ShortID="292878224">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="wpn_Gochkins_auto_PC" ID="{AF9D97AF-9AE9-4830-B9FA-8D713CCCEB4B}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="wpn_KwK_L46_PC" ID="{7CC8BFF0-D273-4ADD-A21B-5CABE8719D9A}">
+					<Comment>KwK_L46 gun PC</Comment>
+					<ChildrenList>
+						<Action Name="" ID="{B6DA88F4-7ADD-4F7A-A62F-43A62E39D26C}" ShortID="397207911">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="wpn_KwK_L46_PC" ID="{5D4D0578-56D9-4A2C-8002-0A9D5C5A4586}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="wpn_KwK_L46_NPC" ID="{AB838EE1-4A7F-4DE9-A3E7-E01FF6A2C03D}">
+					<Comment>KwK_L46 gun NPC</Comment>
+					<ChildrenList>
+						<Action Name="" ID="{12998CCC-0F1A-42E9-AC8D-D089ED83F566}" ShortID="920450490">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="wpn_KwK_L46_PC" ID="{5D4D0578-56D9-4A2C-8002-0A9D5C5A4586}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="wpn_Breda_auto_NPC" ID="{23B9A04B-38EF-4A60-8EBB-0F9B2FA0EFCB}">
+					<Comment>Automatical Breda gun NPC</Comment>
+					<ChildrenList>
+						<Action Name="" ID="{6B832C55-4880-4B40-BE80-BB1F1E810B98}" ShortID="799405930">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="wpn_Breda_auto_PC" ID="{5ADBC9F8-D52A-4CC6-8979-63303A7E7A80}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="wpn_Breda_auto_PC" ID="{AA2F0DA1-1F00-4B0B-B4CE-F4BA599CE40C}">
+					<Comment>Automatical Breda gun PC</Comment>
+					<ChildrenList>
+						<Action Name="" ID="{781D2C86-F073-4AC0-A1D3-4199CF35FEE8}" ShortID="701853709">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="wpn_Breda_auto_PC" ID="{5ADBC9F8-D52A-4CC6-8979-63303A7E7A80}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
