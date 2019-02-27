@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BD60330E-FABB-4F43-B5E5-04FD5F61CD3C}" SchemaVersion="85">
+	<GameParameters>
+		<WorkUnit Name="Weapons" ID="{BD60330E-FABB-4F43-B5E5-04FD5F61CD3C}" PersistMode="Standalone">
+			<Comment>Shots fired</Comment>
+			<ChildrenList>
+				<GameParameter Name="RTPC_int_shot_int_sidechain" ID="{53C218F8-75CE-4F6C-9B3C-E8E321821ACC}">
+					<Comment>Internal RTPC - Required for converting the wind volume level into the RTPC parameter (Wwise Meter) that subsequently can be used as sidechain for adjusting the volume of a different sound.</Comment>
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="-48"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_ext_control_reflections_priority" ID="{51856374-AE09-4A62-BA36-995C814A0866}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="600"/>
+						<Property Name="Max" Type="Real64" Value="600"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_ext_weapon_energy" ID="{FCA742AB-E05A-4DDD-BAD4-7D93869950C7}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="2000"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_int_wpn_LFE_vibrato_control" ID="{43F054C8-9EF3-4D7C-B090-A63DC4576024}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="3"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="1"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

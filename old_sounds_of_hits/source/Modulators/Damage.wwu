@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D11C7524-A928-4071-B655-40E51A00969C}" SchemaVersion="85">
+	<Modulators>
+		<WorkUnit Name="Damage" ID="{D11C7524-A928-4071-B655-40E51A00969C}" PersistMode="Standalone">
+			<ChildrenList>
+				<ModulatorEnvelope Name="Damage_burning" ID="{D98F6D73-114E-4A14-A927-9CBB13FAD0AD}" ShortID="653583183">
+					<PropertyList>
+						<Property Name="EnvelopeAttackTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeAutoRelease" Type="bool" Value="True"/>
+						<Property Name="EnvelopeDecayTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeReleaseTime" Type="Real64" Value="30"/>
+						<Property Name="EnvelopeStopPlayback" Type="bool" Value="False"/>
+						<Property Name="EnvelopeSustainTime" Type="Real64" Value="1"/>
+					</PropertyList>
+				</ModulatorEnvelope>
+				<ModulatorEnvelope Name="Damage_burning_dimination" ID="{7559E6F1-BE82-4BC2-81AF-A046936F88A3}" ShortID="645130514">
+					<PropertyList>
+						<Property Name="EnvelopeAttackTime" Type="Real64" Value="2"/>
+						<Property Name="EnvelopeAutoRelease" Type="bool" Value="True"/>
+						<Property Name="EnvelopeDecayTime" Type="Real64" Value="3"/>
+						<Property Name="EnvelopeReleaseTime" Type="Real64" Value="5"/>
+						<Property Name="EnvelopeSustainTime" Type="Real64" Value="1"/>
+					</PropertyList>
+				</ModulatorEnvelope>
+			</ChildrenList>
+		</WorkUnit>
+	</Modulators>
+</WwiseDocument>

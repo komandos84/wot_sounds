@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0276B885-F86A-4DC3-9CC6-A554BC37EE8D}" SchemaVersion="85">
+	<Modulators>
+		<WorkUnit Name="Vehicles" ID="{0276B885-F86A-4DC3-9CC6-A554BC37EE8D}" PersistMode="Standalone">
+			<ChildrenList>
+				<ModulatorEnvelope Name="Vehicles_trds" ID="{8A08753E-D4E8-43FF-BE0B-A19EC70408D9}" ShortID="105382198">
+					<PropertyList>
+						<Property Name="EnvelopeAutoRelease" Type="bool" Value="True"/>
+						<Property Name="EnvelopeDecayTime" Type="Real64" Value="1"/>
+						<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0.001"/>
+						<Property Name="EnvelopeSustainLevel" Type="Real64" Value="50"/>
+						<Property Name="EnvelopeSustainTime" Type="Real64" Value="2"/>
+						<Property Name="EnvelopeTriggerOn" Type="int32" Value="2"/>
+						<Property Name="ModulatorScope" Type="int32" Value="0"/>
+					</PropertyList>
+				</ModulatorEnvelope>
+				<ModulatorLfo Name="LFO_transmission_ufo" ID="{C1AA3E47-A38B-415E-8884-89779E2C0C83}" ShortID="282957092">
+					<PropertyList>
+						<Property Name="LfoDepth" Type="Real64" Value="20.5">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{2D59229E-03E5-4680-ABA0-3FF377AF7C30}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="5"/>
+											<Property Name="Min" Type="Real64" Value="-5"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="LfoFrequency" Type="Real64" Value="15.3">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{89B8792D-6857-4A84-B2C2-FD552BAB8750}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="2"/>
+											<Property Name="Min" Type="Real64" Value="-2"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+				</ModulatorLfo>
+				<ModulatorLfo Name="LFO_transmission_400hz" ID="{4128856E-3A7E-41DB-988C-0BB7114FD991}" ShortID="706108061">
+					<PropertyList>
+						<Property Name="LfoAttack" Type="Real64" Value="0.05"/>
+						<Property Name="LfoFrequency" Type="Real64" Value="0.35"/>
+						<Property Name="LfoSmoothing" Type="Real64" Value="39"/>
+						<Property Name="LfoWaveform" Type="int32" Value="1"/>
+					</PropertyList>
+				</ModulatorLfo>
+				<ModulatorEnvelope Name="Vehicles_eng_accel_int" ID="{CD2E08B0-ADA5-4FFB-B425-CC9C0F6636A5}" ShortID="416749334">
+					<PropertyList>
+						<Property Name="EnvelopeAttackTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeAutoRelease" Type="bool" Value="True"/>
+						<Property Name="EnvelopeDecayTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeReleaseTime" Type="Real64" Value="2.5"/>
+						<Property Name="EnvelopeStopPlayback" Type="bool" Value="False"/>
+						<Property Name="EnvelopeSustainTime" Type="Real64" Value="1"/>
+					</PropertyList>
+				</ModulatorEnvelope>
+			</ChildrenList>
+		</WorkUnit>
+	</Modulators>
+</WwiseDocument>

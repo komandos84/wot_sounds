@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A9CBA44D-53EB-44A0-B4B9-80CEA7294889}" SchemaVersion="85">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{A9CBA44D-53EB-44A0-B4B9-80CEA7294889}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="ExternalMusicSources" ID="{5396CA74-F9DA-45A2-936E-1CB764A703CC}">
+					<ObjectInclusionList>
+						<ObjectRef Name="music_kavkaz" ID="{4A3F32C5-0F7C-404D-9836-7ECC5440CD55}" WorkUnitID="{2D6C35E9-3A5D-42E6-927C-AB35ABC9CBAE}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="music_main_menu" ID="{19C7A79D-87C5-40EE-B32D-E3C609241CA2}" WorkUnitID="{2D6C35E9-3A5D-42E6-927C-AB35ABC9CBAE}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="music_rus_vilage" ID="{A26BA0A7-A905-414C-945B-E0829C247CC9}" WorkUnitID="{2D6C35E9-3A5D-42E6-927C-AB35ABC9CBAE}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Loginscreen" ID="{8AE7808A-2004-41B1-8DBA-FC387D01CD4A}" WorkUnitID="{2D6C35E9-3A5D-42E6-927C-AB35ABC9CBAE}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="music_stalingrad" ID="{60657086-372C-4305-AD69-E70AFC1D64C4}" WorkUnitID="{2D6C35E9-3A5D-42E6-927C-AB35ABC9CBAE}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="music_kharkov" ID="{789F701F-9991-4458-9F0E-6AE6BCC67D8D}" WorkUnitID="{2D6C35E9-3A5D-42E6-927C-AB35ABC9CBAE}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="music_combat" ID="{C453DDE2-6A1F-4478-B488-D1C20622B243}" WorkUnitID="{2D6C35E9-3A5D-42E6-927C-AB35ABC9CBAE}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="music_defeat" ID="{D5DBBEB6-ECF5-451B-A72F-84F6E7F77E5A}" WorkUnitID="{2D6C35E9-3A5D-42E6-927C-AB35ABC9CBAE}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="music_euro_vilage" ID="{27644B24-9BDB-452C-92E6-AABA2C6E33CC}" WorkUnitID="{2D6C35E9-3A5D-42E6-927C-AB35ABC9CBAE}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="music_euro_city" ID="{7BCC595A-4A8E-4624-BA78-9D9EFE87D5E6}" WorkUnitID="{2D6C35E9-3A5D-42E6-927C-AB35ABC9CBAE}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="music_america" ID="{C225295B-AE28-4629-B87C-593B18B68D6D}" WorkUnitID="{2D6C35E9-3A5D-42E6-927C-AB35ABC9CBAE}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="music_rus_city" ID="{7723C68E-FC41-4677-8660-11FC7C0C8478}" WorkUnitID="{2D6C35E9-3A5D-42E6-927C-AB35ABC9CBAE}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="music_tutorial" ID="{4E6F525A-AA3B-482A-BF8D-28DD50A8F9F0}" WorkUnitID="{2D6C35E9-3A5D-42E6-927C-AB35ABC9CBAE}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="music_victory" ID="{4AF3980C-71EB-4B10-958A-E408A503F966}" WorkUnitID="{2D6C35E9-3A5D-42E6-927C-AB35ABC9CBAE}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="music_drawn_game" ID="{06B47DDD-D3D1-4B10-8763-89E8C9E21754}" WorkUnitID="{2D6C35E9-3A5D-42E6-927C-AB35ABC9CBAE}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="music_desert" ID="{F176487D-42AE-4C3B-9614-BAAE85F3F478}" WorkUnitID="{2D6C35E9-3A5D-42E6-927C-AB35ABC9CBAE}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="music_malinovka" ID="{0A3AF51A-2A31-4C9D-8211-3D16EA17E5C7}" WorkUnitID="{2D6C35E9-3A5D-42E6-927C-AB35ABC9CBAE}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="music_japan" ID="{72D56DA0-9B07-4CD5-8BA8-24B700413AF9}" WorkUnitID="{2D6C35E9-3A5D-42E6-927C-AB35ABC9CBAE}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="music_himmelsdorf" ID="{C4280EB3-0835-4CF1-B354-055EBE3A9EC1}" WorkUnitID="{2D6C35E9-3A5D-42E6-927C-AB35ABC9CBAE}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="utility" ID="{8AC0C734-1358-4769-8DCD-511702CF25D6}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Utilite_events" ID="{6E76A620-F9B5-47F4-8C0B-13AA1956131B}" WorkUnitID="{6E76A620-F9B5-47F4-8C0B-13AA1956131B}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="voiceover" ID="{B827F3D5-477B-4022-957A-67636843A2B7}">
+					<ObjectInclusionList>
+						<ObjectRef Name="gun_rld_12_25mm" ID="{68CC51DF-8DE5-41C7-B79C-FBB39A5047AE}" WorkUnitID="{258FCDEE-B4FE-42C2-8FEE-6A41D76BDD47}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="gun_rld_20_45mm" ID="{BEF34523-CEC9-4344-BFB8-CDB8FEA4EDFF}" WorkUnitID="{258FCDEE-B4FE-42C2-8FEE-6A41D76BDD47}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="gun_rld_automat_reloading_short_oneshell" ID="{12D6E92A-E633-4623-9C7B-10F135C75F68}" WorkUnitID="{258FCDEE-B4FE-42C2-8FEE-6A41D76BDD47}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="gun_rld_50_75mm" ID="{4AFE9AEF-74C8-4727-B3BC-FF7B91C8C7E0}" WorkUnitID="{258FCDEE-B4FE-42C2-8FEE-6A41D76BDD47}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="gun_rld_115_152mm" ID="{A3B2BE6A-B444-4785-9FD5-4C51192E1D70}" WorkUnitID="{258FCDEE-B4FE-42C2-8FEE-6A41D76BDD47}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="gun_rld_autoloader_short_oneshell" ID="{66D594A5-7731-484E-8365-76DFCD462E1B}" WorkUnitID="{258FCDEE-B4FE-42C2-8FEE-6A41D76BDD47}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="gun_rld_85_107mm" ID="{9FAC5AD6-4AB2-49E2-BB08-A5BDD345FFD9}" WorkUnitID="{258FCDEE-B4FE-42C2-8FEE-6A41D76BDD47}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="notifications_dp" ID="{781D4B0D-189F-49FF-A4B5-C48EFDA284E5}" WorkUnitID="{B8424251-D94B-4427-BF66-A85D3ACABAE7}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="enemy_sighted_for_team" ID="{EA161AFE-D188-4AAF-A0D9-155A0F1B709D}" WorkUnitID="{DFF2755B-9A8F-4FB9-A356-F3AC81BDD167}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="gun_rld_155_170mm" ID="{406BFD83-445E-4C23-9E5F-78ABE57776DF}" WorkUnitID="{258FCDEE-B4FE-42C2-8FEE-6A41D76BDD47}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="notifications_vo_old" ID="{D03DDD48-FF7F-4C74-A4B3-176E3DD04E58}" WorkUnitID="{B8424251-D94B-4427-BF66-A85D3ACABAE7}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

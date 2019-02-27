@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9C805151-13A1-4216-ABE0-80CE03858379}" SchemaVersion="85">
+	<Switches>
+		<WorkUnit Name="Turret" ID="{9C805151-13A1-4216-ABE0-80CE03858379}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="SWITCH_int_turret_start" ID="{7F37B087-D4C9-4F40-83E6-0C9A6C849E8A}">
+					<Comment>NOT APPLIED</Comment>
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="SWITCH_int_turret_start_on" ID="{B0DDD173-B0BC-4260-AB9E-A7F5E84B8DFA}"/>
+						<Switch Name="SWITCH_int_turret_start_off" ID="{244FB679-B107-4A0E-B0D2-ABD897A25A1F}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="RTPC_ext_turret_speed" ID="{DA664E52-3CA7-4B89-A928-53467A09593E}"/>
+						<Curve Name="" ID="{FB6A2671-80FB-4DBA-B27F-3477739E353C}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>2</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>0.39</XPos>
+									<YPos>1</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>1</XPos>
+									<YPos>1</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+				<SwitchGroup Name="SWITCH_int_turret_stop" ID="{6732C0D2-CCC4-46E7-8257-2809AA6FD024}">
+					<Comment>NOT APPLIED</Comment>
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="SWITCH_int_turret_stop_on_slow" ID="{BD1B3F86-D14F-4911-8F4F-6EAEA91C0409}"/>
+						<Switch Name="SWITCH_int_turret_stop_off_slow" ID="{0B09FE6E-47F9-40CB-A4D5-98B17A8752F5}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="RTPC_ext_turret_speed" ID="{DA664E52-3CA7-4B89-A928-53467A09593E}"/>
+						<Curve Name="" ID="{44FD7598-97AE-49AF-9C80-C37D83984EE7}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>1</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>0.4</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>1</XPos>
+									<YPos>2</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+				<SwitchGroup Name="SWITCH_int_turret_rotation" ID="{532E9631-F025-458F-8B30-93A464018821}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="SWITCH_int_turret_rotation_off" ID="{6285E896-3276-4159-9497-ABB9C082A5F5}"/>
+						<Switch Name="SWITCH_int_turret_rotation_manual" ID="{0CD68FC9-090E-46C3-9C8F-86C04ECD8C12}"/>
+						<Switch Name="SWITCH_int_turret_rotation_traverse" ID="{BA04597C-C576-41A9-A566-0CCAAA4A8389}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="RTPC_ext_turret_speed" ID="{DA664E52-3CA7-4B89-A928-53467A09593E}"/>
+						<Curve Name="" ID="{4E3F1E88-44D2-46C2-84E4-41AED1CDA6D3}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>1</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>0.02</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>0.4</XPos>
+									<YPos>3</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>1</XPos>
+									<YPos>3</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+				<SwitchGroup Name="SWITCH_int_turret_start_slow" ID="{04A5539B-DCCA-4AAF-8E95-4C80C3E164AD}">
+					<Comment>NOT APPLIED</Comment>
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="SWITCH_int_turret_start_on_slow" ID="{D14A54A4-18D5-4D64-BEB4-5A6C5235235B}"/>
+						<Switch Name="SWITCH_int_turret_start_off_slow" ID="{10921564-FFAA-498E-BF6A-0550B170531C}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="RTPC_ext_turret_speed" ID="{DA664E52-3CA7-4B89-A928-53467A09593E}"/>
+						<Curve Name="" ID="{DC4C3F4A-95F6-4FF8-979D-77290BC72892}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>2</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>0.19</XPos>
+									<YPos>1</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>1</XPos>
+									<YPos>1</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+				<SwitchGroup Name="SWITCH_int_turret_stop_slow" ID="{3250827E-F81C-4C65-BEF3-CF9D77005EC0}">
+					<Comment>NOT APPLIED</Comment>
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="SWITCH_int_turret_stop_on_slow" ID="{6F3E5A01-CC7A-469C-95AA-FB34EB10A922}"/>
+						<Switch Name="SWITCH_int_turret_stop_off_slow" ID="{373D938C-EC60-4FDD-A3DE-B9EF71D44403}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="RTPC_ext_turret_speed" ID="{DA664E52-3CA7-4B89-A928-53467A09593E}"/>
+						<Curve Name="" ID="{362DEE76-BE6C-429A-A4B8-75F421C195CD}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>1</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>0.2</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>1</XPos>
+									<YPos>2</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+				<SwitchGroup Name="SWITCH_int_turret_rotation_slow" ID="{9BE6BC87-4D46-4716-A4F0-CAE866067E93}">
+					<Comment>NOT APPLIED</Comment>
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="SWITCH_int_turret_rotation_off_slow" ID="{13C6797E-93C5-4C68-B339-64D1A1B45116}"/>
+						<Switch Name="SWITCH_int_turret_rotation_manual_slow" ID="{2A2C4126-0DB4-4375-BBB3-6E8EDEE47FDD}"/>
+						<Switch Name="SWITCH_int_turret_rotation_traverse_slow" ID="{900C0C85-4424-412E-BB6F-C02BEC8FAFCB}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="RTPC_ext_turret_speed" ID="{DA664E52-3CA7-4B89-A928-53467A09593E}"/>
+						<Curve Name="" ID="{C1A0D8CF-E590-4642-BA49-57D334E0043A}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>1</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>0.02</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>0.2</XPos>
+									<YPos>3</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>1</XPos>
+									<YPos>3</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+				<SwitchGroup Name="SWITCH_int_turret_weight" ID="{A063D45C-66FF-4DED-9298-3663E3C99F28}">
+					<Comment>The switch is responsible for chaning the content depending on the turret weight (in tons)</Comment>
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="SWITCH_int_turret_light" ID="{D12AFF8A-72E7-40E8-A784-8567F2CA1CBC}">
+							<Comment>up to 4 t</Comment>
+						</Switch>
+						<Switch Name="SWITCH_int_turret_medium" ID="{A8233569-952D-46FC-A917-E7B4FF35109A}">
+							<Comment>4–8 t</Comment>
+						</Switch>
+						<Switch Name="SWITCH_int_turret_heavy" ID="{554096A9-AC77-4319-A28D-32771536D8D7}">
+							<Comment>8–12 t</Comment>
+						</Switch>
+						<Switch Name="SWITCH_int_turret_superheavy" ID="{09E76B62-C737-4436-A08F-2DA6E7E520BD}">
+							<Comment>higher than 12 t</Comment>
+						</Switch>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="RTPC_ext_turret_weight" ID="{CBED7AA7-B413-47A1-BB55-96A8A0C833EE}"/>
+						<Curve Name="" ID="{AB368062-30D6-48AB-AA07-07892A846B0C}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>1</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>4</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>8</XPos>
+									<YPos>3</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>12</XPos>
+									<YPos>4</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>59</XPos>
+									<YPos>0</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+				<SwitchGroup Name="SWITCH_int_turret_move_trigger" ID="{F67902E1-F652-4093-B1EA-16E2511813DF}">
+					<Comment>The switch is responsible for the content optimization upon turret traverse.</Comment>
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="SWITCH_int_turret_move_trigger_on" ID="{831C567B-396E-4FBD-94EF-4C3528D219C6}">
+							<Comment>The turret traverse content is enabled.</Comment>
+						</Switch>
+						<Switch Name="SWITCH_int_turret_move_trigger_off" ID="{F9BD030E-F7FF-4F5A-BCB4-C4ECFEF3B1E7}">
+							<Comment>Silence is enabled (no turret traverse)</Comment>
+						</Switch>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="RTPC_ext_turret_speed" ID="{DA664E52-3CA7-4B89-A928-53467A09593E}"/>
+						<Curve Name="" ID="{493FF54D-A718-447F-A980-0EC6A16E7DD7}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>2</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>0.01018</XPos>
+									<YPos>1</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>1</XPos>
+									<YPos>1</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+				<SwitchGroup Name="SWITCH_int_turret_move_damaged" ID="{CAAC5849-59B6-4E8D-BF0A-3437C046E6C8}">
+					<Comment>The switch is responsible for changing the content upon traversing a damaged turret.</Comment>
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="SWITCH_int_turret_move_damaged_on" ID="{F15B90C0-50F5-4941-9F0B-F195A4CF0A24}">
+							<Comment>The sound of a damaged turret is added</Comment>
+						</Switch>
+						<Switch Name="SWITCH_int_turret_move_damaged_off" ID="{69E9253C-2970-4D1A-B4C9-828A62EF9880}">
+							<Comment>No damage. Default state.</Comment>
+						</Switch>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="RTPC_ext_turret_damaged" ID="{4D5A39B1-04FF-4DBE-8554-B60A909DA6DD}"/>
+						<Curve Name="" ID="{E48AF17F-3FFC-4A34-BDAB-4EBCDAA3474C}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>2</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>0.9</XPos>
+									<YPos>1</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>1</XPos>
+									<YPos>1</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>
