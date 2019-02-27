@@ -1,0 +1,1375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{571DE6BD-88F4-4675-BD63-65F94DC8CCC3}" SchemaVersion="85">
+	<Effects>
+		<WorkUnit Name="Main Mix" ID="{571DE6BD-88F4-4675-BD63-65F94DC8CCC3}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="eng_V55_ext_eq" ID="{8853E9C1-DC85-49C8-BF61-B9D57BE7AF8A}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FilterTypeBand1" Type="int32" Value="6"/>
+						<Property Name="FilterTypeBand2" Type="int32" Value="5"/>
+						<Property Name="FilterTypeBand3" Type="int32" Value="6"/>
+						<Property Name="FrequencyBand1" Type="Real32" Value="103"/>
+						<Property Name="FrequencyBand2" Type="Real32" Value="3512"/>
+						<Property Name="FrequencyBand3" Type="Real32" Value="2300"/>
+						<Property Name="GainBand1" Type="Real32" Value="4"/>
+						<Property Name="GainBand2" Type="Real32" Value="6"/>
+						<Property Name="GainBand3" Type="Real32" Value="-4"/>
+						<Property Name="QFactorBand1" Type="Real32" Value="0.5"/>
+						<Property Name="QFactorBand2" Type="Real32" Value="0.5"/>
+						<Property Name="QFactorBand3" Type="Real32" Value="0.5"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="eng_V55_ext_comp" ID="{C2EA9D85-955B-454B-A3DC-A86F3E945A0A}" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+					<PropertyList>
+						<Property Name="AttackTime" Type="Real32" Value="0.001"/>
+						<Property Name="OutputGain" Type="Real32" Value="2.8"/>
+						<Property Name="Ratio" Type="Real32" Value="1.3"/>
+						<Property Name="ReleaseTime" Type="Real32" Value="0.25"/>
+						<Property Name="Threshold" Type="Real32" Value="-38"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="eng_Ford_GAA_ext_eq_01" ID="{19ACCD58-5F34-403B-9A04-32D618EE1C68}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
+						<Property Name="FilterTypeBand3" Type="int32" Value="6"/>
+						<Property Name="FrequencyBand1" Type="Real32" Value="125"/>
+						<Property Name="FrequencyBand2" Type="Real32" Value="591"/>
+						<Property Name="FrequencyBand3" Type="Real32" Value="1072"/>
+						<Property Name="GainBand2" Type="Real32" Value="-6"/>
+						<Property Name="GainBand3" Type="Real32" Value="-6"/>
+						<Property Name="QFactorBand2" Type="Real32" Value="0.5"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="eng_Ford_GAA_ext_comp" ID="{3899CD59-66FF-4127-B0D1-45B4FA38D88B}" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+					<PropertyList>
+						<Property Name="AttackTime" Type="Real32" Value="0.001"/>
+						<Property Name="OutputGain" Type="Real32" Value="3.2"/>
+						<Property Name="Ratio" Type="Real32" Value="1.3"/>
+						<Property Name="ReleaseTime" Type="Real32" Value="0.25"/>
+						<Property Name="Threshold" Type="Real32" Value="-38"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="eng_Ford_GAA_ext_eq_02" ID="{BFB16DF1-A479-4B57-BEDE-B7D44EADD8D8}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FilterTypeBand1" Type="int32" Value="6"/>
+						<Property Name="FilterTypeBand3" Type="int32" Value="6"/>
+						<Property Name="FrequencyBand1" Type="Real32" Value="184"/>
+						<Property Name="FrequencyBand2" Type="Real32" Value="340"/>
+						<Property Name="FrequencyBand3" Type="Real32" Value="4500"/>
+						<Property Name="GainBand1" Type="Real32" Value="-9.6"/>
+						<Property Name="GainBand2" Type="Real32" Value="-6.8"/>
+						<Property Name="GainBand3" Type="Real32" Value="4"/>
+						<Property Name="QFactorBand1" Type="Real32" Value="2"/>
+						<Property Name="QFactorBand2" Type="Real32" Value="3.1"/>
+						<Property Name="QFactorBand3" Type="Real32" Value="0.7"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="eng_Ford_GAA_int_comp" ID="{ABBD7F0D-AC45-4D90-8BF7-D7973A5C6D4B}" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+					<PropertyList>
+						<Property Name="AttackTime" Type="Real32" Value="0.001"/>
+						<Property Name="Ratio" Type="Real32" Value="1.2"/>
+						<Property Name="ReleaseTime" Type="Real32" Value="0.25"/>
+						<Property Name="Threshold" Type="Real32" Value="-37"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="eng_Ford_GAA_int_eq_02" ID="{A7EF6D6A-F78E-4E9D-A724-F323C8A6630D}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FilterTypeBand1" Type="int32" Value="6"/>
+						<Property Name="FilterTypeBand3" Type="int32" Value="6"/>
+						<Property Name="FrequencyBand1" Type="Real32" Value="3000"/>
+						<Property Name="FrequencyBand2" Type="Real32" Value="706"/>
+						<Property Name="FrequencyBand3" Type="Real32" Value="1800"/>
+						<Property Name="GainBand1" Type="Real32" Value="-3"/>
+						<Property Name="GainBand2" Type="Real32" Value="-4"/>
+						<Property Name="GainBand3" Type="Real32" Value="-3"/>
+						<Property Name="QFactorBand1" Type="Real32" Value="4"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="eng_Ford_GAA_int_eq_01" ID="{283FBC03-4AD0-47DF-A2BF-49503F784CC2}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FilterTypeBand1" Type="int32" Value="6"/>
+						<Property Name="FilterTypeBand3" Type="int32" Value="6"/>
+						<Property Name="FrequencyBand1" Type="Real32" Value="220"/>
+						<Property Name="FrequencyBand2" Type="Real32" Value="1485"/>
+						<Property Name="FrequencyBand3" Type="Real32" Value="100"/>
+						<Property Name="GainBand1" Type="Real32" Value="-2"/>
+						<Property Name="GainBand2" Type="Real32" Value="-2"/>
+						<Property Name="GainBand3" Type="Real32" Value="2"/>
+						<Property Name="OnOffBand3" Type="bool" Value="False"/>
+						<Property Name="QFactorBand2" Type="Real32" Value="0.5"/>
+						<Property Name="QFactorBand3" Type="Real32" Value="4"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="trds_chf_creak_eq" ID="{7A5E2D2A-2AE1-40C3-A0DF-C501A3F9264C}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FrequencyBand2" Type="Real32" Value="734"/>
+						<Property Name="GainBand2" Type="Real32" Value="-6.5"/>
+						<Property Name="OutputLevel" Type="Real32" Value="5"/>
+						<Property Name="QFactorBand2" Type="Real32" Value="0.5"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="trds_chf_creak_comp" ID="{D220827D-8EC4-4CCB-8A8C-E408A0E6DF2B}" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+					<PropertyList>
+						<Property Name="AttackTime" Type="Real32" Value="0.001"/>
+						<Property Name="OutputGain" Type="Real32" Value="3"/>
+						<Property Name="Ratio" Type="Real32" Value="2"/>
+						<Property Name="ReleaseTime" Type="Real32" Value="0.05"/>
+						<Property Name="Threshold" Type="Real32" Value="-32.9"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="master_limiter" ID="{A11CFC3B-25BF-476A-9FCC-35DADD9962C7}" PluginName="McDSP ML1" CompanyID="256" PluginID="103" PluginType="3">
+					<PropertyList>
+						<Property Name="Ceiling" Type="Real32" Value="-0.7"/>
+						<Property Name="Mode" Type="int32" Value="5"/>
+						<Property Name="Release" Type="Real32" Value="5"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="eng_ext_PC_flanger" ID="{70D71E2E-3665-4038-8EAE-824413C4E4CE}" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
+					<PropertyList>
+						<Property Name="DelayTime" Type="Real32" Value="0.7"/>
+						<Property Name="FeedForwardLevel" Type="Real32" Value="0">
+							<RTPCList>
+								<RTPC Name="" ID="{4D5B080C-15AA-4A4A-BEDC-1C57066607B2}" ShortID="1011776137">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_ext_rot_speed_rel" ID="{A755C95D-E442-4B6A-85EC-335EC16C045A}" WorkUnitID="{87FF0202-7DD4-4D0F-A267-00520CCB358C}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{825FC7AC-AB3D-4D70-9041-3D82289942FD}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>-1.5</XPos>
+												<YPos>1</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>-1</XPos>
+												<YPos>1</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>1</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1.5</XPos>
+												<YPos>1</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="ModFrequency" Type="Real32" Value="0.2"/>
+						<Property Name="ModWaveform" Type="int32" Value="1"/>
+						<Property Name="WetDryMix" Type="Real32" Value="0">
+							<RTPCList>
+								<RTPC Name="" ID="{CB687DBB-3A75-4E56-B596-EAD16DB0EB1F}" ShortID="793961695">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_int_distance" ID="{BF3AB708-0AE6-46FC-B487-5F27895968F1}" WorkUnitID="{99AED538-0B7F-42D5-942E-04185D409E05}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{F044B02E-8F01-49F4-BA7F-49BED2EF359B}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>10</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>30</XPos>
+												<YPos>40</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>250</XPos>
+												<YPos>100</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+				<Effect Name="eng_ext_NPC_flanger" ID="{1C2DC9E6-F968-4917-BDFB-30C77011C5EA}" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
+					<PropertyList>
+						<Property Name="DelayTime" Type="Real32" Value="1.8"/>
+						<Property Name="FeedForwardLevel" Type="Real32" Value="0">
+							<RTPCList>
+								<RTPC Name="" ID="{BF6297F6-8D6C-4CF1-9EB2-A6EB9F41FAF0}" ShortID="793708958">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_ext_speed_rel" ID="{1BC16D05-7BBA-4C79-9BD6-E0A99EAC6B4A}" WorkUnitID="{87FF0202-7DD4-4D0F-A267-00520CCB358C}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{64CF6D65-BEFB-42B3-9E72-9A8FA620AEE4}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>-1</XPos>
+												<YPos>1</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>1</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="ModDepth" Type="Real32" Value="0">
+							<RTPCList>
+								<RTPC Name="" ID="{420C0719-C341-43EF-9481-C080A60E2D82}" ShortID="350422693">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_int_distance" ID="{BF3AB708-0AE6-46FC-B487-5F27895968F1}" WorkUnitID="{99AED538-0B7F-42D5-942E-04185D409E05}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{F6F0B0C9-5087-4E0B-8DBB-82091731EB0D}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>78</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>40</XPos>
+												<YPos>78</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>250</XPos>
+												<YPos>25</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="ModFrequency" Type="Real32" Value="0.15">
+							<RTPCList>
+								<RTPC Name="" ID="{717745D2-A678-4FDC-AC85-7A30AE83B2BC}" ShortID="811658263">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_int_distance" ID="{BF3AB708-0AE6-46FC-B487-5F27895968F1}" WorkUnitID="{99AED538-0B7F-42D5-942E-04185D409E05}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{BDBBDDC7-FE2D-4BFE-B493-72355DE81627}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="5"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0.16</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>250</XPos>
+												<YPos>0.03</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="ModWaveform" Type="int32" Value="1"/>
+						<Property Name="WetDryMix" Type="Real32" Value="0">
+							<RTPCList>
+								<RTPC Name="" ID="{827EBDB4-F9ED-49D1-803D-9D0BEBBCC2C7}" ShortID="448243918">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_int_distance" ID="{BF3AB708-0AE6-46FC-B487-5F27895968F1}" WorkUnitID="{99AED538-0B7F-42D5-942E-04185D409E05}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{E24AAC43-00C8-4325-86ED-35A50B0F2C62}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>30</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>Log1</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>75.74813</XPos>
+												<YPos>29.71014</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>Log1</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>250</XPos>
+												<YPos>50</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+				<Effect Name="wpn_85_107mm_impulse_eq" ID="{C42FEC15-F2E1-41BD-9C17-922FA24B959E}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FilterTypeBand1" Type="int32" Value="6"/>
+						<Property Name="FrequencyBand1" Type="Real32" Value="189"/>
+						<Property Name="FrequencyBand2" Type="Real32" Value="6670"/>
+						<Property Name="GainBand1" Type="Real32" Value="2"/>
+						<Property Name="OnOffBand2" Type="bool" Value="False"/>
+						<Property Name="QFactorBand1" Type="Real32" Value="0.5"/>
+						<Property Name="QFactorBand2" Type="Real32" Value="0.5"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="wpn_85_107mm_reflectTail_field_eq" ID="{0AE571AE-D241-450A-BD4B-307A89048569}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FrequencyBand2" Type="Real32" Value="6000"/>
+						<Property Name="GainBand2" Type="Real32" Value="6"/>
+						<Property Name="QFactorBand2" Type="Real32" Value="0.5"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="wpn_85_107mm_reflectTail_village_eq" ID="{73BC1B9D-C8D2-427D-8DAE-5FAA524FE13F}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FilterTypeBand1" Type="int32" Value="6"/>
+						<Property Name="FrequencyBand1" Type="Real32" Value="146"/>
+						<Property Name="FrequencyBand2" Type="Real32" Value="5000"/>
+						<Property Name="GainBand1" Type="Real32" Value="-1"/>
+						<Property Name="GainBand2" Type="Real32" Value="6"/>
+						<Property Name="QFactorBand1" Type="Real32" Value="0.5"/>
+						<Property Name="QFactorBand2" Type="Real32" Value="0.5"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="wpn_common_reflectTail_forest_eq" ID="{E1F3575E-EC5B-4583-A569-146068D600BD}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FrequencyBand1" Type="Real32" Value="180"/>
+						<Property Name="FrequencyBand2" Type="Real32" Value="6000"/>
+						<Property Name="GainBand2" Type="Real32" Value="6.5"/>
+						<Property Name="OnOffBand1" Type="bool" Value="False"/>
+						<Property Name="OnOffBand3" Type="bool" Value="False"/>
+						<Property Name="QFactorBand2" Type="Real32" Value="0.5"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="wpn_50_75mm_impulse_eq" ID="{113715D3-F4CE-4D90-A246-4528603042FB}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FilterTypeBand1" Type="int32" Value="6"/>
+						<Property Name="FilterTypeBand2" Type="int32" Value="4"/>
+						<Property Name="FilterTypeBand3" Type="int32" Value="6"/>
+						<Property Name="FrequencyBand1" Type="Real32" Value="180"/>
+						<Property Name="FrequencyBand2" Type="Real32" Value="150"/>
+						<Property Name="FrequencyBand3" Type="Real32" Value="7675"/>
+						<Property Name="GainBand1" Type="Real32" Value="3"/>
+						<Property Name="GainBand2" Type="Real32" Value="-1.5"/>
+						<Property Name="OnOffBand2" Type="bool" Value="False"/>
+						<Property Name="QFactorBand1" Type="Real32" Value="0.5"/>
+						<Property Name="QFactorBand3" Type="Real32" Value="0.5"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="wpn_50_75mm_reflectTail_filed_eq" ID="{79986EF7-5953-4CEC-A745-16F26B349098}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
+						<Property Name="FilterTypeBand3" Type="int32" Value="6"/>
+						<Property Name="FrequencyBand1" Type="Real32" Value="347"/>
+						<Property Name="FrequencyBand3" Type="Real32" Value="6000"/>
+						<Property Name="GainBand1" Type="Real32" Value="-4"/>
+						<Property Name="GainBand3" Type="Real32" Value="1"/>
+						<Property Name="OnOffBand1" Type="bool" Value="False"/>
+						<Property Name="OnOffBand2" Type="bool" Value="False"/>
+						<Property Name="QFactorBand1" Type="Real32" Value="0.5"/>
+						<Property Name="QFactorBand3" Type="Real32" Value="0.5"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="wpn_50_75mm_body_eq" ID="{F4893D41-12ED-49C2-8BD5-F91444B7306B}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FrequencyBand1" Type="Real32" Value="300"/>
+						<Property Name="FrequencyBand3" Type="Real32" Value="2220"/>
+						<Property Name="GainBand1" Type="Real32" Value="-3"/>
+						<Property Name="GainBand3" Type="Real32" Value="0.5"/>
+						<Property Name="OnOffBand2" Type="bool" Value="False"/>
+						<Property Name="OnOffBand3" Type="bool" Value="False"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="imp_int_common_metal_parts_eq" ID="{27183823-B83F-482F-B33C-FBFF363C9138}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
+						<Property Name="FrequencyBand1" Type="Real32" Value="150"/>
+						<Property Name="OnOffBand2" Type="bool" Value="False"/>
+						<Property Name="OnOffBand3" Type="bool" Value="False"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="trds_chaffee_eq_01" ID="{A311C044-27D4-40E0-B424-481565B1E202}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FilterTypeBand1" Type="int32" Value="6"/>
+						<Property Name="FrequencyBand1" Type="Real32" Value="600"/>
+						<Property Name="FrequencyBand2" Type="Real32" Value="5500"/>
+						<Property Name="GainBand1" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{296B4152-64C4-497F-93E1-F99E594047AF}" ShortID="589071246">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_ext_rot_speed_rel" ID="{A755C95D-E442-4B6A-85EC-335EC16C045A}" WorkUnitID="{87FF0202-7DD4-4D0F-A267-00520CCB358C}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{35C89E4C-3E18-4051-8C09-442063A9B37D}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>-1.5</XPos>
+												<YPos>6</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>-1</XPos>
+												<YPos>6</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>SCurve</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>0.00748</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>SCurve</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>6</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1.5</XPos>
+												<YPos>6</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="GainBand2" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{0DBF76C2-F36F-43B0-AA39-E535A690EA21}" ShortID="143237039">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_ext_rot_speed_rel" ID="{A755C95D-E442-4B6A-85EC-335EC16C045A}" WorkUnitID="{87FF0202-7DD4-4D0F-A267-00520CCB358C}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{FCF518F1-C03F-4E59-AABA-CCB2101509F5}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>-1.5</XPos>
+												<YPos>9</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>-1</XPos>
+												<YPos>6</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>SCurve</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>SCurve</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>6</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1.5</XPos>
+												<YPos>9</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="OnOffBand3" Type="bool" Value="False"/>
+						<Property Name="QFactorBand1" Type="Real32" Value="7.3"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="eng_ext_flanger" ID="{14792CA3-7346-4FD4-8149-BEA15A60CEC2}" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
+					<PropertyList>
+						<Property Name="DelayTime" Type="Real32" Value="0.7"/>
+						<Property Name="ModDepth" Type="Real32" Value="73.7"/>
+						<Property Name="ModFrequency" Type="Real32" Value="0.12"/>
+						<Property Name="OutputLevel" Type="Real32" Value="5"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="vo_ducking" ID="{2AB5D24F-CEEB-45B2-8AD2-A7B763883C77}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">					<PluginData>
+	<GameParameter Name="RTPC_int_vo_ducking" ID="{1E252F1B-39B9-4251-8D5D-A20E4F4AF0BF}"/>
+</PluginData>
+				</Effect>
+				<Effect Name="eng_Continental_R975_ext_eq_01" ID="{7CA3F65C-B2D9-4559-AF61-75E8EBCFBB0D}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
+						<Property Name="FrequencyBand1" Type="Real32" Value="125"/>
+						<Property Name="FrequencyBand2" Type="Real32" Value="304"/>
+						<Property Name="FrequencyBand3" Type="Real32" Value="1000"/>
+						<Property Name="GainBand2" Type="Real32" Value="-3"/>
+						<Property Name="GainBand3" Type="Real32" Value="-5"/>
+						<Property Name="QFactorBand2" Type="Real32" Value="0.5"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="eng_Continental_R975_ext_eq_02" ID="{9AE71F10-88F0-41C0-ABDD-72A0D046CF17}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FilterTypeBand1" Type="int32" Value="6"/>
+						<Property Name="FilterTypeBand3" Type="int32" Value="6"/>
+						<Property Name="FrequencyBand1" Type="Real32" Value="184"/>
+						<Property Name="FrequencyBand2" Type="Real32" Value="340"/>
+						<Property Name="FrequencyBand3" Type="Real32" Value="5665"/>
+						<Property Name="GainBand1" Type="Real32" Value="-3"/>
+						<Property Name="GainBand2" Type="Real32" Value="-6.8"/>
+						<Property Name="GainBand3" Type="Real32" Value="-2"/>
+						<Property Name="QFactorBand2" Type="Real32" Value="2"/>
+						<Property Name="QFactorBand3" Type="Real32" Value="0.5"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="Menu_sound_settings" ID="{2A27FAB6-2C1F-43C5-8FAE-4B8CDB5D094E}" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+					<PropertyList>
+						<Property Name="FullBandGain" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{0D242857-849D-4021-BBED-CC0A48BFD8BE}" ShortID="440273739">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_ext_menu_volume_effects" ID="{7FC45ED1-AC20-488C-ADF2-2FC071CC89DB}" WorkUnitID="{AB476AAA-6033-49AB-999C-C9F0407E711B}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{C75E3C9C-D080-4E27-A47B-BC1238C5C703}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-96.3000030517578</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="LFEGain" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{9630C513-D071-4733-878C-3079F2D31074}" ShortID="624620348">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_ext_menu_volume_effects" ID="{7FC45ED1-AC20-488C-ADF2-2FC071CC89DB}" WorkUnitID="{AB476AAA-6033-49AB-999C-C9F0407E711B}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{2BB6BD87-18F1-4B8C-AD40-2064CD4D85F5}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-96.3000030517578</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+				<Effect Name="eng_ContinentalR_ext_eq_01" ID="{7E281FEE-0FC8-4CEA-AF1B-AAAD563DCC7A}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
+						<Property Name="FrequencyBand1" Type="Real32" Value="85"/>
+						<Property Name="FrequencyBand2" Type="Real32" Value="304"/>
+						<Property Name="FrequencyBand3" Type="Real32" Value="1000"/>
+						<Property Name="GainBand2" Type="Real32" Value="-3"/>
+						<Property Name="GainBand3" Type="Real32" Value="-4"/>
+						<Property Name="QFactorBand2" Type="Real32" Value="0.5"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="eng_ContinentalR_ext_eq_02" ID="{12856FA7-BFA5-4C11-86F4-4D5E63475CCD}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FilterTypeBand1" Type="int32" Value="5"/>
+						<Property Name="FilterTypeBand3" Type="int32" Value="6"/>
+						<Property Name="FrequencyBand1" Type="Real32" Value="5091"/>
+						<Property Name="FrequencyBand2" Type="Real32" Value="340"/>
+						<Property Name="FrequencyBand3" Type="Real32" Value="4500"/>
+						<Property Name="GainBand1" Type="Real32" Value="5"/>
+						<Property Name="GainBand2" Type="Real32" Value="-6.8"/>
+						<Property Name="GainBand3" Type="Real32" Value="5"/>
+						<Property Name="QFactorBand1" Type="Real32" Value="0.5"/>
+						<Property Name="QFactorBand2" Type="Real32" Value="3.1"/>
+						<Property Name="QFactorBand3" Type="Real32" Value="0.5"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="eng_Gaz_AA_int_eq_01" ID="{D603F37E-0EB9-4C28-B129-ECB652CF081D}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FilterTypeBand1" Type="int32" Value="6"/>
+						<Property Name="FrequencyBand1" Type="Real32" Value="220"/>
+						<Property Name="FrequencyBand2" Type="Real32" Value="1485"/>
+						<Property Name="FrequencyBand3" Type="Real32" Value="10000"/>
+						<Property Name="GainBand1" Type="Real32" Value="-2"/>
+						<Property Name="GainBand2" Type="Real32" Value="-2"/>
+						<Property Name="GainBand3" Type="Real32" Value="-2"/>
+						<Property Name="QFactorBand2" Type="Real32" Value="0.5"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="eng_Gaz_AA_int_eq_02" ID="{4F415A2E-AB1A-4354-B3F2-F3ED9CE54DC5}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FilterTypeBand1" Type="int32" Value="6"/>
+						<Property Name="FilterTypeBand3" Type="int32" Value="6"/>
+						<Property Name="FrequencyBand1" Type="Real32" Value="6239"/>
+						<Property Name="FrequencyBand2" Type="Real32" Value="706"/>
+						<Property Name="FrequencyBand3" Type="Real32" Value="9110"/>
+						<Property Name="GainBand1" Type="Real32" Value="-3.5"/>
+						<Property Name="GainBand2" Type="Real32" Value="-4"/>
+						<Property Name="GainBand3" Type="Real32" Value="-2.5"/>
+						<Property Name="QFactorBand1" Type="Real32" Value="0.5"/>
+						<Property Name="QFactorBand3" Type="Real32" Value="0.5"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="eng_Gaz_AA_ext_eq_01" ID="{D35965ED-1574-4E9C-9310-8EB6B840DE41}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
+						<Property Name="FrequencyBand1" Type="Real32" Value="125"/>
+						<Property Name="FrequencyBand2" Type="Real32" Value="4373"/>
+						<Property Name="FrequencyBand3" Type="Real32" Value="993"/>
+						<Property Name="GainBand2" Type="Real32" Value="4.5"/>
+						<Property Name="GainBand3" Type="Real32" Value="-2"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="eng_Gaz_AA_ext_eq_02" ID="{C963DA9B-717F-4AF0-8F66-B4AD455D0469}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FilterTypeBand1" Type="int32" Value="6"/>
+						<Property Name="FilterTypeBand3" Type="int32" Value="6"/>
+						<Property Name="FrequencyBand1" Type="Real32" Value="160"/>
+						<Property Name="FrequencyBand2" Type="Real32" Value="340"/>
+						<Property Name="FrequencyBand3" Type="Real32" Value="6813"/>
+						<Property Name="GainBand1" Type="Real32" Value="-9.6"/>
+						<Property Name="GainBand2" Type="Real32" Value="-6.8"/>
+						<Property Name="GainBand3" Type="Real32" Value="-12"/>
+						<Property Name="QFactorBand1" Type="Real32" Value="2"/>
+						<Property Name="QFactorBand2" Type="Real32" Value="3.1"/>
+						<Property Name="QFactorBand3" Type="Real32" Value="0.8"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="eng_V2K_ext_eq_01" ID="{A662523C-262D-410F-A975-C3FC5F2E9463}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FilterTypeBand1" Type="int32" Value="6"/>
+						<Property Name="FrequencyBand1" Type="Real32" Value="1400"/>
+						<Property Name="FrequencyBand3" Type="Real32" Value="1215"/>
+						<Property Name="GainBand1" Type="Real32" Value="-3"/>
+						<Property Name="GainBand2" Type="Real32" Value="-6"/>
+						<Property Name="GainBand3" Type="Real32" Value="-3"/>
+						<Property Name="QFactorBand1" Type="Real32" Value="0.5"/>
+						<Property Name="QFactorBand2" Type="Real32" Value="0.5"/>
+						<Property Name="QFactorBand3" Type="Real32" Value="0.5"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="eng_V2K_ext_eq_02" ID="{4C5110B1-44DC-4B63-8022-D48C2552393D}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FilterTypeBand1" Type="int32" Value="6"/>
+						<Property Name="FilterTypeBand3" Type="int32" Value="6"/>
+						<Property Name="FrequencyBand1" Type="Real32" Value="184"/>
+						<Property Name="FrequencyBand2" Type="Real32" Value="390"/>
+						<Property Name="FrequencyBand3" Type="Real32" Value="160"/>
+						<Property Name="GainBand1" Type="Real32" Value="-9"/>
+						<Property Name="GainBand2" Type="Real32" Value="-6.3"/>
+						<Property Name="GainBand3" Type="Real32" Value="3"/>
+						<Property Name="QFactorBand1" Type="Real32" Value="2"/>
+						<Property Name="QFactorBand3" Type="Real32" Value="0.7"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="eng_object_to_listener_angle_eq" ID="{785BB31A-5267-4B78-A357-43FD93C26974}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FilterTypeBand1" Type="int32" Value="6"/>
+						<Property Name="FilterTypeBand3" Type="int32" Value="6"/>
+						<Property Name="FrequencyBand1" Type="Real32" Value="800"/>
+						<Property Name="FrequencyBand2" Type="Real32" Value="1200"/>
+						<Property Name="FrequencyBand3" Type="Real32" Value="3000"/>
+						<Property Name="GainBand1" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{6FB8AF47-2E8A-4C6B-9CBB-70A4C0521E05}" ShortID="509826689">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_int_object_to_listener_angle" ID="{387B21ED-F601-4088-954A-6262CF0BA552}" WorkUnitID="{99AED538-0B7F-42D5-942E-04185D409E05}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{6205F7C2-5238-463A-A103-048B4165F0E7}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-4</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>180</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="GainBand2" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{4A76DCBD-EA3A-4AE8-B851-00DCCCA50F4F}" ShortID="719203451">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_int_object_to_listener_angle" ID="{387B21ED-F601-4088-954A-6262CF0BA552}" WorkUnitID="{99AED538-0B7F-42D5-942E-04185D409E05}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{9C580F4F-B923-401D-9D99-14EF1AB4B6F3}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-9</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>180</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="GainBand3" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{1AE127E5-487A-48D0-8D50-0D28862BBA40}" ShortID="671063713">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_int_object_to_listener_angle" ID="{387B21ED-F601-4088-954A-6262CF0BA552}" WorkUnitID="{99AED538-0B7F-42D5-942E-04185D409E05}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{5B060998-791F-45F8-B9BA-42F3D7D46D30}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-3</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>180</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="QFactorBand1" Type="Real32" Value="2.6">
+							<RTPCList>
+								<RTPC Name="" ID="{8B43E4D3-D8C4-4512-9727-666871D854E7}" ShortID="176448702">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_int_distance" ID="{BF3AB708-0AE6-46FC-B487-5F27895968F1}" WorkUnitID="{99AED538-0B7F-42D5-942E-04185D409E05}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{634C9AAC-57F0-4C10-B297-197D9DAE0CBC}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>2.6</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>50</XPos>
+												<YPos>0.5</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>250</XPos>
+												<YPos>0.5</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="QFactorBand2" Type="Real32" Value="4">
+							<RTPCList>
+								<RTPC Name="" ID="{061186BD-7A32-47EB-A6E3-2692F737C7FD}" ShortID="163136978">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_int_distance" ID="{BF3AB708-0AE6-46FC-B487-5F27895968F1}" WorkUnitID="{99AED538-0B7F-42D5-942E-04185D409E05}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{BF0EB8A6-9622-4044-A18D-E819980B8193}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>4</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>50</XPos>
+												<YPos>0.5</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>250</XPos>
+												<YPos>0.5</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="QFactorBand3" Type="Real32" Value="2.5">
+							<RTPCList>
+								<RTPC Name="" ID="{18FCA024-DE59-41CE-A3BD-8CC100A817A9}" ShortID="507415723">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_int_distance" ID="{BF3AB708-0AE6-46FC-B487-5F27895968F1}" WorkUnitID="{99AED538-0B7F-42D5-942E-04185D409E05}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{AD07EE7D-34F6-40DB-A5A3-07C6F3E2914B}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>2.5</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>50</XPos>
+												<YPos>0.5</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>250</XPos>
+												<YPos>0.5</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+				<Effect Name="eng_tremolo_new_phys_01" ID="{BF6D48E3-3787-40A2-ABD4-A5F1BA17E5DE}" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+					<PropertyList>
+						<Property Name="ModDepth" Type="Real32" Value="80"/>
+						<Property Name="ModFrequency" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{7A4D3894-149E-4265-962B-B02FE7BCCE21}" ShortID="452366702">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_ext_physic_rpm_abs" ID="{5CE781BC-A63C-4D4F-94BA-B9EB2C26511A}" WorkUnitID="{87FF0202-7DD4-4D0F-A267-00520CCB358C}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{029BDF5E-DA95-4B8F-880B-286FBA42AEA5}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="5"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>8</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>3500</XPos>
+												<YPos>30</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+				<Effect Name="eng_tremolo_old_phys_01" ID="{9F2EFB96-7CF7-494B-9EC8-0B59F730D4C3}" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+					<PropertyList>
+						<Property Name="ModDepth" Type="Real32" Value="80"/>
+						<Property Name="ModFrequency" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{F99D19CA-0590-4488-B6DC-D4071A31CE3F}" ShortID="740080297">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_ext_rpm" ID="{150E60BC-D73F-495E-8FDA-4F8EB2F90CF3}" WorkUnitID="{87FF0202-7DD4-4D0F-A267-00520CCB358C}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{46613C16-26AE-451F-AE90-79BEBBA86E46}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="5"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>8</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>30</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+				<Effect Name="eng_Hetzer_ext_eq_01" ID="{58C20E0F-EC97-4C39-A7B3-BE9615FCF456}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FilterTypeBand1" Type="int32" Value="6"/>
+						<Property Name="FilterTypeBand3" Type="int32" Value="6"/>
+						<Property Name="FrequencyBand1" Type="Real32" Value="1800"/>
+						<Property Name="FrequencyBand3" Type="Real32" Value="3500"/>
+						<Property Name="GainBand1" Type="Real32" Value="-4"/>
+						<Property Name="GainBand2" Type="Real32" Value="-6"/>
+						<Property Name="GainBand3" Type="Real32" Value="-12"/>
+						<Property Name="QFactorBand1" Type="Real32" Value="0.5"/>
+						<Property Name="QFactorBand2" Type="Real32" Value="0.5"/>
+						<Property Name="QFactorBand3" Type="Real32" Value="0.5"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="eng_Hetzer_ext_eq_02" ID="{4E8A5805-58E1-4B12-9E38-FC6A1CCE51FD}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FilterTypeBand1" Type="int32" Value="6"/>
+						<Property Name="FrequencyBand1" Type="Real32" Value="184"/>
+						<Property Name="FrequencyBand2" Type="Real32" Value="390"/>
+						<Property Name="FrequencyBand3" Type="Real32" Value="8000"/>
+						<Property Name="GainBand1" Type="Real32" Value="-9"/>
+						<Property Name="GainBand2" Type="Real32" Value="-6.3"/>
+						<Property Name="GainBand3" Type="Real32" Value="-6"/>
+						<Property Name="QFactorBand1" Type="Real32" Value="2"/>
+						<Property Name="QFactorBand3" Type="Real32" Value="0.5"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="eng_tremolo_new_phys_02" ID="{F8A8F34C-9675-4E21-89C4-3D30A93524FC}" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+					<PropertyList>
+						<Property Name="ModDepth" Type="Real32" Value="80"/>
+						<Property Name="ModFrequency" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{9D60EA78-D134-4941-9962-51D04F7BA032}" ShortID="806267817">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_ext_physic_rpm_abs" ID="{5CE781BC-A63C-4D4F-94BA-B9EB2C26511A}" WorkUnitID="{87FF0202-7DD4-4D0F-A267-00520CCB358C}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{1E74A19B-651E-49BE-A57E-1825F594437A}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="5"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>4</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>3500</XPos>
+												<YPos>18</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+				<Effect Name="eng_tremolo_old_phys_02" ID="{12FC609C-8E30-4079-A85C-F271EBDD562F}" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+					<PropertyList>
+						<Property Name="ModDepth" Type="Real32" Value="80"/>
+						<Property Name="ModFrequency" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{E3EDEA0D-9B90-43E3-B18B-FD471A1767BB}" ShortID="957531413">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_ext_rpm" ID="{150E60BC-D73F-495E-8FDA-4F8EB2F90CF3}" WorkUnitID="{87FF0202-7DD4-4D0F-A267-00520CCB358C}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{EA54D02F-EC29-4B2B-A712-6C4777439F09}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="5"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>3</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>18</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+				<Effect Name="eng_tremolo_new_phys_03" ID="{A410D0BC-DD33-4C36-B155-86539010566D}" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+					<PropertyList>
+						<Property Name="ModDepth" Type="Real32" Value="80"/>
+						<Property Name="ModFrequency" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{99E064B0-2977-4BCD-AA06-CE3CE2B215C5}" ShortID="52103390">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_ext_physic_rpm_abs" ID="{5CE781BC-A63C-4D4F-94BA-B9EB2C26511A}" WorkUnitID="{87FF0202-7DD4-4D0F-A267-00520CCB358C}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{0B8CD3BB-EA7F-459E-A689-D2B8010BA250}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="5"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>1</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>2000</XPos>
+												<YPos>7</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>3500</XPos>
+												<YPos>12</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+				<Effect Name="eng_tremolo_old_phys_03" ID="{0846CC55-241F-41F3-9A2D-C144E1588DF9}" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+					<PropertyList>
+						<Property Name="ModDepth" Type="Real32" Value="80"/>
+						<Property Name="ModFrequency" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{D3CE6BDE-062B-4352-AC13-E10457EFADB1}" ShortID="10418310">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_ext_rpm" ID="{150E60BC-D73F-495E-8FDA-4F8EB2F90CF3}" WorkUnitID="{87FF0202-7DD4-4D0F-A267-00520CCB358C}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{4EE2ECA3-E753-4632-A264-91CB0BDB7196}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="5"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>1</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>60</XPos>
+												<YPos>7</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>12</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+				<Effect Name="eng_Hetzer_int_eq_01" ID="{2B656390-DF02-4C59-9137-CFB3893B3AC5}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FilterTypeBand1" Type="int32" Value="6"/>
+						<Property Name="FrequencyBand1" Type="Real32" Value="220"/>
+						<Property Name="FrequencyBand2" Type="Real32" Value="1485"/>
+						<Property Name="FrequencyBand3" Type="Real32" Value="10000"/>
+						<Property Name="GainBand1" Type="Real32" Value="-2"/>
+						<Property Name="GainBand2" Type="Real32" Value="-2"/>
+						<Property Name="GainBand3" Type="Real32" Value="-2"/>
+						<Property Name="QFactorBand2" Type="Real32" Value="0.5"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="eng_Hetzer_int_eq_02" ID="{1CC6A8D7-56BD-40AD-BCB2-53D2E0C54B25}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FilterTypeBand1" Type="int32" Value="6"/>
+						<Property Name="FilterTypeBand3" Type="int32" Value="6"/>
+						<Property Name="FrequencyBand1" Type="Real32" Value="6239"/>
+						<Property Name="FrequencyBand2" Type="Real32" Value="706"/>
+						<Property Name="FrequencyBand3" Type="Real32" Value="9110"/>
+						<Property Name="GainBand1" Type="Real32" Value="-3.5"/>
+						<Property Name="GainBand2" Type="Real32" Value="-4"/>
+						<Property Name="GainBand3" Type="Real32" Value="-2.5"/>
+						<Property Name="QFactorBand1" Type="Real32" Value="0.5"/>
+						<Property Name="QFactorBand3" Type="Real32" Value="0.5"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="eng_breaking_distortion_01" ID="{DE22BAA5-A87E-41C8-8403-1CCB08E5339A}" PluginName="iZotope Trash Multiband Distortion" CompanyID="259" PluginID="9" PluginType="3">
+					<PropertyList>
+						<Property Name="Distortion1Band1Mix" Type="Real32" Value="20"/>
+						<Property Name="Distortion1Band1OutputGain" Type="Real32" Value="-6"/>
+						<Property Name="Distortion1Band1Type" Type="int32" Value="28"/>
+						<Property Name="MultibandCrossover1" Type="Real32" Value="20000"/>
+						<Property Name="MultibandCrossover2" Type="Real32" Value="20000"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="eng_breaking_distortion_02" ID="{64EE0CCA-88AF-48B6-A4FC-F001480DE68D}" PluginName="iZotope Trash Multiband Distortion" CompanyID="259" PluginID="9" PluginType="3">
+					<PropertyList>
+						<Property Name="Distortion1Band1Mix" Type="Real32" Value="30"/>
+						<Property Name="Distortion1Band1OutputGain" Type="Real32" Value="-6"/>
+						<Property Name="Distortion1Band1Type" Type="int32" Value="28"/>
+						<Property Name="MultibandCrossover1" Type="Real32" Value="20000"/>
+						<Property Name="MultibandCrossover2" Type="Real32" Value="20000"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="eng_breaking_distortion_03" ID="{B0CFDB2B-2296-402B-BF85-DB5B1655E19F}" PluginName="iZotope Trash Multiband Distortion" CompanyID="259" PluginID="9" PluginType="3">
+					<PropertyList>
+						<Property Name="Distortion1Band1Mix" Type="Real32" Value="50"/>
+						<Property Name="Distortion1Band1OutputGain" Type="Real32" Value="-6"/>
+						<Property Name="Distortion1Band1Type" Type="int32" Value="14"/>
+						<Property Name="MultibandCrossover1" Type="Real32" Value="20000"/>
+						<Property Name="MultibandCrossover2" Type="Real32" Value="20000"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="Meter_buss_HDR" ID="{82D6651B-BA53-4ED6-A30C-692535C4E89C}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+					<PropertyList>
+						<Property Name="MeterMode" Type="int32" Value="1"/>
+						<Property Name="Min" Type="Real32" Value="-50"/>
+						<Property Name="ReleaseTime" Type="Real32" Value="3"/>
+					</PropertyList>
+					<PluginData>
+	<GameParameter Name="RTPC_int_Meter_buss_HDR" ID="{AA928FCF-F776-46F9-BC9A-A50CB6991E03}"/>
+</PluginData>
+				</Effect>
+				<Effect Name="eng_broken_distortion_01" ID="{09E7571D-BB52-47EF-ACF7-A64154B10CCF}" PluginName="iZotope Trash Multiband Distortion" CompanyID="259" PluginID="9" PluginType="3">
+					<PropertyList>
+						<Property Name="Distortion1Band1Overdrive" Type="Real32" Value="2.5"/>
+						<Property Name="Distortion1Band1Trash" Type="Real32" Value="0.1"/>
+						<Property Name="Distortion1Band1Type" Type="int32" Value="28"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="eng_trds_gain_NPC" ID="{46EACD14-D29A-48CC-AD9C-DB735F8F719B}" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+					<PropertyList>
+						<Property Name="FullBandGain" Type="Real32" Value="4"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="eng_Cadilac42_ext_comp" ID="{D3C39F82-E8CD-46BF-8EDE-827555086D56}" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+					<PropertyList>
+						<Property Name="AttackTime" Type="Real32" Value="0.001"/>
+						<Property Name="OutputGain" Type="Real32" Value="2.8"/>
+						<Property Name="Ratio" Type="Real32" Value="1.3"/>
+						<Property Name="ReleaseTime" Type="Real32" Value="0.25"/>
+						<Property Name="Threshold" Type="Real32" Value="-38"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="eng_Cadilac42_ext_eq" ID="{56B99657-6EC2-49BE-A683-D8D5BE584204}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FilterTypeBand1" Type="int32" Value="6"/>
+						<Property Name="FilterTypeBand2" Type="int32" Value="5"/>
+						<Property Name="FilterTypeBand3" Type="int32" Value="6"/>
+						<Property Name="FrequencyBand1" Type="Real32" Value="16930"/>
+						<Property Name="FrequencyBand2" Type="Real32" Value="1502"/>
+						<Property Name="FrequencyBand3" Type="Real32" Value="2651"/>
+						<Property Name="GainBand1" Type="Real32" Value="-2"/>
+						<Property Name="GainBand2" Type="Real32" Value="4"/>
+						<Property Name="GainBand3" Type="Real32" Value="-3"/>
+						<Property Name="QFactorBand1" Type="Real32" Value="0.5"/>
+						<Property Name="QFactorBand2" Type="Real32" Value="0.5"/>
+						<Property Name="QFactorBand3" Type="Real32" Value="0.5"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="eng_tremolo_new_client_phys_01" ID="{0048695F-9B6D-4A50-83A2-9C7E61A1CD96}" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+					<PropertyList>
+						<Property Name="ModDepth" Type="Real32" Value="80"/>
+						<Property Name="ModFrequency" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{7A23F3DF-D5C7-4EC4-9AA0-68EFDDA33CF2}" ShortID="721223805">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_ext_client_rpm_abs" ID="{DC308E72-9AF9-4D25-9079-A17693CD1A21}" WorkUnitID="{87FF0202-7DD4-4D0F-A267-00520CCB358C}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{8A3A2205-DD8D-47D5-8B0F-21D6A78178E8}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="5"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>8</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>3500</XPos>
+												<YPos>30</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+				<Effect Name="eng_tremolo_new_client_phys_02" ID="{EF38256B-F2ED-477F-83DF-D1D493CAB754}" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+					<PropertyList>
+						<Property Name="ModDepth" Type="Real32" Value="80"/>
+						<Property Name="ModFrequency" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{729A4D93-42AF-491B-8566-5963BF4A5FD4}" ShortID="800544677">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_ext_client_rpm_abs" ID="{DC308E72-9AF9-4D25-9079-A17693CD1A21}" WorkUnitID="{87FF0202-7DD4-4D0F-A267-00520CCB358C}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{F6607228-994D-4B56-8167-4822468692FD}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="5"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>4</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>3500</XPos>
+												<YPos>18</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+				<Effect Name="eng_tremolo_new_client_phys_03" ID="{3C5723F5-272E-4401-9A3C-D0AC49E818C6}" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+					<PropertyList>
+						<Property Name="ModDepth" Type="Real32" Value="80"/>
+						<Property Name="ModFrequency" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{A695391F-4AF9-414E-8744-AEAEC17C5C89}" ShortID="626304143">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_ext_client_rpm_abs" ID="{DC308E72-9AF9-4D25-9079-A17693CD1A21}" WorkUnitID="{87FF0202-7DD4-4D0F-A267-00520CCB358C}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{89EF7352-B6FA-46FC-9E72-E90CA21F43BB}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="5"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>1</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>2000</XPos>
+												<YPos>7</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>3500</XPos>
+												<YPos>12</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
+	</Effects>
+</WwiseDocument>

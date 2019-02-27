@@ -1,0 +1,20 @@
+<WwiseDocument Type="WorkUnit" ID="{080CB6CE-6D01-43BC-8288-8BEC35E84725}" SchemaVersion="85">
+  <GameParameters>
+    <WorkUnit Name="Explosions" ID="{080CB6CE-6D01-43BC-8288-8BEC35E84725}" PersistMode="Standalone">
+      <Comment>Explosions</Comment>
+      <ChildrenList>
+        <GameParameter Name="RTPC_int_expl_LP_filter" ID="{C4E368AC-DB78-43D4-8BA3-9D1F8F403AD7}">
+          <Comment>Internal RTPC - HF filtering (explosion) by time upon destroying a player's vehicle.</Comment>
+          <PropertyList>
+            <Property Name="FilterTimeUp" Type="Real64" Value="1.5" />
+            <Property Name="InitialValue" Type="Real64" Value="0" />
+            <Property Name="Max" Type="Real64" Value="4" />
+            <Property Name="RTPCRamping" Type="int16" Value="1" />
+            <Property Name="SlewRateDown" Type="Real64" Value="1" />
+            <Property Name="SlewRateUp" Type="Real64" Value="1" />
+          </PropertyList>
+        </GameParameter>
+      </ChildrenList>
+    </WorkUnit>
+  </GameParameters>
+</WwiseDocument>

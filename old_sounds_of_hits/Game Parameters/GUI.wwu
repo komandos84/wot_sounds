@@ -1,0 +1,35 @@
+<WwiseDocument Type="WorkUnit" ID="{B9FDBA73-A83D-4FC1-9553-94BF4AE67F8D}" SchemaVersion="85">
+  <GameParameters>
+    <WorkUnit Name="GUI" ID="{B9FDBA73-A83D-4FC1-9553-94BF4AE67F8D}" PersistMode="Standalone">
+      <ChildrenList>
+        <GameParameter Name="RTPC_int_timer_endbattle" ID="{88693835-4CFA-4296-8142-4B4CE3417066}">
+          <Comment>Internal RTPC - parameter of battle duration countdown</Comment>
+          <PropertyList>
+            <Property Name="InitialValue" Type="Real64" Value="0" />
+            <Property Name="Max" Type="Real64" Value="60" />
+            <Property Name="RTPCRamping" Type="int16" Value="1" />
+            <Property Name="SlewRateDown" Type="Real64" Value="1" />
+            <Property Name="SlewRateUp" Type="Real64" Value="1" />
+          </PropertyList>
+        </GameParameter>
+        <GameParameter Name="RTPC_ext_siege_mode" ID="{4EECC532-6EEF-4D72-A7E5-3C485A0AC3E7}">
+          <Comment>parameter of activating and deactivating the siege mode</Comment>
+          <PropertyList>
+            <Property Name="InitialValue" Type="Real64" Value="0" />
+            <Property Name="SlewRateDown" Type="Real64" Value="1" />
+            <Property Name="SlewRateUp" Type="Real64" Value="1" />
+          </PropertyList>
+        </GameParameter>
+        <GameParameter Name="RTPC_ext_base_capturing_score" ID="{F94901E1-D8EF-4827-BB4A-E95BBDA73757}">
+          <Comment>The value of the largest amount of capture points over all bases</Comment>
+          <PropertyList>
+            <Property Name="InitialValue" Type="Real64" Value="0" />
+            <Property Name="RTPCRamping" Type="int16" Value="1" />
+            <Property Name="SlewRateDown" Type="Real64" Value="100" />
+            <Property Name="SlewRateUp" Type="Real64" Value="100" />
+          </PropertyList>
+        </GameParameter>
+      </ChildrenList>
+    </WorkUnit>
+  </GameParameters>
+</WwiseDocument>

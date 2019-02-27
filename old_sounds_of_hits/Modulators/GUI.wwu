@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FB0E066C-4F81-4B76-A64F-20379340A171}" SchemaVersion="85">
+	<Modulators>
+		<WorkUnit Name="GUI" ID="{FB0E066C-4F81-4B76-A64F-20379340A171}" PersistMode="Standalone">
+			<ChildrenList>
+				<ModulatorEnvelope Name="ADSR_promoscreen_timer_5sec_fade" ID="{6879FC65-F243-4F1B-B608-A61D9B3EA519}" ShortID="618129820">
+					<PropertyList>
+						<Property Name="EnvelopeAttackCurve" Type="Real64" Value="100"/>
+						<Property Name="EnvelopeAttackTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeAutoRelease" Type="bool" Value="True"/>
+						<Property Name="EnvelopeDecayTime" Type="Real64" Value="5"/>
+						<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeSustainLevel" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeSustainTime" Type="Real64" Value="5"/>
+					</PropertyList>
+				</ModulatorEnvelope>
+			</ChildrenList>
+		</WorkUnit>
+	</Modulators>
+</WwiseDocument>

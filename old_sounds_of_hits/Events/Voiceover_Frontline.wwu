@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5036676F-F4AB-433A-8DC8-9D195767A979}" SchemaVersion="85">
+	<Events>
+		<WorkUnit Name="Voiceover_Frontline" ID="{5036676F-F4AB-433A-8DC8-9D195767A979}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="vo_eb_allies_destroyed" ID="{1E047063-7D65-4F37-8D84-40EB7B5F49FB}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_objective_destroyed_allies_2" ID="{CCB7FACB-6998-4970-BBAA-A7F45B315D80}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_promotion_received" ID="{69603AC9-A1FC-404B-B50E-32859F7DDFB7}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_zone_captured_ally_own_F" ID="{86F879E1-C18B-4F07-9A3E-24609524F763}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_objective_under_attack_defenders_2" ID="{09A21700-9032-442D-8644-20F71798C40D}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_zone_contested_defenders_F" ID="{8DC89066-4FE2-4609-9B3C-70C63EF6DA00}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_zone_contested_defenders_C" ID="{2B1AD475-0482-468F-830C-5C3159A7F4A5}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_support_air_scout" ID="{8FABA064-859A-48B0-A282-2C6F14177BB0}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_support_inspire" ID="{8854282C-47E6-45B9-93CC-537027D3574C}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_support_general" ID="{1288E4ED-9CFA-4F1F-9E7B-2EC84BC7A0B3}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_zone_contested_defenders_D" ID="{963FB341-4616-47DD-985D-B305EE665B29}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_zone_contested_attackers_E" ID="{DEC9741E-34AD-4843-8586-DB4A206A8AFD}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_deployment_ready" ID="{757AB891-FF76-4F5D-957E-19CD40E4D8F3}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_zone_contested_attackers_F" ID="{18071928-EFAB-45FA-9F69-489D2B66678A}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_zone_contested_defenders_E" ID="{C5FB042E-140A-4726-99D0-70CC0AE4BD0D}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_zone_contested_defenders_B" ID="{CB883971-F7E3-4B41-BD04-169AEEEC6111}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_support_smoke_screen" ID="{E52FF572-602F-4BB0-B849-96938F8FD348}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_enemy_destroyed" ID="{B4514149-A815-4E00-B446-0C5221DA4478}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_last_objective_defenders" ID="{2C2E7C6F-D8EE-48E8-BE96-4494762D02A5}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_zone_lost_defender_other_C" ID="{98486BC2-7E43-4B77-82AB-6F16E08CF77D}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_last_zone_attackers" ID="{4A888E37-5524-4E69-92FD-9D8DFD983862}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_objective_destroyed_allies_3" ID="{0FE9D6A0-49CA-410F-AA20-AC556D1E1CE6}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_last_zone_defenders" ID="{0BD17631-B222-4D9E-BCAA-5A7517F1EFAD}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_objective_under_attack_defenders_4" ID="{024A286E-A08C-4155-AA2D-C1121C826427}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_zone_lost_defender_other_D" ID="{EBE91AC5-F219-4C75-804F-F4428BFE63B3}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_last_objective_attackers" ID="{C9689245-CF8C-4FA7-852F-E7D38A15B266}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_no_time_defenders" ID="{59476A65-12FD-47BD-900B-97E1A58A382A}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_objective_under_attack_attackers_5" ID="{6E003AD1-C700-4E42-B2DA-93AC835A4D92}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_zone_captured_ally_other_A" ID="{69531641-A99D-4193-AF52-7DC732F4AF96}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_zone_captured_ally_other_B" ID="{289C5116-DCDA-463C-984C-6ADE29E310F0}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_objective_destroyed_defenders_2" ID="{2558030E-9993-4755-A3C1-0AE96E5AC281}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_zone_lost_defender_other_B" ID="{520BB228-A65B-4FA4-8C7F-273E5CAC2621}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_objective_destroyed_allies_1" ID="{4E22E997-859D-4A49-94B8-7FDB89268EBB}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_objective_under_attack_attackers_1" ID="{5E7BBD60-8526-40C1-A17A-61B9E438C0D1}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_no_time_attackers" ID="{F9968E76-40A1-4F29-89F8-0E5E6FC1A12D}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_zone_contested_attackers_A" ID="{4DF5C47B-0028-41D0-B451-A6338EB5D4F8}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_enemy_use_support" ID="{0479D1BB-DAE3-44FB-97A0-75C04C80E1E8}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_objective_under_attack_attackers_2" ID="{F40961A4-EAF3-4D90-9512-640124897AB2}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_objective_under_attack_attackers_4" ID="{84BFE79B-79FB-4591-B95D-0F0192DEA384}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_zone_lost_defender_other_E" ID="{BA2AA796-A870-4843-97FA-DF8F454ADC49}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_zone_contested_attackers_D" ID="{DF18E716-761C-4DA5-A591-2AB728426CC0}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_zone_contested_attackers_C" ID="{80F4B7C0-5933-4DBE-892F-C8A988DF92A3}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_zone_captured_ally_own_D" ID="{8AB595AC-9B61-4CE5-8459-E2002832914F}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_zone_captured_ally_own_E" ID="{7B8B8F15-819C-4306-AAA2-3E95936E6754}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_zone_contested_attackers_B" ID="{E294DD1E-60BD-4E5B-AE2E-C6A7F86F3D1E}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_all_lost_defenders" ID="{D4347F16-9A3D-4294-B5D3-46E38636277E}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_start_attackers" ID="{C641886C-BA2D-455E-8600-305019ABFF52}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_zone_contested_defenders_A" ID="{6669ADA4-651B-4CCB-B69C-497C45EBBE9D}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_retreat_successful" ID="{7959B193-E3AB-455E-8587-24664D121D72}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_allied_general_enters" ID="{9C70D3C8-D73B-426F-968A-E952956A3E43}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_objective_destroyed_allies_5" ID="{F34DBCD7-CB6F-4651-929A-EEF0D2FA4D87}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_support_airstrike" ID="{CE542FA8-139E-4F25-95AD-B32133228870}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_zone_captured_ally_other_C" ID="{04916558-48D6-47AA-876B-3FCAEC35AFD9}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_zone_captured_ally_other_D" ID="{56B3DB31-13A4-4DC6-9BF7-5594B6AB69A2}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_zone_captured_ally_other_E" ID="{B706B871-A759-4ACF-9183-C68F2EA9CF77}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_zone_captured_ally_other_F" ID="{050AAB65-8551-40AA-A2FC-803976FF6459}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_zone_captured_ally_own_A" ID="{BF5F11F9-A349-4C56-9B07-E852174B916B}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_zone_captured_ally_own_C" ID="{706CBEFD-3A98-43A7-80C5-7AABA4D66E55}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_objective_destroyed_defenders_5" ID="{62A8D7D4-CF4A-4148-9B51-CE66FD17E259}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_objective_under_attack_defenders_5" ID="{5D3E307F-349A-42F5-BD88-817B965AC28A}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_all_destroyed_attackers" ID="{2D4389A3-25A1-43B8-9091-432C369127AE}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_zone_lost_defender_other_F" ID="{1272722B-14DF-4E80-8D36-C54340F5CE6E}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_zone_captured_ally_own_B" ID="{742DAFEB-BFAE-4E6F-B111-663AC5DB37D4}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_objective_destroyed_allies_4" ID="{0067F500-9D07-4498-86D0-52AD6CCB7088}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_overtime_defenders" ID="{5493D96E-3392-443F-9612-0C76815AEF9A}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_ally_reinforcement_arrived" ID="{BE749D19-F2BA-4E47-B07A-53BC3A223C3E}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_objective_destroyed_defenders_4" ID="{E7310860-1016-48F5-B539-B59E361681A3}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_objective_under_attack_defenders_1" ID="{97AAEA33-A2E0-4154-AF16-A0AE77CEF1F3}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_objective_destroyed_defenders_1" ID="{83BE2875-E981-4BF5-B0E9-59CB1DF9948B}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_support_artillery" ID="{77EEC510-7C67-4BE9-862E-6E6B3725CA3C}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_objective_under_attack_defenders_3" ID="{29582D79-7676-49D5-9D60-AA603AE51AE7}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_zone_lost_defender_own_A" ID="{D0D320D3-DC74-491B-B69C-7CC2DD910D27}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_overtime_attackers" ID="{8BF8A574-96E3-45B5-926C-B0D92999D780}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_objective_destroyed_defenders_3" ID="{150FD1DF-CB64-42AD-8957-BC18CA7AF3C6}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_objective_under_attack_attackers_3" ID="{5917F1CB-D04A-47E2-B120-9229DB128C7C}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_zone_lost_defender_other_A" ID="{D973D03E-2D97-4735-9CF2-5B6D3AF028C5}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_last_zone_defenders_other" ID="{93F48DAD-DE78-4BF9-B40F-A5B8F2448ABD}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_start_defenders" ID="{57DB5CFF-2D5F-4DE8-B5C3-40B3F365A01D}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_last_zone_attackers_other" ID="{C3404506-5F04-49BE-AEEC-27C1A3F3F813}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_zone_lost_defender_own_B" ID="{5E7FC4DA-0D97-4363-9FBD-E98AE6903935}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_zone_lost_defender_own_C" ID="{655B6B82-96FB-4415-BC49-43CA5B178DA8}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_zone_lost_defender_own_D" ID="{9EE4AB7C-B964-4DE8-A299-06C5D2CD4DB7}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_zone_lost_defender_own_E" ID="{E57D2573-B4AE-4E54-A64A-CE5CEBE3D46B}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_eb_zone_lost_defender_own_F" ID="{E0412C72-EDAC-48CF-B68A-F6F772B1DE53}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_flt_ready_for_action" ID="{9BB594CA-5474-477E-9219-6A1CDE7E4FFC}">
+					<ChildrenList></ChildrenList>
+				</Event>
+				<Event Name="vo_flt_repair" ID="{8EB02FB2-227D-4D9F-B479-41A5F5D6970C}">
+					<ChildrenList></ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

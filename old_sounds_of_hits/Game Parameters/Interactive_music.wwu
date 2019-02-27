@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4077DA64-BB20-412A-BBAC-B8E4E8321E7F}" SchemaVersion="85">
+	<GameParameters>
+		<WorkUnit Name="Interactive_music" ID="{4077DA64-BB20-412A-BBAC-B8E4E8321E7F}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="RTPC_ext_music_corellator" ID="{7785ED80-FF27-41D3-81EC-1144DC286A31}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="30"/>
+						<Property Name="Min" Type="Real64" Value="-30"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_int_music_dron_outro_velocity" ID="{DD4C7EE3-1118-4B44-B17D-D5ACBFC1E18A}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="5"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="1"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_ext_base_capturing_score_enemy" ID="{3FF75DCD-D8A5-41A0-B20D-014F726CB690}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_ext_base_capturing_score_ally" ID="{78C1C514-E64E-4C17-BACC-74BFADDD0442}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_ext_base_capturing_invaders_ally" ID="{C21D3BAB-03CF-42F0-9844-1C1C4E3714DB}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="3"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_ext_base_capturing_invaders_enemy" ID="{F327A0E8-7CAA-4F6B-9C47-B3DF8A3735D0}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="3"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_int_music_drone_enable_eq_lowshelf" ID="{7AE88284-3DAD-40C5-B374-A46F0E987366}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="6"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="1"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_int_hangar_resultmusic_go_3D" ID="{03A9A0CA-C54C-4CF3-8714-1C1B41D0AA10}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="1"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

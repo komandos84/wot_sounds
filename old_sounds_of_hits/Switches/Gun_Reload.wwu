@@ -1,0 +1,30 @@
+<WwiseDocument Type="WorkUnit" ID="{1BA9F272-6A2E-4E14-91B7-65C8DF95A27D}" SchemaVersion="85">
+  <Switches>
+    <WorkUnit Name="Gun_Reload" ID="{1BA9F272-6A2E-4E14-91B7-65C8DF95A27D}" PersistMode="Standalone">
+      <ChildrenList>
+        <SwitchGroup Name="SWITCH_ext_rld_automat_caliber" ID="{84B4A5D5-E7CD-4B73-AAC5-A972567268EE}">
+          <Comment>The switch is used for switching the content of magazine gun reloading depending on the caliber</Comment>
+          <ChildrenList>
+            <Switch Name="SWITCH_ext_rld_automat_caliber_85_107mm" ID="{CA1918BF-60B3-4179-9793-64109DBA375E}" />
+            <Switch Name="SWITCH_ext_rld_automat_caliber_155_170mm" ID="{0206B6AE-E78F-44B5-8F74-3D5D97568FAA}" />
+            <Switch Name="SWITCH_ext_rld_automat_caliber_115_152mm" ID="{A84A4664-1009-455A-89DD-64809AC7ED74}" />
+            <Switch Name="SWITCH_ext_rld_automat_caliber_12_25mm" ID="{B842E970-84FA-4BB7-B687-1BE2FCFFC3A7}" />
+            <Switch Name="SWITCH_ext_rld_automat_caliber_20_45mm" ID="{886741F7-6C7B-4EA1-A574-077FD6D73C5C}" />
+            <Switch Name="SWITCH_ext_rld_automat_caliber_50_75mm" ID="{CE41ACA6-24CF-448A-8D5B-D764E0D59716}" />
+          </ChildrenList>
+        </SwitchGroup>
+        <SwitchGroup Name="SWITCH_ext_rld_autoloader_caliber" ID="{452DC04E-525A-49CA-9907-B9B7452CB136}">
+          <Comment>The switch is used for switching the content of magazine gun reloading depending on the caliber</Comment>
+          <ChildrenList>
+            <Switch Name="SWITCH_ext_rld_autoloader_caliber_85_107mm" ID="{950A4CB3-4115-4F7D-89A6-DB0327FBB8A6}" />
+            <Switch Name="SWITCH_ext_rld_autoloader_caliber_155_170mm" ID="{1641075E-F019-4876-B5BD-0253E53F64A0}" />
+            <Switch Name="SWITCH_ext_rld_autoloader_caliber_115_152mm" ID="{504C6B10-355F-4D6F-8D45-020D2E4A8F18}" />
+            <Switch Name="SWITCH_ext_rld_autoloader_caliber_12_25mm" ID="{07B6E60A-0659-465E-A860-1C53E019BFB0}" />
+            <Switch Name="SWITCH_ext_rld_autoloader_caliber_20_45mm" ID="{6987E061-5DD8-4817-A61A-3097FF52F985}" />
+            <Switch Name="SWITCH_ext_rld_autoloader_caliber_50_75mm" ID="{A9CA04B9-E3A2-4466-9FB9-5074E714485D}" />
+          </ChildrenList>
+        </SwitchGroup>
+      </ChildrenList>
+    </WorkUnit>
+  </Switches>
+</WwiseDocument>

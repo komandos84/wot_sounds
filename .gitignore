@@ -1,4 +1,9 @@
-source/WoT_sound_mod.*
-source/WoT_sound_mod.*
-source/GeneratedSoundBanks/WinHighRes
-source/.cache
+old_sounds_of_gun/WoT_sound_mod.*
+old_sounds_of_gun/WoT_sound_mod.*
+old_sounds_of_gun/GeneratedSoundBanks/*
+old_sounds_of_gun/.cache
+
+old_sounds_of_hits/WoT_sound_mod.*
+old_sounds_of_hits/WoT_sound_mod.*
+old_sounds_of_hits/GeneratedSoundBanks/*
+old_sounds_of_hits/.cache
