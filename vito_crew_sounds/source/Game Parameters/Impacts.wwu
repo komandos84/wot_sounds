@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E8AED785-8722-4162-9C39-19FF18EE9669}" SchemaVersion="85">
+	<GameParameters>
+		<WorkUnit Name="Impacts" ID="{E8AED785-8722-4162-9C39-19FF18EE9669}" PersistMode="Standalone">
+			<Comment>Hits</Comment>
+			<ChildrenList>
+				<GameParameter Name="RTPC_int_imp_metal_base_lp_sidechain" ID="{888529FB-AD49-498B-8125-909637D03BC5}">
+					<Comment>Internal RTPC - Required for converting the element volume level (12_preattack, sub_long, sub_medium, sub_short) for the system of NPC hitting a PC into the RTPC parameter (Wwise Meter), 
+\for sidechain volume and LPF                                     01_metal_base_pierce
+                                                        08_debris_large
+                                                        08_debris_medium
+                                                        08_debris_small</Comment>
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="-48"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_int_imp_wise_gain" ID="{4434AC16-B690-4F69-A4D4-79E2ED6899CB}">
+					<PropertyList>
+						<Property Name="FilterTimeDown" Type="Real64" Value="3"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="5"/>
+						<Property Name="RTPCRamping" Type="int16" Value="2"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

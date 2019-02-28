@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{50FD1EC9-464B-409C-B0F3-206F664DFEF1}" SchemaVersion="85">
+	<Modulators>
+		<WorkUnit Name="Hangar" ID="{50FD1EC9-464B-409C-B0F3-206F664DFEF1}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="hangar_Thanksgiving_us_28_nov" ID="{1D33AECD-E84B-4D37-B1F7-C0230A53EABC}" ShortID="858150460">
+					<ChildrenList>
+						<ModulatorLfo Name="LFO_ambient_01" ID="{B12E2DFE-EE50-4672-AB87-E339747F2458}" ShortID="611849546">
+							<PropertyList>
+								<Property Name="LfoFrequency" Type="Real64" Value="0.05"/>
+							</PropertyList>
+						</ModulatorLfo>
+						<ModulatorLfo Name="LFO_ambient_02" ID="{79F61F04-2F7B-4C65-8790-584C9F55FA78}" ShortID="593751401">
+							<PropertyList>
+								<Property Name="LfoFrequency" Type="Real64" Value="0.035"/>
+							</PropertyList>
+						</ModulatorLfo>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="hangar_premium_23feb_v3" ID="{DF3A80D4-D0A2-47E0-8D36-A56B964589A3}" ShortID="579685584">
+					<ChildrenList>
+						<ModulatorEnvelope Name="engine_idle_170sec" ID="{ECCD442A-4CC7-4E39-89EE-108DC8D85A40}" ShortID="71155324">
+							<PropertyList>
+								<Property Name="EnvelopeAttackCurve" Type="Real64" Value="0"/>
+								<Property Name="EnvelopeAttackTime" Type="Real64" Value="170"/>
+								<Property Name="EnvelopeDecayTime" Type="Real64" Value="0"/>
+								<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0.505"/>
+								<Property Name="EnvelopeSustainTime" Type="Real64" Value="0.658"/>
+							</PropertyList>
+						</ModulatorEnvelope>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="hangar_h09_bday_CN_2016" ID="{69EFBBDC-7C4D-462E-A5ED-4C04A361CC03}" ShortID="734434659">
+					<ChildrenList>
+						<ModulatorLfo Name="hangar_h09_bday_CN_makeup" ID="{05C14E6F-8FA8-48A5-9E3C-005BF6AC0818}" ShortID="469092418">
+							<PropertyList>
+								<Property Name="LfoFrequency" Type="Real64" Value="0.02"/>
+							</PropertyList>
+						</ModulatorLfo>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="hangar_h07_newyear" ID="{71929A5D-18DD-4553-9B15-109D97F812D6}" ShortID="43596783">
+					<ChildrenList>
+						<ModulatorLfo Name="hangar_h07_newyear_fareworks" ID="{ACA4B329-7507-446B-A7F8-D3A0D975239C}" ShortID="562851684">
+							<PropertyList>
+								<Property Name="LfoFrequency" Type="Real64" Value="0.02"/>
+							</PropertyList>
+						</ModulatorLfo>
+						<ModulatorLfo Name="hangar_h07_newyear_salute" ID="{8AFF55BA-69B8-486A-A79E-6D35F78BE24F}" ShortID="719096744">
+							<PropertyList>
+								<Property Name="LfoFrequency" Type="Real64" Value="0.16"/>
+							</PropertyList>
+						</ModulatorLfo>
+						<ModulatorEnvelope Name="hangar_h07_newyear_train" ID="{6430C095-AEE5-4D84-9A9D-0CCF7B9037ED}" ShortID="238988014">
+							<PropertyList>
+								<Property Name="EnvelopeAttackCurve" Type="Real64" Value="100"/>
+								<Property Name="EnvelopeAttackTime" Type="Real64" Value="12"/>
+								<Property Name="EnvelopeDecayTime" Type="Real64" Value="4"/>
+								<Property Name="EnvelopeStopPlayback" Type="bool" Value="False"/>
+								<Property Name="EnvelopeSustainLevel" Type="Real64" Value="0"/>
+							</PropertyList>
+						</ModulatorEnvelope>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Modulators>
+</WwiseDocument>

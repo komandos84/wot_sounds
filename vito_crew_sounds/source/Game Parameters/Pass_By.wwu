@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B3102924-7C08-4AE9-AB73-5F6783919C37}" SchemaVersion="85">
+	<GameParameters>
+		<WorkUnit Name="Pass_By" ID="{B3102924-7C08-4AE9-AB73-5F6783919C37}" PersistMode="Standalone">
+			<Comment>Tracers</Comment>
+			<ChildrenList>
+				<GameParameter Name="psb_distance" ID="{6DA2339B-4638-4377-9432-EAF4722C7A43}">
+					<Comment>Inernal RTPC - \1. Responsible for activation:
+                                                    SWITCH_int_passBy_automatic
+                                                    SWITCH_int_passBy_close
+                                                    SWITCH_int_passBy_far
+                                                    SWITCH_int_passBy_med
+
+2. Responsible for converting the content  (close-med-distant) into the blend container tracers,</Comment>
+					<PropertyList>
+						<Property Name="BindToBuiltInParam" Type="int16" Value="1"/>
+						<Property Name="InitialValue" Type="Real64" Value="400"/>
+						<Property Name="Max" Type="Real64" Value="400"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="psb_shell_type" ID="{D4D8FFAF-C018-44D3-AFF2-2E337C9CCF99}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="4"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{08AF131D-D050-4732-BD35-CB88EBED303E}" SchemaVersion="85">
+	<GameParameters>
+		<WorkUnit Name="Turret" ID="{08AF131D-D050-4732-BD35-CB88EBED303E}" PersistMode="Standalone">
+			<Comment>Turret</Comment>
+			<ChildrenList>
+				<GameParameter Name="RTPC_ext_turret_speed" ID="{DA664E52-3CA7-4B89-A928-53467A09593E}">
+					<Comment>External RTPC - Responsible for vehicle turret rotation. 
+0 – no rotation
+1 – the turret is rotating</Comment>
+					<PropertyList>
+						<Property Name="FilterTimeDown" Type="Real64" Value="0.3"/>
+						<Property Name="FilterTimeUp" Type="Real64" Value="2.5"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+						<Property Name="RTPCRamping" Type="int16" Value="2"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="0"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_ext_turret_weight" ID="{CBED7AA7-B413-47A1-BB55-96A8A0C833EE}">
+					<Comment>External RTPC - Responsible for converting the content into SWITCH_int_turret_weight (depends on a turret weight, tons)</Comment>
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="59"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_ext_turret_damaged" ID="{4D5A39B1-04FF-4DBE-8554-B60A909DA6DD}">
+					<Comment>External RTPC - Responsible for the information on a turret state. 
+0 – the turret is not damaged
+1 – the turret is damaged</Comment>
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

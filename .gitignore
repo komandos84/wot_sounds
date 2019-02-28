@@ -1,47 +1,53 @@
-old_sounds_of_gun/source/WoT_sound_mod.*
 !old_sounds_of_gun/source/WoT_sound_mod.wproj
+old_sounds_of_gun/source/WoT_sound_mod.*
 old_sounds_of_gun/source/GeneratedSoundBanks/*
 old_sounds_of_gun/source/.cache
 old_sounds_of_gun/source/.backup
 
-old_sounds_of_hits/source/WoT_sound_mod.*
 !old_sounds_of_hits/source/WoT_sound_mod.wproj
+old_sounds_of_hits/source/WoT_sound_mod.*
 old_sounds_of_hits/source/GeneratedSoundBanks/*
 old_sounds_of_hits/source/.cache
 old_sounds_of_hits/source/.backup
 
-old_crew_sounds/source/WoT_sound_mod.*
 !old_crew_sounds/source/WoT_sound_mod.wproj
+old_crew_sounds/source/WoT_sound_mod.*
 old_crew_sounds/source/GeneratedSoundBanks/*
 old_crew_sounds/source/.cache
 old_crew_sounds/source/.backup
 
-pancerni_crew_sounds/source/WoT_sound_mod.*
 !pancerni_crew_sounds/source/WoT_sound_mod.wproj
+pancerni_crew_sounds/source/WoT_sound_mod.*
 pancerni_crew_sounds/source/GeneratedSoundBanks/*
 pancerni_crew_sounds/source/.cache
 pancerni_crew_sounds/source/.backup
 
-pingwiny_crew_sounds/source/WoT_sound_mod.*
 !pingwiny_crew_sounds/source/WoT_sound_mod.wproj
+pingwiny_crew_sounds/source/WoT_sound_mod.*
 pingwiny_crew_sounds/source/GeneratedSoundBanks/*
 pingwiny_crew_sounds/source/.cache
 pingwiny_crew_sounds/source/.backup
 
-julian_crew_sounds/source/WoT_sound_mod.*
 !julian_crew_sounds/source/WoT_sound_mod.wproj
+julian_crew_sounds/source/WoT_sound_mod.*
 julian_crew_sounds/source/GeneratedSoundBanks/*
 julian_crew_sounds/source/.cache
 julian_crew_sounds/source/.backup
 
-bomba_crew_sounds/source/WoT_sound_mod.*
 !bomba_crew_sounds/source/WoT_sound_mod.wproj
+bomba_crew_sounds/source/WoT_sound_mod.*
 bomba_crew_sounds/source/GeneratedSoundBanks/*
 bomba_crew_sounds/source/.cache
 bomba_crew_sounds/source/.backup
 
-teamfortress2_crew_sounds/source/WoT_sound_mod.*
 !teamfortress2_crew_sounds/source/WoT_sound_mod.wproj
+teamfortress2_crew_sounds/source/WoT_sound_mod.*
 teamfortress2_crew_sounds/source/GeneratedSoundBanks/*
 teamfortress2_crew_sounds/source/.cache
 teamfortress2_crew_sounds/source/.backup
+
+!vito_crew_sounds/source/WoT_sound_mod.wproj
+vito_crew_sounds/source/WoT_sound_mod.*
+vito_crew_sounds/source/GeneratedSoundBanks/*
+vito_crew_sounds/source/.cache
+vito_crew_sounds/source/.backup

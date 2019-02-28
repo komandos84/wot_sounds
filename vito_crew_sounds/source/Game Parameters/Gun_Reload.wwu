@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{37A94ED0-8F69-4048-AAC1-097D1FA64423}" SchemaVersion="85">
+	<GameParameters>
+		<WorkUnit Name="Gun_Reload" ID="{37A94ED0-8F69-4048-AAC1-097D1FA64423}" PersistMode="Standalone">
+			<Comment>Gun reloading</Comment>
+			<ChildrenList>
+				<GameParameter Name="RTPC_int_reloading_oneshell_sc" ID="{1E846E6D-C727-4192-81EB-704063248606}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="-48"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>
