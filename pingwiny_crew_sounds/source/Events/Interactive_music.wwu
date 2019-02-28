@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" SchemaVersion="85">
+	<Events>
+		<WorkUnit Name="Interactive_music" ID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="interactive_music_volga_corellator" ID="{21674BE4-E336-43B1-8442-854E2402FD72}"/>
+				<Event Name="interactive_music_volga_corellator_stop" ID="{2D88DF7F-0750-45A2-B429-07F016881C7E}"/>
+				<Folder Name="01_Paris" ID="{526FD1D2-659D-4632-8934-78F426CE07FC}" ShortID="576246417">
+					<ChildrenList>
+						<Event Name="music_paris_loading_screen" ID="{2ADDACFB-AD33-4D39-8462-0E20D3B5BB09}"/>
+						<Event Name="music_paris_dron_intensive" ID="{89424637-218D-4D66-8588-1DBAF2EEF1DA}"/>
+						<Event Name="music_paris_result_win" ID="{4F4AC919-0AB5-4ED5-8C34-3BCCB1A1C353}"/>
+						<Event Name="music_paris_result_drawn" ID="{C2B7E5C6-0F28-48FE-AEB5-098BA27EC130}"/>
+						<Event Name="music_paris_result_defeat" ID="{800F1598-4178-4D0C-A026-F7BDC1DE2A66}"/>
+						<Event Name="music_paris_dron_relaxed" ID="{4C7D152A-6A56-4760-9A87-17A052B63911}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="02_Abbey" ID="{EF0D4822-33D2-4135-8470-294C5FA58C78}" ShortID="769961215">
+					<ChildrenList>
+						<Event Name="music_abbey_dron_intensive" ID="{C4132282-DC2E-4CB1-AE2E-D59A487BCD76}"/>
+						<Event Name="music_abbey_dron_relaxed" ID="{DCD6402A-F2BF-4253-A767-000E70D493AE}"/>
+						<Event Name="music_abbey_loading_screen" ID="{E981A3C1-BCF7-448E-BCAC-2C360053782E}"/>
+						<Event Name="music_abbey_result_defeat" ID="{04E3019E-9F7F-4CCE-9E00-530FDD8C0D69}"/>
+						<Event Name="music_abbey_result_win" ID="{A13C8E50-CE28-4C00-A6CF-ED923A4551EE}"/>
+						<Event Name="music_abbey_result_drawn" ID="{BC546195-FBA6-40C1-97F1-0A7934BFD17F}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="03_Sweden" ID="{A0199E05-84E5-4D61-80E7-078BC5DC75A9}" ShortID="455800153">
+					<ChildrenList>
+						<Event Name="music_sweden_dron_intensive" ID="{CB8B7E6E-3CE1-4938-84DA-61F602BE8799}"/>
+						<Event Name="music_sweden_dron_relaxed" ID="{BD0CFE5D-4329-4EA1-805A-E87DE814F0E1}"/>
+						<Event Name="music_sweden_loading_screen" ID="{F824EBB6-B996-4DAC-B672-1A6F9B99510C}"/>
+						<Event Name="music_sweden_result_defeat" ID="{30B15B14-9B49-46C4-9831-6781CCF9F9C3}"/>
+						<Event Name="music_sweden_result_win" ID="{CB735339-FCA2-460C-B46E-4C02D0064924}"/>
+						<Event Name="music_sweden_result_drawn" ID="{220F902F-3578-4778-A036-9AB424048571}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="04_Mines" ID="{B1546101-7DBC-485A-8F64-65A91D170CB5}" ShortID="389669175">
+					<ChildrenList>
+						<Event Name="music_mines_dron_intensive" ID="{DD5F759A-B012-457F-B73D-1A4792FF0CE9}"/>
+						<Event Name="music_mines_dron_relaxed" ID="{B896DB50-8873-4A3C-B12D-6641DF42AE13}"/>
+						<Event Name="music_mines_loading_screen" ID="{F2091AA2-0DD0-4205-8C3D-58D867EDE75F}"/>
+						<Event Name="music_mines_result_defeat" ID="{FF7318AA-A7C5-4D22-9F78-F2FF2A3883A7}"/>
+						<Event Name="music_mines_result_win" ID="{266A679C-6FED-48CE-9AA8-5A15E086E02F}"/>
+						<Event Name="music_mines_result_drawn" ID="{6DABE1F3-51B7-4D7B-906E-88D6D8FE4D1B}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="05_Malinovka" ID="{3A429F7D-7E3C-4CCE-A76B-6D3348530D37}" ShortID="564682881">
+					<ChildrenList>
+						<Event Name="music_malinovka_dron_intensive" ID="{00C43303-5414-40A9-ACD4-F735C8D682EB}"/>
+						<Event Name="music_malinovka_dron_relaxed" ID="{1C5E5503-C5AF-43E3-9251-01A96217BCE5}"/>
+						<Event Name="music_malinovka_loading_screen" ID="{D7EC7419-5039-4DF5-BB78-D380AA03D20B}"/>
+						<Event Name="music_malinovka_result_defeat" ID="{12F1D9FD-D0E6-4939-81D9-608657673F98}"/>
+						<Event Name="music_malinovka_result_win" ID="{BC2E0BA0-0894-41F8-B0CF-FB68ECCC001D}"/>
+						<Event Name="music_malinovka_result_drawn" ID="{6689A255-995A-4F3E-883D-0A64FACEFA40}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="06_Steppes" ID="{518655D4-B05D-4B00-9BC3-C38D6445004B}" ShortID="652525001">
+					<ChildrenList>
+						<Event Name="music_steppes_dron_intensive" ID="{A406AFCD-F0AF-434E-8211-35E126DB77EA}"/>
+						<Event Name="music_steppes_dron_relaxed" ID="{39770045-4233-4328-9586-DFD8903C1A55}"/>
+						<Event Name="music_steppes_loading_screen" ID="{9D9D55F6-8705-42DA-A6CA-22D3A5E0BCF7}"/>
+						<Event Name="music_steppes_result_defeat" ID="{1290B539-5C79-454A-9640-FAD7693926A1}"/>
+						<Event Name="music_steppes_result_win" ID="{FF0CBF3A-663E-4320-8B18-D4698C7026E8}"/>
+						<Event Name="music_steppes_result_drawn" ID="{8351C8F5-676F-4571-B8BF-02D12042B498}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="07_Himmelsdorf" ID="{E47B721A-B6C0-44DB-89EE-B45716B1B4C4}" ShortID="350584189">
+					<ChildrenList>
+						<Event Name="music_himmelsdorf_dron_intensive" ID="{A7E56FA8-C9D8-47CF-B9FF-7196A9516AAF}"/>
+						<Event Name="music_himmelsdorf_dron_relaxed" ID="{F65BCC2D-EC82-4124-A7A3-F77B3989DA56}"/>
+						<Event Name="music_himmelsdorf_loading_screen" ID="{62991C89-4469-4172-B9D0-B6CA4C5030FF}"/>
+						<Event Name="music_himmelsdorf_result_defeat" ID="{8D93F33B-75F3-42DB-962B-1F3435553587}"/>
+						<Event Name="music_himmelsdorf_result_win" ID="{275E48BF-0A47-4180-9207-269C5C2C7A6D}"/>
+						<Event Name="music_himmelsdorf_result_drawn" ID="{F2388AD2-0961-4FEA-9553-E3A3E4450C8E}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="08_Overlord" ID="{54FDDF75-47E4-47EB-A5CE-75CB37A87C94}" ShortID="19189354">
+					<ChildrenList>
+						<Event Name="music_overlord_dron_intensive" ID="{8F3A3BCF-ED7C-486C-87CD-E699F3696DC4}"/>
+						<Event Name="music_overlord_dron_relaxed" ID="{858F3B7A-4358-48A8-809F-5901A77820D0}"/>
+						<Event Name="music_overlord_loading_screen" ID="{597EE28B-CB5B-40AF-B985-8954EE673CAD}"/>
+						<Event Name="music_overlord_result_defeat" ID="{539F105A-C984-46AE-A48C-3A543605065B}"/>
+						<Event Name="music_overlord_result_win" ID="{801AD6C5-6774-406B-9CE8-B12A78864CA1}"/>
+						<Event Name="music_overlord_result_drawn" ID="{58C6EBC3-6831-4554-9EC6-6D73EDD8EC11}"/>
+					</ChildrenList>
+				</Folder>
+				<Event Name="music_stinger" ID="{FA160C85-64FD-406A-8A60-DD990F410A19}"/>
+				<Event Name="music_dron_stop" ID="{923A6E64-EF55-478C-834A-34BF06F67DAA}"/>
+				<Event Name="music_dron_endbattle_stop" ID="{667BEFA3-519E-4D90-BFF5-F365AFA0FEAE}"/>
+				<Folder Name="09_Ensk" ID="{6756EE01-3D13-4168-82C0-CC9DA941FB98}" ShortID="500069978">
+					<ChildrenList>
+						<Event Name="music_ensk_dron_intensive" ID="{E08A72D5-CCC7-4233-85B3-1C3B2F92F284}"/>
+						<Event Name="music_ensk_dron_relaxed" ID="{A134AB63-E8D5-4C6A-885F-62E661BF8733}"/>
+						<Event Name="music_ensk_loading_screen" ID="{A3E6EAC8-A323-4E41-8B61-58AD73CBE4DD}"/>
+						<Event Name="music_ensk_result_defeat" ID="{6C705D48-A360-4430-95DF-35089B056020}"/>
+						<Event Name="music_ensk_result_win" ID="{B8E811C6-0CDA-4D6B-9FCF-38C29FDC501C}"/>
+						<Event Name="music_ensk_result_drawn" ID="{0B7F5772-5EFD-4D3F-A9B9-70EC1943DE78}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="10_Serene_coast" ID="{9BA71353-6C0D-42C7-B787-F24DCEBE6B9F}" ShortID="313018343">
+					<ChildrenList>
+						<Event Name="music_serene_coast_dron_intensive" ID="{F05BDC35-E76D-4078-8BD6-D5624B505612}"/>
+						<Event Name="music_serene_coast_dron_relaxed" ID="{7B1A7F91-B2EB-4505-9A6B-937A63065787}"/>
+						<Event Name="music_serene_coast_loading_screen" ID="{B81A22E7-BD57-4B1F-9B21-6BC0E8763105}"/>
+						<Event Name="music_serene_coast_result_defeat" ID="{A03AACED-2DB3-48DB-A89F-F1400E2164FC}"/>
+						<Event Name="music_serene_coast_result_win" ID="{E1A8B54B-2D07-45E6-8C6E-2E1775310BFE}"/>
+						<Event Name="music_serene_coast_result_drawn" ID="{FA702C0A-9D34-479F-960A-23C3DB0E7BA8}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="11_Cliff" ID="{4FBED6B2-4BAA-41EC-A3E5-A1BA74226BC4}" ShortID="102750577">
+					<ChildrenList>
+						<Event Name="music_cliff_dron_intensive" ID="{5F8E801F-1AB4-4DEA-A944-31B92FA5AF1C}"/>
+						<Event Name="music_cliff_dron_relaxed" ID="{EE9039FD-E6A1-4F9A-8BCD-C1AAA8843432}"/>
+						<Event Name="music_cliff_loading_screen" ID="{8E5CD26E-6EEA-4E4A-BDB0-DD2219D57800}"/>
+						<Event Name="music_cliff_result_defeat" ID="{F9EB824F-8DF1-434C-A927-2C69979AD47A}"/>
+						<Event Name="music_cliff_result_win" ID="{7923F95C-E009-490D-B9A2-D600CD17BC69}"/>
+						<Event Name="music_cliff_result_drawn" ID="{F36AE8BC-7A29-4349-A7DE-C0E2C4B64CEC}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="12_Murovanka" ID="{F72926FB-9722-4FAC-8F72-FAF8E0A06D49}" ShortID="362449830">
+					<ChildrenList>
+						<Event Name="music_murovanka_dron_intensive" ID="{754245C9-952A-4482-AF34-A7EA9A349223}"/>
+						<Event Name="music_murovanka_dron_relaxed" ID="{C2B85E09-EED2-450C-9355-B7E70CDF6BB1}"/>
+						<Event Name="music_murovanka_loading_screen" ID="{42A10347-02B3-4225-886C-8A88075D0FA3}"/>
+						<Event Name="music_murovanka_result_defeat" ID="{4BB52B4B-180D-46B4-A83A-EFAB3710C967}"/>
+						<Event Name="music_murovanka_result_win" ID="{CCF3FB8A-8035-487B-87E8-825A651BD8A4}"/>
+						<Event Name="music_murovanka_result_drawn" ID="{9844B85C-F789-4651-972B-5FE5D242CF49}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="13_Prokhorovka" ID="{23D0E3F5-21DF-49A9-AE7F-84A61AC3DEB7}" ShortID="572844035">
+					<ChildrenList>
+						<Event Name="music_prokhorovka_dron_intensive" ID="{553202BE-ED25-4801-913F-5C279A36CCCF}"/>
+						<Event Name="music_prokhorovka_dron_relaxed" ID="{78577DCB-732D-4ADD-B771-2CB7F84B87C1}"/>
+						<Event Name="music_prokhorovka_loading_screen" ID="{0294CDE2-E489-48D7-B6E0-53B4B03797DA}"/>
+						<Event Name="music_prokhorovka_result_defeat" ID="{F4AA4EE3-B59D-42C2-B96A-B58474437A79}"/>
+						<Event Name="music_prokhorovka_result_win" ID="{6181DE57-65AA-4DEB-99DE-1BD0A641CD8C}"/>
+						<Event Name="music_prokhorovka_result_drawn" ID="{FCDE2990-C86F-49E8-9B13-6E833608E65A}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="14_Sand_river" ID="{14F44DB3-1DC6-425F-BB67-DE20138BEE18}" ShortID="716231949">
+					<ChildrenList>
+						<Event Name="music_sand_river_dron_intensive" ID="{28E55577-78C5-48A3-9C46-3C53E1EF756D}"/>
+						<Event Name="music_sand_river_dron_relaxed" ID="{3EF1149E-795F-486A-9DD0-D8D87D10599B}"/>
+						<Event Name="music_sand_river_loading_screen" ID="{191CC454-086A-44BE-A0F3-EE3BD95EC53A}"/>
+						<Event Name="music_sand_river_result_defeat" ID="{5DDEE3FE-2B49-4CBE-8412-7CC0B9F16B40}"/>
+						<Event Name="music_sand_river_result_win" ID="{181E3AF8-A7EA-454F-AF4A-0E1144353A38}"/>
+						<Event Name="music_sand_river_result_drawn" ID="{DC4FD692-12ED-481C-986A-2B505D41A7E0}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="15_El_halluf" ID="{7584343D-EA7D-4DD2-BFD5-7BFA777CF4CD}" ShortID="1043836913">
+					<ChildrenList>
+						<Event Name="music_el_halluf_dron_intensive" ID="{EE4EC503-1A57-42AD-A3C8-A60ECDC905D6}"/>
+						<Event Name="music_el_halluf_dron_relaxed" ID="{236AD24D-5BDF-433F-B4AB-9FFC3A900ABA}"/>
+						<Event Name="music_el_halluf_loading_screen" ID="{63D23288-F9E9-497B-B1D7-33F3AFC2D04B}"/>
+						<Event Name="music_el_halluf_result_defeat" ID="{FF1686D6-27CF-4FDD-8457-3D736A964CB3}"/>
+						<Event Name="music_el_halluf_result_win" ID="{0F1B3289-A88D-4659-8805-E71F1C5223B0}"/>
+						<Event Name="music_el_halluf_result_drawn" ID="{350D92AF-1ACE-48D7-BF86-D80A080C4072}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="16_Caucasus" ID="{A98CFDDB-449E-47FF-ADF4-B9FFEF453005}" ShortID="844795513">
+					<ChildrenList>
+						<Event Name="music_caucasus_dron_intensive" ID="{0630C601-E351-4593-ABDE-1472E823E6C2}"/>
+						<Event Name="music_caucasus_dron_relaxed" ID="{73325B2E-4542-4BCB-8559-058E58448B75}"/>
+						<Event Name="music_caucasus_loading_screen" ID="{59FC397E-F884-4359-8A17-BB672A166C99}"/>
+						<Event Name="music_caucasus_result_defeat" ID="{F2997976-7CF2-485F-AD4E-77E23AFB9535}"/>
+						<Event Name="music_caucasus_result_win" ID="{EB43915E-48D8-4D52-BADD-95962AD0912A}"/>
+						<Event Name="music_caucasus_result_drawn" ID="{B108FF4F-82EB-4466-B1A9-5D2C19B63CC9}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="17_Ruinberg" ID="{BDE35647-6CA3-4668-9B3D-112E35A90305}" ShortID="156344690">
+					<ChildrenList>
+						<Event Name="music_ruinberg_dron_intensive" ID="{3B20CB25-7F5C-4D50-8BF6-CC5485578606}"/>
+						<Event Name="music_ruinberg_dron_relaxed" ID="{897373A1-2E20-4F2E-90D8-A2DF15BFF39A}"/>
+						<Event Name="music_ruinberg_loading_screen" ID="{36D8150F-14BB-4F7E-8064-74F034F3392B}"/>
+						<Event Name="music_ruinberg_result_defeat" ID="{A4565139-5FE2-4D0D-ABAD-D907E4475DC3}"/>
+						<Event Name="music_ruinberg_result_win" ID="{CC8CBE55-CE36-4171-96A5-BD1522544B32}"/>
+						<Event Name="music_ruinberg_result_drawn" ID="{9B2E1920-BD69-46C7-85E9-0C5489DDAF9F}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="18_Airfield" ID="{9E6B3918-38F6-42E7-BFC4-29FBAF180C2D}" ShortID="811784845">
+					<ChildrenList>
+						<Event Name="music_airfield_dron_intensive" ID="{57ED4C51-7633-4139-A5ED-495DF0B317A6}"/>
+						<Event Name="music_airfield_dron_relaxed" ID="{C6A00281-ED88-4BF4-80FE-1D3DC1F964CF}"/>
+						<Event Name="music_airfield_loading_screen" ID="{416C64F3-517C-4A5E-BD29-06791A50E2CE}"/>
+						<Event Name="music_airfield_result_defeat" ID="{CDD1B814-20EA-4578-AF76-84D56D9A416E}"/>
+						<Event Name="music_airfield_result_win" ID="{7F0AB853-B7C7-44AA-92AA-BB1F4E45ED08}"/>
+						<Event Name="music_airfield_result_drawn" ID="{C9C179EF-AF2E-4D58-96AB-A29944B22112}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Hangar_v3" ID="{CD5B7E92-CC26-4A8A-9826-3D1BE8ED6BDB}" ShortID="222213903">
+					<ChildrenList>
+						<Event Name="hangar_v3_music" ID="{5F7997B5-0A10-4E7A-8E48-50D58C3AC1D4}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="19_Lakeville" ID="{2E82A6B7-94B2-4A85-8CB4-D4F66A1A3BD3}" ShortID="665288429">
+					<ChildrenList>
+						<Event Name="music_lakeville_dron_intensive" ID="{A909C1F6-B281-4F80-B3E1-287C030D10A6}"/>
+						<Event Name="music_lakeville_dron_relaxed" ID="{29B0DAE8-81A3-47B6-BE8D-9D011AC887C4}"/>
+						<Event Name="music_lakeville_loading_screen" ID="{E2B57466-D12E-477E-8AC5-B34B95FAE085}"/>
+						<Event Name="music_lakeville_result_defeat" ID="{9025D95E-8BA6-4FD2-A49A-F24F28F93AC7}"/>
+						<Event Name="music_lakeville_result_win" ID="{D7871879-37F8-43DF-BA6D-F7ADAEEFE742}"/>
+						<Event Name="music_lakeville_result_drawn" ID="{766C0454-E4E1-4B34-9F73-7C1AE77FC5F5}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="20_Live_oaks" ID="{15457EE1-D74A-4613-BE05-08781AC30F9D}" ShortID="861050692">
+					<ChildrenList>
+						<Event Name="music_liveoaks_dron_intensive" ID="{17185408-AE37-488C-B22A-415F087949FB}"/>
+						<Event Name="music_liveoaks_dron_relaxed" ID="{C83A00D7-FF88-44A5-AC1C-A8DCAB8AB96E}"/>
+						<Event Name="music_liveoaks_loading_screen" ID="{1E198A32-6864-4801-874A-A6A4C34B8807}"/>
+						<Event Name="music_liveoaks_result_defeat" ID="{62F6C38C-D54B-4BD2-A32C-CEBE53F312D8}"/>
+						<Event Name="music_liveoaks_result_win" ID="{6672F89A-B0C3-4507-9614-9B713C79335B}"/>
+						<Event Name="music_liveoaks_result_drawn" ID="{119C90BC-5CA0-40E2-8C6C-91020229D6B8}"/>
+					</ChildrenList>
+				</Folder>
+				<Event Name="music_dron_stop_temporary" ID="{28D88457-DC9C-4BB8-8D8F-E1C4C003B274}">
+					<Comment>Empty event placeholder</Comment>
+				</Event>
+				<Event Name="music_dron_endbattle_stop_temporary" ID="{63C84336-79EC-4031-8B3B-3876E00DCC90}">
+					<Comment>Empty event placeholder</Comment>
+				</Event>
+				<Folder Name="21_Karelia" ID="{BF9B757D-E0C3-4C9B-99B0-C68FC752112C}" ShortID="100608626">
+					<ChildrenList>
+						<Event Name="music_karelia_dron_intensive" ID="{B4CC7B7E-51DD-4BCF-AD7A-92D162FC3251}"/>
+						<Event Name="music_karelia_dron_relaxed" ID="{A0C8A58B-F018-4A9A-BD4F-7BD952E3C327}"/>
+						<Event Name="music_karelia_loading_screen" ID="{59550DFF-F23E-4891-8851-4222A06BF993}"/>
+						<Event Name="music_karelia_result_defeat" ID="{F810B239-3690-4D2F-987D-90B4AD45E882}"/>
+						<Event Name="music_karelia_result_win" ID="{FB855919-DD65-4BE9-AD49-FADD0B61429D}"/>
+						<Event Name="music_karelia_result_drawn" ID="{BDD99FDB-EB67-4D59-BAF6-025F751049D7}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="22_Siegfried" ID="{03B7EFA2-3840-4BA7-8107-B9728A843A1A}" ShortID="473783493">
+					<ChildrenList>
+						<Event Name="music_siegfried_dron_intensive" ID="{9991B82F-853E-429E-9C0D-DB894E0FB012}"/>
+						<Event Name="music_siegfried_dron_relaxed" ID="{C2BD0252-82E6-4FEE-8F82-C15DC81C7FB4}"/>
+						<Event Name="music_siegfried_loading_screen" ID="{8D02FC8C-5468-46D5-B175-E15F1C871D05}"/>
+						<Event Name="music_siegfried_result_defeat" ID="{2C33DE66-E2F7-418B-8CC1-50E93786DB48}"/>
+						<Event Name="music_siegfried_result_win" ID="{D9E24C26-EC77-4756-9A62-7EE23A450EA5}"/>
+						<Event Name="music_siegfried_result_drawn" ID="{A50D8091-366C-411F-AE15-F155FBF0CDDE}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="23_Mannerheim" ID="{56A35887-2809-4056-940D-EB1786166781}" ShortID="409314362">
+					<ChildrenList>
+						<Event Name="music_mannerheim_dron_intensive" ID="{4C8FCEE4-494D-414A-B87C-A4C649371DE3}"/>
+						<Event Name="music_mannerheim_dron_relaxed" ID="{DE3BD7B6-41E6-448C-9E97-0795FC363539}"/>
+						<Event Name="music_mannerheim_loading_screen" ID="{30B8166C-4E23-413E-8794-562C7346B7D0}"/>
+						<Event Name="music_mannerheim_result_defeat" ID="{18CAE380-7DF4-43A7-8D85-472F4B1074F0}"/>
+						<Event Name="music_mannerheim_result_win" ID="{8F21F4ED-76CF-4C68-9DF8-48D29FE2D4E2}"/>
+						<Event Name="music_mannerheim_result_drawn" ID="{0FFAFA26-7DB1-4994-A496-F78698376977}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="24_Redshire" ID="{C496E461-F224-4712-B108-E13AC59C134A}" ShortID="411944868">
+					<ChildrenList>
+						<Event Name="music_redshire_dron_intensive" ID="{27D18B08-E1A8-4255-87DD-6F252322B545}"/>
+						<Event Name="music_redshire_dron_relaxed" ID="{2F191D27-FB7F-4E07-A14D-E18382216A99}"/>
+						<Event Name="music_redshire_loading_screen" ID="{08EA37A0-0D02-458A-8C5A-CD09685B0BB9}"/>
+						<Event Name="music_redshire_result_defeat" ID="{B33758B4-B705-414A-90A1-0375845A9026}"/>
+						<Event Name="music_redshire_result_win" ID="{2EB9BC63-5653-4687-8FEF-4830CFD3A1AC}"/>
+						<Event Name="music_redshire_result_drawn" ID="{A923BC02-73AA-4A6E-AE7F-F74E7B5419B7}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="25_Fjords" ID="{B74882CC-0F29-4174-8DAD-C06680213F7E}" ShortID="903974013">
+					<ChildrenList>
+						<Event Name="music_fjords_dron_intensive" ID="{15D9EC2C-36EE-4567-85F5-6A781EB35495}"/>
+						<Event Name="music_fjords_dron_relaxed" ID="{C48CFE71-9876-434D-A783-4DD41FB6D520}"/>
+						<Event Name="music_fjords_loading_screen" ID="{A9E82256-1557-4C01-A874-53BD511968EC}"/>
+						<Event Name="music_fjords_result_defeat" ID="{6D8486FC-F0C7-422A-9454-568B1365BBC6}"/>
+						<Event Name="music_fjords_result_win" ID="{7886B1AF-FD57-404F-A108-C23B0E88C125}"/>
+						<Event Name="music_fjords_result_drawn" ID="{25FA59B6-03BF-447E-8B25-42947B00BB04}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="26_Westfield" ID="{78A22FDE-6D50-456B-B7A3-143231D1DF5F}" ShortID="710975209">
+					<ChildrenList>
+						<Event Name="music_westfield_dron_intensive" ID="{1E8BD7A0-4378-44D3-B8F9-57DA2301E615}"/>
+						<Event Name="music_westfield_dron_relaxed" ID="{FA02689E-1763-4724-854C-10E81A7CC223}"/>
+						<Event Name="music_westfield_loading_screen" ID="{7A241F7C-D9D4-476D-8ABC-81847B634F44}"/>
+						<Event Name="music_westfield_result_defeat" ID="{E22DE7ED-ACCA-4755-9160-D901F7AC48B6}"/>
+						<Event Name="music_westfield_result_win" ID="{30B3FC3D-2C91-4E86-BCB6-DB13A46D5CB5}"/>
+						<Event Name="music_westfield_result_drawn" ID="{50CD3E13-7D79-4CAD-A2DF-6FD3DF39AAE4}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="27_Erlenberg" ID="{13216ECF-217E-41B0-8DC0-A4DC2AEA8871}" ShortID="235894284">
+					<ChildrenList>
+						<Event Name="music_erlenberg_dron_intensive" ID="{110DED94-ADB4-408C-9657-F7C791736B36}"/>
+						<Event Name="music_erlenberg_dron_relaxed" ID="{642E39C4-7229-446D-8218-0005D388A694}"/>
+						<Event Name="music_erlenberg_loading_screen" ID="{EBD208ED-E385-4B17-8240-2C34A656767C}"/>
+						<Event Name="music_erlenberg_result_defeat" ID="{3B5F95D5-272D-4F08-AF31-183C07C9B890}"/>
+						<Event Name="music_erlenberg_result_win" ID="{B88E836C-498C-4398-9EEE-C19618FBCDEE}"/>
+						<Event Name="music_erlenberg_result_drawn" ID="{101469E3-DB13-4C1B-AE76-5DF97CE9B9AC}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="28_Fishing_bay" ID="{E33CCEB7-94FA-449A-8311-7FE04875F96F}" ShortID="903573683">
+					<ChildrenList>
+						<Event Name="music_fishingbay_dron_intensive" ID="{CB856C98-A63E-4868-8CC8-E1ABB5B14E5B}"/>
+						<Event Name="music_fishingbay_dron_relaxed" ID="{A0601D15-BB4D-436F-BDFC-1E22A7D468C1}"/>
+						<Event Name="music_fishingbay_loading_screen" ID="{8ED068E0-E67B-438E-8CEA-6C9996B78477}"/>
+						<Event Name="music_fishingbay_result_defeat" ID="{1B55CB00-13AA-4293-B3CA-21E666FE37EC}"/>
+						<Event Name="music_fishingbay_result_win" ID="{8BDB90C6-F1F2-4A1C-A180-3031DDC75EED}"/>
+						<Event Name="music_fishingbay_result_drawn" ID="{0446503A-CBCB-46AF-B19C-66FC09F6FF9A}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="29_Tundra" ID="{19E4996B-B290-422F-A4D8-B8234C8E6877}" ShortID="231330657">
+					<ChildrenList>
+						<Event Name="music_tundra_dron_intensive" ID="{168487DE-E13D-452A-A0A8-AB587E45DC02}"/>
+						<Event Name="music_tundra_dron_relaxed" ID="{86118C01-FB29-4854-9F21-0924B0A9812F}"/>
+						<Event Name="music_tundra_loading_screen" ID="{397B6F03-6938-4355-B125-BAC1E34E9BC0}"/>
+						<Event Name="music_tundra_result_defeat" ID="{0293626B-83A0-4F80-ABD5-DC2EC2F60FB9}"/>
+						<Event Name="music_tundra_result_win" ID="{A3C2CB58-92AF-4C11-AF3D-20786FD91ABA}"/>
+						<Event Name="music_tundra_result_drawn" ID="{38F4F683-FC53-4852-996F-34BEFC202F35}"/>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

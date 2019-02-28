@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D7C341A7-85B4-45B2-A961-7C6CDF3A5F5C}" SchemaVersion="85">
+	<GameParameters>
+		<WorkUnit Name="Ambient" ID="{D7C341A7-85B4-45B2-A961-7C6CDF3A5F5C}" PersistMode="Standalone">
+			<Comment>Ambience</Comment>
+			<ChildrenList>
+				<Folder Name="trees" ID="{ABEA30D1-9DC4-4378-BEF3-B141BCF6C1AF}" ShortID="247128117">
+					<Comment>Trees</Comment>
+					<ChildrenList>
+						<GameParameter Name="RTPC_ext_wind_intensity" ID="{85FF4BAC-56B3-4715-84DA-AB5C4A348BEC}">
+							<Comment>External RTPC - Wind intensity on maps</Comment>
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="15"/>
+								<Property Name="RTPCRamping" Type="int16" Value="1"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="30"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="30"/>
+							</PropertyList>
+						</GameParameter>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="wind" ID="{D91F9CD7-DBF8-45AC-824A-7FACD54E5F3A}" ShortID="618804568">
+					<Comment>Wind</Comment>
+					<ChildrenList>
+						<GameParameter Name="RTPC_ext_camera_height" ID="{F309BDB8-3F92-4EC6-8AD9-8F2FD6F8D393}">
+							<Comment>External RTPC - Camera height above the terrain</Comment>
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="150"/>
+								<Property Name="RTPCRamping" Type="int16" Value="1"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="150"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="150"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_ext_camera_speed" ID="{D7EE89E4-0E56-4BB6-B985-F424377D6E8A}">
+							<Comment>External RTPC - quick camera rotation relatively to the vehicle axis</Comment>
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="700"/>
+								<Property Name="RTPCRamping" Type="int16" Value="1"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="700"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="700"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_ext_camera_height_rel" ID="{D495E74F-1A52-4C61-9CFE-422C50516CC2}">
+							<Comment>External RTPC - Relative camera height above the terrain (horizon)
+100 m - since vehicles may be located on hills.</Comment>
+							<PropertyList>
+								<Property Name="FilterTimeDown" Type="Real64" Value="1"/>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="RTPCRamping" Type="int16" Value="2"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="70"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="70"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_int_wind_ducking_amount" ID="{F504734F-D5CF-4890-9218-01CAE96B04D2}">
+							<Comment>Internal RTPC - Required for converting the wind volume level into the RTPC parameter (Wwise Meter) that subsequently can be used as ducking for adjusting the volume of a different sound.</Comment>
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="-48"/>
+								<Property Name="Max" Type="Real64" Value="0"/>
+								<Property Name="Min" Type="Real64" Value="-48"/>
+							</PropertyList>
+						</GameParameter>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="water" ID="{A7BFE818-53FB-4962-96CF-D8EE3BB42549}" ShortID="46910914">
+					<Comment>Water</Comment>
+					<ChildrenList>
+						<GameParameter Name="RTPC_int_waterfall_distance" ID="{83B5A6B8-5E09-4FFA-8A6D-0C665A1CE7B2}">
+							<Comment>Internal RTPC - Used for changing the sound (waterfall) at a distance of up to 250 m</Comment>
+							<PropertyList>
+								<Property Name="BindToBuiltInParam" Type="int16" Value="1"/>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="250"/>
+							</PropertyList>
+						</GameParameter>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

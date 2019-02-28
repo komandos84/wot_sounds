@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7C99CADD-28CC-4AC3-A486-55E1450D97D7}" SchemaVersion="85">
+	<Modulators>
+		<WorkUnit Name="Personal_missions" ID="{7C99CADD-28CC-4AC3-A486-55E1450D97D7}" PersistMode="Standalone">
+			<ChildrenList>
+				<ModulatorLfo Name="pm_soldiers_steps_01" ID="{4E593A39-7C31-4C08-8BE5-5BC930713939}" ShortID="142466172">
+					<PropertyList>
+						<Property Name="LfoFrequency" Type="Real64" Value="0.008"/>
+					</PropertyList>
+				</ModulatorLfo>
+				<ModulatorEnvelope Name="pm_soldiers_steps_02" ID="{95A037B7-3CBC-45AF-8CBF-B3A4B7D181CE}" ShortID="634447282">
+					<PropertyList>
+						<Property Name="EnvelopeAttackTime" Type="Real64" Value="60"/>
+						<Property Name="EnvelopeDecayTime" Type="Real64" Value="5"/>
+					</PropertyList>
+				</ModulatorEnvelope>
+				<ModulatorLfo Name="pm_wind_overlay" ID="{F34AC502-80B1-4FB0-A180-9DE5838169B3}" ShortID="800624434">
+					<PropertyList>
+						<Property Name="LfoFrequency" Type="Real64" Value="0.05"/>
+					</PropertyList>
+				</ModulatorLfo>
+				<ModulatorLfo Name="pm_wind_overlay_birds" ID="{9B7B7F1A-56B3-4C7F-A25E-2DD728E14A32}" ShortID="601448307">
+					<PropertyList>
+						<Property Name="LfoFrequency" Type="Real64" Value="0.03"/>
+					</PropertyList>
+				</ModulatorLfo>
+			</ChildrenList>
+		</WorkUnit>
+	</Modulators>
+</WwiseDocument>

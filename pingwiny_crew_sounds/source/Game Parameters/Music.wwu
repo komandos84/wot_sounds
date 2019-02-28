@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0B97D1E6-A360-4851-AC1C-91C973104188}" SchemaVersion="85">
+	<GameParameters>
+		<WorkUnit Name="Music" ID="{0B97D1E6-A360-4851-AC1C-91C973104188}" PersistMode="Standalone">
+			<Comment>Music</Comment>
+			<ChildrenList>
+				<GameParameter Name="RTPC_music_hangar_23feb_35m" ID="{B4FEE3B4-36F2-4D3E-B845-A6E4A5393E0C}">
+					<Comment>Internal RTPC - Determines the rules of playing vepsrb at a distance of up to 35 m</Comment>
+					<PropertyList>
+						<Property Name="BindToBuiltInParam" Type="int16" Value="1"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="35"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_music_hangar_1_may_50m" ID="{1775E6A2-3FFD-4A64-8B29-AE89DC9FA0FF}">
+					<Comment>Internal RTPC - Determines the rules of playing vepsrb at a distance of up to 50 m</Comment>
+					<PropertyList>
+						<Property Name="BindToBuiltInParam" Type="int16" Value="1"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="50"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_music_hangar_cn_1_oct" ID="{BB350F16-E6DA-48C9-90B0-F9236903E5E9}">
+					<Comment>Internal RTPC - Determines the rules of playing vepsrb at a distance of up to 15 m</Comment>
+					<PropertyList>
+						<Property Name="BindToBuiltInParam" Type="int16" Value="1"/>
+						<Property Name="InitialValue" Type="Real64" Value="5"/>
+						<Property Name="Max" Type="Real64" Value="15"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

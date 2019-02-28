@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D027AE09-B077-4EB1-BD21-F03F0DED8F4A}" SchemaVersion="85">
+	<MixingSessions>
+		<WorkUnit Name="Main Mix" ID="{D027AE09-B077-4EB1-BD21-F03F0DED8F4A}" PersistMode="Standalone">
+			<ChildrenList>
+				<MixingSession Name="eng" ID="{BD8D7DD1-0449-4CD4-A34B-024C0D8B13C9}">
+					<ObjectList>
+						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}"/>
+					</ObjectList>
+				</MixingSession>
+				<MixingSession Name="trds" ID="{D6DCD7DC-0E38-47B4-BAD1-F7E82AA56454}">
+					<ObjectList>
+						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}"/>
+					</ObjectList>
+				</MixingSession>
+				<MixingSession Name="wpn" ID="{4D076D70-4D4C-4427-8A20-21D6D220E01D}">
+					<ObjectList>
+						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}"/>
+					</ObjectList>
+				</MixingSession>
+				<MixingSession Name="imp" ID="{F44CFF93-1864-40CB-B47E-4E5D2FD0F2EF}">
+					<ObjectList>
+						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}"/>
+					</ObjectList>
+				</MixingSession>
+				<MixingSession Name="expl" ID="{D818E206-43AA-4B8F-85F3-C95E49FAC21D}">
+					<ObjectList>
+						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}"/>
+					</ObjectList>
+				</MixingSession>
+				<MixingSession Name="Buses" ID="{4C4D95F7-909F-48C9-B75E-807C0B98A5C8}">
+					<ObjectList>
+						<ObjectRef Name="Personal_missions" ID="{A17B1F7A-7FB4-40BE-BD04-52012C51B30A}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}"/>
+						<ObjectRef Name="AUX_reverb_hangar_dark_sfx_pm" ID="{26544B92-0DF6-4B3C-BF95-81CB50D2A687}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}"/>
+						<ObjectRef Name="AUX_reverb_hangar_light_sfx_pm" ID="{F149A827-F2EB-4380-A377-B02082060E89}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}"/>
+						<ObjectRef Name="020_gui_simple" ID="{AC03A99D-ED85-4C59-AA89-7D65EA672C8B}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}"/>
+						<ObjectRef Name="AUX_reverb_hangar_dark_gui" ID="{57CE6E51-4B80-4AAC-8A32-B599F8F24495}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}"/>
+						<ObjectRef Name="AUX_reverb_hangar_Forest_gui" ID="{684ED773-C912-476D-B79B-C461652E8600}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}"/>
+						<ObjectRef Name="AUX_reverb_hangar_light_gui" ID="{9EF2D2BD-36E2-431C-B504-F4455B0EC949}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}"/>
+					</ObjectList>
+				</MixingSession>
+			</ChildrenList>
+		</WorkUnit>
+	</MixingSessions>
+</WwiseDocument>

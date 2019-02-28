@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F45BC171-F034-453C-9349-26A4ADF3427A}" SchemaVersion="85">
+	<Events>
+		<WorkUnit Name="Tutorial_voice" ID="{F45BC171-F034-453C-9349-26A4ADF3427A}" PersistMode="Standalone">
+			<Comment>Battle Training</Comment>
+			<ChildrenList>
+				<Event Name="advance" ID="{5058D747-133F-45B8-AC8A-F5CF48860369}">
+					<Comment>Event -</Comment>
+				</Event>
+				<Event Name="aiming" ID="{FD1E96F9-F74E-47A0-8509-C9007E50383A}">
+					<Comment>Event -</Comment>
+				</Event>
+				<Event Name="aim" ID="{89C2C3D1-E044-4F83-BF7A-56E48CF0DFBA}">
+					<Comment>Event -</Comment>
+				</Event>
+				<Event Name="control" ID="{B463EF37-4156-4E34-85F4-E8F66EEC6317}">
+					<Comment>Event -</Comment>
+				</Event>
+				<Event Name="congratulations" ID="{07E2E402-E25F-431E-B306-017D3638F06B}">
+					<Comment>Event -</Comment>
+				</Event>
+				<Event Name="camouflage" ID="{D350B9A7-0F5B-49D5-BFD3-431D2D3D7C85}">
+					<Comment>Event -</Comment>
+				</Event>
+				<Event Name="auto" ID="{51C7165C-F18E-47B7-A23D-D86978864BCB}">
+					<Comment>Event -</Comment>
+				</Event>
+				<Event Name="attack" ID="{866A97E2-CEFE-417B-9DD0-1B4F073F0CDB}">
+					<Comment>Event -</Comment>
+				</Event>
+				<Event Name="dispersion" ID="{C9EDFD5C-9BF1-450B-931D-95331BAA66C2}">
+					<Comment>Event -</Comment>
+				</Event>
+				<Event Name="destroyed" ID="{B8ED9D19-08E7-4DAB-B631-5704B49ABF57}">
+					<Comment>Event -</Comment>
+				</Event>
+				<Event Name="finish" ID="{164BAD41-D1D9-4399-BA9D-5EC5465BC808}">
+					<Comment>Event -</Comment>
+				</Event>
+				<Event Name="far" ID="{13B8708C-5996-4F7F-923C-2ABE418A231A}">
+					<Comment>Event -</Comment>
+				</Event>
+				<Event Name="hit" ID="{A4F05083-B6D3-4972-89B6-F4317D831856}">
+					<Comment>Event -</Comment>
+				</Event>
+				<Event Name="forehead" ID="{A99A449C-67AF-4717-8678-1B4CE9B7706B}">
+					<Comment>Event -</Comment>
+				</Event>
+				<Event Name="minimap" ID="{E55FBC8D-88DE-4136-BB05-59CB44E479BE}">
+					<Comment>Event -</Comment>
+				</Event>
+				<Event Name="medicine" ID="{7F5577DE-A1BA-430C-BFF2-DC30F362D601}">
+					<Comment>Event -</Comment>
+				</Event>
+				<Event Name="movement" ID="{1F6508CA-9908-4606-8DDD-E4C1E4BAB6A1}">
+					<Comment>Event -</Comment>
+				</Event>
+				<Event Name="mouse_01" ID="{AD97F8B3-2D61-499A-8DE1-BDF8C84CADB5}">
+					<Comment>Event -</Comment>
+				</Event>
+				<Event Name="point" ID="{B505CEF1-E7D0-4D04-9B0D-B9A3E27C6B82}">
+					<Comment>Event -</Comment>
+				</Event>
+				<Event Name="objects" ID="{E817579A-8D50-4DB8-91B0-A5EE6180996E}">
+					<Comment>Event -</Comment>
+				</Event>
+				<Event Name="radius" ID="{6FD62FEB-A17C-4965-872D-56FDC21DD9D4}">
+					<Comment>Event -</Comment>
+				</Event>
+				<Event Name="position" ID="{4F5286FA-BD4E-4AF4-85E7-9B0EDEED9C2D}">
+					<Comment>Event -</Comment>
+				</Event>
+				<Event Name="return_02" ID="{BE28E1F0-2ECF-4AD9-8343-E0F4AB406AC4}">
+					<Comment>Event -</Comment>
+				</Event>
+				<Event Name="return_01" ID="{62A0E8E2-F69A-4049-BBED-4CC2F0EDC15D}">
+					<Comment>Event -</Comment>
+				</Event>
+				<Event Name="welcome" ID="{3605DAC3-B128-44E9-8937-F6AE73B97B1C}">
+					<Comment>Event -</Comment>
+				</Event>
+				<Event Name="shot_01" ID="{D2E1CB8D-FAE9-4D6A-BF0E-7492B60932FE}">
+					<Comment>Event -</Comment>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

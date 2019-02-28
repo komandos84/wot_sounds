@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{36D0EC95-8F83-499B-9DFC-636BC7F47238}" SchemaVersion="85">
+	<Effects>
+		<WorkUnit Name="Impacts" ID="{36D0EC95-8F83-499B-9DFC-636BC7F47238}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="imp_cumulative" ID="{1D952165-DC22-421C-8117-2F9BDA98F425}" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3">
+					<PropertyList>
+						<Property Name="DistortionDrive" Type="Real32" Value="4"/>
+						<Property Name="DistortionType" Type="int32" Value="1"/>
+						<Property Name="PreEQBand1Enable" Type="bool" Value="True"/>
+						<Property Name="PreEQBand1Gain" Type="Real32" Value="30"/>
+						<Property Name="PreEQBand2Gain" Type="Real32" Value="-48"/>
+						<Property Name="PreEQBand3Enable" Type="bool" Value="True"/>
+						<Property Name="PreEQBand3FilterType" Type="int32" Value="2"/>
+						<Property Name="PreEQBand3Frequency" Type="Real32" Value="2077"/>
+						<Property Name="PreEQBand3Gain" Type="Real32" Value="20.7"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="imp_wise_gain" ID="{7E530CDF-98EF-4016-82BF-FC5B188CC1C6}" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+					<PropertyList>
+						<Property Name="FullBandGain" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{D406453A-0E18-4391-ACFD-E8D00663F612}" ShortID="938388689">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_int_imp_wise_gain" ID="{4434AC16-B690-4F69-A4D4-79E2ED6899CB}" WorkUnitID="{E8AED785-8722-4162-9C39-19FF18EE9669}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{ACDA39D7-C0E8-4C8E-BD28-BA4E08F1B2BC}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>1.00152</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>2.00504</XPos>
+												<YPos>3</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>2.98865</XPos>
+												<YPos>6</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>4</XPos>
+												<YPos>9</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>5</XPos>
+												<YPos>15</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+				<Effect Name="imp_EQ_NY_comp" ID="{D975ADAF-A144-46A5-BB79-072F20FBC013}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FrequencyBand1" Type="Real32" Value="500"/>
+						<Property Name="FrequencyBand3" Type="Real32" Value="2220"/>
+						<Property Name="GainBand1" Type="Real32" Value="24"/>
+						<Property Name="GainBand3" Type="Real32" Value="24"/>
+						<Property Name="OnOffBand2" Type="bool" Value="False"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="imp_NY_comp" ID="{6A75D5C8-0D60-40B9-95E9-A89B8EDCAD76}" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+					<PropertyList>
+						<Property Name="AttackTime" Type="Real32" Value="0.3"/>
+						<Property Name="Ratio" Type="Real32" Value="4.4"/>
+						<Property Name="ReleaseTime" Type="Real32" Value="0.6"/>
+						<Property Name="Threshold" Type="Real32" Value="-37"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="imp_NY_Dist" ID="{CAC7979E-1AA0-4F3F-B302-5C5A2C16AFD7}" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3">
+					<PropertyList>
+						<Property Name="DistortionType" Type="int32" Value="1"/>
+						<Property Name="WetDryMix" Type="Real32" Value="36"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="imp_gain_crit_signal_for_large_huge_impacts" ID="{CEA970AC-6DE3-4450-858F-0C8F3012E370}" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+					<PropertyList>
+						<Property Name="FullBandGain" Type="Real32" Value="9"/>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
+	</Effects>
+</WwiseDocument>
