@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BB513C75-BDCB-4E08-823F-ED595872D1E4}" SchemaVersion="85">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{BB513C75-BDCB-4E08-823F-ED595872D1E4}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="RTPC_ext_menu_volume_voice" ID="{19FD8A65-97B2-4439-B28B-48630F80034E}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

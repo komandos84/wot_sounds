@@ -33,3 +33,9 @@ julian_crew_sounds/source/WoT_sound_mod.*
 julian_crew_sounds/source/GeneratedSoundBanks/*
 julian_crew_sounds/source/.cache
 julian_crew_sounds/source/.backup
+
+bomba_crew_sounds/source/WoT_sound_mod.*
+!bomba_crew_sounds/source/WoT_sound_mod.wproj
+bomba_crew_sounds/source/GeneratedSoundBanks/*
+bomba_crew_sounds/source/.cache
+bomba_crew_sounds/source/.backup
