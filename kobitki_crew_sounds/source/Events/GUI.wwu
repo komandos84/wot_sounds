@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DFF2755B-9A8F-4FB9-A356-F3AC81BDD167}" SchemaVersion="85">
+	<Events>
+		<WorkUnit Name="GUI" ID="{DFF2755B-9A8F-4FB9-A356-F3AC81BDD167}" PersistMode="Standalone">
+			<Comment>Звуки интерфейса </Comment>
+			<ChildrenList>
+				<Folder Name="notificationFX" ID="{B03216A3-106B-4D34-AB62-6E4606FDEF94}" ShortID="716932367">
+					<Comment>Нотификационные звуки</Comment>
+					<ChildrenList>
+						<Event Name="base_capture_1" ID="{A319E64E-BB3C-4C13-AF16-B21B3355AE15}">
+							<Comment>Ивент - Звук захвата базы</Comment>
+						</Event>
+						<Event Name="base_capture_2" ID="{26C0DF46-F525-4A55-B2A4-4F345700610D}">
+							<Comment>Ивент - Тишина</Comment>
+						</Event>
+						<Event Name="enemy_sighted_for_team" ID="{EA161AFE-D188-4AAF-A0D9-155A0F1B709D}">
+							<Comment>Ивент - Звук засвета игрока</Comment>
+						</Event>
+						<Event Name="gun_intuition" ID="{DA5E2E3E-E943-46C0-84A8-CF87C8D69288}">
+							<Comment>Ивент - Звук срабатывания навыка интуиция у заряжающего</Comment>
+						</Event>
+						<Event Name="gun_reloaded" ID="{80E53EC9-D356-4FBC-A040-A957B6E1C108}">
+							<Comment>Ивент - НЕ ИСПОЛЬЗУЕТСЯ</Comment>
+							<ChildrenList>
+								<Action Name="" ID="{8BF1216F-98A0-4DB5-B814-0547F4E2F8BA}" ShortID="261138961">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="gun_reloaded" ID="{A7D725B3-74F1-46CA-9CEE-9DFD74DFA8AB}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="minimap_attention" ID="{7EF45CE7-BCE6-46ED-926A-934694379ABE}">
+							<Comment>Ивент - Звук координат на мини-карте</Comment>
+						</Event>
+						<Event Name="sight_convergence" ID="{726DC679-0688-4B06-A020-2AEE5764DA43}">
+							<Comment>Ивент - Звук полного сведения орудия</Comment>
+						</Event>
+						<Event Name="task_complete" ID="{D00386B2-CE82-4E45-B426-30F8A1FD4ADB}">
+							<Comment>Ивент - Звук для боевого обучения "Выполнено"</Comment>
+						</Event>
+						<Event Name="task_new" ID="{BF953F39-3574-420F-B539-5A8B66F4CC8C}">
+							<Comment>Ивент - Звук для боевого обучения "Новоее задание"</Comment>
+						</Event>
+						<Event Name="task_part_complete" ID="{CB4F3792-B1AF-4E93-BCC6-06885CBF2D67}">
+							<Comment>Ивент - Звук для боевого обучения "Частично выполнено"</Comment>
+						</Event>
+						<Event Name="timer" ID="{920B742E-AC9B-4967-AE08-41B7EEE1365B}">
+							<Comment>Ивент - Звук отсчета таймера</Comment>
+						</Event>
+						<Event Name="cybersport_timer" ID="{DAE2BC57-421D-445F-8EAD-E47320A23EA0}">
+							<Comment>Ивент - Таймер</Comment>
+						</Event>
+						<Event Name="cybersport_auto_search" ID="{24DF7CCE-EA64-4ED5-BE8C-F3323FFC39D6}">
+							<Comment>Ивент - Звук поиска боя в Кибер спорте.</Comment>
+						</Event>
+						<Event Name="league_up" ID="{DD64E31A-B687-411D-A951-B2B45CF88783}">
+							<Comment>Ивент - ?</Comment>
+						</Event>
+						<Event Name="league_down" ID="{5A5D5F80-2A2D-4383-956D-A1290F979068}">
+							<Comment>Ивент - ?</Comment>
+						</Event>
+						<Event Name="division_up" ID="{86DBD317-B9FD-4BAC-8958-B099A2053FF4}">
+							<Comment>Ивент - Звук поднятия рейтинга в Кибер спорте</Comment>
+						</Event>
+						<Event Name="division_down" ID="{F6D18CF7-6889-491F-B031-4BBC1006D824}">
+							<Comment>Ивент - Звук опускания рейтинга в Кибер спорте</Comment>
+						</Event>
+						<Event Name="lbe_appear" ID="{A759A229-F06D-4EFE-A473-8C5E9718EB17}">
+							<Comment>Ивент - Звук открытие "Ленты боевой эффективности"</Comment>
+						</Event>
+						<Event Name="lbe_counter" ID="{B9D0DE6E-43A9-4E0F-9A05-63CF2D17C97C}">
+							<Comment>Ивент - Звук счетчик "Ленты боевой эффективности"</Comment>
+						</Event>
+						<Event Name="lbe_disappear" ID="{E53A54C6-90C3-4C06-A136-205C4A3780BA}">
+							<Comment>Ивент - Звук закрытия "Ленты боевой эффективности"</Comment>
+						</Event>
+						<Event Name="timer_stop" ID="{F1E58D3E-BC3C-4012-877F-50D4CCE8B517}">
+							<Comment>Ивент - Остановки звука таймера</Comment>
+						</Event>
+						<Event Name="fallout_gaz_alarm" ID="{02D0705D-46B8-49CC-8CE3-2C77A4CF8541}">
+							<Comment>Ивент - Звук предупреждения прилета ракеты.</Comment>
+						</Event>
+						<Event Name="fallout_gaz_sphere_timer" ID="{B15BC24D-161A-4A4B-9E8C-22B7BC306B0E}">
+							<Comment>Ивент - Звук нахождения в опасной зоне</Comment>
+						</Event>
+						<Event Name="fallout_gaz_sphere_warning" ID="{9DD956B4-96B2-48BB-B14D-E02811B3AF4D}">
+							<Comment>Ивент - Звук сообщает о предложении к опасной зоне</Comment>
+						</Event>
+						<Event Name="time_buzzer_01" ID="{45418D79-4984-49A7-8D49-452E25E0CC98}"/>
+						<Event Name="time_buzzer_02" ID="{15EC2625-E9C0-4A8E-8CFC-285AEC50E833}"/>
+						<Event Name="time_countdown" ID="{6A5F90AB-AA54-4888-8750-BF7F58813171}"/>
+						<Event Name="time_over" ID="{9DC2A01F-F538-4B9B-BFD8-8ECC78CD3105}"/>
+						<Event Name="time_countdown_stop" ID="{DBE143F0-989C-49D1-A818-1777C2E73D60}"/>
+						<Event Name="end_battle_last_kill" ID="{79A8BD7B-7CCB-447F-93C3-C5BBF0F6931E}"/>
+						<Event Name="end_battle_capture_base" ID="{BCCEC19F-5CC5-4513-8816-44505D403D34}"/>
+						<Folder Name="siege_mode" ID="{9B85A806-6E6A-46DC-AF5C-EEB3C6A25694}" ShortID="474173221">
+							<ChildrenList>
+								<Event Name="start_to_siege_mode_PC" ID="{4C23F91B-77B7-4DF1-957F-69B812219398}"/>
+								<Event Name="start_to_base_mode_PC" ID="{8A92F96F-D86E-422F-85F5-A431E979873F}"/>
+								<Event Name="siege_mode_transition_timer" ID="{96318CF4-C4EE-4846-A3A5-2FDF4C864E3D}"/>
+								<Event Name="strv_siege_mode_movement_limited_on" ID="{3B330E7D-D211-4704-A05D-C0C6A03C8D2C}"/>
+								<Event Name="strv_siege_mode_movement_limited_off" ID="{332ADD09-FE7F-493E-A83B-9F6007C8FB97}"/>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="buttons" ID="{45BB4894-E1CD-42C6-8F0A-846090B570A8}" ShortID="691214648">
+					<Comment>Кнопки</Comment>
+					<ChildrenList>
+						<Event Name="play" ID="{BDC5CBB1-EA10-4588-8D7A-50EA755043F1}">
+							<Comment>Ивент - Звук подтверждения выбора. 
+_________________________________________________________
+
+Звук нажатия на кнопку "В бой!" и "АНГАР" "МАГАЗИН" "ДОСТИЖЕНИЯ" "ИССЛЕДОВАНИЯ" "КАЗАРМА" "УКРЕПРАЙОН" "Принять" "Закрыть"
+_________________________________________________________
+
+Звук выбора "Боевых расходников" "Модулей" "Бое комплекта" "Модификации всех частей танка"</Comment>
+						</Event>
+						<Event Name="grey_butt" ID="{2E9215AA-9159-407C-AF14-A49863FEDBC3}"/>
+						<Event Name="highlight" ID="{DB5BD8E9-6ABE-4814-A0DB-22E0B29D3365}">
+							<Comment>Ивент - Звука наведения курсора на все кнопки и поля выбора</Comment>
+						</Event>
+						<Event Name="arrow" ID="{B0C2BD6B-58CA-492F-9422-95EBC9F28192}"/>
+						<Event Name="tabs" ID="{A020D76C-4615-4E01-A7C4-81CFA1C9B264}"/>
+						<Event Name="coins" ID="{1A4BAD78-74A0-4411-AA5A-AA95F729A6D6}">
+							<Comment>Ивент - Звук покупки и продажи.</Comment>
+						</Event>
+						<Event Name="yes" ID="{E15AC5E3-55B7-40AB-9A68-33629C859524}"/>
+						<Event Name="no" ID="{247F8C03-3ADE-4F97-9C42-37D3552530CF}"/>
+						<Event Name="highlight_red_butt" ID="{471AADB9-7745-433C-BE7B-D4D02FC66D25}"/>
+						<Event Name="cancelcloseno" ID="{044022B7-6DB2-4384-B85D-CE87104BAAD7}">
+							<Comment>Ивет - Звук нажатия на "крестик" при закрытии окон. Например "Обслуживание" "Внешний вид" </Comment>
+						</Event>
+						<Event Name="yes1" ID="{C7173714-D443-4753-A134-5A1B04083D04}">
+							<Comment>Ивет - Звук нажатия на все раскрывающиеся кнопки в ангаре. Например "Обслуживание" "Внешний вид" </Comment>
+						</Event>
+						<Event Name="minimize" ID="{3511BDFB-A773-4715-A798-00A38810437F}">
+							<Comment>Ивент - Звук свертывания окон. Символ "_" .
+ 
+Пример выбора установки модернизированных частей танка и модулей устанавливаемых на танк
+
+Пример свертывание окна чата "_"</Comment>
+						</Event>
+						<Event Name="highlightx" ID="{44925634-985A-46CB-BADC-C5C3D00AC4A0}">
+							<Comment>Ивент - Звук прокрутки карусели выбора танков</Comment>
+						</Event>
+						<Event Name="tabb" ID="{AA80D267-C933-44CE-9717-BF710DA23ECE}">
+							<Comment>Ивент - Звук переключения закладок.
+
+Пример "Послужной список" "Обучение" Умения" "Документы"
+
+Пример В боевых задачах закладки "Кампания" "задачи и акции" "Курс молодого бойца"</Comment>
+						</Event>
+						<Event Name="carousel" ID="{27994629-594F-4D8B-B801-3BAD8BC63043}">
+							<Comment>Ивент - Звук наведения курсора на танк в карусели выбора</Comment>
+						</Event>
+						<Event Name="carouselButton" ID="{9CB027E0-6AD9-45CF-847B-AD33B548D366}"/>
+						<Event Name="tank_selection" ID="{46E3CC5C-944D-437D-A614-87C7BD6C8F0C}">
+							<Comment>Ивент - Выбор танка </Comment>
+						</Event>
+						<Event Name="rudy" ID="{B48D7DA6-7B40-4F10-B441-4499709D1A02}">
+							<Comment>Ивет - Звук собаки в экипаже</Comment>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="modes" ID="{F35B34FE-46E8-442B-9498-5ECAC3D46E8A}" ShortID="194037276">
+					<Comment>Режимы</Comment>
+					<ChildrenList>
+						<Folder Name="fallout" ID="{37E728F5-801C-45ED-835F-AC88249E428B}" ShortID="434550381">
+							<ChildrenList>
+								<Event Name="capture_flag" ID="{BE70F22F-477C-438D-A398-DA14872BEAB8}">
+									<Comment>Ивент - Звук взятия флага</Comment>
+								</Event>
+								<Event Name="delivery_flag" ID="{B445912F-6A45-46F4-8FC8-6795B9B03A01}">
+									<Comment>Ивент - Звук доставки флага</Comment>
+								</Event>
+								<Event Name="point_repair" ID="{4175DA20-110E-454B-8239-124DF1902797}">
+									<Comment>Ивент - Звук починки танка</Comment>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="dynamic_platoon" ID="{1B619740-4113-4800-AB5C-39CC28579989}" ShortID="871482665">
+							<ChildrenList>
+								<Event Name="starting_dynamic_platoon" ID="{A5F8CF3F-19F5-47FF-BE6A-5D9F4217D76C}">
+									<Comment>Ивент - Звук приглашения в "Динамический взвод"</Comment>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="lightbulb" ID="{3988EB0D-4FD2-4AE4-AA3E-91C9AB5881E6}" ShortID="582566105">
+							<ChildrenList>
+								<Event Name="lightbulb" ID="{511FE419-73B9-4C40-B67B-7AE942E805FD}">
+									<Comment>Ивент - Звук "Лампочки"</Comment>
+								</Event>
+								<Event Name="sixthSense" ID="{88652502-B881-42D3-AD43-2FF36ADCB712}"/>
+								<Event Name="lightbulb_02" ID="{C5236D3F-FCF5-4DBC-B3BF-58B0963119C5}"/>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="battle_equipment" ID="{1072060C-FB60-4CD7-B352-5F7ADFC67BB1}" ShortID="85388149">
+					<Comment>Боевые расходники</Comment>
+					<ChildrenList>
+						<Event Name="battle_equipment_507" ID="{64612248-02BC-4A16-B865-FABDAD98F910}">
+							<Comment>Ивент - Использования большого огнетушителя</Comment>
+						</Event>
+						<Event Name="battle_equipment_251" ID="{F2A44636-A5F0-4C4F-9A18-0179EC0B223B}">
+							<Comment>Ивент - Использования малого огнетушителя</Comment>
+						</Event>
+						<Event Name="battle_equipment_1019" ID="{0F806B25-548F-4B79-9540-2BFB3E53C1ED}">
+							<Comment>Ивент - Использования большой аптечки</Comment>
+						</Event>
+						<Event Name="battle_equipment_763" ID="{4CFB4118-91EF-4209-B04C-89E8103CC0E1}">
+							<Comment>Ивент - Использования малой аптечки</Comment>
+						</Event>
+						<Event Name="battle_equipment_1275" ID="{8F685585-1453-46DF-9F60-7E100ABE98C5}">
+							<Comment>Ивент - Использования малого рем комплекта</Comment>
+						</Event>
+						<Event Name="battle_equipment_1531" ID="{B27B9767-4861-4506-80AB-4A4C1F8E993C}">
+							<Comment>Ивент - Использования большого рем комплекта</Comment>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="battle_notification" ID="{3144B477-2E46-4AF3-AF7C-3309D579E3D7}" ShortID="388343960">
+					<ChildrenList>
+						<Event Name="expl_ally_NPC" ID="{8B7477A7-6498-41F6-8E2A-0ED27AE15EF9}"/>
+						<Event Name="ui_target_locked" ID="{B8040BF6-9BD0-4B77-947B-A5589CEF9D2B}"/>
+						<Event Name="ui_target_unlocked" ID="{5F3A37A7-D932-4B18-A4A0-D3DB4E5459C3}"/>
+						<Event Name="ui_target_lost" ID="{3E53D58C-2FFE-4052-897F-59E0CA80301D}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="PRMP_alerts" ID="{8CB59A03-C8E3-49A2-85DB-860166CDD370}" ShortID="745723596">
+					<ChildrenList>
+						<Event Name="prmp_alert_07" ID="{7BAE9B56-38AB-4C54-9F26-157B1A22A1ED}"/>
+						<Event Name="prmp_alert_03" ID="{A9E1C8DB-9D09-4A58-AF1E-B68B1F76B284}"/>
+						<Event Name="prmp_alert_05" ID="{D380E945-F2B8-4024-9791-63DC5C8A28D8}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="multichanel_test" ID="{4E062ACC-462B-4B0E-B292-14CBF9C47A43}" ShortID="1062952102">
+					<ChildrenList>
+						<Event Name="multichanel_test_L" ID="{2117C990-B7ED-40EB-B588-CA7370E79491}"/>
+						<Event Name="multichanel_test_R" ID="{ECA38DEF-9B50-4A65-BBC5-BC25A3D6DBD1}"/>
+						<Event Name="multichanel_test_C" ID="{BFBE7E33-B5BF-478A-8375-58B99D09B78B}"/>
+						<Event Name="multichanel_test_SL" ID="{AF925B7E-9A0D-4DFA-8237-7B2C762B0640}"/>
+						<Event Name="multichanel_test_SR" ID="{0DACF27E-42E7-4976-8C72-E6AB2D60F9CD}"/>
+						<Event Name="multichanel_test_BL" ID="{09FD16DB-09EE-459B-B510-CCEAEC454D8B}"/>
+						<Event Name="multichanel_test_BR" ID="{CAB17A43-B682-48E4-AFC9-EE72CEB1570C}"/>
+						<Event Name="multichanel_test_LFE" ID="{A5AF7DFF-F96A-4304-B560-AF187BD7530F}"/>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

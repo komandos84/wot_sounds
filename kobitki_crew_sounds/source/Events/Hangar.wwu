@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E25E24D1-7969-48F8-856C-E382F91839A5}" SchemaVersion="85">
+	<Events>
+		<WorkUnit Name="Hangar" ID="{E25E24D1-7969-48F8-856C-E382F91839A5}" PersistMode="Standalone">
+			<Comment>Ангары</Comment>
+			<ChildrenList>
+				<Folder Name="hangar_v2" ID="{85837738-E45D-4843-890A-DBB328C6B303}" ShortID="806308265">
+					<Comment>Стандартный</Comment>
+					<ChildrenList>
+						<Folder Name="hangar_v2_ambient" ID="{3AE8522B-F918-450D-A4B8-EC97F2E449B6}" ShortID="932875396">
+							<ChildrenList>
+								<Event Name="hangar_v2_chain" ID="{86B5BE8B-BAB3-40EC-87CC-ADB8A176568F}"/>
+								<Event Name="hangar_v2_vehicle_engine" ID="{E322B8CC-B0F0-408F-8EFB-35062B1C0208}"/>
+								<Event Name="hangar_v2_hand_saw" ID="{C8124054-5293-420B-8BA3-5237017F7A99}"/>
+								<Event Name="hangar_v2_soffit" ID="{02E1DB34-B4FE-4D8E-8FA3-52FF1D01D919}"/>
+								<Event Name="hangar_v2_drone_industrial" ID="{F1E2CCB6-D88A-4562-AB42-68782BE80FBD}"/>
+								<Event Name="hangar_v2_gate_squeak" ID="{35014ACF-80D1-4F85-B384-994A8C8753BD}"/>
+								<Event Name="hangar_v2_welding" ID="{45AD2684-031A-4739-B106-BD0D98D2113C}"/>
+								<Event Name="hangar_v2_drone_factory" ID="{8EAC0794-05DC-4623-99F5-37C046413696}"/>
+								<Event Name="hangar_v2_radio" ID="{AB2D14FB-9CF3-4BB7-BC25-789534F6B889}"/>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="hangar_v2_music" ID="{BB51CB4F-4D93-47EE-B227-B8FBE4A7D64A}" ShortID="361905189">
+							<ChildrenList>
+								<Event Name="hangar_v2_music_lobby" ID="{2EA81186-9F59-436A-89D5-E41C888913EE}"/>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="hangar_prem_v2" ID="{F64552E3-C87D-4EBE-8D69-D340B0B0337A}" ShortID="47375727">
+					<Comment>Премиумный</Comment>
+					<ChildrenList>
+						<Folder Name="hangar_prem_v2_music" ID="{DDB12E3F-422C-4EE9-AC4B-B9BE87999704}" ShortID="627200021">
+							<ChildrenList>
+								<Event Name="hangar_prem_v2_music_lobby" ID="{4E98EC33-3DD2-4E13-9709-C1403F86EE6F}"/>
+								<Event Name="hangar_prem_v2_music_random" ID="{7BAF4C12-B9CE-4FFC-BA40-78EFD4571CE2}"/>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="hangar_prem_v2_ambient" ID="{B30172A4-24F0-4950-9E28-7F938DD99108}" ShortID="746843906">
+							<ChildrenList>
+								<Event Name="hangar_prem_v2_box" ID="{29DB558F-EAC2-4655-9C8C-4884B2AC229B}"/>
+								<Event Name="hangar_prem_v2_lamp_clicks" ID="{36E8DCE7-FC91-40F2-9085-4AB5D137B26A}"/>
+								<Event Name="hangar_prem_v2_machine_tool" ID="{7A40072E-32E3-423E-86DE-AB8D1468CE01}"/>
+								<Event Name="hangar_prem_v2_metal_fall" ID="{5621F681-4B6A-4B93-B745-D55AE4C4A168}"/>
+								<Event Name="hangar_prem_v2_metal_hit" ID="{63FC57DB-A1DE-480B-8B25-F349B393531A}"/>
+								<Event Name="hangar_prem_v2_painting" ID="{18C40ABF-5BDD-4472-BEEF-DD8F2CDACD5A}"/>
+								<Event Name="hangar_prem_v2_soffit" ID="{07C8DE38-557B-4250-ABE6-598E2C1B2CB6}"/>
+								<Event Name="hangar_prem_v2_background" ID="{6C14BD42-1DC0-412F-8E84-67C349D95573}"/>
+								<Event Name="hangar_prem_v2_screwdriver" ID="{80FB2260-BCC6-4A84-B510-205356361208}"/>
+								<Event Name="hangar_prem_v2_rustles" ID="{5C965AC2-A6AE-4706-9BCF-889E63E3AA8A}"/>
+								<Event Name="hangar_prem_v2_metal_stressed" ID="{8FDAB277-E6CF-4F52-B6A8-E1588CF17F3F}"/>
+								<Event Name="hangar_prem_v2_metal_sheet" ID="{60C492F0-1A6F-438F-A4F2-388DAC73C214}"/>
+								<Event Name="hangar_prem_v2_radio" ID="{1DE07728-8749-408B-98BF-EE8D53BBC066}"/>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="hangar_premium_23feb_v3" ID="{57C4D6EA-5FCA-40D0-B55C-A8ECD5AD2ED4}" ShortID="629092675">
+					<Comment>23 февраля</Comment>
+					<ChildrenList>
+						<Event Name="hangar_23feb_v3_gun_shot" ID="{0D22FABF-EBD3-4183-954E-1CEFCC6CB893}"/>
+						<Event Name="hangar_23feb_v3_ambient" ID="{5864ACE6-9030-4869-B286-A68618197A5D}"/>
+						<Event Name="hangar_23feb_v3_engine_idle" ID="{900FDD90-15E8-4770-8878-E2E27C84C63C}"/>
+						<Event Name="hangar_23feb_v3_music" ID="{9AF20B2C-DE19-45CC-9CA3-055DCF8027FD}"/>
+						<Event Name="hangar_23feb_v3_radio" ID="{4E698BE0-11DB-4053-B4AA-3A7A0FD10DB0}"/>
+						<Event Name="hangar_23feb_v3_military_greeting" ID="{B46893CB-7FFA-4200-8F17-AAFFA2EE972D}"/>
+						<Event Name="hangar_23feb_v3_car" ID="{2B25879D-477F-4CA3-895A-147DF37329E8}"/>
+						<Event Name="hangar_23feb_v3_truck" ID="{190DA226-8A4D-4B2D-B170-0EF514A8BB12}"/>
+						<Event Name="hangar_23feb_v3_ambient_music" ID="{98A7A3CB-37CE-43EC-A04C-DE6EE5EEF364}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="hangar_h09_bday_CN_2016" ID="{C3B42D67-C8BA-407A-A67E-BDB42BD95E47}" ShortID="653553755">
+					<Comment>Юбилейныя регион CN
+5th Anniversary of WoT CN</Comment>
+					<ChildrenList>
+						<Folder Name="ambient" ID="{63434DC0-C641-46BA-8C91-95FCCD56CD54}" ShortID="445993848">
+							<ChildrenList>
+								<Event Name="hangar_h09_bday_CN_hologram" ID="{4048708A-EC51-419F-9DB3-50DB73D771CD}"/>
+								<Event Name="hangar_h09_bday_CN_inside_work" ID="{CDFA7E0C-3329-4AF8-9DD6-0C645E9E174C}"/>
+								<Event Name="hangar_h09_bday_CN_inside_work_loop" ID="{1AF16A33-0B0D-4AAC-994E-16CAAE616F9A}"/>
+								<Event Name="hangar_h09_bday_CN_lava" ID="{D2457801-A838-4F35-BED3-7BE781C1D269}"/>
+								<Event Name="hangar_h09_bday_CN_outside" ID="{9EF4FD88-E585-4EF5-A769-7313B443D2B4}"/>
+								<Event Name="hangar_h09_bday_CN_ambient" ID="{23F72964-A897-441E-9974-B1519C5FF5C0}"/>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="music" ID="{B3E66BE0-76D0-4CCB-AB84-CD1AF05F8C6F}" ShortID="617370606">
+							<ChildrenList>
+								<Event Name="hangar_h09_bday_CN_music" ID="{4A11F71F-C2F2-4EE3-8F9C-B504E2C4D375}"/>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="hangar_premium_IGR" ID="{FA57AA9C-6081-4A4A-9E39-A3DC17328239}" ShortID="644966072">
+					<ChildrenList>
+						<Event Name="hangar_premium_IGR_waterfall" ID="{B7162196-A715-4EC9-BA12-4EA6A3461161}"/>
+						<Event Name="hangar_premium_IGR_hammer_01" ID="{D6942283-6138-4C3A-B40F-0B7A9B08A595}"/>
+						<Event Name="hangar_premium_IGR_hammer_02" ID="{8936B42F-D1AF-41A2-ABDE-1E5D4BB9567C}"/>
+						<Event Name="hangar_premium_IGR_weld" ID="{0A6A75BD-8D6D-43B6-A61A-E47E8ECA4BC4}"/>
+						<Event Name="hangar_premium_IGR_saw" ID="{1EA26573-91D6-47D9-98BD-F334F2529BE7}"/>
+						<Event Name="hangar_premium_IGR_cave_drip_01" ID="{2F1DAEA7-67D8-4C5E-A2FF-E27FDEFA68EB}"/>
+						<Event Name="hangar_premium_IGR_work" ID="{9BB6B9C4-2098-458F-9A52-327D1EDE7611}"/>
+						<Event Name="hangar_premium_IGR_teletype" ID="{0D52326A-8FF0-4E93-935F-8ED9046AE5D7}"/>
+						<Event Name="hangar_premium_IGR_bats" ID="{4DBBE41C-896F-4173-AE48-A0517A6E2370}"/>
+						<Event Name="hangar_premium_IGR_electric_01" ID="{34B71F81-E36E-446F-A150-EA21B35B1657}"/>
+						<Event Name="hangar_premium_IGR_electric_02" ID="{DB18AA0B-2BE1-4497-A1E2-0BC58567FE26}"/>
+						<Event Name="hangar_premium_IGR_loop_turbine" ID="{1852097E-2157-4ECD-9432-64D800019912}"/>
+						<Event Name="hangar_premium_IGR_silence" ID="{5BC42D5E-BDEA-4F44-A5AE-7743AFECD30C}"/>
+						<Event Name="hangar_premium_IGR_drone" ID="{14A73C4F-6E18-477E-9411-47FC1B8EC69D}"/>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

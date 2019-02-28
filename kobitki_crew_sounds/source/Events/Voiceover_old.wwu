@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B8424251-D94B-4427-BF66-A85D3ACABAE7}" SchemaVersion="85">
+	<Events>
+		<WorkUnit Name="Voiceover_old" ID="{B8424251-D94B-4427-BF66-A85D3ACABAE7}" PersistMode="Standalone">
+			<Comment>Голосовые нотификации</Comment>
+			<ChildrenList>
+				<Folder Name="notifications_vo_old" ID="{D03DDD48-FF7F-4C74-A4B3-176E3DD04E58}" ShortID="850003353">
+					<Comment>Голосовые уведомления</Comment>
+					<ChildrenList>
+						<Event Name="vo_ally_killed_by_player" ID="{6969568C-4664-4460-9478-55B0CA64655E}">
+							<Comment>Ивент - Вы убили союзника</Comment>
+							<ChildrenList>
+								<Action Name="" ID="{F3B8A914-DAC0-4A8A-A8C4-2A49EFAB8435}" ShortID="247651876">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="killed_by_player" ID="{8EF46748-E099-4E22-8A3B-1D575A100D63}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="vo_ammo_bay_damaged" ID="{45421B23-FB27-4193-BDA9-DBB516006D11}">
+							<Comment>Ивент - Повреждение бое укладки</Comment>
+							<ChildrenList>
+								<Action Name="" ID="{055418ED-A061-4E44-9A5A-F6796EE43D53}" ShortID="751805205">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="damaged" ID="{1683AE47-012C-4154-BA1C-B7B9E8406DE8}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="vo_armor_not_pierced_by_player" ID="{74CD5F4A-1675-4AE6-A466-BF781CCA45FF}">
+							<Comment>Ивент - Не пробил</Comment>
+							<ChildrenList>
+								<Action Name="" ID="{517DDF1C-52FA-4AAF-B79A-5FAE53E6321A}" ShortID="42184144">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="not_pierced" ID="{AA846213-74C7-439D-B969-21085170CE5F}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="vo_armor_ricochet_by_player" ID="{E85489E1-329C-4DEC-BEB6-B679457F6871}">
+							<Comment>Ивент - Рикошет</Comment>
+							<ChildrenList>
+								<Action Name="" ID="{FD62F08B-E5D5-4511-B56C-79C142D80CC8}" ShortID="140580902">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ricochet" ID="{964A5C4F-CE45-4DD6-9EF1-382A46CA0755}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="vo_commander_killed" ID="{92B48457-C218-4AC1-A306-C27EE29BA70E}">
+							<Comment>Ивент - Командир контужен</Comment>
+							<ChildrenList>
+								<Action Name="" ID="{8E8484E6-1F29-49BE-AF60-4191E57FB5DD}" ShortID="915577816">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="commander_killed" ID="{EF374608-1570-4F3C-A7D7-7F66C24C4918}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="vo_driver_killed" ID="{F7884A83-E61C-41CB-BB37-26CEEAF10EDB}">
+							<Comment>Ивент - Мехвод контужен</Comment>
+							<ChildrenList>
+								<Action Name="" ID="{FBC4E13C-556B-4693-8E10-6A9DEC2C57B7}" ShortID="758222767">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="driver_killed" ID="{1BCE07D2-0705-4CE1-BC8F-5DFAC1A164E1}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="vo_enemy_fire_started_by_player" ID="{FAC94916-0D4F-4459-8EE0-D0BCEBBEB693}">
+							<Comment>Ивент - Враг подожжен</Comment>
+							<ChildrenList>
+								<Action Name="" ID="{0239AEFE-BD4D-4334-863A-9C3260D6E778}" ShortID="952936068">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="fire_started" ID="{F5B074D1-5474-4BF4-886A-A17B2F573353}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="vo_enemy_hp_damaged_by_explosion_at_direct_hit_by_player" ID="{9324DA8F-C617-4A80-8B59-8B12ED2358B7}">
+							<Comment>Ивент - Попадание</Comment>
+							<ChildrenList>
+								<Action Name="" ID="{C64BE3C5-2544-4DC8-93FF-F96A0578089C}" ShortID="51802482">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="pierced" ID="{1879EF66-9CF8-4C4F-B8FF-ACD433B89D1C}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="vo_enemy_hp_damaged_by_projectile_and_chassis_damaged_by_player" ID="{1BEB357A-F112-492A-A546-916A091F314D}">
+							<Comment>Ивент - Пробитие</Comment>
+							<ChildrenList>
+								<Action Name="" ID="{E64DFCAD-F7EF-403F-BE8C-420688CD68AD}" ShortID="429588251">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="pierced" ID="{1879EF66-9CF8-4C4F-B8FF-ACD433B89D1C}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="vo_engine_functional" ID="{A9390B25-8813-47B2-8C62-20566F6D55D1}">
+							<Comment>Ивент - Двигатель частично восстановлен</Comment>
+							<ChildrenList>
+								<Action Name="" ID="{AE4FD579-0A91-45A5-B4B3-B656CF4958CB}" ShortID="649985225">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="engine_functional" ID="{1C49C167-A6F8-4C1D-A784-C314938AF81E}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="start_battle_mod" ID="{E1E3167C-453C-463C-ABA4-B8EE1F7EEFB1}">
+							<Comment>Ивент - Бой начинается</Comment>
+							<ChildrenList>
+								<Action Name="" ID="{124A7174-9103-4C06-8440-B503137A8FC2}" ShortID="793155311">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="start_battle" ID="{8A53CD33-6D83-4B66-BB90-0B53CA966B29}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="vo_engine_damaged" ID="{392F9886-1EE8-4598-A787-65F463A6EB25}">
+							<Comment>Ивент - Двигатель поврежден</Comment>
+							<ChildrenList>
+								<Action Name="" ID="{83A25624-0A99-42B8-AC75-B74A22DB4939}" ShortID="931796651">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="engine_damaged" ID="{72DF1618-7578-40F9-9CA7-CC6EA65B803B}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="vo_radio_damaged" ID="{247A7B94-B03F-43FC-9059-98867C37D1BC}">
+							<Comment>Ивент - Повреждена рация</Comment>
+							<ChildrenList>
+								<Action Name="" ID="{7A2492FE-6F15-492D-B46C-576C80F8C5D6}" ShortID="624688843">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="damaged" ID="{67D486C0-DEB9-4E67-A1AC-CEC86484DD02}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="vo_enemy_no_hp_damage_at_no_attempt_and_chassis_damaged_by_player" ID="{8A467B58-E732-4B43-9BE4-DDD304836F43}">
+							<Comment>Ивент - Попадание</Comment>
+							<ChildrenList>
+								<Action Name="" ID="{4906C904-219E-43D7-B5E4-46C3A9F8C2B7}" ShortID="988797910">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="not_pierced" ID="{AA846213-74C7-439D-B969-21085170CE5F}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="vo_enemy_killed_by_player" ID="{DF8C4EDC-A299-4EB6-A7CB-E7DDFB156B09}">
+							<Comment>Ивент - Уничтожен</Comment>
+							<ChildrenList>
+								<Action Name="" ID="{52E98273-AC1E-4527-A050-2483EE86F5E0}" ShortID="467466433">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="killed" ID="{A81E1152-3271-449B-A9F1-9238F983BA24}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="vo_track_functional_can_move" ID="{7D2472A2-20A0-4393-8FC6-6C73D618B3C1}">
+							<Comment>Ивент - Гусеницы восстановлена, можно ехать</Comment>
+							<ChildrenList>
+								<Action Name="" ID="{AB2B2B71-3417-4B28-90D7-AAD8EE9F3011}" ShortID="870926392">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="track_functional_can_move" ID="{DF6602E4-56C7-47F7-A92D-155BF2F94684}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="vo_vehicle_destroyed" ID="{483C19A0-16AC-4C48-A37E-66E5D7645E3A}">
+							<Comment>Ивент - Танк уничтожен</Comment>
+							<ChildrenList>
+								<Action Name="" ID="{4CC265A8-5229-4EF9-80CD-1038BF9BD678}" ShortID="137853826">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="destroyed" ID="{7F8FFCA5-2CDE-44DF-8283-95BCB274410D}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="vo_gun_damaged" ID="{FF55E4EB-B78A-44F3-86A2-50ABC9FA6177}">
+							<Comment>Ивент - Орудие повреждено</Comment>
+							<ChildrenList>
+								<Action Name="" ID="{4BD50E84-DD00-4C75-96E4-B8C3C9F512DD}" ShortID="557915781">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="gun_damaged" ID="{5163E5B1-A0B1-48FE-A33C-9F201B016A4C}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="vo_track_functional" ID="{84F2C281-8B03-49BC-8168-6C0DDF7A4D60}">
+							<Comment>Ивент - Гусеницы восстановлена</Comment>
+							<ChildrenList>
+								<Action Name="" ID="{FBBF0C1B-9A01-4051-A4A7-AFA8749FC8B3}" ShortID="881314576">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="track_functional_can_move" ID="{DF6602E4-56C7-47F7-A92D-155BF2F94684}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="vo_surveying_devices_functional" ID="{FCDC1E9B-2633-4C33-8A27-543D4D11DF64}">
+							<Comment>Ивент - Приборы наблюдения восстановлены</Comment>
+							<ChildrenList>
+								<Action Name="" ID="{C6120C8A-83F9-4980-9C01-7DF34DDA408C}" ShortID="607258141">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="surveying_devices_functional" ID="{395B2165-B1D8-48C8-A8AF-00A80AE9A700}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="vo_enemy_no_hp_damage_at_attempt_and_gun_damaged_by_player" ID="{D6F0580A-95D6-4215-8E20-66FD148766F5}">
+							<Comment>Ивент - Не пробил</Comment>
+							<ChildrenList>
+								<Action Name="" ID="{258A911D-B712-4A0D-9124-AE12FD614888}" ShortID="958923804">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="not_pierced" ID="{AA846213-74C7-439D-B969-21085170CE5F}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="vo_turret_rotator_destroyed" ID="{F0ECC000-ACD0-49F1-9A01-3A925B1BB1A4}">
+							<Comment>Ивент - Вращение башни невозможно</Comment>
+							<ChildrenList>
+								<Action Name="" ID="{B4908D08-F41C-4B6A-AB4D-5C825B4B3D5D}" ShortID="385804187">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="turret_rotator_destroyed" ID="{95D720F0-9E16-4B04-AE06-83890AAD059F}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="vo_fire_started" ID="{34F32E00-1343-41D2-9EFE-7B0441844CE0}">
+							<Comment>Ивент - Танк горит</Comment>
+							<ChildrenList>
+								<Action Name="" ID="{6350E1C3-7FD2-4E66-B078-C520A6C24025}" ShortID="511689511">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="fire_started" ID="{9F884C3A-D13B-4962-806A-FA112F746BA1}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="vo_gun_functional" ID="{E6274837-6550-4540-A9BF-2E3C6961B9B0}">
+							<Comment>Ивент - Орудие частично восстановлено</Comment>
+							<ChildrenList>
+								<Action Name="" ID="{4A8177AD-57C8-49BD-B0D0-D5B1CCFA8AA0}" ShortID="508249976">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="gun_functional" ID="{54EF4DE2-6964-4E45-A1A7-653E97F7B5FD}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="vo_track_damaged" ID="{99664736-87F4-4001-AC37-D168301F7D36}">
+							<Comment>Ивент - Повреждение гусеницы</Comment>
+							<ChildrenList>
+								<Action Name="" ID="{46DBD06E-C024-4E69-AD52-116117C303E3}" ShortID="19462811">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="track_damaged" ID="{F634662E-5704-40E9-A916-D472D778DB68}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="vo_radioman_killed" ID="{31DDDA5F-D79D-4204-9056-8C184480A675}">
+							<Comment>Ивент - Радист контужен</Comment>
+							<ChildrenList>
+								<Action Name="" ID="{DDB3D8DC-E42B-4C3E-8ECD-EF3B7BCE35A5}" ShortID="346112510">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="radioman_killed" ID="{03033ED6-711D-4879-8AB0-86264A201F12}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="vo_target_lost" ID="{2917D537-3E2A-45F3-9918-0D19DB5E318C}">
+							<Comment>Ивент - Цель потеряна</Comment>
+							<ChildrenList>
+								<Action Name="" ID="{59E2BC8D-2EEB-4AA5-A63D-84BCDB77A390}" ShortID="464749322">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="target_lost" ID="{C6A5D524-9FC1-4BAF-A6B1-E8EFA05E689C}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="vo_enemy_no_hp_damage_at_no_attempt_and_gun_damaged_by_player" ID="{45F823E6-0D4F-455F-929F-7746EE08E9F3}">
+							<Comment>Ивент - Попадание</Comment>
+							<ChildrenList>
+								<Action Name="" ID="{98ED8173-B134-46B1-BD72-FBD3C433DCDB}" ShortID="916134386">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="not_pierced" ID="{AA846213-74C7-439D-B969-21085170CE5F}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="vo_enemy_hp_damaged_by_projectile_by_player" ID="{32C39CDF-393A-4006-98C4-7923D6CC2308}">
+							<Comment>Ивент - Есть пробитие</Comment>
+							<ChildrenList>
+								<Action Name="" ID="{B09FC7F3-2CD7-4C3B-8AB1-CAAA397523CC}" ShortID="1050240139">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="pierced" ID="{1879EF66-9CF8-4C4F-B8FF-ACD433B89D1C}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="vo_enemy_no_hp_damage_at_attempt_and_chassis_damaged_by_player" ID="{806081D9-E986-4A5F-B92D-871ED01DC947}">
+							<Comment>Ивент - Броня не пробита</Comment>
+							<ChildrenList>
+								<Action Name="" ID="{E1E34D65-5D2C-409B-AB0C-CAC3AF21E5D0}" ShortID="119567472">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="not_pierced" ID="{AA846213-74C7-439D-B969-21085170CE5F}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="vo_target_captured" ID="{59EF87E7-A7CC-4358-A0A9-A70A53A0CC68}">
+							<Comment>Ивент - Цель захвачена</Comment>
+							<ChildrenList>
+								<Action Name="" ID="{8B03831A-238E-448D-BF8E-3013A62F94BD}" ShortID="545663363">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="target_captured" ID="{EE17B497-9B8F-42C7-9282-C14BAC23EAD7}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="vo_fuel_tank_damaged" ID="{312EB5FE-E7F5-4A27-AA45-402C7F1FF16D}">
+							<Comment>Ивент - Поврежден бак</Comment>
+							<ChildrenList>
+								<Action Name="" ID="{8D16C7FA-332A-4D31-868D-5C87857E1F67}" ShortID="547870112">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="damaged" ID="{6CA9C269-99D4-4C2F-934B-2A008AC90EBD}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="vo_enemy_killed" ID="{E4504866-DE43-4FCA-B431-D3437538006E}">
+							<Comment>Ивент - Противник уничтожен</Comment>
+						</Event>
+						<Event Name="vo_surveying_devices_crit_damaged" ID="{BA0CFCDC-4BC1-41A4-9333-9348ACBEE557}">
+							<Comment>Ивент - Повреждены приборы наблюдения</Comment>
+						</Event>
+						<Event Name="vo_turret_rotator_damaged" ID="{142F27C2-AE29-4055-A4E7-B390CAD824C2}">
+							<Comment>Ивент - Скорость вращения башни снижена</Comment>
+							<ChildrenList>
+								<Action Name="" ID="{A2C6FA73-DEF7-4F64-93EE-1B6BE08BFC4E}" ShortID="244195393">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="turret_rotator_damaged" ID="{4583DA2A-6221-4C72-A1D1-24DB027CD75A}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="vo_gun_destroyed" ID="{F44ED66E-9BA8-4595-A2E5-B3535B39D471}">
+							<Comment>Ивент - Критическое повреждение орудия</Comment>
+							<ChildrenList>
+								<Action Name="" ID="{98877E82-2FB4-4384-85E8-E7F29664472F}" ShortID="437559839">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="gun_destroyed" ID="{6BF4AE7E-F4DD-4EBC-81CA-C0CED8EED952}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="vo_damage_by_near_explosion_by_player" ID="{941D5AD3-5776-44EB-BE57-04202A85DA4A}">
+							<Comment>Ивент - Накрыл</Comment>
+							<ChildrenList>
+								<Action Name="" ID="{E43B045E-981F-4697-8A03-A903EC86659A}" ShortID="444447118">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="near_explosion" ID="{F297CE29-DBAA-4170-9A0B-D9AD7A9861A4}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="vo_damage_by_near_explosion_by_enemy" ID="{6FE380B1-775B-4A39-A230-DE71C8D3D43A}">
+							<Comment>Ивент - Накрыло</Comment>
+						</Event>
+						<Event Name="vo_crew_deactivated" ID="{D4503D28-FF33-4A4F-AA22-F06E4D5315F9}">
+							<Comment>Ивент - Экипаж уничтожен</Comment>
+							<ChildrenList>
+								<Action Name="" ID="{07580361-2A24-4FB8-B017-82FA72D64CF7}" ShortID="266249054">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="crew_deactivated" ID="{C9935F4A-00BB-4782-A360-EF703B0835AE}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="vo_track_destroyed" ID="{1F92C455-59F6-4178-A703-B6271F93FC6D}">
+							<Comment>Ивент - Гусеницы сбита </Comment>
+							<ChildrenList>
+								<Action Name="" ID="{77E2CB2E-6CD2-4A00-A774-16854BA7F733}" ShortID="56198559">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="track_destroyed" ID="{4BB49240-59D7-4964-8821-EF0796ADD4F5}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="vo_gunner_killed" ID="{0DE3301B-97E9-42C7-A870-945062C4EE2B}">
+							<Comment>Ивент - Наводчик контужен</Comment>
+							<ChildrenList>
+								<Action Name="" ID="{7BD29B2B-A24D-4914-B861-A0252E25ACED}" ShortID="425602632">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="gunner_killed" ID="{69DF8104-8A33-4B8F-A29D-09AE4AA61AA2}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="vo_enemy_no_hp_damage_at_no_attempt_by_player" ID="{E5559116-EB43-4260-8D2E-72D72FDBA1AF}">
+							<Comment>Ивент - Попадание</Comment>
+							<ChildrenList>
+								<Action Name="" ID="{67E6332B-6D4A-4684-9F77-AE05EC52AE11}" ShortID="83496022">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="not_pierced" ID="{AA846213-74C7-439D-B969-21085170CE5F}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="vo_engine_destroyed" ID="{39136F27-582A-445E-B6DD-D4B1D41CC812}">
+							<Comment>Ивент - Критическое повреждение двигателя</Comment>
+							<ChildrenList>
+								<Action Name="" ID="{13CDE760-82F0-45C9-A813-571A78283977}" ShortID="386348563">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="engine_destroyed" ID="{A965388D-FA25-4BD1-96C9-48B05C5A2339}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="vo_loader_killed" ID="{67D7E451-978D-4ACE-85D3-0B4D84F50B8B}">
+							<Comment>Ивент - Заряжающий контужен</Comment>
+							<ChildrenList>
+								<Action Name="" ID="{66500E02-5906-44E3-ACD8-FC89729D72C6}" ShortID="58416089">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="loader_killed" ID="{8BD34FBC-EBB9-4E02-9135-DC4D23CF0259}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="vo_surveying_devices_destroyed" ID="{BAB43F07-929D-4C19-A75F-546CCFF5C2A8}">
+							<Comment>Ивент - Разбит триплекс</Comment>
+							<ChildrenList>
+								<Action Name="" ID="{B280FB11-D568-4C26-A478-6AD4CFC70F28}" ShortID="963195773">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="surveying_devices_destroyed" ID="{2F58762D-95DB-44E5-9509-0AC8CC6F1FC2}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="vo_enemy_hp_damaged_by_projectile_and_gun_damaged_by_player" ID="{904558E8-5BDD-4E8A-930D-BD5961E3374E}">
+							<Comment>Ивент - Есть пробитие</Comment>
+							<ChildrenList>
+								<Action Name="" ID="{5D3EB6CC-11D5-4CAE-8BAB-7473D76DBA09}" ShortID="512706481">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="pierced" ID="{1879EF66-9CF8-4C4F-B8FF-ACD433B89D1C}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="vo_target_unlocked" ID="{A17DFF0B-6A19-4A9E-806D-25A35F24C458}">
+							<Comment>Ивент - Есть отставить</Comment>
+							<ChildrenList>
+								<Action Name="" ID="{3673021C-2351-4878-837D-FEFEBE0E10CA}" ShortID="984540709">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="target_unlocked" ID="{38F755C5-5651-4CDA-9CDD-FD3A393961E1}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="vo_turret_rotator_functional" ID="{A311DEFC-B572-4D53-8DFA-1D4C5E03A2E6}">
+							<Comment>Ивент - Вращение башни частично восстановлена</Comment>
+							<ChildrenList>
+								<Action Name="" ID="{13CDA827-16CC-4E82-961C-9B83DDF6EDD0}" ShortID="359272048">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="turret_rotator_functional" ID="{A064A588-8CD0-4030-B388-1632A2134787}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="vo_surveying_devices_damaged" ID="{98BBB618-1A1D-42ED-A8D3-1EB8C274DD63}">
+							<Comment>Ивент - Повреждены приборы наблюдения</Comment>
+							<ChildrenList>
+								<Action Name="" ID="{09000CBE-88E6-4528-B167-748F83007E34}" ShortID="618190150">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="surveying_devices_damaged" ID="{C6399450-11F2-4E64-83B9-1B4406D9EDEA}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="vo_fire_stopped" ID="{4E27AF1E-0EC4-4344-A91F-AA45FFECF774}">
+							<Comment>Ивент - Пожар потушен</Comment>
+							<ChildrenList>
+								<Action Name="" ID="{41A2C7D5-9AE3-498D-AECD-7697514288A8}" ShortID="166698423">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="fire_stopped" ID="{FB076E94-EBE1-4BBF-86E6-D443708D0632}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="notifications_dp" ID="{781D4B0D-189F-49FF-A4B5-C48EFDA284E5}" ShortID="27156003">
+					<Comment>Динамический взвод</Comment>
+					<ChildrenList>
+						<Event Name="vo_dp_player_joined_platoon" ID="{7524AB0D-43A1-4EA6-A687-4B7E16D895FD}">
+							<Comment>Ивент -  Игрок присоединился к взводу</Comment>
+						</Event>
+						<Event Name="vo_dp_platoon_created" ID="{02F3BB4F-008E-430C-9B91-9B56744D5AB4}">
+							<Comment>Ивент - Взвод сформирован</Comment>
+						</Event>
+						<Event Name="vo_dp_platoon_dismissed" ID="{69A03FB9-ADF8-40A2-8DD0-225F3D16E774}">
+							<Comment>Ивент - Взвод расформирован</Comment>
+						</Event>
+						<Event Name="vo_dp_platoon_joined" ID="{145609ED-4BB9-4847-B70C-4A05212540EB}">
+							<Comment>Ивент - Вы присоединились к взводу</Comment>
+						</Event>
+						<Event Name="vo_dp_been_excluded_platoon" ID="{9E42A613-0451-4FFE-80DD-DB7D3A9E2CA4}">
+							<Comment>Ивент - Вас исключил командир взвода</Comment>
+						</Event>
+						<Event Name="vo_dp_assistance_been_requested" ID="{0DE5BDEE-07C8-498A-AB3F-90C55621364F}">
+							<Comment>Ивент - Вы приглашены во взвод</Comment>
+						</Event>
+						<Event Name="vo_dp_left_platoon" ID="{95D7A859-8ED2-4CF5-8CED-4DB664B2C216}">
+							<Comment>Ивент - Вы покинули взвод</Comment>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="notifications_flt" ID="{40F79E4C-7562-428D-ACDB-513DF49906C4}" ShortID="337338854">
+					<Comment>Бой до последнего</Comment>
+					<ChildrenList>
+						<Event Name="vo_flt_repair" ID="{7B8E992C-F299-435C-A378-26320C692EE2}">
+							<Comment>Ивент - Ремонт проведен</Comment>
+						</Event>
+						<Event Name="vo_flt_take_flag" ID="{F5ED82A7-1FE3-4047-ACC7-DC50868A86ED}">
+							<Comment>Ивент - Флаг у нас</Comment>
+						</Event>
+						<Event Name="vo_flt_deliver_flag" ID="{6B2E6785-922E-44A6-8AA5-F5A1D9884E23}">
+							<Comment>Ивент - Флаг доставлен</Comment>
+						</Event>
+						<Event Name="vo_flt_enemy_take_flag" ID="{F7313A06-82D0-4EA3-9DC0-344E64B15F59}">
+							<Comment>Ивент - Флаг захвачен противником</Comment>
+						</Event>
+						<Event Name="vo_flt_ally_flag" ID="{FED7E78A-7046-4DF6-B8BF-4B161DD403E7}">
+							<Comment>Ивент -  Флаг у нас прикрываем</Comment>
+						</Event>
+						<Event Name="vo_flt_drop_flag" ID="{65030392-4A3A-484A-865A-4DA54714992B}">
+							<Comment>Ивент - Мы потеряли флаг</Comment>
+						</Event>
+						<Event Name="vo_flt_ally_captured" ID="{4C7782A1-6BAC-4414-8579-42C6695AA347}">
+							<Comment>Ивент - Флаг доставлен</Comment>
+						</Event>
+						<Event Name="vo_flt_combat_reserve" ID="{63322562-3CB9-4BBE-A351-4E90B9025CC2}">
+							<Comment>Ивент - Получен боевой резерв</Comment>
+						</Event>
+						<Event Name="vo_flt_ready_for_action" ID="{A300CDA7-EC3E-4D6B-AA63-0255810CFFDE}">
+							<Comment>Ивент - Готов</Comment>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

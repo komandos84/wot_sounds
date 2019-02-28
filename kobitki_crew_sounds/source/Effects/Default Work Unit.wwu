@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8B6FEDBF-4E65-4D47-A19C-C7FBA129CFB5}" SchemaVersion="85">
+	<Effects>
+		<WorkUnit Name="Default Work Unit" ID="{8B6FEDBF-4E65-4D47-A19C-C7FBA129CFB5}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="New_Wwise_Flanger" ID="{501F5BB3-3ADD-41DB-97D8-42F61CF5F36B}" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
+					<PropertyList>
+						<Property Name="WetDryMix" Type="Real32" Value="0">
+							<RTPCList>
+								<RTPC Name="" ID="{0D94B955-AED7-46FB-A31B-E94CEDB94B9D}" ShortID="61952540"/>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+				<Effect Name="ev_football_distortion_eng" ID="{1E2F43BC-0406-44FF-8963-979C4225F9F1}" PluginName="iZotope Trash Multiband Distortion" CompanyID="259" PluginID="9" PluginType="3">
+					<PropertyList>
+						<Property Name="Distortion1Band1Mix" Type="Real32" Value="22"/>
+						<Property Name="Distortion1Band1Type" Type="int32" Value="28"/>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
+	</Effects>
+</WwiseDocument>

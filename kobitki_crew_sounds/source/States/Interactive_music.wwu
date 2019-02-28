@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{653010B4-B231-4469-B85F-A3A4BED4F21F}" SchemaVersion="85">
+	<States>
+		<WorkUnit Name="Interactive_music" ID="{653010B4-B231-4469-B85F-A3A4BED4F21F}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="STATE_music_corellator" ID="{818F182F-B52A-4BED-998E-E82B5E920FD7}">
+					<ChildrenList>
+						<State Name="None" ID="{F32525FF-0FD4-46E5-B06E-2105A7FAB649}"/>
+						<State Name="STATE_music_corellator_neutral" ID="{B5D1EA19-6E81-46C4-BD2C-4D307822D013}"/>
+						<State Name="STATE_music_corellator_negative_1" ID="{7D231CF6-F02A-47C7-B432-66A991255BA4}"/>
+						<State Name="STATE_music_corellator_positive_2" ID="{2C33C1C7-9560-4ECE-9D4D-B4A46577E0E6}"/>
+						<State Name="STATE_music_corellator_negative_2" ID="{2EFC8850-B097-4BC9-8306-6B4A6C36CFAF}"/>
+						<State Name="STATE_music_corellator_negative_3" ID="{34615DA2-B91F-4804-88A4-F2BE03AB8D58}"/>
+						<State Name="STATE_music_corellator_positive_1" ID="{83BFDFD7-1736-48B4-9F5B-38FE6DF16140}"/>
+						<State Name="STATE_music_corellator_positive_3" ID="{189D341C-9246-484C-9518-4280554C9252}"/>
+						<State Name="STATE_music_rusult_win" ID="{5743B3B7-B30D-40B9-871D-249F5D5C9CF8}"/>
+						<State Name="STATE_music_rusult_drawn" ID="{BB8CB98A-070E-45FA-AC36-8E2655F2E749}"/>
+						<State Name="STATE_music_rusult_defeat" ID="{A7703385-AD9F-42FA-8480-3940EAE1C487}"/>
+						<State Name="STATE_music_loadscreen" ID="{B2C26289-93D4-4C20-BEEF-FDE49CDA9C01}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

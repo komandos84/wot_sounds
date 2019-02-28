@@ -51,3 +51,9 @@ vito_crew_sounds/source/WoT_sound_mod.*
 vito_crew_sounds/source/GeneratedSoundBanks/*
 vito_crew_sounds/source/.cache
 vito_crew_sounds/source/.backup
+
+!kobitki_crew_sounds/source/WoT_sound_mod.wproj
+kobitki_crew_sounds/source/WoT_sound_mod.*
+kobitki_crew_sounds/source/GeneratedSoundBanks/*
+kobitki_crew_sounds/source/.cache
+kobitki_crew_sounds/source/.backup

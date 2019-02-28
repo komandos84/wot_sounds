@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5F496E43-DEA7-444C-9B39-DB20EDD945BA}" SchemaVersion="85">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{5F496E43-DEA7-444C-9B39-DB20EDD945BA}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="SWITCH_stinger_map" ID="{069A1313-4B86-4892-A8C4-AA1D33761021}">
+					<ChildrenList>
+						<Switch Name="SWITCH_stinger_map_cliff" ID="{648E324F-45F5-443B-99E8-DCAA812460CB}"/>
+						<Switch Name="SWITCH_stinger_map_himmelsdorf" ID="{8E4C7401-52D8-4B05-AFC0-5F5221D09864}"/>
+						<Switch Name="SWITCH_stinger_map_steppes" ID="{98064E53-F40B-4A78-AEB3-FA4D110AE39B}"/>
+						<Switch Name="SWITCH_stinger_map_malinovka" ID="{16111C78-1A2B-460A-B125-248033042C05}"/>
+						<Switch Name="SWITCH_stinger_map_mines" ID="{E886DD83-1305-45EE-8FFD-6CA1B626A01E}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

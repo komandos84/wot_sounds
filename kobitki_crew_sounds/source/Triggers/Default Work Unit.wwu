@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FFA2EC29-4A80-4FD9-AC3C-2402E5FF07D3}" SchemaVersion="85">
+	<Triggers>
+		<WorkUnit Name="Default Work Unit" ID="{FFA2EC29-4A80-4FD9-AC3C-2402E5FF07D3}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="08_Cliff_stinger" ID="{C71613BD-F790-4835-940A-6C0AAC75EC82}" ShortID="76081882">
+					<ChildrenList>
+						<Trigger Name="cliff_stinger" ID="{F480055C-2D91-46DE-BE26-F0F477C8AB75}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="07_Himmelsdorf_stinger" ID="{29C585AB-266A-410A-AEFE-5EF77BD9D06E}" ShortID="341360146">
+					<ChildrenList>
+						<Trigger Name="himmelsdorf_stinger" ID="{045AEECA-8284-421C-9355-DFFC243AF067}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="06_Steppes_stinger" ID="{45EBBFEC-4F48-4088-9D2F-ACFCD6D82F0A}" ShortID="78122098">
+					<ChildrenList>
+						<Trigger Name="steppes_stinger" ID="{B9FC6018-35D5-4356-B3E5-37742F3F05DD}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="05_Malinovka_stinger" ID="{AA6EFAF5-2129-4D09-8911-AC5C625200BB}" ShortID="303636826">
+					<ChildrenList>
+						<Trigger Name="malinovka_stinger" ID="{75A0930B-8AFD-4E69-92F2-65B58105AD67}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="04_Mines_stinger" ID="{D6F37A3B-11AA-4711-A6A2-EC260B5654B5}" ShortID="536106515">
+					<ChildrenList>
+						<Trigger Name="mines_stinger" ID="{155A2145-CC00-4D16-B0E8-D354C1C5E84A}">
+							<Comment>Стингер для карты Hills
+</Comment>
+						</Trigger>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Triggers>
+</WwiseDocument>
