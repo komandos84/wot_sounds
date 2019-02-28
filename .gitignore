@@ -27,3 +27,9 @@ pingwiny_crew_sounds/source/WoT_sound_mod.*
 pingwiny_crew_sounds/source/GeneratedSoundBanks/*
 pingwiny_crew_sounds/source/.cache
 pingwiny_crew_sounds/source/.backup
+
+julian_crew_sounds/source/WoT_sound_mod.*
+!julian_crew_sounds/source/WoT_sound_mod.wproj
+julian_crew_sounds/source/GeneratedSoundBanks/*
+julian_crew_sounds/source/.cache
+julian_crew_sounds/source/.backup
