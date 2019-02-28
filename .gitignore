@@ -39,3 +39,9 @@ bomba_crew_sounds/source/WoT_sound_mod.*
 bomba_crew_sounds/source/GeneratedSoundBanks/*
 bomba_crew_sounds/source/.cache
 bomba_crew_sounds/source/.backup
+
+teamfortress2_crew_sounds/source/WoT_sound_mod.*
+!teamfortress2_crew_sounds/source/WoT_sound_mod.wproj
+teamfortress2_crew_sounds/source/GeneratedSoundBanks/*
+teamfortress2_crew_sounds/source/.cache
+teamfortress2_crew_sounds/source/.backup
