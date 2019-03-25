@@ -1,6 +1,6 @@
 # Dźwięki załogi *by Automatyk*
 
-***Dźwięków załogi***
+***Dźwięki załogi***
 
 1. [Kapitan Bomba i Blok Ekipa](https://github.com/komandos84/wot_sounds/raw/master/bomba_crew_sounds/zip/BombaBlokEkipa.zip)
 2. [Król Julian](https://github.com/komandos84/wot_sounds/raw/master/julian_crew_sounds/zip/KrolJulian.zip)
