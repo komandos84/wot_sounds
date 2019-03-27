@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="Project" SchemaVersion="85" WwiseVersion="v2017.2.5" WwiseBuild="6619">
 	<ProjectInfo>
-		<Project Name="WoT_sound_mod_version_1_2" ID="{655ED899-8C41-4BD4-9799-A8885909500D}">
+		<Project Name="WoT_sound_mod" ID="{655ED899-8C41-4BD4-9799-A8885909500D}">
 			<Platforms>
 				<Platform Name="Windows_HighRes" ReferencePlatform="Windows" ID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EC}"/>
 			</Platforms>
@@ -192,7 +192,7 @@
 						<Value Platform="Windows_HighRes">110</Value>
 					</ValueList>
 				</Property>
-				<Property Name="LicenseKey" Type="string" Value="PHByb2plY3QgaWQ9IjM4ODYiIG1hc2s9IlZYTU45ODY0IiBlbmM9IjMiPjxsaWNlbnNlIGlkPSIxIiBuYW1lPSJXd2lzZSIgdHlwZT0iMyIgcGxhdGZvcm1zPSIxMCIgZXhwaXJlcz0iMjAxOS0wMy0zMSIgIC8+PGxpY2Vuc2UgaWQ9IjIxIiBuYW1lPSJNYWludGVuYW5jZSIgdHlwZT0iMyIgcGxhdGZvcm1zPSIxMCIgZXhwaXJlcz0iMjAxOS0wMy0zMSIgIC8+PGxpY2Vuc2UgaWQ9IjI0IiBuYW1lPSJMZXZlbCBDIExpY2Vuc2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMTAiIGV4cGlyZXM9IjIwMTktMDMtMzEiICAvPjxsaWNlbnNlIGlkPSIxNCIgbmFtZT0iaVpvdG9wZSBUcmFzaCBCb3ggTW9kZWxzIiB0eXBlPSIzIiBwbGF0Zm9ybXM9IjEwIiBleHBpcmVzPSIyMDE5LTAzLTMxIiAgLz48bGljZW5zZSBpZD0iMTIiIG5hbWU9Imlab3RvcGUgVHJhc2ggTXVsdGktYmFuZCBEaXN0b3J0aW9ucyIgdHlwZT0iMyIgcGxhdGZvcm1zPSIxMCIgZXhwaXJlcz0iMjAxOS0wMy0zMSIgIC8+PGxpY2Vuc2UgaWQ9IjEwIiBuYW1lPSJNY0RTUCBCdW5kbGUgKE1MMSwgRnV0ekJveCkiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMTAiIGV4cGlyZXM9IjIwMTktMDMtMzEiICAvPjxsaWNlbnNlIGlkPSI3IiBuYW1lPSJTb3VuZFNlZWQgQnVuZGxlIChJbXBhY3QsIEFpcikiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMTAiIGV4cGlyZXM9IjIwMTktMDMtMzEiICAvPjxsaWNlbnNlIGlkPSI2IiBuYW1lPSJXd2lzZSBDb252b2x1dGlvbiBSZXZlcmIiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMTAiIGV4cGlyZXM9IjIwMTktMDMtMzEiICAvPjwvcHJvamVjdD4=|nkV7juZKS7Lt3zoULWFxeAzQg3Qf1lkWiIhFxb3kyYUKt1FxOHLTWXiET+gye0FawGYJlqQnd1Vb0YD6AOTKkBubYW9d6IfXlysAzXBmAvGr5t15OeBXqrhKb4th6UhneSHDapaBg0uUUWIIIEah886weua8twbVQl6twzxZ6wGRhO4QF4ul60+X3ZxAT3vuz/4c8Zn3VNqv84sM2nk4Paf2+kFuhAoDF0IxiDvPIbIc8ZgAOGYkeX9/iZIvuVQDXOvYhpdr+F803pYUwNBUoutE648JmkVpXFFkFqKK7YHNF9PgyzqwY0nEGcU5J9Hb1sytU7Lvr9rgFAiR/Oz6yw=="/>
+				<Property Name="LicenseKey" Type="string" Value="PHByb2plY3QgaWQ9IjM4ODYiIG1hc2s9IlZYTU45ODY0IiBlbmM9IjMiPjxsaWNlbnNlIGlkPSIxIiBuYW1lPSJXd2lzZSIgdHlwZT0iMyIgcGxhdGZvcm1zPSIxMCIgZXhwaXJlcz0iMjAyMS0wMy0zMSIgIC8+PGxpY2Vuc2UgaWQ9IjIxIiBuYW1lPSJNYWludGVuYW5jZSIgdHlwZT0iMyIgcGxhdGZvcm1zPSIxMCIgZXhwaXJlcz0iMjAyMS0wMy0zMSIgIC8+PGxpY2Vuc2UgaWQ9IjI0IiBuYW1lPSJMZXZlbCBDIExpY2Vuc2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMTAiIGV4cGlyZXM9IjIwMjEtMDMtMzEiICAvPjxsaWNlbnNlIGlkPSIxNCIgbmFtZT0iaVpvdG9wZSBUcmFzaCBCb3ggTW9kZWxzIiB0eXBlPSIzIiBwbGF0Zm9ybXM9IjEwIiBleHBpcmVzPSIyMDIxLTAzLTMxIiAgLz48bGljZW5zZSBpZD0iMTIiIG5hbWU9Imlab3RvcGUgVHJhc2ggTXVsdGktYmFuZCBEaXN0b3J0aW9ucyIgdHlwZT0iMyIgcGxhdGZvcm1zPSIxMCIgZXhwaXJlcz0iMjAyMS0wMy0zMSIgIC8+PGxpY2Vuc2UgaWQ9IjEwIiBuYW1lPSJNY0RTUCBCdW5kbGUgKE1MMSwgRnV0ekJveCkiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMTAiIGV4cGlyZXM9IjIwMjEtMDMtMzEiICAvPjxsaWNlbnNlIGlkPSI3IiBuYW1lPSJTb3VuZFNlZWQgQnVuZGxlIChJbXBhY3QsIEFpcikiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMTAiIGV4cGlyZXM9IjIwMjEtMDMtMzEiICAvPjxsaWNlbnNlIGlkPSI2IiBuYW1lPSJXd2lzZSBDb252b2x1dGlvbiBSZXZlcmIiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMTAiIGV4cGlyZXM9IjIwMjEtMDMtMzEiICAvPjwvcHJvamVjdD4=|FH5TfTJy2nvgwY16c7qg4j79XZ8wc034xGguZeAN6IV3anvtUfcpfY0VisHJ97yzGRFBh2rhUKNvWvoaIJJ4WzMSMMItWOy7vY014jSWycLOXjFJShL1xE6xGrtTjXo2/rjFkNRxIUf8FSRyDkf0h5qgLOFDpNTfdm+bCOfvxDPlzDtbm6BbmRITl49axd8/f77hOLp+8MXkEX2WatTYjr2p+Y5YpE/7rcOMfmWPzuMYuOhvMWc9Nx7egW65r2M3wae3G/NvIe8U17QvlwLmuDeS4bTXgLL4g3hvVwmU+6wzdOTaJML5RR0aDhrQbzmcpYb8xpoSsF+c4diEJZrdfA=="/>
 				<Property Name="SoundBankGenerateDefinitionFile" Type="bool" Value="False"/>
 				<Property Name="SoundBankGenerateEstimatedDuration" Type="bool" Value="True"/>
 				<Property Name="SoundBankGenerateMaxAttenuationInfo" Type="bool" Value="True"/>
@@ -8209,7 +8209,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="SoundSeed Impact" PluginType="3" CompanyID="0" PluginID="116">
+				<SharedPropertyList ClassName="" PluginType="3" CompanyID="0" PluginID="116">
 					<PropertyList>
 						<Property Name="BWAmt" Type="Real32">
 							<ValueList>
@@ -8522,7 +8522,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="SoundSeed Air/SoundSeed Wind" PluginType="2" CompanyID="0" PluginID="119">
+				<SharedPropertyList ClassName="" PluginType="2" CompanyID="0" PluginID="119">
 					<PropertyList>
 						<Property Name="AttenuationRollOff" Type="Real32">
 							<ValueList>
@@ -8671,7 +8671,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="SoundSeed Air/SoundSeed Woosh" PluginType="2" CompanyID="0" PluginID="120">
+				<SharedPropertyList ClassName="" PluginType="2" CompanyID="0" PluginID="120">
 					<PropertyList>
 						<Property Name="AttenuationRollOff" Type="Real32">
 							<ValueList>
@@ -8795,7 +8795,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="Deflector" PluginType="0" CompanyID="0" PluginID="121">
+				<SharedPropertyList ClassName="" PluginType="0" CompanyID="0" PluginID="121">
 					<PropertyList>
 						<Property Name="Frequency" Type="Real32">
 							<ValueList>
@@ -8824,7 +8824,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="Deflector" PluginType="0" CompanyID="0" PluginID="122">
+				<SharedPropertyList ClassName="" PluginType="0" CompanyID="0" PluginID="122">
 					<PropertyList>
 						<Property Name="Anchor" Type="bool">
 							<ValueList>
@@ -9136,7 +9136,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="Wwise Convolution Reverb" PluginType="3" CompanyID="0" PluginID="127">
+				<SharedPropertyList ClassName="" PluginType="3" CompanyID="0" PluginID="127">
 					<PropertyList>
 						<Property Name="AlgoTypeSelect" Type="int32">
 							<ValueList>
@@ -9881,7 +9881,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="Microsoft HRTF" PluginType="3" CompanyID="0" PluginID="170">
+				<SharedPropertyList ClassName="" PluginType="3" CompanyID="0" PluginID="170">
 					<PropertyList>
 						<Property Name="Inclusion" Type="bool">
 							<ValueList>
@@ -9895,7 +9895,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="Wwise Reflect" PluginType="3" CompanyID="0" PluginID="171">
+				<SharedPropertyList ClassName="" PluginType="3" CompanyID="0" PluginID="171">
 					<PropertyList>
 						<Property Name="BaseTextureFrequency" Type="Real32">
 							<ValueList>
@@ -10026,7 +10026,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="Wwise MP3 Input" PluginType="2" CompanyID="0" PluginID="201">
+				<SharedPropertyList ClassName="" PluginType="2" CompanyID="0" PluginID="201">
 					<PropertyList>
 						<Property Name="Token" Type="int32">
 							<ValueList>
@@ -10246,7 +10246,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="CrankcaseAudio REV" PluginType="2" CompanyID="261" PluginID="416">
+				<SharedPropertyList ClassName="" PluginType="2" CompanyID="261" PluginID="416">
 					<PropertyList>
 						<Property Name="EnableShifting" Type="int32">
 							<ValueList>
@@ -10285,7 +10285,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="EngineSimulationControlData" PluginType="0" CompanyID="261" PluginID="417">
+				<SharedPropertyList ClassName="" PluginType="0" CompanyID="261" PluginID="417">
 					<PropertyList>
 						<Property Name="ClutchRPMMergeTime" Type="Real32">
 							<ValueList>
@@ -10369,7 +10369,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="AccelDecelModelControlData" PluginType="0" CompanyID="261" PluginID="418">
+				<SharedPropertyList ClassName="" PluginType="0" CompanyID="261" PluginID="418">
 					<PropertyList>
 						<Property Name="AccelVolume_Off" Type="Real32">
 							<ValueList>
