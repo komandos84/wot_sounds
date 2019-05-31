@@ -12,6 +12,7 @@
 						<ObjectRef Name="lightbulb" ID="{1002126A-B80E-409D-AC8A-8B840792CED0}" WorkUnitID="{29708410-8604-415B-B6D7-AEA35E382D83}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="vo_armor_not_pierced_by_player" ID="{AE7F5114-6B82-40B3-9D1B-2D285931D9FE}" WorkUnitID="{29708410-8604-415B-B6D7-AEA35E382D83}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="vo_gun_functional" ID="{4AB0FBBE-474D-4109-ABA6-A9805C662D40}" WorkUnitID="{29708410-8604-415B-B6D7-AEA35E382D83}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Gun Reloaded" ID="{E3361B56-BEC2-4124-9FC6-DE9F97C3EC40}" WorkUnitID="{E3361B56-BEC2-4124-9FC6-DE9F97C3EC40}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="vo_driver_killed" ID="{98103C96-60D1-412A-B44E-8F0C7F3BF5CD}" WorkUnitID="{29708410-8604-415B-B6D7-AEA35E382D83}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="vo_surveying_devices_functional" ID="{646B859A-64AC-41C2-9E62-2E86256B0B56}" WorkUnitID="{29708410-8604-415B-B6D7-AEA35E382D83}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="vo_fire_started" ID="{3ED7F523-5D9D-41E3-8AE7-0E19B416908A}" WorkUnitID="{29708410-8604-415B-B6D7-AEA35E382D83}" Filter="7" Origin="Manual"/>
@@ -46,7 +47,6 @@
 						<ObjectRef Name="crew_member_contusion" ID="{680D3C7D-7539-4D07-A3AD-4140A98180A4}" WorkUnitID="{29708410-8604-415B-B6D7-AEA35E382D83}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="vo_vehicle_destroyed" ID="{4291FD8B-1271-4D24-9B37-12CEE8EC1959}" WorkUnitID="{29708410-8604-415B-B6D7-AEA35E382D83}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="vo_surveying_devices_destroyed" ID="{4E5826D4-4C92-4D6C-9B91-AC80F324BF99}" WorkUnitID="{29708410-8604-415B-B6D7-AEA35E382D83}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="gun_reloaded" ID="{3B0DE01B-E254-4D80-B87A-FE1F680AAEAF}" WorkUnitID="{29708410-8604-415B-B6D7-AEA35E382D83}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="vo_ammo_bay_damaged" ID="{24F9D4AD-4B47-4DEA-841A-E2918ECEBDF6}" WorkUnitID="{29708410-8604-415B-B6D7-AEA35E382D83}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="vo_chat_shotcuts_help_me" ID="{836282D6-C349-4E26-8A0E-C5133911784A}" WorkUnitID="{29708410-8604-415B-B6D7-AEA35E382D83}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="vo_gun_destroyed" ID="{653A4196-9729-4E35-8C24-CA6715009C86}" WorkUnitID="{29708410-8604-415B-B6D7-AEA35E382D83}" Filter="7" Origin="Manual"/>
