@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{264C3264-F469-41F8-B302-659F23F8D8D9}" SchemaVersion="85">
+	<Modulators>
+		<WorkUnit Name="ambient" ID="{264C3264-F469-41F8-B302-659F23F8D8D9}" PersistMode="Standalone">
+			<ChildrenList>
+				<ModulatorEnvelope Name="ENV_duck" ID="{2F299E5C-C3F9-457F-8676-D04FEA136044}" ShortID="342109682">
+					<PropertyList>
+						<Property Name="EnvelopeAttackTime" Type="Real64" Value="8"/>
+						<Property Name="EnvelopeAutoRelease" Type="bool" Value="True"/>
+						<Property Name="EnvelopeReleaseTime" Type="Real64" Value="14"/>
+						<Property Name="EnvelopeStopPlayback" Type="bool" Value="False"/>
+						<Property Name="EnvelopeSustainTime" Type="Real64" Value="1"/>
+					</PropertyList>
+				</ModulatorEnvelope>
+				<ModulatorEnvelope Name="ENV_train" ID="{9E5E6461-E78A-457E-9F01-9A3DB83234B5}" ShortID="394250757">
+					<PropertyList>
+						<Property Name="EnvelopeAttackTime" Type="Real64" Value="8"/>
+						<Property Name="EnvelopeAutoRelease" Type="bool" Value="True"/>
+						<Property Name="EnvelopeReleaseTime" Type="Real64" Value="14"/>
+						<Property Name="EnvelopeSustainTime" Type="Real64" Value="11"/>
+					</PropertyList>
+				</ModulatorEnvelope>
+				<ModulatorLfo Name="LFO_wind_0_04Hz" ID="{84FA9A22-6B4C-435E-860E-A77124D207BD}" ShortID="606623520">
+					<Comment>changing the wind blowing volume</Comment>
+					<PropertyList>
+						<Property Name="LfoFrequency" Type="Real64" Value="0.04"/>
+					</PropertyList>
+				</ModulatorLfo>
+				<ModulatorEnvelope Name="ENV_wind" ID="{A1DC547B-1BB3-4A2B-9D4D-CEF8748E87D3}" ShortID="1047089800"/>
+				<ModulatorLfo Name="LFO_wind_0_06Hz" ID="{4847252F-18B2-409B-8318-E6EE6DDD7E0C}" ShortID="176808594">
+					<Comment>changing the wind blowing volume</Comment>
+					<PropertyList>
+						<Property Name="LfoFrequency" Type="Real64" Value="0.06"/>
+					</PropertyList>
+				</ModulatorLfo>
+				<ModulatorLfo Name="LFO_wind_0_02Hz" ID="{D8E21847-74CF-4CB1-9F9E-5A8047C43557}" ShortID="832940967">
+					<Comment>changing the wind blowing volume</Comment>
+					<PropertyList>
+						<Property Name="LfoFrequency" Type="Real64" Value="0.02">
+							<RTPCList>
+								<RTPC Name="" ID="{9EF7AAF8-A5BF-441D-A90A-5EB7FE49D7A5}" ShortID="580226435">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="LFO_wind_manag_0_02Hz" ID="{ADD83A38-5D87-47F9-A7BC-DC169F45B9C9}" WorkUnitID="{264C3264-F469-41F8-B302-659F23F8D8D9}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{37DEC140-25F0-47A3-91B6-8CA04CC499E1}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="5"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0.02408</YPos>
+												<Flags>21</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>0.05075</YPos>
+												<Flags>53</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</ModulatorLfo>
+				<ModulatorLfo Name="LFO_wind_manag_0_02Hz" ID="{ADD83A38-5D87-47F9-A7BC-DC169F45B9C9}" ShortID="340960951">
+					<Comment>changing the frequencies of wind blowing volume change_AM_wind</Comment>
+					<PropertyList>
+						<Property Name="LfoDepth" Type="Real64" Value="62.1"/>
+						<Property Name="LfoFrequency" Type="Real64" Value="0.24"/>
+					</PropertyList>
+				</ModulatorLfo>
+			</ChildrenList>
+		</WorkUnit>
+	</Modulators>
+</WwiseDocument>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{850F021A-42A0-4125-B19D-D5F6EE1DAE77}" SchemaVersion="85">
+	<Effects>
+		<WorkUnit Name="Vehicles" ID="{850F021A-42A0-4125-B19D-D5F6EE1DAE77}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="vehicles_transmission_guitar_distortion" ID="{4805EC00-2C68-4289-ADA0-6AD55ABE5E9B}" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3">
+					<PropertyList>
+						<Property Name="DistortionDrive" Type="Real32" Value="6"/>
+						<Property Name="DistortionType" Type="int32" Value="1"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="vehicles_transmission_tremolo" ID="{073B7EDF-7F65-4EF7-BFB2-FFCDCADDD0E9}" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+					<PropertyList>
+						<Property Name="ModDepth" Type="Real32" Value="35"/>
+						<Property Name="ModFrequency" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{1483E158-FA53-4DF4-B424-09E7301CA0A3}" ShortID="322850194">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_ext_speed_rel" ID="{1BC16D05-7BBA-4C79-9BD6-E0A99EAC6B4A}" WorkUnitID="{87FF0202-7DD4-4D0F-A267-00520CCB358C}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{D3A4E3F5-5F48-4573-A5D1-6D573F5AAF9B}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="5"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>-1</XPos>
+												<YPos>35</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>Exp3</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>-0.25</XPos>
+												<YPos>3</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0.2</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>0.25</XPos>
+												<YPos>3</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>Log3</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>37.16679</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="ModSmoothing" Type="Real32" Value="50"/>
+						<Property Name="ModWaveform" Type="int32" Value="1"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="vehicles_makeup_bus" ID="{2D51AEC6-729E-4771-8C76-BF2754376BD7}" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3"/>
+				<Effect Name="vehicles_surface_hf_sidechain" ID="{3FBBB0D2-F638-4941-913A-5E97002B4AD9}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FrequencyBand3" Type="Real32" Value="4000"/>
+						<Property Name="GainBand3" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{3C40CA75-EFD7-4F7D-8DAA-36EF5B029A7B}" ShortID="916573040">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_int_meter_surface_balance" ID="{C7C857A2-8D53-44D1-9ED8-4D204B927C21}" WorkUnitID="{87FF0202-7DD4-4D0F-A267-00520CCB358C}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{2E9618AB-3C6E-47B4-93D8-29C588AC15A9}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>-48</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>Exp3</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>-25</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>Exp3</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>-10.05486</XPos>
+												<YPos>-6</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>Log3</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-6</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="OnOffBand1" Type="bool" Value="False"/>
+						<Property Name="OnOffBand2" Type="bool" Value="False"/>
+						<Property Name="ProcessLFE" Type="bool" Value="False"/>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
+	</Effects>
+</WwiseDocument>

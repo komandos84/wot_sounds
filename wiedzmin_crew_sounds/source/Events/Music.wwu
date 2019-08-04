@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2D6C35E9-3A5D-42E6-927C-AB35ABC9CBAE}" SchemaVersion="85">
+	<Events>
+		<WorkUnit Name="Music" ID="{2D6C35E9-3A5D-42E6-927C-AB35ABC9CBAE}" PersistMode="Standalone">
+			<Comment>Music</Comment>
+			<ChildrenList>
+				<Folder Name="Arena" ID="{691E8020-7DA0-4ABE-82A8-4C226A3A9903}" ShortID="367287396">
+					<ChildrenList>
+						<Event Name="music_victory" ID="{4AF3980C-71EB-4B10-958A-E408A503F966}">
+							<Comment>Event - Victory music after a battle</Comment>
+						</Event>
+						<Event Name="music_drawn_game" ID="{06B47DDD-D3D1-4B10-8763-89E8C9E21754}">
+							<Comment>Event - Draw music after a battle</Comment>
+						</Event>
+						<Event Name="music_tutorial" ID="{4E6F525A-AA3B-482A-BF8D-28DD50A8F9F0}">
+							<Comment>Event - Music during Battle Training</Comment>
+						</Event>
+						<Event Name="music_combat" ID="{C453DDE2-6A1F-4478-B488-D1C20622B243}">
+							<Comment>Event - Music during a battle</Comment>
+						</Event>
+						<Event Name="music_defeat" ID="{D5DBBEB6-ECF5-451B-A72F-84F6E7F77E5A}">
+							<Comment>Event - Defeat music after a battle</Comment>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Intro" ID="{99EF2AFA-B43D-485F-AEB6-338F5C090A5F}" ShortID="839742641">
+					<Comment>Event - Music played upon loading a map. 
+Music is set depending on a map setting (region).</Comment>
+					<ChildrenList>
+						<Event Name="music_kavkaz" ID="{4A3F32C5-0F7C-404D-9836-7ECC5440CD55}"/>
+						<Event Name="music_kharkov" ID="{789F701F-9991-4458-9F0E-6AE6BCC67D8D}"/>
+						<Event Name="music_main_menu" ID="{19C7A79D-87C5-40EE-B32D-E3C609241CA2}">
+							<Comment>1. Event - Music played on the log-in screen</Comment>
+						</Event>
+						<Event Name="music_malinovka" ID="{0A3AF51A-2A31-4C9D-8211-3D16EA17E5C7}"/>
+						<Event Name="music_rus_city" ID="{7723C68E-FC41-4677-8660-11FC7C0C8478}"/>
+						<Event Name="music_euro_vilage" ID="{27644B24-9BDB-452C-92E6-AABA2C6E33CC}"/>
+						<Event Name="music_stalingrad" ID="{60657086-372C-4305-AD69-E70AFC1D64C4}"/>
+						<Event Name="music_america" ID="{C225295B-AE28-4629-B87C-593B18B68D6D}"/>
+						<Event Name="music_euro_city" ID="{7BCC595A-4A8E-4624-BA78-9D9EFE87D5E6}"/>
+						<Event Name="music_japan" ID="{72D56DA0-9B07-4CD5-8BA8-24B700413AF9}"/>
+						<Event Name="music_himmelsdorf" ID="{C4280EB3-0835-4CF1-B354-055EBE3A9EC1}"/>
+						<Event Name="music_rus_vilage" ID="{A26BA0A7-A905-414C-945B-E0829C247CC9}"/>
+						<Event Name="music_desert" ID="{F176487D-42AE-4C3B-9614-BAAE85F3F478}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Loginscreen" ID="{8AE7808A-2004-41B1-8DBA-FC387D01CD4A}" ShortID="128475641">
+					<ChildrenList>
+						<Event Name="loginscreen_music_start" ID="{662732CA-6574-4B1E-872B-D378DC303B36}"/>
+						<Event Name="loginscreen_mute" ID="{39054800-30C4-4DD3-8D95-7C8FA6E712D8}"/>
+						<Event Name="loginscreen_unmute" ID="{20C025B9-CADA-454C-B3CA-00CC5898649D}"/>
+						<Event Name="loginscreen_music_stop_longfade" ID="{B55CB314-24F7-4C5E-8E43-A72010ED2785}"/>
+						<Event Name="loginscreen_ambient_start" ID="{DCA68B0B-40B9-4CBB-B188-CC7F57FF0CBB}"/>
+						<Event Name="loginscreen_ambient_stop" ID="{E339DF54-75C5-4EEF-A869-0485D2448A6C}"/>
+						<Event Name="loginscreen_music_pause" ID="{DB63054C-21CE-4447-9AD9-8BC5E678DD25}"/>
+						<Event Name="loginscreen_music_resume" ID="{D3137202-65F3-4699-9D5F-B0984C043CEF}"/>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

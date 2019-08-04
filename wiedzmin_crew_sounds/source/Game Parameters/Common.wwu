@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{99AED538-0B7F-42D5-942E-04185D409E05}" SchemaVersion="85">
+	<GameParameters>
+		<WorkUnit Name="Common" ID="{99AED538-0B7F-42D5-942E-04185D409E05}" PersistMode="Standalone">
+			<Comment>Common</Comment>
+			<ChildrenList>
+				<GameParameter Name="RTPC_ext_viewPlayMode" ID="{56EDB9BE-02A6-4A67-A583-F45A94B03004}">
+					<Comment>External RTPC - Used for switching a player between 3 aims
+0 - sniper aim
+1 - arcade aim
+2 - artillery aim</Comment>
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="2"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_int_azimuth" ID="{66CDEF82-C0CE-407C-8F46-25FCE6F19B73}">
+					<Comment>Internal RTPC - Determines the rules of sound playback relatively the camera (player) listener_angle в FMOD</Comment>
+					<PropertyList>
+						<Property Name="BindToBuiltInParam" Type="int16" Value="2"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="180"/>
+						<Property Name="Min" Type="Real64" Value="-180"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_int_object_to_listener_angle" ID="{387B21ED-F601-4088-954A-6262CF0BA552}">
+					<Comment>Internal RTPC - Determines the rules of sound playback relatively a vehicle (player) 
+event_angle в FMOD</Comment>
+					<PropertyList>
+						<Property Name="BindToBuiltInParam" Type="int16" Value="4"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="180"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_ext_reflectTail" ID="{7493AB43-028A-414A-8094-4ADF5E2D9939}">
+					<Comment>External RTPC - Used for managing the switch SWITCH_int_reflectTail.
+- field
+- forest
+-vilage</Comment>
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="2"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_int_distance" ID="{BF3AB708-0AE6-46FC-B487-5F27895968F1}">
+					<Comment>Internal RTPC - Determines the rules of sound playback at a distance of up to 250 m</Comment>
+					<PropertyList>
+						<Property Name="BindToBuiltInParam" Type="int16" Value="1"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="250"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_int_blend_1000m" ID="{ED5F9D17-1584-4FCB-8FF0-E5F4D59C3080}">
+					<Comment>Internal RTPC - Determines the rules of sound playback at a distance of up to 600 m</Comment>
+					<PropertyList>
+						<Property Name="BindToBuiltInParam" Type="int16" Value="1"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="600"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_int_HDR" ID="{E050B800-5F78-428D-892D-16BF767E02BE}">
+					<Comment>NOT APPLIED</Comment>
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="40"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_int_blend_600m" ID="{97B3AD47-9AA2-460D-8E08-7F4C0AB859D4}">
+					<Comment>Internal RTPC - Determines the rules of sound playback at a distance of up to 600 m</Comment>
+					<PropertyList>
+						<Property Name="BindToBuiltInParam" Type="int16" Value="1"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="600"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_int_initial_delay_distance" ID="{90457F67-C38C-4867-8524-2882BD267A67}">
+					<Comment>Internal RTPC - Delay of hit sounds at a distance of up to 600 m</Comment>
+					<PropertyList>
+						<Property Name="BindToBuiltInParam" Type="int16" Value="1"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="600"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_int_impact_sidechain" ID="{18CD8807-C95A-4C17-9A93-E2112185B789}">
+					<Comment>Internal RTPC - Required for converting the hit volume level (the 034_imp_NPC_PC bus) into the RTPC parameter (Wwise Meter), for sidechain volume and LPF (the 045_impact_filter_ducking_group bus)</Comment>
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="-48"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_int_vo_ducking" ID="{1E252F1B-39B9-4251-8D5D-A20E4F4AF0BF}">
+					<Comment>Internal RTPC - Required for converting the voice notification volume level (the 010_vo_com bus) inot the RTPC parameter (WWise Meter) for sidechain volume  (the HDR_dbc bus)</Comment>
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="-48"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_int_explosion_sidechain" ID="{2D343FB1-D8A1-40FD-84CB-9480EC6C0B66}">
+					<Comment>Internal RTPC - Required for converting the explosion volume level (the 030_expl_PC bus) into the RTPC parameter (Wwise Meter) for sidechain volume (the secondary bus)</Comment>
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="-48"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_int_distance_1000m" ID="{233FF10A-53C3-4F3F-AB42-E299DFCF3509}">
+					<Comment>Internal RTPC - Determines the rules of sound playback at a distance of up to 1,000 m</Comment>
+					<PropertyList>
+						<Property Name="BindToBuiltInParam" Type="int16" Value="1"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1000"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_int_distance_2000m" ID="{8B8A20DC-201A-444E-979B-2656B7E79494}">
+					<Comment>Internal RTPC - Determines the rules of sound playback at a distance of up to 2,000 m</Comment>
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="2000"/>
+						<Property Name="Max" Type="Real64" Value="2000"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_int_distance_1100m" ID="{3B5B0664-7137-4DE0-A597-542B423EF9E9}">
+					<Comment>Internal RTPC - Determines the rules of sound playback at a distance of up to 1,100 m</Comment>
+					<PropertyList>
+						<Property Name="BindToBuiltInParam" Type="int16" Value="1"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_int_distance_1200m" ID="{20946FF5-5541-4D41-ADCB-19E3469FA85C}">
+					<Comment>Internal RTPC - Determines the rules of sound playback at a distance of up to 1,200 m</Comment>
+					<PropertyList>
+						<Property Name="BindToBuiltInParam" Type="int16" Value="1"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1200"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_int_HDR_threshold" ID="{89306D8C-E761-45F6-B4FD-93E7B1D8BB0C}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="30"/>
+						<Property Name="Min" Type="Real64" Value="-50"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_ext_slowmo_factor" ID="{CCF097BB-E16E-4E49-8ABC-61732620415E}">
+					<PropertyList>
+						<Property Name="FilterTimeDown" Type="Real64" Value="3"/>
+						<Property Name="FilterTimeUp" Type="Real64" Value="3"/>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="16"/>
+						<Property Name="RTPCRamping" Type="int16" Value="2"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

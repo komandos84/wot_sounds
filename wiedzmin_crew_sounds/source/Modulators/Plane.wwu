@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7DB04E64-5A8F-413B-A8A0-F487E4B01017}" SchemaVersion="85">
+	<Modulators>
+		<WorkUnit Name="Plane" ID="{7DB04E64-5A8F-413B-A8A0-F487E4B01017}" PersistMode="Standalone">
+			<ChildrenList>
+				<ModulatorLfo Name="LFO_plane_pitch" ID="{757EAD4C-6AB8-4B86-874A-7C75265CD72C}" ShortID="971652045"/>
+				<ModulatorEnvelope Name="plane_pitch_crashe" ID="{8E4C489B-9E6A-4E99-88E7-8AD065459C6F}" ShortID="50174672">
+					<PropertyList>
+						<Property Name="EnvelopeAttackCurve" Type="Real64" Value="100"/>
+						<Property Name="EnvelopeAttackTime" Type="Real64" Value="40"/>
+						<Property Name="EnvelopeDecayTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeSustainLevel" Type="Real64" Value="0"/>
+						<Property Name="ModulatorScope" Type="int32" Value="0"/>
+					</PropertyList>
+				</ModulatorEnvelope>
+			</ChildrenList>
+		</WorkUnit>
+	</Modulators>
+</WwiseDocument>

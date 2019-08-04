@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{845F15F0-9D9C-4D94-88A8-13BD13BA7963}" SchemaVersion="85">
+	<Switches>
+		<WorkUnit Name="Pass_By" ID="{845F15F0-9D9C-4D94-88A8-13BD13BA7963}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="SWITCH_int_passBy_close" ID="{0CAF4731-0667-4FB0-A8D3-092B2B6F3F77}">
+					<Comment>The switch is responsible for enabling the tracer content depending on distance.</Comment>
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="SWITCH_int_passBy_close_on" ID="{4BB18848-6BA2-4525-B3F3-5492ABC86A4F}">
+							<Comment>The tracer sonud is played (at a distance of up to 50 m)</Comment>
+						</Switch>
+						<Switch Name="SWITCH_int_passBy_close_off" ID="{338CD3BF-24AB-4392-89A8-022D3C977DF7}">
+							<Comment>The sound is not played. Default state.</Comment>
+						</Switch>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="psb_distance" ID="{6DA2339B-4638-4377-9432-EAF4722C7A43}"/>
+						<Curve Name="" ID="{FCA2DC05-619C-4277-97E8-74F1DCC27269}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>1</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>50</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>400</XPos>
+									<YPos>2</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+				<SwitchGroup Name="SWITCH_int_passBy_med" ID="{1CC5804D-449D-43A7-BDA1-7140167ACE28}">
+					<Comment>The switch is responsible for enabling the tracer content depending on distance.</Comment>
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="SWITCH_int_passBy_med_on" ID="{BD17E357-EB9F-4CFF-8CC4-8DE7F2A9F14C}">
+							<Comment>The tracer sound is played (at a distance of up to 200 m)</Comment>
+						</Switch>
+						<Switch Name="SWITCH_int_passBy_med_off" ID="{3C0F49A4-834C-437A-8A26-127FDA35A542}">
+							<Comment>The sound is not played. Default state.</Comment>
+						</Switch>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="psb_distance" ID="{6DA2339B-4638-4377-9432-EAF4722C7A43}"/>
+						<Curve Name="" ID="{0FD9B00D-0E97-4558-97DB-513CE997F552}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>1</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>200</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>400</XPos>
+									<YPos>2</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+				<SwitchGroup Name="SWITCH_passby_tank_type" ID="{899792AA-1768-4AA0-B383-C45DA10F72E8}">
+					<Comment>The switch is responsible for separating the tracer content depending on the vehicle type.</Comment>
+					<ChildrenList>
+						<Switch Name="SWITCH_passby_tank_type_artillery" ID="{2556ADA3-2230-40A1-9C97-0DAAF35A75AE}">
+							<Comment>SPG</Comment>
+						</Switch>
+						<Switch Name="SWITCH_passby_tank_type_tank" ID="{5DB9B302-E687-438D-B278-E920BC670ABF}">
+							<Comment>Tanks</Comment>
+						</Switch>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="SWITCH_int_passBy_far" ID="{849DD47F-223B-4972-88ED-2D8DA2B8B350}">
+					<Comment>The switch is responsible for enabling the tracer content depending on distance.</Comment>
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="SWITCH_int_passBy_far_on" ID="{0E372B6C-67C1-4F0B-99B3-B352D9929F57}">
+							<Comment>The tracer sonud is played (at a distance of up to 350 m)</Comment>
+						</Switch>
+						<Switch Name="SWITCH_int_passBy_far_off" ID="{D9D6028B-F81A-493C-BA4C-6CF9F208D4CA}">
+							<Comment>The sound is not played. Default state.</Comment>
+						</Switch>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="psb_distance" ID="{6DA2339B-4638-4377-9432-EAF4722C7A43}"/>
+						<Curve Name="" ID="{C062485D-B325-4365-B9C1-48829252D780}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>1</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>350</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>400</XPos>
+									<YPos>2</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+				<SwitchGroup Name="SWITCH_int_passBy_automatic" ID="{7D98EEA5-11EB-4C15-9BEE-8177323BDBBB}">
+					<Comment>The switch is responsible for enabling the AUTOMATIC tracer content depending on the distance.</Comment>
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="SWITCH_int_passBy_auto_on" ID="{5A79B3B5-54B2-4218-AD41-27D2210D61C8}">
+							<Comment>The tracer sound is played (at a distance of up to 200 m)</Comment>
+						</Switch>
+						<Switch Name="SWITCH_int_passBy_auto_off" ID="{853C43EF-4ADC-4A70-BF05-9DE22E1311DA}">
+							<Comment>The sound is not played. Default state.</Comment>
+						</Switch>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="psb_distance" ID="{6DA2339B-4638-4377-9432-EAF4722C7A43}"/>
+						<Curve Name="" ID="{933D423B-B198-4E69-A094-14F5DC2D8CAD}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>1</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>200</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>400</XPos>
+									<YPos>2</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+				<SwitchGroup Name="SWITCH_int_flayout" ID="{F89C46F0-6CBC-4E54-BBF8-0840DBE0B81D}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="SWITCH_int_flayout_AP" ID="{9F72E619-DB44-4636-B449-8210FDC96C29}"/>
+						<Switch Name="SWITCH_int_flayout_HE" ID="{19E8E074-3E04-493B-93E9-496A5A6E1F11}"/>
+						<Switch Name="SWITCH_int_flayout_HC" ID="{5979C4A5-7F3D-45AE-A7EF-11031B1F2C30}"/>
+						<Switch Name="SWITCH_int_flayout_APCR" ID="{321E93C2-69D5-4BA0-B2DA-16C743559930}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="psb_shell_type" ID="{D4D8FFAF-C018-44D3-AFF2-2E337C9CCF99}"/>
+						<Curve Name="" ID="{09D46E2D-BA0E-4300-ADA6-0D12E0E6AFBE}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>1</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>0.99353</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>1.99254</XPos>
+									<YPos>3</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>2.99254</XPos>
+									<YPos>4</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>4</XPos>
+									<YPos>4</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

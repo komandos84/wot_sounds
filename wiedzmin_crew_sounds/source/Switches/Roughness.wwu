@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6643029F-DE7F-4053-8847-4B9D0530E4DC}" SchemaVersion="85">
+	<Switches>
+		<WorkUnit Name="Roughness" ID="{6643029F-DE7F-4053-8847-4B9D0530E4DC}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="roughnes_oneshots_stop_engine" ID="{C4D7C8E3-C250-4755-AB90-1D0216CAE811}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="roughnes_oneshots_stop_engine_on" ID="{B984F533-AC80-452E-83F2-72B1D5412BEE}"/>
+						<Switch Name="roughnes_oneshots_stop_engine_off" ID="{42522D9A-0488-4D67-AFF6-3E8340695502}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="RTPC_ext_roughness_abs" ID="{77853731-23BD-4752-A365-D45D2EA114AC}"/>
+						<Curve Name="" ID="{B6435EB1-82DE-4D23-BCB3-DF9350A6D1AE}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>2</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>0.31347</XPos>
+									<YPos>1</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>1</XPos>
+									<YPos>1</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+				<SwitchGroup Name="roughnes_oneshots_average" ID="{675F2A46-A504-494E-BA29-3CC44E0068C6}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="roughnes_oneshots_averagel_on" ID="{B7E14C52-5791-49C1-8B4C-73545DBCF8AF}"/>
+						<Switch Name="roughnes_oneshots_average_off" ID="{DD4FBE30-31F2-474F-B7EF-054F29B402D0}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="RTPC_ext_speed_rel2" ID="{89A02176-B30D-44FE-9354-ECEC348E5965}"/>
+						<Curve Name="" ID="{8651DCE4-3C23-4F86-9E88-C8EBEB774B19}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>-1.5</XPos>
+									<YPos>2</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>-7.50000000000002E-02</XPos>
+									<YPos>1</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>7.50000000000002E-02</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>1.5</XPos>
+									<YPos>2</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+				<SwitchGroup Name="SWITCH_int_roughness_global_play_stop" ID="{8943EC33-92C3-4309-B0CF-2C8B9417C59F}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="SWITCH_int_roughness_global_play" ID="{921FE044-B59E-40B8-9E45-DB28AAF54A30}"/>
+						<Switch Name="SWITCH_int_roughness_global_stop" ID="{BD0C2882-FC3E-43B6-8A1D-45843829377A}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="RTPC_ext_speed_rel" ID="{1BC16D05-7BBA-4C79-9BD6-E0A99EAC6B4A}"/>
+						<Curve Name="" ID="{0E181E9E-15CD-410C-976B-3A4894B986CD}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>-1</XPos>
+									<YPos>1</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>-0.01</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>0.01</XPos>
+									<YPos>1</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>1</XPos>
+									<YPos>0</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+				<SwitchGroup Name="SWITCH_int_roughness_vehicle_weight" ID="{B4AD5340-D000-4175-9558-0BC81180AB4F}">
+					<Comment>The switch is responsible for the roughness content depending on the vehicle weightn (tons)</Comment>
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="SWITCH_int_roughness_lite" ID="{D770B055-931E-460F-8D9E-E0DDB6D75105}">
+							<Comment>up to 18 t</Comment>
+						</Switch>
+						<Switch Name="SWITCH_int_roughness_medium" ID="{5B842C5E-4074-4C41-B6AF-10BDF587149A}">
+							<Comment>18–40 t</Comment>
+						</Switch>
+						<Switch Name="SWITCH_int_roughness_heavy" ID="{AB53F5FB-34B2-4887-B73B-5F13A3A95B47}">
+							<Comment>40–70 t</Comment>
+						</Switch>
+						<Switch Name="SWITCH_int_roughness_super_heavy" ID="{C0CD79C4-E67C-47A6-837A-48B75EFF3309}">
+							<Comment>more than 70 t</Comment>
+						</Switch>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="RTPC_ext_vehicle_weight" ID="{7FB3777C-84E0-43CA-B8B8-297236D037F0}"/>
+						<Curve Name="" ID="{05ABA081-5D9D-4C4D-8A44-E7A91CF497AA}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>0</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>18</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>40</XPos>
+									<YPos>3</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>70</XPos>
+									<YPos>4</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>200</XPos>
+									<YPos>0</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

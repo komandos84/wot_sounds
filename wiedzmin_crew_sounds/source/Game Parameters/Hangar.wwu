@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{910FFF20-9497-468A-A417-328AA97486F4}" SchemaVersion="85">
+	<GameParameters>
+		<WorkUnit Name="Hangar" ID="{910FFF20-9497-468A-A417-328AA97486F4}" PersistMode="Standalone">
+			<Comment>Garages</Comment>
+			<ChildrenList>
+				<Folder Name="hangar_v2" ID="{02AA2685-E69C-42C5-B164-F68A814BB819}" ShortID="674122664">
+					<Comment>Default</Comment>
+					<ChildrenList>
+						<GameParameter Name="RTPC_int_hangar_v2_distance_80m" ID="{F76006EE-B751-4DB8-B39D-A3FC8CF94587}">
+							<Comment>Internal RTPC - Used for changing the osund at a distance of up to 80 m</Comment>
+							<PropertyList>
+								<Property Name="BindToBuiltInParam" Type="int16" Value="1"/>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="80"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_int_hangar_v2_distance_radio_50m" ID="{00A033FF-3762-407D-A1AB-5B27BD7A0D1A}">
+							<Comment>Internal RTPC - Used for changing the Radio sound at a distance of up to 80 m</Comment>
+							<PropertyList>
+								<Property Name="BindToBuiltInParam" Type="int16" Value="1"/>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="50"/>
+							</PropertyList>
+						</GameParameter>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="hangar_prem_v2" ID="{5393333D-C643-4B41-91BB-A1785100018D}" ShortID="760248650">
+					<Comment>Premium</Comment>
+					<ChildrenList>
+						<GameParameter Name="RTPC_int_hangar_prem_v2_distance_60m" ID="{E245A00A-C8C7-48ED-BC50-D2F2370E194E}">
+							<Comment>Internal RTPC - Used for changing the osund at a distance of up to 60 m</Comment>
+							<PropertyList>
+								<Property Name="BindToBuiltInParam" Type="int16" Value="1"/>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="60"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_int_hangar_prem_v2_distance_radio_50m" ID="{295078D4-64FD-40F6-9E34-1CC40D45319F}">
+							<Comment>Internal RTPC - Used for changing the Radio sound at a distance of up to 80 m</Comment>
+							<PropertyList>
+								<Property Name="BindToBuiltInParam" Type="int16" Value="1"/>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="50"/>
+							</PropertyList>
+						</GameParameter>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

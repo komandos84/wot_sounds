@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Project Version="6" InfoFilePath="D:\source\game\res\wot\audioww\SoundbanksInfo.xml" OutputDirectory="D:\source\game\res\wot\audioww">
+  <ManualPackagingInfo BlockSize="1" BlockSizeRSX="128" UnassignedBanksPackageId="00000000-0000-0000-0000-000000000000" UnassignedStreamsPackageId="808f255c-fdb8-426f-bad2-4be76179a714" UnassignedExternalsPackageId="808f255c-fdb8-426f-bad2-4be76179a714">
+    <Packages>
+      <Package Id="808f255c-fdb8-426f-bad2-4be76179a714" Name="ExternalSources.pck" IsRSX="false">
+        <Items>
+          <PackageContentItem Id="2622192547" Language="SFX" FileName="gui_me" InclusionMode="BankAndStreams" />
+        </Items>
+        <LayoutItems>
+          <ContentItemBase Id="0" Language="" FileName="" />
+        </LayoutItems>
+      </Package>
+    </Packages>
+    <DefaultLanguagePackageIds>
+      <LanguagePackageIds Language="SFX" BankPackageId="00000000-0000-0000-0000-000000000000" StreamPackageId="808f255c-fdb8-426f-bad2-4be76179a714" />
+      <LanguagePackageIds Language="Chinese(HK)" BankPackageId="00000000-0000-0000-0000-000000000000" StreamPackageId="00000000-0000-0000-0000-000000000000" />
+      <LanguagePackageIds Language="Chinese(PRC)" BankPackageId="00000000-0000-0000-0000-000000000000" StreamPackageId="00000000-0000-0000-0000-000000000000" />
+      <LanguagePackageIds Language="Czech" BankPackageId="00000000-0000-0000-0000-000000000000" StreamPackageId="00000000-0000-0000-0000-000000000000" />
+      <LanguagePackageIds Language="English(UK)" BankPackageId="00000000-0000-0000-0000-000000000000" StreamPackageId="00000000-0000-0000-0000-000000000000" />
+      <LanguagePackageIds Language="English(US)" BankPackageId="00000000-0000-0000-0000-000000000000" StreamPackageId="00000000-0000-0000-0000-000000000000" />
+      <LanguagePackageIds Language="Finnish" BankPackageId="00000000-0000-0000-0000-000000000000" StreamPackageId="00000000-0000-0000-0000-000000000000" />
+      <LanguagePackageIds Language="French(France)" BankPackageId="00000000-0000-0000-0000-000000000000" StreamPackageId="00000000-0000-0000-0000-000000000000" />
+      <LanguagePackageIds Language="German" BankPackageId="00000000-0000-0000-0000-000000000000" StreamPackageId="00000000-0000-0000-0000-000000000000" />
+      <LanguagePackageIds Language="Indonesian" BankPackageId="00000000-0000-0000-0000-000000000000" StreamPackageId="00000000-0000-0000-0000-000000000000" />
+      <LanguagePackageIds Language="Japanese" BankPackageId="00000000-0000-0000-0000-000000000000" StreamPackageId="00000000-0000-0000-0000-000000000000" />
+      <LanguagePackageIds Language="Korean" BankPackageId="00000000-0000-0000-0000-000000000000" StreamPackageId="00000000-0000-0000-0000-000000000000" />
+      <LanguagePackageIds Language="Latin" BankPackageId="00000000-0000-0000-0000-000000000000" StreamPackageId="00000000-0000-0000-0000-000000000000" />
+      <LanguagePackageIds Language="Polish" BankPackageId="00000000-0000-0000-0000-000000000000" StreamPackageId="00000000-0000-0000-0000-000000000000" />
+      <LanguagePackageIds Language="Portuguese(Brazil)" BankPackageId="00000000-0000-0000-0000-000000000000" StreamPackageId="00000000-0000-0000-0000-000000000000" />
+      <LanguagePackageIds Language="Romanian" BankPackageId="00000000-0000-0000-0000-000000000000" StreamPackageId="00000000-0000-0000-0000-000000000000" />
+      <LanguagePackageIds Language="Russian" BankPackageId="00000000-0000-0000-0000-000000000000" StreamPackageId="00000000-0000-0000-0000-000000000000" />
+      <LanguagePackageIds Language="Slovenian" BankPackageId="00000000-0000-0000-0000-000000000000" StreamPackageId="00000000-0000-0000-0000-000000000000" />
+      <LanguagePackageIds Language="Spanish(Spain)" BankPackageId="00000000-0000-0000-0000-000000000000" StreamPackageId="00000000-0000-0000-0000-000000000000" />
+      <LanguagePackageIds Language="Turkish" BankPackageId="00000000-0000-0000-0000-000000000000" StreamPackageId="00000000-0000-0000-0000-000000000000" />
+      <LanguagePackageIds Language="Ukrainian" BankPackageId="00000000-0000-0000-0000-000000000000" StreamPackageId="00000000-0000-0000-0000-000000000000" />
+      <LanguagePackageIds Language="Vietnamese" BankPackageId="00000000-0000-0000-0000-000000000000" StreamPackageId="00000000-0000-0000-0000-000000000000" />
+      <LanguagePackageIds Language="Thai" BankPackageId="00000000-0000-0000-0000-000000000000" StreamPackageId="00000000-0000-0000-0000-000000000000" />
+      <LanguagePackageIds Language="Chinese(Malaysia)" BankPackageId="00000000-0000-0000-0000-000000000000" StreamPackageId="00000000-0000-0000-0000-000000000000" />
+    </DefaultLanguagePackageIds>
+  </ManualPackagingInfo>
+</Project>
