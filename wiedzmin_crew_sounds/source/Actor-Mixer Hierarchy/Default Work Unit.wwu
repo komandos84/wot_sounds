@@ -152,6 +152,25 @@
 												<ActiveSource Name="JakNieotworzyszOczuUzyjeSoliTrzezwiacych" ID="{350982BF-6E12-44F5-B471-A94F2BAEC038}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="OldrinWstawajINieWydurniajSie" ID="{2794847A-95C3-4F10-8207-C9991209232E}" ShortID="430302470">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B5EFB14B-A840-4B3E-9C23-270361C5C997}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="OldrinWstawajINieWydurniajSie" ID="{E30A495A-25B6-43A7-8BE9-BB52A22C510A}" ShortID="788506459">
+													<Language>SFX</Language>
+													<AudioFile>OldrinWstawajINieWydurniajSie.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="OldrinWstawajINieWydurniajSie" ID="{E30A495A-25B6-43A7-8BE9-BB52A22C510A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="radioman_killed" ID="{6955B17D-333B-41BC-9A2C-30E28A091B26}" ShortID="365736454">
@@ -1282,6 +1301,104 @@
 												<ActiveSource Name="NieZabijeCieKikuty" ID="{730E71F1-D993-4C60-ACC9-84E250E75DD8}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="AleWpadlem" ID="{C8DCB284-E6EC-475B-995A-ED11425F4CBE}" ShortID="13200802">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B5EFB14B-A840-4B3E-9C23-270361C5C997}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AleWpadlem" ID="{08CA2F8A-871A-4CD4-BA35-FF289B28AFE9}" ShortID="869156201">
+													<Language>SFX</Language>
+													<AudioFile>AleWpadlem.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="AleWpadlem" ID="{08CA2F8A-871A-4CD4-BA35-FF289B28AFE9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="BladoWygladaszMozeCosZjesz" ID="{E7221EB9-0941-463E-A6DF-04CB72DD5C74}" ShortID="513069576">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B5EFB14B-A840-4B3E-9C23-270361C5C997}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BladoWygladaszMozeCosZjesz" ID="{222407F6-5EA9-49F7-958A-D412FD0D8299}" ShortID="306191365">
+													<Language>SFX</Language>
+													<AudioFile>BladoWygladaszMozeCosZjesz.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="BladoWygladaszMozeCosZjesz" ID="{222407F6-5EA9-49F7-958A-D412FD0D8299}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="PolitykaISeksSprowadzajaSieDoJednego" ID="{7FDD2204-DFED-497E-8411-1893D48317B6}" ShortID="273563775">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B5EFB14B-A840-4B3E-9C23-270361C5C997}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PolitykaISeksSprowadzajaSieDoJednego" ID="{DD08E78A-1B1D-4C79-8A6F-7D8268A149CE}" ShortID="327934295">
+													<Language>SFX</Language>
+													<AudioFile>PolitykaISeksSprowadzajaSieDoJednego.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="PolitykaISeksSprowadzajaSieDoJednego" ID="{DD08E78A-1B1D-4C79-8A6F-7D8268A149CE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UprzedzalemCieZeSikaniePodWiatrBywa" ID="{C71E7529-2707-428C-96BF-B4E59F93FCBC}" ShortID="582980890">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B5EFB14B-A840-4B3E-9C23-270361C5C997}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UprzedzalemCieZeSikaniePodWiatrBywa" ID="{ECB9FE26-120F-4248-B3E5-C86CF5ADA544}" ShortID="369758">
+													<Language>SFX</Language>
+													<AudioFile>UprzedzalemCieZeSikaniePodWiatrBywa.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="914550150"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UprzedzalemCieZeSikaniePodWiatrBywa" ID="{ECB9FE26-120F-4248-B3E5-C86CF5ADA544}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ZnalemTakiegoRycerza" ID="{269147D4-210B-4801-9464-85BA99D5B10F}" ShortID="65457688">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B5EFB14B-A840-4B3E-9C23-270361C5C997}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ZnalemTakiegoRycerza" ID="{64AA1A4F-B1C7-484A-99C2-B75A4F42D130}" ShortID="322270944">
+													<Language>SFX</Language>
+													<AudioFile>ZnalemTakiegoRycerza.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ZnalemTakiegoRycerza" ID="{64AA1A4F-B1C7-484A-99C2-B75A4F42D130}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
 							</ChildrenList>
@@ -1928,6 +2045,44 @@
 												<ActiveSource Name="PojdziemyTerazZGeraltemIPrzyniesziemySkory" ID="{EB2D0A36-2FC1-4894-9903-E3D48AA25585}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="ChceszWalczycNiechITakBedzie" ID="{A7DC8E7F-1CA5-4B2F-8194-2D56B13EBB7A}" ShortID="707807272">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B5EFB14B-A840-4B3E-9C23-270361C5C997}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ChceszWalczycNiechITakBedzie" ID="{6A94A4A3-B95E-42B4-A40D-337AEB5970EF}" ShortID="221143520">
+													<Language>SFX</Language>
+													<AudioFile>ChceszWalczycNiechITakBedzie.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ChceszWalczycNiechITakBedzie" ID="{6A94A4A3-B95E-42B4-A40D-337AEB5970EF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="TerazNaPrawdeMnieRozbawiles" ID="{68F9E5C2-B887-45F7-AB43-4860521C391D}" ShortID="858340845">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B5EFB14B-A840-4B3E-9C23-270361C5C997}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="TerazNaPrawdeMnieRozbawiles" ID="{AB00BE34-B858-4306-97D4-EFCAC1B81320}" ShortID="1072288962">
+													<Language>SFX</Language>
+													<AudioFile>TerazNaPrawdeMnieRozbawiles.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="TerazNaPrawdeMnieRozbawiles" ID="{AB00BE34-B858-4306-97D4-EFCAC1B81320}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
 							</ChildrenList>
@@ -2184,6 +2339,25 @@
 												<ActiveSource Name="EskelPijakuWylaz" ID="{371BE6BC-2BBB-4FD6-A6B5-757984747191}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="ZjezdzajSmieciu" ID="{0E2860D4-10A7-471E-8F7A-63477C6A1CF1}" ShortID="568610237">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B5EFB14B-A840-4B3E-9C23-270361C5C997}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ZjezdzajSmieciu" ID="{AEFA481C-32F1-4A4F-903A-C7747C0324C0}" ShortID="6123718">
+													<Language>SFX</Language>
+													<AudioFile>ZjezdzajSmieciu.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ZjezdzajSmieciu" ID="{AEFA481C-32F1-4A4F-903A-C7747C0324C0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="target_unlocked" ID="{6B4A796E-6B4A-4C7F-A45C-D6EBCD4D1165}" ShortID="696955429">
@@ -2251,6 +2425,25 @@
 											</ChildrenList>
 											<ActiveSourceList>
 												<ActiveSource Name="Odmowilem" ID="{D509A7F3-7BC0-45E0-9233-9E46E6F1517D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SpieprzajDziadu" ID="{B53299EA-6C9F-4EE1-A042-096089D7E473}" ShortID="277443561">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B5EFB14B-A840-4B3E-9C23-270361C5C997}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SpieprzajDziadu" ID="{2106697E-F928-44AE-A6AF-CDFAE1418113}" ShortID="623866144">
+													<Language>SFX</Language>
+													<AudioFile>SpieprzajDziadu.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SpieprzajDziadu" ID="{2106697E-F928-44AE-A6AF-CDFAE1418113}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -2519,6 +2712,25 @@
 											</ChildrenList>
 											<ActiveSourceList>
 												<ActiveSource Name="NieTylkoPodpalaczAleIMistrzCietejRiposty" ID="{F45A05B2-D843-4770-AD30-1B7BE32D8547}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ZmieklyElfieFujarki" ID="{70018F82-2E94-4F3D-8471-16CF4B5E25E1}" ShortID="253227553">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B5EFB14B-A840-4B3E-9C23-270361C5C997}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ZmieklyElfieFujarki" ID="{72603DE6-FF16-4BF2-936A-C5C10CA5EC99}" ShortID="950843994">
+													<Language>SFX</Language>
+													<AudioFile>ZmieklyElfieFujarki.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ZmieklyElfieFujarki" ID="{72603DE6-FF16-4BF2-936A-C5C10CA5EC99}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -3249,6 +3461,44 @@
 												<ActiveSource Name="Kurwa" ID="{34B5224E-CAEB-4252-9CAF-7A56A94CE3F6}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="CoKurwa" ID="{BE7AB4B4-8AD1-4B22-9862-D44AB652DAB7}" ShortID="868320676">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B5EFB14B-A840-4B3E-9C23-270361C5C997}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="CoKurwa" ID="{69B4BA76-DA8A-4D6C-94F1-5503DCAB0D1A}" ShortID="53476138">
+													<Language>SFX</Language>
+													<AudioFile>CoKurwa.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="CoKurwa" ID="{69B4BA76-DA8A-4D6C-94F1-5503DCAB0D1A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="CoTyPieprzyszJaskier" ID="{AA702437-2A5A-4179-BC41-AD31019F5DF9}" ShortID="731958450">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B5EFB14B-A840-4B3E-9C23-270361C5C997}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="CoTyPieprzyszJaskier" ID="{13082ED3-C9BA-4206-B192-A79F34FEFFDE}" ShortID="645151359">
+													<Language>SFX</Language>
+													<AudioFile>CoTyPieprzyszJaskier.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="CoTyPieprzyszJaskier" ID="{13082ED3-C9BA-4206-B192-A79F34FEFFDE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
 							</ChildrenList>
@@ -3361,6 +3611,25 @@
 											</ChildrenList>
 											<ActiveSourceList>
 												<ActiveSource Name="Czego" ID="{4C925F71-C7D2-4183-81A4-974A18ADEA05}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AmuletOchronny" ID="{234625C7-F29D-4472-A401-220FA3FF1E05}" ShortID="185986533">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B5EFB14B-A840-4B3E-9C23-270361C5C997}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AmuletOchronny" ID="{E86CB5D2-8892-48B7-BB40-3E5EEA41E854}" ShortID="691103352">
+													<Language>SFX</Language>
+													<AudioFile>AmuletOchronny.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="AmuletOchronny" ID="{E86CB5D2-8892-48B7-BB40-3E5EEA41E854}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -3490,6 +3759,25 @@
 											</ChildrenList>
 											<ActiveSourceList>
 												<ActiveSource Name="ZaklecieMa66Przecinek6ProcentPowodzenia" ID="{786CBBEE-D0E1-4E69-A461-22901DA1497A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="GardzeTakimiJakTy" ID="{07BBD528-FF6A-4D9F-92FA-E29F39727F25}" ShortID="262728564">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B5EFB14B-A840-4B3E-9C23-270361C5C997}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="GardzeTakimiJakTy" ID="{7FF99ECB-FDE6-4153-AFCA-302A16F03825}" ShortID="900778151">
+													<Language>SFX</Language>
+													<AudioFile>GardzeTakimiJakTy.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="GardzeTakimiJakTy" ID="{7FF99ECB-FDE6-4153-AFCA-302A16F03825}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -5145,6 +5433,44 @@
 											</ChildrenList>
 											<ActiveSourceList>
 												<ActiveSource Name="TrzymajcieSie" ID="{86577502-4A3B-4126-A893-136580E70AD0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="JestemAbsolutnymMistrzemPokera" ID="{52E07A1F-AC65-405A-92BE-CB02191B9947}" ShortID="601532209">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B5EFB14B-A840-4B3E-9C23-270361C5C997}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="JestemAbsolutnymMistrzemPokera" ID="{462A36EB-63A0-4261-9EA0-D0FDF330627D}" ShortID="356730916">
+													<Language>SFX</Language>
+													<AudioFile>JestemAbsolutnymMistrzemPokera.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="JestemAbsolutnymMistrzemPokera" ID="{462A36EB-63A0-4261-9EA0-D0FDF330627D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="TymRazemWysikalesSieNaTornado" ID="{F02519F6-2B6E-4F82-8688-80CF6601A782}" ShortID="829657405">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B5EFB14B-A840-4B3E-9C23-270361C5C997}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="TymRazemWysikalesSieNaTornado" ID="{D5B65624-F815-4365-AB8D-E9FA924C18E0}" ShortID="726710646">
+													<Language>SFX</Language>
+													<AudioFile>TymRazemWysikalesSieNaTornado.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="TymRazemWysikalesSieNaTornado" ID="{D5B65624-F815-4365-AB8D-E9FA924C18E0}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
