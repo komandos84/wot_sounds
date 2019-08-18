@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{40F9F025-C4B4-4FB9-AE54-928F9A26808A}" SchemaVersion="85">
+	<States>
+		<WorkUnit Name="GUI_Lootboxes" ID="{40F9F025-C4B4-4FB9-AE54-928F9A26808A}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="STATE_blueprint_view" ID="{095F4499-CE61-4CD3-B918-F47D112C783F}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="3"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{1667E635-5D44-4580-B99B-A848BA140933}"/>
+						<State Name="STATE_blueprint_view_on" ID="{3977CA84-BD5D-41DD-8CD3-AF150283CA71}"/>
+						<State Name="STATE_blueprint_view_off" ID="{1847BF01-4DAD-4833-9D69-DD8368184FE8}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

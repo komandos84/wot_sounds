@@ -1,0 +1,1914 @@
+<WwiseDocument Type="WorkUnit" ID="{AABE942A-F661-4D0A-81FF-83665B07239D}" SchemaVersion="85">
+  <Switches>
+    <WorkUnit Name="Vehicles" ID="{AABE942A-F661-4D0A-81FF-83665B07239D}" PersistMode="Standalone">
+      <ChildrenList>
+        <SwitchGroup Name="SWITCH_int_trds_tension" ID="{F4094604-ABC7-4572-8911-524BFF7AA2E5}">
+          <PropertyList>
+            <Property Name="UseGameParameter" Type="bool" Value="True" />
+          </PropertyList>
+          <ChildrenList>
+            <Switch Name="SWITCH_int_trds_tension_on" ID="{23E5E519-FF26-4774-8E90-B256BABFF1D1}" />
+            <Switch Name="SWITCH_int_trds_tension_off" ID="{2A29D83B-292F-4C6C-9C4F-90EEDD5C211C}" />
+          </ChildrenList>
+          <SwitchOnRTPC>
+            <GameParameterRef Name="RTPC_ext_rot_speed_rel" ID="{A755C95D-E442-4B6A-85EC-335EC16C045A}" />
+            <Curve Name="" ID="{DE5654E3-0910-4B53-BF59-6379D02E6373}">
+              <PropertyList>
+                <Property Name="Flags" Type="int32" Value="65537" />
+              </PropertyList>
+              <PointList>
+                <Point>
+                  <XPos>-1.5</XPos>
+                  <YPos>1</YPos>
+                  <Flags>5</Flags>
+                </Point>
+                <Point>
+                  <XPos>-0.01</XPos>
+                  <YPos>2</YPos>
+                  <Flags>0</Flags>
+                </Point>
+                <Point>
+                  <XPos>0.01</XPos>
+                  <YPos>1</YPos>
+                  <Flags>0</Flags>
+                </Point>
+                <Point>
+                  <XPos>1.5</XPos>
+                  <YPos>1</YPos>
+                  <Flags>37</Flags>
+                </Point>
+              </PointList>
+            </Curve>
+          </SwitchOnRTPC>
+        </SwitchGroup>
+        <SwitchGroup Name="SWITCH_int_roughness" ID="{9E783447-2283-4FC5-821D-69B335189A41}">
+          <PropertyList>
+            <Property Name="UseGameParameter" Type="bool" Value="True" />
+          </PropertyList>
+          <ChildrenList>
+            <Switch Name="SWITCH_int_roughness_on" ID="{B2B5A33E-9822-495F-A432-1D37003A214D}" />
+            <Switch Name="SWITCH_int_roughness_off" ID="{46F0B2D5-9E9E-4FC9-B719-115C26440282}" />
+          </ChildrenList>
+          <SwitchOnRTPC>
+            <GameParameterRef Name="RTPC_ext_roughness_abs" ID="{77853731-23BD-4752-A365-D45D2EA114AC}" />
+            <Curve Name="" ID="{8029F634-1F73-4916-8D61-F5272994ADAD}">
+              <PropertyList>
+                <Property Name="Flags" Type="int32" Value="65537" />
+              </PropertyList>
+              <PointList>
+                <Point>
+                  <XPos>0</XPos>
+                  <YPos>2</YPos>
+                  <Flags>5</Flags>
+                </Point>
+                <Point>
+                  <XPos>0.9</XPos>
+                  <YPos>1</YPos>
+                  <Flags>0</Flags>
+                </Point>
+                <Point>
+                  <XPos>1</XPos>
+                  <YPos>1</YPos>
+                  <Flags>37</Flags>
+                </Point>
+              </PointList>
+            </Curve>
+          </SwitchOnRTPC>
+        </SwitchGroup>
+        <SwitchGroup Name="SWITCH_int_trds_creak" ID="{DD7192E6-518B-44ED-8446-8D560D39471E}">
+          <PropertyList>
+            <Property Name="UseGameParameter" Type="bool" Value="True" />
+          </PropertyList>
+          <ChildrenList>
+            <Switch Name="SWITCH_int_trds_creak_on" ID="{F7E6601C-7C3F-41F9-B094-AE0753E5226E}" />
+            <Switch Name="SWITCH_int_trds_creak_off" ID="{8A043FCB-40BC-464C-A45B-9499A188729C}" />
+          </ChildrenList>
+          <SwitchOnRTPC>
+            <GameParameterRef Name="RTPC_ext_rot_speed_rel" ID="{A755C95D-E442-4B6A-85EC-335EC16C045A}" />
+            <Curve Name="" ID="{C8B863B0-C67B-4661-8745-94BB500EF734}">
+              <PropertyList>
+                <Property Name="Flags" Type="int32" Value="65537" />
+              </PropertyList>
+              <PointList>
+                <Point>
+                  <XPos>-1.5</XPos>
+                  <YPos>1</YPos>
+                  <Flags>5</Flags>
+                </Point>
+                <Point>
+                  <XPos>-0.099</XPos>
+                  <YPos>2</YPos>
+                  <Flags>0</Flags>
+                </Point>
+                <Point>
+                  <XPos>0.1</XPos>
+                  <YPos>1</YPos>
+                  <Flags>0</Flags>
+                </Point>
+                <Point>
+                  <XPos>1.5</XPos>
+                  <YPos>1</YPos>
+                  <Flags>37</Flags>
+                </Point>
+              </PointList>
+            </Curve>
+          </SwitchOnRTPC>
+        </SwitchGroup>
+        <SwitchGroup Name="SWITCH_int_trds_gear_02" ID="{4E40CE7F-DF2C-48AC-9E37-509FA2E80678}">
+          <PropertyList>
+            <Property Name="UseGameParameter" Type="bool" Value="True" />
+          </PropertyList>
+          <ChildrenList>
+            <Switch Name="SWITCH_int_trds_gear_on" ID="{C28A2404-A511-4305-BF26-0D8B9375F38D}" />
+            <Switch Name="SWITCH_int_trds_gear_off" ID="{81F9C5BC-2718-45D2-8A46-3A7BD367FD7B}" />
+          </ChildrenList>
+          <SwitchOnRTPC>
+            <GameParameterRef Name="RTPC_ext_gear_2" ID="{264C394A-85A8-4CDF-83F6-7ED070A828E1}" />
+            <Curve Name="" ID="{684E3146-E688-4357-BD9B-3B29C0ED59CF}">
+              <PropertyList>
+                <Property Name="Flags" Type="int32" Value="65537" />
+              </PropertyList>
+              <PointList>
+                <Point>
+                  <XPos>0</XPos>
+                  <YPos>2</YPos>
+                  <Flags>5</Flags>
+                </Point>
+                <Point>
+                  <XPos>5</XPos>
+                  <YPos>1</YPos>
+                  <Flags>0</Flags>
+                </Point>
+                <Point>
+                  <XPos>100</XPos>
+                  <YPos>1</YPos>
+                  <Flags>37</Flags>
+                </Point>
+              </PointList>
+            </Curve>
+          </SwitchOnRTPC>
+        </SwitchGroup>
+        <SwitchGroup Name="SWITCH_int_trds_gear_03" ID="{BA5A5010-762E-4B99-9006-689D240CC98E}">
+          <PropertyList>
+            <Property Name="UseGameParameter" Type="bool" Value="True" />
+          </PropertyList>
+          <ChildrenList>
+            <Switch Name="SWITCH_int_trds_gear_on" ID="{E4D6EF7E-5B98-42B2-A12C-C4001F89B95F}" />
+            <Switch Name="SWITCH_int_trds_gear_off" ID="{BBE3618D-1216-4523-8DF6-D7CAA5AE1F00}" />
+          </ChildrenList>
+          <SwitchOnRTPC>
+            <GameParameterRef Name="RTPC_ext_gear_3" ID="{4D8CC9B3-44CA-44D1-8CC1-B4280D9AD0A1}" />
+            <Curve Name="" ID="{A09499AF-FABB-4771-A3B0-7C388CFDE980}">
+              <PropertyList>
+                <Property Name="Flags" Type="int32" Value="65537" />
+              </PropertyList>
+              <PointList>
+                <Point>
+                  <XPos>0</XPos>
+                  <YPos>2</YPos>
+                  <Flags>5</Flags>
+                </Point>
+                <Point>
+                  <XPos>5</XPos>
+                  <YPos>1</YPos>
+                  <Flags>0</Flags>
+                </Point>
+                <Point>
+                  <XPos>100</XPos>
+                  <YPos>1</YPos>
+                  <Flags>37</Flags>
+                </Point>
+              </PointList>
+            </Curve>
+          </SwitchOnRTPC>
+        </SwitchGroup>
+        <SwitchGroup Name="SWITCH_ext_surfaceType" ID="{D319E8BD-F178-4598-9E66-19E5A3828A9D}">
+          <Comment>External SWITCH - Transmits the terrain type the vehicle is moving along</Comment>
+          <ChildrenList>
+            <Switch Name="SWITCH_ext_surfaceType_ground" ID="{501ED3AF-8218-4327-8359-C95A4AA94DC7}">
+              <Comment>ground</Comment>
+            </Switch>
+            <Switch Name="SWITCH_ext_surfaceType_sand" ID="{77958690-103C-411E-9C2E-F8E439DEC4E3}">
+              <Comment>sand</Comment>
+            </Switch>
+            <Switch Name="SWITCH_ext_surfaceType_snow" ID="{282C08E2-408F-4C03-8B31-FD7207E104BE}">
+              <Comment>snow</Comment>
+            </Switch>
+            <Switch Name="SWITCH_ext_surfaceType_stone" ID="{195F96E7-9715-4CA5-82CE-43FB30B82312}">
+              <Comment>rock</Comment>
+            </Switch>
+            <Switch Name="SWITCH_ext_surfaceType_water" ID="{57BDBC9C-1783-431B-8C35-01B402435CD6}">
+              <Comment>water</Comment>
+            </Switch>
+            <Switch Name="SWITCH_ext_surfaceType_wood" ID="{1105E883-EFB0-46C8-9424-A452174804D0}">
+              <Comment>wood</Comment>
+            </Switch>
+          </ChildrenList>
+        </SwitchGroup>
+        <Folder Name="new_physic" ID="{8CF05495-F741-458D-BF2B-5B217846728C}" ShortID="1002365655">
+          <ChildrenList>
+            <SwitchGroup Name="SWITCH_int_trds_phys_gear_02" ID="{8975C47D-4DC8-4F89-A4CE-7BDDE0373CC0}">
+              <PropertyList>
+                <Property Name="UseGameParameter" Type="bool" Value="True" />
+              </PropertyList>
+              <ChildrenList>
+                <Switch Name="SWITCH_int_trds_phys_gear_on" ID="{A2D36C48-2390-4ADA-B7DF-32F8AC932D20}" />
+                <Switch Name="SWITCH_int_trds_phys_gear_off" ID="{F5AF3614-0B6E-4C82-B70A-0E4697D1ABB4}" />
+              </ChildrenList>
+              <SwitchOnRTPC>
+                <GameParameterRef Name="RTPC_ext_physic_gear_2" ID="{9ACACDDE-332F-4E09-93F3-08E26B7F68CE}" />
+                <Curve Name="" ID="{B049DB9A-4EE9-4E08-9E4D-CC4EF2D0A250}">
+                  <PropertyList>
+                    <Property Name="Flags" Type="int32" Value="65537" />
+                  </PropertyList>
+                  <PointList>
+                    <Point>
+                      <XPos>0</XPos>
+                      <YPos>2</YPos>
+                      <Flags>5</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>5</XPos>
+                      <YPos>1</YPos>
+                      <Flags>0</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>100</XPos>
+                      <YPos>1</YPos>
+                      <Flags>37</Flags>
+                    </Point>
+                  </PointList>
+                </Curve>
+              </SwitchOnRTPC>
+            </SwitchGroup>
+            <SwitchGroup Name="SWITCH_int_trds_phys_gear_03" ID="{C7242E1B-9A47-444C-94F0-C224C77A3059}">
+              <PropertyList>
+                <Property Name="UseGameParameter" Type="bool" Value="True" />
+              </PropertyList>
+              <ChildrenList>
+                <Switch Name="SWITCH_int_trds_phys_gear_on" ID="{9229D9B6-B505-4D2F-B41A-2131DD6C5BCF}" />
+                <Switch Name="SWITCH_int_trds_phys_gear_off" ID="{A4207283-CD5B-4180-BCDB-1002731CEF92}" />
+              </ChildrenList>
+              <SwitchOnRTPC>
+                <GameParameterRef Name="RTPC_ext_physic_gear_3" ID="{FEA8BB91-11DE-4992-9E6B-F43982577B97}" />
+                <Curve Name="" ID="{204DDD6A-DA3F-4E78-B44E-ED18523A4DDD}">
+                  <PropertyList>
+                    <Property Name="Flags" Type="int32" Value="65537" />
+                  </PropertyList>
+                  <PointList>
+                    <Point>
+                      <XPos>0</XPos>
+                      <YPos>2</YPos>
+                      <Flags>5</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>5</XPos>
+                      <YPos>1</YPos>
+                      <Flags>0</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>100</XPos>
+                      <YPos>1</YPos>
+                      <Flags>37</Flags>
+                    </Point>
+                  </PointList>
+                </Curve>
+              </SwitchOnRTPC>
+            </SwitchGroup>
+            <SwitchGroup Name="SWITCH_int_trds_phys_gear_08" ID="{1F0A5945-DA9D-43A2-839B-DC0A2AD383E5}">
+              <PropertyList>
+                <Property Name="UseGameParameter" Type="bool" Value="True" />
+              </PropertyList>
+              <ChildrenList>
+                <Switch Name="SWITCH_int_trds_phys_gear_on" ID="{0DB3D948-173B-428E-A6BC-3A315D5BE812}" />
+                <Switch Name="SWITCH_int_trds_phys_gear_off" ID="{7CE309A2-FA48-4558-A411-C68F4C53BEE9}" />
+              </ChildrenList>
+              <SwitchOnRTPC>
+                <GameParameterRef Name="RTPC_ext_physic_gear_8" ID="{2D84970C-1F75-42AD-9BBB-25D442012D90}" />
+                <Curve Name="" ID="{36C86240-A3CB-4AA3-B2A1-3D9C4D551AD8}">
+                  <PropertyList>
+                    <Property Name="Flags" Type="int32" Value="65537" />
+                  </PropertyList>
+                  <PointList>
+                    <Point>
+                      <XPos>0</XPos>
+                      <YPos>2</YPos>
+                      <Flags>5</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>5</XPos>
+                      <YPos>1</YPos>
+                      <Flags>0</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>100</XPos>
+                      <YPos>1</YPos>
+                      <Flags>37</Flags>
+                    </Point>
+                  </PointList>
+                </Curve>
+              </SwitchOnRTPC>
+            </SwitchGroup>
+            <SwitchGroup Name="SWITCH_int_trds_phys_gear_04" ID="{9934144C-F818-4064-80F3-788C29129C4E}">
+              <PropertyList>
+                <Property Name="UseGameParameter" Type="bool" Value="True" />
+              </PropertyList>
+              <ChildrenList>
+                <Switch Name="SWITCH_int_trds_phys_gear_on" ID="{D069A926-37C7-40D6-9BB0-C6CA713EEF86}" />
+                <Switch Name="SWITCH_int_trds_phys_gear_off" ID="{959BEA73-1319-4A80-A29C-81192F643DE3}" />
+              </ChildrenList>
+              <SwitchOnRTPC>
+                <GameParameterRef Name="RTPC_ext_physic_gear_4" ID="{6F4A3F60-54BF-4E4B-B414-D4E8EA39EE61}" />
+                <Curve Name="" ID="{1058E3D2-AB76-458E-9E9B-E72DC2724195}">
+                  <PropertyList>
+                    <Property Name="Flags" Type="int32" Value="65537" />
+                  </PropertyList>
+                  <PointList>
+                    <Point>
+                      <XPos>0</XPos>
+                      <YPos>2</YPos>
+                      <Flags>5</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>5</XPos>
+                      <YPos>1</YPos>
+                      <Flags>0</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>100</XPos>
+                      <YPos>1</YPos>
+                      <Flags>37</Flags>
+                    </Point>
+                  </PointList>
+                </Curve>
+              </SwitchOnRTPC>
+            </SwitchGroup>
+            <SwitchGroup Name="SWITCH_int_trds_phys_gear_05" ID="{CD33FD4A-1F7B-4DE6-ABAB-BA6D91CCF81C}">
+              <PropertyList>
+                <Property Name="UseGameParameter" Type="bool" Value="True" />
+              </PropertyList>
+              <ChildrenList>
+                <Switch Name="SWITCH_int_trds_phys_gear_on" ID="{36F36CBA-E5C3-4258-B238-AD0929F01192}" />
+                <Switch Name="SWITCH_int_trds_phys_gear_off" ID="{CE045ED7-DFE8-4227-9640-391EBF4ABC59}" />
+              </ChildrenList>
+              <SwitchOnRTPC>
+                <GameParameterRef Name="RTPC_ext_physic_gear_5" ID="{E5D36CB3-CA41-4B7F-9CA2-43E059690361}" />
+                <Curve Name="" ID="{1229B9BB-B5ED-4236-BD00-79E5D31A3EF5}">
+                  <PropertyList>
+                    <Property Name="Flags" Type="int32" Value="65537" />
+                  </PropertyList>
+                  <PointList>
+                    <Point>
+                      <XPos>0</XPos>
+                      <YPos>2</YPos>
+                      <Flags>5</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>5</XPos>
+                      <YPos>1</YPos>
+                      <Flags>0</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>100</XPos>
+                      <YPos>1</YPos>
+                      <Flags>37</Flags>
+                    </Point>
+                  </PointList>
+                </Curve>
+              </SwitchOnRTPC>
+            </SwitchGroup>
+            <SwitchGroup Name="SWITCH_int_trds_phys_gear_06" ID="{2010C1CC-369F-4DB1-9762-31CEC80829CD}">
+              <PropertyList>
+                <Property Name="UseGameParameter" Type="bool" Value="True" />
+              </PropertyList>
+              <ChildrenList>
+                <Switch Name="SWITCH_int_trds_phys_gear_on" ID="{83B7BDAF-3675-4DB3-BCC0-9AB47A86158B}" />
+                <Switch Name="SWITCH_int_trds_phys_gear_off" ID="{802ABD43-A5B3-4B47-92C2-728C91363FC1}" />
+              </ChildrenList>
+              <SwitchOnRTPC>
+                <GameParameterRef Name="RTPC_ext_physic_gear_6" ID="{5CB5034E-7015-4FB8-8B50-B3E5B8EE0CF4}" />
+                <Curve Name="" ID="{1AC19122-48BF-4DF9-B2A1-50E0D2BFD465}">
+                  <PropertyList>
+                    <Property Name="Flags" Type="int32" Value="65537" />
+                  </PropertyList>
+                  <PointList>
+                    <Point>
+                      <XPos>0</XPos>
+                      <YPos>2</YPos>
+                      <Flags>5</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>5</XPos>
+                      <YPos>1</YPos>
+                      <Flags>0</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>100</XPos>
+                      <YPos>1</YPos>
+                      <Flags>37</Flags>
+                    </Point>
+                  </PointList>
+                </Curve>
+              </SwitchOnRTPC>
+            </SwitchGroup>
+            <SwitchGroup Name="SWITCH_int_trds_phys_gear_07" ID="{A1EF4E9E-2F91-4510-86F2-E8379491999D}">
+              <PropertyList>
+                <Property Name="UseGameParameter" Type="bool" Value="True" />
+              </PropertyList>
+              <ChildrenList>
+                <Switch Name="SWITCH_int_trds_phys_gear_on" ID="{0FF2C4EA-327B-4BEF-B367-D54B0134DC87}" />
+                <Switch Name="SWITCH_int_trds_phys_gear_off" ID="{924E635A-E238-40CF-AD94-5262D659C229}" />
+              </ChildrenList>
+              <SwitchOnRTPC>
+                <GameParameterRef Name="RTPC_ext_physic_gear_7" ID="{590D90C1-970A-49AE-86D3-7528C59F5DC5}" />
+                <Curve Name="" ID="{4BA41B4E-27DD-4240-8629-5DB2D56A1A6B}">
+                  <PropertyList>
+                    <Property Name="Flags" Type="int32" Value="65537" />
+                  </PropertyList>
+                  <PointList>
+                    <Point>
+                      <XPos>0</XPos>
+                      <YPos>2</YPos>
+                      <Flags>5</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>5</XPos>
+                      <YPos>1</YPos>
+                      <Flags>0</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>100</XPos>
+                      <YPos>1</YPos>
+                      <Flags>37</Flags>
+                    </Point>
+                  </PointList>
+                </Curve>
+              </SwitchOnRTPC>
+            </SwitchGroup>
+            <SwitchGroup Name="SWITCH_int_trds_start" ID="{471A84A5-3212-4997-B63B-3D70B25EC041}">
+              <PropertyList>
+                <Property Name="UseGameParameter" Type="bool" Value="True" />
+              </PropertyList>
+              <ChildrenList>
+                <Switch Name="SWITCH_int_trds_start_on" ID="{C6C527BB-F9D5-4749-943C-36843179229A}" />
+                <Switch Name="SWITCH_int_trds_start_off" ID="{7DA579C0-72E9-4DDF-A059-EC615FC5354B}" />
+              </ChildrenList>
+              <SwitchOnRTPC>
+                <GameParameterRef Name="RTPC_ext_speed_scroll" ID="{6CADAD6C-43E1-4DB7-B92B-7EB1D7F64491}" />
+                <Curve Name="" ID="{44F61A38-743F-4ACF-AED5-3A8F7A23A8F4}">
+                  <PropertyList>
+                    <Property Name="Flags" Type="int32" Value="65537" />
+                  </PropertyList>
+                  <PointList>
+                    <Point>
+                      <XPos>-15</XPos>
+                      <YPos>1</YPos>
+                      <Flags>5</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>-9.99999999999996E-02</XPos>
+                      <YPos>2</YPos>
+                      <Flags>0</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>0.23</XPos>
+                      <YPos>1</YPos>
+                      <Flags>0</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>30</XPos>
+                      <YPos>1</YPos>
+                      <Flags>37</Flags>
+                    </Point>
+                  </PointList>
+                </Curve>
+              </SwitchOnRTPC>
+            </SwitchGroup>
+            <SwitchGroup Name="SWITCH_int_trds_stop" ID="{64F43B2D-7726-4EFE-B0E6-82A69F720443}">
+              <PropertyList>
+                <Property Name="UseGameParameter" Type="bool" Value="True" />
+              </PropertyList>
+              <ChildrenList>
+                <Switch Name="SWITCH_int_trds_stop_on" ID="{C51A8F32-8327-4E6D-9630-E625157EFA85}" />
+                <Switch Name="SWITCH_int_trds_stop_off" ID="{AE4CEE95-9F6A-4D69-96A0-CD29944689E6}" />
+              </ChildrenList>
+              <SwitchOnRTPC>
+                <GameParameterRef Name="RTPC_ext_speed_scroll" ID="{6CADAD6C-43E1-4DB7-B92B-7EB1D7F64491}" />
+                <Curve Name="" ID="{CF14E777-8242-4148-9DC5-85836500A7B1}">
+                  <PropertyList>
+                    <Property Name="Flags" Type="int32" Value="65537" />
+                  </PropertyList>
+                  <PointList>
+                    <Point>
+                      <XPos>-15</XPos>
+                      <YPos>2</YPos>
+                      <Flags>5</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>-0.800000000000001</XPos>
+                      <YPos>1</YPos>
+                      <Flags>0</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>0.800000000000002</XPos>
+                      <YPos>2</YPos>
+                      <Flags>0</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>30</XPos>
+                      <YPos>2</YPos>
+                      <Flags>37</Flags>
+                    </Point>
+                  </PointList>
+                </Curve>
+              </SwitchOnRTPC>
+            </SwitchGroup>
+            <SwitchGroup Name="SWITCH_int_eng_accel" ID="{92391F12-69CA-49F6-92C2-A4468C6890F5}">
+              <PropertyList>
+                <Property Name="UseGameParameter" Type="bool" Value="True" />
+              </PropertyList>
+              <ChildrenList>
+                <Switch Name="SWITCH_int_eng_accel_on" ID="{4656917F-D1EE-4453-875D-A8095DEDAFC3}" />
+                <Switch Name="SWITCH_int_eng_accel_off" ID="{8A815C82-2E17-4410-9ADA-2F1926561B19}" />
+              </ChildrenList>
+              <SwitchOnRTPC>
+                <GameParameterRef Name="RTPC_ext_engine_state" ID="{68B12ECE-0F4D-4453-A33A-1D2D5F31664B}" />
+                <Curve Name="" ID="{573E1C2E-495A-48C9-BA3C-DB42438230D3}">
+                  <PropertyList>
+                    <Property Name="Flags" Type="int32" Value="65537" />
+                  </PropertyList>
+                  <PointList>
+                    <Point>
+                      <XPos>0</XPos>
+                      <YPos>2</YPos>
+                      <Flags>5</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>0.01</XPos>
+                      <YPos>1</YPos>
+                      <Flags>0</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>1</XPos>
+                      <YPos>1</YPos>
+                      <Flags>37</Flags>
+                    </Point>
+                  </PointList>
+                </Curve>
+              </SwitchOnRTPC>
+            </SwitchGroup>
+            <SwitchGroup Name="SWITCH_int_eng_decel" ID="{383D0D27-6196-49BD-B60C-576F508B55D6}">
+              <PropertyList>
+                <Property Name="UseGameParameter" Type="bool" Value="True" />
+              </PropertyList>
+              <ChildrenList>
+                <Switch Name="SWITCH_int_eng_decel_on" ID="{0366B49F-75ED-40BF-B5FC-97170CBA1D0A}" />
+                <Switch Name="SWITCH_int_eng_decel_off" ID="{3654A5FA-5854-49BA-A515-B5405EF8FA16}" />
+              </ChildrenList>
+              <SwitchOnRTPC>
+                <GameParameterRef Name="RTPC_ext_engine_state" ID="{68B12ECE-0F4D-4453-A33A-1D2D5F31664B}" />
+                <Curve Name="" ID="{58C4D3DF-A29A-4BDB-8DD9-D594A21B4CF0}">
+                  <PropertyList>
+                    <Property Name="Flags" Type="int32" Value="65537" />
+                  </PropertyList>
+                  <PointList>
+                    <Point>
+                      <XPos>0</XPos>
+                      <YPos>1</YPos>
+                      <Flags>5</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>0.7</XPos>
+                      <YPos>2</YPos>
+                      <Flags>0</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>1</XPos>
+                      <YPos>2</YPos>
+                      <Flags>37</Flags>
+                    </Point>
+                  </PointList>
+                </Curve>
+              </SwitchOnRTPC>
+            </SwitchGroup>
+            <SwitchGroup Name="SWITCH_int_eng_decel_small" ID="{FF7D956A-9E86-4277-9DAB-3EBF077A12C6}">
+              <PropertyList>
+                <Property Name="UseGameParameter" Type="bool" Value="True" />
+              </PropertyList>
+              <ChildrenList>
+                <Switch Name="SWITCH_int_eng_decel_small_on" ID="{03C5F41B-CDC3-4840-8B65-A821597B6839}" />
+                <Switch Name="SWITCH_int_eng_decel_small_off" ID="{D08A4E99-FB96-4F1B-9BAF-37AEC258BBC2}" />
+              </ChildrenList>
+              <SwitchOnRTPC>
+                <GameParameterRef Name="RTPC_ext_engine_state" ID="{68B12ECE-0F4D-4453-A33A-1D2D5F31664B}" />
+                <Curve Name="" ID="{B5EDF9CD-CBC2-401D-9E85-35EF042197E0}">
+                  <PropertyList>
+                    <Property Name="Flags" Type="int32" Value="65537" />
+                  </PropertyList>
+                  <PointList>
+                    <Point>
+                      <XPos>0</XPos>
+                      <YPos>1</YPos>
+                      <Flags>5</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>0.1</XPos>
+                      <YPos>2</YPos>
+                      <Flags>0</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>1</XPos>
+                      <YPos>2</YPos>
+                      <Flags>37</Flags>
+                    </Point>
+                  </PointList>
+                </Curve>
+              </SwitchOnRTPC>
+            </SwitchGroup>
+            <SwitchGroup Name="SWITCH_int_eng_gearShift" ID="{382B736F-1F46-40BE-BBE3-D23BF28B84AC}">
+              <PropertyList>
+                <Property Name="UseGameParameter" Type="bool" Value="True" />
+              </PropertyList>
+              <ChildrenList>
+                <Switch Name="SWITCH_int_eng_gearShift_on" ID="{C50CACF6-6D47-43BC-BEB0-87A3264BB870}" />
+                <Switch Name="SWITCH_int_eng_gearShift_off" ID="{D693CE8F-2DA2-4BFA-BC37-F56703723CA5}" />
+              </ChildrenList>
+              <SwitchOnRTPC>
+                <GameParameterRef Name="RTPC_ext_physic_gear" ID="{C8599A55-F2F7-43F9-B4CD-F5C5E4A6A459}" />
+                <Curve Name="" ID="{925F80E6-8C20-4F0D-83EB-006482BB0346}">
+                  <PropertyList>
+                    <Property Name="Flags" Type="int32" Value="65537" />
+                  </PropertyList>
+                  <PointList>
+                    <Point>
+                      <XPos>0</XPos>
+                      <YPos>2</YPos>
+                      <Flags>5</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>0.95</XPos>
+                      <YPos>1</YPos>
+                      <Flags>0</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>1.05</XPos>
+                      <YPos>2</YPos>
+                      <Flags>0</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>1.95</XPos>
+                      <YPos>1</YPos>
+                      <Flags>0</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>2.05</XPos>
+                      <YPos>2</YPos>
+                      <Flags>0</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>2.95</XPos>
+                      <YPos>1</YPos>
+                      <Flags>0</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>3.05</XPos>
+                      <YPos>2</YPos>
+                      <Flags>0</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>3.95</XPos>
+                      <YPos>1</YPos>
+                      <Flags>0</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>4.05</XPos>
+                      <YPos>2</YPos>
+                      <Flags>0</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>4.95</XPos>
+                      <YPos>1</YPos>
+                      <Flags>0</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>5.05</XPos>
+                      <YPos>2</YPos>
+                      <Flags>0</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>5.95</XPos>
+                      <YPos>1</YPos>
+                      <Flags>0</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>6.05</XPos>
+                      <YPos>2</YPos>
+                      <Flags>0</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>6.95</XPos>
+                      <YPos>1</YPos>
+                      <Flags>0</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>7.05</XPos>
+                      <YPos>2</YPos>
+                      <Flags>0</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>7.95</XPos>
+                      <YPos>1</YPos>
+                      <Flags>0</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>8.05</XPos>
+                      <YPos>2</YPos>
+                      <Flags>0</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>9</XPos>
+                      <YPos>0</YPos>
+                      <Flags>37</Flags>
+                    </Point>
+                  </PointList>
+                </Curve>
+              </SwitchOnRTPC>
+            </SwitchGroup>
+            <SwitchGroup Name="SWITCH_int_trds_fast" ID="{8DEA882F-F983-4A8A-A1EB-8D1D88D826CF}">
+              <PropertyList>
+                <Property Name="UseGameParameter" Type="bool" Value="True" />
+              </PropertyList>
+              <ChildrenList>
+                <Switch Name="SWITCH_int_trds_fast_on" ID="{3CA6586D-494A-4F54-AAE0-2B668860A6B4}" />
+                <Switch Name="SWITCH_int_trds_fast_off" ID="{9C1FB075-E5CB-49C5-BE26-9680ADD5234E}" />
+              </ChildrenList>
+              <SwitchOnRTPC>
+                <GameParameterRef Name="RTPC_ext_speed_scroll" ID="{6CADAD6C-43E1-4DB7-B92B-7EB1D7F64491}" />
+                <Curve Name="" ID="{EE459184-5C72-4FF4-891C-3A5F1346F741}">
+                  <PropertyList>
+                    <Property Name="Flags" Type="int32" Value="65537" />
+                  </PropertyList>
+                  <PointList>
+                    <Point>
+                      <XPos>-15</XPos>
+                      <YPos>2</YPos>
+                      <Flags>5</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>8</XPos>
+                      <YPos>1</YPos>
+                      <Flags>0</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>30</XPos>
+                      <YPos>1</YPos>
+                      <Flags>37</Flags>
+                    </Point>
+                  </PointList>
+                </Curve>
+              </SwitchOnRTPC>
+            </SwitchGroup>
+            <SwitchGroup Name="SWITCH_int_trds_rotation" ID="{163859D5-123F-438A-828B-90AAEA56BDFA}">
+              <PropertyList>
+                <Property Name="UseGameParameter" Type="bool" Value="True" />
+              </PropertyList>
+              <ChildrenList>
+                <Switch Name="SWITCH_int_trds_rotation_on" ID="{4F89F411-50E9-48F5-BDBC-E5ADCF209C56}" />
+                <Switch Name="SWITCH_int_trds_rotation_off" ID="{AA3C17B2-2F93-432B-BF6A-9A38C70666AB}" />
+              </ChildrenList>
+              <SwitchOnRTPC>
+                <GameParameterRef Name="RTPC_ext_engine_state" ID="{68B12ECE-0F4D-4453-A33A-1D2D5F31664B}" />
+                <Curve Name="" ID="{09E3682E-4B97-4D23-BECE-87279C48A275}">
+                  <PropertyList>
+                    <Property Name="Flags" Type="int32" Value="65537" />
+                  </PropertyList>
+                  <PointList>
+                    <Point>
+                      <XPos>0</XPos>
+                      <YPos>2</YPos>
+                      <Flags>5</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>0.8</XPos>
+                      <YPos>1</YPos>
+                      <Flags>0</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>1</XPos>
+                      <YPos>1</YPos>
+                      <Flags>37</Flags>
+                    </Point>
+                  </PointList>
+                </Curve>
+              </SwitchOnRTPC>
+            </SwitchGroup>
+            <SwitchGroup Name="SWITCH_int_trds_slow" ID="{4E75D9F7-D864-4AFA-9829-1ABB2969E24A}">
+              <PropertyList>
+                <Property Name="UseGameParameter" Type="bool" Value="True" />
+              </PropertyList>
+              <ChildrenList>
+                <Switch Name="SWITCH_int_trds_slow_on" ID="{578DEF0F-D657-4AAC-AA2A-CB09DFB4B936}" />
+                <Switch Name="SWITCH_int_trds_slow_off" ID="{FBD3E4FF-A605-43E7-8946-9AED79454E25}" />
+              </ChildrenList>
+              <SwitchOnRTPC>
+                <GameParameterRef Name="RTPC_ext_speed_scroll" ID="{6CADAD6C-43E1-4DB7-B92B-7EB1D7F64491}" />
+                <Curve Name="" ID="{A200FCFC-75D0-49C9-B98B-38DABCB423A9}">
+                  <PropertyList>
+                    <Property Name="Flags" Type="int32" Value="65537" />
+                  </PropertyList>
+                  <PointList>
+                    <Point>
+                      <XPos>-15</XPos>
+                      <YPos>1</YPos>
+                      <Flags>5</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>-1</XPos>
+                      <YPos>1</YPos>
+                      <Flags>0</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>-0.999</XPos>
+                      <YPos>2</YPos>
+                      <Flags>0</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>1</XPos>
+                      <YPos>1</YPos>
+                      <Flags>0</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>15</XPos>
+                      <YPos>2</YPos>
+                      <Flags>0</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>30</XPos>
+                      <YPos>2</YPos>
+                      <Flags>37</Flags>
+                    </Point>
+                  </PointList>
+                </Curve>
+              </SwitchOnRTPC>
+            </SwitchGroup>
+            <SwitchGroup Name="SWITCH_int_trds_creak_stop" ID="{0B0B0770-D221-42B1-B365-0CD721E836EB}">
+              <PropertyList>
+                <Property Name="UseGameParameter" Type="bool" Value="True" />
+              </PropertyList>
+              <ChildrenList>
+                <Switch Name="SWITCH_int_trds_stop_on" ID="{B3C28212-B81A-492A-A89A-FD533E20137E}" />
+                <Switch Name="SWITCH_int_trds_stop_off" ID="{0D8B33FF-ED7D-4A8A-B905-55431CB66197}" />
+              </ChildrenList>
+              <SwitchOnRTPC>
+                <GameParameterRef Name="RTPC_ext_speed_scroll" ID="{6CADAD6C-43E1-4DB7-B92B-7EB1D7F64491}" />
+                <Curve Name="" ID="{BA64ADDF-A3AF-4769-A631-717B1E8DD4CE}">
+                  <PropertyList>
+                    <Property Name="Flags" Type="int32" Value="65537" />
+                  </PropertyList>
+                  <PointList>
+                    <Point>
+                      <XPos>-15</XPos>
+                      <YPos>2</YPos>
+                      <Flags>5</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>-1.5</XPos>
+                      <YPos>1</YPos>
+                      <Flags>0</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>1.5</XPos>
+                      <YPos>2</YPos>
+                      <Flags>0</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>30</XPos>
+                      <YPos>2</YPos>
+                      <Flags>37</Flags>
+                    </Point>
+                  </PointList>
+                </Curve>
+              </SwitchOnRTPC>
+            </SwitchGroup>
+            <SwitchGroup Name="SWITCH_int_friction" ID="{F0BC96CF-11AD-42B1-9525-81B44A09A224}">
+              <PropertyList>
+                <Property Name="UseGameParameter" Type="bool" Value="True" />
+              </PropertyList>
+              <ChildrenList>
+                <Switch Name="SWITCH_int_friction_off" ID="{FABF5291-8409-4F44-878D-E4D8F3CABB6D}" />
+                <Switch Name="SWITCH_int_friction_on" ID="{CEDFE384-4B5D-4C9D-86BD-FEB93729C2A3}" />
+              </ChildrenList>
+              <SwitchOnRTPC>
+                <GameParameterRef Name="RTPC_ext_slide_friction" ID="{A6A360C2-5AA4-41D9-91CB-3B6A1DFB8605}" />
+                <Curve Name="" ID="{A94C7E95-709F-4E80-87B0-40CD29EB2B3A}">
+                  <PropertyList>
+                    <Property Name="Flags" Type="int32" Value="65537" />
+                  </PropertyList>
+                  <PointList>
+                    <Point>
+                      <XPos>0</XPos>
+                      <YPos>1</YPos>
+                      <Flags>5</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>0.02</XPos>
+                      <YPos>2</YPos>
+                      <Flags>0</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>1</XPos>
+                      <YPos>2</YPos>
+                      <Flags>37</Flags>
+                    </Point>
+                  </PointList>
+                </Curve>
+              </SwitchOnRTPC>
+            </SwitchGroup>
+            <SwitchGroup Name="SWITCH_int_trds_startstop_control" ID="{78E609DF-CD0D-499F-B9FC-04419E6F6D37}">
+              <PropertyList>
+                <Property Name="UseGameParameter" Type="bool" Value="True" />
+              </PropertyList>
+              <ChildrenList>
+                <Switch Name="SWITCH_int_trds_startstop_control_moving" ID="{0840064A-0455-4CDC-8E08-E6FF4DD6CE00}" />
+                <Switch Name="SWITCH_int_trds_startstop_control_stopping" ID="{B6855F77-BB88-4995-9CAF-540DCFBDE743}" />
+              </ChildrenList>
+              <SwitchOnRTPC>
+                <GameParameterRef Name="RTPC_ext_speed_abs" ID="{381C7D96-3069-4C21-9DED-55A520974E64}" />
+                <Curve Name="" ID="{4A356905-A3CB-487B-BEEF-B85B3668829A}">
+                  <PropertyList>
+                    <Property Name="Flags" Type="int32" Value="65537" />
+                  </PropertyList>
+                  <PointList>
+                    <Point>
+                      <XPos>-15</XPos>
+                      <YPos>1</YPos>
+                      <Flags>5</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>-0.10149</XPos>
+                      <YPos>1</YPos>
+                      <Flags>0</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>-0.10049</XPos>
+                      <YPos>2</YPos>
+                      <Flags>0</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>0.09974</XPos>
+                      <YPos>1</YPos>
+                      <Flags>0</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>30</XPos>
+                      <YPos>1</YPos>
+                      <Flags>37</Flags>
+                    </Point>
+                  </PointList>
+                </Curve>
+              </SwitchOnRTPC>
+            </SwitchGroup>
+            <SwitchGroup Name="SWITCH_int_eng_gearShift_neutral" ID="{7A09980C-A24B-46B6-9476-E29D22DA9BD3}">
+              <PropertyList>
+                <Property Name="UseGameParameter" Type="bool" Value="True" />
+              </PropertyList>
+              <ChildrenList>
+                <Switch Name="SWITCH_int_eng_gearShift_neutral_on" ID="{25C5462F-A568-40CA-AEC0-DEE7ADC802FC}" />
+                <Switch Name="SWITCH_int_eng_gearShift_neutral_off" ID="{C27193C8-196C-4816-B023-F7EA8E6E5FAB}" />
+              </ChildrenList>
+              <SwitchOnRTPC>
+                <GameParameterRef Name="RTPC_ext_physic_gear" ID="{C8599A55-F2F7-43F9-B4CD-F5C5E4A6A459}" />
+                <Curve Name="" ID="{FB940588-73B6-47C3-B135-C590F665E693}">
+                  <PropertyList>
+                    <Property Name="Flags" Type="int32" Value="65537" />
+                  </PropertyList>
+                  <PointList>
+                    <Point>
+                      <XPos>0</XPos>
+                      <YPos>1</YPos>
+                      <Flags>5</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>0.05</XPos>
+                      <YPos>2</YPos>
+                      <Flags>0</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>9</XPos>
+                      <YPos>2</YPos>
+                      <Flags>37</Flags>
+                    </Point>
+                  </PointList>
+                </Curve>
+              </SwitchOnRTPC>
+            </SwitchGroup>
+          </ChildrenList>
+        </Folder>
+        <SwitchGroup Name="SWITCH_int_trds_npc_start" ID="{D24DE6E9-FBA4-417E-9129-7825DBF24BBB}">
+          <PropertyList>
+            <Property Name="UseGameParameter" Type="bool" Value="True" />
+          </PropertyList>
+          <ChildrenList>
+            <Switch Name="SWITCH_int_trds_npc_start_on" ID="{90DD4374-B6FA-49F1-BACB-067638BD5D5A}" />
+            <Switch Name="SWITCH_int_trds_npc_start_off" ID="{ED1E1693-BD72-47C8-A07C-590913E4DE94}" />
+          </ChildrenList>
+          <SwitchOnRTPC>
+            <GameParameterRef Name="RTPC_ext_speed_abs" ID="{381C7D96-3069-4C21-9DED-55A520974E64}" />
+            <Curve Name="" ID="{CC58BBE5-22CE-45E0-A97B-6C5787BFFE02}">
+              <PropertyList>
+                <Property Name="Flags" Type="int32" Value="65537" />
+              </PropertyList>
+              <PointList>
+                <Point>
+                  <XPos>-15</XPos>
+                  <YPos>1</YPos>
+                  <Flags>5</Flags>
+                </Point>
+                <Point>
+                  <XPos>-9.99999999999996E-02</XPos>
+                  <YPos>2</YPos>
+                  <Flags>0</Flags>
+                </Point>
+                <Point>
+                  <XPos>9.99999999999996E-02</XPos>
+                  <YPos>1</YPos>
+                  <Flags>0</Flags>
+                </Point>
+                <Point>
+                  <XPos>30</XPos>
+                  <YPos>1</YPos>
+                  <Flags>37</Flags>
+                </Point>
+              </PointList>
+            </Curve>
+          </SwitchOnRTPC>
+        </SwitchGroup>
+        <SwitchGroup Name="SWITCH_int_trds_npc_stop" ID="{D228BAF3-F592-4EEF-BEB3-7DED8ECDB685}">
+          <PropertyList>
+            <Property Name="UseGameParameter" Type="bool" Value="True" />
+          </PropertyList>
+          <ChildrenList>
+            <Switch Name="SWITCH_int_trds_npc_stop_on" ID="{5ECED7E2-216D-4F28-9F76-D537D1634BD5}" />
+            <Switch Name="SWITCH_int_trds_npc_stop_off" ID="{C2E2C1F4-9777-42AC-9AD1-00FCEC823D13}" />
+          </ChildrenList>
+          <SwitchOnRTPC>
+            <GameParameterRef Name="RTPC_ext_speed_abs" ID="{381C7D96-3069-4C21-9DED-55A520974E64}" />
+            <Curve Name="" ID="{567F9855-AACA-4E4D-A814-27FFDF31689D}">
+              <PropertyList>
+                <Property Name="Flags" Type="int32" Value="65537" />
+              </PropertyList>
+              <PointList>
+                <Point>
+                  <XPos>-15</XPos>
+                  <YPos>2</YPos>
+                  <Flags>5</Flags>
+                </Point>
+                <Point>
+                  <XPos>-0.800000000000001</XPos>
+                  <YPos>1</YPos>
+                  <Flags>0</Flags>
+                </Point>
+                <Point>
+                  <XPos>0.800000000000002</XPos>
+                  <YPos>2</YPos>
+                  <Flags>0</Flags>
+                </Point>
+                <Point>
+                  <XPos>30</XPos>
+                  <YPos>2</YPos>
+                  <Flags>37</Flags>
+                </Point>
+              </PointList>
+            </Curve>
+          </SwitchOnRTPC>
+        </SwitchGroup>
+        <SwitchGroup Name="SWITCH_int_eng_accel_old_phys" ID="{8A956805-921C-4FF1-8286-D0F98F0FD495}">
+          <PropertyList>
+            <Property Name="UseGameParameter" Type="bool" Value="True" />
+          </PropertyList>
+          <ChildrenList>
+            <Switch Name="SWITCH_int_eng_accel_on" ID="{3D75BE30-157C-4D45-BF32-1B9A51414BFE}" />
+            <Switch Name="SWITCH_int_eng_accel_off" ID="{C70CE36C-A363-470A-8CAD-F69BFD371687}" />
+          </ChildrenList>
+          <SwitchOnRTPC>
+            <GameParameterRef Name="RTPC_ext_engine_load" ID="{974806A9-7B6B-4492-868C-C59CFFC0E65F}" />
+            <Curve Name="" ID="{60D0E288-5628-4748-9328-953352D98419}">
+              <PropertyList>
+                <Property Name="Flags" Type="int32" Value="65537" />
+              </PropertyList>
+              <PointList>
+                <Point>
+                  <XPos>0</XPos>
+                  <YPos>2</YPos>
+                  <Flags>5</Flags>
+                </Point>
+                <Point>
+                  <XPos>1.01</XPos>
+                  <YPos>1</YPos>
+                  <Flags>0</Flags>
+                </Point>
+                <Point>
+                  <XPos>2</XPos>
+                  <YPos>1</YPos>
+                  <Flags>37</Flags>
+                </Point>
+              </PointList>
+            </Curve>
+          </SwitchOnRTPC>
+        </SwitchGroup>
+        <SwitchGroup Name="SWITCH_int_eng_decel_old_phys" ID="{2F6F5B39-4FC1-42AB-BD1A-8BA62F399718}">
+          <PropertyList>
+            <Property Name="UseGameParameter" Type="bool" Value="True" />
+          </PropertyList>
+          <ChildrenList>
+            <Switch Name="SWITCH_int_eng_decel_on" ID="{1128ED8C-D2FC-4B84-BEE1-4815F89E9EC1}" />
+            <Switch Name="SWITCH_int_eng_decel_off" ID="{7F1720F9-D4BC-4922-BA6A-4FC314CA95BF}" />
+          </ChildrenList>
+          <SwitchOnRTPC>
+            <GameParameterRef Name="RTPC_ext_engine_load" ID="{974806A9-7B6B-4492-868C-C59CFFC0E65F}" />
+            <Curve Name="" ID="{3E6B42E3-81C3-449A-B17C-2B465F1FA2F7}">
+              <PropertyList>
+                <Property Name="Flags" Type="int32" Value="65537" />
+              </PropertyList>
+              <PointList>
+                <Point>
+                  <XPos>0</XPos>
+                  <YPos>1</YPos>
+                  <Flags>5</Flags>
+                </Point>
+                <Point>
+                  <XPos>1.7</XPos>
+                  <YPos>2</YPos>
+                  <Flags>0</Flags>
+                </Point>
+                <Point>
+                  <XPos>2</XPos>
+                  <YPos>2</YPos>
+                  <Flags>37</Flags>
+                </Point>
+              </PointList>
+            </Curve>
+          </SwitchOnRTPC>
+        </SwitchGroup>
+        <SwitchGroup Name="SWITCH_int_eng_decel_small_old_phys" ID="{CA1E28B7-8AC5-454D-828E-B91887BD84DA}">
+          <PropertyList>
+            <Property Name="UseGameParameter" Type="bool" Value="True" />
+          </PropertyList>
+          <ChildrenList>
+            <Switch Name="SWITCH_int_eng_decel_small_on" ID="{FBC26894-4157-433B-9818-C90D098757BB}" />
+            <Switch Name="SWITCH_int_eng_decel_small_off" ID="{7F49D1EB-E043-4303-A81E-1E4529DE4200}" />
+          </ChildrenList>
+          <SwitchOnRTPC>
+            <GameParameterRef Name="RTPC_ext_engine_load" ID="{974806A9-7B6B-4492-868C-C59CFFC0E65F}" />
+            <Curve Name="" ID="{7A47B116-63E6-462A-8CAE-CE5305080CD4}">
+              <PropertyList>
+                <Property Name="Flags" Type="int32" Value="65537" />
+              </PropertyList>
+              <PointList>
+                <Point>
+                  <XPos>0</XPos>
+                  <YPos>1</YPos>
+                  <Flags>5</Flags>
+                </Point>
+                <Point>
+                  <XPos>1.1</XPos>
+                  <YPos>2</YPos>
+                  <Flags>0</Flags>
+                </Point>
+                <Point>
+                  <XPos>2</XPos>
+                  <YPos>2</YPos>
+                  <Flags>37</Flags>
+                </Point>
+              </PointList>
+            </Curve>
+          </SwitchOnRTPC>
+        </SwitchGroup>
+        <SwitchGroup Name="SWITCH_int_distance_engine_treads_trigger" ID="{21F4B969-61D4-4A48-99AE-29C52640A462}">
+          <PropertyList>
+            <Property Name="UseGameParameter" Type="bool" Value="True" />
+          </PropertyList>
+          <ChildrenList>
+            <Switch Name="SWITCH_int_distance_engine_treads_trigger_on" ID="{7D19EC22-95CB-4FB1-8270-C64B2E088092}" />
+            <Switch Name="SWITCH_int_distance_engine_treads_trigger_off" ID="{EE4EFBF5-4877-4E8D-AFF8-EBAC08702023}" />
+          </ChildrenList>
+          <SwitchOnRTPC>
+            <GameParameterRef Name="RTPC_int_distance_1200m" ID="{20946FF5-5541-4D41-ADCB-19E3469FA85C}" />
+            <Curve Name="" ID="{1CE365C7-2F2A-4D6C-8B15-CEE8D548E201}">
+              <PropertyList>
+                <Property Name="Flags" Type="int32" Value="65537" />
+              </PropertyList>
+              <PointList>
+                <Point>
+                  <XPos>0</XPos>
+                  <YPos>1</YPos>
+                  <Flags>5</Flags>
+                </Point>
+                <Point>
+                  <XPos>150</XPos>
+                  <YPos>1</YPos>
+                  <Flags>0</Flags>
+                </Point>
+                <Point>
+                  <XPos>150.001</XPos>
+                  <YPos>2</YPos>
+                  <Flags>0</Flags>
+                </Point>
+                <Point>
+                  <XPos>1200</XPos>
+                  <YPos>0</YPos>
+                  <Flags>37</Flags>
+                </Point>
+              </PointList>
+            </Curve>
+          </SwitchOnRTPC>
+        </SwitchGroup>
+        <SwitchGroup Name="SWITCH_int_eng_gearShift_old_physic" ID="{E3CB77FA-BCE5-442B-9CC8-DCDCB48854B2}">
+          <PropertyList>
+            <Property Name="UseGameParameter" Type="bool" Value="True" />
+          </PropertyList>
+          <ChildrenList>
+            <Switch Name="SWITCH_int_eng_gearShift_on" ID="{717C17FA-8213-46A6-BC88-33DC5C2369C4}" />
+            <Switch Name="SWITCH_int_eng_gearShift_off" ID="{A77E09EA-858C-4055-B6C4-A9C7E7613FC7}" />
+          </ChildrenList>
+          <SwitchOnRTPC>
+            <GameParameterRef Name="RTPC_ext_gear_num" ID="{B28094AE-FA9A-405E-AE03-25FD8712E8BC}" />
+            <Curve Name="" ID="{DE9B1894-F8EE-4E10-A59C-A77D8854C501}">
+              <PropertyList>
+                <Property Name="Flags" Type="int32" Value="65537" />
+              </PropertyList>
+              <PointList>
+                <Point>
+                  <XPos>0</XPos>
+                  <YPos>2</YPos>
+                  <Flags>5</Flags>
+                </Point>
+                <Point>
+                  <XPos>0.95</XPos>
+                  <YPos>1</YPos>
+                  <Flags>0</Flags>
+                </Point>
+                <Point>
+                  <XPos>1.05</XPos>
+                  <YPos>2</YPos>
+                  <Flags>0</Flags>
+                </Point>
+                <Point>
+                  <XPos>1.95</XPos>
+                  <YPos>1</YPos>
+                  <Flags>0</Flags>
+                </Point>
+                <Point>
+                  <XPos>2.05</XPos>
+                  <YPos>2</YPos>
+                  <Flags>0</Flags>
+                </Point>
+                <Point>
+                  <XPos>2.95</XPos>
+                  <YPos>1</YPos>
+                  <Flags>0</Flags>
+                </Point>
+                <Point>
+                  <XPos>3.05</XPos>
+                  <YPos>2</YPos>
+                  <Flags>0</Flags>
+                </Point>
+                <Point>
+                  <XPos>4</XPos>
+                  <YPos>2</YPos>
+                  <Flags>37</Flags>
+                </Point>
+              </PointList>
+            </Curve>
+          </SwitchOnRTPC>
+        </SwitchGroup>
+        <SwitchGroup Name="SWITCH_int_trds_fast_old_phys" ID="{AEE51A2D-BE90-416C-AD94-48D31CCF6072}">
+          <PropertyList>
+            <Property Name="UseGameParameter" Type="bool" Value="True" />
+          </PropertyList>
+          <ChildrenList>
+            <Switch Name="SWITCH_int_trds_fast_on" ID="{3DD6871E-50A1-4B7E-AF48-38663566A1D4}" />
+            <Switch Name="SWITCH_int_trds_fast_off" ID="{2913CFD5-BC22-48B1-AECC-10DBAE7AFA78}" />
+          </ChildrenList>
+          <SwitchOnRTPC>
+            <GameParameterRef Name="RTPC_ext_speed_abs" ID="{381C7D96-3069-4C21-9DED-55A520974E64}" />
+            <Curve Name="" ID="{2C786308-13C0-4D5D-9101-F94E09CD338A}">
+              <PropertyList>
+                <Property Name="Flags" Type="int32" Value="65537" />
+              </PropertyList>
+              <PointList>
+                <Point>
+                  <XPos>-15</XPos>
+                  <YPos>2</YPos>
+                  <Flags>5</Flags>
+                </Point>
+                <Point>
+                  <XPos>8</XPos>
+                  <YPos>1</YPos>
+                  <Flags>0</Flags>
+                </Point>
+                <Point>
+                  <XPos>30</XPos>
+                  <YPos>1</YPos>
+                  <Flags>37</Flags>
+                </Point>
+              </PointList>
+            </Curve>
+          </SwitchOnRTPC>
+        </SwitchGroup>
+        <SwitchGroup Name="SWITCH_int_trds_rotation_old_phys" ID="{7EC9017F-EA2B-4C22-B82D-D91835165849}">
+          <PropertyList>
+            <Property Name="UseGameParameter" Type="bool" Value="True" />
+          </PropertyList>
+          <ChildrenList>
+            <Switch Name="SWITCH_int_trds_rotation_on" ID="{908B01B1-26CC-469C-8040-70D340112F4D}" />
+            <Switch Name="SWITCH_int_trds_rotation_off" ID="{14034AEE-FDD5-41BE-9DA9-8F5BA9D30419}" />
+          </ChildrenList>
+          <SwitchOnRTPC>
+            <GameParameterRef Name="RTPC_ext_engine_load" ID="{974806A9-7B6B-4492-868C-C59CFFC0E65F}" />
+            <Curve Name="" ID="{79915E5B-4543-4EBB-A531-031F0312BD81}">
+              <PropertyList>
+                <Property Name="Flags" Type="int32" Value="65537" />
+              </PropertyList>
+              <PointList>
+                <Point>
+                  <XPos>0</XPos>
+                  <YPos>2</YPos>
+                  <Flags>5</Flags>
+                </Point>
+                <Point>
+                  <XPos>1.8</XPos>
+                  <YPos>1</YPos>
+                  <Flags>0</Flags>
+                </Point>
+                <Point>
+                  <XPos>2</XPos>
+                  <YPos>1</YPos>
+                  <Flags>37</Flags>
+                </Point>
+              </PointList>
+            </Curve>
+          </SwitchOnRTPC>
+        </SwitchGroup>
+        <SwitchGroup Name="SWITCH_int_trds_slow_old_phys" ID="{870855D5-636C-40B8-977D-8F52B98C5A11}">
+          <PropertyList>
+            <Property Name="UseGameParameter" Type="bool" Value="True" />
+          </PropertyList>
+          <ChildrenList>
+            <Switch Name="SWITCH_int_trds_slow_on" ID="{343183AF-A3F3-44E9-8F9E-F93AF5A64E35}" />
+            <Switch Name="SWITCH_int_trds_slow_off" ID="{B9D096D7-6F87-41EC-9DFB-9B302369F362}" />
+          </ChildrenList>
+          <SwitchOnRTPC>
+            <GameParameterRef Name="RTPC_ext_speed_abs" ID="{381C7D96-3069-4C21-9DED-55A520974E64}" />
+            <Curve Name="" ID="{0FFE1AA4-2D65-4B29-80D1-FB1F6D43B0C8}">
+              <PropertyList>
+                <Property Name="Flags" Type="int32" Value="65537" />
+              </PropertyList>
+              <PointList>
+                <Point>
+                  <XPos>-15</XPos>
+                  <YPos>1</YPos>
+                  <Flags>5</Flags>
+                </Point>
+                <Point>
+                  <XPos>-1</XPos>
+                  <YPos>1</YPos>
+                  <Flags>0</Flags>
+                </Point>
+                <Point>
+                  <XPos>-0.999</XPos>
+                  <YPos>2</YPos>
+                  <Flags>0</Flags>
+                </Point>
+                <Point>
+                  <XPos>1</XPos>
+                  <YPos>1</YPos>
+                  <Flags>0</Flags>
+                </Point>
+                <Point>
+                  <XPos>15</XPos>
+                  <YPos>2</YPos>
+                  <Flags>0</Flags>
+                </Point>
+                <Point>
+                  <XPos>30</XPos>
+                  <YPos>2</YPos>
+                  <Flags>37</Flags>
+                </Point>
+              </PointList>
+            </Curve>
+          </SwitchOnRTPC>
+        </SwitchGroup>
+        <SwitchGroup Name="SWITCH_int_trds_creak_stop_old_phys" ID="{D2C07C5A-E1B6-43EE-A7A5-EB4E2DD5AAD8}">
+          <PropertyList>
+            <Property Name="UseGameParameter" Type="bool" Value="True" />
+          </PropertyList>
+          <ChildrenList>
+            <Switch Name="SWITCH_int_trds_stop_on" ID="{391D0659-0285-44EF-81C1-C856EC93374C}" />
+            <Switch Name="SWITCH_int_trds_stop_off" ID="{15D3AFCE-76B0-4150-A72A-88F078CFD1B4}" />
+          </ChildrenList>
+          <SwitchOnRTPC>
+            <GameParameterRef Name="RTPC_ext_speed_abs" ID="{381C7D96-3069-4C21-9DED-55A520974E64}" />
+            <Curve Name="" ID="{55CDA96D-7C1E-486B-A7C4-7555D04068D9}">
+              <PropertyList>
+                <Property Name="Flags" Type="int32" Value="65537" />
+              </PropertyList>
+              <PointList>
+                <Point>
+                  <XPos>-15</XPos>
+                  <YPos>2</YPos>
+                  <Flags>5</Flags>
+                </Point>
+                <Point>
+                  <XPos>-1.5</XPos>
+                  <YPos>1</YPos>
+                  <Flags>0</Flags>
+                </Point>
+                <Point>
+                  <XPos>1.5</XPos>
+                  <YPos>2</YPos>
+                  <Flags>0</Flags>
+                </Point>
+                <Point>
+                  <XPos>30</XPos>
+                  <YPos>2</YPos>
+                  <Flags>37</Flags>
+                </Point>
+              </PointList>
+            </Curve>
+          </SwitchOnRTPC>
+        </SwitchGroup>
+        <SwitchGroup Name="SWITCH_int_friction_old_phys" ID="{66B467B7-EFEF-4DD1-9EBE-112CF4C0964C}">
+          <PropertyList>
+            <Property Name="UseGameParameter" Type="bool" Value="True" />
+          </PropertyList>
+          <ChildrenList>
+            <Switch Name="SWITCH_int_friction_off" ID="{718337CC-8ACA-4D4C-9488-A0CDE68FD86C}" />
+            <Switch Name="SWITCH_int_friction_on" ID="{A03FAF44-3607-401D-952C-2B4C29EE1451}" />
+          </ChildrenList>
+          <SwitchOnRTPC>
+            <GameParameterRef Name="RTPC_ext_friction" ID="{A18FB8B6-C5FF-4991-B788-8EDA6AF2CF4D}" />
+            <Curve Name="" ID="{738C336D-8342-49E4-BFE6-74FDD4FBA76C}">
+              <PropertyList>
+                <Property Name="Flags" Type="int32" Value="65537" />
+              </PropertyList>
+              <PointList>
+                <Point>
+                  <XPos>0</XPos>
+                  <YPos>1</YPos>
+                  <Flags>5</Flags>
+                </Point>
+                <Point>
+                  <XPos>0.02</XPos>
+                  <YPos>2</YPos>
+                  <Flags>0</Flags>
+                </Point>
+                <Point>
+                  <XPos>1</XPos>
+                  <YPos>2</YPos>
+                  <Flags>37</Flags>
+                </Point>
+              </PointList>
+            </Curve>
+          </SwitchOnRTPC>
+        </SwitchGroup>
+        <SwitchGroup Name="SWITCH_int_decel_silence_or_sample" ID="{3C9B9CCD-F24C-480B-AF6B-8066FD63F549}">
+          <PropertyList>
+            <Property Name="UseGameParameter" Type="bool" Value="True" />
+          </PropertyList>
+          <ChildrenList>
+            <Switch Name="SWITCH_int_decel_silence" ID="{26CB5271-C7A2-4C85-9D48-7004AD19A343}" />
+            <Switch Name="SWITCH_int_decel_sample" ID="{9AAA6F62-F01C-44C1-9263-D41CD0D4C9EB}" />
+          </ChildrenList>
+          <SwitchOnRTPC>
+            <GameParameterRef Name="RTPC_ext_engine_load" ID="{974806A9-7B6B-4492-868C-C59CFFC0E65F}" />
+            <Curve Name="" ID="{7F66B913-EF93-4D59-B117-42776857A954}">
+              <PropertyList>
+                <Property Name="Flags" Type="int32" Value="65537" />
+              </PropertyList>
+              <PointList>
+                <Point>
+                  <XPos>0</XPos>
+                  <YPos>1</YPos>
+                  <Flags>5</Flags>
+                </Point>
+                <Point>
+                  <XPos>1.5</XPos>
+                  <YPos>2</YPos>
+                  <Flags>0</Flags>
+                </Point>
+                <Point>
+                  <XPos>2</XPos>
+                  <YPos>2</YPos>
+                  <Flags>37</Flags>
+                </Point>
+              </PointList>
+            </Curve>
+          </SwitchOnRTPC>
+        </SwitchGroup>
+        <SwitchGroup Name="SWITCH_ext_postMortem" ID="{1C6BBD41-582E-4AFF-AFC0-39FF9CEBB109}">
+          <Comment>External SWITCH - Works with vehicles (engines) in postmortem</Comment>
+          <ChildrenList>
+            <Switch Name="SWITCH_ext_postMortem_pc" ID="{75B916E9-6AE9-4617-906F-9942A98BE928}">
+              <Comment>An NPC vehicle under the camera (in postmortem)</Comment>
+            </Switch>
+            <Switch Name="SWITCH_ext_postMortem_npc" ID="{1209C504-689D-4C9D-91F2-C21921F03CF7}">
+              <Comment>An NPC vehicle not under the camera (in postmortem)
+also a default state for NPC vehicles in battle (non-damaged PC vehicles)</Comment>
+            </Switch>
+          </ChildrenList>
+        </SwitchGroup>
+        <SwitchGroup Name="SWITCH_int_accel_silence_or_sample" ID="{0B3A1BBF-C67A-4BFC-9008-3F90EDB70712}">
+          <PropertyList>
+            <Property Name="UseGameParameter" Type="bool" Value="True" />
+          </PropertyList>
+          <ChildrenList>
+            <Switch Name="SWITCH_int_decel_silence" ID="{D4E13B49-ED0B-4BE2-B353-AC486894A4F6}" />
+            <Switch Name="SWITCH_int_decel_sample" ID="{1F31AC00-E2EF-4138-B39F-E8FBC52C2BD7}" />
+          </ChildrenList>
+          <SwitchOnRTPC>
+            <GameParameterRef Name="RTPC_ext_engine_load" ID="{974806A9-7B6B-4492-868C-C59CFFC0E65F}" />
+            <Curve Name="" ID="{08F8AE36-C884-4E54-AE4C-254D04AE945E}">
+              <PropertyList>
+                <Property Name="Flags" Type="int32" Value="65537" />
+              </PropertyList>
+              <PointList>
+                <Point>
+                  <XPos>0</XPos>
+                  <YPos>2</YPos>
+                  <Flags>5</Flags>
+                </Point>
+                <Point>
+                  <XPos>1.5</XPos>
+                  <YPos>1</YPos>
+                  <Flags>0</Flags>
+                </Point>
+                <Point>
+                  <XPos>2</XPos>
+                  <YPos>1</YPos>
+                  <Flags>37</Flags>
+                </Point>
+              </PointList>
+            </Curve>
+          </SwitchOnRTPC>
+        </SwitchGroup>
+        <SwitchGroup Name="SWITCH_int_eng_start_stop_pc" ID="{8B88D946-A6CD-4723-9AFC-E3E13AA0B98E}">
+          <PropertyList>
+            <Property Name="UseGameParameter" Type="bool" Value="True" />
+          </PropertyList>
+          <ChildrenList>
+            <Switch Name="SWITCH_int_eng_stop" ID="{6A12A623-E18E-4BC9-82FA-E7A9ECD157A2}" />
+            <Switch Name="SWITCH_int_eng_start" ID="{E6BF2352-2AE0-4007-B65D-69BB008B3C52}" />
+          </ChildrenList>
+          <SwitchOnRTPC>
+            <GameParameterRef Name="RTPC_int_start_stop" ID="{90A4789E-2B00-4A5B-8B47-FCDBB960CF8D}" />
+            <Curve Name="" ID="{3062356C-5495-4B5D-BB09-D8B2A15F2409}">
+              <PropertyList>
+                <Property Name="Flags" Type="int32" Value="65537" />
+              </PropertyList>
+              <PointList>
+                <Point>
+                  <XPos>-100</XPos>
+                  <YPos>2</YPos>
+                  <Flags>5</Flags>
+                </Point>
+                <Point>
+                  <XPos>50</XPos>
+                  <YPos>1</YPos>
+                  <Flags>0</Flags>
+                </Point>
+                <Point>
+                  <XPos>100</XPos>
+                  <YPos>1</YPos>
+                  <Flags>37</Flags>
+                </Point>
+              </PointList>
+            </Curve>
+          </SwitchOnRTPC>
+        </SwitchGroup>
+        <SwitchGroup Name="SWITCH_int_eng_start_stop_npc" ID="{2E52BCAA-8932-4CEC-B6A2-F76D1383AF24}">
+          <PropertyList>
+            <Property Name="UseGameParameter" Type="bool" Value="True" />
+          </PropertyList>
+          <ChildrenList>
+            <Switch Name="SWITCH_int_eng_stop" ID="{6586B6F6-394E-4ED5-A59A-CC797AB5840D}" />
+            <Switch Name="SWITCH_int_eng_start" ID="{275119AF-1089-447E-9D41-056A670CAEA9}" />
+          </ChildrenList>
+          <SwitchOnRTPC>
+            <GameParameterRef Name="RTPC_ext_engine_load" ID="{974806A9-7B6B-4492-868C-C59CFFC0E65F}" />
+            <Curve Name="" ID="{072DD730-D96A-4C42-8E21-890813015EDB}">
+              <PropertyList>
+                <Property Name="Flags" Type="int32" Value="65537" />
+              </PropertyList>
+              <PointList>
+                <Point>
+                  <XPos>0</XPos>
+                  <YPos>1</YPos>
+                  <Flags>5</Flags>
+                </Point>
+                <Point>
+                  <XPos>0.4</XPos>
+                  <YPos>2</YPos>
+                  <Flags>0</Flags>
+                </Point>
+                <Point>
+                  <XPos>2</XPos>
+                  <YPos>2</YPos>
+                  <Flags>37</Flags>
+                </Point>
+              </PointList>
+            </Curve>
+          </SwitchOnRTPC>
+        </SwitchGroup>
+        <SwitchGroup Name="SWITCH_int_trds_type" ID="{D20B0407-21F7-4B2B-A0A6-ADEBE4908556}">
+          <Comment>Internal SWITCH - switches the track type depending on the engine</Comment>
+          <PropertyList>
+            <Property Name="UseGameParameter" Type="bool" Value="True" />
+          </PropertyList>
+          <ChildrenList>
+            <Switch Name="SWITCH_int_trds_type_light_01" ID="{65C021F4-2302-4B7A-A0DC-A9A011B32E4F}" />
+            <Switch Name="SWITCH_int_trds_type_light_02" ID="{4B60CE47-85AF-47B8-BF22-C6F0FFE74589}" />
+            <Switch Name="SWITCH_int_trds_type_medium_01" ID="{55C7A993-985E-4128-84C2-E2888B45BB85}" />
+            <Switch Name="SWITCH_int_trds_type_medium_02" ID="{D4998538-C6F4-422C-B663-705B6D234002}" />
+            <Switch Name="SWITCH_int_trds_type_medium_03" ID="{D9D25CF5-8446-4ABA-80C4-9CA790C99E1E}" />
+            <Switch Name="SWITCH_int_trds_type_heavy_01" ID="{BC303730-E9C3-440E-A5E3-29F0661756BF}" />
+            <Switch Name="SWITCH_int_trds_type_heavy_02" ID="{5D779DBB-F938-4A5F-9D14-BE608A8FAD9A}" />
+          </ChildrenList>
+          <SwitchOnRTPC>
+            <GameParameterRef Name="RTPC_int_treads_type" ID="{C0F1E835-0B0E-44B7-BBC3-C2EB9B7CD6E5}" />
+            <Curve Name="" ID="{A0D5830F-2FF1-4D3D-B94D-91F1C34D8E2A}">
+              <PropertyList>
+                <Property Name="Flags" Type="int32" Value="65537" />
+              </PropertyList>
+              <PointList>
+                <Point>
+                  <XPos>0</XPos>
+                  <YPos>0</YPos>
+                  <Flags>5</Flags>
+                </Point>
+                <Point>
+                  <XPos>1</XPos>
+                  <YPos>1</YPos>
+                  <Flags>0</Flags>
+                </Point>
+                <Point>
+                  <XPos>2</XPos>
+                  <YPos>2</YPos>
+                  <Flags>0</Flags>
+                </Point>
+                <Point>
+                  <XPos>3</XPos>
+                  <YPos>3</YPos>
+                  <Flags>0</Flags>
+                </Point>
+                <Point>
+                  <XPos>4</XPos>
+                  <YPos>4</YPos>
+                  <Flags>0</Flags>
+                </Point>
+                <Point>
+                  <XPos>5</XPos>
+                  <YPos>5</YPos>
+                  <Flags>0</Flags>
+                </Point>
+                <Point>
+                  <XPos>6</XPos>
+                  <YPos>6</YPos>
+                  <Flags>0</Flags>
+                </Point>
+                <Point>
+                  <XPos>7</XPos>
+                  <YPos>7</YPos>
+                  <Flags>37</Flags>
+                </Point>
+              </PointList>
+            </Curve>
+          </SwitchOnRTPC>
+        </SwitchGroup>
+        <SwitchGroup Name="SWITCH_int_eng_gearShift_neutral_old_physic" ID="{7E1A7F39-670F-42E9-887A-9D6199542767}">
+          <PropertyList>
+            <Property Name="UseGameParameter" Type="bool" Value="True" />
+          </PropertyList>
+          <ChildrenList>
+            <Switch Name="SWITCH_int_eng_gearShift_on" ID="{CF89FD0D-6A2A-44BF-8E51-3112FD618891}" />
+            <Switch Name="SWITCH_int_eng_gearShift_off" ID="{F3EF5C01-3B27-4CA1-B965-B2FCA3B3E72C}" />
+          </ChildrenList>
+          <SwitchOnRTPC>
+            <GameParameterRef Name="RTPC_ext_gear_num" ID="{B28094AE-FA9A-405E-AE03-25FD8712E8BC}" />
+            <Curve Name="" ID="{CB4F54ED-9F64-401D-8DA8-07FF1679EC6A}">
+              <PropertyList>
+                <Property Name="Flags" Type="int32" Value="65537" />
+              </PropertyList>
+              <PointList>
+                <Point>
+                  <XPos>0</XPos>
+                  <YPos>1</YPos>
+                  <Flags>5</Flags>
+                </Point>
+                <Point>
+                  <XPos>0.05</XPos>
+                  <YPos>2</YPos>
+                  <Flags>0</Flags>
+                </Point>
+                <Point>
+                  <XPos>4</XPos>
+                  <YPos>2</YPos>
+                  <Flags>37</Flags>
+                </Point>
+              </PointList>
+            </Curve>
+          </SwitchOnRTPC>
+        </SwitchGroup>
+        <Folder Name="actions_with_keys" ID="{6CA6D7CC-DDE3-4D6B-9EDA-BBA5B66684A6}" ShortID="326724321">
+          <ChildrenList>
+            <SwitchGroup Name="SWITCH_int_key_left" ID="{F48F8C26-8755-4CE4-9711-F360B0150EC0}">
+              <PropertyList>
+                <Property Name="UseGameParameter" Type="bool" Value="True" />
+              </PropertyList>
+              <ChildrenList>
+                <Switch Name="SWITCH_int_key_left_pressed" ID="{41E0B128-5BC9-47E2-B3A1-9DD243F15AB9}" />
+                <Switch Name="SWITCH_int_key_left_released" ID="{C22046DE-FDFF-40EB-A39A-5D8DCC4BA248}" />
+              </ChildrenList>
+              <SwitchOnRTPC>
+                <GameParameterRef Name="RTPC_int_key_left" ID="{C18362E2-2739-4679-BFDF-C643CC2B3933}" />
+                <Curve Name="" ID="{C40D54E3-AF6D-47F3-8CDC-2406E93F5ACB}">
+                  <PropertyList>
+                    <Property Name="Flags" Type="int32" Value="65537" />
+                  </PropertyList>
+                  <PointList>
+                    <Point>
+                      <XPos>0</XPos>
+                      <YPos>2</YPos>
+                      <Flags>5</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>50</XPos>
+                      <YPos>1</YPos>
+                      <Flags>0</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>100</XPos>
+                      <YPos>1</YPos>
+                      <Flags>37</Flags>
+                    </Point>
+                  </PointList>
+                </Curve>
+              </SwitchOnRTPC>
+            </SwitchGroup>
+            <SwitchGroup Name="SWITCH_int_key_right" ID="{64D26175-5CE3-4472-A44F-A184FACB7C14}">
+              <PropertyList>
+                <Property Name="UseGameParameter" Type="bool" Value="True" />
+              </PropertyList>
+              <ChildrenList>
+                <Switch Name="SWITCH_int_key_right_pressed" ID="{E060043F-C25B-433F-96BD-176B1ACC8CE8}" />
+                <Switch Name="SWITCH_int_key_right_released" ID="{98EE8F15-CCAC-4187-8D69-657AF9F2E207}" />
+              </ChildrenList>
+              <SwitchOnRTPC>
+                <GameParameterRef Name="RTPC_int_key_right" ID="{325EDE9F-0187-4C65-9D41-69855CF89079}" />
+                <Curve Name="" ID="{AF94DDF0-B54A-4A0B-97EE-5BB245076404}">
+                  <PropertyList>
+                    <Property Name="Flags" Type="int32" Value="65537" />
+                  </PropertyList>
+                  <PointList>
+                    <Point>
+                      <XPos>0</XPos>
+                      <YPos>2</YPos>
+                      <Flags>5</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>50</XPos>
+                      <YPos>1</YPos>
+                      <Flags>0</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>100</XPos>
+                      <YPos>1</YPos>
+                      <Flags>37</Flags>
+                    </Point>
+                  </PointList>
+                </Curve>
+              </SwitchOnRTPC>
+            </SwitchGroup>
+          </ChildrenList>
+        </Folder>
+        <Folder Name="wheel_tech" ID="{1C39E4DD-79B4-4F7E-A14C-CE7F18FED43A}" ShortID="120016205">
+          <ChildrenList>
+            <SwitchGroup Name="SWITCH_int_wheels_slide_friction" ID="{E0FB988F-0CED-4B4E-B31B-0770BFCF975D}">
+              <PropertyList>
+                <Property Name="UseGameParameter" Type="bool" Value="True" />
+              </PropertyList>
+              <ChildrenList>
+                <Switch Name="SWITCH_int_friction_off" ID="{8F841197-231C-4951-BB6E-4F25C923521A}" />
+                <Switch Name="SWITCH_int_friction_on" ID="{10C6B793-E417-4D9C-9EBB-402A285B4B52}" />
+              </ChildrenList>
+              <SwitchOnRTPC>
+                <GameParameterRef Name="RTPC_ext_slide_friction" ID="{A6A360C2-5AA4-41D9-91CB-3B6A1DFB8605}" />
+                <Curve Name="" ID="{548D4784-E29B-400A-BC3C-AE4F6FB6CBD0}">
+                  <PropertyList>
+                    <Property Name="Flags" Type="int32" Value="65537" />
+                  </PropertyList>
+                  <PointList>
+                    <Point>
+                      <XPos>0</XPos>
+                      <YPos>1</YPos>
+                      <Flags>5</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>0.02</XPos>
+                      <YPos>2</YPos>
+                      <Flags>0</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>1</XPos>
+                      <YPos>2</YPos>
+                      <Flags>37</Flags>
+                    </Point>
+                  </PointList>
+                </Curve>
+              </SwitchOnRTPC>
+            </SwitchGroup>
+            <SwitchGroup Name="SWITCH_int_wheels_friction" ID="{37C21D45-CCF6-4183-9C97-DAA4E3110289}">
+              <PropertyList>
+                <Property Name="UseGameParameter" Type="bool" Value="True" />
+              </PropertyList>
+              <ChildrenList>
+                <Switch Name="SWITCH_int_friction_off" ID="{50DB6C4F-9287-4B8C-9CA6-33BFF27E7EFF}" />
+                <Switch Name="SWITCH_int_friction_on" ID="{96890CC9-8D53-427F-966E-2C1C72AE46A7}" />
+              </ChildrenList>
+              <SwitchOnRTPC>
+                <GameParameterRef Name="RTPC_ext_friction" ID="{A18FB8B6-C5FF-4991-B788-8EDA6AF2CF4D}" />
+                <Curve Name="" ID="{6989BEF4-CADF-4C83-A7F4-74DAF14C2ADC}">
+                  <PropertyList>
+                    <Property Name="Flags" Type="int32" Value="65537" />
+                  </PropertyList>
+                  <PointList>
+                    <Point>
+                      <XPos>0</XPos>
+                      <YPos>1</YPos>
+                      <Flags>5</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>0.02</XPos>
+                      <YPos>2</YPos>
+                      <Flags>0</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>1</XPos>
+                      <YPos>2</YPos>
+                      <Flags>37</Flags>
+                    </Point>
+                  </PointList>
+                </Curve>
+              </SwitchOnRTPC>
+            </SwitchGroup>
+            <SwitchGroup Name="SWITCH_int_wheels_turn" ID="{DA8E12D5-3A06-4420-9AD8-0DACA37C3238}">
+              <PropertyList>
+                <Property Name="UseGameParameter" Type="bool" Value="True" />
+              </PropertyList>
+              <ChildrenList>
+                <Switch Name="SWITCH_int_wheels_turn_left" ID="{57746F81-12FA-472D-A738-FCDED4F07E13}" />
+                <Switch Name="SWITCH_int_wheels_right" ID="{9B96C992-9442-4AD8-ADAA-316ED203D168}" />
+                <Switch Name="SWITCH_int_wheels_stright" ID="{48C77ECA-E80F-43C4-8628-DED08ADD8476}" />
+              </ChildrenList>
+              <SwitchOnRTPC>
+                <GameParameterRef Name="RTPC_ext_wheels_turning" ID="{582AF357-D147-4780-B2E0-1BE93C8E9F90}" />
+                <Curve Name="" ID="{7D4B2395-EFED-419E-9142-D1E6526D67A0}">
+                  <PropertyList>
+                    <Property Name="Flags" Type="int32" Value="65537" />
+                  </PropertyList>
+                  <PointList>
+                    <Point>
+                      <XPos>-90</XPos>
+                      <YPos>1</YPos>
+                      <Flags>5</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>-5</XPos>
+                      <YPos>1</YPos>
+                      <Flags>0</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>-4.999</XPos>
+                      <YPos>3</YPos>
+                      <Flags>0</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>5</XPos>
+                      <YPos>2</YPos>
+                      <Flags>0</Flags>
+                    </Point>
+                    <Point>
+                      <XPos>90</XPos>
+                      <YPos>2</YPos>
+                      <Flags>37</Flags>
+                    </Point>
+                  </PointList>
+                </Curve>
+              </SwitchOnRTPC>
+            </SwitchGroup>
+          </ChildrenList>
+        </Folder>
+      </ChildrenList>
+    </WorkUnit>
+  </Switches>
+</WwiseDocument>

@@ -1,0 +1,193 @@
+<WwiseDocument Type="WorkUnit" ID="{80DBB3A5-37DF-47BE-8808-944426EF58ED}" SchemaVersion="85">
+  <Events>
+    <WorkUnit Name="Plane" ID="{80DBB3A5-37DF-47BE-8808-944426EF58ED}" PersistMode="Standalone">
+      <Comment>Planes and air defense guns on maps</Comment>
+      <ChildrenList>
+        <Folder Name="bombardment" ID="{5F7D829A-BDEA-43E4-AD3A-3995638E504E}" ShortID="627798592">
+          <ChildrenList>
+            <Folder Name="expl_bomb_close" ID="{00265559-4FE0-45C3-9BB8-52502FD74BC9}" ShortID="474901701">
+              <ChildrenList>
+                <Event Name="plane_expl_bomb_close_tail" ID="{2CB43C4A-6757-432B-B0CA-B27422DCAB5C}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="plane_expl_bomb_close" ID="{83A6DE2B-10D2-45E3-A46D-6DE8ADEA193A}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+              </ChildrenList>
+            </Folder>
+            <Event Name="plane_bomber_02" ID="{827A9B1E-A826-4DB2-BDC6-CF39A716EB27}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="plane_bomber_03" ID="{58819FD9-83B1-4953-A9E3-AE28D2433695}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="plane_bomber_04" ID="{7A2BB536-4EB0-4D6A-9E3A-EBC070CE92D3}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="plane_bomber_01" ID="{553EB283-47F3-425A-981B-4F8AF6223E61}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Folder Name="expl_bomb_far" ID="{EC336CF2-B0D0-4838-A321-1590B8BE18BF}" ShortID="49547077">
+              <ChildrenList>
+                <Event Name="plane_expl_bomb_far" ID="{98756D48-AA41-4F57-83A1-C4B3C378786A}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="plane_expl_bomb_tail" ID="{32927E4A-F2AF-48D7-B28A-AB065C83A933}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+              </ChildrenList>
+            </Folder>
+          </ChildrenList>
+        </Folder>
+        <Folder Name="crashes" ID="{F247EEE6-5ED7-4DFE-BFB8-C04633AB3C8D}" ShortID="4043856">
+          <ChildrenList>
+            <Event Name="plane_crash" ID="{9C6ECF2A-CB95-49BB-8215-243BF3FC5180}">
+              <Comment>This event is probably not being used anywhere</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Folder Name="frontline" ID="{55279049-B231-4BAD-97C4-7C5305942ACD}" ShortID="821706880">
+              <ChildrenList>
+                <Event Name="fr_scenario_IL2_attack_failed_east_01" ID="{C2316ABC-E8F0-45DC-A04E-AD813B5CA15D}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="fr_scenario_IL2_attack_failed_east_02" ID="{49F77936-5469-4470-924C-06B574211616}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="fr_scenario_IL2_crash_east_01" ID="{A53B2B23-A02A-4B0C-B4A7-19F2E9F38AFF}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="fr_scenario_IL2_crash_east_02" ID="{16550BDC-51E9-4441-9D74-E41F8F5A3D3C}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="fr_scenario_IL2_attack_failed_west_01" ID="{AB708D33-8560-4451-BF93-FE4EBA65EC4A}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="fr_scenario_IL2_attack_failed_west_02" ID="{6E80CF38-FC20-45A5-9681-4EF26BBC73CF}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="fr_scenario_IL2_crash_west_01" ID="{2106704E-67A4-4BDA-8F6C-9F0127F1E58E}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="fr_scenario_IL2_crash_west_02" ID="{717974F5-13DE-4CA4-8B4E-754FD65DA251}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="fr_scenario_IL2_attack_failed_center_01" ID="{57BBE66A-9F38-4515-A2F9-99D50D4B5873}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="fr_scenario_IL2_attack_failed_center_02" ID="{E66BAF55-50E7-4DC0-AB54-BC508573A5D1}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="fr_scenario_IL2_attack_failed_center_03" ID="{B713CAD1-CBE4-4F77-BEFE-55B84501B2C8}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="fr_scenario_IL2_crash_center_01" ID="{42C4C48A-BED5-46E7-8FD4-4225AB146399}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="fr_scenario_IL2_smoke_center_02" ID="{A13D569D-4FBC-45D1-88E4-757145926879}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+              </ChildrenList>
+            </Folder>
+          </ChildrenList>
+        </Folder>
+        <Folder Name="DDay" ID="{5C7960B5-6231-4342-95B7-58B4C83A0FD5}" ShortID="288638448">
+          <ChildrenList>
+            <Folder Name="plane" ID="{6E6FB740-E8E0-469F-9B5A-46043C7B411F}" ShortID="534436568">
+              <ChildrenList>
+                <Event Name="plane_DDay_bomber_01" ID="{2AD62BF0-4919-49BB-95BE-61B33E258107}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="plane_DDAY_anti_aicraft_gun" ID="{6D26A39B-DE20-4046-B8CA-0CB08D6234A0}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+              </ChildrenList>
+            </Folder>
+          </ChildrenList>
+        </Folder>
+        <Folder Name="other_actions" ID="{9DF169FC-BA56-423D-9A32-626549FFE2F9}" ShortID="497142746">
+          <ChildrenList>
+            <Event Name="plane_silence" ID="{9FB7849B-621E-458C-B031-C599E65057EA}">
+              <ChildrenList></ChildrenList>
+            </Event>
+          </ChildrenList>
+        </Folder>
+        <Folder Name="planes" ID="{AAF8EDBF-92E0-4B42-AA48-13FC8FB0B114}" ShortID="142800393">
+          <ChildrenList>
+            <Event Name="plane_not_gun_yak_3_02" ID="{FDD65F09-4D89-4BF7-A4CB-4D544825DF36}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="plane_not_gun_mustang_01" ID="{0F589120-1419-4BCC-92E1-6C4F37A6C4AA}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="plane_not_gun_bomber_02" ID="{B3CD74FE-38F6-45BB-B7E0-0053C285FB08}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="plane_not_gun_bomber_01" ID="{919EB052-22EA-4AC1-9F8B-5E24B642A8CE}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="plane_not_gun_yak_3_01" ID="{F0B685EF-64E8-4AF1-AB8E-2033CB9F96FD}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="plane_not_gun_mustang_02" ID="{B61BA15D-2CDE-400B-AE6C-BFE9177FC2BD}">
+              <ChildrenList></ChildrenList>
+            </Event>
+          </ChildrenList>
+        </Folder>
+        <Folder Name="planes_with_automatic_weapons" ID="{48E3C90F-5525-41F4-880B-8DDF1EA82F4B}" ShortID="187863069">
+          <ChildrenList>
+            <Event Name="plane_with_gun_bomber_02" ID="{D2DE9356-4E04-4AEB-BCEB-16DFF0AB848D}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="plane_with_gun_mustang_02" ID="{579FC4DF-EE46-4C7F-970A-955CFCE29E20}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="plane_with_gun_yak_3_02" ID="{7836EF9F-5F89-46C3-96BE-DE198D79769D}">
+              <ChildrenList></ChildrenList>
+            </Event>
+          </ChildrenList>
+        </Folder>
+        <Folder Name="stalingrad" ID="{5B2D2DA4-AC1A-4514-8B46-5046B2B8C62D}" ShortID="895090469">
+          <ChildrenList>
+            <Folder Name="planes_with_automatic_weapons" ID="{14DB549A-39D5-4100-9BBF-9940502DCE4A}" ShortID="398901916">
+              <ChildrenList>
+                <Event Name="plane_stalingrad_yak_3_01" ID="{F35DF774-3251-4EA8-B11E-4B2D74B82B0C}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="plane_stalingrad_mustang_02" ID="{C3028A8E-F81E-44D2-BF56-3DF10C5693D3}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+              </ChildrenList>
+            </Folder>
+            <Folder Name="plane" ID="{31F2B18F-3DA4-400D-A372-2F4957C18306}" ShortID="802736862">
+              <ChildrenList>
+                <Event Name="plane_stalingrad_bomber_02" ID="{094FC251-F4EC-4D36-833A-A19A46BEAEBC}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+              </ChildrenList>
+            </Folder>
+          </ChildrenList>
+        </Folder>
+        <Folder Name="aircraft" ID="{82FB08BE-A42B-4414-AEB4-AE3AF5BB7E51}" ShortID="451684878">
+          <ChildrenList>
+            <Event Name="aircraft_loop_01" ID="{C1A5EF80-87B9-428F-AFF8-87EF62F8464B}">
+              <ChildrenList></ChildrenList>
+            </Event>
+          </ChildrenList>
+        </Folder>
+        <Folder Name="antiAircraft" ID="{CC9447A5-68C6-44E1-A33F-07ADAE69FD28}" ShortID="850502712">
+          <ChildrenList>
+            <Folder Name="frontline" ID="{1341E367-B500-45FB-B1AC-90D4E451BDCD}" ShortID="1026805093">
+              <ChildrenList>
+                <Event Name="antiAircraft_expl_frontline" ID="{A64C168C-B82F-43BB-9148-309E9EC97688}">
+                  <Comment>Event not yet in use.
+To be used after fixing a bug with trajectories of explosions in the air in Frontline</Comment>
+                  <ChildrenList></ChildrenList>
+                </Event>
+              </ChildrenList>
+            </Folder>
+          </ChildrenList>
+        </Folder>
+      </ChildrenList>
+    </WorkUnit>
+  </Events>
+</WwiseDocument>

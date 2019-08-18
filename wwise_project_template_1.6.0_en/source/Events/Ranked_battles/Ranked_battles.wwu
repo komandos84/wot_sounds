@@ -1,0 +1,349 @@
+<WwiseDocument Type="WorkUnit" ID="{0B1A4DB1-F2A6-4D5F-A88C-27E5EF1F5F18}" SchemaVersion="85">
+  <Events>
+    <WorkUnit Name="Ranked_battles" ID="{0B1A4DB1-F2A6-4D5F-A88C-27E5EF1F5F18}" PersistMode="Standalone">
+      <ChildrenList>
+        <Folder Name="ranked_battles_old" ID="{8FB4F95E-0022-45C2-939C-BB170F997517}" ShortID="611817772">
+          <ChildrenList>
+            <Event Name="gui_rb_rank_Entrance_old" ID="{BB285E76-B40A-4736-AEDA-E6633668A9AE}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="gui_rb_rank_Exit_old" ID="{53202F10-511E-4724-ADFD-DDA09B5B4B8A}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Folder Name="award" ID="{B788D02E-2222-4E0B-87E9-2A30780F875B}" ShortID="466591265">
+              <ChildrenList>
+                <Event Name="gui_rb_rank_wood_box_1_old" ID="{6D4E732B-C765-44A7-AB12-E9210116BF8C}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_wood_box_2_old" ID="{D8168D5F-8D12-4E00-975B-73C35D6B1CE0}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_wood_box_3_old" ID="{1A10CE0A-8508-464E-89AD-01EE5EF832AD}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_wood_box_4_old" ID="{45B6621B-CF34-4025-B85F-FAE5B49F4327}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_metal_box_3_old" ID="{23823F02-EB4E-44BC-A638-54508FE79E44}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_season_end_style_a" ID="{10DAAC0A-BAD4-4A31-A480-7B94720F7EC0}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_season_end_a" ID="{2AFCE57B-5B72-4412-B415-CC5CA4119CA4}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_wood_box_max_old" ID="{77067CA9-2295-4CF9-8BCD-81D446254CDE}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_scrolling_a" ID="{1BB08B8F-2A83-48A5-AABA-E66977C9EF30}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_first_carousel_a" ID="{E2F7719D-9620-402D-AB2D-3F5C4C710B40}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_exactly_old" ID="{950459D5-72CD-4A00-A2DD-44B872E9A5A4}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+              </ChildrenList>
+            </Folder>
+            <Folder Name="change_rank" ID="{1DF6B360-1D3B-41BF-8301-68DACEA89F00}" ShortID="562644761">
+              <ChildrenList>
+                <Event Name="gui_rb_rank_max_hangar_a" ID="{B5FF5120-9E50-45AF-A7CE-866F43641518}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_flicker_a" ID="{6E546C71-6F28-4C7C-9CEF-9B396513B6E4}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_arrow_up_hangar_a" ID="{FED07943-6589-4911-B554-D3CC08E84C64}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_max_league_hangar_a" ID="{092069AF-1A58-4C24-B110-ACADF7E59624}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_arrow_up_nothing_hangar_a" ID="{A566E1CA-717E-4454-B5EA-8E474A7BC2B6}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_league_down_hangar_a" ID="{CA860562-F3C1-41B4-874F-42F3F244DA9B}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_hangar_a" ID="{9C9B900D-DC61-49CB-865F-A7B54A1BA61C}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_arrow_up_flicker_hangar_a" ID="{30AB10FB-4E3E-40D0-B824-5917EFEF6A6C}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_arrow_down_flicker_hangar_a" ID="{613B4BFD-88F1-42D0-B85A-79A5D5531CB3}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_down_hangar_a" ID="{DE3C2033-BACF-4BBD-B88A-E64620E0FDF6}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_back" ID="{6F07A007-4D01-40C0-849E-08A2FC457835}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_back2" ID="{1C1D37FA-7106-4976-A9B7-B294834E8EA4}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+              </ChildrenList>
+            </Folder>
+            <Folder Name="welcome_animation" ID="{149FF089-FF01-459F-868A-4F2822749F2F}" ShortID="1024108505">
+              <ChildrenList>
+                <Event Name="gui_rb_input_animation_01_old" ID="{BBEC187C-5CAB-4A40-A48F-178CE347F23F}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_input_animation_02_old" ID="{DDD17E93-050E-46E3-A067-C6B802D9B283}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_input_animation_03_old" ID="{C9E87878-5A69-4FEC-94CE-D7087448B185}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_input_rank_old" ID="{EEF1B847-94D7-4D94-BB89-5D4D5A2BD0F0}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_input_rank_max_old" ID="{A7B9A446-8413-4EEC-8569-C2C1BCFFDE03}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_input_rank_back_old" ID="{35A03E1B-2925-4813-A0FD-D2CA6A59EC26}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_input_rank_unity_old" ID="{57D44465-BFB9-473D-8625-3AA8CBA8A036}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_input_rule_old" ID="{FA479617-863A-4560-82DD-22E5AEE20678}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+              </ChildrenList>
+            </Folder>
+            <Folder Name="change_rank_postmortem" ID="{DC1AE9B3-7DEF-450F-BF63-66EC34F9A4EF}" ShortID="745542125">
+              <ChildrenList>
+                <Event Name="gui_rb_rank_arrow_upx2_flicker_postmortem" ID="{4D2179FF-3AA2-4E4C-93F2-1503F14B4C88}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_arrow_upx2_postmortem_a" ID="{D4327FAC-5D0B-4C6B-BDC0-08BAD95A2E62}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_league_down_postmortem_a" ID="{4C880325-C2C0-41AA-8FC6-DB7D4A3F268A}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_max_league_postmortem_a" ID="{E97B434E-7730-46BB-848F-DA6814932303}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_postmortem_a" ID="{FA1BB386-F004-42E4-89E7-47AE5DA01C79}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_max_postmortem_a" ID="{ADB9A793-459F-4F5E-BAF7-C3776AC77484}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_down_flicker_postmortem_a" ID="{9C58DE29-6878-4695-9135-BBEAD587154A}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_up_postmortem_a" ID="{07127366-485E-451A-ABB6-B61A70BAE782}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_arrow_up_nothing_postmortem_a" ID="{1FA70A63-A09C-41AF-805D-8EB703C591B4}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_arrow_up_flicker_postmortem_a" ID="{7303FDFB-0ECB-4D0E-92FE-F2C6D4198DF7}">
+                  <Comment>1.32 - perfect for arrows but not for popup</Comment>
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_down_postmortem_a" ID="{FFA1F304-230B-4C6D-A9E4-582D4A15CE6F}">
+                  <Comment>1,2 - perfect for arrows but not for popup</Comment>
+                  <ChildrenList></ChildrenList>
+                </Event>
+              </ChildrenList>
+            </Folder>
+            <Event Name="gui_rb_rank_Exit_input_animation_old" ID="{0FD7DCF4-A8B0-46D6-94C1-3B0016F1E62E}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Folder Name="shield_animations" ID="{D1FFDF29-11B4-4BAE-A3E5-678248FDE94D}" ShortID="1005689156">
+              <ChildrenList>
+                <Event Name="gui_rb_rank_shield_break_postmortem_a" ID="{B0231594-B3E2-405A-B1DB-944D023E8CC9}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_shield_damage_postmortem_a" ID="{E93E8D3D-539A-4EE2-AD13-BF3669674B2D}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_shield_receive_postmortem_a" ID="{30C76707-1653-451B-8E35-C2C335DCFC30}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_shield_restore_postmortem_a" ID="{9A465D5D-44A8-42F9-ACF4-0CAA0DBFB11F}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_shield_break_hangar_a" ID="{794A7CB3-9AAB-4064-BC73-06F0DF2461A7}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_shield_damage_hangar_a" ID="{D485DE6C-9F7E-4FDE-B7C7-B4FC2FF502A7}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_shield_receive_hangar_a" ID="{A1BBE6E4-2876-4157-BF9A-0D61A261B7A5}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_shield_restore_hangar_a" ID="{1EED134A-80E7-4756-92F5-6D99B1489941}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+              </ChildrenList>
+            </Folder>
+          </ChildrenList>
+        </Folder>
+        <Folder Name="ranked_battles_2019" ID="{09630CB4-824D-45DC-83D9-48729321D12B}" ShortID="138244249">
+          <ChildrenList>
+            <Event Name="gui_rb_rank_Entrance" ID="{9B82226D-47BC-45E2-8110-CC1294060B74}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="gui_rb_rank_Exit" ID="{2AADDA20-1CFC-490D-95B4-2D2857B76B83}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Folder Name="award" ID="{E71842E2-C747-4203-A2B8-80088EC040DB}" ShortID="539322801">
+              <ChildrenList>
+                <Event Name="gui_rb_rank_click" ID="{997B33A2-F96A-49CF-B7A0-7C252E8C3E1E}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_season_show_division" ID="{5BEA49F7-4052-4C0E-94AD-022A75AAB9B0}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_season_end" ID="{A5277CBA-71B6-4AAE-A90C-C7FB84919AF5}" />
+                <Event Name="gui_rb_rank_box_02" ID="{3461BAD7-7819-41EE-9F53-0BBA528F7F0E}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_first_carousel" ID="{4DC605A4-24F6-4315-B2A9-FB9D2BFC44D6}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_box_01" ID="{DB9BC9AF-AD99-4CC9-AB04-BF6B3E9F73BE}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_season_show_league" ID="{FC0C13DD-C837-4711-86F1-999FE28A57A2}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_season_show_btn" ID="{32B9E78F-61C4-4574-A71F-C3BE9C7C691B}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_season_show_award" ID="{804A6D6E-3568-4C7B-8113-4CAA01A3A843}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_season_show_ribbon" ID="{0D7923EC-E10D-4561-B499-386646EC43A2}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+              </ChildrenList>
+            </Folder>
+            <Folder Name="change_rank" ID="{A59C2D69-2735-4995-AEC2-35C1848EF1CA}" ShortID="414240004">
+              <ChildrenList>
+                <Event Name="gui_rb_division_hangar" ID="{565485D2-1428-4C02-B41C-8FA49A843C30}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_flicker" ID="{37EBA182-3784-4FF4-8BBE-6F86DE309891}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_league_up_hangar" ID="{8C52BC2F-F90D-4B3D-9244-957C13E4443D}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_arrow_up_short_hangar" ID="{B22D9E21-A3E7-455C-9CC2-049639A49BC3}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_league_down_hangar" ID="{A41CFFD6-4F64-4402-B81F-1246C783F4D8}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_up_hangar" ID="{6087E722-CE22-4AA2-8492-E7CB48638BE6}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_arrow_up_hangar" ID="{63172096-8383-4330-A3E5-06EA4B70E235}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_arrow_down_hangar" ID="{3EE553C6-6045-4DBA-AADF-D1981FC50A17}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_down_hangar" ID="{AF6914E7-A4C6-4774-B575-850F58954A68}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_arrow_down_short_hangar" ID="{CC7F66FB-EE95-495B-95E5-48B9DA8D75AE}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_league_unknown_hangar" ID="{30EDBE26-6A85-4F90-A2B7-8A16640C2D58}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_up_first_hangar" ID="{70A584FC-19D4-4023-B941-473F2CA99733}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_move" ID="{8B878506-2B17-4C78-8774-7A9DD282BBC6}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_up_initial_first_hangar" ID="{62D09760-364A-4E31-A5E6-574D3AAAF123}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_up_last_first_hangar" ID="{D02ADA55-5880-4946-A56D-A0099E16E8E1}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+              </ChildrenList>
+            </Folder>
+            <Folder Name="welcome_animation" ID="{9BA1A55E-ED65-4A6A-865E-B088B93F4933}" ShortID="521801906" />
+            <Folder Name="change_rank_postmortem" ID="{EAA8EFC6-FF22-4F29-AEC9-7E3E08624C2D}" ShortID="862773353">
+              <ChildrenList>
+                <Event Name="gui_rb_rank_arrow_up_bonus_postmortem" ID="{D796D98E-D0E0-4B67-9631-47BD6DE9621E}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_award" ID="{BE0EB458-D77D-417F-91A7-6734D6835EB6}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_league_award" ID="{6E0BD67C-63C4-4610-AF71-2846E79E2D33}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_up_postmortem" ID="{B92CFA7A-BF53-4663-A4B6-4E5F86E9F3ED}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_division_award" ID="{27C07E53-A67E-4226-97E9-5F8AD7AAD605}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_arrow_down_postmortem" ID="{85040AA8-B774-4CA5-8D7B-D6103D1688DE}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_arrow_up_nothing_postmortem" ID="{281D1E26-AACC-4E1C-8DC8-31C8FE6851D9}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_arrow_up_postmortem" ID="{2C86460C-7232-44C4-B46A-2157AD28ECB3}">
+                  <Comment>1.32 - perfect for arrows but not for popup</Comment>
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_down_postmortem" ID="{7AA278AB-6A04-4873-8619-D07A3215F1C3}">
+                  <Comment>1,2 - perfect for arrows but not for popup</Comment>
+                  <ChildrenList></ChildrenList>
+                </Event>
+              </ChildrenList>
+            </Folder>
+            <Folder Name="shield_animations" ID="{146158E5-55BE-43FD-943F-5F7A66A3EC2A}" ShortID="484622116">
+              <ChildrenList>
+                <Event Name="gui_rb_rank_shield_damage_postmortem" ID="{37D9C4F8-73CB-4C2B-B84C-70ED81BB0480}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_shield_break_postmortem" ID="{1BEF1670-37EE-4E86-9E42-7A14050DD111}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_shield_receive_postmortem" ID="{270E12AC-4E4A-4014-99D6-78A943169494}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_shield_restore_postmortem" ID="{EC7C3B99-CD07-4FD3-9967-959E08D883BD}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_shield_damage_hangar" ID="{E43DD0D6-A6D8-4986-A933-9CEF6A616949}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_shield_break_hangar" ID="{CC36EF9C-BF32-4328-9EF1-281BAF131950}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_shield_receive_hangar" ID="{5D9906FF-5F9B-403D-9FC6-AA403859F489}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="gui_rb_rank_shield_restore_hangar" ID="{3D388E97-8B2B-47E0-BAA7-0DC39924FA71}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+              </ChildrenList>
+            </Folder>
+            <Event Name="gui_rb_rank_Entrance_first" ID="{A3C17037-C862-4A58-B803-D76810DFA43D}">
+              <ChildrenList></ChildrenList>
+            </Event>
+          </ChildrenList>
+        </Folder>
+      </ChildrenList>
+    </WorkUnit>
+  </Events>
+</WwiseDocument>

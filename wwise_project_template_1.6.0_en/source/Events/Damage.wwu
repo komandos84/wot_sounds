@@ -1,0 +1,89 @@
+<WwiseDocument Type="WorkUnit" ID="{8C42368A-32EA-4542-B03D-5AC155479859}" SchemaVersion="85">
+  <Events>
+    <WorkUnit Name="Damage" ID="{8C42368A-32EA-4542-B03D-5AC155479859}" PersistMode="Standalone">
+      <Comment>Damage</Comment>
+      <ChildrenList>
+        <Folder Name="treads" ID="{F10A4DF3-A82E-4B27-BC24-4240E2C07100}" ShortID="190760921">
+          <ChildrenList>
+            <Event Name="repair_treads" ID="{F468E9DB-CFE5-4A28-A6D6-C1CFAF233577}">
+              <Comment>Event - Track repair</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="brakedown_treads" ID="{C0A1A7F6-29BA-43EE-A41F-007A3E5FCADF}">
+              <Comment>Event - Track destroyed</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+          </ChildrenList>
+        </Folder>
+        <Folder Name="burning_tank" ID="{CB0FFFF3-B817-4FDD-A667-215DBE1EBA8E}" ShortID="558744932">
+          <ChildrenList>
+            <Event Name="burning_tank_medium" ID="{D5FB5C9A-7831-4985-927A-0C4A47CB5CAE}">
+              <Comment>Event - Vehicle on fire MEDIUM</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="burning_tank_large" ID="{D418D341-6D67-4B16-9509-C5B9C4340A01}">
+              <Comment>Event - Vehicle on fire LARGE</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="burning_tank_small" ID="{739F3225-BCB1-4F07-A618-1D3FDA857FB9}">
+              <Comment>Event - Vehicle on fire SMALL</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="burning_tank_domination_large" ID="{F05675CB-B608-40F7-9590-069DA8B8DE6C}">
+              <Comment>Event Vehicle on fire in the Domination mode</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+          </ChildrenList>
+        </Folder>
+        <Folder Name="turret_drop" ID="{F2DE32E5-1A32-462A-9415-4852F062A274}" ShortID="3055908">
+          <ChildrenList>
+            <Event Name="turret_drop_soft" ID="{D3F3E26D-D017-4BF2-A6AC-57AA9872D207}">
+              <Comment>Event - Turret falling on a soft terrain</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="turret_drop_solid" ID="{CBB17178-B141-4E05-9A57-3893A35E4100}">
+              <Comment>Event - Turret falling on a hard terrain</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="turret_whoosh" ID="{BA0A40D4-0DA8-4C65-B759-746143BD03F6}">
+              <Comment>Even - Sound of turrent flying</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="turret_sparks" ID="{CA9531A1-BB25-4095-B8F7-B79896FCA0A2}">
+              <Comment>Event - Sound of turret crackling upon fire</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+          </ChildrenList>
+        </Folder>
+        <Folder Name="flaming_engine" ID="{FC74E842-08C0-4B81-930A-56F39B303DFC}" ShortID="534799657">
+          <ChildrenList>
+            <Event Name="flaming_engine_medium_pc" ID="{23DB2B25-A030-4564-9761-94019D9506B9}">
+              <Comment>Event - PC Engine on fire MEDIUM</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="flaming_engine_large_pc" ID="{22B2A775-909D-404D-8A6B-F7D47184E28C}">
+              <Comment>Event - PC Engine on fire LARGE</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="flaming_engine_small_pc" ID="{5EEF66A2-0E47-4CA6-88CC-2AF0B62BD5BF}">
+              <Comment>Event - PC Engine on fire SMALL</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="flaming_engine_large_npc" ID="{88744476-7498-499A-8646-0272B72184FA}">
+              <Comment>Event - NPC Engine on fire LARGE</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="flaming_engine_medium_npc" ID="{DEDF660B-0484-4369-8896-30E661742BFC}">
+              <Comment>Event - NPC Engine on fire MEDIUM</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="flaming_engine_small_npc" ID="{6AB1E988-9C43-40BC-AB9A-E8312EDE684C}">
+              <Comment>Event - NPC Engine on fire SMALL</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+          </ChildrenList>
+        </Folder>
+      </ChildrenList>
+    </WorkUnit>
+  </Events>
+</WwiseDocument>

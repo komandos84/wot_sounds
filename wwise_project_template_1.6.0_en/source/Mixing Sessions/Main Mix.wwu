@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D027AE09-B077-4EB1-BD21-F03F0DED8F4A}" SchemaVersion="85">
+	<MixingSessions>
+		<WorkUnit Name="Main Mix" ID="{D027AE09-B077-4EB1-BD21-F03F0DED8F4A}" PersistMode="Standalone">
+			<ChildrenList>
+				<MixingSession Name="eng" ID="{BD8D7DD1-0449-4CD4-A34B-024C0D8B13C9}">
+					<ObjectList>
+						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}"/>
+					</ObjectList>
+				</MixingSession>
+				<MixingSession Name="trds" ID="{D6DCD7DC-0E38-47B4-BAD1-F7E82AA56454}">
+					<ObjectList>
+						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}"/>
+					</ObjectList>
+				</MixingSession>
+				<MixingSession Name="wpn" ID="{4D076D70-4D4C-4427-8A20-21D6D220E01D}">
+					<ObjectList>
+						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}"/>
+					</ObjectList>
+				</MixingSession>
+				<MixingSession Name="imp" ID="{F44CFF93-1864-40CB-B47E-4E5D2FD0F2EF}">
+					<ObjectList>
+						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}"/>
+					</ObjectList>
+				</MixingSession>
+				<MixingSession Name="expl" ID="{D818E206-43AA-4B8F-85F3-C95E49FAC21D}">
+					<ObjectList>
+						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}"/>
+					</ObjectList>
+				</MixingSession>
+				<MixingSession Name="Buses" ID="{4C4D95F7-909F-48C9-B75E-807C0B98A5C8}">
+					<ObjectList>
+						<ObjectRef Name="AUX_reverb_hangar_Forest_env" ID="{23D8AD1B-A113-4910-B558-FDAC81E5AA16}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}"/>
+						<ObjectRef Name="secondary" ID="{93929E99-1009-4DB3-A6E6-C91B0053BCA5}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}"/>
+						<ObjectRef Name="Additional_post_effects" ID="{36F1FA47-CC34-443C-8A66-C433FDE5826A}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}"/>
+						<ObjectRef Name="HDR_dbc" ID="{09E35B51-150F-4364-B17D-85E3A5C5DB25}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}"/>
+						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}"/>
+					</ObjectList>
+				</MixingSession>
+				<MixingSession Name="Hangar" ID="{69293321-5D5D-4293-9163-6BF6B68828F3}"/>
+				<MixingSession Name="hangar_1_0" ID="{D73D8CF9-DD7F-4D0C-AE3C-06C1B96F0D94}">
+					<ObjectList>
+						<ObjectRef Name="LOBBY_AMBIENTS" ID="{80CCA118-F405-4068-BCBF-F5A5227EC908}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}"/>
+						<ObjectRef Name="LOBBY_MUSIC" ID="{F73781AF-2E44-4FD6-8E8C-A130EB57CF50}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}"/>
+					</ObjectList>
+				</MixingSession>
+			</ChildrenList>
+		</WorkUnit>
+	</MixingSessions>
+</WwiseDocument>
