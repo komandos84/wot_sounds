@@ -1,0 +1,89 @@
+<WwiseDocument Type="WorkUnit" ID="{258FCDEE-B4FE-42C2-8FEE-6A41D76BDD47}" SchemaVersion="85">
+  <Events>
+    <WorkUnit Name="Gun Reload" ID="{258FCDEE-B4FE-42C2-8FEE-6A41D76BDD47}" PersistMode="Standalone">
+      <Comment>Gun reloading</Comment>
+      <ChildrenList>
+        <Event Name="gun_rld_85_107mm" ID="{9FAC5AD6-4AB2-49E2-BB08-A5BDD345FFD9}">
+          <Comment>Event - Reload sound of a Main caliber gun</Comment>
+          <ChildrenList></ChildrenList>
+        </Event>
+        <Event Name="gun_rld_50_75mm" ID="{4AFE9AEF-74C8-4727-B3BC-FF7B91C8C7E0}">
+          <Comment>Event - Reload sound of a Medium caliber gun </Comment>
+          <ChildrenList></ChildrenList>
+        </Event>
+        <Event Name="gun_rld_20_45mm" ID="{BEF34523-CEC9-4344-BFB8-CDB8FEA4EDFF}">
+          <Comment>Event - Reload sound of a Small caliber gun</Comment>
+          <ChildrenList></ChildrenList>
+        </Event>
+        <Event Name="gun_rld_12_25mm" ID="{68CC51DF-8DE5-41C7-B79C-FBB39A5047AE}">
+          <Comment>Event - Reload sound of an Automatic caliber gun</Comment>
+          <ChildrenList></ChildrenList>
+        </Event>
+        <Event Name="gun_rld_115_152mm" ID="{A3B2BE6A-B444-4785-9FD5-4C51192E1D70}">
+          <Comment>Event - Reload sound of a Large caliber gun</Comment>
+          <ChildrenList></ChildrenList>
+        </Event>
+        <Event Name="gun_rld_155_170mm" ID="{406BFD83-445E-4C23-9E5F-78ABE57776DF}">
+          <Comment>Event - Reload sound of a Huge caliber gun</Comment>
+          <ChildrenList></ChildrenList>
+        </Event>
+        <Folder Name="Autoloader" ID="{EF8DCB27-BA7A-4ED7-8D9D-0276B89715BF}" ShortID="160595806">
+          <ChildrenList>
+            <Event Name="gun_rld_autoloader_full_almost_complete" ID="{755C0B89-1D99-4149-88D6-07F8707B5467}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="gun_rld_autoloader_long_oneshell" ID="{277AA6BC-9225-4047-B2B3-2C687A9E26B5}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="gun_rld_autoloader_full_complete" ID="{E14E3261-AF86-4F7B-9420-AC27AC0C2746}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="gun_rld_autoloader_short_oneshell" ID="{D24B92DA-BDA1-4FCC-971C-B309A050FAAB}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="gun_rld_autoloader_short_lastshell" ID="{4048E429-7034-426B-BDDB-F0A3D6FB493E}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="gun_rld_autoloader_long_start" ID="{C2A9E6AB-8EFF-463E-857C-DF820BC503C8}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="gun_rld_autoloader_no_enough_shells" ID="{73C82FD0-B0F6-43C1-B141-B3424ACF52FB}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="gun_rld_autoloader_shot_fail" ID="{480E5868-E4B3-4629-BD69-78B1E4A57CD6}">
+              <ChildrenList></ChildrenList>
+            </Event>
+          </ChildrenList>
+        </Folder>
+        <Folder Name="Cylinder" ID="{9D3CBA53-3236-41D6-A0EE-BEBD10995D4A}" ShortID="999250217">
+          <ChildrenList>
+            <Event Name="gun_rld_automat_reloading_long_loop" ID="{837B2E2D-55EB-4CD7-9CA7-9EA576F7B9B4}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="gun_rld_automat_reloading_long_oneshell" ID="{66FF07D2-137E-406D-B159-DE81DC7824D8}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="gun_rld_automat_reloading_long_loop_stop" ID="{FEA2E9C6-8A11-4B04-851B-3CB6D6232D2D}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="gun_rld_automat_reloading_short_oneshell" ID="{12D6E92A-E633-4623-9C7B-10F135C75F68}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="gun_rld_automat_reloading_short_lastshell" ID="{7F691246-EB2F-43CD-B7C0-5470495A3CE7}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="gun_rld_automat_reloading_long_start" ID="{A3126E0F-7CA1-4C12-9C9C-5F092929CC88}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="gun_rld_automat_no_enough_shells" ID="{93BA7F1D-3F3D-4A4A-8FF8-3FA88AAEBBB8}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="gun_rld_automat_reloading_long_oneshell_last" ID="{D0EA33A7-A10F-46D0-9B95-EE4B28381A83}">
+              <ChildrenList></ChildrenList>
+            </Event>
+          </ChildrenList>
+        </Folder>
+      </ChildrenList>
+    </WorkUnit>
+  </Events>
+</WwiseDocument>

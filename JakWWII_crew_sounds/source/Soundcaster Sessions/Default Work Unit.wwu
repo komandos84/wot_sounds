@@ -1,0 +1,925 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{276BBEA0-A3C4-4DC8-8867-A84AD19A62FD}" SchemaVersion="85">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{276BBEA0-A3C4-4DC8-8867-A84AD19A62FD}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Voiceovers" ID="{F61CFF25-6EA1-47A2-8041-EDB36C96468E}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="vo_ally_killed_by_player" ID="{6969568C-4664-4460-9478-55B0CA64655E}" WorkUnitID="{B8424251-D94B-4427-BF66-A85D3ACABAE7}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="vo_engine_damaged" ID="{392F9886-1EE8-4598-A787-65F463A6EB25}" WorkUnitID="{B8424251-D94B-4427-BF66-A85D3ACABAE7}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="vo_armor_not_pierced_by_player" ID="{74CD5F4A-1675-4AE6-A466-BF781CCA45FF}" WorkUnitID="{B8424251-D94B-4427-BF66-A85D3ACABAE7}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="vo_fire_started" ID="{34F32E00-1343-41D2-9EFE-7B0441844CE0}" WorkUnitID="{B8424251-D94B-4427-BF66-A85D3ACABAE7}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="vo_driver_killed" ID="{F7884A83-E61C-41CB-BB37-26CEEAF10EDB}" WorkUnitID="{B8424251-D94B-4427-BF66-A85D3ACABAE7}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="vo_gun_destroyed" ID="{F44ED66E-9BA8-4595-A2E5-B3535B39D471}" WorkUnitID="{B8424251-D94B-4427-BF66-A85D3ACABAE7}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="vo_enemy_killed" ID="{E4504866-DE43-4FCA-B431-D3437538006E}" WorkUnitID="{B8424251-D94B-4427-BF66-A85D3ACABAE7}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="vo_loader_killed" ID="{67D7E451-978D-4ACE-85D3-0B4D84F50B8B}" WorkUnitID="{B8424251-D94B-4427-BF66-A85D3ACABAE7}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_key_forward" ID="{A3B3D672-930C-4044-A037-C826D35FC94E}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_gear_num" ID="{B28094AE-FA9A-405E-AE03-25FD8712E8BC}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_sc_decel_Cadilac42_NPC" ID="{614A83EC-D693-4079-9FF6-5B2E1F6A50DD}"/>
+							<Value>-60</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_azimuth" ID="{66CDEF82-C0CE-407C-8F46-25FCE6F19B73}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_menu_volume_ev_ambient" ID="{8640BC88-206B-4081-8037-385FE60F7E0F}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_object_to_listener_angle" ID="{387B21ED-F601-4088-954A-6262CF0BA552}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_sc_decel_V55_NPC" ID="{43CF3539-6C39-40B9-B37C-81DFCAFDE13B}"/>
+							<Value>-60</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_music_drone_enable_eq_lowshelf" ID="{7AE88284-3DAD-40C5-B374-A46F0E987366}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_wood" ID="{A0AAC532-7B26-40F3-B5A5-52B82DFEA1E4}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_explosion_sidechain" ID="{2D343FB1-D8A1-40FD-84CB-9480EC6C0B66}"/>
+							<Value>-48</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_engine_load_global" ID="{D2EEF708-8B0E-411F-A51B-5E048AAA5FA8}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_reflectTail" ID="{7493AB43-028A-414A-8094-4ADF5E2D9939}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_acc_abs" ID="{600F431A-4FA8-414E-8A77-EAB4271C444E}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_snow" ID="{EE62D5ED-F2B4-4153-AE06-AE9C6B084501}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_collision_impulse_tank" ID="{CB93BE27-A8FB-4174-B4BA-85C6DA7428CE}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_objects_debrisAmount" ID="{476F4A12-1EF4-4189-AE85-74F5FA5F231A}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_reloading_oneshell_sc" ID="{1E846E6D-C727-4192-81EB-704063248606}"/>
+							<Value>-48</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_base_capturing_score_enemy" ID="{3FF75DCD-D8A5-41A0-B20D-014F726CB690}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_friction_release" ID="{B0CCE3B3-E74F-41AC-9123-9232A18D4049}"/>
+							<Value>-60</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_infopage_show" ID="{B5FE8093-E032-41C3-8D88-7217C266F8C8}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_music_corellator" ID="{7785ED80-FF27-41D3-81EC-1144DC286A31}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_slide_friction" ID="{A6A360C2-5AA4-41D9-91CB-3B6A1DFB8605}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_friction_sideChain" ID="{C76A2151-2A7B-41FC-8757-432C51C3C38B}"/>
+							<Value>-60</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_vo_ducking" ID="{1E252F1B-39B9-4251-8D5D-A20E4F4AF0BF}"/>
+							<Value>-48</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_menu_volume_voice_gui" ID="{42650DFF-E5CE-4258-92E6-06D1B4858B24}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_water" ID="{72B2A4F9-E922-4283-9C0D-40C573A6E8DC}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_HDR" ID="{E050B800-5F78-428D-892D-16BF767E02BE}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_mission_debris_control" ID="{C21673D3-2AD9-4290-A23D-E47AAC5D4674}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_timer_endbattle" ID="{88693835-4CFA-4296-8142-4B4CE3417066}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_menu_volume_music" ID="{6EF988B5-5E01-42AB-BEB8-049B61D5E61E}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_physic_gear_8" ID="{2D84970C-1F75-42AD-9BBB-25D442012D90}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_menu_volume_ambient" ID="{F483385C-572E-42C4-81CC-ABEF11A49016}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_base_capturing_invaders_ally" ID="{C21D3BAB-03CF-42F0-9844-1C1C4E3714DB}"/>
+							<Value>3</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_buildings_number" ID="{753F6CD6-02F5-430D-974A-B256782A3666}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_eng_damage" ID="{3BD982D3-39FE-431B-8EC4-286A348BDFD1}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_objects_weight" ID="{7959D897-E5D9-431B-98D5-37FE9A958354}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_dynamic_range" ID="{005907E1-02CE-4341-9A18-A4FE66F8D78D}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="psb_distance" ID="{6DA2339B-4638-4377-9432-EAF4722C7A43}"/>
+							<Value>400</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_roughness_abs_" ID="{298F2938-E226-437F-97F8-93934E74ACDC}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_menu_volume_ev_voice" ID="{9E71E02D-A2EC-439F-ABD9-F5D9A59E692E}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_physic_load_global" ID="{8F0AC952-FE05-43A1-9537-4F827B1BBF6F}"/>
+							<Value>-1</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_sc_decel_Continental_R975_PC" ID="{8A0852D8-B7D3-43A2-B4B2-4BEBD04A1885}"/>
+							<Value>-60</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_sc_decel_V55_PC" ID="{96EE8CD2-756D-43BE-B7F6-39CEDECD7AC3}"/>
+							<Value>-60</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_sand" ID="{843AC8AE-31F2-43BF-9C14-4F0E3EB7AB20}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_vehicle_weight" ID="{7FB3777C-84E0-43CA-B8B8-297236D037F0}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_expl_LP_filter" ID="{C4E368AC-DB78-43D4-8BA3-9D1F8F403AD7}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_mission_zoom_blue" ID="{1539D444-03C8-43D6-B0DB-4925FE037735}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_physic_gear" ID="{C8599A55-F2F7-43F9-B4CD-F5C5E4A6A459}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_key_backward" ID="{08F8A473-BE3D-43FD-BBF4-614020530DC3}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_objects_metal_1" ID="{A8C614ED-BE9E-4427-854C-E3977A5D3678}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_distance_2000m" ID="{8B8A20DC-201A-444E-979B-2656B7E79494}"/>
+							<Value>2000</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_engine_state" ID="{68B12ECE-0F4D-4453-A33A-1D2D5F31664B}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_ground" ID="{F65543A3-E64F-446F-A61D-C057A0625A67}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_engine_load" ID="{974806A9-7B6B-4492-868C-C59CFFC0E65F}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_plane_crashes_sc" ID="{EA703050-AC96-4494-BE75-E603613A42DA}"/>
+							<Value>-60</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_treads_type" ID="{C0F1E835-0B0E-44B7-BBC3-C2EB9B7CD6E5}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_sc_decel_V2K_PC" ID="{700C73EC-9742-44C1-86FE-ED448AAFF665}"/>
+							<Value>-60</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_sc_decel_Gaz_aa_NPC" ID="{EC6FC2E1-893A-44C6-A238-2F9079AB06F6}"/>
+							<Value>-60</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_gear_3" ID="{4D8CC9B3-44CA-44D1-8CC1-B4280D9AD0A1}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_meter_surface_balance" ID="{C7C857A2-8D53-44D1-9ED8-4D204B927C21}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_distance_friendly_attacker" ID="{C57EC54C-D66F-44D2-9EB7-51725275860C}"/>
+							<Value>600</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="psb_shell_type" ID="{D4D8FFAF-C018-44D3-AFF2-2E337C9CCF99}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_speed_rel2" ID="{89A02176-B30D-44FE-9354-ECEC348E5965}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_speed_rel_global" ID="{77D82C61-CF82-4508-A42D-A5081B137F26}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_eng_backache_sc" ID="{609D0DCA-ACDE-450B-9C1D-1E5E16F1732F}"/>
+							<Value>-48</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_multichanel" ID="{8DCB3F31-B96D-450B-809F-A3B56FCD3B92}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_bass_boost_trigger" ID="{22352301-8B07-4510-B9EF-AD1CC6746F04}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_wind_intensity_sc_transfer" ID="{EDCF942B-6B16-4517-A45E-17A21CBAF9DD}"/>
+							<Value>-48</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_mission_zoom" ID="{429FD62A-CD1E-4562-9484-029C7D786E41}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_speed_abs_global" ID="{9DBB765C-9E5B-4594-841E-F97657DD4D42}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_sc_gearShift_eng_PC" ID="{DA891CF7-A8D1-45A2-B670-14AEC98A5712}"/>
+							<Value>-60</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_sc_decel_Gaz_aa_PC" ID="{9F04C02B-56B6-45CA-A0AC-DD6B811DB9DA}"/>
+							<Value>-60</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_HDR_threshold" ID="{89306D8C-E761-45F6-B4FD-93E7B1D8BB0C}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_blend_600m" ID="{97B3AD47-9AA2-460D-8E08-7F4C0AB859D4}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_menu_volume_ev_music" ID="{CCC627B1-EB23-4628-AD32-8D637744F459}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_sc_decel_FordGAA_PC" ID="{C58947AB-F3F1-464A-941E-B721BA9A7032}"/>
+							<Value>-60</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_objects_wood_2" ID="{6090B73D-6CBB-4656-88C8-9470311CB16C}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_menu_volume_master" ID="{65457B04-8212-4658-93FB-B97BCE4E8608}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_flying" ID="{79483A8C-AD79-4661-BB5A-05E0841593EB}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_objects_stone_1" ID="{1AE61AD9-8634-4668-BB60-8F35D2F70DCB}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_objects_cloth" ID="{248F0217-6AF5-466A-B482-BABA42C79B31}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_key_left" ID="{C18362E2-2739-4679-BFDF-C643CC2B3933}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_key_stop" ID="{49A68DAA-3138-4694-8E4C-653FFBFA1055}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_key_engine_state" ID="{A5BB105F-B481-46A0-B0F4-8299664AF9A6}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_friction_weight" ID="{FD9DB737-D11A-46D2-8E2B-290E612E90CF}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_bass_boost_band_gain_device_id" ID="{7A1317CF-2C77-46D9-BBDB-F3E4D66ABFED}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_objects_snow" ID="{FEF1EECA-F714-46E7-9C1A-90524DC08568}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_start_mute" ID="{73744AA3-1800-46F8-BE9C-FC323B56D938}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_Meter_buss_HDR" ID="{AA928FCF-F776-46F9-BC9A-A50CB6991E03}"/>
+							<Value>-50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_distance" ID="{BF3AB708-0AE6-46FC-B487-5F27895968F1}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_plane_bombing" ID="{06D25D89-AC55-4714-BA9C-1619464478A2}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_wind_intensity" ID="{85FF4BAC-56B3-4715-84DA-AB5C4A348BEC}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_menu_volume_ev_vehicles" ID="{FCAB16CF-70A9-471B-BDFF-4A1E8B1D510B}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_menu_volume_ev_gui" ID="{923D5EFB-C715-4723-B5C3-67C4AA5930A1}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_defence_period" ID="{63520A19-310F-4724-ABBF-857953508380}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_sc_decel_V2K_NPC" ID="{ABF908B7-9659-474C-A92C-1A7A1CD4AE47}"/>
+							<Value>-60</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_roughness_abs" ID="{77853731-23BD-4752-A365-D45D2EA114AC}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_wheel_vehicle_mode" ID="{EC207F28-88A8-475D-BFB8-DC42F185E1CC}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_wheels_turning" ID="{582AF357-D147-4780-B2E0-1BE93C8E9F90}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_turret_weight" ID="{CBED7AA7-B413-47A1-BB55-96A8A0C833EE}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_greeting_overlay" ID="{A03C8882-42E7-47A2-AED4-215D8BF7468F}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_sc_gearShift_eng_NPC" ID="{81E98D70-4FA9-47E8-877B-DD59EB93402F}"/>
+							<Value>-60</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_stone" ID="{D6EACC2E-1C92-4812-9C43-16DE15E9ECB3}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_base_capturing_score" ID="{F94901E1-D8EF-4827-BB4A-E95BBDA73757}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_initial_delay_distance" ID="{90457F67-C38C-4867-8524-2882BD267A67}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_menu_volume_effects" ID="{7FC45ED1-AC20-488C-ADF2-2FC071CC89DB}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_wind_ducking_amount" ID="{F504734F-D5CF-4890-9218-01CAE96B04D2}"/>
+							<Value>-48</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_collision_impulse_object" ID="{4E7DB0EF-CD63-4897-8937-C14736B60EF4}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_music_hangar_cn_1_oct" ID="{BB350F16-E6DA-48C9-90B0-F9236903E5E9}"/>
+							<Value>5</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_drop_energy" ID="{3EB9A210-9DDE-48DB-B3EC-3F98725C79AA}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_bass_boost_gain_compensation" ID="{79EAD8B9-1F38-48E0-BD08-9697EDF2E9C0}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_objects_wood_1" ID="{A1E67ED3-ADA7-48E1-BBCE-0D3AB5EA1A20}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_low_threshold_edge" ID="{D98CD53A-4370-495A-852C-532B64C88620}"/>
+							<Value>-50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_rpm" ID="{150E60BC-D73F-495E-8FDA-4F8EB2F90CF3}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_imp_metal_base_lp_sidechain" ID="{888529FB-AD49-498B-8125-909637D03BC5}"/>
+							<Value>-48</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_friction" ID="{A18FB8B6-C5FF-4991-B788-8EDA6AF2CF4D}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_physic_gear_3" ID="{FEA8BB91-11DE-4992-9E6B-F43982577B97}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_physic_gear_7" ID="{590D90C1-970A-49AE-86D3-7528C59F5DC5}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_roughness_global" ID="{ED11586E-0EF5-4A2D-9E22-EA58FA006537}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_sc_accel_Cadilac42_PC" ID="{0F4D4B8D-634F-4A54-8681-2BD8CE110356}"/>
+							<Value>-60</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_start_stop" ID="{90A4789E-2B00-4A5B-8B47-FCDBB960CF8D}"/>
+							<Value>-100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_control_reflections_priority" ID="{51856374-AE09-4A62-BA36-995C814A0866}"/>
+							<Value>600</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_music_hangar_1_may_50m" ID="{1775E6A2-3FFD-4A64-8B29-AE89DC9FA0FF}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_viewPlayMode" ID="{56EDB9BE-02A6-4A67-A583-F45A94B03004}"/>
+							<Value>1</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_menu_volume_music_hangar" ID="{35BDABC0-70C8-4A8F-9FE2-6706D7E262C5}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_physic_load" ID="{4FDC414A-38EC-4A94-A208-AED9B4AB449A}"/>
+							<Value>-1</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_heeling_rel" ID="{F196CBE2-63E6-4A9D-BBFD-164D19E4E203}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_sc_accel_Cadilac42_NPC" ID="{AF68BCE4-39B9-4B04-955A-2F3D6E92BFDB}"/>
+							<Value>-60</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_music_dron_outro_velocity" ID="{DD4C7EE3-1118-4B44-B17D-D5ACBFC1E18A}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_sc_decel_ContinentalR_NPC" ID="{EEAC815B-A594-4B45-A836-4AF25B2F9A10}"/>
+							<Value>-60</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_rot_speed_rel" ID="{A755C95D-E442-4B6A-85EC-335EC16C045A}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_mission_zoom_green" ID="{67259CAB-FA95-4B6E-9519-BB0DA75D6E24}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_doppler" ID="{F29FF57F-43F7-4B78-9886-E16A931B8524}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_physic_gear_5" ID="{E5D36CB3-CA41-4B7F-9CA2-43E059690361}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_turret_speed" ID="{DA664E52-3CA7-4B89-A928-53467A09593E}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_camera_speed" ID="{D7EE89E4-0E56-4BB6-B985-F424377D6E8A}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_transport_mode" ID="{34C37B4A-EF44-4BD9-8891-C51E70A7F957}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_objects_metal_2" ID="{8DCC755B-D869-4BEC-ABDF-CCA794975940}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_sc_decel_Hetzer_NPC" ID="{88A63365-5E55-4C06-9C43-2D327BDEAEA0}"/>
+							<Value>-60</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_turbine" ID="{6881047D-54C0-4C0A-8000-94DA1F81F246}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_impact_sidechain" ID="{18CD8807-C95A-4C17-9A93-E2112185B789}"/>
+							<Value>-48</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_base_capturing_score_ally" ID="{78C1C514-E64E-4C17-BACC-74BFADDD0442}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_speed_abs" ID="{381C7D96-3069-4C21-9DED-55A520974E64}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_engine_damage_risk" ID="{816F4F41-DFDB-4C4C-A146-37A960F792E4}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_camera_height_rel" ID="{D495E74F-1A52-4C61-9CFE-422C50516CC2}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_key_right" ID="{325EDE9F-0187-4C65-9D41-69855CF89079}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_speed_rel" ID="{1BC16D05-7BBA-4C79-9BD6-E0A99EAC6B4A}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_menu_volume_vehicles" ID="{6C50A548-92B3-4C7B-87FF-6B55DA8669FF}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_roughness2" ID="{225FED44-E50D-4CB9-BA18-530D75AD5BA1}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_sc_decel_Hetzer_PC" ID="{48DB7E0E-A8E0-4CBF-B4CE-43365C62997E}"/>
+							<Value>-60</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_hardness" ID="{6B6F68DF-EDFD-4CC9-BADC-815221E19F89}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_gear_2" ID="{264C394A-85A8-4CDF-83F6-7ED070A828E1}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_hangar_resultmusic_go_3D" ID="{03A9A0CA-C54C-4CF3-8714-1C1B41D0AA10}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_rot_speed_abs" ID="{C9B0AC2A-2246-4CFD-80CC-A69982DC985C}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_device_laptop_lowcut_trigger" ID="{5DD07E0A-4473-4D25-9E3D-EDCCF2E87BC9}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_client_rpm_abs" ID="{DC308E72-9AF9-4D25-9079-A17693CD1A21}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_music_hangar_23feb_35m" ID="{B4FEE3B4-36F2-4D3E-B845-A6E4A5393E0C}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_distance_1200m" ID="{20946FF5-5541-4D41-ADCB-19E3469FA85C}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_physic_rpm_abs" ID="{5CE781BC-A63C-4D4F-94BA-B9EB2C26511A}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_sc_decel_Cadilac42_PC" ID="{18AF3530-ADA0-4D59-889A-C1B645F38DBC}"/>
+							<Value>-60</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_objects_glass" ID="{71B2BB02-DA20-4D6F-B95E-C3251086C713}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_siege_mode" ID="{4EECC532-6EEF-4D72-A7E5-3C485A0AC3E7}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_wpn_LFE_vibrato_control" ID="{43F054C8-9EF3-4D7C-B090-A63DC4576024}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_treads_sum_affect" ID="{6A742BE8-F2F0-4D8F-A3C9-975DDFF9ED61}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_sc_decel_ContinentalR_PC" ID="{420ADCD0-F16D-4DB3-B72B-23D30D50D476}"/>
+							<Value>-60</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_speed_scroll" ID="{6CADAD6C-43E1-4DB7-B92B-7EB1D7F64491}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_turret_damaged" ID="{4D5A39B1-04FF-4DBE-8554-B60A909DA6DD}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_doppler_factor" ID="{CC3BC5EA-D9E6-4DD2-8538-295E7563E5C6}"/>
+							<Value>1</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_weapon_energy" ID="{FCA742AB-E05A-4DDD-BAD4-7D93869950C7}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_distance_1100m" ID="{3B5B0664-7137-4DE0-A597-542B423EF9E9}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_objects_stone_2" ID="{94B195C0-B964-4DFB-8869-0D7E536A4241}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_physic_gear_2" ID="{9ACACDDE-332F-4E09-93F3-08E26B7F68CE}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_physic_rpm_rel" ID="{880A02A4-B171-4E19-8C62-5803B4F45048}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_slowmo_factor" ID="{CCF097BB-E16E-4E49-8ABC-61732620415E}"/>
+							<Value>1</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_physic_gear_4" ID="{6F4A3F60-54BF-4E4B-B414-D4E8EA39EE61}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_sc_decel_Continental_R975_NPC" ID="{E3DD2186-88AA-4EAF-B1EA-D0513D04E84D}"/>
+							<Value>-60</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_camera_height" ID="{F309BDB8-3F92-4EC6-8AD9-8F2FD6F8D393}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_velocity" ID="{A1D3ECA1-94DB-4F0C-9361-E28C7A8D59F3}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_key_left_and_right" ID="{9FC6A471-E39C-4F17-8E09-9B66F1426C2E}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_client_rpm_rel" ID="{E0C67332-C216-4F1B-8D39-F419DD91A241}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_engine_power" ID="{0CDDC167-9F7B-4F1F-B3C3-303AD710D373}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_turbine_npc" ID="{36262FEE-7C63-4F2B-B5C0-85F2B85E737A}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_menu_volume_voice" ID="{AF4E0606-C698-4F32-8FA7-CC0B6AFF0861}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_distance_1000m" ID="{233FF10A-53C3-4F3F-AB42-E299DFCF3509}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_menu_volume_ev_effects" ID="{CB0D420D-C21B-4F4E-A55E-E107AD860EDF}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_imp_wise_gain" ID="{4434AC16-B690-4F69-A4D4-79E2ED6899CB}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_base_capturing_invaders_enemy" ID="{F327A0E8-7CAA-4F6B-9C47-B3DF8A3735D0}"/>
+							<Value>3</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_shot_int_sidechain" ID="{53C218F8-75CE-4F6C-9B3C-E8E321821ACC}"/>
+							<Value>-48</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_sc_decel_FordGAA_NPC" ID="{4A75973C-D588-4F81-82B4-6D47E2A19E5F}"/>
+							<Value>-60</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_mission_number" ID="{1AFC31E8-87C1-4FB4-BB96-C690794D5221}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_physic_gear_6" ID="{5CB5034E-7015-4FB8-8B50-B3E5B8EE0CF4}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_bass_boost_band_frequency_device_id" ID="{BC19B641-1810-4FBB-8ADE-9275F0BD57E5}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_blend_1000m" ID="{ED5F9D17-1584-4FCB-8FF0-E5F4D59C3080}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_menu_volume_gui" ID="{13CBBD69-BC87-4FD1-B3E2-B7BCE1197EC8}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_ext_move" ID="{20CDC86A-5C2D-4FDB-839F-0F87DF15C137}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_int_waterfall_distance" ID="{83B5A6B8-5E09-4FFA-8A6D-0C665A1CE7B2}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="STATE_int_camoNet_stereoTrumpet_on" ID="{F580CB22-B615-4947-940E-4537402642EE}"/>
+						<CurrentStateRef Name="STATE_underwater_off" ID="{91121861-3203-4FD1-8E3F-56E917823703}"/>
+						<CurrentStateRef Name="STATE_gameplace_arena" ID="{CFD647DE-5366-44B2-9033-A31B10F4D1D8}"/>
+						<CurrentStateRef Name="STATE_fortified_area_off" ID="{62D70F5C-8456-4E56-B63A-BA55B584889A}"/>
+						<CurrentStateRef Name="STATE_hangar_camera_state_rotate_or_onproposal_false" ID="{AF809FC6-2C33-4D9E-AAE0-6632417CA40C}"/>
+						<CurrentStateRef Name="STATE_hangar_place_garage" ID="{D25049B4-2C90-473A-BAAC-D5C3CBE62033}"/>
+						<CurrentStateRef Name="STATE_hangar_filtered_on" ID="{D6802E60-372A-4B9B-B6DD-466C9553F289}"/>
+						<CurrentStateRef Name="STATE_viewPlayMode_sniper" ID="{B84360EE-0891-43A8-9F9B-76A898F6C9B6}"/>
+						<CurrentStateRef Name="STATE_arenastate_battle" ID="{126BE672-210F-42AA-A692-B31FF206C30E}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="SWITCH_int_trds_phys_gear_off" ID="{959BEA73-1319-4A80-A29C-81192F643DE3}"/>
+						<CurrentSwitchRef Name="SWITCH_int_turret_move_trigger_off" ID="{F9BD030E-F7FF-4F5A-BCB4-C4ECFEF3B1E7}"/>
+						<CurrentSwitchRef Name="SWITCH_int_trds_slow_off" ID="{B9D096D7-6F87-41EC-9DFB-9B302369F362}"/>
+						<CurrentSwitchRef Name="SWITCH_int_eng_gearShift_off" ID="{D693CE8F-2DA2-4BFA-BC37-F56703723CA5}"/>
+						<CurrentSwitchRef Name="SWITCH_int_trds_fast_off" ID="{2913CFD5-BC22-48B1-AECC-10DBAE7AFA78}"/>
+						<CurrentSwitchRef Name="SWITCH_int_roughness_heavy" ID="{AB53F5FB-34B2-4887-B73B-5F13A3A95B47}"/>
+						<CurrentSwitchRef Name="SWITCH_int_trds_npc_start_off" ID="{ED1E1693-BD72-47C8-A07C-590913E4DE94}"/>
+						<CurrentSwitchRef Name="SWITCH_int_friction_off" ID="{50DB6C4F-9287-4B8C-9CA6-33BFF27E7EFF}"/>
+						<CurrentSwitchRef Name="wpn_auto_duck_0ms" ID="{668EC1EB-512C-4FA2-9B71-174F45A7BA2B}"/>
+						<CurrentSwitchRef Name="SWITCH_int_eng_decel_small_off" ID="{D08A4E99-FB96-4F1B-9BAF-37AEC258BBC2}"/>
+						<CurrentSwitchRef Name="SWITCH_int_eng_decel_off" ID="{7F1720F9-D4BC-4922-BA6A-4FC314CA95BF}"/>
+						<CurrentSwitchRef Name="SWITCH_int_friction_off" ID="{FABF5291-8409-4F44-878D-E4D8F3CABB6D}"/>
+						<CurrentSwitchRef Name="SWITCH_int_trds_stop_off" ID="{0D8B33FF-ED7D-4A8A-B905-55431CB66197}"/>
+						<CurrentSwitchRef Name="SWITCH_int_eng_gearShift_off" ID="{F3EF5C01-3B27-4CA1-B965-B2FCA3B3E72C}"/>
+						<CurrentSwitchRef Name="SWITCH_int_roughness_global_play" ID="{921FE044-B59E-40B8-9E45-DB28AAF54A30}"/>
+						<CurrentSwitchRef Name="wpn_auto_duck_0ms" ID="{4121F768-D9CC-4088-BC67-3A1F6CD3D31E}"/>
+						<CurrentSwitchRef Name="SWITCH_int_trds_rotation_off" ID="{AA3C17B2-2F93-432B-BF6A-9A38C70666AB}"/>
+						<CurrentSwitchRef Name="SWITCH_int_trds_phys_gear_off" ID="{7CE309A2-FA48-4558-A411-C68F4C53BEE9}"/>
+						<CurrentSwitchRef Name="SWITCH_int_passBy_med_off" ID="{3C0F49A4-834C-437A-8A26-127FDA35A542}"/>
+						<CurrentSwitchRef Name="SWITCH_int_trds_stop_off" ID="{15D3AFCE-76B0-4150-A72A-88F078CFD1B4}"/>
+						<CurrentSwitchRef Name="SWITCH_ext_damage_size_large" ID="{D5E67F3C-DF1E-49C1-B3AE-C71D1653E975}"/>
+						<CurrentSwitchRef Name="SWITCH_int_wheels_right" ID="{9B96C992-9442-4AD8-ADAA-316ED203D168}"/>
+						<CurrentSwitchRef Name="SWITCH_int_eng_gearShift_off" ID="{A77E09EA-858C-4055-B6C4-A9C7E7613FC7}"/>
+						<CurrentSwitchRef Name="SWITCH_int_trds_phys_gear_off" ID="{A4207283-CD5B-4180-BCDB-1002731CEF92}"/>
+						<CurrentSwitchRef Name="SWITCH_int_key_right_pressed" ID="{E060043F-C25B-433F-96BD-176B1ACC8CE8}"/>
+						<CurrentSwitchRef Name="SWITCH_int_trds_creak_off" ID="{8A043FCB-40BC-464C-A45B-9499A188729C}"/>
+						<CurrentSwitchRef Name="SWITCH_int_trds_phys_gear_off" ID="{924E635A-E238-40CF-AD94-5262D659C229}"/>
+						<CurrentSwitchRef Name="SWITCH_int_eng_decel_small_off" ID="{7F49D1EB-E043-4303-A81E-1E4529DE4200}"/>
+						<CurrentSwitchRef Name="SWITCH_int_trds_tension_off" ID="{2A29D83B-292F-4C6C-9C4F-90EEDD5C211C}"/>
+						<CurrentSwitchRef Name="SWITCH_int_turret_rotation_manual" ID="{0CD68FC9-090E-46C3-9C8F-86C04ECD8C12}"/>
+						<CurrentSwitchRef Name="SWITCH_int_eng_damage_off" ID="{6FFBEB50-1F7F-4668-9942-085B7EDBC201}"/>
+						<CurrentSwitchRef Name="SWITCH_ext_surfaceType_ground" ID="{501ED3AF-8218-4327-8359-C95A4AA94DC7}"/>
+						<CurrentSwitchRef Name="SWITCH_int_reflectTail_field" ID="{D5D146D9-99D8-4DB3-9DC1-2400AA3E9CE9}"/>
+						<CurrentSwitchRef Name="SWITCH_viewPlayMode_arcade" ID="{DE4711B3-FFDF-47D0-97B2-000F5E96D3C8}"/>
+						<CurrentSwitchRef Name="SWITCH_ext_shell_type_AP" ID="{F3E6C2D4-5687-4C15-B9D9-5728D570FD81}"/>
+						<CurrentSwitchRef Name="SWITCH_int_eng_gearShift_neutral_off" ID="{C27193C8-196C-4816-B023-F7EA8E6E5FAB}"/>
+						<CurrentSwitchRef Name="SWITCH_int_turret_stop_off_slow" ID="{0B09FE6E-47F9-40CB-A4D5-98B17A8752F5}"/>
+						<CurrentSwitchRef Name="SWITCH_int_turret_rotation_manual_slow" ID="{2A2C4126-0DB4-4375-BBB3-6E8EDEE47FDD}"/>
+						<CurrentSwitchRef Name="SWITCH_int_eng_start" ID="{E6BF2352-2AE0-4007-B65D-69BB008B3C52}"/>
+						<CurrentSwitchRef Name="roughnes_oneshots_stop_engine_off" ID="{42522D9A-0488-4D67-AFF6-3E8340695502}"/>
+						<CurrentSwitchRef Name="SWITCH_int_decel_sample" ID="{9AAA6F62-F01C-44C1-9263-D41CD0D4C9EB}"/>
+						<CurrentSwitchRef Name="SWITCH_ext_impact_surface_ground" ID="{F65AB5D1-8F68-471F-86EB-531D40F8E83F}"/>
+						<CurrentSwitchRef Name="SWITCH_int_trds_gear_off" ID="{81F9C5BC-2718-45D2-8A46-3A7BD367FD7B}"/>
+						<CurrentSwitchRef Name="SWITCH_ext_vo_gender_female" ID="{9E29D782-9613-4EE9-9D99-379B13BA9D69}"/>
+						<CurrentSwitchRef Name="roughnes_oneshots_average_off" ID="{DD4FBE30-31F2-474F-B7EF-054F29B402D0}"/>
+						<CurrentSwitchRef Name="SWITCH_int_passBy_far_off" ID="{D9D6028B-F81A-493C-BA4C-6CF9F208D4CA}"/>
+						<CurrentSwitchRef Name="SWITCH_int_trds_start_off" ID="{7DA579C0-72E9-4DDF-A059-EC615FC5354B}"/>
+						<CurrentSwitchRef Name="SWITCH_int_trds_startstop_control_moving" ID="{0840064A-0455-4CDC-8E08-E6FF4DD6CE00}"/>
+						<CurrentSwitchRef Name="SWITCH_int_eng_decel_off" ID="{3654A5FA-5854-49BA-A515-B5405EF8FA16}"/>
+						<CurrentSwitchRef Name="SWITCH_ext_rld_autoloader_caliber_12_25mm" ID="{07B6E60A-0659-465E-A860-1C53E019BFB0}"/>
+						<CurrentSwitchRef Name="SWITCH_int_eng_accel_off" ID="{8A815C82-2E17-4410-9ADA-2F1926561B19}"/>
+						<CurrentSwitchRef Name="SWITCH_int_distance_engine_treads_trigger_off" ID="{EE4EFBF5-4877-4E8D-AFF8-EBAC08702023}"/>
+						<CurrentSwitchRef Name="SWITCH_int_trds_fast_off" ID="{9C1FB075-E5CB-49C5-BE26-9680ADD5234E}"/>
+						<CurrentSwitchRef Name="SWITCH_passby_tank_type_artillery" ID="{2556ADA3-2230-40A1-9C97-0DAAF35A75AE}"/>
+						<CurrentSwitchRef Name="SWITCH_int_turret_start_off_slow" ID="{10921564-FFAA-498E-BF6A-0550B170531C}"/>
+						<CurrentSwitchRef Name="SWITCH_int_trds_slow_off" ID="{FBD3E4FF-A605-43E7-8946-9AED79454E25}"/>
+						<CurrentSwitchRef Name="SWITCH_ext_postMortem_npc" ID="{1209C504-689D-4C9D-91F2-C21921F03CF7}"/>
+						<CurrentSwitchRef Name="SWITCH_int_trds_type_heavy_01" ID="{BC303730-E9C3-440E-A5E3-29F0661756BF}"/>
+						<CurrentSwitchRef Name="SWITCH_int_friction_off" ID="{8F841197-231C-4951-BB6E-4F25C923521A}"/>
+						<CurrentSwitchRef Name="SWITCH_ext_rld_automat_caliber_12_25mm" ID="{B842E970-84FA-4BB7-B687-1BE2FCFFC3A7}"/>
+						<CurrentSwitchRef Name="SWITCH_int_trds_gear_off" ID="{BBE3618D-1216-4523-8DF6-D7CAA5AE1F00}"/>
+						<CurrentSwitchRef Name="SWITCH_int_decel_sample" ID="{1F31AC00-E2EF-4138-B39F-E8FBC52C2BD7}"/>
+						<CurrentSwitchRef Name="SWITCH_int_distr_obj_weight_heavy" ID="{9A1F8153-A0AA-4BBA-BB22-7A66D1FDC1E9}"/>
+						<CurrentSwitchRef Name="SWITCH_int_passBy_auto_off" ID="{853C43EF-4ADC-4A70-BF05-9DE22E1311DA}"/>
+						<CurrentSwitchRef Name="SWITCH_int_trds_rotation_off" ID="{14034AEE-FDD5-41BE-9DA9-8F5BA9D30419}"/>
+						<CurrentSwitchRef Name="SWITCH_int_turret_stop_off_slow" ID="{373D938C-EC60-4FDD-A3DE-B9EF71D44403}"/>
+						<CurrentSwitchRef Name="SWITCH_int_key_left_pressed" ID="{41E0B128-5BC9-47E2-B3A1-9DD243F15AB9}"/>
+						<CurrentSwitchRef Name="SWITCH_int_eng_start" ID="{275119AF-1089-447E-9D41-056A670CAEA9}"/>
+						<CurrentSwitchRef Name="SWITCH_int_trds_phys_gear_off" ID="{802ABD43-A5B3-4B47-92C2-728C91363FC1}"/>
+						<CurrentSwitchRef Name="SWITCH_int_friction_off" ID="{718337CC-8ACA-4D4C-9488-A0CDE68FD86C}"/>
+						<CurrentSwitchRef Name="SWITCH_int_trds_phys_gear_off" ID="{CE045ED7-DFE8-4227-9640-391EBF4ABC59}"/>
+						<CurrentSwitchRef Name="SWITCH_int_turret_heavy" ID="{554096A9-AC77-4319-A28D-32771536D8D7}"/>
+						<CurrentSwitchRef Name="SWITCH_int_flayout_AP" ID="{9F72E619-DB44-4636-B449-8210FDC96C29}"/>
+						<CurrentSwitchRef Name="SWITCH_int_turret_move_damaged_off" ID="{69E9253C-2970-4D1A-B4C9-828A62EF9880}"/>
+						<CurrentSwitchRef Name="SWITCH_int_trds_npc_stop_off" ID="{C2E2C1F4-9777-42AC-9AD1-00FCEC823D13}"/>
+						<CurrentSwitchRef Name="SWITCH_int_trds_stop_off" ID="{AE4CEE95-9F6A-4D69-96A0-CD29944689E6}"/>
+						<CurrentSwitchRef Name="SWITCH_int_turret_start_off" ID="{244FB679-B107-4A0E-B0D2-ABD897A25A1F}"/>
+						<CurrentSwitchRef Name="SWITCH_int_trds_phys_gear_off" ID="{F5AF3614-0B6E-4C82-B70A-0E4697D1ABB4}"/>
+						<CurrentSwitchRef Name="SWITCH_int_passBy_close_off" ID="{338CD3BF-24AB-4392-89A8-022D3C977DF7}"/>
+						<CurrentSwitchRef Name="SWITCH_int_roughness_off" ID="{46F0B2D5-9E9E-4FC9-B719-115C26440282}"/>
+						<CurrentSwitchRef Name="SWITCH_int_eng_accel_off" ID="{C70CE36C-A363-470A-8CAD-F69BFD371687}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

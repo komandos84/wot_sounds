@@ -1,0 +1,86 @@
+<WwiseDocument Type="WorkUnit" ID="{5203E8BE-E37C-4636-9BE4-A2B5513675BB}" SchemaVersion="85">
+  <Events>
+    <WorkUnit Name="GUI_hangar" ID="{5203E8BE-E37C-4636-9BE4-A2B5513675BB}" PersistMode="Standalone">
+      <ChildrenList>
+        <Folder Name="PRMP_alerts" ID="{8CB59A03-C8E3-49A2-85DB-860166CDD370}" ShortID="745723596">
+          <ChildrenList>
+            <Event Name="prmp_alert_07" ID="{7BAE9B56-38AB-4C54-9F26-157B1A22A1ED}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="prmp_alert_03" ID="{A9E1C8DB-9D09-4A58-AF1E-B68B1F76B284}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="prmp_alert_05" ID="{D380E945-F2B8-4024-9791-63DC5C8A28D8}">
+              <ChildrenList></ChildrenList>
+            </Event>
+          </ChildrenList>
+        </Folder>
+        <Folder Name="promoscreens" ID="{7A4F995F-7451-4D9D-AC9E-83E05D626F62}" ShortID="1059583809">
+          <ChildrenList>
+            <Event Name="promoscreen_info_incoming" ID="{BF582A66-00FF-4B8E-BF57-DA4AB72C7970}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="promoscreen_offers_incoming" ID="{BC1E7E6A-87BB-4B05-B46E-54ED59A1BB40}">
+              <ChildrenList></ChildrenList>
+            </Event>
+          </ChildrenList>
+        </Folder>
+        <Event Name="cybersport_timer" ID="{DAE2BC57-421D-445F-8EAD-E47320A23EA0}">
+          <Comment>Event - Timer</Comment>
+          <ChildrenList></ChildrenList>
+        </Event>
+        <Event Name="cybersport_auto_search" ID="{24DF7CCE-EA64-4ED5-BE8C-F3323FFC39D6}">
+          <Comment>Event - Sound of searching for a battle in eSports</Comment>
+          <ChildrenList></ChildrenList>
+        </Event>
+        <Event Name="league_up" ID="{DD64E31A-B687-411D-A951-B2B45CF88783}">
+          <Comment>Event - ?</Comment>
+          <ChildrenList></ChildrenList>
+        </Event>
+        <Event Name="league_down" ID="{5A5D5F80-2A2D-4383-956D-A1290F979068}">
+          <Comment>Event - ?</Comment>
+          <ChildrenList></ChildrenList>
+        </Event>
+        <Folder Name="camera_fly" ID="{852F0F87-A6B6-49C9-97C7-F6287F205F97}" ShortID="414699354">
+          <ChildrenList>
+            <Event Name="ue_hangar_generic_camera_fly_forward" ID="{D65C1C20-0DE8-46EE-B1E2-EA95BCE8959F}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ue_hangar_generic_camera_fly_backward" ID="{CEC01DDF-B9A0-4DC2-AA8B-4AE585CD333E}">
+              <ChildrenList></ChildrenList>
+            </Event>
+          </ChildrenList>
+        </Folder>
+        <Folder Name="hero_tank" ID="{105A1833-1740-4F3C-B3FB-52E97178A4F0}" ShortID="564318832">
+          <ChildrenList>
+            <Event Name="ue_hangar_generic_hero_tank_appeared" ID="{A4CB409A-28CF-4AB9-9C1E-A9B07D956D69}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ue_hangar_generic_hero_tank_buy" ID="{624C3396-77AE-45AF-B8B9-ACA5ABC80C90}">
+              <ChildrenList></ChildrenList>
+            </Event>
+          </ChildrenList>
+        </Folder>
+        <Folder Name="reward_screens" ID="{D721BE1F-C8C6-4ABC-AB91-B553E2449F7C}" ShortID="802432700">
+          <ChildrenList>
+            <Event Name="gui_hangar_simple_execution_screen" ID="{6B37405D-18FB-4D1F-9AD5-65FFEA369CF9}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="gui_random_reward_end" ID="{DDAD4121-F153-4122-BA91-A0BEB0FCD46B}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="gui_random_reward_appear" ID="{E86A2666-E567-43DC-9D3D-34E6A3C73DDF}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="gui_random_reward_red_ribbon_appear" ID="{A8576948-E604-41A2-9A1A-BD6F6B64FBB4}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="gui_random_reward_locked" ID="{EEF8682D-890D-41D6-9437-62AF301DF0BF}">
+              <ChildrenList></ChildrenList>
+            </Event>
+          </ChildrenList>
+        </Folder>
+      </ChildrenList>
+    </WorkUnit>
+  </Events>
+</WwiseDocument>

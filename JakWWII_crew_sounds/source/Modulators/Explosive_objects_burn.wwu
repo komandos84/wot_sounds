@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F328A73F-EBAB-4EB2-8D94-CD9D91EF17D8}" SchemaVersion="85">
+	<Modulators>
+		<WorkUnit Name="Explosive_objects_burn" ID="{F328A73F-EBAB-4EB2-8D94-CD9D91EF17D8}" PersistMode="Standalone">
+			<ChildrenList>
+				<ModulatorEnvelope Name="burn_small_10sec" ID="{2214F9AE-17D2-473A-9681-550E7C53318E}" ShortID="637746127">
+					<PropertyList>
+						<Property Name="EnvelopeAttackCurve" Type="Real64" Value="51"/>
+						<Property Name="EnvelopeAttackTime" Type="Real64" Value="11"/>
+						<Property Name="EnvelopeDecayTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0.505"/>
+						<Property Name="EnvelopeSustainTime" Type="Real64" Value="0.658"/>
+					</PropertyList>
+				</ModulatorEnvelope>
+				<ModulatorEnvelope Name="burn_small_13sec" ID="{C6B0B54C-7C7A-4604-BDD0-4F427C65FE7F}" ShortID="320692460">
+					<PropertyList>
+						<Property Name="EnvelopeAttackCurve" Type="Real64" Value="51"/>
+						<Property Name="EnvelopeAttackTime" Type="Real64" Value="4"/>
+						<Property Name="EnvelopeDecayTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0.505"/>
+						<Property Name="EnvelopeSustainTime" Type="Real64" Value="0.658"/>
+					</PropertyList>
+				</ModulatorEnvelope>
+				<ModulatorEnvelope Name="burn_mid_10sec" ID="{3176C098-62D1-49A3-9A08-3CD5F227A7F4}" ShortID="684215648">
+					<PropertyList>
+						<Property Name="EnvelopeAttackCurve" Type="Real64" Value="51"/>
+						<Property Name="EnvelopeAttackTime" Type="Real64" Value="10"/>
+						<Property Name="EnvelopeDecayTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0.505"/>
+						<Property Name="EnvelopeSustainTime" Type="Real64" Value="0.658"/>
+					</PropertyList>
+				</ModulatorEnvelope>
+				<ModulatorEnvelope Name="burn_mid_12sec" ID="{189AF02B-4253-4CA6-B9A7-AB0B86C02317}" ShortID="97507923">
+					<PropertyList>
+						<Property Name="EnvelopeAttackCurve" Type="Real64" Value="51"/>
+						<Property Name="EnvelopeAttackTime" Type="Real64" Value="13"/>
+						<Property Name="EnvelopeDecayTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0.505"/>
+						<Property Name="EnvelopeSustainTime" Type="Real64" Value="0.658"/>
+					</PropertyList>
+				</ModulatorEnvelope>
+				<ModulatorEnvelope Name="burn_mid_14sec" ID="{65C75B55-B40F-4D74-89BB-6DCF473C30E0}" ShortID="260713206">
+					<PropertyList>
+						<Property Name="EnvelopeAttackCurve" Type="Real64" Value="51"/>
+						<Property Name="EnvelopeAttackTime" Type="Real64" Value="15"/>
+						<Property Name="EnvelopeDecayTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0.505"/>
+						<Property Name="EnvelopeSustainTime" Type="Real64" Value="0.658"/>
+					</PropertyList>
+				</ModulatorEnvelope>
+				<ModulatorEnvelope Name="burn_mid_AircraftRefueller" ID="{3C27A7E0-B004-4349-A3D2-0458D4DBBADC}" ShortID="1060413946">
+					<PropertyList>
+						<Property Name="EnvelopeAttackCurve" Type="Real64" Value="51"/>
+						<Property Name="EnvelopeAttackTime" Type="Real64" Value="11"/>
+						<Property Name="EnvelopeDecayTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0.505"/>
+						<Property Name="EnvelopeSustainTime" Type="Real64" Value="0.658"/>
+					</PropertyList>
+				</ModulatorEnvelope>
+				<ModulatorEnvelope Name="burn_big_12sec" ID="{F84BD5E8-F189-46CD-B66E-610586DECAA6}" ShortID="534024645">
+					<PropertyList>
+						<Property Name="EnvelopeAttackCurve" Type="Real64" Value="51"/>
+						<Property Name="EnvelopeAttackTime" Type="Real64" Value="13"/>
+						<Property Name="EnvelopeDecayTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0.505"/>
+						<Property Name="EnvelopeSustainTime" Type="Real64" Value="0.658"/>
+					</PropertyList>
+				</ModulatorEnvelope>
+				<ModulatorEnvelope Name="burn_huge_40sec" ID="{AF8F5138-7032-4FC2-ABF3-807F4A48E335}" ShortID="1072473539">
+					<PropertyList>
+						<Property Name="EnvelopeAttackCurve" Type="Real64" Value="51"/>
+						<Property Name="EnvelopeAttackTime" Type="Real64" Value="36"/>
+						<Property Name="EnvelopeDecayTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0.505"/>
+						<Property Name="EnvelopeSustainTime" Type="Real64" Value="0.658"/>
+					</PropertyList>
+				</ModulatorEnvelope>
+			</ChildrenList>
+		</WorkUnit>
+	</Modulators>
+</WwiseDocument>

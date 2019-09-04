@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{50FD1EC9-464B-409C-B0F3-206F664DFEF1}" SchemaVersion="85">
+	<Modulators>
+		<WorkUnit Name="Hangar" ID="{50FD1EC9-464B-409C-B0F3-206F664DFEF1}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="hangar_Thanksgiving_us_28_nov" ID="{1D33AECD-E84B-4D37-B1F7-C0230A53EABC}" ShortID="858150460">
+					<ChildrenList>
+						<ModulatorLfo Name="LFO_ambient_01" ID="{B12E2DFE-EE50-4672-AB87-E339747F2458}" ShortID="611849546">
+							<PropertyList>
+								<Property Name="LfoFrequency" Type="Real64" Value="0.05"/>
+							</PropertyList>
+						</ModulatorLfo>
+						<ModulatorLfo Name="LFO_ambient_02" ID="{79F61F04-2F7B-4C65-8790-584C9F55FA78}" ShortID="593751401">
+							<PropertyList>
+								<Property Name="LfoFrequency" Type="Real64" Value="0.035"/>
+							</PropertyList>
+						</ModulatorLfo>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="hangar_premium_23feb_v3" ID="{DF3A80D4-D0A2-47E0-8D36-A56B964589A3}" ShortID="579685584">
+					<ChildrenList>
+						<ModulatorEnvelope Name="engine_idle_170sec" ID="{ECCD442A-4CC7-4E39-89EE-108DC8D85A40}" ShortID="71155324">
+							<PropertyList>
+								<Property Name="EnvelopeAttackCurve" Type="Real64" Value="0"/>
+								<Property Name="EnvelopeAttackTime" Type="Real64" Value="170"/>
+								<Property Name="EnvelopeDecayTime" Type="Real64" Value="0"/>
+								<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0.505"/>
+								<Property Name="EnvelopeSustainTime" Type="Real64" Value="0.658"/>
+							</PropertyList>
+						</ModulatorEnvelope>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="hangar_h09_bday_CN_2016" ID="{69EFBBDC-7C4D-462E-A5ED-4C04A361CC03}" ShortID="734434659">
+					<ChildrenList>
+						<ModulatorLfo Name="hangar_h09_bday_CN_makeup" ID="{05C14E6F-8FA8-48A5-9E3C-005BF6AC0818}" ShortID="469092418">
+							<PropertyList>
+								<Property Name="LfoFrequency" Type="Real64" Value="0.02"/>
+							</PropertyList>
+						</ModulatorLfo>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="hangar_h07_newyear" ID="{71929A5D-18DD-4553-9B15-109D97F812D6}" ShortID="43596783">
+					<ChildrenList>
+						<ModulatorLfo Name="hangar_h07_newyear_fareworks" ID="{ACA4B329-7507-446B-A7F8-D3A0D975239C}" ShortID="562851684">
+							<PropertyList>
+								<Property Name="LfoFrequency" Type="Real64" Value="0.02"/>
+							</PropertyList>
+						</ModulatorLfo>
+						<ModulatorLfo Name="hangar_h07_newyear_salute" ID="{8AFF55BA-69B8-486A-A79E-6D35F78BE24F}" ShortID="719096744">
+							<PropertyList>
+								<Property Name="LfoFrequency" Type="Real64" Value="0.16"/>
+							</PropertyList>
+						</ModulatorLfo>
+						<ModulatorEnvelope Name="hangar_h07_newyear_train" ID="{6430C095-AEE5-4D84-9A9D-0CCF7B9037ED}" ShortID="238988014">
+							<PropertyList>
+								<Property Name="EnvelopeAttackCurve" Type="Real64" Value="100"/>
+								<Property Name="EnvelopeAttackTime" Type="Real64" Value="12"/>
+								<Property Name="EnvelopeDecayTime" Type="Real64" Value="4"/>
+								<Property Name="EnvelopeStopPlayback" Type="bool" Value="False"/>
+								<Property Name="EnvelopeSustainLevel" Type="Real64" Value="0"/>
+							</PropertyList>
+						</ModulatorEnvelope>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="hangar_h07_newyear_2018" ID="{F65629AD-FE60-4999-9D70-367F6E04134C}" ShortID="270730159">
+					<ChildrenList>
+						<ModulatorLfo Name="hangar_h07_newyear_60sek" ID="{E52DF90A-5856-4785-9149-2D04D9ACD14E}" ShortID="463381867">
+							<PropertyList>
+								<Property Name="LfoAttack" Type="Real64" Value="5"/>
+								<Property Name="LfoDepth" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{32C932BC-A5BA-4546-9DBF-BD5AABEE6B15}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-20"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="LfoFrequency" Type="Real64" Value="0.016">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{8F828C3C-C596-4854-A5A0-7FC14F883C39}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="0.009"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+						</ModulatorLfo>
+						<ModulatorLfo Name="hangar_h07_newyear_30sek" ID="{49408E58-A931-4CE2-9FE9-C3BBCE7BB37F}" ShortID="2262237">
+							<PropertyList>
+								<Property Name="LfoAttack" Type="Real64" Value="5"/>
+								<Property Name="LfoDepth" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{A3AE2DF9-9879-4518-B7BE-3D3420488EC3}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-20"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="LfoFrequency" Type="Real64" Value="0.03">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{382EA075-53B6-4195-9060-F1192D825451}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="0.01"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+						</ModulatorLfo>
+						<ModulatorLfo Name="hangar_h07_newyear_20sek" ID="{5C7A29B5-E9A2-4A70-9290-55C53050735B}" ShortID="1063111378">
+							<PropertyList>
+								<Property Name="LfoAttack" Type="Real64" Value="5"/>
+								<Property Name="LfoDepth" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{2723D624-5ED2-4CD5-B43F-55DBAA15B3A9}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-20"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="LfoFrequency" Type="Real64" Value="0.05">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{607F737D-79DD-4D8F-90EE-39CB42250D9B}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="0.01"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+						</ModulatorLfo>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="hangar_premium_2018_sub_multichanel" ID="{748CAE10-AD64-4B8B-B37B-F7178DDDA53A}" ShortID="666528346">
+					<ChildrenList>
+						<ModulatorEnvelope Name="ADSR_1000ms" ID="{6E8BDACA-66CC-46CD-B6CA-0535523DC8A8}" ShortID="329822492">
+							<PropertyList>
+								<Property Name="EnvelopeAttackCurve" Type="Real64" Value="0"/>
+								<Property Name="EnvelopeAttackTime" Type="Real64" Value="0"/>
+								<Property Name="EnvelopeDecayTime" Type="Real64" Value="1"/>
+								<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0"/>
+								<Property Name="EnvelopeSustainLevel" Type="Real64" Value="0"/>
+							</PropertyList>
+						</ModulatorEnvelope>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="hangar_premium_2018" ID="{FE63A6A4-98F5-4719-ACB1-8C802F30954A}" ShortID="352693009">
+					<ChildrenList>
+						<ModulatorLfo Name="hangar_premium_2018_60sec" ID="{8D8409A3-B542-4FCD-B720-0D98E05CAA3F}" ShortID="733041631">
+							<PropertyList>
+								<Property Name="LfoDepth" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{992C49B0-02C0-42BA-9248-B02A902BE5CE}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-30"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="LfoFrequency" Type="Real64" Value="0.016">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{903CEB50-B2E6-4DBE-AF0E-2855340696F2}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="0.01"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+						</ModulatorLfo>
+						<ModulatorLfo Name="hangar_premium_2018_30sec" ID="{6A130004-1F46-4B9F-8254-0C59CD58EC9D}" ShortID="696589236">
+							<PropertyList>
+								<Property Name="LfoDepth" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{367EC61E-00A9-4AFB-9B19-28D5C24C2E8E}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-30"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="LfoFrequency" Type="Real64" Value="0.033">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{3282C25A-C2C9-42A1-8AF3-361FF0905C67}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="0.01"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+						</ModulatorLfo>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="hangar_victory_day" ID="{64835FF5-71D9-41FB-9BDE-22624817C088}" ShortID="1023442117">
+					<ChildrenList>
+						<ModulatorLfo Name="hangar_victory_day_trees_01" ID="{BDBBC083-5842-42B4-A988-558371085C35}" ShortID="908521028">
+							<PropertyList>
+								<Property Name="LfoFrequency" Type="Real64" Value="0.05">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{FF7BE8D8-331A-4033-AD6B-D50F13367375}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+						</ModulatorLfo>
+						<ModulatorLfo Name="hangar_victory_day_trees_02" ID="{536B7D23-3589-4003-8741-EC922D4A6411}" ShortID="611844928">
+							<PropertyList>
+								<Property Name="LfoFrequency" Type="Real64" Value="0.07"/>
+							</PropertyList>
+						</ModulatorLfo>
+						<ModulatorLfo Name="hangar_victory_day_soldiers" ID="{0734FE94-22CF-42B7-A10C-A7E20B103124}" ShortID="895832860">
+							<PropertyList>
+								<Property Name="LfoFrequency" Type="Real64" Value="0.008"/>
+							</PropertyList>
+						</ModulatorLfo>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="hangar_premium_4july" ID="{5FA915F6-92AB-4A9C-8DFA-44218361F476}" ShortID="779568763">
+					<ChildrenList>
+						<ModulatorEnvelope Name="music_300sec" ID="{BB4954F9-04A8-4C78-8895-1CE6F1A12825}" ShortID="803009503">
+							<PropertyList>
+								<Property Name="EnvelopeAttackCurve" Type="Real64" Value="0"/>
+								<Property Name="EnvelopeAttackTime" Type="Real64" Value="300"/>
+								<Property Name="EnvelopeDecayTime" Type="Real64" Value="0"/>
+								<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0.505"/>
+								<Property Name="EnvelopeSustainTime" Type="Real64" Value="0.658"/>
+							</PropertyList>
+						</ModulatorEnvelope>
+						<ModulatorLfo Name="salut_60sec" ID="{E8EE1852-56EB-4183-997E-E1CE224F1454}" ShortID="150387828">
+							<PropertyList>
+								<Property Name="LfoFrequency" Type="Real64" Value="0.02"/>
+								<Property Name="LfoWaveform" Type="int32" Value="1"/>
+							</PropertyList>
+						</ModulatorLfo>
+						<ModulatorLfo Name="fireworks_60sec" ID="{18A46FF9-BBF1-450C-8CEB-0D7C819C5F07}" ShortID="108217240">
+							<PropertyList>
+								<Property Name="LfoFrequency" Type="Real64" Value="0.02"/>
+								<Property Name="LfoWaveform" Type="int32" Value="1"/>
+							</PropertyList>
+						</ModulatorLfo>
+						<ModulatorLfo Name="nature" ID="{33F7EF80-7008-4344-B338-34996D357BDE}" ShortID="281096073">
+							<PropertyList>
+								<Property Name="LfoFrequency" Type="Real64" Value="0.06"/>
+							</PropertyList>
+						</ModulatorLfo>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="hangar_h22_football_2018" ID="{BAC00E19-BDD2-420A-ABE6-2ED38E74ACE3}" ShortID="594728876">
+					<ChildrenList>
+						<ModulatorEnvelope Name="shepard_tone_01" ID="{1F019A51-3FBA-4999-BA1B-73CEF4D07414}" ShortID="46709646">
+							<PropertyList>
+								<Property Name="EnvelopeAttackTime" Type="Real64" Value="0"/>
+								<Property Name="EnvelopeAutoRelease" Type="bool" Value="True"/>
+								<Property Name="EnvelopeDecayTime" Type="Real64" Value="25"/>
+								<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0"/>
+								<Property Name="EnvelopeStopPlayback" Type="bool" Value="False"/>
+								<Property Name="EnvelopeSustainLevel" Type="Real64" Value="0"/>
+								<Property Name="ModulatorScope" Type="int32" Value="0"/>
+							</PropertyList>
+						</ModulatorEnvelope>
+						<ModulatorEnvelope Name="shepard_tone_02" ID="{703719F0-82B2-448A-937D-8DBF829ACAD0}" ShortID="484419702">
+							<PropertyList>
+								<Property Name="EnvelopeAttackTime" Type="Real64" Value="0"/>
+								<Property Name="EnvelopeAutoRelease" Type="bool" Value="True"/>
+								<Property Name="EnvelopeDecayTime" Type="Real64" Value="25"/>
+								<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0"/>
+								<Property Name="EnvelopeStopPlayback" Type="bool" Value="False"/>
+								<Property Name="EnvelopeSustainLevel" Type="Real64" Value="0"/>
+								<Property Name="ModulatorScope" Type="int32" Value="0"/>
+							</PropertyList>
+						</ModulatorEnvelope>
+						<ModulatorEnvelope Name="shepard_tone_03" ID="{A9138BAB-F546-4C3F-A71E-098DC8C95B5E}" ShortID="392222004">
+							<PropertyList>
+								<Property Name="EnvelopeAttackTime" Type="Real64" Value="0"/>
+								<Property Name="EnvelopeAutoRelease" Type="bool" Value="True"/>
+								<Property Name="EnvelopeDecayTime" Type="Real64" Value="25"/>
+								<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0"/>
+								<Property Name="EnvelopeStopPlayback" Type="bool" Value="False"/>
+								<Property Name="EnvelopeSustainLevel" Type="Real64" Value="0"/>
+								<Property Name="ModulatorScope" Type="int32" Value="0"/>
+							</PropertyList>
+						</ModulatorEnvelope>
+						<ModulatorLfo Name="shepard_tone_volume_01" ID="{CFB1A9B7-DB26-406D-B56E-DB1DEB3D5B0E}" ShortID="508806488">
+							<PropertyList>
+								<Property Name="LfoFrequency" Type="Real64" Value="0.045"/>
+								<Property Name="LfoInitialPhase" Type="Real64" Value="-90"/>
+								<Property Name="LfoWaveform" Type="int32" Value="1"/>
+								<Property Name="ModulatorScope" Type="int32" Value="0"/>
+							</PropertyList>
+						</ModulatorLfo>
+						<ModulatorLfo Name="shepard_tone_volume_02" ID="{185CAB68-A08B-4DD3-AFFE-8B376384EDEB}" ShortID="1044706547">
+							<PropertyList>
+								<Property Name="LfoFrequency" Type="Real64" Value="0.045"/>
+								<Property Name="LfoInitialPhase" Type="Real64" Value="-90"/>
+								<Property Name="LfoWaveform" Type="int32" Value="1"/>
+								<Property Name="ModulatorScope" Type="int32" Value="0"/>
+							</PropertyList>
+						</ModulatorLfo>
+						<ModulatorLfo Name="shepard_tone_volume_03" ID="{A9ED6F5B-2065-4769-8F9C-8B4D71BE1DA5}" ShortID="105956723">
+							<PropertyList>
+								<Property Name="LfoFrequency" Type="Real64" Value="0.045"/>
+								<Property Name="LfoInitialPhase" Type="Real64" Value="-90"/>
+								<Property Name="LfoWaveform" Type="int32" Value="1"/>
+								<Property Name="ModulatorScope" Type="int32" Value="0"/>
+							</PropertyList>
+						</ModulatorLfo>
+						<ModulatorLfo Name="shepard_tone_volume_up_01" ID="{14853C7E-324D-4A98-8ADB-92F47B3F6865}" ShortID="1123577">
+							<PropertyList>
+								<Property Name="LfoFrequency" Type="Real64" Value="0.042"/>
+								<Property Name="LfoInitialPhase" Type="Real64" Value="-90"/>
+								<Property Name="LfoWaveform" Type="int32" Value="1"/>
+								<Property Name="ModulatorScope" Type="int32" Value="0"/>
+							</PropertyList>
+						</ModulatorLfo>
+						<ModulatorLfo Name="shepard_tone_volume_up_02" ID="{DE528899-7DD0-4D29-BA02-A5ECEDDC21CC}" ShortID="538328272">
+							<PropertyList>
+								<Property Name="LfoFrequency" Type="Real64" Value="0.042"/>
+								<Property Name="LfoInitialPhase" Type="Real64" Value="-90"/>
+								<Property Name="LfoWaveform" Type="int32" Value="1"/>
+								<Property Name="ModulatorScope" Type="int32" Value="0"/>
+							</PropertyList>
+						</ModulatorLfo>
+						<ModulatorLfo Name="shepard_tone_volume_up_03" ID="{5883DF9D-37C5-4E13-AD9F-BA9B150087D5}" ShortID="33331797">
+							<PropertyList>
+								<Property Name="LfoFrequency" Type="Real64" Value="0.042"/>
+								<Property Name="LfoInitialPhase" Type="Real64" Value="-90"/>
+								<Property Name="LfoWaveform" Type="int32" Value="1"/>
+								<Property Name="ModulatorScope" Type="int32" Value="0"/>
+							</PropertyList>
+						</ModulatorLfo>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="hangar_h21_newyear_2019" ID="{E01545FB-7C09-4132-8B40-45C0C8BCDA4F}" ShortID="584791990">
+					<ChildrenList>
+						<ModulatorLfo Name="hangar_h21_newyear_2019_wind_pitch" ID="{6EC46D9A-16FA-4ADB-BD87-1F71250AC6A2}" ShortID="510021718">
+							<PropertyList>
+								<Property Name="LfoFrequency" Type="Real64" Value="0.375"/>
+								<Property Name="LfoSmoothing" Type="Real64" Value="70"/>
+								<Property Name="LfoWaveform" Type="int32" Value="5"/>
+							</PropertyList>
+						</ModulatorLfo>
+						<ModulatorLfo Name="hangar_h21_newyear_2019_wind_volume" ID="{A1A907E2-DE5A-4B62-9610-01E389B1D412}" ShortID="65133372">
+							<PropertyList>
+								<Property Name="LfoFrequency" Type="Real64" Value="0.09"/>
+								<Property Name="LfoSmoothing" Type="Real64" Value="50"/>
+							</PropertyList>
+						</ModulatorLfo>
+						<ModulatorLfo Name="hangar_h21_newyear_2019_wind_LPF" ID="{734A3D51-28AC-411B-B6C3-729201EE7A73}" ShortID="592321191">
+							<PropertyList>
+								<Property Name="LfoFrequency" Type="Real64" Value="0.159"/>
+								<Property Name="LfoSmoothing" Type="Real64" Value="50"/>
+							</PropertyList>
+						</ModulatorLfo>
+						<ModulatorLfo Name="hangar_h21_newyear_2019_wind_HPF" ID="{B515976F-84FD-4F84-98B6-E09AB75748ED}" ShortID="888987658">
+							<PropertyList>
+								<Property Name="LfoFrequency" Type="Real64" Value="0.19"/>
+								<Property Name="LfoSmoothing" Type="Real64" Value="50"/>
+							</PropertyList>
+						</ModulatorLfo>
+						<ModulatorLfo Name="hangar_h21_newyear_2019_wind_freq" ID="{E6118AAA-978C-4522-9D17-48424B6205FF}" ShortID="929327858">
+							<PropertyList>
+								<Property Name="LfoFrequency" Type="Real64" Value="0.33"/>
+								<Property Name="LfoSmoothing" Type="Real64" Value="42"/>
+								<Property Name="LfoWaveform" Type="int32" Value="5"/>
+							</PropertyList>
+						</ModulatorLfo>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Modulators>
+</WwiseDocument>

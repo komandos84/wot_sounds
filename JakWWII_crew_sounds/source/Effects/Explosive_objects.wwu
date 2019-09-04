@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{92F13063-1A29-49C4-BB15-4E692FDE5D59}" SchemaVersion="85">
+	<Effects>
+		<WorkUnit Name="Explosive_objects" ID="{92F13063-1A29-49C4-BB15-4E692FDE5D59}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="fuel_small" ID="{81F90DDB-9993-4661-BB5C-94A270BC0E0D}" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3">
+					<PropertyList>
+						<Property Name="DistortionDrive" Type="Real32" Value="0">
+							<RTPCList>
+								<RTPC Name="" ID="{CC50CB2E-7636-4301-A112-6AD8C3D7EEE8}" ShortID="476859228">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_int_distance" ID="{BF3AB708-0AE6-46FC-B487-5F27895968F1}" WorkUnitID="{99AED538-0B7F-42D5-942E-04185D409E05}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{B227D2E1-2EBE-4C21-A978-A1AE709D52D2}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>8</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>20</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>250</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="DistortionType" Type="int32" Value="2"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="fuel_mid" ID="{2FF9F55D-53D1-4996-8A17-A6DB962ABECB}" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3">
+					<PropertyList>
+						<Property Name="DistortionDrive" Type="Real32" Value="0">
+							<RTPCList>
+								<RTPC Name="" ID="{741EC456-4CFA-490A-8731-934FF0BEB355}" ShortID="61482202">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_int_distance" ID="{BF3AB708-0AE6-46FC-B487-5F27895968F1}" WorkUnitID="{99AED538-0B7F-42D5-942E-04185D409E05}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{D7625AEA-0A59-4849-851E-C1C3E5721486}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>6</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>20</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>250</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="DistortionType" Type="int32" Value="2"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="fuel_huge" ID="{E5AD3B6A-7DA5-4875-9776-C23141CE06DB}" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3">
+					<PropertyList>
+						<Property Name="DistortionDrive" Type="Real32" Value="0">
+							<RTPCList>
+								<RTPC Name="" ID="{98C5C2DE-3663-47DA-BE80-C7D815C14DE0}" ShortID="566625744">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_int_distance" ID="{BF3AB708-0AE6-46FC-B487-5F27895968F1}" WorkUnitID="{99AED538-0B7F-42D5-942E-04185D409E05}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{3404BB22-E053-41FB-B7AD-B3DFBE27543C}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>20</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>SCurve</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>50</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>250</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="DistortionType" Type="int32" Value="2"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="unique_barrels" ID="{BAB19D2B-683A-4829-8351-F4E7DD84981B}" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3">
+					<PropertyList>
+						<Property Name="DistortionDrive" Type="Real32" Value="0">
+							<RTPCList>
+								<RTPC Name="" ID="{E8494033-1C85-442E-9EF4-92C39A80684D}" ShortID="976202461">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_int_distance" ID="{BF3AB708-0AE6-46FC-B487-5F27895968F1}" WorkUnitID="{99AED538-0B7F-42D5-942E-04185D409E05}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{AA57B1A0-45B6-48F7-965C-5FFBE0837C8F}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>4</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>20</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>250</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="DistortionType" Type="int32" Value="2"/>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
+	</Effects>
+</WwiseDocument>

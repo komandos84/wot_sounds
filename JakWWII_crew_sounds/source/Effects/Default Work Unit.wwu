@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8B6FEDBF-4E65-4D47-A19C-C7FBA129CFB5}" SchemaVersion="85">
+	<Effects>
+		<WorkUnit Name="Default Work Unit" ID="{8B6FEDBF-4E65-4D47-A19C-C7FBA129CFB5}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="New_Wwise_Flanger" ID="{501F5BB3-3ADD-41DB-97D8-42F61CF5F36B}" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
+					<PropertyList>
+						<Property Name="WetDryMix" Type="Real32" Value="0">
+							<RTPCList>
+								<RTPC Name="" ID="{0D94B955-AED7-46FB-A31B-E94CEDB94B9D}" ShortID="61952540"/>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+				<Effect Name="ev_football_distortion_eng" ID="{1E2F43BC-0406-44FF-8963-979C4225F9F1}" PluginName="iZotope Trash Multiband Distortion" CompanyID="259" PluginID="9" PluginType="3">
+					<PropertyList>
+						<Property Name="Distortion1Band1Mix" Type="Real32" Value="22"/>
+						<Property Name="Distortion1Band1Type" Type="int32" Value="28"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="ev_halloween_music_result" ID="{FABEF735-CC3B-4792-96BC-65BEB6611BDE}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FrequencyBand3" Type="Real32" Value="3000"/>
+						<Property Name="GainBand3" Type="Real32" Value="9"/>
+						<Property Name="OnOffBand1" Type="bool" Value="False"/>
+						<Property Name="OnOffBand2" Type="bool" Value="False"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="ev_halloween_distortion_expl_lev" ID="{9CD5F397-F542-4118-9C71-6A9D35C63F72}" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3">
+					<PropertyList>
+						<Property Name="DistortionDrive" Type="Real32" Value="46"/>
+						<Property Name="DistortionTone" Type="Real32" Value="30"/>
+						<Property Name="DistortionType" Type="int32" Value="1"/>
+						<Property Name="OutputLevel" Type="Real32" Value="-12"/>
+						<Property Name="Rectification" Type="Real32" Value="7"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="ev_halloween_flanger_wpn_npc" ID="{3A04A135-4F4B-4064-BC28-966FAA148566}" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
+					<PropertyList>
+						<Property Name="DelayTime" Type="Real32" Value="5.5"/>
+						<Property Name="FeedBackLevel" Type="Real32" Value="0.2"/>
+						<Property Name="ModDepth" Type="Real32" Value="58.4"/>
+						<Property Name="ModFrequency" Type="Real32" Value="1.7"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="ev_halloween_reverb_reversed" ID="{9444BAAC-0568-494F-82DD-31780AF12AB7}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
+					<PropertyList>
+						<Property Name="IRChannelSelect" Type="int32" Value="4"/>
+						<Property Name="IRConvolutionStop" Type="Real64" Value="1.027"/>
+						<Property Name="IRGraphicEQAutomate" Type="bool" Value="True"/>
+						<Property Name="WetLevel" Type="Real32" Value="-25"/>
+					</PropertyList>
+					<ChildrenList>
+						<PluginMediaSource Name="ev_halloween_reverced" ID="{9E27AF06-04A1-4FDF-A5D0-09B5383BFC2C}" ShortID="366494642">
+							<ParentPluginID>8323075</ParentPluginID>
+							<PropertyList>
+								<Property Name="DataFileName" Type="string" Value="ev_halloween_reverced.wav"/>
+							</PropertyList>
+						</PluginMediaSource>
+					</ChildrenList>
+					<PluginData>
+	<ConvolutionData>
+		<CurveList Version="1">
+			<CurveInfo Name="IRGraphicEQ">
+				<Curve Name="" ID="{9FD5941A-B5DD-4041-AA6E-10564F7F086C}">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="19"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>20</XPos>
+							<YPos>-11.49999</YPos>
+							<Flags>5</Flags>
+							<SegmentShape>Exp1</SegmentShape>
+						</Point>
+						<Point>
+							<XPos>109.556</XPos>
+							<YPos>-0.54392</YPos>
+							<Flags>0</Flags>
+							<SegmentShape>Log2</SegmentShape>
+						</Point>
+						<Point>
+							<XPos>564.47334</XPos>
+							<YPos>-17.92942</YPos>
+							<Flags>0</Flags>
+							<SegmentShape>Exp3</SegmentShape>
+						</Point>
+						<Point>
+							<XPos>999.59754</XPos>
+							<YPos>-9.78133</YPos>
+							<Flags>0</Flags>
+							<SegmentShape>Log3</SegmentShape>
+						</Point>
+						<Point>
+							<XPos>20000</XPos>
+							<YPos>0</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="IRLPF">
+				<Curve Name="" ID="{3405CD3E-8C1D-4D56-8639-33E128DC6CEE}">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="5"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>20000</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>1.027</XPos>
+							<YPos>20000</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="IRLevel">
+				<Curve Name="" ID="{BEA7775A-8014-472C-AAF9-9D967988DF7F}">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="1"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>0</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>1.027</XPos>
+							<YPos>0</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+		</CurveList>
+	</ConvolutionData>
+</PluginData>
+				</Effect>
+				<Effect Name="ev_halloween_eq_vo" ID="{7CB5FB0D-D79B-4A19-8E87-6C849328D22E}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FilterTypeBand1" Type="int32" Value="0"/>
+						<Property Name="OnOffBand2" Type="bool" Value="False"/>
+						<Property Name="OnOffBand3" Type="bool" Value="False"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="ev_halloween_futz_wpn_pc" ID="{E342626F-615C-433F-8A24-AEB8754B63E0}" PluginName="McDSP FutzBox" CompanyID="256" PluginID="110" PluginType="3">
+					<PropertyList>
+						<Property Name="Balance" Type="Real32" Value="0"/>
+						<Property Name="DistortionAmount" Type="Real32" Value="73.6"/>
+						<Property Name="DistortionIntensity" Type="Real32" Value="87.6"/>
+						<Property Name="DistortionMode" Type="int32" Value="2"/>
+						<Property Name="DistortionRectify" Type="Real32" Value="100"/>
+						<Property Name="EQQ" Type="Real32" Value="37"/>
+						<Property Name="GateAttackTime" Type="Real32" Value="0.1472313"/>
+						<Property Name="GateRange" Type="Real32" Value="-50.88"/>
+						<Property Name="GateReleaseTime" Type="Real32" Value="10"/>
+						<Property Name="GateThreshold" Type="Real32" Value="-29.12"/>
+						<Property Name="NoiseHPFFreq" Type="Real32" Value="1714.194"/>
+						<Property Name="NoiseLPFFreq" Type="Real32" Value="14834.49"/>
+						<Property Name="NoiseLevel" Type="Real32" Value="-6.573958"/>
+						<Property Name="NoiseRange" Type="Real32" Value="-25.92"/>
+						<Property Name="NoiseRecovery" Type="Real32" Value="172.5957"/>
+						<Property Name="NoiseThresh" Type="Real32" Value="-32.64"/>
+						<Property Name="SIMTuning" Type="Real32" Value="173.2283"/>
+						<Property Name="SIMType" Type="int32" Value="62"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="ev_halloween_vo_harmonizer_01" ID="{FF91C3E5-D900-408D-A786-A529631BB71E}" PluginName="Wwise Harmonizer" CompanyID="0" PluginID="138" PluginType="3">
+					<PropertyList>
+						<Property Name="DryLevel" Type="Real32" Value="-96"/>
+						<Property Name="Voice1FilterFrequency" Type="Real32" Value="56"/>
+						<Property Name="Voice1FilterType" Type="int32" Value="5"/>
+						<Property Name="Voice1Pitch" Type="Real32" Value="-1200"/>
+						<Property Name="Voice2Enable" Type="bool" Value="True"/>
+						<Property Name="Voice2FilterFrequency" Type="Real32" Value="3081"/>
+						<Property Name="Voice2FilterGain" Type="Real32" Value="5"/>
+						<Property Name="Voice2FilterQFactor" Type="Real32" Value="0.1"/>
+						<Property Name="Voice2FilterType" Type="int32" Value="2"/>
+						<Property Name="Voice2Pitch" Type="Real32" Value="-500"/>
+						<Property Name="WindowSize" Type="int32" Value="512"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="ev_halloween_vo_harmonizer_02" ID="{9AE77B09-ACBA-424B-9C94-3D9674D84CEC}" PluginName="Wwise Harmonizer" CompanyID="0" PluginID="138" PluginType="3">
+					<PropertyList>
+						<Property Name="Voice1Pitch" Type="Real32" Value="300"/>
+						<Property Name="Voice2Enable" Type="bool" Value="True"/>
+						<Property Name="Voice2Pitch" Type="Real32" Value="-500"/>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
+	</Effects>
+</WwiseDocument>

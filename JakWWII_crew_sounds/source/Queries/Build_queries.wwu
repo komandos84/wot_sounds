@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C044B3DD-6964-461D-8E5B-56EE262C712E}" SchemaVersion="85">
+	<Queries>
+		<WorkUnit Name="Build_queries" ID="{C044B3DD-6964-461D-8E5B-56EE262C712E}" PersistMode="Standalone">
+			<ChildrenList>
+				<Query Name="Stream_all_except_wpn_imp_vo_gui_passBy" ID="{4F73FF9F-46F6-458A-B48D-C44D3E122DE0}">
+					<PropertyList>
+						<Property Name="ObjectType" Type="int32" Value="800"/>
+						<Property Name="StartFromHereObject" Type="string" Value="{A30D0F37-15CE-4581-AB49-DF10EDC95FFE}"/>
+					</PropertyList>
+					<ChildrenList>
+						<SearchCriteria Name="PropertyValue" ID="{D5426453-71D4-4832-8DA9-AECCA457A3DA}" SearchOperationID="{560736B7-4F5C-4EF7-9354-8D8DC6BBD70A}">
+							<PropertyList>
+								<Property Name="PropertyName" Type="string" Value="IsStreamingEnabled"/>
+							</PropertyList>
+						</SearchCriteria>
+					</ChildrenList>
+				</Query>
+				<Query Name="Set_stream_for_music_source" ID="{D3A978F3-7381-40BD-A231-5ECA2B8DCC30}">
+					<PropertyList>
+						<Property Name="ObjectType" Type="int32" Value="600"/>
+						<Property Name="StartFromHereObject" Type="string" Value="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}"/>
+					</PropertyList>
+					<ChildrenList>
+						<SearchCriteria Name="GeneralName" ID="{FC1A5862-A6BA-449A-B5C3-26225B4AAAD2}" SearchOperationID="{82CCCD47-591B-4BD8-B3CE-89A8172A1802}">
+							<PropertyList>
+								<Property Name="UserString" Type="string" Value="*loading_*"/>
+							</PropertyList>
+						</SearchCriteria>
+					</ChildrenList>
+				</Query>
+			</ChildrenList>
+		</WorkUnit>
+	</Queries>
+</WwiseDocument>
