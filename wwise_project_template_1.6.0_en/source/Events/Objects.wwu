@@ -236,6 +236,18 @@
               <Comment>Event - Bicycle</Comment>
               <ChildrenList></ChildrenList>
             </Event>
+            <Event Name="obj_broken_treefall" ID="{7208C042-1D5D-43C5-98B6-40C0FBC77F70}">
+              <Comment>Event - Burnt trunk of a burnt tree or tree without a crown and branches</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="obj_broken_treefall_down" ID="{12565AF1-7E9D-4AEB-8214-4B58E60B15DE}">
+              <Comment>Event - Burnt trunk of a burnt tree or tree without a crown and branches</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="obj_snowheap" ID="{346E4FA7-759D-419B-8F01-31D437463DDC}">
+              <Comment>Event - Snowheap destruction</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
           </ChildrenList>
         </Folder>
       </ChildrenList>

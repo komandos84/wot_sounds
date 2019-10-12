@@ -4519,6 +4519,8 @@ Effect 2 - adjusts the decrease in LF for the transition between the arena and h
                                   <StateInfo>
                                     <StatePropertyList>
                                       <Property Name="BusVolume" />
+                                      <Property Name="BypassEffect" />
+                                      <Property Name="BypassEffect2" />
                                       <Property Name="Highpass" />
                                       <Property Name="Lowpass" />
                                       <Property Name="MakeUpGain" />
@@ -4713,7 +4715,8 @@ Effect 2 - adjusts the decrease in LF for the transition between the arena and h
                                   </DuckingList>
                                 </Bus>
                                 <Bus Name="MUSIC_BATTLE_SPECIAL" ID="{2E4DD7CA-1B36-4DD8-A314-137AEB78DF73}">
-                                  <Comment></Comment>
+                                  <Comment>Used to seamlessly mix the boot screen music with the battlefield music. In Battle Royale 2019
+ Auto-decked by Lobby_Music_Result bus</Comment>
                                   <PropertyList>
                                     <Property Name="DivergenceCenter" Type="int32">
                                       <ValueList>
