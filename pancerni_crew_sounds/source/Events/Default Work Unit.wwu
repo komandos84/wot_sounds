@@ -717,20 +717,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="gun_reloaded" ID="{3B0DE01B-E254-4D80-B87A-FE1F680AAEAF}">
-					<ChildrenList>
-						<Action Name="" ID="{4B58D3D4-5CC3-46B8-B29F-043286FFA25B}" ShortID="308909218">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="gun_reloaded" ID="{13E1725D-0410-408D-AB08-2C745E61BEA6}" WorkUnitID="{941B93B4-8E84-4746-B776-B452B5882056}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

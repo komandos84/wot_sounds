@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{178C1E7F-FF15-4714-A070-F3AE07DB627E}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{276BBEA0-A3C4-4DC8-8867-A84AD19A62FD}" SchemaVersion="85">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{178C1E7F-FF15-4714-A070-F3AE07DB627E}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{276BBEA0-A3C4-4DC8-8867-A84AD19A62FD}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Voiceovers" ID="{F61CFF25-6EA1-47A2-8041-EDB36C96468E}">
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="STATE_fortified_area_off" ID="{62D70F5C-8456-4E56-B63A-BA55B584889A}"/>
+						<CurrentStateRef Name="STATE_hangar_filtered_on" ID="{D6802E60-372A-4B9B-B6DD-466C9553F289}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

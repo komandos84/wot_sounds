@@ -169,14 +169,9 @@
 						<Query Name="Sound = Voice" ID="{DB864841-3338-4AFF-9D3D-DA261AC25994}">
 							<PropertyList>
 								<Property Name="ObjectType" Type="int32" Value="800"/>
+								<Property Name="Platform" Type="int16" Value="0"/>
+								<Property Name="StartFromHereObject" Type="string" Value="{DBCE5932-6C81-4A24-A101-AD72053E5667}"/>
 							</PropertyList>
-							<ChildrenList>
-								<SearchCriteria Name="GeneralSound Type" ID="{E99D2BF1-3D69-4BE7-BF4C-B9DBB64638E7}" SearchOperationID="{75FFAA5C-EAF4-4940-ACF2-FCE491BCDB5F}">
-									<PropertyList>
-										<Property Name="SoundType" Type="int16" Value="1"/>
-									</PropertyList>
-								</SearchCriteria>
-							</ChildrenList>
 						</Query>
 						<Query Name="Sound = SFX" ID="{52F6FBC8-499A-411D-A790-CB4FACBE6F6D}">
 							<PropertyList>
@@ -430,6 +425,18 @@
 								</SearchCriteria>
 							</ChildrenList>
 						</Query>
+						<Query Name="Loading_screen_top_containers" ID="{119241C1-8650-43A3-B460-5C80C435B07D}">
+							<PropertyList>
+								<Property Name="ObjectType" Type="int32" Value="645"/>
+							</PropertyList>
+							<ChildrenList>
+								<SearchCriteria Name="GeneralName" ID="{E1041823-CCAC-402C-ADA8-906CD83C8BDE}" SearchOperationID="{82CCCD47-591B-4BD8-B3CE-89A8172A1802}">
+									<PropertyList>
+										<Property Name="UserString" Type="string" Value="*loading_screen"/>
+									</PropertyList>
+								</SearchCriteria>
+							</ChildrenList>
+						</Query>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Actor-Mixer Hierarchy" ID="{75E26115-FC3D-4E25-99F9-448BC918921E}" ShortID="657523609">
@@ -616,10 +623,14 @@
 					</ChildrenList>
 				</Query>
 				<Query Name="Name - Contains" ID="{0C2BEF06-3ABD-40A6-BFE9-A5A656A52571}">
+					<PropertyList>
+						<Property Name="ObjectType" Type="int32" Value="700"/>
+						<Property Name="StartFromHereObject" Type="string" Value="{4759ACD8-59A8-445D-ABC9-E28487EBEEE1}"/>
+					</PropertyList>
 					<ChildrenList>
 						<SearchCriteria Name="GeneralName" ID="{2E521352-0345-47A7-9939-53653A654F49}" SearchOperationID="{82CCCD47-591B-4BD8-B3CE-89A8172A1802}">
 							<PropertyList>
-								<Property Name="UserString" Type="string" Value="*Object name here*"/>
+								<Property Name="UserString" Type="string" Value="*vo_female*"/>
 							</PropertyList>
 						</SearchCriteria>
 					</ChildrenList>

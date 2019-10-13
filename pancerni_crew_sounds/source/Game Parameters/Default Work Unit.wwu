@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{4F5CD5D3-A7D5-4286-89A3-A612F3A68EF5}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{51E6EEE0-3B84-4CD8-9746-7173B93882E6}" SchemaVersion="85">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{4F5CD5D3-A7D5-4286-89A3-A612F3A68EF5}" PersistMode="Standalone">
-			<ChildrenList>
-				<GameParameter Name="RTPC_ext_menu_volume_voice" ID="{30691292-D7AF-4BD6-9732-7E841E7821E5}"/>
-				<GameParameter Name="RTPC_ext_menu_volume_master" ID="{5AB53582-5BAC-44C6-8887-CEE77367569D}"/>
-			</ChildrenList>
-		</WorkUnit>
+		<WorkUnit Name="Default Work Unit" ID="{51E6EEE0-3B84-4CD8-9746-7173B93882E6}" PersistMode="Standalone"/>
 	</GameParameters>
 </WwiseDocument>

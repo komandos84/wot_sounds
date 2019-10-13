@@ -36,7 +36,11 @@
 							</PropertyList>
 							<ConversionPluginInfoList>
 								<ConversionPluginInfo Platform="Windows">
-									<ConversionPlugin Name="" ID="{9C72FABC-C743-4BE6-93CF-57CFB08C74D2}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+									<ConversionPlugin Name="" ID="{7BE962A0-97C6-4BF7-B5EA-5C25634611A0}" PluginName="Vorbis" CompanyID="0" PluginID="4">
+										<PropertyList>
+											<Property Name="SeekTableGranularity" Type="int32" Value="4"/>
+										</PropertyList>
+									</ConversionPlugin>
 								</ConversionPluginInfo>
 							</ConversionPluginInfoList>
 						</Conversion>
@@ -71,7 +75,11 @@
 							</PropertyList>
 							<ConversionPluginInfoList>
 								<ConversionPluginInfo Platform="Windows">
-									<ConversionPlugin Name="" ID="{50709650-BA67-43D5-AD63-E140FCBA2238}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+									<ConversionPlugin Name="" ID="{2ED78E13-6634-45F3-B4FA-6F74A8BFD44F}" PluginName="Vorbis" CompanyID="0" PluginID="4">
+										<PropertyList>
+											<Property Name="SeekTableGranularity" Type="int32" Value="4"/>
+										</PropertyList>
+									</ConversionPlugin>
 								</ConversionPluginInfo>
 							</ConversionPluginInfoList>
 						</Conversion>
@@ -106,7 +114,7 @@
 							</PropertyList>
 							<ConversionPluginInfoList>
 								<ConversionPluginInfo Platform="Windows">
-									<ConversionPlugin Name="" ID="{5D1F1736-D6B1-41B3-ABA5-F1B85014B378}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+									<ConversionPlugin Name="" ID="{ED17FBCD-326E-4E5F-B5D6-31FF02FE208A}" PluginName="PCM" CompanyID="0" PluginID="1"/>
 								</ConversionPluginInfo>
 							</ConversionPluginInfoList>
 						</Conversion>
@@ -140,7 +148,11 @@
 							</PropertyList>
 							<ConversionPluginInfoList>
 								<ConversionPluginInfo Platform="Windows">
-									<ConversionPlugin Name="" ID="{CD223C02-8FF5-4449-8D6A-D3E6D388A6C9}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+									<ConversionPlugin Name="" ID="{0C19AE2A-1F8F-4A54-AAD5-D61D82D5608D}" PluginName="Vorbis" CompanyID="0" PluginID="4">
+										<PropertyList>
+											<Property Name="SeekTableGranularity" Type="int32" Value="4"/>
+										</PropertyList>
+									</ConversionPlugin>
 								</ConversionPluginInfo>
 							</ConversionPluginInfoList>
 						</Conversion>
@@ -174,11 +186,7 @@
 							</PropertyList>
 							<ConversionPluginInfoList>
 								<ConversionPluginInfo Platform="Windows">
-									<ConversionPlugin Name="" ID="{9BBC3B63-C816-4A10-B471-EFA19B5F8938}" PluginName="Vorbis" CompanyID="0" PluginID="4">
-										<PropertyList>
-											<Property Name="QualityFactor" Type="Real32" Value="0"/>
-										</PropertyList>
-									</ConversionPlugin>
+									<ConversionPlugin Name="" ID="{989F1718-2C23-4D65-9BF7-DBCB0E4A0BB6}" PluginName="PCM" CompanyID="0" PluginID="1"/>
 								</ConversionPluginInfo>
 							</ConversionPluginInfoList>
 						</Conversion>
@@ -212,11 +220,7 @@
 							</PropertyList>
 							<ConversionPluginInfoList>
 								<ConversionPluginInfo Platform="Windows">
-									<ConversionPlugin Name="" ID="{680FA27E-B021-4215-87D5-A10CFB7E12EB}" PluginName="Vorbis" CompanyID="0" PluginID="4">
-										<PropertyList>
-											<Property Name="QualityFactor" Type="Real32" Value="2"/>
-										</PropertyList>
-									</ConversionPlugin>
+									<ConversionPlugin Name="" ID="{8611C6EC-A5BD-4A27-B6B9-E88B088FC10B}" PluginName="PCM" CompanyID="0" PluginID="1"/>
 								</ConversionPluginInfo>
 							</ConversionPluginInfoList>
 						</Conversion>
@@ -254,7 +258,7 @@
 							</PropertyList>
 							<ConversionPluginInfoList>
 								<ConversionPluginInfo Platform="Windows">
-									<ConversionPlugin Name="" ID="{09F21EC3-A2B8-4859-A558-BF742A6B2208}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+									<ConversionPlugin Name="" ID="{8FAFC351-EFCF-49B8-9CD8-009448D86ED1}" PluginName="PCM" CompanyID="0" PluginID="1"/>
 								</ConversionPluginInfo>
 							</ConversionPluginInfoList>
 						</Conversion>
@@ -289,7 +293,7 @@
 							</PropertyList>
 							<ConversionPluginInfoList>
 								<ConversionPluginInfo Platform="Windows">
-									<ConversionPlugin Name="" ID="{4C66402C-AB62-44AD-AF20-A27038579DCD}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+									<ConversionPlugin Name="" ID="{B3FBD8D2-854E-4DD5-8B8A-CABA78BC3020}" PluginName="PCM" CompanyID="0" PluginID="1"/>
 								</ConversionPluginInfo>
 							</ConversionPluginInfoList>
 						</Conversion>
@@ -324,7 +328,7 @@
 							</PropertyList>
 							<ConversionPluginInfoList>
 								<ConversionPluginInfo Platform="Windows">
-									<ConversionPlugin Name="" ID="{2FF204A2-9A94-4FE8-B2AE-1DDE96E9FEEB}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+									<ConversionPlugin Name="" ID="{1FD2C277-4CE2-43CB-8B35-685164F51855}" PluginName="PCM" CompanyID="0" PluginID="1"/>
 								</ConversionPluginInfo>
 							</ConversionPluginInfoList>
 						</Conversion>
@@ -359,7 +363,7 @@
 							</PropertyList>
 							<ConversionPluginInfoList>
 								<ConversionPluginInfo Platform="Windows">
-									<ConversionPlugin Name="" ID="{57E86145-8BAF-47CC-868F-7C5DA3943F62}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+									<ConversionPlugin Name="" ID="{EF71C38B-6FF6-4312-BEEA-61BC30E388B2}" PluginName="PCM" CompanyID="0" PluginID="1"/>
 								</ConversionPluginInfo>
 							</ConversionPluginInfoList>
 						</Conversion>
@@ -397,7 +401,7 @@
 							</PropertyList>
 							<ConversionPluginInfoList>
 								<ConversionPluginInfo Platform="Windows">
-									<ConversionPlugin Name="" ID="{1C7DC775-704E-472C-B9AF-D833E962788D}" PluginName="ADPCM" CompanyID="0" PluginID="2"/>
+									<ConversionPlugin Name="" ID="{8DC1B59F-C453-4B4F-96A2-EF33EADF8BEE}" PluginName="PCM" CompanyID="0" PluginID="1"/>
 								</ConversionPluginInfo>
 							</ConversionPluginInfoList>
 						</Conversion>
@@ -432,7 +436,7 @@
 							</PropertyList>
 							<ConversionPluginInfoList>
 								<ConversionPluginInfo Platform="Windows">
-									<ConversionPlugin Name="" ID="{7FB9104E-E099-4EF1-8CF8-815B52EA1077}" PluginName="ADPCM" CompanyID="0" PluginID="2"/>
+									<ConversionPlugin Name="" ID="{90F86C44-2B1A-4DC4-805D-18FD5D49A86D}" PluginName="PCM" CompanyID="0" PluginID="1"/>
 								</ConversionPluginInfo>
 							</ConversionPluginInfoList>
 						</Conversion>
@@ -467,7 +471,7 @@
 							</PropertyList>
 							<ConversionPluginInfoList>
 								<ConversionPluginInfo Platform="Windows">
-									<ConversionPlugin Name="" ID="{2FF045F0-9846-42BA-94D6-73B9886B23EC}" PluginName="ADPCM" CompanyID="0" PluginID="2"/>
+									<ConversionPlugin Name="" ID="{BD845240-0523-467A-B091-BABE3FC0EF52}" PluginName="PCM" CompanyID="0" PluginID="1"/>
 								</ConversionPluginInfo>
 							</ConversionPluginInfoList>
 						</Conversion>
@@ -502,7 +506,7 @@
 							</PropertyList>
 							<ConversionPluginInfoList>
 								<ConversionPluginInfo Platform="Windows">
-									<ConversionPlugin Name="" ID="{8C97D505-CEAC-40D2-A98C-37940FFCBF6F}" PluginName="ADPCM" CompanyID="0" PluginID="2"/>
+									<ConversionPlugin Name="" ID="{6E856C69-355A-494A-BAD2-B75497877C5F}" PluginName="PCM" CompanyID="0" PluginID="1"/>
 								</ConversionPluginInfo>
 							</ConversionPluginInfoList>
 						</Conversion>
