@@ -80,6 +80,33 @@
             </Event>
           </ChildrenList>
         </Folder>
+        <Folder Name="reward_tank_video" ID="{54AA0F8D-928E-4163-A89E-71D1CF7B3A19}" ShortID="647925717">
+          <ChildrenList>
+            <Event Name="reward_tank_marathon_A122_TS_5" ID="{97899444-B19E-4222-BC62-EA58B5C2F906}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="reward_tank_marathon_F112_M10_RBFM" ID="{E95B8DB4-EB16-47B1-9A8B-270A62947361}">
+              <ChildrenList></ChildrenList>
+            </Event>
+          </ChildrenList>
+        </Folder>
+        <Folder Name="session_stats" ID="{6A17FC29-71AD-4A3B-84DA-F5CC0824FA75}" ShortID="694237402">
+          <ChildrenList>
+            <Event Name="session_stats_numbers" ID="{4E944490-A064-4874-856B-CFD19DD88DEC}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="session_stats_clear" ID="{9F746D99-A36E-46E5-AC2B-E942DD7FAB96}">
+              <ChildrenList></ChildrenList>
+            </Event>
+          </ChildrenList>
+        </Folder>
+        <Folder Name="crewbooks" ID="{56F39913-A97D-43B6-82D6-CB446CE8ECA3}" ShortID="439535744">
+          <ChildrenList>
+            <Event Name="crewbooks_apply" ID="{AE69AFE6-845C-4495-8F92-D4007166906A}">
+              <ChildrenList></ChildrenList>
+            </Event>
+          </ChildrenList>
+        </Folder>
       </ChildrenList>
     </WorkUnit>
   </Events>

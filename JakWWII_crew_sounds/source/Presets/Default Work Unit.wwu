@@ -2768,6 +2768,102 @@
             <GameParameter Name="RTPC_int_vo_ducking" ID="{1E252F1B-39B9-4251-8D5D-A20E4F4AF0BF}" />
           </PluginData>
         </Effect>
+        <Effect Name="Doppler_flagner" ID="{7FF8DE44-98BD-462A-B708-A929BF757E7D}" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
+          <PropertyList>
+            <Property Name="DelayTime" Type="Real32" Value="0.7" />
+            <Property Name="ModDepth" Type="Real32" Value="57.4">
+              <RTPCList>
+                <RTPC Name="" ID="{2C20A8EF-139C-4DE8-A1BF-365E6756B12D}">
+                  <ReferenceList>
+                    <Reference Name="ControlInput">
+                      <ObjectRef Name="RTPC_ext_doppler_factor" ID="{CC3BC5EA-D9E6-4DD2-8538-295E7563E5C6}" WorkUnitID="{99AED538-0B7F-42D5-942E-04185D409E05}" />
+                    </Reference>
+                  </ReferenceList>
+                  <Curve Name="" ID="{87A84A5B-6A8F-438D-8F92-DD736968BEED}">
+                    <PropertyList>
+                      <Property Name="Flags" Type="int32" Value="1" />
+                    </PropertyList>
+                    <PointList>
+                      <Point>
+                        <XPos>0</XPos>
+                        <YPos>20.24109</YPos>
+                        <Flags>5</Flags>
+                      </Point>
+                      <Point>
+                        <XPos>0.89402</XPos>
+                        <YPos>-39.34514</YPos>
+                        <Flags>0</Flags>
+                      </Point>
+                      <Point>
+                        <XPos>3</XPos>
+                        <YPos>15.48927</YPos>
+                        <Flags>37</Flags>
+                      </Point>
+                    </PointList>
+                  </Curve>
+                </RTPC>
+              </RTPCList>
+            </Property>
+            <Property Name="ModFrequency" Type="Real32" Value="0.14" />
+            <Property Name="WetDryMix" Type="Real32" Value="67">
+              <RTPCList>
+                <RTPC Name="" ID="{6CCAD384-A0F4-471C-8B47-DAEB0996D4A2}">
+                  <ReferenceList>
+                    <Reference Name="ControlInput">
+                      <ObjectRef Name="RTPC_ext_doppler_factor" ID="{CC3BC5EA-D9E6-4DD2-8538-295E7563E5C6}" WorkUnitID="{99AED538-0B7F-42D5-942E-04185D409E05}" />
+                    </Reference>
+                  </ReferenceList>
+                  <Curve Name="" ID="{EC8BF57D-CDB0-4A9D-A3B0-E584CB190043}">
+                    <PropertyList>
+                      <Property Name="Flags" Type="int32" Value="1" />
+                    </PropertyList>
+                    <PointList>
+                      <Point>
+                        <XPos>0</XPos>
+                        <YPos>28.10243</YPos>
+                        <Flags>5</Flags>
+                      </Point>
+                      <Point>
+                        <XPos>1.00997</XPos>
+                        <YPos>-55.68911</YPos>
+                        <Flags>0</Flags>
+                      </Point>
+                      <Point>
+                        <XPos>2.1995</XPos>
+                        <YPos>0.40392</YPos>
+                        <Flags>0</Flags>
+                      </Point>
+                      <Point>
+                        <XPos>3</XPos>
+                        <YPos>-33.98333</YPos>
+                        <Flags>37</Flags>
+                      </Point>
+                    </PointList>
+                  </Curve>
+                </RTPC>
+              </RTPCList>
+            </Property>
+          </PropertyList>
+        </Effect>
+        <Effect Name="off_conc" ID="{E163A658-8E91-47E7-B849-E7F77FFB2B7F}" PluginName="Wwise Stereo Delay" CompanyID="0" PluginID="135" PluginType="3">
+          <PropertyList>
+            <Property Name="EnableFeedback" Type="bool" Value="True" />
+            <Property Name="LeftDelayTime" Type="Real32" Value="0.24" />
+            <Property Name="RightDelayTime" Type="Real32" Value="0.34" />
+            <Property Name="WetLevel" Type="Real32" Value="-10" />
+          </PropertyList>
+        </Effect>
+        <Effect Name="off_conc_guit" ID="{3FE3A330-59C7-46DC-BF55-293290313353}" PluginName="Wwise Stereo Delay" CompanyID="0" PluginID="135" PluginType="3">
+          <PropertyList>
+            <Property Name="EnableFeedback" Type="bool" Value="True" />
+            <Property Name="FrontRearBalance" Type="Real32" Value="100" />
+            <Property Name="LeftDelayTime" Type="Real32" Value="0.24" />
+            <Property Name="LeftFeedback" Type="Real32" Value="0" />
+            <Property Name="RightDelayTime" Type="Real32" Value="0.34" />
+            <Property Name="RightFeedback" Type="Real32" Value="0" />
+            <Property Name="WetLevel" Type="Real32" Value="-10" />
+          </PropertyList>
+        </Effect>
       </ChildrenList>
     </WorkUnit>
   </Presets>

@@ -67,6 +67,12 @@
           <Comment>Main caliber (85–114 mm) NPC</Comment>
           <ChildrenList></ChildrenList>
         </Event>
+        <Event Name="wpn_large_dual_PC" ID="{5DEC8C65-EF5D-4AC1-AD0E-A7D6441F77DD}">
+          <ChildrenList></ChildrenList>
+        </Event>
+        <Event Name="wpn_large_dual_NPC" ID="{E272C7DB-B434-4436-BB52-30EB80931222}">
+          <ChildrenList></ChildrenList>
+        </Event>
       </ChildrenList>
     </WorkUnit>
   </Events>

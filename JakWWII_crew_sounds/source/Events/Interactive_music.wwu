@@ -937,6 +937,44 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="43_Off" ID="{F1BE3255-93EE-4EF1-99F4-62C4F88CA3DC}" ShortID="1039383051">
+					<ChildrenList>
+						<Event Name="music_off_dron_intensive" ID="{1F5A05D2-5BB0-4239-8CFE-168531DE7311}">
+							<ChildrenList></ChildrenList>
+						</Event>
+						<Event Name="music_off_dron_relaxed" ID="{F3B8E1A5-990B-42C9-877A-C2B9E82714A8}">
+							<ChildrenList></ChildrenList>
+						</Event>
+						<Event Name="music_off_loading_screen" ID="{579F5AB7-665C-4297-8FE5-DBBF1F0CF164}">
+							<ChildrenList></ChildrenList>
+						</Event>
+						<Event Name="music_off_result_defeat" ID="{B61810C3-47EE-4763-A0EB-83CD5130C555}">
+							<ChildrenList></ChildrenList>
+						</Event>
+						<Event Name="music_off_result_win" ID="{D9A419DA-32E4-437B-B3D0-469F55ECCC30}">
+							<ChildrenList></ChildrenList>
+						</Event>
+						<Event Name="music_off_result_drawn" ID="{7F318EE3-8D9C-486A-9211-FB8E19A33505}">
+							<ChildrenList></ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="44_Epic_Suburbia" ID="{F3B1AA02-1CD2-4B94-866D-01F6E406A309}" ShortID="941313251">
+					<ChildrenList>
+						<Event Name="music_epic_suburbia_dron_battle" ID="{8B6A3054-AEF9-4779-8BEB-1E8EB178DF7C}">
+							<ChildrenList></ChildrenList>
+						</Event>
+						<Event Name="music_epic_suburbia_loading_screen" ID="{B4A55615-401C-4AD0-A4FF-95CFEC6850B9}">
+							<ChildrenList></ChildrenList>
+						</Event>
+						<Event Name="music_epic_suburbia_result_defeat" ID="{C6C9CAA6-E261-4176-A7C4-D7DE6B6B1850}">
+							<ChildrenList></ChildrenList>
+						</Event>
+						<Event Name="music_epic_suburbia_result_win" ID="{4642A81F-E4E5-44B3-9466-1DB6B2E1847C}">
+							<ChildrenList></ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

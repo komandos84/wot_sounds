@@ -46,6 +46,7 @@
 						<ObjectRef Name="19_Lakeville" ID="{2E82A6B7-94B2-4A85-8CB4-D4F66A1A3BD3}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="42_Kharkiv" ID="{099499BD-C098-4AD4-8E33-A5DBB2B7A594}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="06_Steppes" ID="{518655D4-B05D-4B00-9BC3-C38D6445004B}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="44_Epic_Suburbia" ID="{F3B1AA02-1CD2-4B94-866D-01F6E406A309}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="22_Siegfried" ID="{03B7EFA2-3840-4BA7-8107-B9728A843A1A}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="21_Karelia" ID="{BF9B757D-E0C3-4C9B-99B0-C68FC752112C}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="38_Great_wall" ID="{18010B1D-E87E-4CAA-8A7F-A11526A20093}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
@@ -56,6 +57,7 @@
 						<ObjectRef Name="music_dron_endbattle_stop" ID="{667BEFA3-519E-4D90-BFF5-F365AFA0FEAE}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="15_El_halluf" ID="{7584343D-EA7D-4DD2-BFD5-7BFA777CF4CD}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="39_Highway" ID="{29FFC44D-B870-4E14-910D-58077876EF2B}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="43_Off" ID="{F1BE3255-93EE-4EF1-99F4-62C4F88CA3DC}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="12_Murovanka" ID="{F72926FB-9722-4FAC-8F72-FAF8E0A06D49}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
