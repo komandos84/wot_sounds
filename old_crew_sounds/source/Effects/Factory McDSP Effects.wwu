@@ -418,16 +418,50 @@
 										</Effect>
 										<Effect Name="Lets_Do_Lunch" ID="{F8C5F019-CCF3-41C4-8AE3-DC16397E515F}" PluginName="McDSP FutzBox" CompanyID="256" PluginID="110" PluginType="3">
 											<PropertyList>
-												<Property Name="DistortionAmount" Type="Real32" Value="7.8"/>
-												<Property Name="DistortionMode" Type="int32" Value="2"/>
+												<Property Name="DistortionAmount" Type="Real32" Value="50.2"/>
+												<Property Name="DistortionIntensity" Type="Real32" Value="28"/>
+												<Property Name="DistortionRectify" Type="Real32" Value="25.6"/>
 												<Property Name="EQEnable" Type="bool" Value="False"/>
-												<Property Name="FiltersHPFFreq" Type="Real32" Value="302.7"/>
+												<Property Name="FiltersHPFFreq" Type="Real32" Value="263.6407"/>
 												<Property Name="FiltersHPFSlope" Type="int32" Value="1"/>
 												<Property Name="GateEnable" Type="bool" Value="False"/>
-												<Property Name="LoFiFilter" Type="Real32" Value="5.9"/>
-												<Property Name="NoiseEnable" Type="bool" Value="False"/>
-												<Property Name="SIMTuning" Type="Real32" Value="155.1"/>
-												<Property Name="SIMType" Type="int32" Value="119"/>
+												<Property Name="LoFiEnable" Type="bool" Value="False"/>
+												<Property Name="LoFiFilter" Type="Real32" Value="9.408772"/>
+												<Property Name="NoiseHPFFreq" Type="Real32" Value="396.3328"/>
+												<Property Name="NoiseLPFFreq" Type="Real32" Value="20000"/>
+												<Property Name="NoiseLevel" Type="Real32" Value="-22.95051">
+													<RTPCList>
+														<RTPC Name="" ID="{EA84BB77-A120-44C9-B0E4-A92CE6C743FB}" ShortID="878845861">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="RTPC_ext_menu_volume_master" ID="{65457B04-8212-4658-93FB-B97BCE4E8608}" WorkUnitID="{AB476AAA-6033-49AB-999C-C9F0407E711B}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{ACB3BDA6-DFCE-4866-848B-FEAF62240A84}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-96</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>-23</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="NoiseRange" Type="Real32" Value="-26.88"/>
+												<Property Name="NoiseRecovery" Type="Real32" Value="56.10867"/>
+												<Property Name="NoiseThresh" Type="Real32" Value="-21.6"/>
+												<Property Name="SIMTuning" Type="Real32" Value="132.6591"/>
+												<Property Name="SIMType" Type="int32" Value="81"/>
 											</PropertyList>
 										</Effect>
 										<Effect Name="Look_Ma_No_Hands" ID="{457CE4B2-A1A2-4776-912A-C986198B3B67}" PluginName="McDSP FutzBox" CompanyID="256" PluginID="110" PluginType="3">
@@ -720,13 +754,13 @@
 												<Property Name="FiltersLPFFreq" Type="Real32" Value="3660"/>
 												<Property Name="FiltersLPFQ" Type="Real32" Value="85.8"/>
 												<Property Name="GateEnable" Type="bool" Value="False"/>
-												<Property Name="LoFiDownSampleIndex" Type="int32" Value="5"/>
+												<Property Name="LoFiDownSampleIndex" Type="int32" Value="4"/>
 												<Property Name="NoiseHPFFreq" Type="Real32" Value="2440"/>
 												<Property Name="NoiseLPFFreq" Type="Real32" Value="9540"/>
-												<Property Name="NoiseLevel" Type="Real32" Value="-15.8"/>
+												<Property Name="NoiseLevel" Type="Real32" Value="-5.110903"/>
 												<Property Name="NoiseThresh" Type="Real32" Value="-17.7"/>
 												<Property Name="SIMTuning" Type="Real32" Value="148.5"/>
-												<Property Name="SIMType" Type="int32" Value="154"/>
+												<Property Name="SIMType" Type="int32" Value="60"/>
 											</PropertyList>
 										</Effect>
 										<Effect Name="Dialing_For_Dollars" ID="{9BBEC2B4-A612-4F86-9437-277A1A261A48}" PluginName="McDSP FutzBox" CompanyID="256" PluginID="110" PluginType="3">

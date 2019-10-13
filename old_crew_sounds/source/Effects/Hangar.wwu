@@ -214,6 +214,29 @@
 						</Effect>
 					</ChildrenList>
 				</Folder>
+				<Effect Name="hangar_h07_newyear_2018_album_radio_FX" ID="{A100E7A5-5E6B-464A-94E6-2259753DACAC}" PluginName="McDSP FutzBox" CompanyID="256" PluginID="110" PluginType="3">
+					<PropertyList>
+						<Property Name="DistortionAmount" Type="Real32" Value="100"/>
+						<Property Name="DistortionMode" Type="int32" Value="2"/>
+						<Property Name="DistortionRectify" Type="Real32" Value="100"/>
+						<Property Name="FiltersHPFFreq" Type="Real32" Value="455.0509"/>
+						<Property Name="FiltersHPFSlope" Type="int32" Value="1"/>
+						<Property Name="FiltersLPFFreq" Type="Real32" Value="5191.257"/>
+						<Property Name="FiltersLPFSlope" Type="int32" Value="1"/>
+						<Property Name="NoiseHPFFreq" Type="Real32" Value="154.9031"/>
+						<Property Name="NoiseLevel" Type="Real32" Value="-27.81253"/>
+						<Property Name="NoiseThresh" Type="Real32" Value="-5.76"/>
+						<Property Name="SIMType" Type="int32" Value="45"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="hangar_h07_newyear_2018_Stereo_Delay" ID="{CB319A44-2882-483C-AB6F-E51B555B723F}" PluginName="Wwise Stereo Delay" CompanyID="0" PluginID="135" PluginType="3">
+					<PropertyList>
+						<Property Name="DryLevel" Type="Real32" Value="-96"/>
+						<Property Name="EnableFeedback" Type="bool" Value="True"/>
+						<Property Name="LeftDelayTime" Type="Real32" Value="0.208"/>
+						<Property Name="RightDelayTime" Type="Real32" Value="0.312"/>
+					</PropertyList>
+				</Effect>
 			</ChildrenList>
 		</WorkUnit>
 	</Effects>

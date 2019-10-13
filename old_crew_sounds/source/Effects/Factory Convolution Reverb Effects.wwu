@@ -2866,12 +2866,12 @@ IR Pre-delay: 5ms </Comment>
 					<PointList>
 						<Point>
 							<XPos>0</XPos>
-							<YPos>0</YPos>
+							<YPos>-2.5641</YPos>
 							<Flags>5</Flags>
 						</Point>
 						<Point>
 							<XPos>4.69891666666667</XPos>
-							<YPos>0</YPos>
+							<YPos>-9.23077</YPos>
 							<Flags>37</Flags>
 						</Point>
 					</PointList>
@@ -3981,7 +3981,7 @@ IR Pre-delay: 6ms</Comment>
 										</Property>
 										<Property Name="IRConvolutionThreshold" Type="Real32">
 											<ValueList>
-												<Value>-81</Value>
+												<Value>-55</Value>
 											</ValueList>
 										</Property>
 										<Property Name="IRLPFAutomate" Type="bool">
@@ -4711,6 +4711,11 @@ IR Pre-delay: 0ms
 												<Value>-96</Value>
 											</ValueList>
 										</Property>
+										<Property Name="IRConvolutionSmooth" Type="Real32">
+											<ValueList>
+												<Value>25</Value>
+											</ValueList>
+										</Property>
 										<Property Name="IRConvolutionStop" Type="Real64">
 											<ValueList>
 												<Value>1.26684806743421</Value>
@@ -4718,7 +4723,7 @@ IR Pre-delay: 0ms
 										</Property>
 										<Property Name="IRConvolutionThreshold" Type="Real32">
 											<ValueList>
-												<Value>-76</Value>
+												<Value>-60</Value>
 											</ValueList>
 										</Property>
 										<Property Name="IRLPFAutomate" Type="bool">

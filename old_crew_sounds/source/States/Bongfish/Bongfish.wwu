@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{16BCF1C6-D7E5-4805-92A0-89DDC2AEA401}" SchemaVersion="85">
+	<States>
+		<WorkUnit Name="Bongfish" ID="{16BCF1C6-D7E5-4805-92A0-89DDC2AEA401}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="eb_music_states" ID="{8CC4130B-0AD8-404D-A405-595B93549A49}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{2787A7E2-F1C9-494C-AC3F-F5FFE78317E3}"/>
+						<State Name="loading" ID="{C72748FD-622E-427B-B344-3E262C6B71CD}"/>
+						<State Name="relaxed" ID="{10B73A69-A961-4EB2-AF0A-C513E64E9714}"/>
+						<State Name="intense" ID="{B198BECF-994C-4AF4-B111-5F9BA5A46D2C}"/>
+						<State Name="awaiting_players" ID="{1A476D33-5646-4A3E-8848-D9AC0373AD2B}"/>
+						<State Name="overtime" ID="{20DC710B-C4A4-4386-A38C-D1D188B857E0}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="eb_music_state" ID="{73A37378-8B63-40B4-8501-2E563539FA6D}">
+					<ChildrenList>
+						<State Name="None" ID="{975E8ED9-0B1F-43BB-9043-BEC5949A8793}"/>
+						<State Name="intensity_low" ID="{F021AEFA-EF28-487F-B1BC-8CBF8CE92E9B}"/>
+						<State Name="transition" ID="{393F8E5E-511C-465D-BBBC-2E9C5BB9EBAF}"/>
+						<State Name="intensity_mid" ID="{D0BB1626-3200-47B9-8037-2CBC4591E1FA}"/>
+						<State Name="intensity_high" ID="{0800A579-2A7A-4A7E-AD17-9B6BE7D64799}"/>
+						<State Name="overtime" ID="{BC9B1828-8C6A-4E9D-BFC1-132E24DDFC98}"/>
+						<State Name="stop" ID="{9331D138-A40F-4D3F-ACFE-834F73373A1C}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="eb_game_progress" ID="{B5EA491D-2CB2-4833-A15E-4931E201B392}">
+					<ChildrenList>
+						<State Name="None" ID="{40373931-24F6-49E4-964E-455781057535}"/>
+						<State Name="zone" ID="{EC93C072-1F1B-4E96-8B4D-A7850D5796E5}"/>
+						<State Name="transition" ID="{4A97614C-CEDB-4740-8287-735C7C8B2666}"/>
+						<State Name="main_objectives" ID="{83D980B9-B897-4180-B69B-660642DC3966}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="STATE_eb_waiting" ID="{0EA20809-F530-4B41-87D9-1382A974AB1F}">
+					<ChildrenList>
+						<State Name="None" ID="{E13E124E-7EA2-43FF-8B82-F99C012E4BB3}"/>
+						<State Name="STATE_eb_waiting_off" ID="{43C6AA98-8C29-40BE-98B9-23792B5DC810}"/>
+						<State Name="STATE_eb_waiting_camera" ID="{F3454CFD-C1D2-4E7E-AFEC-8A5CECED7CFE}"/>
+						<State Name="STATE_eb_waiting_overlay" ID="{2526A12B-58E4-4EE3-AB0A-392D6B12024F}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="STATE_eb_ability_inspiration" ID="{D2D3F1A2-EAF4-48E1-B3E2-CD8DAD8C38C4}">
+					<ChildrenList>
+						<State Name="None" ID="{0E84E8DF-F291-487A-AE68-F2AC9EEEE609}"/>
+						<State Name="STATE_eb_ability_inspiration_on" ID="{7C7393E0-1756-453D-8EC6-21024D19E075}"/>
+						<State Name="STATE_eb_ability_inspiration_off" ID="{DA9BFF6A-798C-45B0-A166-095C419BC073}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="STATE_eb_dangerous_area" ID="{14931A28-58EC-41FB-9C2F-1EEE1C79CFA6}">
+					<ChildrenList>
+						<State Name="None" ID="{77DBA5C7-8C7C-4B21-9C00-D13819C588AC}"/>
+						<State Name="STATE_eb_dangerous_area_on" ID="{A19F453B-071F-4FFF-9ADA-787D7D7983E6}"/>
+						<State Name="STATE_eb_dangerous_area_off" ID="{7B90C32E-6E02-4505-9D38-789E6FEDC796}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

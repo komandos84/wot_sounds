@@ -18,9 +18,16 @@
 				</Query>
 				<Query Name="Set_stream_for_music_source" ID="{D3A978F3-7381-40BD-A231-5ECA2B8DCC30}">
 					<PropertyList>
-						<Property Name="ObjectType" Type="int32" Value="665"/>
-						<Property Name="StartFromHereObject" Type="string" Value="{9C8371DE-5369-41BE-B448-D618366F7B43}"/>
+						<Property Name="ObjectType" Type="int32" Value="600"/>
+						<Property Name="StartFromHereObject" Type="string" Value="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}"/>
 					</PropertyList>
+					<ChildrenList>
+						<SearchCriteria Name="GeneralName" ID="{FC1A5862-A6BA-449A-B5C3-26225B4AAAD2}" SearchOperationID="{82CCCD47-591B-4BD8-B3CE-89A8172A1802}">
+							<PropertyList>
+								<Property Name="UserString" Type="string" Value="*loading_*"/>
+							</PropertyList>
+						</SearchCriteria>
+					</ChildrenList>
 				</Query>
 			</ChildrenList>
 		</WorkUnit>

@@ -165,6 +165,7 @@
 							<PropertyList>
 								<Property Name="DelayTime" Type="Real32" Value="0.25"/>
 								<Property Name="ProcessLFE" Type="bool" Value="False"/>
+								<Property Name="WetDryMix" Type="Real32" Value="0"/>
 							</PropertyList>
 						</Effect>
 						<Effect Name="Nearly_Forever" ID="{38550FDA-9236-4FC5-8AE0-68DB08164B25}" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
@@ -178,6 +179,7 @@
 							<PropertyList>
 								<Property Name="DelayTime" Type="Real32" Value="0.25"/>
 								<Property Name="ProcessLFE" Type="bool" Value="False"/>
+								<Property Name="WetDryMix" Type="Real32" Value="0"/>
 							</PropertyList>
 						</Effect>
 					</ChildrenList>
@@ -1566,6 +1568,56 @@
 										<Property Name="ReverbLevel" Type="Real32" Value="-37"/>
 										<Property Name="RoomSize" Type="Real32" Value="73"/>
 										<Property Name="StereoWidth" Type="Real32" Value="28"/>
+									</PropertyList>
+								</Effect>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="hangar_reverb_common" ID="{A38F1B77-910C-4934-AE5D-05E5070BAA14}" ShortID="965475793">
+							<ChildrenList>
+								<Effect Name="reverbRoom_hangar_long" ID="{EB43AD17-485D-4CBC-8244-5650186FC5C6}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<PropertyList>
+										<Property Name="DecayTime" Type="Real32" Value="3"/>
+										<Property Name="Density" Type="Real32" Value="100"/>
+										<Property Name="Diffusion" Type="Real32" Value="0"/>
+										<Property Name="DryLevel" Type="Real32" Value="-96"/>
+										<Property Name="ERPattern" Type="int32" Value="9"/>
+										<Property Name="EnableToneControls" Type="bool" Value="True"/>
+										<Property Name="Filter1Curve" Type="int32" Value="1"/>
+										<Property Name="Filter1Freq" Type="Real32" Value="200"/>
+										<Property Name="Filter1Gain" Type="Real32" Value="6"/>
+										<Property Name="Filter1Q" Type="Real32" Value="2"/>
+										<Property Name="Filter2Freq" Type="Real32" Value="2500"/>
+										<Property Name="Filter2Gain" Type="Real32" Value="-9"/>
+										<Property Name="Filter3Freq" Type="Real32" Value="6000"/>
+										<Property Name="Filter3Gain" Type="Real32" Value="-15"/>
+										<Property Name="HFDamping" Type="Real32" Value="2"/>
+										<Property Name="PreDelay" Type="Real32" Value="0"/>
+										<Property Name="Quality" Type="int32" Value="10"/>
+										<Property Name="ReverbLevel" Type="Real32" Value="0"/>
+									</PropertyList>
+								</Effect>
+								<Effect Name="reverbRoom_hangar_long_dark" ID="{89829C81-2314-4407-873C-7BEFCB4DEDF6}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<PropertyList>
+										<Property Name="DecayTime" Type="Real32" Value="3"/>
+										<Property Name="Density" Type="Real32" Value="100"/>
+										<Property Name="Diffusion" Type="Real32" Value="0"/>
+										<Property Name="DryLevel" Type="Real32" Value="-96"/>
+										<Property Name="ERPattern" Type="int32" Value="9"/>
+										<Property Name="EnableToneControls" Type="bool" Value="True"/>
+										<Property Name="Filter1Curve" Type="int32" Value="1"/>
+										<Property Name="Filter1Freq" Type="Real32" Value="1000"/>
+										<Property Name="Filter1Gain" Type="Real32" Value="-6"/>
+										<Property Name="Filter1Q" Type="Real32" Value="3"/>
+										<Property Name="Filter2Freq" Type="Real32" Value="3000"/>
+										<Property Name="Filter2Gain" Type="Real32" Value="-9"/>
+										<Property Name="Filter2Q" Type="Real32" Value="2"/>
+										<Property Name="Filter3Freq" Type="Real32" Value="6000"/>
+										<Property Name="Filter3Gain" Type="Real32" Value="-15"/>
+										<Property Name="HFDamping" Type="Real32" Value="3.5"/>
+										<Property Name="PreDelay" Type="Real32" Value="0"/>
+										<Property Name="Quality" Type="int32" Value="10"/>
+										<Property Name="ReverbLevel" Type="Real32" Value="-22"/>
+										<Property Name="RoomSize" Type="Real32" Value="-100"/>
 									</PropertyList>
 								</Effect>
 							</ChildrenList>

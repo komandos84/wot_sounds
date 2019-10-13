@@ -425,6 +425,18 @@
 								</SearchCriteria>
 							</ChildrenList>
 						</Query>
+						<Query Name="Loading_screen_top_containers" ID="{119241C1-8650-43A3-B460-5C80C435B07D}">
+							<PropertyList>
+								<Property Name="ObjectType" Type="int32" Value="645"/>
+							</PropertyList>
+							<ChildrenList>
+								<SearchCriteria Name="GeneralName" ID="{E1041823-CCAC-402C-ADA8-906CD83C8BDE}" SearchOperationID="{82CCCD47-591B-4BD8-B3CE-89A8172A1802}">
+									<PropertyList>
+										<Property Name="UserString" Type="string" Value="*loading_screen"/>
+									</PropertyList>
+								</SearchCriteria>
+							</ChildrenList>
+						</Query>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Actor-Mixer Hierarchy" ID="{75E26115-FC3D-4E25-99F9-448BC918921E}" ShortID="657523609">

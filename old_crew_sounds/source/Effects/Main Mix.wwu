@@ -545,7 +545,12 @@
 						<Property Name="OutputLevel" Type="Real32" Value="5"/>
 					</PropertyList>
 				</Effect>
-				<Effect Name="vo_ducking" ID="{2AB5D24F-CEEB-45B2-8AD2-A7B763883C77}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">					<PluginData>
+				<Effect Name="vo_ducking" ID="{2AB5D24F-CEEB-45B2-8AD2-A7B763883C77}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+					<PropertyList>
+						<Property Name="Hold" Type="Real32" Value="0.5"/>
+						<Property Name="ReleaseTime" Type="Real32" Value="0.5"/>
+					</PropertyList>
+					<PluginData>
 	<GameParameter Name="RTPC_int_vo_ducking" ID="{1E252F1B-39B9-4251-8D5D-A20E4F4AF0BF}"/>
 </PluginData>
 				</Effect>
@@ -1238,6 +1243,135 @@
 				<Effect Name="eng_trds_gain_NPC" ID="{46EACD14-D29A-48CC-AD9C-DB735F8F719B}" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
 					<PropertyList>
 						<Property Name="FullBandGain" Type="Real32" Value="4"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="eng_Cadilac42_ext_comp" ID="{D3C39F82-E8CD-46BF-8EDE-827555086D56}" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+					<PropertyList>
+						<Property Name="AttackTime" Type="Real32" Value="0.001"/>
+						<Property Name="OutputGain" Type="Real32" Value="2.8"/>
+						<Property Name="Ratio" Type="Real32" Value="1.3"/>
+						<Property Name="ReleaseTime" Type="Real32" Value="0.25"/>
+						<Property Name="Threshold" Type="Real32" Value="-38"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="eng_Cadilac42_ext_eq" ID="{56B99657-6EC2-49BE-A683-D8D5BE584204}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FilterTypeBand1" Type="int32" Value="6"/>
+						<Property Name="FilterTypeBand2" Type="int32" Value="5"/>
+						<Property Name="FilterTypeBand3" Type="int32" Value="6"/>
+						<Property Name="FrequencyBand1" Type="Real32" Value="16930"/>
+						<Property Name="FrequencyBand2" Type="Real32" Value="1502"/>
+						<Property Name="FrequencyBand3" Type="Real32" Value="2651"/>
+						<Property Name="GainBand1" Type="Real32" Value="-2"/>
+						<Property Name="GainBand2" Type="Real32" Value="4"/>
+						<Property Name="GainBand3" Type="Real32" Value="-3"/>
+						<Property Name="QFactorBand1" Type="Real32" Value="0.5"/>
+						<Property Name="QFactorBand2" Type="Real32" Value="0.5"/>
+						<Property Name="QFactorBand3" Type="Real32" Value="0.5"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="eng_tremolo_new_client_phys_01" ID="{0048695F-9B6D-4A50-83A2-9C7E61A1CD96}" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+					<PropertyList>
+						<Property Name="ModDepth" Type="Real32" Value="80"/>
+						<Property Name="ModFrequency" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{7A23F3DF-D5C7-4EC4-9AA0-68EFDDA33CF2}" ShortID="721223805">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_ext_client_rpm_abs" ID="{DC308E72-9AF9-4D25-9079-A17693CD1A21}" WorkUnitID="{87FF0202-7DD4-4D0F-A267-00520CCB358C}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{8A3A2205-DD8D-47D5-8B0F-21D6A78178E8}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="5"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>8</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>3500</XPos>
+												<YPos>30</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+				<Effect Name="eng_tremolo_new_client_phys_02" ID="{EF38256B-F2ED-477F-83DF-D1D493CAB754}" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+					<PropertyList>
+						<Property Name="ModDepth" Type="Real32" Value="80"/>
+						<Property Name="ModFrequency" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{729A4D93-42AF-491B-8566-5963BF4A5FD4}" ShortID="800544677">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_ext_client_rpm_abs" ID="{DC308E72-9AF9-4D25-9079-A17693CD1A21}" WorkUnitID="{87FF0202-7DD4-4D0F-A267-00520CCB358C}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{F6607228-994D-4B56-8167-4822468692FD}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="5"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>4</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>3500</XPos>
+												<YPos>18</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+				<Effect Name="eng_tremolo_new_client_phys_03" ID="{3C5723F5-272E-4401-9A3C-D0AC49E818C6}" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+					<PropertyList>
+						<Property Name="ModDepth" Type="Real32" Value="80"/>
+						<Property Name="ModFrequency" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{A695391F-4AF9-414E-8744-AEAEC17C5C89}" ShortID="626304143">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_ext_client_rpm_abs" ID="{DC308E72-9AF9-4D25-9079-A17693CD1A21}" WorkUnitID="{87FF0202-7DD4-4D0F-A267-00520CCB358C}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{89EF7352-B6FA-46FC-9E72-E90CA21F43BB}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="5"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>1</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>2000</XPos>
+												<YPos>7</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>3500</XPos>
+												<YPos>12</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
 					</PropertyList>
 				</Effect>
 			</ChildrenList>

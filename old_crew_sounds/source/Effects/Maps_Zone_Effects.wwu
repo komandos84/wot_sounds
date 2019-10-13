@@ -36,6 +36,11 @@
 								<Value>-96</Value>
 							</ValueList>
 						</Property>
+						<Property Name="IRConvolutionSmooth" Type="Real32">
+							<ValueList>
+								<Value>25</Value>
+							</ValueList>
+						</Property>
 						<Property Name="IRConvolutionStop" Type="Real64">
 							<ValueList>
 								<Value>3.68995464852608</Value>
@@ -43,7 +48,7 @@
 						</Property>
 						<Property Name="IRConvolutionThreshold" Type="Real32">
 							<ValueList>
-								<Value>-65</Value>
+								<Value>-60</Value>
 							</ValueList>
 						</Property>
 						<Property Name="IRGraphicEQAutomate" Type="bool">
@@ -59,16 +64,6 @@
 						<Property Name="PreDelay" Type="Real32">
 							<ValueList>
 								<Value>53</Value>
-							</ValueList>
-						</Property>
-						<Property Name="StereoWidth" Type="Real32">
-							<ValueList>
-								<Value>90</Value>
-							</ValueList>
-						</Property>
-						<Property Name="WetLevel" Type="Real32">
-							<ValueList>
-								<Value>11</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>

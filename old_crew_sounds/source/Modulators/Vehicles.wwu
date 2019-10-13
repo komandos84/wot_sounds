@@ -62,6 +62,40 @@
 						<Property Name="EnvelopeSustainTime" Type="Real64" Value="1"/>
 					</PropertyList>
 				</ModulatorEnvelope>
+				<ModulatorLfo Name="LFO_eng_damage_risk" ID="{1EBCEF64-886C-4020-805D-77E08985239D}" ShortID="542140772">
+					<PropertyList>
+						<Property Name="LfoDepth" Type="Real64" Value="0">
+							<RTPCList>
+								<RTPC Name="" ID="{A0F3C66D-C61A-4F91-BE14-3D220F3D08AD}" ShortID="425706507">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_ext_engine_damage_risk" ID="{816F4F41-DFDB-4C4C-A146-37A960F792E4}" WorkUnitID="{87FF0202-7DD4-4D0F-A267-00520CCB358C}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{3F8C85DB-3631-4A13-B22B-BB6D862C6EFC}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>100</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="LfoFrequency" Type="Real64" Value="10"/>
+						<Property Name="LfoWaveform" Type="int32" Value="5"/>
+					</PropertyList>
+				</ModulatorLfo>
 			</ChildrenList>
 		</WorkUnit>
 	</Modulators>

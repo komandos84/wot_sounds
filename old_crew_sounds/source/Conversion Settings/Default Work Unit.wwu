@@ -50,11 +50,7 @@
 							</ConversionPlugin>
 						</ConversionPluginInfo>
 						<ConversionPluginInfo Platform="Windows_LowRes">
-							<ConversionPlugin Name="" ID="{A4893EA5-9D46-44EF-B72D-26949E690FC0}" PluginName="Vorbis" CompanyID="0" PluginID="4">
-								<PropertyList>
-									<Property Name="QualityFactor" Type="Real32" Value="10"/>
-								</PropertyList>
-							</ConversionPlugin>
+							<ConversionPlugin Name="" ID="{E57056B6-8E33-4554-85F4-72860609D382}" PluginName="PCM" CompanyID="0" PluginID="1"/>
 						</ConversionPluginInfo>
 					</ConversionPluginInfoList>
 				</Conversion>
@@ -75,13 +71,13 @@
 						<Property Name="MaxSampleRate" Type="int32">
 							<ValueList>
 								<Value Platform="Windows_HighRes">48000</Value>
-								<Value Platform="Windows_LowRes">48000</Value>
+								<Value Platform="Windows_LowRes">0</Value>
 							</ValueList>
 						</Property>
 						<Property Name="MinSampleRate" Type="int32">
 							<ValueList>
 								<Value Platform="Windows_HighRes">18000</Value>
-								<Value Platform="Windows_LowRes">18000</Value>
+								<Value Platform="Windows_LowRes">0</Value>
 							</ValueList>
 						</Property>
 						<Property Name="RemoveDCOffset" Type="bool">
@@ -97,7 +93,7 @@
 						<Property Name="SampleRate" Type="int32">
 							<ValueList>
 								<Value Platform="Windows_HighRes">2</Value>
-								<Value Platform="Windows_LowRes">2</Value>
+								<Value Platform="Windows_LowRes">0</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -110,11 +106,7 @@
 							</ConversionPlugin>
 						</ConversionPluginInfo>
 						<ConversionPluginInfo Platform="Windows_LowRes">
-							<ConversionPlugin Name="" ID="{39CF6885-99DC-42DA-A6D3-6CBCA354819D}" PluginName="Vorbis" CompanyID="0" PluginID="4">
-								<PropertyList>
-									<Property Name="QualityFactor" Type="Real32" Value="8"/>
-								</PropertyList>
-							</ConversionPlugin>
+							<ConversionPlugin Name="" ID="{94BEBD9F-E3BB-4FC2-9B5D-D6308CB8D6E0}" PluginName="PCM" CompanyID="0" PluginID="1"/>
 						</ConversionPluginInfo>
 					</ConversionPluginInfoList>
 				</Conversion>
@@ -135,13 +127,13 @@
 						<Property Name="MaxSampleRate" Type="int32">
 							<ValueList>
 								<Value Platform="Windows_HighRes">48000</Value>
-								<Value Platform="Windows_LowRes">48000</Value>
+								<Value Platform="Windows_LowRes">0</Value>
 							</ValueList>
 						</Property>
 						<Property Name="MinSampleRate" Type="int32">
 							<ValueList>
 								<Value Platform="Windows_HighRes">16000</Value>
-								<Value Platform="Windows_LowRes">16000</Value>
+								<Value Platform="Windows_LowRes">0</Value>
 							</ValueList>
 						</Property>
 						<Property Name="RemoveDCOffset" Type="bool">
@@ -167,7 +159,7 @@
 							<ConversionPlugin Name="" ID="{20DCB40E-842F-4864-883E-63DC7B4D3BC0}" PluginName="ADPCM" CompanyID="0" PluginID="2"/>
 						</ConversionPluginInfo>
 						<ConversionPluginInfo Platform="Windows_LowRes">
-							<ConversionPlugin Name="" ID="{41D9A5EC-2A36-4C77-BC18-6C311A4F6CC0}" PluginName="ADPCM" CompanyID="0" PluginID="2"/>
+							<ConversionPlugin Name="" ID="{8392E122-71E4-4350-B8E5-36C62503D782}" PluginName="PCM" CompanyID="0" PluginID="1"/>
 						</ConversionPluginInfo>
 					</ConversionPluginInfoList>
 				</Conversion>
@@ -188,13 +180,13 @@
 						<Property Name="MaxSampleRate" Type="int32">
 							<ValueList>
 								<Value Platform="Windows_HighRes">48000</Value>
-								<Value Platform="Windows_LowRes">48000</Value>
+								<Value Platform="Windows_LowRes">0</Value>
 							</ValueList>
 						</Property>
 						<Property Name="MinSampleRate" Type="int32">
 							<ValueList>
 								<Value Platform="Windows_HighRes">22050</Value>
-								<Value Platform="Windows_LowRes">22050</Value>
+								<Value Platform="Windows_LowRes">0</Value>
 							</ValueList>
 						</Property>
 						<Property Name="RemoveDCOffset" Type="bool">
@@ -210,7 +202,7 @@
 						<Property Name="SampleRate" Type="int32">
 							<ValueList>
 								<Value Platform="Windows_HighRes">2</Value>
-								<Value Platform="Windows_LowRes">2</Value>
+								<Value Platform="Windows_LowRes">0</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -224,12 +216,7 @@
 							</ConversionPlugin>
 						</ConversionPluginInfo>
 						<ConversionPluginInfo Platform="Windows_LowRes">
-							<ConversionPlugin Name="" ID="{D11B389C-332F-4F8E-8DB8-460F9F269D53}" PluginName="Vorbis" CompanyID="0" PluginID="4">
-								<PropertyList>
-									<Property Name="QualityFactor" Type="Real32" Value="8"/>
-									<Property Name="SeekTableGranularity" Type="int32" Value="0"/>
-								</PropertyList>
-							</ConversionPlugin>
+							<ConversionPlugin Name="" ID="{03F0A302-47B3-4194-B48F-F11113F7A8F4}" PluginName="PCM" CompanyID="0" PluginID="1"/>
 						</ConversionPluginInfo>
 					</ConversionPluginInfoList>
 				</Conversion>
@@ -250,13 +237,13 @@
 						<Property Name="MaxSampleRate" Type="int32">
 							<ValueList>
 								<Value Platform="Windows_HighRes">48000</Value>
-								<Value Platform="Windows_LowRes">48000</Value>
+								<Value Platform="Windows_LowRes">0</Value>
 							</ValueList>
 						</Property>
 						<Property Name="MinSampleRate" Type="int32">
 							<ValueList>
 								<Value Platform="Windows_HighRes">48000</Value>
-								<Value Platform="Windows_LowRes">48000</Value>
+								<Value Platform="Windows_LowRes">0</Value>
 							</ValueList>
 						</Property>
 						<Property Name="RemoveDCOffset" Type="bool">
@@ -272,7 +259,7 @@
 						<Property Name="SampleRate" Type="int32">
 							<ValueList>
 								<Value Platform="Windows_HighRes">48000</Value>
-								<Value Platform="Windows_LowRes">48000</Value>
+								<Value Platform="Windows_LowRes">0</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -285,11 +272,7 @@
 							</ConversionPlugin>
 						</ConversionPluginInfo>
 						<ConversionPluginInfo Platform="Windows_LowRes">
-							<ConversionPlugin Name="" ID="{12FEF595-6D2D-423E-81C2-7D8A5672A94E}" PluginName="Vorbis" CompanyID="0" PluginID="4">
-								<PropertyList>
-									<Property Name="QualityFactor" Type="Real32" Value="9.2"/>
-								</PropertyList>
-							</ConversionPlugin>
+							<ConversionPlugin Name="" ID="{EECF23A6-0CA6-4173-85A5-7B44B1A6B4EF}" PluginName="PCM" CompanyID="0" PluginID="1"/>
 						</ConversionPluginInfo>
 					</ConversionPluginInfoList>
 				</Conversion>
@@ -310,13 +293,13 @@
 						<Property Name="MaxSampleRate" Type="int32">
 							<ValueList>
 								<Value Platform="Windows_HighRes">48000</Value>
-								<Value Platform="Windows_LowRes">48000</Value>
+								<Value Platform="Windows_LowRes">0</Value>
 							</ValueList>
 						</Property>
 						<Property Name="MinSampleRate" Type="int32">
 							<ValueList>
 								<Value Platform="Windows_HighRes">22050</Value>
-								<Value Platform="Windows_LowRes">22050</Value>
+								<Value Platform="Windows_LowRes">0</Value>
 							</ValueList>
 						</Property>
 						<Property Name="RemoveDCOffset" Type="bool">
@@ -332,7 +315,7 @@
 						<Property Name="SampleRate" Type="int32">
 							<ValueList>
 								<Value Platform="Windows_HighRes">2</Value>
-								<Value Platform="Windows_LowRes">2</Value>
+								<Value Platform="Windows_LowRes">0</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -345,11 +328,7 @@
 							</ConversionPlugin>
 						</ConversionPluginInfo>
 						<ConversionPluginInfo Platform="Windows_LowRes">
-							<ConversionPlugin Name="" ID="{442FCB10-A917-49FE-BB4B-FCEEF260DCDD}" PluginName="Vorbis" CompanyID="0" PluginID="4">
-								<PropertyList>
-									<Property Name="QualityFactor" Type="Real32" Value="8"/>
-								</PropertyList>
-							</ConversionPlugin>
+							<ConversionPlugin Name="" ID="{624897B0-2013-4E09-BE06-E067825A2601}" PluginName="PCM" CompanyID="0" PluginID="1"/>
 						</ConversionPluginInfo>
 					</ConversionPluginInfoList>
 				</Conversion>
@@ -392,7 +371,7 @@
 						<Property Name="SampleRate" Type="int32">
 							<ValueList>
 								<Value Platform="Windows_HighRes">16000</Value>
-								<Value Platform="Windows_LowRes">16000</Value>
+								<Value Platform="Windows_LowRes">0</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -401,7 +380,7 @@
 							<ConversionPlugin Name="" ID="{76EB0AC5-377C-465C-9A13-A53D6B7D5C9A}" PluginName="ADPCM" CompanyID="0" PluginID="2"/>
 						</ConversionPluginInfo>
 						<ConversionPluginInfo Platform="Windows_LowRes">
-							<ConversionPlugin Name="" ID="{A2CFD61E-10D9-4DCA-BC04-AD6713897840}" PluginName="ADPCM" CompanyID="0" PluginID="2"/>
+							<ConversionPlugin Name="" ID="{DC6D478B-0280-4EFB-8DFB-B95956064027}" PluginName="PCM" CompanyID="0" PluginID="1"/>
 						</ConversionPluginInfo>
 					</ConversionPluginInfoList>
 				</Conversion>
@@ -422,13 +401,13 @@
 						<Property Name="MaxSampleRate" Type="int32">
 							<ValueList>
 								<Value Platform="Windows_HighRes">48000</Value>
-								<Value Platform="Windows_LowRes">48000</Value>
+								<Value Platform="Windows_LowRes">0</Value>
 							</ValueList>
 						</Property>
 						<Property Name="MinSampleRate" Type="int32">
 							<ValueList>
 								<Value Platform="Windows_HighRes">20000</Value>
-								<Value Platform="Windows_LowRes">20000</Value>
+								<Value Platform="Windows_LowRes">0</Value>
 							</ValueList>
 						</Property>
 						<Property Name="RemoveDCOffset" Type="bool">
@@ -454,7 +433,7 @@
 							<ConversionPlugin Name="" ID="{B76D6029-511E-4ACF-BEE8-3C49FC5AAAB6}" PluginName="ADPCM" CompanyID="0" PluginID="2"/>
 						</ConversionPluginInfo>
 						<ConversionPluginInfo Platform="Windows_LowRes">
-							<ConversionPlugin Name="" ID="{B7EB2351-D80B-403B-A4BE-8461D01C550D}" PluginName="ADPCM" CompanyID="0" PluginID="2"/>
+							<ConversionPlugin Name="" ID="{26FA3EFA-82FA-44EF-859B-06D0D8C9771C}" PluginName="PCM" CompanyID="0" PluginID="1"/>
 						</ConversionPluginInfo>
 					</ConversionPluginInfoList>
 				</Conversion>
@@ -481,7 +460,7 @@
 						<Property Name="MinSampleRate" Type="int32">
 							<ValueList>
 								<Value Platform="Windows_HighRes">36000</Value>
-								<Value Platform="Windows_LowRes">36000</Value>
+								<Value Platform="Windows_LowRes">0</Value>
 							</ValueList>
 						</Property>
 						<Property Name="SRConversionQuality" Type="int32">
@@ -492,7 +471,7 @@
 						<Property Name="SampleRate" Type="int32">
 							<ValueList>
 								<Value Platform="Windows_HighRes">3</Value>
-								<Value Platform="Windows_LowRes">3</Value>
+								<Value Platform="Windows_LowRes">0</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -506,12 +485,7 @@
 							</ConversionPlugin>
 						</ConversionPluginInfo>
 						<ConversionPluginInfo Platform="Windows_LowRes">
-							<ConversionPlugin Name="" ID="{A7BD8E33-A552-4AF4-8D02-588F22C34D75}" PluginName="Vorbis" CompanyID="0" PluginID="4">
-								<PropertyList>
-									<Property Name="BitrateManagmentMode" Type="int32" Value="1"/>
-									<Property Name="SeekTableGranularity" Type="int32" Value="1"/>
-								</PropertyList>
-							</ConversionPlugin>
+							<ConversionPlugin Name="" ID="{6AE6D760-085F-473B-9356-DFC04823B539}" PluginName="PCM" CompanyID="0" PluginID="1"/>
 						</ConversionPluginInfo>
 					</ConversionPluginInfoList>
 				</Conversion>
@@ -532,13 +506,13 @@
 						<Property Name="MaxSampleRate" Type="int32">
 							<ValueList>
 								<Value Platform="Windows_HighRes">48000</Value>
-								<Value Platform="Windows_LowRes">48000</Value>
+								<Value Platform="Windows_LowRes">0</Value>
 							</ValueList>
 						</Property>
 						<Property Name="MinSampleRate" Type="int32">
 							<ValueList>
 								<Value Platform="Windows_HighRes">44100</Value>
-								<Value Platform="Windows_LowRes">44100</Value>
+								<Value Platform="Windows_LowRes">0</Value>
 							</ValueList>
 						</Property>
 						<Property Name="RemoveDCOffset" Type="bool">
@@ -554,7 +528,7 @@
 						<Property Name="SampleRate" Type="int32">
 							<ValueList>
 								<Value Platform="Windows_HighRes">2</Value>
-								<Value Platform="Windows_LowRes">2</Value>
+								<Value Platform="Windows_LowRes">0</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -567,11 +541,7 @@
 							</ConversionPlugin>
 						</ConversionPluginInfo>
 						<ConversionPluginInfo Platform="Windows_LowRes">
-							<ConversionPlugin Name="" ID="{9F3E5A3F-7B76-46F3-80B7-2EF2602DBC58}" PluginName="Vorbis" CompanyID="0" PluginID="4">
-								<PropertyList>
-									<Property Name="QualityFactor" Type="Real32" Value="8"/>
-								</PropertyList>
-							</ConversionPlugin>
+							<ConversionPlugin Name="" ID="{20BD00E4-1679-43CD-8E31-2ACF5C535D0D}" PluginName="PCM" CompanyID="0" PluginID="1"/>
 						</ConversionPluginInfo>
 					</ConversionPluginInfoList>
 				</Conversion>
@@ -580,7 +550,7 @@
 						<Property Name="Channels" Type="int32">
 							<ValueList>
 								<Value Platform="Windows_HighRes">0</Value>
-								<Value Platform="Windows_LowRes">0</Value>
+								<Value Platform="Windows_LowRes">4</Value>
 							</ValueList>
 						</Property>
 						<Property Name="LRMix" Type="Real64">
@@ -592,13 +562,13 @@
 						<Property Name="MaxSampleRate" Type="int32">
 							<ValueList>
 								<Value Platform="Windows_HighRes">48000</Value>
-								<Value Platform="Windows_LowRes">48000</Value>
+								<Value Platform="Windows_LowRes">0</Value>
 							</ValueList>
 						</Property>
 						<Property Name="MinSampleRate" Type="int32">
 							<ValueList>
 								<Value Platform="Windows_HighRes">16000</Value>
-								<Value Platform="Windows_LowRes">16000</Value>
+								<Value Platform="Windows_LowRes">0</Value>
 							</ValueList>
 						</Property>
 						<Property Name="RemoveDCOffset" Type="bool">
@@ -624,7 +594,7 @@
 							<ConversionPlugin Name="" ID="{75F749C4-4F58-4F11-AD0B-9819414F62E4}" PluginName="ADPCM" CompanyID="0" PluginID="2"/>
 						</ConversionPluginInfo>
 						<ConversionPluginInfo Platform="Windows_LowRes">
-							<ConversionPlugin Name="" ID="{8A031165-D74A-4EA1-9052-FBD5F669B6E7}" PluginName="ADPCM" CompanyID="0" PluginID="2"/>
+							<ConversionPlugin Name="" ID="{DAE046CC-9432-4498-8B9F-37E0C6AB0134}" PluginName="PCM" CompanyID="0" PluginID="1"/>
 						</ConversionPluginInfo>
 					</ConversionPluginInfoList>
 				</Conversion>
@@ -651,7 +621,7 @@
 						<Property Name="MinSampleRate" Type="int32">
 							<ValueList>
 								<Value Platform="Windows_HighRes">36000</Value>
-								<Value Platform="Windows_LowRes">36000</Value>
+								<Value Platform="Windows_LowRes">0</Value>
 							</ValueList>
 						</Property>
 						<Property Name="RemoveDCOffset" Type="bool">
@@ -667,7 +637,7 @@
 						<Property Name="SampleRate" Type="int32">
 							<ValueList>
 								<Value Platform="Windows_HighRes">3</Value>
-								<Value Platform="Windows_LowRes">3</Value>
+								<Value Platform="Windows_LowRes">0</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -681,12 +651,7 @@
 							</ConversionPlugin>
 						</ConversionPluginInfo>
 						<ConversionPluginInfo Platform="Windows_LowRes">
-							<ConversionPlugin Name="" ID="{850BE79C-DC72-4916-BAC3-3FEF73026C02}" PluginName="Vorbis" CompanyID="0" PluginID="4">
-								<PropertyList>
-									<Property Name="BitrateManagmentMode" Type="int32" Value="1"/>
-									<Property Name="SeekTableGranularity" Type="int32" Value="1"/>
-								</PropertyList>
-							</ConversionPlugin>
+							<ConversionPlugin Name="" ID="{6D6F495F-8DF9-491E-AE2B-6307F4117BF0}" PluginName="PCM" CompanyID="0" PluginID="1"/>
 						</ConversionPluginInfo>
 					</ConversionPluginInfoList>
 				</Conversion>
@@ -695,7 +660,7 @@
 						<Property Name="Channels" Type="int32">
 							<ValueList>
 								<Value Platform="Windows_HighRes">0</Value>
-								<Value Platform="Windows_LowRes">0</Value>
+								<Value Platform="Windows_LowRes">4</Value>
 							</ValueList>
 						</Property>
 						<Property Name="LRMix" Type="Real64">
@@ -707,13 +672,13 @@
 						<Property Name="MaxSampleRate" Type="int32">
 							<ValueList>
 								<Value Platform="Windows_HighRes">48000</Value>
-								<Value Platform="Windows_LowRes">48000</Value>
+								<Value Platform="Windows_LowRes">0</Value>
 							</ValueList>
 						</Property>
 						<Property Name="MinSampleRate" Type="int32">
 							<ValueList>
 								<Value Platform="Windows_HighRes">18000</Value>
-								<Value Platform="Windows_LowRes">18000</Value>
+								<Value Platform="Windows_LowRes">0</Value>
 							</ValueList>
 						</Property>
 						<Property Name="RemoveDCOffset" Type="bool">
@@ -729,7 +694,7 @@
 						<Property Name="SampleRate" Type="int32">
 							<ValueList>
 								<Value Platform="Windows_HighRes">2</Value>
-								<Value Platform="Windows_LowRes">2</Value>
+								<Value Platform="Windows_LowRes">0</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -742,11 +707,7 @@
 							</ConversionPlugin>
 						</ConversionPluginInfo>
 						<ConversionPluginInfo Platform="Windows_LowRes">
-							<ConversionPlugin Name="" ID="{6E611C98-D290-4B22-AD5B-A11884FA4811}" PluginName="Vorbis" CompanyID="0" PluginID="4">
-								<PropertyList>
-									<Property Name="QualityFactor" Type="Real32" Value="8"/>
-								</PropertyList>
-							</ConversionPlugin>
+							<ConversionPlugin Name="" ID="{F2554308-6890-4E2A-931A-C6960D91519C}" PluginName="PCM" CompanyID="0" PluginID="1"/>
 						</ConversionPluginInfo>
 					</ConversionPluginInfoList>
 				</Conversion>
@@ -755,7 +716,7 @@
 						<Property Name="Channels" Type="int32">
 							<ValueList>
 								<Value Platform="Windows_HighRes">0</Value>
-								<Value Platform="Windows_LowRes">0</Value>
+								<Value Platform="Windows_LowRes">4</Value>
 							</ValueList>
 						</Property>
 						<Property Name="LRMix" Type="Real64">
@@ -767,13 +728,13 @@
 						<Property Name="MaxSampleRate" Type="int32">
 							<ValueList>
 								<Value Platform="Windows_HighRes">48000</Value>
-								<Value Platform="Windows_LowRes">48000</Value>
+								<Value Platform="Windows_LowRes">0</Value>
 							</ValueList>
 						</Property>
 						<Property Name="MinSampleRate" Type="int32">
 							<ValueList>
 								<Value Platform="Windows_HighRes">18000</Value>
-								<Value Platform="Windows_LowRes">18000</Value>
+								<Value Platform="Windows_LowRes">0</Value>
 							</ValueList>
 						</Property>
 						<Property Name="RemoveDCOffset" Type="bool">
@@ -789,7 +750,7 @@
 						<Property Name="SampleRate" Type="int32">
 							<ValueList>
 								<Value Platform="Windows_HighRes">24000</Value>
-								<Value Platform="Windows_LowRes">24000</Value>
+								<Value Platform="Windows_LowRes">0</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -802,11 +763,7 @@
 							</ConversionPlugin>
 						</ConversionPluginInfo>
 						<ConversionPluginInfo Platform="Windows_LowRes">
-							<ConversionPlugin Name="" ID="{C3C42A43-D29E-47E1-A71E-0D2DAE1F80A1}" PluginName="Vorbis" CompanyID="0" PluginID="4">
-								<PropertyList>
-									<Property Name="QualityFactor" Type="Real32" Value="8"/>
-								</PropertyList>
-							</ConversionPlugin>
+							<ConversionPlugin Name="" ID="{D254E683-EC29-4E34-A537-13A7D019DA00}" PluginName="PCM" CompanyID="0" PluginID="1"/>
 						</ConversionPluginInfo>
 					</ConversionPluginInfoList>
 				</Conversion>
@@ -827,13 +784,13 @@
 						<Property Name="MaxSampleRate" Type="int32">
 							<ValueList>
 								<Value Platform="Windows_HighRes">48000</Value>
-								<Value Platform="Windows_LowRes">48000</Value>
+								<Value Platform="Windows_LowRes">0</Value>
 							</ValueList>
 						</Property>
 						<Property Name="MinSampleRate" Type="int32">
 							<ValueList>
 								<Value Platform="Windows_HighRes">48000</Value>
-								<Value Platform="Windows_LowRes">48000</Value>
+								<Value Platform="Windows_LowRes">0</Value>
 							</ValueList>
 						</Property>
 						<Property Name="RemoveDCOffset" Type="bool">
@@ -849,7 +806,7 @@
 						<Property Name="SampleRate" Type="int32">
 							<ValueList>
 								<Value Platform="Windows_HighRes">48000</Value>
-								<Value Platform="Windows_LowRes">48000</Value>
+								<Value Platform="Windows_LowRes">0</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -863,12 +820,7 @@
 							</ConversionPlugin>
 						</ConversionPluginInfo>
 						<ConversionPluginInfo Platform="Windows_LowRes">
-							<ConversionPlugin Name="" ID="{23CA5E9A-F953-4578-A355-08C9FA3E8596}" PluginName="Vorbis" CompanyID="0" PluginID="4">
-								<PropertyList>
-									<Property Name="QualityFactor" Type="Real32" Value="9.2"/>
-									<Property Name="SeekTableGranularity" Type="int32" Value="0"/>
-								</PropertyList>
-							</ConversionPlugin>
+							<ConversionPlugin Name="" ID="{C09A341D-31E2-4E7C-AB21-08618338702B}" PluginName="PCM" CompanyID="0" PluginID="1"/>
 						</ConversionPluginInfo>
 					</ConversionPluginInfoList>
 				</Conversion>
@@ -877,7 +829,7 @@
 						<Property Name="Channels" Type="int32">
 							<ValueList>
 								<Value Platform="Windows_HighRes">0</Value>
-								<Value Platform="Windows_LowRes">0</Value>
+								<Value Platform="Windows_LowRes">4</Value>
 							</ValueList>
 						</Property>
 						<Property Name="LRMix" Type="Real64">
@@ -889,13 +841,13 @@
 						<Property Name="MaxSampleRate" Type="int32">
 							<ValueList>
 								<Value Platform="Windows_HighRes">24000</Value>
-								<Value Platform="Windows_LowRes">24000</Value>
+								<Value Platform="Windows_LowRes">0</Value>
 							</ValueList>
 						</Property>
 						<Property Name="MinSampleRate" Type="int32">
 							<ValueList>
 								<Value Platform="Windows_HighRes">24000</Value>
-								<Value Platform="Windows_LowRes">24000</Value>
+								<Value Platform="Windows_LowRes">0</Value>
 							</ValueList>
 						</Property>
 						<Property Name="RemoveDCOffset" Type="bool">
@@ -911,7 +863,7 @@
 						<Property Name="SampleRate" Type="int32">
 							<ValueList>
 								<Value Platform="Windows_HighRes">24000</Value>
-								<Value Platform="Windows_LowRes">24000</Value>
+								<Value Platform="Windows_LowRes">0</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -924,11 +876,120 @@
 							</ConversionPlugin>
 						</ConversionPluginInfo>
 						<ConversionPluginInfo Platform="Windows_LowRes">
-							<ConversionPlugin Name="" ID="{A9B9C474-9CA3-40FD-BF53-EB491DC8C0D6}" PluginName="Vorbis" CompanyID="0" PluginID="4">
+							<ConversionPlugin Name="" ID="{A3C4D066-9D9A-4601-AD70-05593D6B2593}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+						</ConversionPluginInfo>
+					</ConversionPluginInfoList>
+				</Conversion>
+				<Conversion Name="Vorbis_Q7_adaptive_22-44_seektable1024" ID="{EC86807A-8F82-4747-9C6A-48A500D95E3C}">
+					<PropertyList>
+						<Property Name="Channels" Type="int32">
+							<ValueList>
+								<Value Platform="Windows_HighRes">4</Value>
+								<Value Platform="Windows_LowRes">4</Value>
+							</ValueList>
+						</Property>
+						<Property Name="LRMix" Type="Real64">
+							<ValueList>
+								<Value Platform="Windows_HighRes">0</Value>
+								<Value Platform="Windows_LowRes">0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="MaxSampleRate" Type="int32">
+							<ValueList>
+								<Value Platform="Windows_HighRes">44100</Value>
+								<Value Platform="Windows_LowRes">0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="MinSampleRate" Type="int32">
+							<ValueList>
+								<Value Platform="Windows_HighRes">22050</Value>
+								<Value Platform="Windows_LowRes">0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="RemoveDCOffset" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="SRConversionQuality" Type="int32">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="SampleRate" Type="int32">
+							<ValueList>
+								<Value Platform="Windows_HighRes">2</Value>
+								<Value Platform="Windows_LowRes">0</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ConversionPluginInfoList>
+						<ConversionPluginInfo Platform="Windows_HighRes">
+							<ConversionPlugin Name="" ID="{8844054F-FA16-45B7-9368-807C1DADA681}" PluginName="Vorbis" CompanyID="0" PluginID="4">
 								<PropertyList>
-									<Property Name="QualityFactor" Type="Real32" Value="8"/>
+									<Property Name="QualityFactor" Type="Real32" Value="7"/>
+									<Property Name="SeekTableGranularity" Type="int32" Value="0"/>
 								</PropertyList>
 							</ConversionPlugin>
+						</ConversionPluginInfo>
+						<ConversionPluginInfo Platform="Windows_LowRes">
+							<ConversionPlugin Name="" ID="{4347E628-2127-42E0-8392-F134CB7E07A7}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+						</ConversionPluginInfo>
+					</ConversionPluginInfoList>
+				</Conversion>
+				<Conversion Name="Vorbis_VO_Q9_adaptive_24-48_no-seektable" ID="{B14B6CD0-A188-4F9F-B609-47A793DCD19D}">
+					<PropertyList>
+						<Property Name="Channels" Type="int32">
+							<ValueList>
+								<Value Platform="Windows_HighRes">4</Value>
+								<Value Platform="Windows_LowRes">4</Value>
+							</ValueList>
+						</Property>
+						<Property Name="LRMix" Type="Real64">
+							<ValueList>
+								<Value Platform="Windows_HighRes">0</Value>
+								<Value Platform="Windows_LowRes">0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="MaxSampleRate" Type="int32">
+							<ValueList>
+								<Value Platform="Windows_HighRes">48000</Value>
+								<Value Platform="Windows_LowRes">0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="MinSampleRate" Type="int32">
+							<ValueList>
+								<Value Platform="Windows_HighRes">24000</Value>
+								<Value Platform="Windows_LowRes">0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="RemoveDCOffset" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="SRConversionQuality" Type="int32">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="SampleRate" Type="int32">
+							<ValueList>
+								<Value Platform="Windows_HighRes">2</Value>
+								<Value Platform="Windows_LowRes">0</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ConversionPluginInfoList>
+						<ConversionPluginInfo Platform="Windows_HighRes">
+							<ConversionPlugin Name="" ID="{47523830-61A1-4FBB-977A-F7F5A05B8678}" PluginName="Vorbis" CompanyID="0" PluginID="4">
+								<PropertyList>
+									<Property Name="QualityFactor" Type="Real32" Value="9"/>
+								</PropertyList>
+							</ConversionPlugin>
+						</ConversionPluginInfo>
+						<ConversionPluginInfo Platform="Windows_LowRes">
+							<ConversionPlugin Name="" ID="{9D9E5B91-4C74-4387-A4AA-896C77B2FC90}" PluginName="PCM" CompanyID="0" PluginID="1"/>
 						</ConversionPluginInfo>
 					</ConversionPluginInfoList>
 				</Conversion>
