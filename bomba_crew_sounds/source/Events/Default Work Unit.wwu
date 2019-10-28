@@ -17,20 +17,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="gun_reloaded" ID="{3404726D-2077-4F0A-B67B-8F22D14C2EA5}">
-					<ChildrenList>
-						<Action Name="" ID="{368F91B4-B859-439C-8131-13B3AAF2E5DE}" ShortID="585504301">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="gun_reloaded" ID="{A8C636BC-BD18-4D9C-9448-144142749E72}" WorkUnitID="{58DCE783-A7FD-4F7E-8F52-4025EEEECA9F}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="lightbulb" ID="{206D8F32-7444-4A7E-9705-88B1635D91F8}">
 					<ChildrenList>
 						<Action Name="" ID="{D5CE28FC-D7C7-4AD6-AC67-A6CD3216B4C9}" ShortID="553716457">
