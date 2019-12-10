@@ -74,6 +74,24 @@
 						</Property>
 					</PropertyList>
 				</Language>
+				<Language Name="English(Off)" ID="{4F2BF8E0-3F60-43B6-81F8-033809584FA2}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>5.5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
+				<Language Name="English(Race)" ID="{5B002133-46B7-438B-A6C7-AA8138E4E8FD}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
 				<Language Name="English(UK)" ID="{220774AF-882D-460D-9470-9339AE143FB8}"/>
 				<Language Name="English(US)" ID="{D2079BA8-52A4-4C72-953D-F6670A946E4C}"/>
 				<Language Name="External" ID="{AD9C1D1D-C528-412C-892D-D8C08A67FA1C}"/>
@@ -124,6 +142,15 @@
 				<Language Name="Korean" ID="{D4D2151C-95E1-499E-8C9B-4C954C643F96}"/>
 				<Language Name="Latin" ID="{B3DCEC1F-62A5-4380-851E-A8E49A3C1DFF}"/>
 				<Language Name="Mixed" ID="{1F5D9014-D9D8-4767-9E09-C6AD099FD32A}"/>
+				<Language Name="mod_PortugueseFemale" ID="{C38BE0FF-EDAD-460F-967A-4ADA0B6BDA9A}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>8.5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
 				<Language Name="Norwegian" ID="{4074DFB7-FCEE-4C7E-AA7E-C4980FF7305E}">
 					<PropertyList>
 						<Property Name="VolumeOffset" Type="Real64">
@@ -155,6 +182,15 @@
 				</Language>
 				<Language Name="Romanian" ID="{E615F231-6135-45A6-B602-4CAD3342B0D0}"/>
 				<Language Name="Russian" ID="{3A26457B-7413-4A3D-A0B2-0A01FBE6B802}"/>
+				<Language Name="Russian(Race)" ID="{17C4EE3E-175B-4AAB-A73C-C64CEEA8ADBD}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
 				<Language Name="SFX" ID="{08DD6169-A10F-419A-8112-C96DE3265289}"/>
 				<Language Name="Slovenian" ID="{3922E37D-7410-4D5F-9DA9-343A456D1F87}"/>
 				<Language Name="Spanish(Mexico)" ID="{1F75F20A-4929-4108-A009-FFF2A56CA438}">
@@ -10987,9 +11023,6 @@
 				</PhysicalFolder>
 				<PhysicalFolder Path="Attenuations">
 					<WorkUnit Name="Attenuations" ID="{017BDDA0-1BB1-4CE1-8077-79594EC4585C}" PersistMode="Standalone"/>
-				</PhysicalFolder>
-				<PhysicalFolder Path="Attenuations\Bongfish">
-					<WorkUnit Name="Bongfish" ID="{1146B30F-7F11-4ACA-A011-2B6D82810598}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Audio Devices">
 					<WorkUnit Name="Audio Devices" ID="{27092F88-225A-1154-6725-C8A34F3D4482}" PersistMode="Standalone"/>

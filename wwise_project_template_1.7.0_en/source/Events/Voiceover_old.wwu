@@ -800,7 +800,7 @@
 						<Event Name="vo_flt_combat_reserve" ID="{63322562-3CB9-4BBE-A351-4E90B9025CC2}">
 							<Comment>Event - Combat Reserve received</Comment>
 						</Event>
-						<Event Name="vo_flt_ready_for_action_01" ID="{A300CDA7-EC3E-4D6B-AA63-0255810CFFDE}">
+						<Event Name="vo_flt_ready_for_action" ID="{A300CDA7-EC3E-4D6B-AA63-0255810CFFDE}">
 							<Comment>Event - Prepared</Comment>
 						</Event>
 					</ChildrenList>

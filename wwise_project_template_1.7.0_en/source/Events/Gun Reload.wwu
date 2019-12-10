@@ -126,6 +126,12 @@ Launched at the time of transition to Charge Mode</Comment>
             <Event Name="gun_rld_dual_charge_pre" ID="{BA215A2A-0D9A-4120-A969-5E6C0BB9D3A9}">
               <ChildrenList></ChildrenList>
             </Event>
+            <Event Name="gun_rld_dual_wpn_switch_sniper_mode" ID="{5CE9012E-6094-4B56-848A-BECC7AF93C0A}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="gun_rld_dual_charge_progress_loop_stop" ID="{E9CB0D84-CECB-4375-9EEE-64CDFA41E860}">
+              <ChildrenList></ChildrenList>
+            </Event>
           </ChildrenList>
         </Folder>
       </ChildrenList>

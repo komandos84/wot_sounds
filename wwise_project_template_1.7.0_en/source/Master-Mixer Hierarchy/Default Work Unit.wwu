@@ -1196,6 +1196,16 @@
                                     </Reference>
                                   </ReferenceList>
                                   <StateInfo>
+                                    <StatePropertyList>
+                                      <Property Name="BusVolume" />
+                                      <Property Name="BypassEffect0" />
+                                      <Property Name="BypassEffect1" />
+                                      <Property Name="Highpass" />
+                                      <Property Name="Lowpass" />
+                                      <Property Name="MakeUpGain" />
+                                      <Property Name="Pitch" />
+                                      <Property Name="Volume" />
+                                    </StatePropertyList>
                                     <StateGroupList>
                                       <StateGroupInfo>
                                         <StateGroupRef Name="STATE_viewPlayMode" ID="{94AF04AB-50F8-4D8F-9E12-EF87EF6A78A7}" />
@@ -2192,7 +2202,6 @@
                                           </ValueList>
                                         </Property>
                                       </PropertyList>
-                                      <ReferenceList />
                                     </Bus>
                                   </ChildrenList>
                                   <StateInfo>
@@ -5005,14 +5014,14 @@ Effect 2 - adjusts the decrease in LF for the transition between the arena and h
                                   <ObjectRef Name="imp_wise_gain" ID="{7E530CDF-98EF-4016-82BF-FC5B188CC1C6}" WorkUnitID="{36D0EC95-8F83-499B-9DFC-636BC7F47238}" />
                                 </Reference>
                                 <Reference Name="Effect3">
-                                  <Custom CreatedFrom="{CBFCA28D-5988-4AA8-BE70-C98A6B1F2D0F}">
-                                    <Effect Name="Burnt_to_a_Crisp (Custom)" ID="{78379A94-4123-473B-B990-D93C7F615535}" ShortID="442023996" PluginName="McDSP FutzBox" CompanyID="256" PluginID="110" PluginType="3">
+                                  <Custom CreatedFrom="{E5811185-A22C-4097-9F5A-41680F4119A2}">
+                                    <Effect Name="Prank_Caller (Custom)" ID="{84A37204-88FF-4FC7-8983-546DAAEFA756}" ShortID="544314760" PluginName="McDSP FutzBox" CompanyID="256" PluginID="110" PluginType="3">
                                       <PropertyList>
                                         <Property Name="DistortionAmount" Type="Real32" Value="42.2" />
                                         <Property Name="DistortionIntensity" Type="Real32" Value="14.5" />
                                         <Property Name="DistortionMode" Type="int32" Value="1" />
                                         <Property Name="DistortionRectify" Type="Real32" Value="42.4" />
-                                        <Property Name="EQGain" Type="Real32" Value="3" />
+                                        <Property Name="EQGain" Type="Real32" Value="2.904" />
                                         <Property Name="EQQ" Type="Real32" Value="3" />
                                         <Property Name="FiltersHPFFreq" Type="Real32" Value="62" />
                                         <Property Name="FiltersHPFQ" Type="Real32" Value="4" />
@@ -5965,6 +5974,11 @@ The NPC bus is compensated -6db relatively PC bus in HDR scheme.</Comment>
                                 <Value>True</Value>
                               </ValueList>
                             </Property>
+                            <Property Name="BypassEffect2" Type="bool">
+                              <ValueList>
+                                <Value>True</Value>
+                              </ValueList>
+                            </Property>
                             <Property Name="DivergenceCenter" Type="int32">
                               <ValueList>
                                 <Value>100</Value>
@@ -5986,8 +6000,25 @@ The NPC bus is compensated -6db relatively PC bus in HDR scheme.</Comment>
                             <Reference Name="Effect0" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3">
                               <ObjectRef Name="ev_halloween_distortion_expl_lev" ID="{9CD5F397-F542-4118-9C71-6A9D35C63F72}" WorkUnitID="{8B6FEDBF-4E65-4D47-A19C-C7FBA129CFB5}" />
                             </Reference>
+                            <Reference Name="Effect2">
+                              <Custom>
+                                <Effect Name="Wwise Expander (Custom)" ID="{51DC5494-3FD5-4688-A725-3EFCD0BF38EB}" ShortID="638800377" PluginName="Wwise Expander" CompanyID="0" PluginID="109" PluginType="3">
+                                  <PropertyList>
+                                    <Property Name="Threshold" Type="Real32" Value="-26.4" />
+                                  </PropertyList>
+                                </Effect>
+                              </Custom>
+                            </Reference>
                           </ReferenceList>
                           <StateInfo>
+                            <StatePropertyList>
+                              <Property Name="BusVolume" />
+                              <Property Name="BypassEffect2" />
+                              <Property Name="Highpass" />
+                              <Property Name="Lowpass" />
+                              <Property Name="Pitch" />
+                              <Property Name="Volume" />
+                            </StatePropertyList>
                             <StateGroupList>
                               <StateGroupInfo>
                                 <StateGroupRef Name="STATE_viewPlayMode" ID="{94AF04AB-50F8-4D8F-9E12-EF87EF6A78A7}" />
