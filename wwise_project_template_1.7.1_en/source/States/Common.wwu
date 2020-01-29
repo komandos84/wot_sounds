@@ -177,6 +177,7 @@
             <State Name="STATE_gamemode_frontline" ID="{5751F333-EEB3-417A-B5AB-988DB71381D6}" />
             <State Name="STATE_gamemode_ranked" ID="{171C0092-B8A0-4640-B8BC-8099CF433F87}" />
             <State Name="STATE_gamemode_bootcamp" ID="{D757020F-C273-4C72-B0C1-F016DA9E1626}" />
+            <State Name="STATE_gamemode_battle_of_bloggers" ID="{8D0F7DFD-A502-44E7-84D4-D4BE2B84A81B}" />
           </ChildrenList>
         </StateGroup>
         <StateGroup Name="STATE_gamemode_progress_page" ID="{CB7FE8BB-4C1B-414C-980C-D43BE093291F}">
@@ -214,6 +215,16 @@
             <State Name="None" ID="{EC974156-7F43-4A9E-82E4-DB88174A598F}" />
             <State Name="STATE_postmortem_mode_on" ID="{D4FFAB22-86BB-464C-A410-8D3A3D9A303F}" />
             <State Name="STATE_postmortem_mode_off" ID="{56406AC8-2DD8-4E1A-848C-7BCAD2646F48}" />
+          </ChildrenList>
+        </StateGroup>
+        <StateGroup Name="STATE_cust_progress" ID="{293D6992-111D-4630-A1EE-4B97C663743B}">
+          <PropertyList>
+            <Property Name="DefaultTransitionTime" Type="Real64" Value="1.5" />
+          </PropertyList>
+          <ChildrenList>
+            <State Name="None" ID="{F0D6A2BC-E08E-43F7-B2E1-C5BEBBAF8E5A}" />
+            <State Name="STATE_cust_progress_on" ID="{8C0AE6A2-6D12-4771-BA25-BAB265D2336D}" />
+            <State Name="STATE_cust_progress_off" ID="{ACC4132C-CBCC-49A8-9B5D-8458C425688D}" />
           </ChildrenList>
         </StateGroup>
       </ChildrenList>

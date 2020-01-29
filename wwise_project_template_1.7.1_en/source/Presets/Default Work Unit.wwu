@@ -2864,6 +2864,70 @@
             <Property Name="WetLevel" Type="Real32" Value="-10" />
           </PropertyList>
         </Effect>
+        <Effect Name="NY_piano" ID="{4D05F632-CA67-43C4-A483-108120B475EF}" PluginName="Wwise Stereo Delay" CompanyID="0" PluginID="135" PluginType="3">
+          <PropertyList>
+            <Property Name="EnableFeedback" Type="bool" Value="True" />
+            <Property Name="LeftDelayTime" Type="Real32" Value="0.25" />
+            <Property Name="RightDelayTime" Type="Real32" Value="0.32" />
+            <Property Name="WetLevel" Type="Real32">
+              <RTPCList>
+                <RTPC Name="" ID="{FF8A2331-4718-4F8B-9E25-1145C95181A9}">
+                  <ReferenceList>
+                    <Reference Name="ControlInput">
+                      <ObjectRef Name="RTPC_int_distance" ID="{BF3AB708-0AE6-46FC-B487-5F27895968F1}" WorkUnitID="{99AED538-0B7F-42D5-942E-04185D409E05}" />
+                    </Reference>
+                  </ReferenceList>
+                  <Curve Name="" ID="{4CFF5FF1-A8EB-40ED-A317-227B333722F9}">
+                    <PropertyList>
+                      <Property Name="Flags" Type="int32" Value="3" />
+                    </PropertyList>
+                    <PointList>
+                      <Point>
+                        <XPos>0</XPos>
+                        <YPos>-120</YPos>
+                        <Flags>5</Flags>
+                      </Point>
+                      <Point>
+                        <XPos>12.15711</XPos>
+                        <YPos>-120</YPos>
+                        <Flags>0</Flags>
+                      </Point>
+                      <Point>
+                        <XPos>38</XPos>
+                        <YPos>-11</YPos>
+                        <Flags>0</Flags>
+                      </Point>
+                      <Point>
+                        <XPos>125.93516</XPos>
+                        <YPos>-6</YPos>
+                        <Flags>0</Flags>
+                      </Point>
+                      <Point>
+                        <XPos>250</XPos>
+                        <YPos>-6</YPos>
+                        <Flags>37</Flags>
+                      </Point>
+                    </PointList>
+                  </Curve>
+                </RTPC>
+              </RTPCList>
+            </Property>
+          </PropertyList>
+        </Effect>
+        <Effect Name="NY_music" ID="{F40A6366-867E-45BB-B4CD-7433DEB4A514}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+          <PropertyList>
+            <Property Name="MeterMode" Type="int32" Value="1" />
+            <Property Name="Min" Type="Real32" Value="-60" />
+            <Property Name="ReleaseTime" Type="Real32" Value="0.5" />
+          </PropertyList>
+        </Effect>
+        <Effect Name="newyear_2020" ID="{F6EB77D9-E310-4750-B8E7-A7E5FA9A297B}" PluginName="iZotope Trash Multiband Distortion" CompanyID="259" PluginID="9" PluginType="3">
+          <PropertyList>
+            <Property Name="Distortion1Band1Mix" Type="Real32" Value="0" />
+            <Property Name="Distortion1Band1Overdrive" Type="Real32" Value="7" />
+            <Property Name="Distortion1Band1Type" Type="int32" Value="22" />
+          </PropertyList>
+        </Effect>
       </ChildrenList>
     </WorkUnit>
   </Presets>

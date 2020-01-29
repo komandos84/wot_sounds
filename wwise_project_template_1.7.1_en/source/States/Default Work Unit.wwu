@@ -60,6 +60,13 @@ GARAGE-STORE.........-STRONGHOLD</Comment>
             <State Name="STATE_overlay_hangar_general_off" ID="{6C92CBF3-3A6B-456A-96B4-3C1A2726E463}" />
           </ChildrenList>
         </StateGroup>
+        <StateGroup Name="STATE_clans_craft" ID="{4AA37CEC-0D0C-4658-A0A3-54B5BD14402C}">
+          <ChildrenList>
+            <State Name="None" ID="{B8E6BC42-8B5F-4676-AF7B-9D1878E9D7E1}" />
+            <State Name="STATE_clans_craft_progress_on" ID="{C3DC00A7-4976-4DEB-8D34-5C5AF37D156D}" />
+            <State Name="STATE_clans_craft_progress_off" ID="{AA7BCE80-F8CC-4F3C-B305-BC25A21BD90D}" />
+          </ChildrenList>
+        </StateGroup>
       </ChildrenList>
     </WorkUnit>
   </States>

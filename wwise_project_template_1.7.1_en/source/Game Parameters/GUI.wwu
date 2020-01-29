@@ -29,6 +29,13 @@
             <Property Name="SlewRateUp" Type="Real64" Value="100" />
           </PropertyList>
         </GameParameter>
+        <GameParameter Name="RTPC_ext_battle_countdown_timer" ID="{25E34365-C308-47E5-AA50-4B59ABE546F2}">
+          <Comment>External RTPC which transmits information to wwise about how many timer ticks are left until the end of the pre-combat countdown</Comment>
+          <PropertyList>
+            <Property Name="InitialValue" Type="Real64" Value="0" />
+            <Property Name="Max" Type="Real64" Value="90" />
+          </PropertyList>
+        </GameParameter>
       </ChildrenList>
     </WorkUnit>
   </GameParameters>

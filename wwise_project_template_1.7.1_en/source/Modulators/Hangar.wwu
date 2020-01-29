@@ -377,8 +377,9 @@
 						</ModulatorLfo>
 						<ModulatorLfo Name="hangar_h21_newyear_2019_wind_volume" ID="{A1A907E2-DE5A-4B62-9610-01E389B1D412}" ShortID="65133372">
 							<PropertyList>
-								<Property Name="LfoFrequency" Type="Real64" Value="0.09"/>
+								<Property Name="LfoFrequency" Type="Real64" Value="0.07"/>
 								<Property Name="LfoSmoothing" Type="Real64" Value="50"/>
+								<Property Name="LfoWaveform" Type="int32" Value="1"/>
 							</PropertyList>
 						</ModulatorLfo>
 						<ModulatorLfo Name="hangar_h21_newyear_2019_wind_LPF" ID="{734A3D51-28AC-411B-B6C3-729201EE7A73}" ShortID="592321191">
