@@ -16,7 +16,8 @@
 				</ModulatorEnvelope>
 				<ModulatorEnvelope Name="envelope_gui_progress_bar_pitch" ID="{2E157C2F-AF38-4CD5-8531-3F2FCC4B9462}" ShortID="540033658">
 					<PropertyList>
-						<Property Name="EnvelopeAttackTime" Type="Real64" Value="1.2"/>
+						<Property Name="EnvelopeAttackCurve" Type="Real64" Value="65"/>
+						<Property Name="EnvelopeAttackTime" Type="Real64" Value="2"/>
 					</PropertyList>
 				</ModulatorEnvelope>
 			</ChildrenList>

@@ -1538,8 +1538,15 @@
                                       <StateGroupInfo>
                                         <StateGroupRef Name="STATE_arenastate" ID="{B32456E6-63B9-4FE1-9A95-BB105575A2EC}" />
                                       </StateGroupInfo>
+                                      <StateGroupInfo>
+                                        <StateGroupRef Name="STATE_in_bunker" ID="{4AF0A74F-AE68-4F15-A66F-26EE4FEDBF7E}" />
+                                      </StateGroupInfo>
                                     </StateGroupList>
                                     <CustomStateList>
+                                      <CustomState>
+                                        <StateRef Name="STATE_in_bunker_off" ID="{BA736B69-9305-4025-AAA0-B88B247184F7}" />
+                                        <State Name="" ID="{EF113713-1FA4-403F-B136-726FB55D258A}" ShortID="995223307" />
+                                      </CustomState>
                                       <CustomState>
                                         <StateRef Name="STATE_arenastate_battle" ID="{126BE672-210F-42AA-A692-B31FF206C30E}" />
                                         <State Name="" ID="{C9201D9C-7F50-477D-963A-4FBDA190CB6D}" ShortID="763066784" />
@@ -1571,6 +1578,16 @@
                                         </State>
                                       </CustomState>
                                       <CustomState>
+                                        <StateRef Name="STATE_in_bunker_on" ID="{7CA8480D-B853-471F-B443-6BB5B7FD6B69}" />
+                                        <State Name="" ID="{6B319142-16C0-4027-B050-A3363538D5E3}" ShortID="99440636">
+                                          <PropertyList>
+                                            <Property Name="Highpass" Type="int16" Value="15" />
+                                            <Property Name="Lowpass" Type="int16" Value="50" />
+                                            <Property Name="Pitch" Type="int32" Value="-200" />
+                                          </PropertyList>
+                                        </State>
+                                      </CustomState>
+                                      <CustomState>
                                         <StateRef Name="STATE_viewPlayMode_arcade" ID="{38532EFB-0C84-4858-9839-3FFE7D765E45}" />
                                         <State Name="" ID="{FC963C7B-0E88-4738-955C-327E1FBE5336}" ShortID="716802463" />
                                       </CustomState>
@@ -1586,7 +1603,8 @@
                                         <StateRef Name="STATE_viewPlayMode_strategic" ID="{851DD47E-B7C7-4DEA-A07F-83D254EF6192}" />
                                         <State Name="" ID="{4965B228-EDD0-4CAA-AAC7-F7776A51B8F1}" ShortID="1066146920">
                                           <PropertyList>
-                                            <Property Name="BusVolume" Type="Real64" Value="-2" />
+                                            <Property Name="BusVolume" Type="Real64" Value="-5" />
+                                            <Property Name="Lowpass" Type="int16" Value="35" />
                                           </PropertyList>
                                         </State>
                                       </CustomState>
@@ -6674,27 +6692,40 @@ The NPC bus is compensated -6db relatively PC bus in HDR scheme.</Comment>
                           </ValueList>
                         </Property>
                       </PropertyList>
-                      <StateInfo>
-                        <StateGroupList>
-                          <StateGroupInfo>
-                            <StateGroupRef Name="STATE_overlay_hangar_general" ID="{205CE61E-ECDD-491F-AD4E-6AF16B15594A}" />
-                          </StateGroupInfo>
-                        </StateGroupList>
-                        <CustomStateList>
-                          <CustomState>
-                            <StateRef Name="STATE_overlay_hangar_general_on" ID="{02FBFA78-F4DF-43CF-905F-68C34613A84F}" />
-                            <State Name="" ID="{7BE0E2B8-097D-4482-8F40-6338D91FB85A}" ShortID="244571363" />
-                          </CustomState>
-                          <CustomState>
-                            <StateRef Name="STATE_overlay_hangar_general_off" ID="{6C92CBF3-3A6B-456A-96B4-3C1A2726E463}" />
-                            <State Name="" ID="{AC78AC65-B9FD-49DB-85F5-8E27A4B69FDD}" ShortID="786331161">
-                              <PropertyList>
-                                <Property Name="BusVolume" Type="Real64" Value="-96" />
-                              </PropertyList>
-                            </State>
-                          </CustomState>
-                        </CustomStateList>
-                      </StateInfo>
+                      <ChildrenList>
+                        <Bus Name="021_gui_rewards_musicOff" ID="{135484EE-F3AD-4F63-92EC-66967ED07F11}">
+                          <Comment>Used for sounds that require the drone to be completely muted in a hangar or postbattle music. 
+ Using the state - STATE_overlay_hangar_general</Comment>
+                          <PropertyList>
+                            <Property Name="DivergenceCenter" Type="int32">
+                              <ValueList>
+                                <Value>100</Value>
+                              </ValueList>
+                            </Property>
+                          </PropertyList>
+                          <StateInfo>
+                            <StateGroupList>
+                              <StateGroupInfo>
+                                <StateGroupRef Name="STATE_overlay_hangar_general" ID="{205CE61E-ECDD-491F-AD4E-6AF16B15594A}" />
+                              </StateGroupInfo>
+                            </StateGroupList>
+                            <CustomStateList>
+                              <CustomState>
+                                <StateRef Name="STATE_overlay_hangar_general_on" ID="{02FBFA78-F4DF-43CF-905F-68C34613A84F}" />
+                                <State Name="" ID="{7BE23742-8993-4BA4-8744-266455412975}" ShortID="810799816" />
+                              </CustomState>
+                              <CustomState>
+                                <StateRef Name="STATE_overlay_hangar_general_off" ID="{6C92CBF3-3A6B-456A-96B4-3C1A2726E463}" />
+                                <State Name="" ID="{A74D8F99-AF8A-4B4D-8FD8-B4167325FF3B}" ShortID="1046796758">
+                                  <PropertyList>
+                                    <Property Name="BusVolume" Type="Real64" Value="-96" />
+                                  </PropertyList>
+                                </State>
+                              </CustomState>
+                            </CustomStateList>
+                          </StateInfo>
+                        </Bus>
+                      </ChildrenList>
                       <DuckingList>
                         <DuckItem>
                           <BusRef Name="LOBBY_MUSIC" ID="{F73781AF-2E44-4FD6-8E8C-A130EB57CF50}" />
@@ -6710,9 +6741,9 @@ The NPC bus is compensated -6db relatively PC bus in HDR scheme.</Comment>
                           <BusRef Name="LOBBY_MUSIC_RESULT" ID="{5DDDAA70-5A93-4EAB-8C32-6680943C43AC}" />
                           <DuckingParam>
                             <Volume>-21</Volume>
-                            <FadeInTime>3</FadeInTime>
+                            <FadeInTime>2</FadeInTime>
                             <FadeOutTime>0.100000001490116</FadeOutTime>
-                            <FadeCurve>FadeLinear</FadeCurve>
+                            <FadeCurve>FadeSCurve</FadeCurve>
                             <TargetProp>BusVolume</TargetProp>
                           </DuckingParam>
                         </DuckItem>
@@ -8593,9 +8624,6 @@ Auto-Duck for HDRdbc bus</Comment>
                         <StateGroupRef Name="STATE_video_overlay" ID="{45D461A4-9865-43D6-8958-86FA4A12A448}" />
                       </StateGroupInfo>
                       <StateGroupInfo>
-                        <StateGroupRef Name="STATE_overlay_hangar_general" ID="{205CE61E-ECDD-491F-AD4E-6AF16B15594A}" />
-                      </StateGroupInfo>
-                      <StateGroupInfo>
                         <StateGroupRef Name="STATE_hangar_camera_rotating" ID="{9EF2A35B-6466-45FB-ABB1-D9FA9392A29E}" />
                       </StateGroupInfo>
                       <StateGroupInfo>
@@ -8640,20 +8668,12 @@ Auto-Duck for HDRdbc bus</Comment>
                         </State>
                       </CustomState>
                       <CustomState>
-                        <StateRef Name="STATE_overlay_hangar_general_on" ID="{02FBFA78-F4DF-43CF-905F-68C34613A84F}" />
-                        <State Name="" ID="{1AEE7470-C39F-4613-880A-1F0B4DA0FB2E}" ShortID="699772652" />
-                      </CustomState>
-                      <CustomState>
                         <StateRef Name="STATE_hangar_view_04" ID="{2ADC6B92-2C83-446A-AB54-6885BF1CF52F}" />
                         <State Name="" ID="{4B21E67E-9732-4193-9CB9-BF61D18EFC73}" ShortID="256862993" />
                       </CustomState>
                       <CustomState>
                         <StateRef Name="STATE_hangar_view_02" ID="{17B04F4A-A923-4507-9E7E-FB2FC848C4CD}" />
                         <State Name="" ID="{36CCEAAB-10EE-4BC3-94E1-B3180665786A}" ShortID="939019203" />
-                      </CustomState>
-                      <CustomState>
-                        <StateRef Name="STATE_overlay_hangar_general_off" ID="{6C92CBF3-3A6B-456A-96B4-3C1A2726E463}" />
-                        <State Name="" ID="{4BC8FE53-B8E5-4636-9582-24A23D18C52D}" ShortID="782486085" />
                       </CustomState>
                       <CustomState>
                         <StateRef Name="STATE_hangar_place_customization" ID="{17A1E408-1E5F-4585-BBD4-71D33F5EE345}" />
@@ -11556,9 +11576,6 @@ Auto-Duck for HDRdbc bus</Comment>
                         <StateGroupRef Name="STATE_hangar_place" ID="{F4715A4A-9FB0-48CB-878A-9E4FD19471B3}" />
                       </StateGroupInfo>
                       <StateGroupInfo>
-                        <StateGroupRef Name="STATE_overlay_hangar_general" ID="{205CE61E-ECDD-491F-AD4E-6AF16B15594A}" />
-                      </StateGroupInfo>
-                      <StateGroupInfo>
                         <StateGroupRef Name="STATE_hangar_camera_rotating" ID="{9EF2A35B-6466-45FB-ABB1-D9FA9392A29E}" />
                       </StateGroupInfo>
                     </StateGroupList>
@@ -11584,16 +11601,8 @@ Auto-Duck for HDRdbc bus</Comment>
                         </State>
                       </CustomState>
                       <CustomState>
-                        <StateRef Name="STATE_overlay_hangar_general_on" ID="{02FBFA78-F4DF-43CF-905F-68C34613A84F}" />
-                        <State Name="" ID="{3A629B5D-D252-4798-96CF-809CFE7AD343}" ShortID="449188899" />
-                      </CustomState>
-                      <CustomState>
                         <StateRef Name="STATE_gameplace_arena" ID="{CFD647DE-5366-44B2-9033-A31B10F4D1D8}" />
                         <State Name="" ID="{898E8F00-B8F1-4381-B69B-770E4F9225BD}" ShortID="1017083401" />
-                      </CustomState>
-                      <CustomState>
-                        <StateRef Name="STATE_overlay_hangar_general_off" ID="{6C92CBF3-3A6B-456A-96B4-3C1A2726E463}" />
-                        <State Name="" ID="{6006467E-3119-43C8-8FDF-D40779771EF0}" ShortID="165579909" />
                       </CustomState>
                       <CustomState>
                         <StateRef Name="STATE_hangar_place_customization" ID="{17A1E408-1E5F-4585-BBD4-71D33F5EE345}" />
@@ -11860,9 +11869,6 @@ Auto-Duck for HDRdbc bus</Comment>
                     <StateGroupRef Name="STATE_video_overlay" ID="{45D461A4-9865-43D6-8958-86FA4A12A448}" />
                   </StateGroupInfo>
                   <StateGroupInfo>
-                    <StateGroupRef Name="STATE_overlay_hangar_general" ID="{205CE61E-ECDD-491F-AD4E-6AF16B15594A}" />
-                  </StateGroupInfo>
-                  <StateGroupInfo>
                     <StateGroupRef Name="STATE_gamemode_progress_page" ID="{CB7FE8BB-4C1B-414C-980C-D43BE093291F}" />
                   </StateGroupInfo>
                   <StateGroupInfo>
@@ -11887,16 +11893,8 @@ Auto-Duck for HDRdbc bus</Comment>
                     </State>
                   </CustomState>
                   <CustomState>
-                    <StateRef Name="STATE_overlay_hangar_general_on" ID="{02FBFA78-F4DF-43CF-905F-68C34613A84F}" />
-                    <State Name="" ID="{FFA63AFF-3C69-407A-BDE3-64CA716E1F0E}" ShortID="397996628" />
-                  </CustomState>
-                  <CustomState>
                     <StateRef Name="STATE_gamemode_battle_of_bloggers" ID="{8D0F7DFD-A502-44E7-84D4-D4BE2B84A81B}" />
                     <State Name="" ID="{A69AB9A5-F7A9-46AA-9952-E64D53A032B5}" ShortID="790421173" />
-                  </CustomState>
-                  <CustomState>
-                    <StateRef Name="STATE_overlay_hangar_general_off" ID="{6C92CBF3-3A6B-456A-96B4-3C1A2726E463}" />
-                    <State Name="" ID="{FFD4534F-A2CF-4261-8899-E7E5E6500072}" ShortID="621504924" />
                   </CustomState>
                   <CustomState>
                     <StateRef Name="STATE_gamemode_ranked" ID="{171C0092-B8A0-4640-B8BC-8099CF433F87}" />

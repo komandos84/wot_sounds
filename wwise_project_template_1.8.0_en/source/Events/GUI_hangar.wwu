@@ -51,16 +51,6 @@
             </Event>
           </ChildrenList>
         </Folder>
-        <Folder Name="hero_tank" ID="{105A1833-1740-4F3C-B3FB-52E97178A4F0}" ShortID="564318832">
-          <ChildrenList>
-            <Event Name="ue_hangar_generic_hero_tank_appeared" ID="{A4CB409A-28CF-4AB9-9C1E-A9B07D956D69}">
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="ue_hangar_generic_hero_tank_buy" ID="{624C3396-77AE-45AF-B8B9-ACA5ABC80C90}">
-              <ChildrenList></ChildrenList>
-            </Event>
-          </ChildrenList>
-        </Folder>
         <Folder Name="reward_screens" ID="{D721BE1F-C8C6-4ABC-AB91-B553E2449F7C}" ShortID="802432700">
           <ChildrenList>
             <Event Name="gui_hangar_simple_execution_screen" ID="{6B37405D-18FB-4D1F-9AD5-65FFEA369CF9}">

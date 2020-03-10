@@ -227,6 +227,17 @@
             <State Name="STATE_cust_progress_off" ID="{ACC4132C-CBCC-49A8-9B5D-8458C425688D}" />
           </ChildrenList>
         </StateGroup>
+        <StateGroup Name="STATE_in_bunker" ID="{4AF0A74F-AE68-4F15-A66F-26EE4FEDBF7E}">
+          <Comment>State for use on a bus 180_combat_atmosphere on maps where there are bunkers and other objects in which you can enter</Comment>
+          <PropertyList>
+            <Property Name="DefaultTransitionTime" Type="Real64" Value="0.5" />
+          </PropertyList>
+          <ChildrenList>
+            <State Name="None" ID="{20346A0C-984B-4713-ABE9-7095BE5DCF1B}" />
+            <State Name="STATE_in_bunker_on" ID="{7CA8480D-B853-471F-B443-6BB5B7FD6B69}" />
+            <State Name="STATE_in_bunker_off" ID="{BA736B69-9305-4025-AAA0-B88B247184F7}" />
+          </ChildrenList>
+        </StateGroup>
       </ChildrenList>
     </WorkUnit>
   </States>
