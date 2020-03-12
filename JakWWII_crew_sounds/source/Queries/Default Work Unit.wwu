@@ -5,8 +5,9 @@
 			<ChildrenList>
 				<Query Name="123" ID="{9C0D956E-D115-45DB-A30C-DE720F7FDCD7}">
 					<PropertyList>
+						<Property Name="ObjectType" Type="int32" Value="1000"/>
 						<Property Name="Platform" Type="int16" Value="0"/>
-						<Property Name="StartFromHereObject" Type="string" Value="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}"/>
+						<Property Name="StartFromHereObject" Type="string" Value="{E741DB6F-EF1C-4F03-A043-A9050DB25496}"/>
 					</PropertyList>
 				</Query>
 			</ChildrenList>

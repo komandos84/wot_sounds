@@ -148,10 +148,6 @@
 							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
-							<GameParameterRef Name="RTPC_ext_mission_debris_control" ID="{C21673D3-2AD9-4290-A23D-E47AAC5D4674}"/>
-							<Value>0</Value>
-						</RTPCValue>
-						<RTPCValue>
 							<GameParameterRef Name="RTPC_int_timer_endbattle" ID="{88693835-4CFA-4296-8142-4B4CE3417066}"/>
 							<Value>0</Value>
 						</RTPCValue>
@@ -170,10 +166,6 @@
 						<RTPCValue>
 							<GameParameterRef Name="RTPC_ext_base_capturing_invaders_ally" ID="{C21D3BAB-03CF-42F0-9844-1C1C4E3714DB}"/>
 							<Value>3</Value>
-						</RTPCValue>
-						<RTPCValue>
-							<GameParameterRef Name="RTPC_ext_buildings_number" ID="{753F6CD6-02F5-430D-974A-B256782A3666}"/>
-							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="RTPC_int_eng_damage" ID="{3BD982D3-39FE-431B-8EC4-286A348BDFD1}"/>
@@ -221,10 +213,6 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="RTPC_int_expl_LP_filter" ID="{C4E368AC-DB78-43D4-8BA3-9D1F8F403AD7}"/>
-							<Value>0</Value>
-						</RTPCValue>
-						<RTPCValue>
-							<GameParameterRef Name="RTPC_ext_mission_zoom_blue" ID="{1539D444-03C8-43D6-B0DB-4925FE037735}"/>
 							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
@@ -310,10 +298,6 @@
 						<RTPCValue>
 							<GameParameterRef Name="RTPC_int_wind_intensity_sc_transfer" ID="{EDCF942B-6B16-4517-A45E-17A21CBAF9DD}"/>
 							<Value>-48</Value>
-						</RTPCValue>
-						<RTPCValue>
-							<GameParameterRef Name="RTPC_ext_mission_zoom" ID="{429FD62A-CD1E-4562-9484-029C7D786E41}"/>
-							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="RTPC_ext_speed_abs_global" ID="{9DBB765C-9E5B-4594-841E-F97657DD4D42}"/>
@@ -416,10 +400,6 @@
 							<Value>100</Value>
 						</RTPCValue>
 						<RTPCValue>
-							<GameParameterRef Name="RTPC_ext_defence_period" ID="{63520A19-310F-4724-ABBF-857953508380}"/>
-							<Value>0</Value>
-						</RTPCValue>
-						<RTPCValue>
 							<GameParameterRef Name="RTPC_int_sc_decel_V2K_NPC" ID="{ABF908B7-9659-474C-A92C-1A7A1CD4AE47}"/>
 							<Value>-60</Value>
 						</RTPCValue>
@@ -437,10 +417,6 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="RTPC_ext_turret_weight" ID="{CBED7AA7-B413-47A1-BB55-96A8A0C833EE}"/>
-							<Value>0</Value>
-						</RTPCValue>
-						<RTPCValue>
-							<GameParameterRef Name="RTPC_ext_greeting_overlay" ID="{A03C8882-42E7-47A2-AED4-215D8BF7468F}"/>
 							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
@@ -564,10 +540,6 @@
 							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
-							<GameParameterRef Name="RTPC_ext_mission_zoom_green" ID="{67259CAB-FA95-4B6E-9519-BB0DA75D6E24}"/>
-							<Value>0</Value>
-						</RTPCValue>
-						<RTPCValue>
 							<GameParameterRef Name="RTPC_ext_doppler" ID="{F29FF57F-43F7-4B78-9886-E16A931B8524}"/>
 							<Value>0</Value>
 						</RTPCValue>
@@ -581,10 +553,6 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="RTPC_ext_camera_speed" ID="{D7EE89E4-0E56-4BB6-B985-F424377D6E8A}"/>
-							<Value>0</Value>
-						</RTPCValue>
-						<RTPCValue>
-							<GameParameterRef Name="RTPC_ext_transport_mode" ID="{34C37B4A-EF44-4BD9-8891-C51E70A7F957}"/>
 							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
@@ -794,10 +762,6 @@
 						<RTPCValue>
 							<GameParameterRef Name="RTPC_int_sc_decel_FordGAA_NPC" ID="{4A75973C-D588-4F81-82B4-6D47E2A19E5F}"/>
 							<Value>-60</Value>
-						</RTPCValue>
-						<RTPCValue>
-							<GameParameterRef Name="RTPC_ext_mission_number" ID="{1AFC31E8-87C1-4FB4-BB96-C690794D5221}"/>
-							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="RTPC_ext_physic_gear_6" ID="{5CB5034E-7015-4FB8-8B50-B3E5B8EE0CF4}"/>

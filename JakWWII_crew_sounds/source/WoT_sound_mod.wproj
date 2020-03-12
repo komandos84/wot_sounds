@@ -6,11 +6,29 @@
 				<Platform Name="Windows_HighRes" ReferencePlatform="Windows" ID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EC}"/>
 			</Platforms>
 			<LanguageList>
+				<Language Name="amway" ID="{1D792B4F-96DD-4188-9CE9-E2CE285EB996}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>14</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
 				<Language Name="Arabic" ID="{826C9768-7F09-4BDC-B7E2-06504EACCD49}">
 					<PropertyList>
 						<Property Name="VolumeOffset" Type="Real64">
 							<ValueList>
 								<Value>3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
+				<Language Name="AwesomeEpicGuys" ID="{F46014B9-657F-4333-B044-71FC38EE1D51}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>14</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -47,6 +65,15 @@
 						</Property>
 					</PropertyList>
 				</Language>
+				<Language Name="DezGamez" ID="{7BA613D5-49B8-420A-BEB1-F3251F91CF9C}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>14</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
 				<Language Name="Dutch" ID="{C91400FA-923A-4132-B34C-026BA381AB30}">
 					<PropertyList>
 						<Property Name="VolumeOffset" Type="Real64">
@@ -70,6 +97,24 @@
 						<Property Name="VolumeOffset" Type="Real64">
 							<ValueList>
 								<Value>3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
+				<Language Name="English(Off)" ID="{4F2BF8E0-3F60-43B6-81F8-033809584FA2}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>5.5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
+				<Language Name="English(Race)" ID="{5B002133-46B7-438B-A6C7-AA8138E4E8FD}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>5</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -121,9 +166,45 @@
 				</Language>
 				<Language Name="Italian_native" ID="{77E377BF-CCF3-4FF5-B626-452028A46778}"/>
 				<Language Name="Japanese" ID="{551DDF96-23CB-406C-888A-480C1F80096F}"/>
+				<Language Name="Korben" ID="{77CC89F0-3772-4712-9763-063B11B23EF2}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>15</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
 				<Language Name="Korean" ID="{D4D2151C-95E1-499E-8C9B-4C954C643F96}"/>
 				<Language Name="Latin" ID="{B3DCEC1F-62A5-4380-851E-A8E49A3C1DFF}"/>
+				<Language Name="Levsha" ID="{C43EA651-A7B0-4B6B-B722-C02FD0B15A04}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>14</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
+				<Language Name="Mailand" ID="{76F1E4B5-0285-470A-B013-93191CA2ACCF}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>14</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
 				<Language Name="Mixed" ID="{1F5D9014-D9D8-4767-9E09-C6AD099FD32A}"/>
+				<Language Name="mod_PortugueseFemale" ID="{C38BE0FF-EDAD-460F-967A-4ADA0B6BDA9A}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>8.5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
 				<Language Name="Norwegian" ID="{4074DFB7-FCEE-4C7E-AA7E-C4980FF7305E}">
 					<PropertyList>
 						<Property Name="VolumeOffset" Type="Real64">
@@ -155,7 +236,25 @@
 				</Language>
 				<Language Name="Romanian" ID="{E615F231-6135-45A6-B602-4CAD3342B0D0}"/>
 				<Language Name="Russian" ID="{3A26457B-7413-4A3D-A0B2-0A01FBE6B802}"/>
+				<Language Name="Russian(Race)" ID="{17C4EE3E-175B-4AAB-A73C-C64CEEA8ADBD}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
 				<Language Name="SFX" ID="{08DD6169-A10F-419A-8112-C96DE3265289}"/>
+				<Language Name="Skill4ltu" ID="{0B198699-94B6-47A0-AF16-72D44FCF983E}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>11</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
 				<Language Name="Slovenian" ID="{3922E37D-7410-4D5F-9DA9-343A456D1F87}"/>
 				<Language Name="Spanish(Mexico)" ID="{1F75F20A-4929-4108-A009-FFF2A56CA438}">
 					<PropertyList>
@@ -181,6 +280,15 @@
 				<Language Name="Turkish" ID="{6A946E7B-1BE0-4881-9957-BACB3867FEF9}"/>
 				<Language Name="uniqueCrewSpecialVoice" ID="{0AFB00FC-CAB2-4B0A-B1F7-B0D0C68FC3ED}"/>
 				<Language Name="Vietnamese" ID="{4C2F2FFB-3EB4-418A-B9A6-F53C557DAD5F}"/>
+				<Language Name="Yusha" ID="{FDB45B6D-E96D-4A1E-94FA-919B9630641C}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>13</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
 			</LanguageList>
 			<PropertyList>
 				<Property Name="DefaultLanguage" Type="string" Value="Russian"/>
@@ -10987,9 +11095,6 @@
 				</PhysicalFolder>
 				<PhysicalFolder Path="Attenuations">
 					<WorkUnit Name="Attenuations" ID="{017BDDA0-1BB1-4CE1-8077-79594EC4585C}" PersistMode="Standalone"/>
-				</PhysicalFolder>
-				<PhysicalFolder Path="Attenuations\Bongfish">
-					<WorkUnit Name="Bongfish" ID="{1146B30F-7F11-4ACA-A011-2B6D82810598}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Audio Devices">
 					<WorkUnit Name="Audio Devices" ID="{27092F88-225A-1154-6725-C8A34F3D4482}" PersistMode="Standalone"/>

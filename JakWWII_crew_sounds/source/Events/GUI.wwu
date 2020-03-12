@@ -120,6 +120,10 @@
             <Event Name="result_screen_bonus" ID="{74509A28-C02D-468A-B620-B065E3B455D1}">
               <ChildrenList></ChildrenList>
             </Event>
+            <Event Name="timer_oneshot" ID="{9A9A7325-667B-4AF8-9338-4CEC4F2CC505}">
+              <Comment>Event is created as part of the work to synchronize the sound of pre-battle timer with the visual display of the counter before the start of the battle. It is called up simultaneously with each tick of the timer.</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
           </ChildrenList>
         </Folder>
         <Folder Name="buttons" ID="{45BB4894-E1CD-42C6-8F0A-846090B570A8}" ShortID="691214648">
