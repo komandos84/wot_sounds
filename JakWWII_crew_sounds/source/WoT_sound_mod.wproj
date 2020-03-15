@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="Project" SchemaVersion="85" WwiseVersion="v2017.2.5" WwiseBuild="6619">
 	<ProjectInfo>
-		<Project Name="Wwise_2.0_mixing" ID="{655ED899-8C41-4BD4-9799-A8885909500D}">
+		<Project Name="WoT_sound_mod" ID="{655ED899-8C41-4BD4-9799-A8885909500D}">
 			<Platforms>
 				<Platform Name="Windows_HighRes" ReferencePlatform="Windows" ID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EC}"/>
 			</Platforms>
@@ -7574,7 +7574,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="Resonance Audio Renderer" PluginType="3" CompanyID="272" PluginID="100">
+				<SharedPropertyList ClassName="" PluginType="3" CompanyID="272" PluginID="100">
 					<PropertyList>
 						<Property Name="Inclusion" Type="bool">
 							<ValueList>
@@ -9260,7 +9260,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="Wwise Convolution Reverb" PluginType="3" CompanyID="0" PluginID="127">
+				<SharedPropertyList ClassName="" PluginType="3" CompanyID="0" PluginID="127">
 					<PropertyList>
 						<Property Name="AlgoTypeSelect" Type="int32">
 							<ValueList>
@@ -10005,7 +10005,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="Microsoft HRTF" PluginType="3" CompanyID="0" PluginID="170">
+				<SharedPropertyList ClassName="" PluginType="3" CompanyID="0" PluginID="170">
 					<PropertyList>
 						<Property Name="Inclusion" Type="bool">
 							<ValueList>
@@ -10019,7 +10019,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="Microsoft Spatial Sound Platform Output" PluginType="7" CompanyID="275" PluginID="170">
+				<SharedPropertyList ClassName="" PluginType="7" CompanyID="275" PluginID="170">
 					<PropertyList>
 						<Property Name="Inclusion" Type="bool">
 							<ValueList>
@@ -10159,7 +10159,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="Resonance Audio Room Effects" PluginType="6" CompanyID="272" PluginID="200">
+				<SharedPropertyList ClassName="" PluginType="6" CompanyID="272" PluginID="200">
 					<PropertyList>
 						<Property Name="Inclusion" Type="bool">
 							<ValueList>
@@ -10168,7 +10168,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="Wwise MP3 Input" PluginType="2" CompanyID="0" PluginID="201">
+				<SharedPropertyList ClassName="" PluginType="2" CompanyID="0" PluginID="201">
 					<PropertyList>
 						<Property Name="Token" Type="int32">
 							<ValueList>
@@ -10177,7 +10177,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="AttachableMixerInput" PluginType="3" CompanyID="272" PluginID="201">
+				<SharedPropertyList ClassName="" PluginType="3" CompanyID="272" PluginID="201">
 					<PropertyList>
 						<Property Name="Bypass" Type="bool">
 							<ValueList>
@@ -10397,7 +10397,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="CrankcaseAudio REV" PluginType="2" CompanyID="261" PluginID="416">
+				<SharedPropertyList ClassName="" PluginType="2" CompanyID="261" PluginID="416">
 					<PropertyList>
 						<Property Name="EnableShifting" Type="int32">
 							<ValueList>
@@ -10436,7 +10436,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="EngineSimulationControlData" PluginType="0" CompanyID="261" PluginID="417">
+				<SharedPropertyList ClassName="" PluginType="0" CompanyID="261" PluginID="417">
 					<PropertyList>
 						<Property Name="ClutchRPMMergeTime" Type="Real32">
 							<ValueList>
@@ -10520,7 +10520,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="AccelDecelModelControlData" PluginType="0" CompanyID="261" PluginID="418">
+				<SharedPropertyList ClassName="" PluginType="0" CompanyID="261" PluginID="418">
 					<PropertyList>
 						<Property Name="AccelVolume_Off" Type="Real32">
 							<ValueList>
@@ -11095,6 +11095,9 @@
 				</PhysicalFolder>
 				<PhysicalFolder Path="Attenuations">
 					<WorkUnit Name="Attenuations" ID="{017BDDA0-1BB1-4CE1-8077-79594EC4585C}" PersistMode="Standalone"/>
+				</PhysicalFolder>
+				<PhysicalFolder Path="Attenuations\Bongfish">
+					<WorkUnit Name="Bongfish" ID="{9B092E9B-DB08-4131-9E07-2347F921D7D0}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Audio Devices">
 					<WorkUnit Name="Audio Devices" ID="{27092F88-225A-1154-6725-C8A34F3D4482}" PersistMode="Standalone"/>

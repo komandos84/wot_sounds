@@ -76,7 +76,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="commander_killed" ID="{7D5082BC-7DF1-4EC7-B61A-77A0A2EECB72}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+											<ObjectRef Name="driver_killed" ID="{333476CD-B526-4A2C-878E-ED66ADFEAD1F}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -800,7 +800,7 @@
 						<Event Name="vo_flt_combat_reserve" ID="{63322562-3CB9-4BBE-A351-4E90B9025CC2}">
 							<Comment>Event - Combat Reserve received</Comment>
 						</Event>
-						<Event Name="vo_flt_ready_for_action" ID="{A300CDA7-EC3E-4D6B-AA63-0255810CFFDE}">
+						<Event Name="vo_flt_ready_for_action_01" ID="{A300CDA7-EC3E-4D6B-AA63-0255810CFFDE}">
 							<Comment>Event - Prepared</Comment>
 						</Event>
 					</ChildrenList>
