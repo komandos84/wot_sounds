@@ -11,6 +11,7 @@
 7. [Team Fortress 2](https://github.com/komandos84/wot_sounds/raw/master/teamfortress2_crew_sounds/zip/TeamFortress.zip)
 8. [Dźwięki Vito](https://github.com/komandos84/wot_sounds/raw/master/vito_crew_sounds/zip/CrewSoundsByVito.zip)
 9. [Wiedźmin](https://github.com/komandos84/wot_sounds/raw/master/wiedzmin_crew_sounds/zip/CrewSoundsWiedzmin.zip)
+10.[Jak rozpętałem II Wojnę Światową](https://github.com/komandos84/wot_sounds/raw/master/JakWWII_crew_sounds/zip/JakWW2.zip)
 
 ***Mody dźwiękowe***
 1. [Dźwięki dział sprzed wersji 0.7.0](https://github.com/komandos84/wot_sounds/raw/master/old_sounds_of_gun/zip/old_sounds_of_gun.zip)
