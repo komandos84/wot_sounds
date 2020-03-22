@@ -1,3 +1,9 @@
+## Status
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/komandos84/wot_sounds/master?style=for-the-badge)
+![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/komandos84/wot_sounds?style=for-the-badge)
+![GitHub issues](https://img.shields.io/github/issues/komandos84/wot_sounds?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/komandos84/wot_sounds?style=for-the-badge)
+
 # Dźwięki załogi *by Automatyk*
 
 ***Dźwięki załogi***
