@@ -13,6 +13,7 @@
 						<ObjectRef Name="vo_armor_not_pierced_by_player" ID="{AE7F5114-6B82-40B3-9D1B-2D285931D9FE}" WorkUnitID="{29708410-8604-415B-B6D7-AEA35E382D83}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="vo_gun_functional" ID="{4AB0FBBE-474D-4109-ABA6-A9805C662D40}" WorkUnitID="{29708410-8604-415B-B6D7-AEA35E382D83}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="vo_driver_killed" ID="{98103C96-60D1-412A-B44E-8F0C7F3BF5CD}" WorkUnitID="{29708410-8604-415B-B6D7-AEA35E382D83}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="gun_rld_autoloader_full_almost_complete" ID="{755C0B89-1D99-4149-88D6-07F8707B5467}" WorkUnitID="{258FCDEE-B4FE-42C2-8FEE-6A41D76BDD47}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="vo_surveying_devices_functional" ID="{646B859A-64AC-41C2-9E62-2E86256B0B56}" WorkUnitID="{29708410-8604-415B-B6D7-AEA35E382D83}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="gun_rld_12_25mm" ID="{68CC51DF-8DE5-41C7-B79C-FBB39A5047AE}" WorkUnitID="{258FCDEE-B4FE-42C2-8FEE-6A41D76BDD47}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="vo_fire_started" ID="{3ED7F523-5D9D-41E3-8AE7-0E19B416908A}" WorkUnitID="{29708410-8604-415B-B6D7-AEA35E382D83}" Filter="7" Origin="Manual"/>
@@ -44,6 +45,7 @@
 						<ObjectRef Name="gun_rld_85_107mm" ID="{9FAC5AD6-4AB2-49E2-BB08-A5BDD345FFD9}" WorkUnitID="{258FCDEE-B4FE-42C2-8FEE-6A41D76BDD47}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="vo_turret_rotator_functional" ID="{8388C1DE-8FA6-4A4C-8F1A-8D1985AFEED6}" WorkUnitID="{29708410-8604-415B-B6D7-AEA35E382D83}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="vo_enemy_hp_damaged_by_explosion_at_direct_hit_by_player" ID="{20E639EF-7292-4AF6-A1F6-62E674E910C6}" WorkUnitID="{29708410-8604-415B-B6D7-AEA35E382D83}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="gun_rld_automat_reloading_long_loop_stop" ID="{FEA2E9C6-8A11-4B04-851B-3CB6D6232D2D}" WorkUnitID="{258FCDEE-B4FE-42C2-8FEE-6A41D76BDD47}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="vo_start_battle" ID="{99B00546-0FD7-4B30-819C-90FCE55DAE55}" WorkUnitID="{29708410-8604-415B-B6D7-AEA35E382D83}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="vo_enemy_hp_damaged_by_projectile_and_chassis_damaged_by_player" ID="{9609DE93-7087-4BA8-A494-0C86C666A011}" WorkUnitID="{29708410-8604-415B-B6D7-AEA35E382D83}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="vo_target_lost" ID="{4EE41993-047C-4C01-8B76-9E7EA0EB1901}" WorkUnitID="{29708410-8604-415B-B6D7-AEA35E382D83}" Filter="7" Origin="Manual"/>
@@ -61,6 +63,7 @@
 						<ObjectRef Name="vo_turret_rotator_damaged" ID="{B77640C8-06E1-4EB8-AE2B-BEB47636BE08}" WorkUnitID="{29708410-8604-415B-B6D7-AEA35E382D83}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="vo_commander_killed" ID="{5623784F-7DE6-4EBB-9F71-97ECBA810D95}" WorkUnitID="{29708410-8604-415B-B6D7-AEA35E382D83}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="vo_crew_deactivated" ID="{94F09823-5021-4F6E-A513-5C69372474FD}" WorkUnitID="{29708410-8604-415B-B6D7-AEA35E382D83}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="gun_rld_autoloader_full_complete" ID="{E14E3261-AF86-4F7B-9420-AC27AC0C2746}" WorkUnitID="{258FCDEE-B4FE-42C2-8FEE-6A41D76BDD47}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="vo_track_functional" ID="{96694FAD-1E09-4F80-92FB-5703BAAA268A}" WorkUnitID="{29708410-8604-415B-B6D7-AEA35E382D83}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="vo_damage_by_near_explosion_by_player" ID="{667B321F-1505-4F90-8411-980FD731331D}" WorkUnitID="{29708410-8604-415B-B6D7-AEA35E382D83}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="vo_track_functional_can_move" ID="{57EE972F-77A3-4FCC-8538-9A5B8C9900E2}" WorkUnitID="{29708410-8604-415B-B6D7-AEA35E382D83}" Filter="7" Origin="Manual"/>
