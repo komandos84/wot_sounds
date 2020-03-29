@@ -96,9 +96,35 @@
 				</Event>
 				<Folder Name="Autoloader" ID="{EF8DCB27-BA7A-4ED7-8D9D-0276B89715BF}" ShortID="160595806">
 					<ChildrenList>
-						<Event Name="gun_rld_autoloader_full_almost_complete" ID="{755C0B89-1D99-4149-88D6-07F8707B5467}"/>
+						<Event Name="gun_rld_autoloader_full_almost_complete" ID="{755C0B89-1D99-4149-88D6-07F8707B5467}">
+							<ChildrenList>
+								<Action Name="" ID="{8091139A-0AB8-4069-941C-8154FF3C1EDD}" ShortID="226474407">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="gun_reloaded" ID="{7FDAB2A9-A3F7-419E-9DB7-1069180500C0}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Event Name="gun_rld_autoloader_long_oneshell" ID="{277AA6BC-9225-4047-B2B3-2C687A9E26B5}"/>
-						<Event Name="gun_rld_autoloader_full_complete" ID="{E14E3261-AF86-4F7B-9420-AC27AC0C2746}"/>
+						<Event Name="gun_rld_autoloader_full_complete" ID="{E14E3261-AF86-4F7B-9420-AC27AC0C2746}">
+							<ChildrenList>
+								<Action Name="" ID="{5DF55A56-4F7F-47D1-948C-CC669CC877F0}" ShortID="821075724">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="gun_reloaded" ID="{7FDAB2A9-A3F7-419E-9DB7-1069180500C0}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Event Name="gun_rld_autoloader_short_oneshell" ID="{D24B92DA-BDA1-4FCC-971C-B309A050FAAB}">
 							<ChildrenList>
 								<Action Name="" ID="{46AF4D45-6D61-4E80-8062-6D68A3828577}" ShortID="764626642">
@@ -123,7 +149,20 @@
 					<ChildrenList>
 						<Event Name="gun_rld_automat_reloading_long_loop" ID="{837B2E2D-55EB-4CD7-9CA7-9EA576F7B9B4}"/>
 						<Event Name="gun_rld_automat_reloading_long_oneshell" ID="{66FF07D2-137E-406D-B159-DE81DC7824D8}"/>
-						<Event Name="gun_rld_automat_reloading_long_loop_stop" ID="{FEA2E9C6-8A11-4B04-851B-3CB6D6232D2D}"/>
+						<Event Name="gun_rld_automat_reloading_long_loop_stop" ID="{FEA2E9C6-8A11-4B04-851B-3CB6D6232D2D}">
+							<ChildrenList>
+								<Action Name="" ID="{03770816-7864-4663-B0A6-8B11E75F4695}" ShortID="833146704">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="gun_reloaded" ID="{7FDAB2A9-A3F7-419E-9DB7-1069180500C0}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Event Name="gun_rld_automat_reloading_short_oneshell" ID="{12D6E92A-E633-4623-9C7B-10F135C75F68}">
 							<ChildrenList>
 								<Action Name="" ID="{2782817D-4791-4C23-9A8A-8E1A398BEE58}" ShortID="148546296">
