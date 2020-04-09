@@ -96,20 +96,7 @@
 				</Event>
 				<Folder Name="Autoloader" ID="{EF8DCB27-BA7A-4ED7-8D9D-0276B89715BF}" ShortID="160595806">
 					<ChildrenList>
-						<Event Name="gun_rld_autoloader_full_almost_complete" ID="{755C0B89-1D99-4149-88D6-07F8707B5467}">
-							<ChildrenList>
-								<Action Name="" ID="{8091139A-0AB8-4069-941C-8154FF3C1EDD}" ShortID="226474407">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="gun_reloaded" ID="{7FDAB2A9-A3F7-419E-9DB7-1069180500C0}" WorkUnitID="{65190E54-2D13-4236-B92A-68EECE61A842}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
+						<Event Name="gun_rld_autoloader_full_almost_complete" ID="{755C0B89-1D99-4149-88D6-07F8707B5467}"/>
 						<Event Name="gun_rld_autoloader_long_oneshell" ID="{277AA6BC-9225-4047-B2B3-2C687A9E26B5}"/>
 						<Event Name="gun_rld_autoloader_full_complete" ID="{E14E3261-AF86-4F7B-9420-AC27AC0C2746}">
 							<ChildrenList>

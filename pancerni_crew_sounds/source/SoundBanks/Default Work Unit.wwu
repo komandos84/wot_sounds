@@ -13,7 +13,6 @@
 						<ObjectRef Name="vo_armor_not_pierced_by_player" ID="{AE7F5114-6B82-40B3-9D1B-2D285931D9FE}" WorkUnitID="{29708410-8604-415B-B6D7-AEA35E382D83}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="vo_gun_functional" ID="{4AB0FBBE-474D-4109-ABA6-A9805C662D40}" WorkUnitID="{29708410-8604-415B-B6D7-AEA35E382D83}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="vo_driver_killed" ID="{98103C96-60D1-412A-B44E-8F0C7F3BF5CD}" WorkUnitID="{29708410-8604-415B-B6D7-AEA35E382D83}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="gun_rld_autoloader_full_almost_complete" ID="{755C0B89-1D99-4149-88D6-07F8707B5467}" WorkUnitID="{258FCDEE-B4FE-42C2-8FEE-6A41D76BDD47}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="vo_surveying_devices_functional" ID="{646B859A-64AC-41C2-9E62-2E86256B0B56}" WorkUnitID="{29708410-8604-415B-B6D7-AEA35E382D83}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="gun_rld_12_25mm" ID="{68CC51DF-8DE5-41C7-B79C-FBB39A5047AE}" WorkUnitID="{258FCDEE-B4FE-42C2-8FEE-6A41D76BDD47}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="vo_fire_started" ID="{3ED7F523-5D9D-41E3-8AE7-0E19B416908A}" WorkUnitID="{29708410-8604-415B-B6D7-AEA35E382D83}" Filter="7" Origin="Manual"/>
