@@ -62,7 +62,6 @@
 						<ObjectRef Name="vo_turret_rotator_damaged" ID="{B77640C8-06E1-4EB8-AE2B-BEB47636BE08}" WorkUnitID="{29708410-8604-415B-B6D7-AEA35E382D83}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="vo_commander_killed" ID="{5623784F-7DE6-4EBB-9F71-97ECBA810D95}" WorkUnitID="{29708410-8604-415B-B6D7-AEA35E382D83}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="vo_crew_deactivated" ID="{94F09823-5021-4F6E-A513-5C69372474FD}" WorkUnitID="{29708410-8604-415B-B6D7-AEA35E382D83}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="gun_rld_autoloader_full_complete" ID="{E14E3261-AF86-4F7B-9420-AC27AC0C2746}" WorkUnitID="{258FCDEE-B4FE-42C2-8FEE-6A41D76BDD47}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="vo_track_functional" ID="{96694FAD-1E09-4F80-92FB-5703BAAA268A}" WorkUnitID="{29708410-8604-415B-B6D7-AEA35E382D83}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="vo_damage_by_near_explosion_by_player" ID="{667B321F-1505-4F90-8411-980FD731331D}" WorkUnitID="{29708410-8604-415B-B6D7-AEA35E382D83}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="vo_track_functional_can_move" ID="{57EE972F-77A3-4FCC-8538-9A5B8C9900E2}" WorkUnitID="{29708410-8604-415B-B6D7-AEA35E382D83}" Filter="7" Origin="Manual"/>

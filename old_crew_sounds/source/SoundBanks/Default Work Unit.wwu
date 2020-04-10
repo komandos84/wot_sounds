@@ -85,7 +85,6 @@
 						<ObjectRef Name="lightbulb" ID="{511FE419-73B9-4C40-B67B-7AE942E805FD}" WorkUnitID="{DFF2755B-9A8F-4FB9-A356-F3AC81BDD167}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="notifications_vo_old" ID="{D03DDD48-FF7F-4C74-A4B3-176E3DD04E58}" WorkUnitID="{B8424251-D94B-4427-BF66-A85D3ACABAE7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="gun_rld_dual_reloading_oneshell" ID="{0DC585AF-CD3A-4E9C-AD46-024A9AD40784}" WorkUnitID="{258FCDEE-B4FE-42C2-8FEE-6A41D76BDD47}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="gun_rld_autoloader_full_complete" ID="{E14E3261-AF86-4F7B-9420-AC27AC0C2746}" WorkUnitID="{258FCDEE-B4FE-42C2-8FEE-6A41D76BDD47}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="gun_rld_autoloader_short_oneshell" ID="{D24B92DA-BDA1-4FCC-971C-B309A050FAAB}" WorkUnitID="{258FCDEE-B4FE-42C2-8FEE-6A41D76BDD47}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
