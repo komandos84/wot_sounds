@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{85931DF2-535B-471F-9493-6FDF66801E24}" SchemaVersion="85">
+	<Modulators>
+		<WorkUnit Name="Impacts" ID="{85931DF2-535B-471F-9493-6FDF66801E24}" PersistMode="Standalone">
+			<ChildrenList>
+				<ModulatorEnvelope Name="ADSR_contusion_sine_extrem" ID="{74A2BF05-3985-40A6-827A-CEB9DFB83DE0}" ShortID="1011376757">
+					<PropertyList>
+						<Property Name="EnvelopeAttackCurve" Type="Real64" Value="100"/>
+						<Property Name="EnvelopeAttackTime" Type="Real64" Value="0.4"/>
+						<Property Name="EnvelopeAutoRelease" Type="bool" Value="True"/>
+						<Property Name="EnvelopeDecayTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeReleaseTime" Type="Real64" Value="4"/>
+						<Property Name="ModulatorScope" Type="int32" Value="0"/>
+					</PropertyList>
+				</ModulatorEnvelope>
+				<ModulatorEnvelope Name="ADSR_contusion_sine_avg" ID="{BF9C552B-D6A3-441E-B2FE-0B8BA9F0D214}" ShortID="947197222">
+					<PropertyList>
+						<Property Name="EnvelopeAttackCurve" Type="Real64" Value="98"/>
+						<Property Name="EnvelopeAttackTime" Type="Real64" Value="1"/>
+						<Property Name="EnvelopeAutoRelease" Type="bool" Value="True"/>
+						<Property Name="EnvelopeDecayTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeReleaseTime" Type="Real64" Value="2"/>
+						<Property Name="ModulatorScope" Type="int32" Value="0"/>
+					</PropertyList>
+				</ModulatorEnvelope>
+				<ModulatorEnvelope Name="ADSR_contusion_sine_tiny" ID="{71607116-2ABD-495D-8CC7-150FEE318DD3}" ShortID="566429063">
+					<PropertyList>
+						<Property Name="EnvelopeAttackCurve" Type="Real64" Value="98"/>
+						<Property Name="EnvelopeAttackTime" Type="Real64" Value="1"/>
+						<Property Name="EnvelopeAutoRelease" Type="bool" Value="True"/>
+						<Property Name="EnvelopeDecayTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0.3"/>
+						<Property Name="ModulatorScope" Type="int32" Value="0"/>
+					</PropertyList>
+				</ModulatorEnvelope>
+			</ChildrenList>
+		</WorkUnit>
+	</Modulators>
+</WwiseDocument>

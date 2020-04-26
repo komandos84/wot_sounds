@@ -1,0 +1,64 @@
+<WwiseDocument Type="WorkUnit" ID="{653010B4-B231-4469-B85F-A3A4BED4F21F}" SchemaVersion="85">
+  <States>
+    <WorkUnit Name="Interactive_music" ID="{653010B4-B231-4469-B85F-A3A4BED4F21F}" PersistMode="Standalone">
+      <ChildrenList>
+        <StateGroup Name="STATE_music_corellator" ID="{818F182F-B52A-4BED-998E-E82B5E920FD7}">
+          <ChildrenList>
+            <State Name="None" ID="{F32525FF-0FD4-46E5-B06E-2105A7FAB649}" />
+            <State Name="STATE_music_corellator_neutral" ID="{B5D1EA19-6E81-46C4-BD2C-4D307822D013}" />
+            <State Name="STATE_music_corellator_negative_1" ID="{7D231CF6-F02A-47C7-B432-66A991255BA4}" />
+            <State Name="STATE_music_corellator_positive_2" ID="{2C33C1C7-9560-4ECE-9D4D-B4A46577E0E6}" />
+            <State Name="STATE_music_corellator_negative_2" ID="{2EFC8850-B097-4BC9-8306-6B4A6C36CFAF}" />
+            <State Name="STATE_music_corellator_negative_3" ID="{34615DA2-B91F-4804-88A4-F2BE03AB8D58}" />
+            <State Name="STATE_music_corellator_positive_1" ID="{83BFDFD7-1736-48B4-9F5B-38FE6DF16140}" />
+            <State Name="STATE_music_corellator_positive_3" ID="{189D341C-9246-484C-9518-4280554C9252}" />
+            <State Name="STATE_music_rusult_win" ID="{5743B3B7-B30D-40B9-871D-249F5D5C9CF8}" />
+            <State Name="STATE_music_rusult_drawn" ID="{BB8CB98A-070E-45FA-AC36-8E2655F2E749}" />
+            <State Name="STATE_music_rusult_defeat" ID="{A7703385-AD9F-42FA-8480-3940EAE1C487}" />
+            <State Name="STATE_music_loadscreen" ID="{B2C26289-93D4-4C20-BEEF-FDE49CDA9C01}" />
+          </ChildrenList>
+          <TransitionList>
+            <Transition>
+              <StartState Name="STATE_music_corellator_positive_1" ID="{83BFDFD7-1736-48B4-9F5B-38FE6DF16140}" />
+              <EndState Name="STATE_music_corellator_neutral" ID="{B5D1EA19-6E81-46C4-BD2C-4D307822D013}" />
+              <Time>6</Time>
+              <IsShared>false</IsShared>
+            </Transition>
+          </TransitionList>
+        </StateGroup>
+        <StateGroup Name="STATE_battle_phaze" ID="{031AB9FF-1AA4-451B-8B68-4C6F50627096}">
+          <Comment>The state is responsible for changing the intensity of the percussion part of music in battle</Comment>
+          <ChildrenList>
+            <State Name="None" ID="{DF3ED569-A7A4-4102-BDFD-4CDB79DE7B74}" />
+            <State Name="STATE_exploring" ID="{0706F09C-E066-4E87-9FE1-F8BAACA15F04}" />
+            <State Name="STATE_combat" ID="{C3A7FA19-6529-4DED-94B8-1FC4FD011DD2}" />
+          </ChildrenList>
+          <TransitionList>
+            <Transition>
+              <StartState Name="STATE_combat" ID="{C3A7FA19-6529-4DED-94B8-1FC4FD011DD2}" />
+              <EndState Name="STATE_exploring" ID="{0706F09C-E066-4E87-9FE1-F8BAACA15F04}" />
+              <Time>8</Time>
+              <IsShared>false</IsShared>
+            </Transition>
+            <Transition>
+              <StartState Name="STATE_exploring" ID="{0706F09C-E066-4E87-9FE1-F8BAACA15F04}" />
+              <EndState Name="STATE_combat" ID="{C3A7FA19-6529-4DED-94B8-1FC4FD011DD2}" />
+              <Time>0.5</Time>
+              <IsShared>false</IsShared>
+            </Transition>
+          </TransitionList>
+        </StateGroup>
+        <StateGroup Name="STATE_epicnormandy_battle_music" ID="{F21A16F4-DFCA-47AF-AABB-899D250752E9}">
+          <ChildrenList>
+            <State Name="None" ID="{1096DA34-85FD-4FBE-945A-09910FB8E6FB}" />
+            <State Name="STATE_epicnormandy_battle_music_01" ID="{C3F961EE-18F1-4B8C-897C-7A8E0A6D43B4}" />
+            <State Name="STATE_epicnormandy_battle_music_02" ID="{FB816D1F-113C-466A-99DE-5EF1E3F17EED}" />
+            <State Name="STATE_epicnormandy_battle_music_03" ID="{972962B8-E58E-4E8C-8FBC-98D3F3388317}" />
+            <State Name="STATE_epicnormandy_battle_music_00" ID="{91B7168E-A355-45FB-A83D-20270F7BCF78}" />
+            <State Name="STATE_epicnormandy_battle_silence" ID="{91C1A372-EA13-4E61-9FF9-38C749910C7D}" />
+          </ChildrenList>
+        </StateGroup>
+      </ChildrenList>
+    </WorkUnit>
+  </States>
+</WwiseDocument>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{976E6BCD-B4F3-47E6-88A2-AA612B1D151E}" SchemaVersion="85">
+	<Events>
+		<WorkUnit Name="GUI_Lootboxes" ID="{976E6BCD-B4F3-47E6-88A2-AA612B1D151E}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="gui_blueprints" ID="{052753BD-162D-45C7-A47C-1EDC5B0F04F7}" ShortID="701012727">
+					<ChildrenList>
+						<Event Name="gui_blueprint_view_switch_on" ID="{EF0253E1-382A-4A63-ADFE-25345CB2725C}">
+							<ChildrenList></ChildrenList>
+						</Event>
+						<Event Name="gui_blueprint_view_switch_off" ID="{628EC105-AD40-406C-B085-85C922377797}">
+							<ChildrenList></ChildrenList>
+						</Event>
+						<Event Name="gui_blueprint_view_switch_on_plus" ID="{5DAC6E2C-77E0-4206-A4A8-AE6D7D2B6246}">
+							<ChildrenList></ChildrenList>
+						</Event>
+						<Event Name="gui_blueprint_desk_rollover" ID="{375B86A2-1289-4DC5-B4D5-929C05B7273A}">
+							<ChildrenList></ChildrenList>
+						</Event>
+						<Event Name="gui_blueprint_desk_fragment_create" ID="{B3D0C79B-F03C-4623-A884-1AE49FA98CD2}">
+							<ChildrenList></ChildrenList>
+						</Event>
+						<Event Name="gui_blueprint_desk_research_rollover" ID="{B39828AB-71BF-4A3F-85DE-6E5C9913F2A2}">
+							<ChildrenList></ChildrenList>
+						</Event>
+						<Event Name="gui_blueprint_desk_research_rollout" ID="{1C2FB45A-23ED-475F-A7A2-6E2385C74321}">
+							<ChildrenList></ChildrenList>
+						</Event>
+						<Event Name="gui_blueprint_desk_researched" ID="{1EE4F5EF-9D77-4285-9BFA-9E7BE4E38F94}">
+							<ChildrenList></ChildrenList>
+						</Event>
+						<Event Name="gui_blueprint_desk_researched_stamp" ID="{D2E4BCB7-8401-4E79-A0AB-0BF547D9EDC4}">
+							<ChildrenList></ChildrenList>
+						</Event>
+						<Event Name="gui_blueprint_desk_fragment_create_multiple" ID="{046178AB-B9D6-43D8-845F-F0935ABEADA1}">
+							<ChildrenList></ChildrenList>
+						</Event>
+						<Event Name="gui_blueprint_desk_to_research_rollover" ID="{874874AF-13F1-4766-ABE2-DB41D6DE2323}">
+							<ChildrenList></ChildrenList>
+						</Event>
+						<Event Name="gui_blueprint_desk_to_research_rollout" ID="{F835F972-A06C-4BFB-BA91-FDF8070DED35}">
+							<ChildrenList></ChildrenList>
+						</Event>
+						<Event Name="gui_blueprint_last_fragment_convert" ID="{3CE4F614-9F23-4F77-B140-F64A43FE8B0F}">
+							<ChildrenList></ChildrenList>
+						</Event>
+						<Event Name="gui_blueprint_fragment_convert" ID="{DBA5FCB5-3FC8-4815-B78E-8BDEDBE3587C}">
+							<ChildrenList></ChildrenList>
+						</Event>
+						<Event Name="gui_blueprint_desk_research_n_a_rollover" ID="{79EE2E74-5B24-4DB9-A85E-111AA19433EF}">
+							<ChildrenList></ChildrenList>
+						</Event>
+						<Event Name="gui_blueprint_desk_need_research_stamp" ID="{58D83CA1-FCBC-40E0-A0A5-D114FE409EAB}">
+							<ChildrenList></ChildrenList>
+						</Event>
+						<Event Name="gui_blueprint_desk_need_research" ID="{7F958C43-B15E-41D4-BB92-7C0C2F22201C}">
+							<ChildrenList></ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
