@@ -1,0 +1,1519 @@
+<WwiseDocument Type="WorkUnit" ID="{E2A1C0B3-95FC-4117-9B77-D78104DB631D}" SchemaVersion="85">
+  <Events>
+    <WorkUnit Name="Impacts" ID="{E2A1C0B3-95FC-4117-9B77-D78104DB631D}" PersistMode="Standalone">
+      <Comment>The system of hitting PC and NPC vehicles</Comment>
+      <ChildrenList>
+        <Folder Name="small" ID="{43408A56-9A54-4D4C-93D5-C9501AE947E7}" ShortID="394830539">
+          <Comment>Small caliber</Comment>
+          <ChildrenList>
+            <Folder Name="NPC_NPC" ID="{7205A95F-0B2C-4AF1-91A7-8B4F7E4D64D0}" ShortID="613586759">
+              <ChildrenList>
+                <Folder Name="AP" ID="{C7EB77CE-3A31-4568-A1E9-0ED2E32682EF}" ShortID="465951991">
+                  <Comment>Armor-Piercing</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_small_critical_AP_NPC_NPC" ID="{53360F43-3684-493E-A839-D16CFACFF173}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_small_not_pierce_AP_NPC_NPC" ID="{044967EB-BCB0-4D47-AB8D-D51C21ABEF27}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_small_pierce_AP_NPC_NPC" ID="{E39402E7-931E-437E-B61C-4959FAED51D3}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_small_ricochet_AP_NPC_NPC" ID="{6E09DEE1-0432-4349-886D-DE4AE8925D86}">
+                      <Comment>Event - Ricochet</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+                <Folder Name="APCR" ID="{BB146160-E79B-42F5-90B8-F5F1F4451AA5}" ShortID="1071047936">
+                  <Comment>AP Composite-Rigid</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_small_critical_APCR_NPC_NPC" ID="{57911268-AB0F-4625-9725-DCD3B519E9E5}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_small_not_pierce_APCR_NPC_NPC" ID="{1D93E69B-EAB8-441E-AE90-AFDE539ACBB4}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_small_pierce_APCR_NPC_NPC" ID="{5F1AB28D-7F16-4769-987B-B300100BD681}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_small_ricochet_APCR_NPC_NPC" ID="{824C2BEE-02E6-4932-BEE7-6F970880E518}">
+                      <Comment>Event - Ricochet</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+                <Folder Name="HC" ID="{E50F9D91-5362-4D4D-AD77-407944709B16}" ShortID="58710900">
+                  <Comment>High-Explosive Anti-Tank</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_small_critical_HC_NPC_NPC" ID="{166C214B-B492-4777-8DBA-8432DB723ECF}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_small_not_pierce_HC_NPC_NPC" ID="{9A64267D-290F-421E-941D-533231C03F78}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_small_pierce_HC_NPC_NPC" ID="{CB9AB2DD-28F5-4E93-9D8E-00038EDA1C8C}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_small_ricochet_HC_NPC_NPC" ID="{E6149167-AA49-4F1E-A085-16709E8F1BBE}">
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+                <Folder Name="HE" ID="{C2A75106-E2D6-4597-AAA3-6C15913550E2}" ShortID="486260726">
+                  <Comment>High-Explosive shell</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_small_critical_HE_NPC_NPC" ID="{BA91B941-2CBE-42CC-B4BA-30F8E9C24E5A}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_small_not_pierce_HE_NPC_NPC" ID="{7CF064DB-547C-4673-BEB9-574251F80E36}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_small_pierce_HE_NPC_NPC" ID="{965123E1-96D6-4233-A044-082A8410F760}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+              </ChildrenList>
+            </Folder>
+            <Folder Name="PC_NPC" ID="{D1D3697B-2AE2-4F02-8F24-4F4DCCE68A3C}" ShortID="705241245">
+              <ChildrenList>
+                <Folder Name="AP" ID="{B39336DC-1AAE-4E89-8F1E-19B6559EAC4D}" ShortID="843785837">
+                  <Comment>Armor-Piercing</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_small_critical_AP_PC_NPC" ID="{8BF578A3-2E55-48D9-96BF-FC63C1E8799C}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_small_not_pierce_AP_PC_NPC" ID="{5979FAA2-17EF-4F59-AB3F-D454F91FFDCE}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_small_pierce_AP_PC_NPC" ID="{FBB4BBDB-8F21-4B13-BD05-214E86646DCD}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_small_ricochet_AP_PC_NPC" ID="{77A6D31A-141A-4895-AEE7-B63F7CB6E0E2}">
+                      <Comment>Event - Ricochet</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+                <Folder Name="APCR" ID="{D33DEAD4-E499-4653-9284-191892093CBE}" ShortID="699167041">
+                  <Comment>AP Composite-Rigid</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_small_critical_APCR_PC_NPC" ID="{2A88D177-28C5-48B0-8294-A21035C50D6A}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_small_not_pierce_APCR_PC_NPC" ID="{CF5CE9E3-D9F8-4F20-8BEE-A31047DB8087}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_small_pierce_APCR_PC_NPC" ID="{F5934875-61D7-4ED6-85C9-3E232FF5B816}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_small_ricochet_APCR_PC_NPC" ID="{99E86CCC-EC68-4353-9EE9-5232D2B1815A}">
+                      <Comment>Event - Ricochet</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+                <Folder Name="HC" ID="{9D87EE57-100D-4AFF-B7B1-45741F56F858}" ShortID="732063715">
+                  <Comment>High-Explosive Anti-Tank</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_small_critical_HC_PC_NPC" ID="{BBCFCC38-A975-4D25-9799-DD0633064ACD}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_small_not_pierce_HC_PC_NPC" ID="{3CBA08E5-2A94-4B72-9158-668983459FD6}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_small_pierce_HC_PC_NPC" ID="{CD9CAD7B-9968-4203-90A6-C1C408F552FC}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_small_ricochet_HC_PC_NPC" ID="{7A3BC936-DE4C-4DF5-92B9-A4D429DE3E1F}">
+                      <Comment>Event - Ricochet</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+                <Folder Name="HE" ID="{09BD5512-7A6E-4194-818A-FC50A0551B68}" ShortID="1044401665">
+                  <Comment>High-Explosive shell</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_small_critical_HE_PC_NPC" ID="{CCC69D70-E22D-4BC2-B645-52D67C5ABACE}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_small_not_pierce_HE_PC_NPC" ID="{40381399-8926-4357-8003-111E6BE84ADD}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_small_pierce_HE_PC_NPC" ID="{056F15E3-6B70-4C11-8F90-66C97A68934C}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+              </ChildrenList>
+            </Folder>
+            <Folder Name="NPC_PC" ID="{B337BC0F-4B78-41A5-9BFE-9E7E13E3F998}" ShortID="8223570">
+              <ChildrenList>
+                <Folder Name="AP" ID="{8CB0EEF4-9006-46AE-9A82-461CF62E92CE}" ShortID="1017049761">
+                  <Comment>Armor-Piercing</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_small_critical_AP_NPC_PC" ID="{2E588C9D-A39D-4B0C-ADF8-76CBBB2F58AB}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_small_not_pierce_AP_NPC_PC" ID="{1FD1A182-F712-43DA-9289-F7F3DC974D6D}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_small_pierce_AP_NPC_PC" ID="{D8499AC3-60F1-4B02-858C-C47D557D5157}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_small_ricochet_AP_NPC_PC" ID="{06786DDE-3183-470E-81BE-709DFEF74FEC}">
+                      <Comment>Event - Ricochet</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+                <Folder Name="APCR" ID="{8E0BCC08-5E90-4D91-88EB-FB9AD56CE6AC}" ShortID="310365872">
+                  <Comment>AP Composite-Rigid</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_small_critical_APCR_NPC_PC" ID="{7838AB3D-A72A-4ED7-A323-9A9DE55E47BD}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_small_not_pierce_APCR_NPC_PC" ID="{EEF487D3-E66A-47D9-BAEF-43FE03CDE617}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_small_pierce_APCR_NPC_PC" ID="{6BB5A5F7-9C3E-4FF3-9ADD-F5ED19B29E86}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_small_ricochet_APCR_NPC_PC" ID="{E7AA531D-2716-4AD3-9504-C36BCF5F39F4}">
+                      <Comment>Event - Ricochet</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+                <Folder Name="HC" ID="{77EA8409-5465-491C-B628-D3ED0518944D}" ShortID="982096976">
+                  <Comment>High-Explosive Anti-Tank</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_small_critical_HC_NPC_PC" ID="{20052485-2D8E-4EDA-872F-11B7787B9C7A}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_small_not_pierce_HC_NPC_PC" ID="{B5FCC765-67D1-4982-A9F7-AAF26F9E3FBE}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_small_pierce_HC_NPC_PC" ID="{4F736CA5-8A4F-47B3-BF87-342FB92F27C0}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_small_ricochet_HC_NPC_PC" ID="{8D8B5159-EB13-4C5F-85E9-A729179A1B53}">
+                      <Comment>Event - Ricochet</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+                <Folder Name="HE" ID="{28F1451F-9A7E-4430-877F-F095A14DCA9F}" ShortID="877451442">
+                  <Comment>High-Explosive shell</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_small_critical_HE_NPC_PC" ID="{7ACFEFAD-CEEE-49ED-A6CB-51986B23A8F0}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_small_not_pierce_HE_NPC_PC" ID="{8D5A2F8E-00A8-4465-9ED2-325F16A9C714}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_small_pierce_HE_NPC_PC" ID="{C9B75AAE-EC8D-4379-8595-0F20EC6F8EFA}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+              </ChildrenList>
+            </Folder>
+          </ChildrenList>
+        </Folder>
+        <Folder Name="medium" ID="{FD35F376-CBCF-4F2A-9958-A19D63B8C665}" ShortID="322800022">
+          <Comment>Medium caliber</Comment>
+          <ChildrenList>
+            <Folder Name="NPC_NPC" ID="{C2351B03-B78E-4FEC-98E1-0A3E1E574525}" ShortID="727719233">
+              <ChildrenList>
+                <Folder Name="AP" ID="{856CF37B-3AD6-4DAE-9614-CED22055402B}" ShortID="308215024">
+                  <Comment>Armor-Piercing</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_medium_critical_AP_NPC_NPC" ID="{D412BD74-4858-4383-8479-8321B2F86967}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_medium_not_pierce_AP_NPC_NPC" ID="{D9502C20-10CA-48AE-91B7-432478575D40}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_medium_pierce_AP_NPC_NPC" ID="{3C2E3872-C509-47A9-B04E-EE9125FFEDF7}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_medium_ricochet_AP_NPC_NPC" ID="{3C8A757E-3082-4FBD-846F-AFC661B83D80}">
+                      <Comment>Event - Ricochet</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+                <Folder Name="APCR" ID="{15A1C567-95C7-4346-B890-0DDF3F2764F2}" ShortID="988807378">
+                  <Comment>AP Composite-Rigid</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_medium_critical_APCR_NPC_NPC" ID="{CF57B9F6-8BA6-4DF3-A05C-B689BC038704}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_medium_not_pierce_APCR_NPC_NPC" ID="{FFB7D142-1B4D-4E08-9804-51074E742419}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_medium_pierce_APCR_NPC_NPC" ID="{F4D9DAF4-0D1D-43C4-AE24-5DC5F678ABFF}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_medium_ricochet_APCR_NPC_NPC" ID="{9DB344B4-3628-452A-A079-6B611BF4BCE7}">
+                      <Comment>Event - Ricochet</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+                <Folder Name="HC" ID="{5E926915-1D02-494A-BC92-7678FF4BB7EF}" ShortID="268104811">
+                  <Comment>High-Explosive Anti-Tank</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_medium_critical_HC_NPC_NPC" ID="{6A55A42C-9CFA-4E3B-9095-A84A1268B8C7}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_medium_not_pierce_HC_NPC_NPC" ID="{F82BD8A2-1124-443A-91A4-BA62A80E3B41}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_medium_pierce_HC_NPC_NPC" ID="{9D7869C2-3AB0-43D0-AB86-4D144592FC08}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_medium_ricochet_HC_NPC_NPC" ID="{32777522-6915-4A63-871F-31EB4BDBB210}">
+                      <Comment>Event - Ricochet</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+                <Folder Name="HE" ID="{004AC179-16F1-4D86-BD42-BA6F145C77FB}" ShortID="690813979">
+                  <Comment>High-Explosive shell</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_medium_critical_HE_NPC_NPC" ID="{A0C4894D-9086-4E1A-BB42-257C9B06223A}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_medium_not_pierce_HE_NPC_NPC" ID="{7BDF1CF1-3ADA-4916-AFAC-4D273B3B67FC}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_medium_pierce_HE_NPC_NPC" ID="{24678079-DB6A-41F6-9438-00C8362190EB}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+              </ChildrenList>
+            </Folder>
+            <Folder Name="PC_NPC" ID="{D46D6B93-6842-4A9F-8677-AF907047756D}" ShortID="509199532">
+              <ChildrenList>
+                <Folder Name="AP" ID="{F0961D81-CFC1-4D1C-8E6E-4EAAE1C37F9D}" ShortID="949764767">
+                  <Comment>Armor-Piercing</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_medium_critical_AP_PC_NPC" ID="{B1676A66-48AB-45A1-A72D-B3EB6FE4C279}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_medium_not_pierce_AP_PC_NPC" ID="{6260E75B-E682-470B-8C0D-528B691939AA}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_medium_pierce_AP_PC_NPC" ID="{C6F2B1EE-CCE4-4BCD-A4CE-6D3446E055A2}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_medium_ricochet_AP_PC_NPC" ID="{2865D1B7-B95F-4596-A5E2-E693BC4828DB}">
+                      <Comment>Event - Ricochet</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+                <Folder Name="APCR" ID="{DABC5664-DAAE-49C0-9EBB-15550233EA55}" ShortID="216037690">
+                  <Comment>AP Composite-Rigid</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_medium_critical_APCR_PC_NPC" ID="{124002BF-AD09-416F-B8D0-67ABD877C49D}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_medium_not_pierce_APCR_PC_NPC" ID="{3ABF25BC-3CB8-4456-955B-853F22264026}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_medium_pierce_APCR_PC_NPC" ID="{24EAFFE2-F459-4A34-82CB-ABD1B19EA2EA}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_medium_ricochet_APCR_PC_NPC" ID="{EDE4CAAF-751E-4E6A-BB98-46942ED80CF3}">
+                      <Comment>Event - Ricochet</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+                <Folder Name="HC" ID="{C3EC90D7-B800-4470-A573-02F43E7079C6}" ShortID="315018099">
+                  <Comment>High-Explosive Anti-Tank</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_medium_critical_HC_PC_NPC" ID="{EF1DE53B-7FDA-4D4E-ABAD-C9E9AFD563D7}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_medium_not_pierce_HC_PC_NPC" ID="{B0CBCB39-1D90-4B69-BD7B-81C1F068741F}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_medium_pierce_HC_PC_NPC" ID="{311D920B-6F00-438E-894A-0E6C874FEE63}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_medium_ricochet_HC_PC_NPC" ID="{49928771-5FD4-4E08-8C3C-0AC66C9C42A4}">
+                      <Comment>Event - Ricochet</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+                <Folder Name="HE" ID="{41FF02E3-145F-4C23-A146-7EC89106A1A4}" ShortID="1050019936">
+                  <Comment>High-Explosive shell</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_medium_critical_HE_PC_NPC" ID="{86CDDC8F-D050-48E0-96FC-82B6FFBB57A1}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_medium_not_pierce_HE_PC_NPC" ID="{909D2557-90DA-4E96-A747-C285E148E26B}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_medium_pierce_HE_PC_NPC" ID="{A890ACA7-A5F0-4713-B97B-78CB2503848A}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+              </ChildrenList>
+            </Folder>
+            <Folder Name="NPC_PC" ID="{10743B17-11B7-4BD5-B123-3F0992AB5C5E}" ShortID="598341024">
+              <ChildrenList>
+                <Folder Name="AP" ID="{6C94CAC2-74BB-491B-9864-F290DBAABA16}" ShortID="336360128">
+                  <Comment>Armor-Piercing</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_medium_critical_AP_NPC_PC" ID="{143D6D0B-661E-4B20-8A8A-48CE555912C8}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_medium_not_pierce_AP_NPC_PC" ID="{5FD122A7-491A-4EC6-AF1B-060D42365A32}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_medium_pierce_AP_NPC_PC" ID="{E7309AEA-0DA8-4DDA-A14E-15694FCC6C4F}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_medium_ricochet_AP_NPC_PC" ID="{8A7314C4-C05B-48A2-8253-BB75B4E61043}">
+                      <Comment>Event - Ricochet</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+                <Folder Name="APCR" ID="{3550128C-599F-44B9-B000-EEAC2ABE90A1}" ShortID="539895457">
+                  <Comment>AP Composite-Rigid</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_medium_critical_APCR_NPC_PC" ID="{2077E8F9-15B8-4871-A466-3AD92A0FFA9E}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_medium_not_pierce_APCR_NPC_PC" ID="{0D19F966-674A-481A-9BF5-8D85533B9A4E}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_medium_pierce_APCR_NPC_PC" ID="{DC9C3868-7BB3-4043-837E-95E5A84DE343}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_medium_ricochet_APCR_NPC_PC" ID="{F02FEEA9-C5AD-4882-8728-2CD37BEDA0F0}">
+                      <Comment>Event - Ricochet</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+                <Folder Name="HC" ID="{A1227CDE-0AD1-4D6B-AF8B-9D2116E5C98D}" ShortID="113273451">
+                  <Comment>High-Explosive Anti-Tank</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_medium_critical_HC_NPC_PC" ID="{4CB2A986-84DB-453A-B34B-89A03B811E0C}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_medium_not_pierce_HC_NPC_PC" ID="{0427ABA2-F7F7-4E77-AE56-1F0FB5AA6807}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_medium_pierce_HC_NPC_PC" ID="{B38C8AFB-DBA6-4945-B929-10B84760CDBE}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_medium_ricochet_HC_NPC_PC" ID="{E4D387CC-5A02-4EA6-83C4-ACEF9E328573}">
+                      <Comment>Event - Ricochet</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+                <Folder Name="HE" ID="{CD2F9675-FDDD-42A8-9B66-F0495B42CD74}" ShortID="991853180">
+                  <Comment>High-Explosive shell</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_medium_critical_HE_NPC_PC" ID="{92F01637-CBC6-432F-B632-14445E488E1C}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_medium_not_pierce_HE_NPC_PC" ID="{9497260B-9DFF-4BFE-90D7-4AE9C9ED05A1}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_medium_pierce_HE_NPC_PC" ID="{410AEEF9-8A9C-46FA-9D7F-445ECB775FF4}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+              </ChildrenList>
+            </Folder>
+          </ChildrenList>
+        </Folder>
+        <Folder Name="main" ID="{586BA576-DD49-45B3-8F0A-99117FB9F333}" ShortID="115306695">
+          <Comment>Main caliber</Comment>
+          <ChildrenList>
+            <Folder Name="NPC_NPC" ID="{66E9AC44-5F21-4A92-9F3B-21F81CACE004}" ShortID="571444569">
+              <ChildrenList>
+                <Folder Name="AP" ID="{73D74A0D-CECD-4617-BE85-50BDCCF95F4C}" ShortID="948364776">
+                  <Comment>Armor-Piercing</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_main_critical_AP_NPC_NPC" ID="{258A9736-6B5D-489F-A449-A3409A754799}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_main_not_pierce_AP_NPC_NPC" ID="{3CA15496-12B7-4055-8277-D4E328B70AF1}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_main_pierce_AP_NPC_NPC" ID="{95339680-02CF-421F-857B-06721A924288}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_main_ricochet_AP_NPC_NPC" ID="{0D7390A2-2B99-4086-B70F-620110BB26D2}">
+                      <Comment>Event - Ricochet</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+                <Folder Name="APCR" ID="{4B279762-9BBA-44EB-BAE5-6B377DD6EA00}" ShortID="797623376">
+                  <Comment>AP Composite-Rigid</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_main_critical_APCR_NPC_NPC" ID="{415EA80C-7D9B-4009-8BE3-21E614214B3B}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_main_not_pierce_APCR_NPC_NPC" ID="{4DCC1A7F-CA81-4A11-BC58-1BE73B4B1FCE}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_main_pierce_APCR_NPC_NPC" ID="{F867D731-80A5-402A-A011-4D7B375DA883}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_main_ricochet_APCR_NPC_NPC" ID="{D5D65003-D9F9-461D-9BE6-96981CDB3F5E}">
+                      <Comment>Event - Ricochet</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+                <Folder Name="HC" ID="{8BC66F37-2790-44E6-A78A-5DDF557727E8}" ShortID="991684683">
+                  <Comment>High-Explosive Anti-Tank</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_main_critical_HC_NPC_NPC" ID="{D3469EAF-C147-4D05-A920-9135E2DFCE21}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_main_not_pierce_HC_NPC_NPC" ID="{37DABC19-5AB0-4052-BE08-775689BE1FF2}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_main_pierce_HC_NPC_NPC" ID="{8618A7BB-69B9-4FBA-ABD2-1364B16A8172}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_main_ricochet_HC_NPC_NPC" ID="{600CD73E-562F-4A38-B6C2-C99A3627AB6F}">
+                      <Comment>Event - Ricochet</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+                <Folder Name="HE" ID="{B1AABE94-AF85-491B-8BC3-7D2EC4E36D9C}" ShortID="128260039">
+                  <Comment>High-Explosive shell</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_main_critical_HE_NPC_NPC" ID="{41B7AC31-4074-4D47-AEA5-F43E94FD6967}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_main_not_pierce_HE_NPC_NPC" ID="{9E439DD6-2583-4AEA-B877-719EE85EFF49}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_main_pierce_HE_NPC_NPC" ID="{5C677847-41F1-4D48-A453-CAE0A2DF17DA}">
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+              </ChildrenList>
+            </Folder>
+            <Folder Name="PC_NPC" ID="{9B3DABA8-ED98-4467-B009-47D3FA883B08}" ShortID="893825016">
+              <ChildrenList>
+                <Folder Name="AP" ID="{F7FF7009-9EEF-4934-BD7F-0F7789BBB97F}" ShortID="587833596">
+                  <Comment>Armor-Piercing</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_main_critical_AP_PC_NPC" ID="{F8FACC9E-6DA3-471B-8CFF-1650425B001C}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_main_not_pierce_AP_PC_NPC" ID="{1CCDEF61-6D9E-492E-AD2F-364CB121F1BB}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_main_pierce_AP_PC_NPC" ID="{5FF283FA-C4B1-48BE-BBF0-79577521F23B}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_main_ricochet_AP_PC_NPC" ID="{D650C8C4-B71C-49D0-A55D-84AEBC3E6FD6}">
+                      <Comment>Event - Ricochet</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+                <Folder Name="APCR" ID="{A352DAA2-0628-4E9B-9F33-25202C0AE007}" ShortID="970982369">
+                  <Comment>AP Composite-Rigid</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_main_critical_APCR_PC_NPC" ID="{26F5F9B8-1BA9-4FFE-9940-8263BA68CB4E}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_main_not_pierce_APCR_PC_NPC" ID="{50FDBD61-A746-4564-B141-3634ED622E9B}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_main_pierce_APCR_PC_NPC" ID="{376FCDB8-C901-4BB9-B797-133679CD86C7}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_main_ricochet_APCR_PC_NPC" ID="{D710FC3F-FAEB-48C2-998E-EE70B4BCEB00}">
+                      <Comment>Event - Ricochet</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+                <Folder Name="HC" ID="{130BFD0A-35B9-4E5E-AA35-B569EDED5CCF}" ShortID="440104261">
+                  <Comment>High-Explosive Anti-Tank</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_main_critical_HC_PC_NPC" ID="{6888FCD2-43C8-4A55-80CF-FB00D7F42EE2}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_main_not_pierce_HC_PC_NPC" ID="{F8ECF906-20EA-4798-97BB-90D24800799C}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_main_pierce_HC_PC_NPC" ID="{73CDAAEA-B2FA-437D-BF4D-300D8FC4619B}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_main_ricochet_HC_PC_NPC" ID="{B32CE671-A5A3-4669-91BE-BCFA7E8FF6BC}">
+                      <Comment>Event - Ricochet</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+                <Folder Name="HE" ID="{6C13B8EA-E783-4FED-A227-1372A73455F1}" ShortID="436506167">
+                  <Comment>High-Explosive shell</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_main_critical_HE_PC_NPC" ID="{8BEEB1D1-1C41-448C-A8A1-A4ACFCBBA955}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_main_not_pierce_HE_PC_NPC" ID="{7060951D-4090-4B8A-818A-F767D2C14031}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_main_pierce_HE_PC_NPC" ID="{41C9D382-1868-42AA-A0D2-6048C326C16F}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+              </ChildrenList>
+            </Folder>
+            <Folder Name="NPC_PC" ID="{3E886D2F-E22E-4318-920A-C2E34F04E2BC}" ShortID="889206245">
+              <ChildrenList>
+                <Folder Name="AP" ID="{009D50F3-2956-4D95-A125-73791D2B21F7}" ShortID="919290598">
+                  <Comment>Armor-Piercing</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_main_pierce_AP_NPC_PC" ID="{BF6AA243-B5CD-498A-902C-2787EC2D4EE1}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_main_not_pierce_AP_NPC_PC" ID="{CD3D15A4-4A21-4B8A-B4B4-E938980B2A8B}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_main_ricochet_AP_NPC_PC" ID="{C75141CE-18C9-4542-970B-ABE11B6F305B}">
+                      <Comment>Event - Ricochet</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_main_critical_AP_NPC_PC" ID="{5C320404-286E-4BC7-B79F-53186F79EF24}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+                <Folder Name="APCR" ID="{E3E9C70F-A586-4936-A1F6-4A2AA82260F8}" ShortID="786973996">
+                  <Comment>AP Composite-Rigid</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_main_critical_APCR_NPC_PC" ID="{D55EED05-11D7-442F-A0B7-E3855BDB790B}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_main_not_pierce_APCR_NPC_PC" ID="{EC1CE5F9-2163-4314-B11C-6AC383138782}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_main_pierce_APCR_NPC_PC" ID="{F82CAEF1-212B-48D2-BF09-99ABF0137B07}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_main_ricochet_APCR_NPC_PC" ID="{1632A401-7CAA-4EEA-8B2B-7953406A751A}">
+                      <Comment>Event - Ricochet</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+                <Folder Name="HC" ID="{3E14EAA7-524F-47F5-A362-2BC8991CE2C6}" ShortID="731167554">
+                  <Comment>High-Explosive Anti-Tank</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_main_critical_HC_NPC_PC" ID="{0189848A-B134-47C0-BD2E-D70E8D44B7D1}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_main_not_pierce_HC_NPC_PC" ID="{6F3E2157-9A2B-41C4-8030-183190C5DB93}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_main_pierce_HC_NPC_PC" ID="{4ED700A1-DB22-49E8-B711-B3AF28163519}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_main_ricochet_HC_NPC_PC" ID="{D16EF2E3-A9E8-4163-B826-3FE7B3E07B9B}">
+                      <Comment>Event - Ricochet</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+                <Folder Name="HE" ID="{221B513E-2E36-438C-B86A-708494A50976}" ShortID="287828486">
+                  <Comment>High-Explosive shell</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_main_critical_HE_NPC_PC" ID="{DC00B977-3749-4369-BDB5-8A61C8C6FD9E}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_main_not_pierce_HE_NPC_PC" ID="{5E89ADEC-7E39-45AF-91CA-AD7806D6915F}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_main_pierce_HE_NPC_PC" ID="{3D181914-FB68-4279-B48C-5812885BAE43}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+              </ChildrenList>
+            </Folder>
+          </ChildrenList>
+        </Folder>
+        <Folder Name="large" ID="{8FD311AC-CE66-457B-AD23-681357F59B63}" ShortID="751175203">
+          <Comment>Large caliber</Comment>
+          <ChildrenList>
+            <Folder Name="NPC_PC" ID="{3EABACA8-2333-4F07-A565-3FEF0F0BD4A7}" ShortID="4802332">
+              <ChildrenList>
+                <Folder Name="AP" ID="{B1C61B7A-3141-4647-A29C-5F75C66A8735}" ShortID="329724252">
+                  <Comment>Armor-Piercing</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_large_critical_AP_NPC_PC" ID="{AEAD4961-8525-408E-8C04-18BF4EDFA6F0}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_large_not_pierce_AP_NPC_PC" ID="{4FFA6CFD-BBDB-4C16-A151-843252980F5C}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_large_pierce_AP_NPC_PC" ID="{23C96E08-2766-4EF7-BD14-44286622F687}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_large_ricochet_AP_NPC_PC" ID="{E27D5C5D-32EC-4DD6-AA74-8B63AF6AEC52}">
+                      <Comment>Event - Ricochet</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+                <Folder Name="APCR" ID="{58886B4A-5F15-4C7E-9B06-E740E6672240}" ShortID="506189288">
+                  <Comment>AP Composite-Rigid</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_large_critical_APCR_NPC_PC" ID="{907B9008-F0D7-43B7-A959-073B1B66ACF7}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_large_not_pierce_APCR_NPC_PC" ID="{BB1E00E1-4D69-4F63-908C-45CEF7A0F9EB}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_large_pierce_APCR_NPC_PC" ID="{0C1479E2-45D8-4758-A2AF-47D881D4AB11}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_large_ricochet_APCR_NPC_PC" ID="{FCC7A45F-73B1-4572-95C1-C1166A5A7116}">
+                      <Comment>Event - Ricochet</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+                <Folder Name="HC" ID="{369F23AD-8871-4C25-81C5-EFA611B2687F}" ShortID="486282385">
+                  <Comment>High-Explosive Anti-Tank</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_large_critical_HC_NPC_PC" ID="{220A214F-036E-48B9-9CC8-AE2343D3F70A}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_large_not_pierce_HC_NPC_PC" ID="{2E1290EB-71FE-46CB-921E-D18BC0B7E15A}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_large_pierce_HC_NPC_PC" ID="{5F3A7D98-C7A0-4A44-9462-CFA0DDAC5E9B}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_large_ricochet_HC_NPC_PC" ID="{A14130D8-F863-439F-AB95-83B95A0F0DD3}">
+                      <Comment>Event - Ricochet</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+                <Folder Name="HE" ID="{388C353F-C8A8-4BD4-8FD6-46F8C7117C10}" ShortID="681010041">
+                  <Comment>High-Explosive shell</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_large_critical_HE_NPC_PC" ID="{7C439D07-BFF5-4147-B66F-F9274421FFC3}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_large_not_pierce_HE_NPC_PC" ID="{098FF755-ED83-4CA3-AAD1-917242845E61}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_large_pierce_HE_NPC_PC" ID="{BF09D489-80AD-4EA7-90C0-478442418101}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+              </ChildrenList>
+            </Folder>
+            <Folder Name="PC_NPC" ID="{024668E6-D0D2-4AD9-93F3-4A79AD3AF309}" ShortID="349200157">
+              <ChildrenList>
+                <Folder Name="AP" ID="{1ADD7E25-94A0-4A56-B31F-8268326F60DE}" ShortID="716073443">
+                  <Comment>Armor-Piercing</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_large_critical_AP_PC_NPC" ID="{33FA73A0-7611-408E-8CE2-C9F52692741A}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_large_not_pierce_AP_PC_NPC" ID="{8E91DA38-638E-4DB1-A23B-73652A1EDCC7}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_large_pierce_AP_PC_NPC" ID="{BF64211D-11AA-4C2C-BE4B-A585CFD98185}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_large_ricochet_AP_PC_NPC" ID="{68E90570-B71A-4763-ABFC-F0D51890AE3E}">
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+                <Folder Name="APCR" ID="{BB96BA0F-C602-4976-99AA-CCB0EA24EE98}" ShortID="1030867661">
+                  <Comment>AP Composite-Rigid</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_large_critical_APCR_PC_NPC" ID="{33B241EC-3EB4-483D-9637-AA2BABE20A21}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_large_not_pierce_APCR_PC_NPC" ID="{45F6C683-CE5F-4BE8-9FD8-03C0247B29F6}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_large_pierce_APCR_PC_NPC" ID="{C4512ABD-F4AE-47AF-AE53-F5B359B52A36}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_large_ricochet_APCR_PC_NPC" ID="{4AED983B-EE59-44B3-8D6F-C02AED31D890}">
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+                <Folder Name="HC" ID="{BC97CA32-79DA-427F-9E5B-779DFB7B1EE6}" ShortID="926037059">
+                  <Comment>High-Explosive Anti-Tank</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_large_critical_HC_PC_NPC" ID="{2D72B996-F5AB-46A2-B167-46F5E31FC518}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_large_not_pierce_HC_PC_NPC" ID="{4E0A3EAD-9593-4606-B2AC-23E7377BBAB7}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_large_pierce_HC_PC_NPC" ID="{0E10F63F-96E0-4847-B4A8-0C909D38DD17}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_large_ricochet_HC_PC_NPC" ID="{06054E58-DE8C-4905-9FD1-5F6E699C5404}">
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+                <Folder Name="HE" ID="{66E49A3D-4DD2-4BE3-B441-23422165D718}" ShortID="152276125">
+                  <Comment>High-Explosive shell</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_large_critical_HE_PC_NPC" ID="{C12AB1E1-7830-4532-B233-AFB05417CD13}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_large_not_pierce_HE_PC_NPC" ID="{7BB43BF8-2DBB-4060-81C2-604B82B35248}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_large_pierce_HE_PC_NPC" ID="{877DE6D7-7CC8-48CC-9C7F-1DB98738FE19}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+              </ChildrenList>
+            </Folder>
+            <Folder Name="NPC_NPC" ID="{40EB3947-8ADD-4882-A0B4-AB4C0512BF37}" ShortID="708071701">
+              <ChildrenList>
+                <Folder Name="AP" ID="{98E51962-DBC9-42A8-BF51-55B40980CBE7}" ShortID="346062784">
+                  <Comment>Armor-Piercing</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_large_critical_AP_NPC_NPC" ID="{3B2EF5E0-2D34-421F-BC96-FA5DB7DAACE8}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_large_not_pierce_AP_NPC_NPC" ID="{DF12F5CA-8F04-40E9-A89F-115A07431688}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_large_pierce_AP_NPC_NPC" ID="{497C9802-C2DC-462E-A147-84D9CF014523}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_large_ricochet_AP_NPC_NPC" ID="{01F3A9A2-AB04-4801-AFF6-145B193D152A}">
+                      <Comment>Event - Ricochet</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+                <Folder Name="APCR" ID="{9E36ADED-57BB-493D-BA43-3CB6F7E57631}" ShortID="1025535946">
+                  <Comment>AP Composite-Rigid</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_large_critical_APCR_NPC_NPC" ID="{AF9F0C46-42FA-4127-90A2-8355F398EBDC}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_large_not_pierce_APCR_NPC_NPC" ID="{C83ABCFC-A012-451E-8B7B-CF319C5DBB0B}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_large_pierce_APCR_NPC_NPC" ID="{C07E29F9-DFB7-4B7E-91E7-90DC34CB4902}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_large_ricochet_APCR_NPC_NPC" ID="{F42C1E77-D18C-4578-A981-67032CA8FD3D}">
+                      <Comment>Event - Ricochet</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+                <Folder Name="HC" ID="{7BF4D5FC-53D3-42B9-9D6B-4CECDE95E675}" ShortID="562423883">
+                  <Comment>High-Explosive Anti-Tank</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_large_critical_HC_NPC_NPC" ID="{3477E3B4-253C-490B-85FC-A26BBD7F92B7}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_large_not_pierce_HC_NPC_NPC" ID="{FF20B1F5-271C-4E7B-9BD5-ACF28C9AC1FF}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_large_pierce_HC_NPC_NPC" ID="{AB6E26FD-9B89-4D00-85C0-0AED0BEA34CC}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_large_ricochet_HC_NPC_NPC" ID="{E9EE381F-FCBE-47D6-A754-2D08220260E9}">
+                      <Comment>Event - Ricochet</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+                <Folder Name="HE" ID="{A57AB7EC-BC5E-4E2C-A8DA-213F26708917}" ShortID="237717343">
+                  <Comment>High-Explosive shell</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_large_critical_HE_NPC_NPC" ID="{32719940-9CF5-4E83-A826-699675DD98D8}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_large_not_pierce_HE_NPC_NPC" ID="{AE51F938-DFFC-44DB-9BF6-B1A4CD317BA9}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_large_pierce_HE_NPC_NPC" ID="{AD8437D2-4192-4CAD-BCAD-9E6D1D8CB87E}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+              </ChildrenList>
+            </Folder>
+          </ChildrenList>
+        </Folder>
+        <Folder Name="huge" ID="{DC5C4F50-88DB-4A81-8B7E-E69A0A5B916A}" ShortID="800714179">
+          <Comment>Huge caliber</Comment>
+          <ChildrenList>
+            <Folder Name="NPC_PC" ID="{8EF72685-5324-498A-B682-89FAA0A9FE4C}" ShortID="581774045">
+              <ChildrenList>
+                <Folder Name="AP" ID="{890B4998-953A-4EBE-B930-6980DD1391AD}" ShortID="390785727">
+                  <Comment>Armor-Piercing</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_huge_critical_AP_NPC_PC" ID="{9E413C21-BD73-4ED7-A032-318C4E7D6839}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_huge_not_pierce_AP_NPC_PC" ID="{870C059F-B5F6-4723-A8CF-6D18B3A1C520}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_huge_pierce_AP_NPC_PC" ID="{60732DA2-25C8-47EF-A740-48ECEA0116D8}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_huge_ricochet_AP_NPC_PC" ID="{DF7DE13A-41BC-4845-92F7-A97190C927F4}">
+                      <Comment>Event - Ricochet</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+                <Folder Name="APCR" ID="{686BC10A-E5C4-4D4E-8E93-3BB3DD415F97}" ShortID="446177315">
+                  <Comment>AP Composite-Rigid</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_huge_critical_APCR_NPC_PC" ID="{CA2F7FAF-E346-4FAA-BADD-04B083AF0E97}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_huge_not_pierce_APCR_NPC_PC" ID="{E3184CBF-5372-4DB8-8915-0140DD07E581}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_huge_pierce_APCR_NPC_PC" ID="{E54EAF97-FED8-42BB-8FA9-0B5678D8980D}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_huge_ricochet_APCR_NPC_PC" ID="{22BC2243-CE1E-4609-9C8C-74351080D6A2}">
+                      <Comment>Event - Ricochet</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+                <Folder Name="HC" ID="{0425F9A3-662D-4B00-9CDD-F98318D259FD}" ShortID="348266887">
+                  <Comment>High-Explosive Anti-Tank</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_huge_critical_HC_NPC_PC" ID="{D224F32C-478B-44CA-84FF-F80A39652479}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_huge_not_pierce_HC_NPC_PC" ID="{C881FB52-5482-4116-8051-1442D3DC4362}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_huge_pierce_HC_NPC_PC" ID="{D90A2DF6-2DDB-47D4-9EFF-6379981DFD05}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_huge_ricochet_HC_NPC_PC" ID="{308F4BF7-C036-4E23-B1FA-05BC7BCFB9AF}">
+                      <Comment>Event - Ricochet</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+                <Folder Name="HE" ID="{1D3F8362-F144-45E8-B46E-5DCC85397E06}" ShortID="927309522">
+                  <Comment>High-Explosive shell</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_huge_critical_HE_NPC_PC" ID="{F98474FF-72BC-49B2-AFE8-2B52F5E02B03}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_huge_not_pierce_HE_NPC_PC" ID="{D5FD7DDA-171A-4651-AF33-CA3791A8560A}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_huge_pierce_HE_NPC_PC" ID="{71504D7F-7B37-418A-A2BD-3BC6B43C8C0E}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+              </ChildrenList>
+            </Folder>
+            <Folder Name="PC_NPC" ID="{730E9987-3842-4D53-AEF3-29A2E4022EAD}" ShortID="338640163">
+              <ChildrenList>
+                <Folder Name="AP" ID="{0F0A1D13-2721-46B1-85F4-7130EB78B702}" ShortID="679527955">
+                  <Comment>Armor-Piercing</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_huge_critical_AP_PC_NPC" ID="{34057B81-DAC7-4150-A03C-6894E2DFEF4F}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_huge_not_pierce_AP_PC_NPC" ID="{5845617A-093C-4FB1-AA25-043804DFB171}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_huge_pierce_AP_PC_NPC" ID="{D40A9A67-85B0-4811-A98F-2ADFEB101742}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_huge_ricochet_AP_PC_NPC" ID="{6938AB24-AF75-4FD3-9470-FC6E3D2F5249}">
+                      <Comment>Event - Ricochet</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+                <Folder Name="APCR" ID="{1595F41F-5D89-4AA1-B530-81171136AECB}" ShortID="675204584">
+                  <Comment>AP Composite-Rigid</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_huge_critical_APCR_PC_NPC" ID="{6368F2C0-4D17-4FED-9B6E-9C05CB1D03CA}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_huge_not_pierce_APCR_PC_NPC" ID="{4EC418DC-236E-4D16-974E-4C48E07AA7A3}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_huge_pierce_APCR_PC_NPC" ID="{8A86AB6C-70ED-4FD1-9304-87C58B18B72C}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_huge_ricochet_APCR_PC_NPC" ID="{66E7CD7E-BB55-4ED2-9F56-ABA65C6532AC}">
+                      <Comment>Event - Ricochet</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+                <Folder Name="HC" ID="{18A927D9-EFED-466A-9113-B6EDB4F4E1BC}" ShortID="432932188">
+                  <Comment>High-Explosive Anti-Tank</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_huge_critical_HC_PC_NPC" ID="{AD700210-55AD-4B83-8F93-8F2CB96CC36B}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_huge_not_pierce_HC_PC_NPC" ID="{6D2A5C19-19B3-4C2F-B416-BB71F87ECE49}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_huge_pierce_HC_PC_NPC" ID="{A07FD857-91FA-40A9-B708-14920F86F7B2}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_huge_ricochet_HC_PC_NPC" ID="{9E2739FC-25F7-4240-A70D-4BCE9D806322}">
+                      <Comment>Event - Ricochet</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+                <Folder Name="HE" ID="{F52A417B-7E6F-4D4A-BCF4-884F729CD01B}" ShortID="83769858">
+                  <Comment>High-Explosive shell</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_huge_critical_HE_PC_NPC" ID="{CD706987-0D05-446D-95EF-00245F7C731F}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_huge_not_pierce_HE_PC_NPC" ID="{C2C424D7-E150-4721-B789-241A6AC8D9BF}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_huge_pierce_HE_PC_NPC" ID="{7E66908A-6198-4849-A1B6-82E1F6D8FCBF}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+              </ChildrenList>
+            </Folder>
+            <Folder Name="NPC_NPC" ID="{7FA974B2-7778-44BA-8133-1DDC9B7F2E32}" ShortID="858194002">
+              <ChildrenList>
+                <Folder Name="AP" ID="{D927EA92-9D8A-4E9F-A9EC-F458F9D37EBF}" ShortID="339765150">
+                  <Comment>Armor-Piercing</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_huge_critical_AP_NPC_NPC" ID="{2A431542-0B0B-493F-8274-A76CC90E28B5}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_huge_not_pierce_AP_NPC_NPC" ID="{54FCAB3E-7CD8-4228-9B53-DBCD935DC22A}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_huge_pierce_AP_NPC_NPC" ID="{956BBA1C-7FD3-42D4-ACB0-175AAED18A32}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_huge_ricochet_AP_NPC_NPC" ID="{C3D1DBE0-2827-42B3-9929-383B9FCE19FC}">
+                      <Comment>Event - Ricochet</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+                <Folder Name="APCR" ID="{B4453EDA-036C-46E2-AF21-6F173BD6F2B0}" ShortID="429147037">
+                  <Comment>AP Composite-Rigid</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_huge_critical_APCR_NPC_NPC" ID="{6F248635-1D56-4AB4-9213-B797FAC74522}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_huge_not_pierce_APCR_NPC_NPC" ID="{76984F81-8671-4917-8040-DA1C7638F83F}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_huge_pierce_APCR_NPC_NPC" ID="{174AFEBA-B03D-45AE-AF8B-E7C7EA508FA5}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_huge_ricochet_APCR_NPC_NPC" ID="{3A95A87D-C534-4A3A-8DA4-041D29634297}">
+                      <Comment>Event - Ricochet</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+                <Folder Name="HC" ID="{936AF192-C24C-4DFA-8740-036297A3424A}" ShortID="417864269">
+                  <Comment>High-Explosive Anti-Tank</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_huge_critical_HC_NPC_NPC" ID="{6ECBEE35-0F4B-40B1-9C91-4B92CC6BBE2B}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_huge_not_pierce_HC_NPC_NPC" ID="{B506AE3E-AD7B-4DD8-B6CF-0609D7F720CE}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_huge_pierce_HC_NPC_NPC" ID="{E3FE0D3F-01CF-4064-934A-DB4B85C3D007}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_huge_ricochet_HC_NPC_NPC" ID="{189EA165-C544-435A-B74C-441C81218036}">
+                      <Comment>Event - Ricochet</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+                <Folder Name="HE" ID="{7B2A82EE-F482-4A36-8FCA-084EA4BD558A}" ShortID="781620596">
+                  <Comment>High-Explosive shell</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_huge_critical_HE_NPC_NPC" ID="{A81ED9A4-6FD1-48BC-9E52-0A3712F38093}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_huge_not_pierce_HE_NPC_NPC" ID="{738C3780-A130-4B5B-9FE0-7FED464945B6}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_huge_pierce_HE_NPC_NPC" ID="{60A7D180-A9AA-43B2-8E61-FB6802883D9E}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+              </ChildrenList>
+            </Folder>
+          </ChildrenList>
+        </Folder>
+        <Folder Name="automatic" ID="{390F42D8-91B0-4B1B-B04D-72502A10923D}" ShortID="124985280">
+          <Comment>Automatic caliber</Comment>
+          <ChildrenList>
+            <Folder Name="NPC_PC" ID="{ED611A4C-5FAE-4263-BAE2-88E624ED126E}" ShortID="205728521">
+              <ChildrenList>
+                <Folder Name="AP" ID="{EABDCE5A-CCE0-43B1-8A59-7E7ABA1B0E3A}" ShortID="31937365">
+                  <Comment>Armor-Piercing</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_auto_critical_AP_NPC_PC" ID="{840FDBAE-7064-48A4-BB9E-375E1F179FA5}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_auto_not_pierce_AP_NPC_PC" ID="{8BF30419-E247-491C-B25B-BCDC94C37145}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_auto_pierce_AP_NPC_PC" ID="{96167E6B-61A2-4531-800A-72029B141423}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_auto_ricochet_AP_NPC_PC" ID="{F88C774F-0628-4426-8BA1-6178CC3A7E0C}">
+                      <Comment>Event - Ricochet</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+                <Folder Name="APCR" ID="{AA509AC5-CC04-4951-A2F5-E0A1906A6A66}" ShortID="213648105">
+                  <Comment>AP Composite-Rigid</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_auto_pierce_APCR_NPC_PC" ID="{F3CECE93-E4C6-44F5-BDB5-1686979340FD}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_auto_not_pierce_APCR_NPC_PC" ID="{A41C672E-E5C7-4D9F-8349-0B28327F0988}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_auto_ricochet_APCR_NPC_PC" ID="{AA90E8D8-BCC3-4DF5-971F-A51AC691EBD0}">
+                      <Comment>Event - Ricochet</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_auto_critical_APCR_NPC_PC" ID="{857BB8A6-6142-47B9-B8DF-3C3F165638FE}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+              </ChildrenList>
+            </Folder>
+            <Folder Name="NPC_NPC" ID="{C4026097-47C3-441F-BF9A-1DAF7B83EDFC}" ShortID="729544751">
+              <ChildrenList>
+                <Folder Name="AP" ID="{FDB4C221-E01B-420B-B7FE-F9AF808B0DB6}" ShortID="295897747">
+                  <Comment>Armor-Piercing</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_auto_critical_AP_NPC_NPC" ID="{65BFCB7B-74DF-4389-BD3D-DACE311B2483}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_auto_not_pierce_AP_NPC_NPC" ID="{661FE338-D951-4315-A527-DE7B6906514B}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_auto_pierce_AP_NPC_NPC" ID="{00B68B9B-3DB0-4586-9FFB-F87754AA1891}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_auto_ricochet_AP_NPC_NPC" ID="{51D97AE5-A9A9-40CA-9424-7615B2CF0E52}">
+                      <Comment>Event - Ricochet</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+                <Folder Name="APCR" ID="{1E96F9F5-9555-4274-8AE8-F9150429E78C}" ShortID="653138690">
+                  <Comment>AP Composite-Rigid</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_auto_pierce_APCR_NPC_NPC" ID="{D2BA043C-FB55-4E44-AA2E-9872303C357E}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_auto_not_pierce_APCR_NPC_NPC" ID="{4510DE50-0793-4C68-AC29-05851BB20C02}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_auto_ricochet_APCR_NPC_NPC" ID="{FFC601A1-ED2D-4658-8B2C-7D8BACB2B8DF}">
+                      <Comment>Event - Ricochet</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_auto_critical_APCR_NPC_NPC" ID="{8012F584-618B-40A9-AD75-0DB01ADA1A98}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+              </ChildrenList>
+            </Folder>
+            <Folder Name="PC_NPC" ID="{B61E8C7C-BDA2-4FFF-BDE2-C1E51E5B49C2}" ShortID="801369971">
+              <ChildrenList>
+                <Folder Name="AP" ID="{4AEF1DD9-09BC-4BE9-A842-2279513F9E0A}" ShortID="488701203">
+                  <Comment>Armor-Piercing</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_auto_critical_AP_PC_NPC" ID="{5F8B16E5-B22B-4A16-908A-328C46101606}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_auto_not_pierce_AP_PC_NPC" ID="{3795F96A-22F5-463B-9275-844C1CDD567C}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_auto_pierce_AP_PC_NPC" ID="{88017EBF-5537-4D15-9B39-7601A231E270}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_auto_ricochet_AP_PC_NPC" ID="{97B574EF-AD3F-4615-BD4A-9C09B7D1F3D2}">
+                      <Comment>Event - Ricochet</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+                <Folder Name="APCR" ID="{A3156E8D-C56D-4A11-BA21-50CB91666FC0}" ShortID="1072848911">
+                  <Comment>AP Composite-Rigid</Comment>
+                  <ChildrenList>
+                    <Event Name="imp_auto_pierce_APCR_PC_NPC" ID="{FF5E9E50-2BA4-4FAF-B711-6BECB88CEE0D}">
+                      <Comment>Event - Penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_auto_not_pierce_APCR_PC_NPC" ID="{CBE10A8E-0329-41A3-B429-1E28AF0AF398}">
+                      <Comment>Event - Non penetration</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_auto_ricochet_APCR_PC_NPC" ID="{E6693203-B24E-4A35-82BC-29C961FF3854}">
+                      <Comment>Event - Ricochet</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                    <Event Name="imp_auto_critical_APCR_PC_NPC" ID="{69F735E1-6DE2-4333-87FB-A81395DB4A53}">
+                      <Comment>Event - Critical hit</Comment>
+                      <ChildrenList></ChildrenList>
+                    </Event>
+                  </ChildrenList>
+                </Folder>
+              </ChildrenList>
+            </Folder>
+          </ChildrenList>
+        </Folder>
+        <Folder Name="surface" ID="{57275EE4-054A-49F7-A8D2-224B431DBF1A}" ShortID="898630905">
+          <Comment>Sound of shards falling upon hits</Comment>
+          <ChildrenList>
+            <Folder Name="pc" ID="{0643E74F-9AD5-4AD0-AC96-34122E2935CC}" ShortID="794887378">
+              <ChildrenList>
+                <Event Name="imp_surface_automatic_PC" ID="{755EC544-C9DE-4192-9C42-BEFD3E7E8743}">
+                  <Comment>Automatic caliber</Comment>
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="imp_surface_small_PC" ID="{7F4E2F6A-6AE3-4CE7-A264-C71ADE4B73EF}">
+                  <Comment>Small caliber</Comment>
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="imp_surface_medium_PC" ID="{D7E53F71-4355-420A-B002-B7BA8CDD6659}">
+                  <Comment>Medium caliber</Comment>
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="imp_surface_main_PC" ID="{C22A8028-1962-4514-ACAD-E2BE820A5B5A}">
+                  <Comment>Main caliber</Comment>
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="imp_surface_large_PC" ID="{742CDB42-F6FD-47E3-AA7D-448B69BF2E4D}">
+                  <Comment>Large caliber</Comment>
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="imp_surface_huge_PC" ID="{AE1A4145-4D92-4CD7-9DAA-29CFBD7170A7}">
+                  <Comment>Huge caliber</Comment>
+                  <ChildrenList></ChildrenList>
+                </Event>
+              </ChildrenList>
+            </Folder>
+            <Folder Name="npc" ID="{4435C84D-DABD-4DDA-8C76-1C1ABCE22C2C}" ShortID="801125899">
+              <ChildrenList>
+                <Event Name="imp_surface_small_NPC" ID="{803A3735-89D9-45D2-8602-76386E04CAF7}">
+                  <Comment>Small caliber</Comment>
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="imp_surface_automatic_NPC" ID="{115E070E-367B-46D2-A683-E73E73B8FA3A}">
+                  <Comment>Automatic caliber</Comment>
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="imp_surface_large_NPC" ID="{2E3ECAA6-8594-4FA8-9E2F-445C8D068E31}">
+                  <Comment>Large caliber</Comment>
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="imp_surface_medium_NPC" ID="{24E7ABA1-69C6-4474-9F13-127E1CBD6B64}">
+                  <Comment>Medium caliber</Comment>
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="imp_surface_main_NPC" ID="{9D5996CF-1F52-461F-A196-4C0139B5DCBF}">
+                  <Comment>Main caliber</Comment>
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="imp_surface_huge_NPC" ID="{D4A001E0-409A-4E92-A99B-598088007A16}">
+                  <Comment>Huge caliber</Comment>
+                  <ChildrenList></ChildrenList>
+                </Event>
+              </ChildrenList>
+            </Folder>
+          </ChildrenList>
+        </Folder>
+        <Folder Name="splash" ID="{10B9377C-51D9-474D-8FA1-D0A08BAA0EAA}" ShortID="843344986">
+          <ChildrenList>
+            <Event Name="imp_main_splash_HE_NPC_PC" ID="{9453879E-E243-4775-BCF6-C7B644EFF368}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="imp_small_splash_HE_NPC_PC" ID="{18D988A2-85D0-465B-A2E6-475FE5DF9B6C}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="imp_large_splash_HE_NPC_PC" ID="{2BD23421-F918-41FB-A284-57B308428703}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="imp_medium_splash_HE_NPC_PC" ID="{B7E732F6-EF88-47B4-97DF-37DBC4014B90}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="imp_huge_splash_HE_NPC_PC" ID="{4E67C4D2-73B3-472B-B9D7-3F6FDF6B1B8E}">
+              <ChildrenList></ChildrenList>
+            </Event>
+          </ChildrenList>
+        </Folder>
+        <Folder Name="friendly_fire" ID="{05787C10-454F-47DA-82D0-FDE74B63ADB4}" ShortID="768627205">
+          <ChildrenList>
+            <Event Name="imp_ff_NPC_PC" ID="{6059A7CF-F78D-4A6A-9605-9F0C9D310D6A}">
+              <ChildrenList></ChildrenList>
+            </Event>
+          </ChildrenList>
+        </Folder>
+      </ChildrenList>
+    </WorkUnit>
+  </Events>
+</WwiseDocument>

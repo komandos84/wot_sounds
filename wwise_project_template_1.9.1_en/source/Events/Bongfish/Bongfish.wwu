@@ -1,0 +1,199 @@
+<WwiseDocument Type="WorkUnit" ID="{9107F1FA-EB0D-4071-BCA9-A0B980303767}" SchemaVersion="85">
+  <Events>
+    <WorkUnit Name="Bongfish" ID="{9107F1FA-EB0D-4071-BCA9-A0B980303767}" PersistMode="Standalone">
+      <ChildrenList>
+        <Folder Name="SFX_frontline" ID="{66C2355B-0FA1-45E9-A8C8-F372FA8560DE}" ShortID="600941100">
+          <ChildrenList>
+            <Folder Name="gui" ID="{46EF80AE-61A5-4074-B0A3-ED2F2E26DF5C}" ShortID="718260139">
+              <ChildrenList>
+                <Event Name="eb_artillery_fire" ID="{430A60B0-78AF-4273-9C92-21FB4937A02E}">
+                  <Comment>Artillery shots. Which will destroy the tank if it has not left the "closed zone" after the lapse of time.</Comment>
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="eb_5_min" ID="{A28F5A97-937B-49BC-8D99-A4D561E3C6D1}">
+                  <Comment>Five minutes to the end of the battle.</Comment>
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="eb_attackers_capture_zone" ID="{16987F31-9C32-491F-8285-68DADDF3A827}">
+                  <Comment>A warning. You are in an enclosed area.</Comment>
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="eb_global_message" ID="{00D41A4E-B664-4842-8D79-5E75F6C1C829}">
+                  <Comment>Message from the "general"</Comment>
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="eb_player_in_closed_zone" ID="{49BF9A31-FD06-475D-BDE0-0816845A4A8F}">
+                  <Comment>A warning. Attackers have taken over the area, the defenders need to retreat</Comment>
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="eb_recovery_activated" ID="{8120D69A-EC3C-4EFD-BA1B-0D3C80D1CD7F}">
+                  <Comment>The revival process initiated by the player has begun.</Comment>
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="eb_recovery_canceled" ID="{58B2BEBF-33C9-483C-B955-B0B5B070B080}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="eb_tank_focus" ID="{1DCC30AB-B5E4-4F9E-91B5-3D90AA8ECDFF}">
+                  <Comment>Camera lock behind the tank</Comment>
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="eb_tank_focus_click" ID="{A294AF32-724A-44E5-90D6-8820DF22B47F}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="eb_overtime_start" ID="{CB6C2452-A155-4A7F-9FF6-4EB2E0664EAB}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="eb_overtime_count_down" ID="{C4F56C35-0534-4F89-841B-9E063AC69BCE}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="eb_ability_ready_to_use" ID="{0507B943-46B0-4306-98FE-D7BFFC44AC2B}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="eb_welcome_01" ID="{5557151A-38EB-49A6-A05F-A8AA973D4DBD}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="eb_achieved_rank" ID="{307F6703-2FF0-4DD9-82DD-BFC2B0130984}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="eb_level_reached_01" ID="{99DEFC8A-087E-4C4A-A562-61828B755DAA}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="eb_button_continue" ID="{868F1084-D364-4134-B684-20D429F570C7}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="eb_welcome_02" ID="{1DD4E2C3-8382-42F6-B751-E876BCDE8EF5}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="eb_ability_upgrade_02" ID="{E659B582-0ED6-4235-A293-ADD6DBEAEF0C}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="eb_welcome_03" ID="{390B0DE4-1E3B-430B-96AD-31B0F6D309A7}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="eb_level_reached_02" ID="{D9F52C08-2B17-4317-A1FB-4D6AC1C0825C}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="eb_overtime_count_down_stop" ID="{E76632A3-35EA-4D30-87A1-6AEFBE6AE475}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="eb_prestige_reset" ID="{873FFCE0-C294-4162-BFF6-266D3C6B055E}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="capture_flag" ID="{BE70F22F-477C-438D-A398-DA14872BEAB8}">
+                  <Comment>Event - Sound of flag capturing</Comment>
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="point_repair" ID="{4175DA20-110E-454B-8239-124DF1902797}">
+                  <Comment>Event - Sound of tank repair</Comment>
+                  <ChildrenList></ChildrenList>
+                </Event>
+              </ChildrenList>
+            </Folder>
+            <Folder Name="gameplay" ID="{7C7A2F7E-FD28-4113-A27B-5A11BA9617EE}" ShortID="598258884">
+              <ChildrenList>
+                <Event Name="eb_bomber_engine" ID="{35DA3D79-3048-4C39-A095-A41C1B9DB776}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="eb_big_turret_explosion" ID="{9A05D19C-9D0A-4627-8523-98F8CE173E90}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="eb_ability_smoke_firing" ID="{8CC26D19-ADE4-4A6F-8F3A-1602A85C5B98}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="eb_ability_artillery_firing" ID="{F290F0E4-03A1-4F38-9091-3FC231A12E6B}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="eb_plane_expl_bomb_close" ID="{2A3DB2FD-CA8B-4918-8BFF-522781459205}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="eb_plane_expl_bomb_close_tail" ID="{37E0610D-AF55-4C0E-9C97-60EA6DA260B4}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="eb_plane_expl_bomb_far" ID="{19C13AA1-8B85-4863-A08B-3038D3E4CB2E}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="eb_plane_expl_bomb_far_tail" ID="{FFAAD539-F1EC-47B9-94A7-B0A73AC1BC31}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="eb_ability_smoke_expl_02" ID="{76DF3CF7-8F1B-461C-BAD0-4B77C2511587}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+              </ChildrenList>
+            </Folder>
+          </ChildrenList>
+        </Folder>
+        <Folder Name="reserve" ID="{F13957F5-C8E7-478B-91D0-48F81626CFE9}" ShortID="735864679">
+          <ChildrenList>
+            <Folder Name="gameplay" ID="{3145E324-619A-48A8-86DB-490E239B91A8}" ShortID="397515466">
+              <ChildrenList>
+                <Event Name="eb_plane_hit" ID="{275A31E7-B79A-48B0-83B1-4B54188BEC62}" />
+                <Event Name="eb_bomber_engine_damaged" ID="{60D33D6B-2B41-453F-9176-5931B383D463}" />
+                <Event Name="eb_bombs_expl" ID="{0FEE4C31-EF78-49D7-8707-0C6515CE3FF2}" />
+                <Event Name="eb_plane_hits_ground" ID="{6605A302-E579-41CE-B05A-F0E73A812913}" />
+                <Event Name="eb_plane_expl" ID="{0546DE5A-46E6-4981-AA43-6400F73DE691}" />
+                <Event Name="eb_ability_smoke_expl_01" ID="{2D8D720C-54F8-4CCF-9B4B-DC13EE271DA4}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="eb_big_turret_firing" ID="{F508CDA2-BA53-4D66-9893-2E807C0A4558}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="eb_bombs_falling" ID="{FDB8B4B6-628C-4905-97ED-9BEF25E96DF9}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="eb_ability_upgrade_01" ID="{14A4D081-1C49-4C82-B4C1-1B2833A05A8F}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="eb_ability_upgrade_03" ID="{CBDBB9C3-3FFB-48A6-9599-EB1940D0341E}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+              </ChildrenList>
+            </Folder>
+            <Folder Name="gui" ID="{CC221466-FD74-4E37-BAF8-8F32DF389B1E}" ShortID="688712653">
+              <ChildrenList>
+                <Event Name="eb_attackers_capture_all_zones" ID="{AED73111-5EC8-4BDB-BFA2-52FFD775D065}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="eb_ability_inspire_deployed" ID="{616C36BA-A8F8-456D-AB42-D833B8A3BB91}" />
+                <Event Name="eb_ability_deployed" ID="{6948180B-0F19-48C9-BDA4-670FFF011FCE}" />
+                <Event Name="eb_warships_firing" ID="{849A4A94-E0D1-47A6-B89F-F9D9F7E35A75}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="eb_2_min" ID="{06F337D0-8D94-49A2-AE27-9829DF0E6FDF}">
+                  <Comment>Two minutes to the end of the battle.</Comment>
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="eb_player_in_battleship_zone" ID="{1F2A37B0-941F-4B48-B4F3-8B88D6D590B2}">
+                  <Comment>A warning. You are in the landing zone, which is guarded by ships.</Comment>
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="eb_recovery_successful" ID="{44A2B563-F06C-47F7-8076-0CF025983170}">
+                  <Comment>The revival of the player initiated by the player is over.</Comment>
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="eb_zone_capture" ID="{27007457-73EC-49B8-8566-83D16CA8E746}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="eb_time_countdown" ID="{4D3E3BDD-E1AA-42D3-A586-F3B193BD4CDF}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+                <Event Name="eb_time_over" ID="{65FAB5B2-181C-4F6A-9F2F-1E40735EFF3A}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+              </ChildrenList>
+            </Folder>
+          </ChildrenList>
+        </Folder>
+        <Folder Name="hangar" ID="{9C73A000-2369-4B7D-AD17-7B37CFC6291C}" ShortID="731455430">
+          <ChildrenList>
+            <Event Name="gui_eb_mode_enter" ID="{12ABA9C4-11B2-48EA-800B-820D1ECEA62E}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="gui_eb_mode_exit" ID="{AD46D818-7085-4AC5-9BD5-7F0D6A8D5584}">
+              <ChildrenList></ChildrenList>
+            </Event>
+          </ChildrenList>
+        </Folder>
+      </ChildrenList>
+    </WorkUnit>
+  </Events>
+</WwiseDocument>

@@ -1,0 +1,160 @@
+<WwiseDocument Type="WorkUnit" ID="{6E76A620-F9B5-47F4-8C0B-13AA1956131B}" SchemaVersion="85">
+  <Events>
+    <WorkUnit Name="Utilite_events" ID="{6E76A620-F9B5-47F4-8C0B-13AA1956131B}" PersistMode="Standalone">
+      <Comment>Managing events</Comment>
+      <ChildrenList>
+        <Event Name="ue_music_volume_fade_30db" ID="{C3A5316D-DF95-4362-AF80-EDECFEB0D222}">
+          <Comment>Event - Decreasing the music volume by -30 dB</Comment>
+          <ChildrenList></ChildrenList>
+        </Event>
+        <Event Name="ue_music_volume_reset" ID="{12AAC932-A498-4A31-BD6D-533182C35F95}">
+          <Comment>Event - Restore music volume</Comment>
+          <ChildrenList></ChildrenList>
+        </Event>
+        <Event Name="ue_stop_all_voices_except_combat_music" ID="{0E90EB16-CF19-42AB-9C26-75E72ECB2D5F}">
+          <Comment>Event - Stop all events but for combat music</Comment>
+        </Event>
+        <Event Name="ue_events_arena_stop_except_music" ID="{B523F6A3-A9F4-493B-ADD0-F4B7C76265C0}">
+          <Comment>Event - Stop all arena efects but for music
+Probably unused</Comment>
+        </Event>
+        <Event Name="ue_stop_loadscreen_music" ID="{DAC148FC-C924-432C-A2BF-BB76DD699D5D}">
+          <Comment>Event - Stop the load screen music</Comment>
+          <ChildrenList></ChildrenList>
+        </Event>
+        <Event Name="ue_events_hangar_stop_afterBattleMusic" ID="{757742B2-C752-4A9B-8FEB-79EF95409917}">
+          <Comment>Delete action no. 4 after hangar_premium_v3 release
+Probably unused</Comment>
+        </Event>
+        <Event Name="ue_init_outside_arena_universal" ID="{DE1234A3-6353-4837-A0A7-D8CAAA796D9B}">
+          <Comment>Probably unused
+Event is internal and used with actions in the old hangar</Comment>
+          <ChildrenList></ChildrenList>
+        </Event>
+        <Folder Name="sound_presets" ID="{ED6413BF-D1C7-490C-B755-03D430C02550}" ShortID="36775402">
+          <ChildrenList>
+            <Event Name="ue_set_preset_acoustic_device_laptop" ID="{D5E85479-2F78-4A8F-8A23-9A770FE5C2B4}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ue_set_preset_acoustic_device_reset" ID="{13336981-A84E-4C42-AE0C-25A63BC73BAC}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ue_set_preset_bassboost_off" ID="{A33AE419-F3E7-47C1-A6C5-9C61FDD15DB1}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ue_set_preset_bassboost_on" ID="{A97473C0-9CE2-4C9F-ADE9-751A9292345B}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ue_set_preset_high_dynamic_range" ID="{3B3C454D-4273-4A06-874D-796A6801BF23}">
+              <Comment>Event - Setting the wide dynamic range preset</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ue_set_preset_low_dynamic_range" ID="{2D6B0158-F103-416A-8D10-F26EF276FABE}">
+              <Comment>Event - Setting the narrow dynamic range preset</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+          </ChildrenList>
+        </Folder>
+        <Folder Name="session_key_events" ID="{7ED2F5E8-6C17-4BBD-9D52-4303FF6F2792}" ShortID="322220722">
+          <ChildrenList>
+            <Event Name="ue_01_loginscreen_enter" ID="{E5868A02-B966-49B9-9302-CAEB72E00E01}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ue_01_loginscreen_exit" ID="{1F698242-E915-4C9E-A516-7C3CD6B2AB6C}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ue_02_hangar_enter" ID="{87E96D38-4AB6-4B02-9D8C-849859DF1EB5}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ue_02_hangar_exit" ID="{5F761042-00F7-4A71-952C-894A31D726F7}" />
+            <Event Name="ue_03_lobby_enter" ID="{3335275C-28EA-4CAC-A040-61DFB2B8572C}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ue_03_lobby_exit" ID="{35C96385-D315-4E0A-B7DE-C128F84CFB1C}" />
+            <Event Name="ue_04_loadingscreen_enter" ID="{50B22078-8F58-4C78-8B32-80E836FAA2E1}">
+              <Comment>2 - Stunning a battle drone (bypass sound)</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ue_04_loadingscreen_exit" ID="{EF08E066-485C-4575-8333-43AEF16651F4}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ue_05_arena_enter" ID="{B1C98C61-B5E3-4E29-A9E5-2BA4BA093FF8}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ue_05_arena_exit" ID="{08647C9E-78EA-4933-A326-7E383E575BF1}">
+              <Comment>remove unmute after the implementation of voice messages of wheeled vehicles</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ue_06_result_enter" ID="{2986F7CF-D460-438D-BFC7-D78FBC2C3F5D}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ue_06_result_exit" ID="{E6F56E53-1B9C-44CD-97A5-1CD9B59FC2A6}">
+              <Comment>ENABLE 1 and 2 to enable 'close battleresults window' effect</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+          </ChildrenList>
+        </Folder>
+        <Folder Name="actions_with_keys" ID="{30819053-AC7B-4ABE-8165-558AE81C986B}" ShortID="1071359366">
+          <ChildrenList>
+            <Event Name="ue_key_forward_pressed" ID="{2C039F38-E96F-40AB-9971-35B4D99651CD}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ue_key_backward_pressed" ID="{2DB5B6DD-F317-4C15-8AA5-8317DD6810E1}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ue_key_left_pressed" ID="{8CADAAA1-A8CB-4D6E-AC48-3CDB86226C8E}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ue_key_right_pressed" ID="{4BACFFE4-253F-42B5-BDCF-76F56DA6F7CD}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ue_key_stop_pressed" ID="{83660FE9-96DE-4427-8BF1-B07F81FA774E}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ue_key_forward_released" ID="{D7380814-E206-43A6-B54C-6F7FEBD2FA30}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ue_key_backward_released" ID="{015A4AF0-13EE-4819-A3CE-F370B73344E4}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ue_key_left_released" ID="{93DD4C30-A75F-488B-99A2-EA652A3DEB10}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ue_key_right_released" ID="{FA409E5D-C5C6-4D84-84C5-E2FB3080899C}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ue_key_stop_released" ID="{0A410802-0204-4EF0-A9D1-BBCC95305A37}">
+              <ChildrenList></ChildrenList>
+            </Event>
+          </ChildrenList>
+        </Folder>
+        <Folder Name="multichanel" ID="{67DA8C46-6105-453F-BF56-EACD9BA4A2EA}" ShortID="504548794">
+          <ChildrenList>
+            <Event Name="ue_ext_multichanel_off" ID="{53D4E53C-E107-4962-87CF-2E6E4758D462}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ue_set_preset_audiosystem51" ID="{A156DA17-BE72-4426-971F-1567B136E73C}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ue_set_preset_audiosystem71" ID="{9B4C4962-F626-4890-89D7-17A99646E298}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ue_set_preset_audiosystem20" ID="{6C8EBA91-267F-479C-A524-A0B931A34967}">
+              <Comment>Event is not assigned! Task:WOTD-72150</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ue_ext_multichanel_on" ID="{2FB8643B-8272-419A-947F-19EF79DC9D0A}">
+              <ChildrenList></ChildrenList>
+            </Event>
+          </ChildrenList>
+        </Folder>
+        <Event Name="ue_master_mute" ID="{742BD470-CB46-480F-B191-2A7FFC4CCB50}">
+          <ChildrenList></ChildrenList>
+        </Event>
+        <Event Name="ue_master_unmute" ID="{711FF6C2-FBEA-4594-818A-C14310EAFF3C}">
+          <ChildrenList></ChildrenList>
+        </Event>
+      </ChildrenList>
+    </WorkUnit>
+  </Events>
+</WwiseDocument>
