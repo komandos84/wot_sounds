@@ -1,0 +1,80 @@
+<audio_mods.xml>
+	<!-- 
+		
+	Event Format:
+	<event>
+			<name>eventName</name>
+			<mod>eventNameMod</mod>
+		</event>
+	</event>
+	eventName - name of the replaceble event
+	eventNameMod - name of the new event
+	-->
+	<loadBanks>
+		<bank> mod.bnk </bank>
+	</loadBanks>
+	<!-- Sound Events -->
+	<events>				
+		<event>
+			<name>wpn_main_extra_PC</name>
+			<mod>wpn_main_extra_PC_mod</mod>
+		</event>		
+		<event>
+			<name>vo_fire_started</name>
+			<mod>vo_fire_started_mod</mod>
+		</event>
+	</events>
+	<!-- Switches -->
+	<switches>
+		<switch>
+			<name>SW1</name>
+			<mod>SW1_mod</mod>
+			<states>
+				<state>
+					<name>ST1</name>
+					<mod>ST1_mod</mod>
+				</state>
+				<state>
+					<name>ST2</name>
+					<mod>ST2_mod</mod>
+				</state>
+				<state>
+					<name>ST3</name>
+					<mod>ST3_mod</mod>
+				</state>
+			</states>
+		</switch>
+	</switches>
+	<!-- RTPC -->
+	<RTPCs>
+		<RTPC>
+			<name>RTPC_ext_speed_abs</name>
+			<mod>RTPC_ext_speed_abs_mod</mod>
+		</RTPC>
+		<RTPC>
+			<name>RTPC_2</name>
+			<mod>RTPC_2_mod</mod>
+		</RTPC>
+	</RTPCs>
+	<!-- STATES -->
+	<states>
+		<stateGroup>
+			<name>STG1</name>
+			<mod>STG1_mod</mod>
+			<stateNames>
+				<state>
+					<name>ST1</name>
+					<mod>ST1_mod</mod>
+				</state>
+				<state>
+					<name>ST2</name>
+					<mod>ST2_mod</mod>
+				</state>
+				<state>
+					<name>ST3</name>
+					<mod>ST3_mod</mod>
+				</state>
+			</stateNames>
+		</stateGroup>
+	</states>
+</audio_mods.xml>
