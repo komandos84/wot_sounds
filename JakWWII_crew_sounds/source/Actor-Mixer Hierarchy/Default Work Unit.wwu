@@ -4531,6 +4531,13 @@
 							</ChildrenList>
 						</Folder>
 						<Folder Name="GunReloaded" ID="{1800B3AA-0A1E-4DA9-AC24-BE0A026D14B2}" ShortID="112213031">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ChildrenList>
 								<RandomSequenceContainer Name="gun_reloaded" ID="{7FDAB2A9-A3F7-419E-9DB7-1069180500C0}" ShortID="558539220">
 									<ReferenceList>
