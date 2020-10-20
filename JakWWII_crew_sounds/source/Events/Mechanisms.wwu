@@ -1,72 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{2738D18A-A9C5-40AE-80AF-6CDFCCC04720}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{2738D18A-A9C5-40AE-80AF-6CDFCCC04720}" SchemaVersion="97">
 	<Events>
 		<WorkUnit Name="Mechanisms" ID="{2738D18A-A9C5-40AE-80AF-6CDFCCC04720}" PersistMode="Standalone">
 			<ChildrenList>
 				<Folder Name="tangage_strv_PC" ID="{7C890609-3821-4468-A0F5-07531D54704E}" ShortID="929444129">
 					<ChildrenList>
-						<Event Name="tangage_gidro_high_angle_down_start_PC" ID="{76F58445-3F50-4357-B37F-A4A1AAF599BD}">
-							<ChildrenList></ChildrenList>
-						</Event>
-						<Event Name="tangage_gidro_high_angle_up_start_PC" ID="{9B30D360-7106-4AE5-961F-3BA355A69B06}">
-							<ChildrenList></ChildrenList>
-						</Event>
-						<Event Name="tangage_gidro_high_angle_down_stop_PC" ID="{1C0980DA-9938-4244-B35F-A2365D7A3886}">
-							<ChildrenList></ChildrenList>
-						</Event>
-						<Event Name="tangage_gidro_high_angle_up_stop_PC" ID="{4FFCDF2A-A799-412E-AB0D-8B874488D089}">
-							<ChildrenList></ChildrenList>
-						</Event>
-						<Event Name="tangage_gidro_small_angle_down_start_PC" ID="{F16F2142-B999-4A9D-84A0-5556C8C45ADF}">
-							<ChildrenList></ChildrenList>
-						</Event>
-						<Event Name="tangage_gidro_small_angle_down_stop_PC" ID="{68D0D323-F96F-4CC4-9217-61B9AA697B32}">
-							<ChildrenList></ChildrenList>
-						</Event>
-						<Event Name="tangage_gidro_small_angle_up_start_PC" ID="{46B081F2-8CC4-431F-88EF-B81FEE20D7CC}">
-							<ChildrenList></ChildrenList>
-						</Event>
-						<Event Name="tangage_gidro_small_angle_up_stop_PC" ID="{37D34544-63D2-4CED-887E-6B260E1BEEF5}">
-							<ChildrenList></ChildrenList>
-						</Event>
+						<Event Name="tangage_gidro_high_angle_down_start_PC" ID="{76F58445-3F50-4357-B37F-A4A1AAF599BD}"/>
+						<Event Name="tangage_gidro_high_angle_up_start_PC" ID="{9B30D360-7106-4AE5-961F-3BA355A69B06}"/>
+						<Event Name="tangage_gidro_high_angle_down_stop_PC" ID="{1C0980DA-9938-4244-B35F-A2365D7A3886}"/>
+						<Event Name="tangage_gidro_high_angle_up_stop_PC" ID="{4FFCDF2A-A799-412E-AB0D-8B874488D089}"/>
+						<Event Name="tangage_gidro_small_angle_down_start_PC" ID="{F16F2142-B999-4A9D-84A0-5556C8C45ADF}"/>
+						<Event Name="tangage_gidro_small_angle_down_stop_PC" ID="{68D0D323-F96F-4CC4-9217-61B9AA697B32}"/>
+						<Event Name="tangage_gidro_small_angle_up_start_PC" ID="{46B081F2-8CC4-431F-88EF-B81FEE20D7CC}"/>
+						<Event Name="tangage_gidro_small_angle_up_stop_PC" ID="{37D34544-63D2-4CED-887E-6B260E1BEEF5}"/>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="tangage_strv_NPC" ID="{380472D6-03E4-4967-BEE9-4D184759837E}" ShortID="644616739">
 					<ChildrenList>
-						<Event Name="tangage_gidro_high_angle_down_start_NPC" ID="{983ABEFC-E309-4CF1-846B-93FA5BECA328}">
-							<ChildrenList></ChildrenList>
-						</Event>
-						<Event Name="tangage_gidro_high_angle_up_start_NPC" ID="{15C40317-65BE-4E73-BB81-2E3344EA3CC1}">
-							<ChildrenList></ChildrenList>
-						</Event>
-						<Event Name="tangage_gidro_high_angle_down_stop_NPC" ID="{955615FB-CE64-493D-82D6-353516508F16}">
-							<ChildrenList></ChildrenList>
-						</Event>
-						<Event Name="tangage_gidro_high_angle_up_stop_NPC" ID="{454B3353-AAD3-4931-B927-D5F2AF3661D3}">
-							<ChildrenList></ChildrenList>
-						</Event>
-						<Event Name="tangage_gidro_small_angle_down_start_NPC" ID="{9CC1D7AA-749F-4388-B5BA-E2EC347D1012}">
-							<ChildrenList></ChildrenList>
-						</Event>
-						<Event Name="tangage_gidro_small_angle_down_stop_NPC" ID="{479F73B2-B104-4E57-80B7-446D39155C8C}">
-							<ChildrenList></ChildrenList>
-						</Event>
-						<Event Name="tangage_gidro_small_angle_up_start_NPC" ID="{2930C01D-1B60-44A1-A067-ED9B4ACDB533}">
-							<ChildrenList></ChildrenList>
-						</Event>
-						<Event Name="tangage_gidro_small_angle_up_stop_NPC" ID="{5F021262-8789-4FC1-81E5-613346C16F97}">
-							<ChildrenList></ChildrenList>
-						</Event>
+						<Event Name="tangage_gidro_high_angle_down_start_NPC" ID="{983ABEFC-E309-4CF1-846B-93FA5BECA328}"/>
+						<Event Name="tangage_gidro_high_angle_up_start_NPC" ID="{15C40317-65BE-4E73-BB81-2E3344EA3CC1}"/>
+						<Event Name="tangage_gidro_high_angle_down_stop_NPC" ID="{955615FB-CE64-493D-82D6-353516508F16}"/>
+						<Event Name="tangage_gidro_high_angle_up_stop_NPC" ID="{454B3353-AAD3-4931-B927-D5F2AF3661D3}"/>
+						<Event Name="tangage_gidro_small_angle_down_start_NPC" ID="{9CC1D7AA-749F-4388-B5BA-E2EC347D1012}"/>
+						<Event Name="tangage_gidro_small_angle_down_stop_NPC" ID="{479F73B2-B104-4E57-80B7-446D39155C8C}"/>
+						<Event Name="tangage_gidro_small_angle_up_start_NPC" ID="{2930C01D-1B60-44A1-A067-ED9B4ACDB533}"/>
+						<Event Name="tangage_gidro_small_angle_up_stop_NPC" ID="{5F021262-8789-4FC1-81E5-613346C16F97}"/>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="hydraulics_strv_PC" ID="{C3FF3259-BD4F-433D-82C0-C042822D69A8}" ShortID="460750169">
 					<ChildrenList>
-						<Event Name="strv_siege_mode_on_PC" ID="{B3BCF9F3-55FC-4FD7-9C2E-F3D7298CCFBA}">
-							<ChildrenList></ChildrenList>
-						</Event>
-						<Event Name="strv_siege_mode_off_PC" ID="{B106D67A-ED92-4551-A55D-7F15AA052FF1}">
-							<ChildrenList></ChildrenList>
-						</Event>
+						<Event Name="strv_siege_mode_on_PC" ID="{B3BCF9F3-55FC-4FD7-9C2E-F3D7298CCFBA}"/>
+						<Event Name="strv_siege_mode_off_PC" ID="{B106D67A-ED92-4551-A55D-7F15AA052FF1}"/>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

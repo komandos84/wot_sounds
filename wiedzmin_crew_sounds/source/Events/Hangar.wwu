@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{E25E24D1-7969-48F8-856C-E382F91839A5}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{E25E24D1-7969-48F8-856C-E382F91839A5}" SchemaVersion="97">
 	<Events>
 		<WorkUnit Name="Hangar" ID="{E25E24D1-7969-48F8-856C-E382F91839A5}" PersistMode="Standalone">
 			<Comment>Garages</Comment>

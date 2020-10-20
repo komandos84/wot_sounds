@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{080CB6CE-6D01-43BC-8288-8BEC35E84725}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{080CB6CE-6D01-43BC-8288-8BEC35E84725}" SchemaVersion="97">
 	<GameParameters>
 		<WorkUnit Name="Explosions" ID="{080CB6CE-6D01-43BC-8288-8BEC35E84725}" PersistMode="Standalone">
 			<Comment>Взрывы</Comment>

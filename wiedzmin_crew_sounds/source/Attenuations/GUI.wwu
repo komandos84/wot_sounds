@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{2AD910B0-6073-4384-9E42-7398A09EE04A}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{2AD910B0-6073-4384-9E42-7398A09EE04A}" SchemaVersion="97">
 	<Attenuations>
 		<WorkUnit Name="GUI" ID="{2AD910B0-6073-4384-9E42-7398A09EE04A}" PersistMode="Standalone">
 			<ChildrenList>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{809486B9-6885-4F17-97D7-52C9062DAB72}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{809486B9-6885-4F17-97D7-52C9062DAB72}" SchemaVersion="97">
 	<Presets>
 		<WorkUnit Name="Default Work Unit" ID="{809486B9-6885-4F17-97D7-52C9062DAB72}" PersistMode="Standalone">
 			<ChildrenList>
@@ -271,6 +271,7 @@
 				</Effect>
 				<RandomSequenceContainer Name="APCR_flayout" ID="{783058E2-CECC-4135-899C-437F4C552F8D}">
 					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 						<Property Name="HdrEnableEnvelope" Type="bool" Value="True"/>
 						<Property Name="InitialDelay" Type="Real64">
@@ -298,7 +299,6 @@
 								</ModifierInfo>
 							</ModifierList>
 						</Property>
-						<Property Name="PositioningType" Type="int16" Value="1"/>
 						<Property Name="Priority" Type="int16">
 							<ValueList>
 								<Value>85</Value>
@@ -394,6 +394,7 @@
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="HE_flyout_small" ID="{BAFDECD9-3A61-4D32-91D4-FC31031051A7}">
 					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 						<Property Name="HdrEnableEnvelope" Type="bool" Value="True"/>
 						<Property Name="InitialDelay" Type="Real64">
@@ -431,7 +432,6 @@
 								</ModifierInfo>
 							</ModifierList>
 						</Property>
-						<Property Name="PositioningType" Type="int16" Value="1"/>
 						<Property Name="Priority" Type="int16">
 							<ValueList>
 								<Value>85</Value>
@@ -495,6 +495,7 @@
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="HE_flyout_main" ID="{D7AB2482-9B6B-448D-A3E8-AED21566B13D}">
 					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 						<Property Name="HdrEnableEnvelope" Type="bool" Value="True"/>
 						<Property Name="InitialDelay" Type="Real64">
@@ -532,7 +533,6 @@
 								</ModifierInfo>
 							</ModifierList>
 						</Property>
-						<Property Name="PositioningType" Type="int16" Value="1"/>
 						<Property Name="Priority" Type="int16">
 							<ValueList>
 								<Value>85</Value>
@@ -596,6 +596,7 @@
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="HE_flyout_large" ID="{A44AEE48-135C-4ABB-8B57-2B3186A3C5B7}">
 					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 						<Property Name="HdrEnableEnvelope" Type="bool" Value="True"/>
 						<Property Name="InitialDelay" Type="Real64">
@@ -629,7 +630,6 @@
 								</ModifierInfo>
 							</ModifierList>
 						</Property>
-						<Property Name="PositioningType" Type="int16" Value="1"/>
 						<Property Name="Priority" Type="int16">
 							<ValueList>
 								<Value>85</Value>
@@ -698,6 +698,7 @@
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="APCR_flyout_large" ID="{07909775-6D0C-4298-AFB5-EE64CE30BBF7}">
 					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 						<Property Name="HdrEnableEnvelope" Type="bool" Value="True"/>
 						<Property Name="InitialDelay" Type="Real64">
@@ -721,7 +722,6 @@
 								</ModifierInfo>
 							</ModifierList>
 						</Property>
-						<Property Name="PositioningType" Type="int16" Value="1"/>
 						<Property Name="Priority" Type="int16">
 							<ValueList>
 								<Value>85</Value>
@@ -821,6 +821,7 @@
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="APCR_flyout_main" ID="{D7BCA3E5-31FC-4840-957A-E321C1AE5077}">
 					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 						<Property Name="HdrEnableEnvelope" Type="bool" Value="True"/>
 						<Property Name="InitialDelay" Type="Real64">
@@ -848,7 +849,6 @@
 								</ModifierInfo>
 							</ModifierList>
 						</Property>
-						<Property Name="PositioningType" Type="int16" Value="1"/>
 						<Property Name="Priority" Type="int16">
 							<ValueList>
 								<Value>85</Value>
@@ -944,6 +944,7 @@
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="APCR_flyout_small" ID="{2593B90D-60D9-4876-8B79-4CF7DF8F9A62}">
 					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 						<Property Name="HdrEnableEnvelope" Type="bool" Value="True"/>
 						<Property Name="InitialDelay" Type="Real64">
@@ -971,7 +972,6 @@
 								</ModifierInfo>
 							</ModifierList>
 						</Property>
-						<Property Name="PositioningType" Type="int16" Value="1"/>
 						<Property Name="Priority" Type="int16">
 							<ValueList>
 								<Value>85</Value>
@@ -1522,9 +1522,9 @@
 				</Effect>
 				<Sound Name="Old_Era_effects" ID="{B39F4E10-79A5-4E39-8533-EB1CB37E212D}">
 					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="OverrideEffect" Type="bool" Value="True"/>
 						<Property Name="OverridePositioning" Type="bool" Value="True"/>
-						<Property Name="PositioningType" Type="int16" Value="1"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">

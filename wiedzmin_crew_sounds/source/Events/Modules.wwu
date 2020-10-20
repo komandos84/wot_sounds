@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{E44AA8E0-0104-42AD-A2CB-DAF85C6ED70A}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{E44AA8E0-0104-42AD-A2CB-DAF85C6ED70A}" SchemaVersion="97">
 	<Events>
 		<WorkUnit Name="Modules" ID="{E44AA8E0-0104-42AD-A2CB-DAF85C6ED70A}" PersistMode="Standalone">
 			<Comment>Modules mounted on a vehicle</Comment>

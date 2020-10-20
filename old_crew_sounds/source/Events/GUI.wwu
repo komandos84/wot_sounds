@@ -1,363 +1,233 @@
-<WwiseDocument Type="WorkUnit" ID="{DFF2755B-9A8F-4FB9-A356-F3AC81BDD167}" SchemaVersion="85">
-  <Events>
-    <WorkUnit Name="GUI" ID="{DFF2755B-9A8F-4FB9-A356-F3AC81BDD167}" PersistMode="Standalone">
-      <Comment>Interface sounds</Comment>
-      <ChildrenList>
-        <Folder Name="notificationFX" ID="{B03216A3-106B-4D34-AB62-6E4606FDEF94}" ShortID="716932367">
-          <Comment>Notification sounds</Comment>
-          <ChildrenList>
-            <Event Name="base_capture_1" ID="{A319E64E-BB3C-4C13-AF16-B21B3355AE15}">
-              <Comment>Event - Base capture sound</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="base_capture_2" ID="{26C0DF46-F525-4A55-B2A4-4F345700610D}">
-              <Comment>Event - Silence</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="enemy_sighted_for_team" ID="{EA161AFE-D188-4AAF-A0D9-155A0F1B709D}">
-              <Comment>Event - Sound of spotting a player</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="gun_intuition" ID="{DA5E2E3E-E943-46C0-84A8-CF87C8D69288}">
-              <Comment>Event - Sound of activating the Intuition perk</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="minimap_attention" ID="{7EF45CE7-BCE6-46ED-926A-934694379ABE}">
-              <Comment>Event - Sound of coordinates on the minimap</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="sight_convergence" ID="{726DC679-0688-4B06-A020-2AEE5764DA43}">
-              <Comment>Event - Sound played when a gun is fully aimed</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="task_complete" ID="{D00386B2-CE82-4E45-B426-30F8A1FD4ADB}">
-              <Comment>Event - Sound of completing a mission of the Battle Training</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="task_new" ID="{BF953F39-3574-420F-B539-5A8B66F4CC8C}">
-              <Comment>Event - Sound of receiving a new mission of the Battle Training</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="task_part_complete" ID="{CB4F3792-B1AF-4E93-BCC6-06885CBF2D67}">
-              <Comment>Event - Sound of Partial mission completion of the Battle Training</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="timer" ID="{920B742E-AC9B-4967-AE08-41B7EEE1365B}">
-              <Comment>Event - Timer countdown sound</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="division_up" ID="{86DBD317-B9FD-4BAC-8958-B099A2053FF4}">
-              <Comment>Event - Sound of rating increase in eSports</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="division_down" ID="{F6D18CF7-6889-491F-B031-4BBC1006D824}">
-              <Comment>Event - Sound of rating decrease in eSports</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="lbe_appear" ID="{A759A229-F06D-4EFE-A473-8C5E9718EB17}">
-              <Comment>Event - Opening sound "battle performance badges"</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="lbe_counter" ID="{B9D0DE6E-43A9-4E0F-9A05-63CF2D17C97C}">
-              <Comment>Event - Countdown sound "battle performance badges"</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="lbe_disappear" ID="{E53A54C6-90C3-4C06-A136-205C4A3780BA}">
-              <Comment>Event - Closing sound "battle performance badges"</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="timer_stop" ID="{F1E58D3E-BC3C-4012-877F-50D4CCE8B517}">
-              <Comment>Event - countwodn timer stop</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="time_buzzer_01" ID="{45418D79-4984-49A7-8D49-452E25E0CC98}">
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="time_buzzer_02" ID="{15EC2625-E9C0-4A8E-8CFC-285AEC50E833}">
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="time_countdown" ID="{6A5F90AB-AA54-4888-8750-BF7F58813171}">
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="time_countdown_stop" ID="{DBE143F0-989C-49D1-A818-1777C2E73D60}">
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Folder Name="siege_mode" ID="{9B85A806-6E6A-46DC-AF5C-EEB3C6A25694}" ShortID="474173221">
-              <ChildrenList>
-                <Event Name="start_to_siege_mode_PC" ID="{4C23F91B-77B7-4DF1-957F-69B812219398}">
-                  <ChildrenList></ChildrenList>
-                </Event>
-                <Event Name="start_to_base_mode_PC" ID="{8A92F96F-D86E-422F-85F5-A431E979873F}">
-                  <ChildrenList></ChildrenList>
-                </Event>
-                <Event Name="siege_mode_transition_timer" ID="{96318CF4-C4EE-4846-A3A5-2FDF4C864E3D}">
-                  <ChildrenList></ChildrenList>
-                </Event>
-                <Event Name="strv_siege_mode_movement_limited_on" ID="{3B330E7D-D211-4704-A05D-C0C6A03C8D2C}">
-                  <ChildrenList></ChildrenList>
-                </Event>
-                <Event Name="strv_siege_mode_movement_limited_off" ID="{332ADD09-FE7F-493E-A83B-9F6007C8FB97}">
-                  <ChildrenList></ChildrenList>
-                </Event>
-              </ChildrenList>
-            </Folder>
-            <Folder Name="end_battle_notification" ID="{B193162B-58B9-489F-B191-897C5C46D890}" ShortID="753549973">
-              <ChildrenList>
-                <Event Name="end_battle_last_kill" ID="{79A8BD7B-7CCB-447F-93C3-C5BBF0F6931E}">
-                  <ChildrenList></ChildrenList>
-                </Event>
-                <Event Name="end_battle_capture_base" ID="{BCCEC19F-5CC5-4513-8816-44505D403D34}">
-                  <ChildrenList></ChildrenList>
-                </Event>
-                <Event Name="time_over" ID="{9DC2A01F-F538-4B9B-BFD8-8ECC78CD3105}">
-                  <ChildrenList></ChildrenList>
-                </Event>
-              </ChildrenList>
-            </Folder>
-            <Event Name="result_screen_achievements" ID="{EE2A3A81-CC5C-44AE-995E-F09F825B4E1A}">
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="result_screen_bonus" ID="{74509A28-C02D-468A-B620-B065E3B455D1}">
-              <ChildrenList></ChildrenList>
-            </Event>
-          </ChildrenList>
-        </Folder>
-        <Folder Name="buttons" ID="{45BB4894-E1CD-42C6-8F0A-846090B570A8}" ShortID="691214648">
-          <Comment>Buttons</Comment>
-          <ChildrenList>
-            <Event Name="play" ID="{BDC5CBB1-EA10-4588-8D7A-50EA755043F1}">
-              <Comment>Event - Selection confirmation sound. 
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DFF2755B-9A8F-4FB9-A356-F3AC81BDD167}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="GUI" ID="{DFF2755B-9A8F-4FB9-A356-F3AC81BDD167}" PersistMode="Standalone">
+			<Comment>Interface sounds</Comment>
+			<ChildrenList>
+				<Folder Name="notificationFX" ID="{B03216A3-106B-4D34-AB62-6E4606FDEF94}" ShortID="716932367">
+					<Comment>Notification sounds</Comment>
+					<ChildrenList>
+						<Event Name="base_capture_1" ID="{A319E64E-BB3C-4C13-AF16-B21B3355AE15}">
+							<Comment>Event - Base capture sound</Comment>
+						</Event>
+						<Event Name="base_capture_2" ID="{26C0DF46-F525-4A55-B2A4-4F345700610D}">
+							<Comment>Event - Silence</Comment>
+						</Event>
+						<Event Name="enemy_sighted_for_team" ID="{EA161AFE-D188-4AAF-A0D9-155A0F1B709D}">
+							<Comment>Event - Sound of spotting a player</Comment>
+						</Event>
+						<Event Name="gun_intuition" ID="{DA5E2E3E-E943-46C0-84A8-CF87C8D69288}">
+							<Comment>Event - Sound of activating the Intuition perk</Comment>
+						</Event>
+						<Event Name="minimap_attention" ID="{7EF45CE7-BCE6-46ED-926A-934694379ABE}">
+							<Comment>Event - Sound of coordinates on the minimap</Comment>
+						</Event>
+						<Event Name="sight_convergence" ID="{726DC679-0688-4B06-A020-2AEE5764DA43}">
+							<Comment>Event - Sound played when a gun is fully aimed</Comment>
+						</Event>
+						<Event Name="task_complete" ID="{D00386B2-CE82-4E45-B426-30F8A1FD4ADB}">
+							<Comment>Event - Sound of completing a mission of the Battle Training</Comment>
+						</Event>
+						<Event Name="task_new" ID="{BF953F39-3574-420F-B539-5A8B66F4CC8C}">
+							<Comment>Event - Sound of receiving a new mission of the Battle Training</Comment>
+						</Event>
+						<Event Name="task_part_complete" ID="{CB4F3792-B1AF-4E93-BCC6-06885CBF2D67}">
+							<Comment>Event - Sound of Partial mission completion of the Battle Training</Comment>
+						</Event>
+						<Event Name="timer" ID="{920B742E-AC9B-4967-AE08-41B7EEE1365B}">
+							<Comment>Event - Timer countdown sound</Comment>
+						</Event>
+						<Event Name="division_up" ID="{86DBD317-B9FD-4BAC-8958-B099A2053FF4}">
+							<Comment>Event - Sound of rating increase in eSports</Comment>
+						</Event>
+						<Event Name="division_down" ID="{F6D18CF7-6889-491F-B031-4BBC1006D824}">
+							<Comment>Event - Sound of rating decrease in eSports</Comment>
+						</Event>
+						<Event Name="lbe_appear" ID="{A759A229-F06D-4EFE-A473-8C5E9718EB17}">
+							<Comment>Event - Opening sound "battle performance badges"</Comment>
+						</Event>
+						<Event Name="lbe_counter" ID="{B9D0DE6E-43A9-4E0F-9A05-63CF2D17C97C}">
+							<Comment>Event - Countdown sound "battle performance badges"</Comment>
+						</Event>
+						<Event Name="lbe_disappear" ID="{E53A54C6-90C3-4C06-A136-205C4A3780BA}">
+							<Comment>Event - Closing sound "battle performance badges"</Comment>
+						</Event>
+						<Event Name="timer_stop" ID="{F1E58D3E-BC3C-4012-877F-50D4CCE8B517}">
+							<Comment>Event - countwodn timer stop</Comment>
+						</Event>
+						<Event Name="time_buzzer_01" ID="{45418D79-4984-49A7-8D49-452E25E0CC98}"/>
+						<Event Name="time_buzzer_02" ID="{15EC2625-E9C0-4A8E-8CFC-285AEC50E833}"/>
+						<Event Name="time_countdown" ID="{6A5F90AB-AA54-4888-8750-BF7F58813171}"/>
+						<Event Name="time_countdown_stop" ID="{DBE143F0-989C-49D1-A818-1777C2E73D60}"/>
+						<Folder Name="siege_mode" ID="{9B85A806-6E6A-46DC-AF5C-EEB3C6A25694}" ShortID="474173221">
+							<ChildrenList>
+								<Event Name="start_to_siege_mode_PC" ID="{4C23F91B-77B7-4DF1-957F-69B812219398}"/>
+								<Event Name="start_to_base_mode_PC" ID="{8A92F96F-D86E-422F-85F5-A431E979873F}"/>
+								<Event Name="siege_mode_transition_timer" ID="{96318CF4-C4EE-4846-A3A5-2FDF4C864E3D}"/>
+								<Event Name="strv_siege_mode_movement_limited_on" ID="{3B330E7D-D211-4704-A05D-C0C6A03C8D2C}"/>
+								<Event Name="strv_siege_mode_movement_limited_off" ID="{332ADD09-FE7F-493E-A83B-9F6007C8FB97}"/>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="end_battle_notification" ID="{B193162B-58B9-489F-B191-897C5C46D890}" ShortID="753549973">
+							<ChildrenList>
+								<Event Name="end_battle_last_kill" ID="{79A8BD7B-7CCB-447F-93C3-C5BBF0F6931E}"/>
+								<Event Name="end_battle_capture_base" ID="{BCCEC19F-5CC5-4513-8816-44505D403D34}"/>
+								<Event Name="time_over" ID="{9DC2A01F-F538-4B9B-BFD8-8ECC78CD3105}"/>
+							</ChildrenList>
+						</Folder>
+						<Event Name="result_screen_achievements" ID="{EE2A3A81-CC5C-44AE-995E-F09F825B4E1A}"/>
+						<Event Name="result_screen_bonus" ID="{74509A28-C02D-468A-B620-B065E3B455D1}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="buttons" ID="{45BB4894-E1CD-42C6-8F0A-846090B570A8}" ShortID="691214648">
+					<Comment>Buttons</Comment>
+					<ChildrenList>
+						<Event Name="play" ID="{BDC5CBB1-EA10-4588-8D7A-50EA755043F1}">
+							<Comment>Event - Selection confirmation sound. 
 _________________________________________________________
 
  Sound of clicking the "Battle!" button and "GARAGE", "STORE", "ACHIEVEMENTS", "RESEARCH", "BARACKS", "STRONGHOLD", "Accept" "Close"
 _________________________________________________________
 
 Sound of selecting "Combat Reserves", "Modules", "Ammunition", "Vehicle modifications"</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="grey_butt" ID="{2E9215AA-9159-407C-AF14-A49863FEDBC3}">
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="highlight" ID="{DB5BD8E9-6ABE-4814-A0DB-22E0B29D3365}">
-              <Comment>Event - Sound of hovering the cursor over all buttons and fields</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="arrow" ID="{B0C2BD6B-58CA-492F-9422-95EBC9F28192}">
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="tabs" ID="{A020D76C-4615-4E01-A7C4-81CFA1C9B264}">
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="coins" ID="{1A4BAD78-74A0-4411-AA5A-AA95F729A6D6}">
-              <Comment>Event - Purchase and sale sound</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="yes" ID="{E15AC5E3-55B7-40AB-9A68-33629C859524}">
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="no" ID="{247F8C03-3ADE-4F97-9C42-37D3552530CF}">
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="highlight_red_butt" ID="{471AADB9-7745-433C-BE7B-D4D02FC66D25}">
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="cancelcloseno" ID="{044022B7-6DB2-4384-B85D-CE87104BAAD7}">
-              <Comment>Event - Sound of clicking the cross button upon closing windows. For example "Service", "Exterior"</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="yes1" ID="{C7173714-D443-4753-A134-5A1B04083D04}">
-              <Comment>Event - Sound of clicking all buttons appearing in the Garage. For example, "Service", "Exterior"</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="minimize" ID="{3511BDFB-A773-4715-A798-00A38810437F}">
-              <Comment>Event - sound of collapsing windows. Symbol "_" .
+						</Event>
+						<Event Name="grey_butt" ID="{2E9215AA-9159-407C-AF14-A49863FEDBC3}"/>
+						<Event Name="highlight" ID="{DB5BD8E9-6ABE-4814-A0DB-22E0B29D3365}">
+							<Comment>Event - Sound of hovering the cursor over all buttons and fields</Comment>
+						</Event>
+						<Event Name="arrow" ID="{B0C2BD6B-58CA-492F-9422-95EBC9F28192}"/>
+						<Event Name="tabs" ID="{A020D76C-4615-4E01-A7C4-81CFA1C9B264}"/>
+						<Event Name="coins" ID="{1A4BAD78-74A0-4411-AA5A-AA95F729A6D6}">
+							<Comment>Event - Purchase and sale sound</Comment>
+						</Event>
+						<Event Name="yes" ID="{E15AC5E3-55B7-40AB-9A68-33629C859524}"/>
+						<Event Name="no" ID="{247F8C03-3ADE-4F97-9C42-37D3552530CF}"/>
+						<Event Name="highlight_red_butt" ID="{471AADB9-7745-433C-BE7B-D4D02FC66D25}"/>
+						<Event Name="cancelcloseno" ID="{044022B7-6DB2-4384-B85D-CE87104BAAD7}">
+							<Comment>Event - Sound of clicking the cross button upon closing windows. For example "Service", "Exterior"</Comment>
+						</Event>
+						<Event Name="yes1" ID="{C7173714-D443-4753-A134-5A1B04083D04}">
+							<Comment>Event - Sound of clicking all buttons appearing in the Garage. For example, "Service", "Exterior"</Comment>
+						</Event>
+						<Event Name="minimize" ID="{3511BDFB-A773-4715-A798-00A38810437F}">
+							<Comment>Event - sound of collapsing windows. Symbol "_" .
  
 Example of mounting different vehicle modules 
 
 Example of collapsing the chat window "_"</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="highlightx" ID="{44925634-985A-46CB-BADC-C5C3D00AC4A0}">
-              <Comment>Event - Sound of scrolling vehicles in the vehicle panel</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="tabb" ID="{AA80D267-C933-44CE-9717-BF710DA23ECE}">
-              <Comment>Event - Sound of switching tabs. 
+						</Event>
+						<Event Name="highlightx" ID="{44925634-985A-46CB-BADC-C5C3D00AC4A0}">
+							<Comment>Event - Sound of scrolling vehicles in the vehicle panel</Comment>
+						</Event>
+						<Event Name="tabb" ID="{AA80D267-C933-44CE-9717-BF710DA23ECE}">
+							<Comment>Event - Sound of switching tabs. 
 
 Example "Service Record", "Tutorial", "Skills and perks", "Personal Data"'
 
 Example The "Campaign" tab in the Personal Missions window, "Missions and Specials", "Recruit Training"</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="carousel" ID="{27994629-594F-4D8B-B801-3BAD8BC63043}">
-              <Comment>Event - Sound of hovering the cursor over vehicles in the vehicle panel</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="carouselButton" ID="{9CB027E0-6AD9-45CF-847B-AD33B548D366}">
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="tank_selection" ID="{46E3CC5C-944D-437D-A614-87C7BD6C8F0C}">
-              <Comment>Event - Selecting a vehicle</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="rudy" ID="{B48D7DA6-7B40-4F10-B441-4499709D1A02}">
-              <Comment>Event - Dog sound in the crew</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-          </ChildrenList>
-        </Folder>
-        <Folder Name="modes" ID="{F35B34FE-46E8-442B-9498-5ECAC3D46E8A}" ShortID="194037276">
-          <Comment>Modes</Comment>
-          <ChildrenList>
-            <Folder Name="dynamic_platoon" ID="{1B619740-4113-4800-AB5C-39CC28579989}" ShortID="871482665">
-              <ChildrenList>
-                <Event Name="starting_dynamic_platoon" ID="{A5F8CF3F-19F5-47FF-BE6A-5D9F4217D76C}">
-                  <Comment>Event - Sound of invitation to a Dynamic Platoon</Comment>
-                  <ChildrenList></ChildrenList>
-                </Event>
-              </ChildrenList>
-            </Folder>
-            <Folder Name="lightbulb" ID="{3988EB0D-4FD2-4AE4-AA3E-91C9AB5881E6}" ShortID="582566105">
-              <ChildrenList>
-                <Event Name="lightbulb" ID="{511FE419-73B9-4C40-B67B-7AE942E805FD}">
-                  <Comment>Event - Sound of the Sixth Sense perk</Comment>
-                  <ChildrenList></ChildrenList>
-                </Event>
-                <Event Name="sixthSense" ID="{88652502-B881-42D3-AD43-2FF36ADCB712}">
-                  <ChildrenList></ChildrenList>
-                </Event>
-                <Event Name="lightbulb_02" ID="{C5236D3F-FCF5-4DBC-B3BF-58B0963119C5}">
-                  <ChildrenList></ChildrenList>
-                </Event>
-              </ChildrenList>
-            </Folder>
-          </ChildrenList>
-        </Folder>
-        <Folder Name="battle_equipment" ID="{1072060C-FB60-4CD7-B352-5F7ADFC67BB1}" ShortID="85388149">
-          <Comment>Consumables</Comment>
-          <ChildrenList>
-            <Folder Name="replenishment" ID="{0502F40E-D15E-4113-8936-F91808CCF096}" ShortID="239201365">
-              <ChildrenList>
-                <Event Name="be_nitro_empty" ID="{3392608C-3712-432F-A0B0-394449915751}">
-                  <ChildrenList></ChildrenList>
-                </Event>
-                <Event Name="be_nitro_replenishment_full" ID="{2C8676A3-4B28-4034-A310-964D379ECE6B}">
-                  <ChildrenList></ChildrenList>
-                </Event>
-                <Event Name="be_pre_replenishment" ID="{E292DA5C-4524-4AF3-808C-F2D7AC687868}">
-                  <ChildrenList></ChildrenList>
-                </Event>
-                <Event Name="be_nitro_stop" ID="{4E485884-05E8-4168-B1AD-811F2E8D9702}">
-                  <ChildrenList></ChildrenList>
-                </Event>
-              </ChildrenList>
-            </Folder>
-            <Folder Name="activating" ID="{345051D2-80AC-4665-B640-644E66C2C994}" ShortID="182799702">
-              <ChildrenList>
-                <Event Name="battle_equipment_507" ID="{64612248-02BC-4A16-B865-FABDAD98F910}">
-                  <Comment>Event - Using an Automatic Fire Extinguisher</Comment>
-                  <ChildrenList></ChildrenList>
-                </Event>
-                <Event Name="battle_equipment_251" ID="{F2A44636-A5F0-4C4F-9A18-0179EC0B223B}">
-                  <Comment>Event - Using a Manual Fire Extinguisher</Comment>
-                  <ChildrenList></ChildrenList>
-                </Event>
-                <Event Name="battle_equipment_1019" ID="{0F806B25-548F-4B79-9540-2BFB3E53C1ED}">
-                  <Comment>Event - Using a Large Health Kit</Comment>
-                  <ChildrenList></ChildrenList>
-                </Event>
-                <Event Name="battle_equipment_763" ID="{4CFB4118-91EF-4209-B04C-89E8103CC0E1}">
-                  <Comment>Event - Using a Small Health Kit</Comment>
-                  <ChildrenList></ChildrenList>
-                </Event>
-                <Event Name="battle_equipment_1275" ID="{8F685585-1453-46DF-9F60-7E100ABE98C5}">
-                  <Comment>Event - Using a Small Repair Kit</Comment>
-                  <ChildrenList></ChildrenList>
-                </Event>
-                <Event Name="battle_equipment_1531" ID="{B27B9767-4861-4506-80AB-4A4C1F8E993C}">
-                  <Comment>Event - Using a Large Repar Kit</Comment>
-                  <ChildrenList></ChildrenList>
-                </Event>
-                <Event Name="be_nitro_activating" ID="{8BBB3192-8056-4784-940D-AAF8977732B4}">
-                  <ChildrenList></ChildrenList>
-                </Event>
-              </ChildrenList>
-            </Folder>
-          </ChildrenList>
-        </Folder>
-        <Folder Name="battle_notification" ID="{3144B477-2E46-4AF3-AF7C-3309D579E3D7}" ShortID="388343960">
-          <ChildrenList>
-            <Event Name="expl_ally_NPC" ID="{8B7477A7-6498-41F6-8E2A-0ED27AE15EF9}">
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="ui_target_locked" ID="{B8040BF6-9BD0-4B77-947B-A5589CEF9D2B}">
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="ui_target_unlocked" ID="{5F3A37A7-D932-4B18-A4A0-D3DB4E5459C3}">
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="ui_target_lost" ID="{3E53D58C-2FFE-4052-897F-59E0CA80301D}">
-              <ChildrenList></ChildrenList>
-            </Event>
-          </ChildrenList>
-        </Folder>
-        <Folder Name="multichanel_test" ID="{4E062ACC-462B-4B0E-B292-14CBF9C47A43}" ShortID="1062952102">
-          <ChildrenList>
-            <Event Name="multichanel_test_L" ID="{2117C990-B7ED-40EB-B588-CA7370E79491}">
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="multichanel_test_R" ID="{ECA38DEF-9B50-4A65-BBC5-BC25A3D6DBD1}">
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="multichanel_test_C" ID="{BFBE7E33-B5BF-478A-8375-58B99D09B78B}">
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="multichanel_test_SL" ID="{AF925B7E-9A0D-4DFA-8237-7B2C762B0640}">
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="multichanel_test_SR" ID="{0DACF27E-42E7-4976-8C72-E6AB2D60F9CD}">
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="multichanel_test_BL" ID="{09FD16DB-09EE-459B-B510-CCEAEC454D8B}">
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="multichanel_test_BR" ID="{CAB17A43-B682-48E4-AFC9-EE72CEB1570C}">
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="multichanel_test_LFE" ID="{A5AF7DFF-F96A-4304-B560-AF187BD7530F}">
-              <ChildrenList></ChildrenList>
-            </Event>
-          </ChildrenList>
-        </Folder>
-        <Folder Name="personal_missions" ID="{B29EE1A0-6E7E-4E54-9828-DA4C024A11DB}" ShortID="1049326718">
-          <ChildrenList>
-            <Event Name="pm_progress_hint_emergence" ID="{A29BABD1-2ED2-464C-8A43-DAB3266E0042}">
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="pm_progress_hint_flash" ID="{47088C5F-A917-4217-A65E-941632D66410}">
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="pm_progress_hint_disappearing" ID="{3FF41D0F-2434-4B26-95CF-BFC20409FDA5}">
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="pm_progress_condition_emergence" ID="{485DFE6B-4F7C-4E88-865B-1DEE6F544281}">
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="pm_progress_condition_status" ID="{3AEB39ED-0276-4337-B870-0F3526A70E9A}">
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="pm_progress_condition_status_done" ID="{A76EE786-0B18-443F-BFD3-DFAA9C35CACE}">
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="pm_flag_appearance" ID="{0F8BE61D-1154-4143-B7D9-2E6A0FC3A0BF}">
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="pm_flag_disappearance" ID="{984296FF-84D3-4652-9C1D-8F9FACB0A985}">
-              <ChildrenList></ChildrenList>
-            </Event>
-          </ChildrenList>
-        </Folder>
-      </ChildrenList>
-    </WorkUnit>
-  </Events>
+						</Event>
+						<Event Name="carousel" ID="{27994629-594F-4D8B-B801-3BAD8BC63043}">
+							<Comment>Event - Sound of hovering the cursor over vehicles in the vehicle panel</Comment>
+						</Event>
+						<Event Name="carouselButton" ID="{9CB027E0-6AD9-45CF-847B-AD33B548D366}"/>
+						<Event Name="tank_selection" ID="{46E3CC5C-944D-437D-A614-87C7BD6C8F0C}">
+							<Comment>Event - Selecting a vehicle</Comment>
+						</Event>
+						<Event Name="rudy" ID="{B48D7DA6-7B40-4F10-B441-4499709D1A02}">
+							<Comment>Event - Dog sound in the crew</Comment>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="modes" ID="{F35B34FE-46E8-442B-9498-5ECAC3D46E8A}" ShortID="194037276">
+					<Comment>Modes</Comment>
+					<ChildrenList>
+						<Folder Name="dynamic_platoon" ID="{1B619740-4113-4800-AB5C-39CC28579989}" ShortID="871482665">
+							<ChildrenList>
+								<Event Name="starting_dynamic_platoon" ID="{A5F8CF3F-19F5-47FF-BE6A-5D9F4217D76C}">
+									<Comment>Event - Sound of invitation to a Dynamic Platoon</Comment>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="lightbulb" ID="{3988EB0D-4FD2-4AE4-AA3E-91C9AB5881E6}" ShortID="582566105">
+							<ChildrenList>
+								<Event Name="lightbulb" ID="{511FE419-73B9-4C40-B67B-7AE942E805FD}">
+									<Comment>Event - Sound of the Sixth Sense perk</Comment>
+								</Event>
+								<Event Name="sixthSense" ID="{88652502-B881-42D3-AD43-2FF36ADCB712}"/>
+								<Event Name="lightbulb_02" ID="{C5236D3F-FCF5-4DBC-B3BF-58B0963119C5}"/>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="battle_equipment" ID="{1072060C-FB60-4CD7-B352-5F7ADFC67BB1}" ShortID="85388149">
+					<Comment>Consumables</Comment>
+					<ChildrenList>
+						<Folder Name="replenishment" ID="{0502F40E-D15E-4113-8936-F91808CCF096}" ShortID="239201365">
+							<ChildrenList>
+								<Event Name="be_nitro_empty" ID="{3392608C-3712-432F-A0B0-394449915751}"/>
+								<Event Name="be_nitro_replenishment_full" ID="{2C8676A3-4B28-4034-A310-964D379ECE6B}"/>
+								<Event Name="be_pre_replenishment" ID="{E292DA5C-4524-4AF3-808C-F2D7AC687868}"/>
+								<Event Name="be_nitro_stop" ID="{4E485884-05E8-4168-B1AD-811F2E8D9702}"/>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="activating" ID="{345051D2-80AC-4665-B640-644E66C2C994}" ShortID="182799702">
+							<ChildrenList>
+								<Event Name="battle_equipment_507" ID="{64612248-02BC-4A16-B865-FABDAD98F910}">
+									<Comment>Event - Using an Automatic Fire Extinguisher</Comment>
+								</Event>
+								<Event Name="battle_equipment_251" ID="{F2A44636-A5F0-4C4F-9A18-0179EC0B223B}">
+									<Comment>Event - Using a Manual Fire Extinguisher</Comment>
+								</Event>
+								<Event Name="battle_equipment_1019" ID="{0F806B25-548F-4B79-9540-2BFB3E53C1ED}">
+									<Comment>Event - Using a Large Health Kit</Comment>
+								</Event>
+								<Event Name="battle_equipment_763" ID="{4CFB4118-91EF-4209-B04C-89E8103CC0E1}">
+									<Comment>Event - Using a Small Health Kit</Comment>
+								</Event>
+								<Event Name="battle_equipment_1275" ID="{8F685585-1453-46DF-9F60-7E100ABE98C5}">
+									<Comment>Event - Using a Small Repair Kit</Comment>
+								</Event>
+								<Event Name="battle_equipment_1531" ID="{B27B9767-4861-4506-80AB-4A4C1F8E993C}">
+									<Comment>Event - Using a Large Repar Kit</Comment>
+								</Event>
+								<Event Name="be_nitro_activating" ID="{8BBB3192-8056-4784-940D-AAF8977732B4}"/>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="battle_notification" ID="{3144B477-2E46-4AF3-AF7C-3309D579E3D7}" ShortID="388343960">
+					<ChildrenList>
+						<Event Name="expl_ally_NPC" ID="{8B7477A7-6498-41F6-8E2A-0ED27AE15EF9}"/>
+						<Event Name="ui_target_locked" ID="{B8040BF6-9BD0-4B77-947B-A5589CEF9D2B}"/>
+						<Event Name="ui_target_unlocked" ID="{5F3A37A7-D932-4B18-A4A0-D3DB4E5459C3}"/>
+						<Event Name="ui_target_lost" ID="{3E53D58C-2FFE-4052-897F-59E0CA80301D}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="multichanel_test" ID="{4E062ACC-462B-4B0E-B292-14CBF9C47A43}" ShortID="1062952102">
+					<ChildrenList>
+						<Event Name="multichanel_test_L" ID="{2117C990-B7ED-40EB-B588-CA7370E79491}"/>
+						<Event Name="multichanel_test_R" ID="{ECA38DEF-9B50-4A65-BBC5-BC25A3D6DBD1}"/>
+						<Event Name="multichanel_test_C" ID="{BFBE7E33-B5BF-478A-8375-58B99D09B78B}"/>
+						<Event Name="multichanel_test_SL" ID="{AF925B7E-9A0D-4DFA-8237-7B2C762B0640}"/>
+						<Event Name="multichanel_test_SR" ID="{0DACF27E-42E7-4976-8C72-E6AB2D60F9CD}"/>
+						<Event Name="multichanel_test_BL" ID="{09FD16DB-09EE-459B-B510-CCEAEC454D8B}"/>
+						<Event Name="multichanel_test_BR" ID="{CAB17A43-B682-48E4-AFC9-EE72CEB1570C}"/>
+						<Event Name="multichanel_test_LFE" ID="{A5AF7DFF-F96A-4304-B560-AF187BD7530F}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="personal_missions" ID="{B29EE1A0-6E7E-4E54-9828-DA4C024A11DB}" ShortID="1049326718">
+					<ChildrenList>
+						<Event Name="pm_progress_hint_emergence" ID="{A29BABD1-2ED2-464C-8A43-DAB3266E0042}"/>
+						<Event Name="pm_progress_hint_flash" ID="{47088C5F-A917-4217-A65E-941632D66410}"/>
+						<Event Name="pm_progress_hint_disappearing" ID="{3FF41D0F-2434-4B26-95CF-BFC20409FDA5}"/>
+						<Event Name="pm_progress_condition_emergence" ID="{485DFE6B-4F7C-4E88-865B-1DEE6F544281}"/>
+						<Event Name="pm_progress_condition_status" ID="{3AEB39ED-0276-4337-B870-0F3526A70E9A}"/>
+						<Event Name="pm_progress_condition_status_done" ID="{A76EE786-0B18-443F-BFD3-DFAA9C35CACE}"/>
+						<Event Name="pm_flag_appearance" ID="{0F8BE61D-1154-4143-B7D9-2E6A0FC3A0BF}"/>
+						<Event Name="pm_flag_disappearance" ID="{984296FF-84D3-4652-9C1D-8F9FACB0A985}"/>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
 </WwiseDocument>

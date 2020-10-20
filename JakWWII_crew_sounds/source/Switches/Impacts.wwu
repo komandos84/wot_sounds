@@ -1,59 +1,60 @@
-<WwiseDocument Type="WorkUnit" ID="{D3B0FB12-136F-469C-8D03-263BF1879C88}" SchemaVersion="85">
-  <Switches>
-    <WorkUnit Name="Impacts" ID="{D3B0FB12-136F-469C-8D03-263BF1879C88}" PersistMode="Standalone">
-      <ChildrenList>
-        <SwitchGroup Name="SWITCH_ext_damage_size" ID="{74EC8F25-0AD3-4401-B078-8C048A3719D5}">
-          <Comment>The switch is used for separating the hit content depending on the damage caused by enemies</Comment>
-          <ChildrenList>
-            <Switch Name="SWITCH_ext_damage_size_large" ID="{D5E67F3C-DF1E-49C1-B3AE-C71D1653E975}">
-              <Comment>from 40% and higher</Comment>
-            </Switch>
-            <Switch Name="SWITCH_ext_damage_size_medium" ID="{57932C1C-7AFB-4892-B2A4-E763E9F63A37}">
-              <Comment>15–40%</Comment>
-            </Switch>
-            <Switch Name="SWITCH_ext_damage_size_small" ID="{ABA067BF-5F4B-43C9-BEBF-B9B00F3E7618}">
-              <Comment>0 - 15 %</Comment>
-            </Switch>
-          </ChildrenList>
-        </SwitchGroup>
-        <SwitchGroup Name="SWITCH_ext_shell_type" ID="{A72CD300-0462-468E-939A-E032AD63573E}">
-          <Comment>The switch switches the hit content (hits at surface) depending on the shell type</Comment>
-          <ChildrenList>
-            <Switch Name="SWITCH_ext_shell_type_AP" ID="{F3E6C2D4-5687-4C15-B9D9-5728D570FD81}">
-              <Comment>Hitting the surface WITHOUT EXPLOSION (AP.APCR)</Comment>
-            </Switch>
-            <Switch Name="SWITCH_ext_shell_type_HE" ID="{980E6F56-B800-4134-96D9-36E1FB5AC806}">
-              <Comment>Hitting the surface WITH EXPLOSION (HC, HE)</Comment>
-            </Switch>
-          </ChildrenList>
-        </SwitchGroup>
-        <SwitchGroup Name="SWITCH_ext_impact_surface" ID="{0D85DB3A-584C-4816-859D-AB4126C9C319}">
-          <Comment>The switch is used for switching surface types when hit with a shell.</Comment>
-          <ChildrenList>
-            <Switch Name="SWITCH_ext_impact_surface_sand" ID="{91DDD1FC-BC33-4D0F-BFC4-A1F4728D877E}">
-              <Comment>Sand</Comment>
-            </Switch>
-            <Switch Name="SWITCH_ext_impact_surface_water" ID="{12B5FC99-574A-4BA0-90CE-F3D894BE5BB0}">
-              <Comment>Water</Comment>
-            </Switch>
-            <Switch Name="SWITCH_ext_impact_surface_wood" ID="{1E3F3CD8-E8E6-401F-9334-7007E0C95284}">
-              <Comment>Wood</Comment>
-            </Switch>
-            <Switch Name="SWITCH_ext_impact_surface_metal" ID="{4A04FA80-0A0A-4122-9260-DA43B8464A76}">
-              <Comment>Metal</Comment>
-            </Switch>
-            <Switch Name="SWITCH_ext_impact_surface_stone" ID="{2E7DFF2E-358C-4857-A572-79962A6E7E02}">
-              <Comment>Rocks</Comment>
-            </Switch>
-            <Switch Name="SWITCH_ext_impact_surface_snow" ID="{2DE82615-DBA9-4D8E-B77E-C1C48098625B}">
-              <Comment>Snow</Comment>
-            </Switch>
-            <Switch Name="SWITCH_ext_impact_surface_ground" ID="{F65AB5D1-8F68-471F-86EB-531D40F8E83F}">
-              <Comment>Ground</Comment>
-            </Switch>
-          </ChildrenList>
-        </SwitchGroup>
-      </ChildrenList>
-    </WorkUnit>
-  </Switches>
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D3B0FB12-136F-469C-8D03-263BF1879C88}" SchemaVersion="97">
+	<Switches>
+		<WorkUnit Name="Impacts" ID="{D3B0FB12-136F-469C-8D03-263BF1879C88}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="SWITCH_ext_damage_size" ID="{74EC8F25-0AD3-4401-B078-8C048A3719D5}">
+					<Comment>The switch is used for separating the hit content depending on the damage caused by enemies</Comment>
+					<ChildrenList>
+						<Switch Name="SWITCH_ext_damage_size_large" ID="{D5E67F3C-DF1E-49C1-B3AE-C71D1653E975}">
+							<Comment>from 40% and higher</Comment>
+						</Switch>
+						<Switch Name="SWITCH_ext_damage_size_medium" ID="{57932C1C-7AFB-4892-B2A4-E763E9F63A37}">
+							<Comment>15–40%</Comment>
+						</Switch>
+						<Switch Name="SWITCH_ext_damage_size_small" ID="{ABA067BF-5F4B-43C9-BEBF-B9B00F3E7618}">
+							<Comment>0 - 15 %</Comment>
+						</Switch>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="SWITCH_ext_shell_type" ID="{A72CD300-0462-468E-939A-E032AD63573E}">
+					<Comment>The switch switches the hit content (hits at surface) depending on the shell type</Comment>
+					<ChildrenList>
+						<Switch Name="SWITCH_ext_shell_type_AP" ID="{F3E6C2D4-5687-4C15-B9D9-5728D570FD81}">
+							<Comment>Hitting the surface WITHOUT EXPLOSION (AP.APCR)</Comment>
+						</Switch>
+						<Switch Name="SWITCH_ext_shell_type_HE" ID="{980E6F56-B800-4134-96D9-36E1FB5AC806}">
+							<Comment>Hitting the surface WITH EXPLOSION (HC, HE)</Comment>
+						</Switch>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="SWITCH_ext_impact_surface" ID="{0D85DB3A-584C-4816-859D-AB4126C9C319}">
+					<Comment>The switch is used for switching surface types when hit with a shell.</Comment>
+					<ChildrenList>
+						<Switch Name="SWITCH_ext_impact_surface_sand" ID="{91DDD1FC-BC33-4D0F-BFC4-A1F4728D877E}">
+							<Comment>Sand</Comment>
+						</Switch>
+						<Switch Name="SWITCH_ext_impact_surface_water" ID="{12B5FC99-574A-4BA0-90CE-F3D894BE5BB0}">
+							<Comment>Water</Comment>
+						</Switch>
+						<Switch Name="SWITCH_ext_impact_surface_wood" ID="{1E3F3CD8-E8E6-401F-9334-7007E0C95284}">
+							<Comment>Wood</Comment>
+						</Switch>
+						<Switch Name="SWITCH_ext_impact_surface_metal" ID="{4A04FA80-0A0A-4122-9260-DA43B8464A76}">
+							<Comment>Metal</Comment>
+						</Switch>
+						<Switch Name="SWITCH_ext_impact_surface_stone" ID="{2E7DFF2E-358C-4857-A572-79962A6E7E02}">
+							<Comment>Rocks</Comment>
+						</Switch>
+						<Switch Name="SWITCH_ext_impact_surface_snow" ID="{2DE82615-DBA9-4D8E-B77E-C1C48098625B}">
+							<Comment>Snow</Comment>
+						</Switch>
+						<Switch Name="SWITCH_ext_impact_surface_ground" ID="{F65AB5D1-8F68-471F-86EB-531D40F8E83F}">
+							<Comment>Ground</Comment>
+						</Switch>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
 </WwiseDocument>

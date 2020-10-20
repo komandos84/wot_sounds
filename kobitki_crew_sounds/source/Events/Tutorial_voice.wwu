@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{F45BC171-F034-453C-9349-26A4ADF3427A}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{F45BC171-F034-453C-9349-26A4ADF3427A}" SchemaVersion="97">
 	<Events>
 		<WorkUnit Name="Tutorial_voice" ID="{F45BC171-F034-453C-9349-26A4ADF3427A}" PersistMode="Standalone">
 			<Comment>Боевое обучение</Comment>

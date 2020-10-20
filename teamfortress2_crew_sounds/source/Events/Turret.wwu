@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{8C56D420-4D2A-4342-87B4-43E4C5E905B5}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{8C56D420-4D2A-4342-87B4-43E4C5E905B5}" SchemaVersion="97">
 	<Events>
 		<WorkUnit Name="Turret" ID="{8C56D420-4D2A-4342-87B4-43E4C5E905B5}" PersistMode="Standalone">
 			<Comment>Поворот башни</Comment>

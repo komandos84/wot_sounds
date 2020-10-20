@@ -1,0 +1,140 @@
+<WwiseDocument Type="WorkUnit" ID="{DD2F2B93-9638-494D-A48B-19FBF652E18B}" SchemaVersion="97">
+  <Modulators>
+    <WorkUnit Name="Modules" ID="{DD2F2B93-9638-494D-A48B-19FBF652E18B}" PersistMode="Standalone">
+      <ChildrenList>
+        <ModulatorLfo Name="LFO_cons_ventilation" ID="{8F64150C-F2FF-417D-B6CB-404E657FD0AA}" ShortID="669456601">
+          <PropertyList>
+            <Property Name="LfoFrequency" Type="Real64" Value="0.08" />
+          </PropertyList>
+        </ModulatorLfo>
+        <ModulatorEnvelope Name="cons_metal_debree_spall_liner" ID="{20EF0758-D14F-4DA5-8CF5-98A3D41C4AAD}" ShortID="470355791">
+          <Comment>Control the debris duration with decay time value (in seconds)</Comment>
+          <PropertyList>
+            <Property Name="EnvelopeAttackTime" Type="Real64" Value="0" />
+            <Property Name="EnvelopeAutoRelease" Type="bool" Value="True" />
+            <Property Name="EnvelopeDecayTime" Type="Real64" Value="0.5">
+              <RTPCList>
+                <RTPC Name="" ID="{90E4355B-5AA5-42EB-B4D6-6CDADD0D8F3D}" ShortID="118242674">
+                  <ReferenceList>
+                    <Reference Name="ControlInput">
+                      <ObjectRef Name="RTPC_int_cons_metal_debree_spall_liner" ID="{60BE622E-0550-4851-9E1F-ADDF716FC14D}" WorkUnitID="{25AC8FF3-C0B3-4A77-AB42-4EB6358BD0E2}" />
+                    </Reference>
+                  </ReferenceList>
+                  <Curve Name="" ID="{6C3B529B-EEE0-44E9-A434-B35D2C05CB92}">
+                    <PropertyList>
+                      <Property Name="Flags" Type="int32" Value="1" />
+                    </PropertyList>
+                    <PointList>
+                      <Point>
+                        <XPos>0</XPos>
+                        <YPos>0.5</YPos>
+                        <Flags>5</Flags>
+                      </Point>
+                      <Point>
+                        <XPos>100</XPos>
+                        <YPos>100</YPos>
+                        <Flags>37</Flags>
+                      </Point>
+                    </PointList>
+                  </Curve>
+                </RTPC>
+              </RTPCList>
+            </Property>
+            <Property Name="EnvelopeReleaseTime" Type="Real64" Value="0" />
+            <Property Name="EnvelopeSustainLevel" Type="Real64" Value="0" />
+          </PropertyList>
+        </ModulatorEnvelope>
+        <ModulatorLfo Name="LFO_cons_tracks_engine" ID="{7459B2DC-78C1-4635-88F1-BC260F1B0FD5}" ShortID="179128159">
+          <PropertyList>
+            <Property Name="LfoDepth" Type="Real64">
+              <RTPCList>
+                <RTPC Name="" ID="{CEC3DF32-AEEF-4E67-8AF7-E476246CD926}" ShortID="934713648">
+                  <ReferenceList>
+                    <Reference Name="ControlInput">
+                      <ObjectRef Name="RTPC_ext_physic_rpm_rel" ID="{880A02A4-B171-4E19-8C62-5803B4F45048}" WorkUnitID="{87FF0202-7DD4-4D0F-A267-00520CCB358C}" />
+                    </Reference>
+                  </ReferenceList>
+                  <Curve Name="" ID="{0078B019-BAC1-4EC7-A7EC-51EF118E197A}">
+                    <PropertyList>
+                      <Property Name="Flags" Type="int32" Value="1" />
+                    </PropertyList>
+                    <PointList>
+                      <Point>
+                        <XPos>0</XPos>
+                        <YPos>0</YPos>
+                        <Flags>5</Flags>
+                      </Point>
+                      <Point>
+                        <XPos>0.25</XPos>
+                        <YPos>0</YPos>
+                        <Flags>0</Flags>
+                      </Point>
+                      <Point>
+                        <XPos>0.251</XPos>
+                        <YPos>23.89322</YPos>
+                        <Flags>0</Flags>
+                      </Point>
+                      <Point>
+                        <XPos>1</XPos>
+                        <YPos>80</YPos>
+                        <Flags>0</Flags>
+                      </Point>
+                      <Point>
+                        <XPos>1.2</XPos>
+                        <YPos>80</YPos>
+                        <Flags>37</Flags>
+                      </Point>
+                    </PointList>
+                  </Curve>
+                </RTPC>
+              </RTPCList>
+            </Property>
+            <Property Name="LfoFrequency" Type="Real64">
+              <RTPCList>
+                <RTPC Name="" ID="{FA03BD10-40DF-4CF4-9246-64D34B4D93CF}" ShortID="801315277">
+                  <ReferenceList>
+                    <Reference Name="ControlInput">
+                      <ObjectRef Name="RTPC_ext_physic_rpm_rel" ID="{880A02A4-B171-4E19-8C62-5803B4F45048}" WorkUnitID="{87FF0202-7DD4-4D0F-A267-00520CCB358C}" />
+                    </Reference>
+                  </ReferenceList>
+                  <Curve Name="" ID="{8853CFB0-7585-456C-96F4-2564DAF3F5B5}">
+                    <PropertyList>
+                      <Property Name="Flags" Type="int32" Value="5" />
+                    </PropertyList>
+                    <PointList>
+                      <Point>
+                        <XPos>0</XPos>
+                        <YPos>0</YPos>
+                        <Flags>5</Flags>
+                      </Point>
+                      <Point>
+                        <XPos>0.249</XPos>
+                        <YPos>0</YPos>
+                        <Flags>0</Flags>
+                      </Point>
+                      <Point>
+                        <XPos>0.25</XPos>
+                        <YPos>10</YPos>
+                        <Flags>0</Flags>
+                      </Point>
+                      <Point>
+                        <XPos>1</XPos>
+                        <YPos>30</YPos>
+                        <Flags>0</Flags>
+                      </Point>
+                      <Point>
+                        <XPos>1.2</XPos>
+                        <YPos>30</YPos>
+                        <Flags>37</Flags>
+                      </Point>
+                    </PointList>
+                  </Curve>
+                </RTPC>
+              </RTPCList>
+            </Property>
+          </PropertyList>
+        </ModulatorLfo>
+      </ChildrenList>
+    </WorkUnit>
+  </Modulators>
+</WwiseDocument>

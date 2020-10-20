@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{6CBB0BD2-D384-4D27-884D-B1E24DC159A4}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{6CBB0BD2-D384-4D27-884D-B1E24DC159A4}" SchemaVersion="97">
 	<Attenuations>
 		<WorkUnit Name="Vehicles" ID="{6CBB0BD2-D384-4D27-884D-B1E24DC159A4}" PersistMode="Standalone">
 			<ChildrenList>

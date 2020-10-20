@@ -1,224 +1,225 @@
-<WwiseDocument Type="WorkUnit" ID="{AB476AAA-6033-49AB-999C-C9F0407E711B}" SchemaVersion="85">
-  <GameParameters>
-    <WorkUnit Name="Settings" ID="{AB476AAA-6033-49AB-999C-C9F0407E711B}" PersistMode="Standalone">
-      <Comment>Settings</Comment>
-      <ChildrenList>
-        <GameParameter Name="RTPC_ext_menu_volume_effects" ID="{7FC45ED1-AC20-488C-ADF2-2FC071CC89DB}">
-          <Comment>External RTPC - Responsible for the Effects volume level
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AB476AAA-6033-49AB-999C-C9F0407E711B}" SchemaVersion="97">
+	<GameParameters>
+		<WorkUnit Name="Settings" ID="{AB476AAA-6033-49AB-999C-C9F0407E711B}" PersistMode="Standalone">
+			<Comment>Settings</Comment>
+			<ChildrenList>
+				<GameParameter Name="RTPC_ext_menu_volume_effects" ID="{7FC45ED1-AC20-488C-ADF2-2FC071CC89DB}">
+					<Comment>External RTPC - Responsible for the Effects volume level
    0- volume disabled
 100 - maximum volume</Comment>
-          <PropertyList>
-            <Property Name="InitialValue" Type="Real64" Value="100" />
-            <Property Name="RTPCRamping" Type="int16" Value="1" />
-            <Property Name="SlewRateDown" Type="Real64" Value="100" />
-            <Property Name="SlewRateUp" Type="Real64" Value="100" />
-          </PropertyList>
-        </GameParameter>
-        <GameParameter Name="RTPC_ext_menu_volume_vehicles" ID="{6C50A548-92B3-4C7B-87FF-6B55DA8669FF}">
-          <Comment>External RTPC - Responsible for the Vehicles volume level
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="100"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_ext_menu_volume_vehicles" ID="{6C50A548-92B3-4C7B-87FF-6B55DA8669FF}">
+					<Comment>External RTPC - Responsible for the Vehicles volume level
    0 - volume disabled
 100 - maximum volume</Comment>
-          <PropertyList>
-            <Property Name="InitialValue" Type="Real64" Value="100" />
-            <Property Name="RTPCRamping" Type="int16" Value="1" />
-            <Property Name="SlewRateDown" Type="Real64" Value="100" />
-            <Property Name="SlewRateUp" Type="Real64" Value="100" />
-          </PropertyList>
-        </GameParameter>
-        <GameParameter Name="RTPC_ext_menu_volume_music" ID="{6EF988B5-5E01-42AB-BEB8-049B61D5E61E}">
-          <Comment>External RTPC - Responsible for the Music volume level
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="100"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_ext_menu_volume_music" ID="{6EF988B5-5E01-42AB-BEB8-049B61D5E61E}">
+					<Comment>External RTPC - Responsible for the Music volume level
    0 - volume disabled
 100 - maximum volume</Comment>
-          <PropertyList>
-            <Property Name="InitialValue" Type="Real64" Value="100" />
-            <Property Name="RTPCRamping" Type="int16" Value="1" />
-            <Property Name="SlewRateDown" Type="Real64" Value="100" />
-            <Property Name="SlewRateUp" Type="Real64" Value="100" />
-          </PropertyList>
-        </GameParameter>
-        <GameParameter Name="RTPC_ext_menu_volume_master" ID="{65457B04-8212-4658-93FB-B97BCE4E8608}">
-          <Comment>External RTPC - Responsible for the General volume level\   0 - volume disabled
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="100"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_ext_menu_volume_master" ID="{65457B04-8212-4658-93FB-B97BCE4E8608}">
+					<Comment>External RTPC - Responsible for the General volume level\   0 - volume disabled
 100 - maximum volume</Comment>
-          <PropertyList>
-            <Property Name="InitialValue" Type="Real64" Value="100" />
-            <Property Name="RTPCRamping" Type="int16" Value="1" />
-            <Property Name="SlewRateDown" Type="Real64" Value="100" />
-            <Property Name="SlewRateUp" Type="Real64" Value="100" />
-          </PropertyList>
-        </GameParameter>
-        <GameParameter Name="RTPC_ext_menu_volume_ambient" ID="{F483385C-572E-42C4-81CC-ABEF11A49016}">
-          <Comment>External RTPC - Responsible for the Ambience volume level
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="100"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_ext_menu_volume_ambient" ID="{F483385C-572E-42C4-81CC-ABEF11A49016}">
+					<Comment>External RTPC - Responsible for the Ambience volume level
    0 - volume disabled
 100 maximum volume</Comment>
-          <PropertyList>
-            <Property Name="InitialValue" Type="Real64" Value="100" />
-            <Property Name="RTPCRamping" Type="int16" Value="1" />
-            <Property Name="SlewRateDown" Type="Real64" Value="100" />
-            <Property Name="SlewRateUp" Type="Real64" Value="100" />
-          </PropertyList>
-        </GameParameter>
-        <GameParameter Name="RTPC_ext_menu_volume_voice_gui" ID="{42650DFF-E5CE-4258-92E6-06D1B4858B24}">
-          <Comment>External RTPC - Responsible for the Interface and Notifications volume level
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="100"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_ext_menu_volume_voice_gui" ID="{42650DFF-E5CE-4258-92E6-06D1B4858B24}">
+					<Comment>External RTPC - Responsible for the Interface and Notifications volume level
    0 - volume disabled
 100 - maximum volume</Comment>
-          <PropertyList>
-            <Property Name="InitialValue" Type="Real64" Value="100" />
-            <Property Name="RTPCRamping" Type="int16" Value="1" />
-            <Property Name="SlewRateDown" Type="Real64" Value="100" />
-            <Property Name="SlewRateUp" Type="Real64" Value="100" />
-          </PropertyList>
-        </GameParameter>
-        <GameParameter Name="RTPC_ext_low_threshold_edge" ID="{D98CD53A-4370-495A-852C-532B64C88620}">
-          <Comment>The parameter transmits the lowes value of the HDR range.
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="100"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_ext_low_threshold_edge" ID="{D98CD53A-4370-495A-852C-532B64C88620}">
+					<Comment>The parameter transmits the lowes value of the HDR range.
 Related to the HDR_lower_threshold value in the engine_config.xml file
  Currently NOT APPLIED</Comment>
-          <PropertyList>
-            <Property Name="InitialValue" Type="Real64" Value="-50" />
-            <Property Name="Max" Type="Real64" Value="0" />
-            <Property Name="Min" Type="Real64" Value="-60" />
-          </PropertyList>
-        </GameParameter>
-        <GameParameter Name="RTPC_int_device_laptop_lowcut_trigger" ID="{5DD07E0A-4473-4D25-9E3D-EDCCF2E87BC9}">
-          <Comment>0 - not laptop; 1 - laptop</Comment>
-          <PropertyList>
-            <Property Name="InitialValue" Type="Real64" Value="0" />
-            <Property Name="Max" Type="Real64" Value="1" />
-          </PropertyList>
-        </GameParameter>
-        <GameParameter Name="RTPC_int_bass_boost_trigger" ID="{22352301-8B07-4510-B9EF-AD1CC6746F04}">
-          <Comment>0 - not laptop; 1 - laptop</Comment>
-          <PropertyList>
-            <Property Name="InitialValue" Type="Real64" Value="0" />
-            <Property Name="Max" Type="Real64" Value="1" />
-          </PropertyList>
-        </GameParameter>
-        <GameParameter Name="RTPC_int_bass_boost_band_frequency_device_id" ID="{BC19B641-1810-4FBB-8ADE-9275F0BD57E5}">
-          <Comment>0 - not laptop; 1 - laptop</Comment>
-          <PropertyList>
-            <Property Name="InitialValue" Type="Real64" Value="0" />
-            <Property Name="Max" Type="Real64" Value="1" />
-          </PropertyList>
-        </GameParameter>
-        <GameParameter Name="RTPC_int_bass_boost_band_gain_device_id" ID="{7A1317CF-2C77-46D9-BBDB-F3E4D66ABFED}">
-          <Comment>0 - not laptop; 1 - laptop</Comment>
-          <PropertyList>
-            <Property Name="InitialValue" Type="Real64" Value="0" />
-            <Property Name="Max" Type="Real64" Value="1" />
-          </PropertyList>
-        </GameParameter>
-        <GameParameter Name="RTPC_int_bass_boost_gain_compensation" ID="{79EAD8B9-1F38-48E0-BD08-9697EDF2E9C0}">
-          <Comment>0 - not laptop; 1 - laptop</Comment>
-          <PropertyList>
-            <Property Name="InitialValue" Type="Real64" Value="0" />
-            <Property Name="Max" Type="Real64" Value="1" />
-          </PropertyList>
-        </GameParameter>
-        <GameParameter Name="RTPC_int_dynamic_range" ID="{005907E1-02CE-4341-9A18-A4FE66F8D78D}">
-          <Comment>0 - high; 1 - low</Comment>
-          <PropertyList>
-            <Property Name="InitialValue" Type="Real64" Value="0" />
-            <Property Name="Max" Type="Real64" Value="1" />
-          </PropertyList>
-        </GameParameter>
-        <GameParameter Name="RTPC_int_Meter_buss_HDR" ID="{AA928FCF-F776-46F9-BC9A-A50CB6991E03}">
-          <PropertyList>
-            <Property Name="InitialValue" Type="Real64" Value="-50" />
-            <Property Name="Max" Type="Real64" Value="0" />
-            <Property Name="Min" Type="Real64" Value="-50" />
-          </PropertyList>
-        </GameParameter>
-        <GameParameter Name="RTPC_ext_menu_volume_voice" ID="{AF4E0606-C698-4F32-8FA7-CC0B6AFF0861}">
-          <PropertyList>
-            <Property Name="InitialValue" Type="Real64" Value="100" />
-            <Property Name="RTPCRamping" Type="int16" Value="1" />
-            <Property Name="SlewRateDown" Type="Real64" Value="100" />
-            <Property Name="SlewRateUp" Type="Real64" Value="100" />
-          </PropertyList>
-        </GameParameter>
-        <GameParameter Name="RTPC_ext_menu_volume_gui" ID="{13CBBD69-BC87-4FD1-B3E2-B7BCE1197EC8}">
-          <PropertyList>
-            <Property Name="InitialValue" Type="Real64" Value="100" />
-            <Property Name="RTPCRamping" Type="int16" Value="1" />
-            <Property Name="SlewRateDown" Type="Real64" Value="100" />
-            <Property Name="SlewRateUp" Type="Real64" Value="100" />
-          </PropertyList>
-        </GameParameter>
-        <GameParameter Name="RTPC_ext_menu_volume_music_hangar" ID="{35BDABC0-70C8-4A8F-9FE2-6706D7E262C5}">
-          <PropertyList>
-            <Property Name="InitialValue" Type="Real64" Value="100" />
-            <Property Name="RTPCRamping" Type="int16" Value="1" />
-            <Property Name="SlewRateDown" Type="Real64" Value="100" />
-            <Property Name="SlewRateUp" Type="Real64" Value="100" />
-          </PropertyList>
-        </GameParameter>
-        <Folder Name="Celebration_event" ID="{DCCE4BC3-1EB3-4233-A4D5-2A3D7E42FD26}" ShortID="995588674">
-          <ChildrenList>
-            <GameParameter Name="RTPC_ext_menu_volume_ev_ambient" ID="{8640BC88-206B-4081-8037-385FE60F7E0F}">
-              <Comment>External RTPC - Responsible for the volume level of Ambience in an event
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="-50"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-60"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_int_device_laptop_lowcut_trigger" ID="{5DD07E0A-4473-4D25-9E3D-EDCCF2E87BC9}">
+					<Comment>0 - not laptop; 1 - laptop</Comment>
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_int_bass_boost_trigger" ID="{22352301-8B07-4510-B9EF-AD1CC6746F04}">
+					<Comment>0 - not laptop; 1 - laptop</Comment>
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_int_bass_boost_band_frequency_device_id" ID="{BC19B641-1810-4FBB-8ADE-9275F0BD57E5}">
+					<Comment>0 - not laptop; 1 - laptop</Comment>
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_int_bass_boost_band_gain_device_id" ID="{7A1317CF-2C77-46D9-BBDB-F3E4D66ABFED}">
+					<Comment>0 - not laptop; 1 - laptop</Comment>
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_int_bass_boost_gain_compensation" ID="{79EAD8B9-1F38-48E0-BD08-9697EDF2E9C0}">
+					<Comment>0 - not laptop; 1 - laptop</Comment>
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_int_dynamic_range" ID="{005907E1-02CE-4341-9A18-A4FE66F8D78D}">
+					<Comment>0 - high; 1 - low</Comment>
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_int_Meter_buss_HDR" ID="{AA928FCF-F776-46F9-BC9A-A50CB6991E03}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="-50"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-50"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_ext_menu_volume_voice" ID="{AF4E0606-C698-4F32-8FA7-CC0B6AFF0861}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="100"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_ext_menu_volume_gui" ID="{13CBBD69-BC87-4FD1-B3E2-B7BCE1197EC8}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="100"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_ext_menu_volume_music_hangar" ID="{35BDABC0-70C8-4A8F-9FE2-6706D7E262C5}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="100"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+				<Folder Name="Celebration_event" ID="{DCCE4BC3-1EB3-4233-A4D5-2A3D7E42FD26}" ShortID="995588674">
+					<ChildrenList>
+						<GameParameter Name="RTPC_ext_menu_volume_ev_ambient" ID="{8640BC88-206B-4081-8037-385FE60F7E0F}">
+							<Comment>External RTPC - Responsible for the volume level of Ambience in an event
 0 - volume disabled
 100 - maximum volume</Comment>
-              <PropertyList>
-                <Property Name="InitialValue" Type="Real64" Value="100" />
-                <Property Name="RTPCRamping" Type="int16" Value="1" />
-                <Property Name="SlewRateDown" Type="Real64" Value="100" />
-                <Property Name="SlewRateUp" Type="Real64" Value="100" />
-              </PropertyList>
-            </GameParameter>
-            <GameParameter Name="RTPC_ext_menu_volume_ev_effects" ID="{CB0D420D-C21B-4F4E-A55E-E107AD860EDF}">
-              <Comment>External RTPC - Responsible for the volume level of Effects in an event
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="100"/>
+								<Property Name="RTPCRamping" Type="int16" Value="1"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="100"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="100"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_ext_menu_volume_ev_effects" ID="{CB0D420D-C21B-4F4E-A55E-E107AD860EDF}">
+							<Comment>External RTPC - Responsible for the volume level of Effects in an event
    0 - volume disabled 
 100 - maximum volume</Comment>
-              <PropertyList>
-                <Property Name="InitialValue" Type="Real64" Value="100" />
-                <Property Name="RTPCRamping" Type="int16" Value="1" />
-                <Property Name="SlewRateDown" Type="Real64" Value="100" />
-                <Property Name="SlewRateUp" Type="Real64" Value="100" />
-              </PropertyList>
-            </GameParameter>
-            <GameParameter Name="RTPC_ext_menu_volume_ev_gui" ID="{923D5EFB-C715-4723-B5C3-67C4AA5930A1}">
-              <PropertyList>
-                <Property Name="InitialValue" Type="Real64" Value="100" />
-                <Property Name="RTPCRamping" Type="int16" Value="1" />
-                <Property Name="SlewRateDown" Type="Real64" Value="100" />
-                <Property Name="SlewRateUp" Type="Real64" Value="100" />
-              </PropertyList>
-            </GameParameter>
-            <GameParameter Name="RTPC_ext_menu_volume_ev_music" ID="{CCC627B1-EB23-4628-AD32-8D637744F459}">
-              <Comment>External RTPC - Responsible for the volume level of Music in an event
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="100"/>
+								<Property Name="RTPCRamping" Type="int16" Value="1"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="100"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="100"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_ext_menu_volume_ev_gui" ID="{923D5EFB-C715-4723-B5C3-67C4AA5930A1}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="100"/>
+								<Property Name="RTPCRamping" Type="int16" Value="1"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="100"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="100"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_ext_menu_volume_ev_music" ID="{CCC627B1-EB23-4628-AD32-8D637744F459}">
+							<Comment>External RTPC - Responsible for the volume level of Music in an event
    0 - volume disabled
 100 - maximum volume</Comment>
-              <PropertyList>
-                <Property Name="InitialValue" Type="Real64" Value="100" />
-                <Property Name="RTPCRamping" Type="int16" Value="1" />
-                <Property Name="SlewRateDown" Type="Real64" Value="100" />
-                <Property Name="SlewRateUp" Type="Real64" Value="100" />
-              </PropertyList>
-            </GameParameter>
-            <GameParameter Name="RTPC_ext_menu_volume_ev_vehicles" ID="{FCAB16CF-70A9-471B-BDFF-4A1E8B1D510B}">
-              <Comment>External RTPC - Responsible for the volume level of Vehicles in an event
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="100"/>
+								<Property Name="RTPCRamping" Type="int16" Value="1"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="100"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="100"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_ext_menu_volume_ev_vehicles" ID="{FCAB16CF-70A9-471B-BDFF-4A1E8B1D510B}">
+							<Comment>External RTPC - Responsible for the volume level of Vehicles in an event
    0 - volume disabled
 100 - maximum volume</Comment>
-              <PropertyList>
-                <Property Name="InitialValue" Type="Real64" Value="100" />
-                <Property Name="RTPCRamping" Type="int16" Value="1" />
-                <Property Name="SlewRateDown" Type="Real64" Value="100" />
-                <Property Name="SlewRateUp" Type="Real64" Value="100" />
-              </PropertyList>
-            </GameParameter>
-            <GameParameter Name="RTPC_ext_menu_volume_ev_voice" ID="{9E71E02D-A2EC-439F-ABD9-F5D9A59E692E}">
-              <Comment>External RTPC - Responsible for the volume level of Voice notifications in an event
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="100"/>
+								<Property Name="RTPCRamping" Type="int16" Value="1"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="100"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="100"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_ext_menu_volume_ev_voice" ID="{9E71E02D-A2EC-439F-ABD9-F5D9A59E692E}">
+							<Comment>External RTPC - Responsible for the volume level of Voice notifications in an event
    0 - volume disabled
 100 - maximum volume</Comment>
-              <PropertyList>
-                <Property Name="InitialValue" Type="Real64" Value="100" />
-                <Property Name="RTPCRamping" Type="int16" Value="1" />
-                <Property Name="SlewRateDown" Type="Real64" Value="100" />
-                <Property Name="SlewRateUp" Type="Real64" Value="100" />
-              </PropertyList>
-            </GameParameter>
-          </ChildrenList>
-        </Folder>
-      </ChildrenList>
-    </WorkUnit>
-  </GameParameters>
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="100"/>
+								<Property Name="RTPCRamping" Type="int16" Value="1"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="100"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="100"/>
+							</PropertyList>
+						</GameParameter>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
 </WwiseDocument>

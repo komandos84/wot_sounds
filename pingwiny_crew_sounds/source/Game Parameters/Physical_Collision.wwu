@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{700832D4-51C8-4711-8A21-279B3D02B4AB}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{700832D4-51C8-4711-8A21-279B3D02B4AB}" SchemaVersion="97">
 	<GameParameters>
 		<WorkUnit Name="Physical_Collision" ID="{700832D4-51C8-4711-8A21-279B3D02B4AB}" PersistMode="Standalone">
 			<ChildrenList>

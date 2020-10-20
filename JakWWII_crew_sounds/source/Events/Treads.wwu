@@ -1,34 +1,25 @@
-<WwiseDocument Type="WorkUnit" ID="{6451563F-CABC-4121-83A6-0536B4D3587B}" SchemaVersion="85">
-  <Events>
-    <WorkUnit Name="Treads" ID="{6451563F-CABC-4121-83A6-0536B4D3587B}" PersistMode="Standalone">
-      <Comment>Tracks and roughness</Comment>
-      <ChildrenList>
-        <Event Name="trds_chf_npc" ID="{08B4C05E-B0B4-4B13-809E-04B16F0D44A0}">
-          <Comment>Event - Nations : Germany, U.S.A., France, Great Britain, Czechoslovakia, Japan NPC</Comment>
-          <ChildrenList></ChildrenList>
-        </Event>
-        <Event Name="trds_med_npc" ID="{9EBA0992-C8F5-48CC-9370-D117785CC35D}">
-          <Comment>Event - Nations : U.S.S.R., China NPC</Comment>
-          <ChildrenList></ChildrenList>
-        </Event>
-        <Event Name="trds_t34_pc" ID="{F570713C-7A3E-470C-B050-10447D255C3C}">
-          <Comment>Event - Only for the T-34 U.S.S.R.</Comment>
-          <ChildrenList></ChildrenList>
-        </Event>
-        <Event Name="ambient_wind_blown" ID="{D16C9EEB-91BD-4C6E-A9C4-3FC28BBAD683}">
-          <Comment>Event - Wind blowing when a vehicle is moving fast</Comment>
-          <ChildrenList></ChildrenList>
-        </Event>
-        <Event Name="treads_type_pc" ID="{E7EC5C18-162B-4C9A-9A09-BA6255FC888D}">
-          <ChildrenList></ChildrenList>
-        </Event>
-        <Event Name="wheels_suspension_pc" ID="{18A38287-2770-4A11-A97D-2CEDAD8E7001}">
-          <ChildrenList></ChildrenList>
-        </Event>
-        <Event Name="wheels_suspension_npc" ID="{88AF1C94-301F-4F77-B335-FB4A7E31117D}">
-          <ChildrenList></ChildrenList>
-        </Event>
-      </ChildrenList>
-    </WorkUnit>
-  </Events>
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6451563F-CABC-4121-83A6-0536B4D3587B}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Treads" ID="{6451563F-CABC-4121-83A6-0536B4D3587B}" PersistMode="Standalone">
+			<Comment>Tracks and roughness</Comment>
+			<ChildrenList>
+				<Event Name="trds_chf_npc" ID="{08B4C05E-B0B4-4B13-809E-04B16F0D44A0}">
+					<Comment>Event - Nations : Germany, U.S.A., France, Great Britain, Czechoslovakia, Japan NPC</Comment>
+				</Event>
+				<Event Name="trds_med_npc" ID="{9EBA0992-C8F5-48CC-9370-D117785CC35D}">
+					<Comment>Event - Nations : U.S.S.R., China NPC</Comment>
+				</Event>
+				<Event Name="trds_t34_pc" ID="{F570713C-7A3E-470C-B050-10447D255C3C}">
+					<Comment>Event - Only for the T-34 U.S.S.R.</Comment>
+				</Event>
+				<Event Name="ambient_wind_blown" ID="{D16C9EEB-91BD-4C6E-A9C4-3FC28BBAD683}">
+					<Comment>Event - Wind blowing when a vehicle is moving fast</Comment>
+				</Event>
+				<Event Name="treads_type_pc" ID="{E7EC5C18-162B-4C9A-9A09-BA6255FC888D}"/>
+				<Event Name="wheels_suspension_pc" ID="{18A38287-2770-4A11-A97D-2CEDAD8E7001}"/>
+				<Event Name="wheels_suspension_npc" ID="{88AF1C94-301F-4F77-B335-FB4A7E31117D}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
 </WwiseDocument>

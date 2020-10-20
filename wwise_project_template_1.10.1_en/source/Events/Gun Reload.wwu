@@ -1,0 +1,140 @@
+<WwiseDocument Type="WorkUnit" ID="{258FCDEE-B4FE-42C2-8FEE-6A41D76BDD47}" SchemaVersion="97">
+  <Events>
+    <WorkUnit Name="Gun Reload" ID="{258FCDEE-B4FE-42C2-8FEE-6A41D76BDD47}" PersistMode="Standalone">
+      <Comment>Gun reloading</Comment>
+      <ChildrenList>
+        <Event Name="gun_rld_85_107mm" ID="{9FAC5AD6-4AB2-49E2-BB08-A5BDD345FFD9}">
+          <Comment>Event - Reload sound of a Main caliber gun</Comment>
+          <ChildrenList></ChildrenList>
+        </Event>
+        <Event Name="gun_rld_50_75mm" ID="{4AFE9AEF-74C8-4727-B3BC-FF7B91C8C7E0}">
+          <Comment>Event - Reload sound of a Medium caliber gun </Comment>
+          <ChildrenList></ChildrenList>
+        </Event>
+        <Event Name="gun_rld_20_45mm" ID="{BEF34523-CEC9-4344-BFB8-CDB8FEA4EDFF}">
+          <Comment>Event - Reload sound of a Small caliber gun</Comment>
+          <ChildrenList></ChildrenList>
+        </Event>
+        <Event Name="gun_rld_12_25mm" ID="{68CC51DF-8DE5-41C7-B79C-FBB39A5047AE}">
+          <Comment>Event - Reload sound of an Automatic caliber gun</Comment>
+          <ChildrenList></ChildrenList>
+        </Event>
+        <Event Name="gun_rld_115_152mm" ID="{A3B2BE6A-B444-4785-9FD5-4C51192E1D70}">
+          <Comment>Event - Reload sound of a Large caliber gun</Comment>
+          <ChildrenList></ChildrenList>
+        </Event>
+        <Event Name="gun_rld_155_170mm" ID="{406BFD83-445E-4C23-9E5F-78ABE57776DF}">
+          <Comment>Event - Reload sound of a Huge caliber gun</Comment>
+          <ChildrenList></ChildrenList>
+        </Event>
+        <Folder Name="Autoloader" ID="{EF8DCB27-BA7A-4ED7-8D9D-0276B89715BF}" ShortID="160595806">
+          <ChildrenList>
+            <Event Name="gun_rld_autoloader_full_almost_complete" ID="{755C0B89-1D99-4149-88D6-07F8707B5467}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="gun_rld_autoloader_long_oneshell" ID="{277AA6BC-9225-4047-B2B3-2C687A9E26B5}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="gun_rld_autoloader_full_complete" ID="{E14E3261-AF86-4F7B-9420-AC27AC0C2746}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="gun_rld_autoloader_short_oneshell" ID="{D24B92DA-BDA1-4FCC-971C-B309A050FAAB}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="gun_rld_autoloader_short_lastshell" ID="{4048E429-7034-426B-BDDB-F0A3D6FB493E}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="gun_rld_autoloader_long_start" ID="{C2A9E6AB-8EFF-463E-857C-DF820BC503C8}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="gun_rld_autoloader_no_enough_shells" ID="{73C82FD0-B0F6-43C1-B141-B3424ACF52FB}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="gun_rld_autoloader_shot_fail" ID="{480E5868-E4B3-4629-BD69-78B1E4A57CD6}">
+              <ChildrenList></ChildrenList>
+            </Event>
+          </ChildrenList>
+        </Folder>
+        <Folder Name="Cylinder" ID="{9D3CBA53-3236-41D6-A0EE-BEBD10995D4A}" ShortID="999250217">
+          <ChildrenList>
+            <Event Name="gun_rld_automat_reloading_long_loop" ID="{837B2E2D-55EB-4CD7-9CA7-9EA576F7B9B4}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="gun_rld_automat_reloading_long_oneshell" ID="{66FF07D2-137E-406D-B159-DE81DC7824D8}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="gun_rld_automat_reloading_long_loop_stop" ID="{FEA2E9C6-8A11-4B04-851B-3CB6D6232D2D}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="gun_rld_automat_reloading_short_oneshell" ID="{12D6E92A-E633-4623-9C7B-10F135C75F68}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="gun_rld_automat_reloading_short_lastshell" ID="{7F691246-EB2F-43CD-B7C0-5470495A3CE7}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="gun_rld_automat_reloading_long_start" ID="{A3126E0F-7CA1-4C12-9C9C-5F092929CC88}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="gun_rld_automat_no_enough_shells" ID="{93BA7F1D-3F3D-4A4A-8FF8-3FA88AAEBBB8}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="gun_rld_automat_reloading_long_oneshell_last" ID="{D0EA33A7-A10F-46D0-9B95-EE4B28381A83}">
+              <ChildrenList></ChildrenList>
+            </Event>
+          </ChildrenList>
+        </Folder>
+        <Folder Name="gun_dual_reloading" ID="{B076B297-BE34-4FB7-A4AD-03A17B96CE38}" ShortID="175057738">
+          <ChildrenList>
+            <Event Name="gun_rld_dual_reloading_oneshell" ID="{0DC585AF-CD3A-4E9C-AD46-024A9AD40784}">
+              <Comment>The shell is fully reloaded.
+Called (oneshot) on the fact of full reload. Stops event gun_rld_dual_loading_almost_complete by action.</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="gun_rld_dual_charge_fail" ID="{4B3658DC-5135-4346-B3DA-E6DE8ACDEE19}">
+              <Comment>Can't start Charge Mode</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="gun_rld_dual_wpn_change" ID="{E5FEE059-A203-4BBD-B41E-7C905F2A0BD1}">
+              <Comment>Switching guns. End of progressbar
+ Called 1 second before the end of switching</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="gun_rld_dual_charge_start" ID="{DC3CE6EC-C8CB-49E3-8187-35876A65DEE5}">
+              <Comment>Beginning of progress Charge Mode
+Launched at the time of transition to Charge Mode</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="gun_rld_dual_charge_no_enough_shells" ID="{60D58E2F-08D5-4347-AF32-71E51BDA27A5}">
+              <Comment>- no shells at all.</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="gun_rld_dual_reloading_oneshell_last" ID="{2A01D2A0-433A-4A2D-9792-3DC29F0D523A}">
+              <Comment>The shell is fully loaded. The last shell of this type
+ Event also contains content from loading_complete</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="gun_rld_dual_charge_cancel" ID="{5F66F681-A54D-4FBA-892E-BC9DAC658808}">
+              <Comment>Cancel the Charge Mode. Launched at the start of the Charge Mode cancellation</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="gun_rld_dual_charge_fx" ID="{4F01E49B-F0EE-40EB-A43A-6A068CC0B94A}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="gun_rld_dual_cooldown_end" ID="{B44E75AD-E346-4EA9-AC86-FA61EADBA922}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="gun_rld_dual_charge_pre" ID="{BA215A2A-0D9A-4120-A969-5E6C0BB9D3A9}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="gun_rld_dual_wpn_switch_sniper_mode" ID="{5CE9012E-6094-4B56-848A-BECC7AF93C0A}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="gun_rld_dual_charge_progress_loop_stop" ID="{E9CB0D84-CECB-4375-9EEE-64CDFA41E860}">
+              <ChildrenList></ChildrenList>
+            </Event>
+          </ChildrenList>
+        </Folder>
+      </ChildrenList>
+    </WorkUnit>
+  </Events>
+</WwiseDocument>

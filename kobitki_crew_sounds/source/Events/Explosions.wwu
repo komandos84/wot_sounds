@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{4ECDFA07-9562-424F-9FA7-83146961FF6E}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{4ECDFA07-9562-424F-9FA7-83146961FF6E}" SchemaVersion="97">
 	<Events>
 		<WorkUnit Name="Explosions" ID="{4ECDFA07-9562-424F-9FA7-83146961FF6E}" PersistMode="Standalone">
 			<Comment>Взрывы</Comment>

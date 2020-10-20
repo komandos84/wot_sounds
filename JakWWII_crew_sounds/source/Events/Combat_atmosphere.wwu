@@ -1,136 +1,114 @@
-<WwiseDocument Type="WorkUnit" ID="{89181590-26F2-45C9-8504-23D2FD1ED437}" SchemaVersion="85">
-  <Events>
-    <WorkUnit Name="Combat_atmosphere" ID="{89181590-26F2-45C9-8504-23D2FD1ED437}" PersistMode="Standalone">
-      <Comment>Combat ambience</Comment>
-      <ChildrenList>
-        <Folder Name="fau2" ID="{0F49A3ED-EAC7-4B0A-BF64-FF845F5E9FD4}" ShortID="687109674">
-          <ChildrenList>
-            <Event Name="fau2_tracer" ID="{C22C907D-4038-480D-9BA3-D1DEB2F79FAC}">
-              <Comment>Event - Tracer before an explosion</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="fau2_expl" ID="{475969A4-416A-40EE-97B9-10CC9C5E7EAB}">
-              <Comment>Event - Explosion</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-          </ChildrenList>
-        </Folder>
-        <Folder Name="preliminary_bombardment" ID="{E404B62F-3E7B-4C14-9871-CE6B886D083D}" ShortID="130981260">
-          <ChildrenList>
-            <Event Name="tracer_comb" ID="{FCE44EA8-0F1A-4D64-8D18-A6515B2AF458}">
-              <Comment>Event - Artillery preparation tracers</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="artilleryStrike_tracer" ID="{49A074EC-B35D-4932-A011-891BD203579C}">
-              <ChildrenList></ChildrenList>
-            </Event>
-          </ChildrenList>
-        </Folder>
-        <Folder Name="hits_surface_barrage" ID="{BF3A065C-45A4-4BEF-8909-7EAF24CB3F2F}" ShortID="527653785">
-          <ChildrenList>
-            <Event Name="hit_barrage_expl_close_water" ID="{C8DEB1EC-295C-4E89-9920-4AEC16E1D274}">
-              <Comment>Event - Shards falling upon explosion WATER</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="hit_barrage_expl_close_metal" ID="{81500A83-F1CD-42DC-AF21-1AD32544FC11}">
-              <Comment>Event - Shards falling upon explosion METAL</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="hit_barrage_expl_close_stone" ID="{53408A0F-9F77-4331-ADDD-3D8EE2556A63}">
-              <Comment>Event - Shards falling upon explosion ROCKS</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="hit_barrage_expl_close_snow" ID="{4977520D-E22A-45E1-9223-98A2FB697CA4}">
-              <Comment>Event - Shards falling upon explosion SNOW</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="hit_barrage_expl_close_sand" ID="{052141C3-3246-46B0-80BE-CFB671F5C937}">
-              <Comment>Event - Shards falling upon explosion SAND</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="hit_barrage_expl_close_ground" ID="{D66F1BA4-448E-46A8-ACCE-6C5D70CF8A1D}">
-              <Comment>Event - Shards falling upon explosion SOIL</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="hit_barrage_expl_close_wood" ID="{09DAA21E-FB90-42CD-8F24-C731AF315D84}">
-              <Comment>Event - Shards falling upon explosion WOOD</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="hit_barrage_expl_far" ID="{318AC36B-498B-45E9-B5F2-5D93CA30D46B}">
-              <Comment>Event - Shards falling upon a remote explosion</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-          </ChildrenList>
-        </Folder>
-        <Folder Name="historical_weapons" ID="{F2BC64EE-4296-4451-B4C8-2A758BA8BF1E}" ShortID="960680593">
-          <ChildrenList>
-            <Folder Name="bm_13" ID="{06BCC757-BBD1-4733-9425-B67237A66485}" ShortID="750764978">
-              <ChildrenList>
-                <Event Name="bm_13" ID="{2512A5D2-14F7-4B75-B759-3AF387BB0295}">
-                  <Comment>Event - Katiusha BM-13</Comment>
-                  <ChildrenList></ChildrenList>
-                </Event>
-              </ChildrenList>
-            </Folder>
-            <Folder Name="antiaircraft_gun" ID="{10D76DF3-89CE-4449-8720-0E07D23E88B3}" ShortID="714180068">
-              <ChildrenList>
-                <Event Name="antiaircraft_gun_25mm" ID="{C51841CC-AF81-4D9E-857E-697D73289C9B}">
-                  <Comment>Event - Air defense 25 mm guns</Comment>
-                  <ChildrenList></ChildrenList>
-                </Event>
-                <Event Name="antiaircraft_gun_88mm" ID="{D56B293B-8195-4127-A98C-DB5F0BACD220}">
-                  <Comment>Event - Air defense 88 mm guns</Comment>
-                  <ChildrenList></ChildrenList>
-                </Event>
-              </ChildrenList>
-            </Folder>
-            <Folder Name="howitzer" ID="{56EF2873-95E0-437E-ACBB-4F23AD7733B1}" ShortID="343604184">
-              <ChildrenList>
-                <Event Name="ussr_m_30_combined_distance" ID="{06327264-EFA2-4707-834F-9C72ADDCFB19}">
-                  <Comment>Event - Howitzer</Comment>
-                  <ChildrenList></ChildrenList>
-                </Event>
-              </ChildrenList>
-            </Folder>
-            <Folder Name="machine_gun" ID="{045CEC76-307B-4A4C-8A96-FBAF29A60DE7}" ShortID="816896952">
-              <ChildrenList>
-                <Event Name="mg_34_random_01" ID="{C6C5FBF5-767C-4E72-A0B7-BA9AE6DCFC07}">
-                  <Comment>Event - The MG 34 machinegun</Comment>
-                  <ChildrenList></ChildrenList>
-                </Event>
-                <Event Name="mg_34_random_02" ID="{2C3897A9-7EBD-4381-BAA3-26A0CC062EBC}">
-                  <Comment>Event - The MG 34 machinegun</Comment>
-                  <ChildrenList></ChildrenList>
-                </Event>
-                <Event Name="mg_34_random_03" ID="{AE675AB5-CA0D-4865-B4B7-CBEFBB889ADD}">
-                  <Comment>Event - The MG 34 machinegun</Comment>
-                  <ChildrenList></ChildrenList>
-                </Event>
-              </ChildrenList>
-            </Folder>
-            <Folder Name="nebelwerfer" ID="{DA91A427-17D3-498D-AF95-0744AE8F0294}" ShortID="652395798">
-              <ChildrenList>
-                <Event Name="nebelwerfer_shots" ID="{AF8BEBA8-6926-4F4B-BF29-4A43195E3023}">
-                  <Comment>Event - Rocket mortar</Comment>
-                  <ChildrenList></ChildrenList>
-                </Event>
-                <Event Name="nebelwerfer_expl" ID="{FAEB5D37-0FA9-47F0-A937-BD321BC7154F}">
-                  <Comment>Event - Rocket mortar</Comment>
-                  <ChildrenList></ChildrenList>
-                </Event>
-              </ChildrenList>
-            </Folder>
-          </ChildrenList>
-        </Folder>
-        <Folder Name="combat_atmosphere" ID="{EDDC2BD6-A681-4F38-B8F3-0989EFCA208F}" ShortID="474812451">
-          <ChildrenList>
-            <Event Name="combat_atmosphere" ID="{52A75454-6EA4-4F8A-9192-8E10CBAFC617}">
-              <Comment>Event - Combat atmosphere</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-          </ChildrenList>
-        </Folder>
-      </ChildrenList>
-    </WorkUnit>
-  </Events>
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{89181590-26F2-45C9-8504-23D2FD1ED437}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Combat_atmosphere" ID="{89181590-26F2-45C9-8504-23D2FD1ED437}" PersistMode="Standalone">
+			<Comment>Combat ambience</Comment>
+			<ChildrenList>
+				<Folder Name="fau2" ID="{0F49A3ED-EAC7-4B0A-BF64-FF845F5E9FD4}" ShortID="687109674">
+					<ChildrenList>
+						<Event Name="fau2_tracer" ID="{C22C907D-4038-480D-9BA3-D1DEB2F79FAC}">
+							<Comment>Event - Tracer before an explosion</Comment>
+						</Event>
+						<Event Name="fau2_expl" ID="{475969A4-416A-40EE-97B9-10CC9C5E7EAB}">
+							<Comment>Event - Explosion</Comment>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="preliminary_bombardment" ID="{E404B62F-3E7B-4C14-9871-CE6B886D083D}" ShortID="130981260">
+					<ChildrenList>
+						<Event Name="tracer_comb" ID="{FCE44EA8-0F1A-4D64-8D18-A6515B2AF458}">
+							<Comment>Event - Artillery preparation tracers</Comment>
+						</Event>
+						<Event Name="artilleryStrike_tracer" ID="{49A074EC-B35D-4932-A011-891BD203579C}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="hits_surface_barrage" ID="{BF3A065C-45A4-4BEF-8909-7EAF24CB3F2F}" ShortID="527653785">
+					<ChildrenList>
+						<Event Name="hit_barrage_expl_close_water" ID="{C8DEB1EC-295C-4E89-9920-4AEC16E1D274}">
+							<Comment>Event - Shards falling upon explosion WATER</Comment>
+						</Event>
+						<Event Name="hit_barrage_expl_close_metal" ID="{81500A83-F1CD-42DC-AF21-1AD32544FC11}">
+							<Comment>Event - Shards falling upon explosion METAL</Comment>
+						</Event>
+						<Event Name="hit_barrage_expl_close_stone" ID="{53408A0F-9F77-4331-ADDD-3D8EE2556A63}">
+							<Comment>Event - Shards falling upon explosion ROCKS</Comment>
+						</Event>
+						<Event Name="hit_barrage_expl_close_snow" ID="{4977520D-E22A-45E1-9223-98A2FB697CA4}">
+							<Comment>Event - Shards falling upon explosion SNOW</Comment>
+						</Event>
+						<Event Name="hit_barrage_expl_close_sand" ID="{052141C3-3246-46B0-80BE-CFB671F5C937}">
+							<Comment>Event - Shards falling upon explosion SAND</Comment>
+						</Event>
+						<Event Name="hit_barrage_expl_close_ground" ID="{D66F1BA4-448E-46A8-ACCE-6C5D70CF8A1D}">
+							<Comment>Event - Shards falling upon explosion SOIL</Comment>
+						</Event>
+						<Event Name="hit_barrage_expl_close_wood" ID="{09DAA21E-FB90-42CD-8F24-C731AF315D84}">
+							<Comment>Event - Shards falling upon explosion WOOD</Comment>
+						</Event>
+						<Event Name="hit_barrage_expl_far" ID="{318AC36B-498B-45E9-B5F2-5D93CA30D46B}">
+							<Comment>Event - Shards falling upon a remote explosion</Comment>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="historical_weapons" ID="{F2BC64EE-4296-4451-B4C8-2A758BA8BF1E}" ShortID="960680593">
+					<ChildrenList>
+						<Folder Name="bm_13" ID="{06BCC757-BBD1-4733-9425-B67237A66485}" ShortID="750764978">
+							<ChildrenList>
+								<Event Name="bm_13" ID="{2512A5D2-14F7-4B75-B759-3AF387BB0295}">
+									<Comment>Event - Katiusha BM-13</Comment>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="antiaircraft_gun" ID="{10D76DF3-89CE-4449-8720-0E07D23E88B3}" ShortID="714180068">
+							<ChildrenList>
+								<Event Name="antiaircraft_gun_25mm" ID="{C51841CC-AF81-4D9E-857E-697D73289C9B}">
+									<Comment>Event - Air defense 25 mm guns</Comment>
+								</Event>
+								<Event Name="antiaircraft_gun_88mm" ID="{D56B293B-8195-4127-A98C-DB5F0BACD220}">
+									<Comment>Event - Air defense 88 mm guns</Comment>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="howitzer" ID="{56EF2873-95E0-437E-ACBB-4F23AD7733B1}" ShortID="343604184">
+							<ChildrenList>
+								<Event Name="ussr_m_30_combined_distance" ID="{06327264-EFA2-4707-834F-9C72ADDCFB19}">
+									<Comment>Event - Howitzer</Comment>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="machine_gun" ID="{045CEC76-307B-4A4C-8A96-FBAF29A60DE7}" ShortID="816896952">
+							<ChildrenList>
+								<Event Name="mg_34_random_01" ID="{C6C5FBF5-767C-4E72-A0B7-BA9AE6DCFC07}">
+									<Comment>Event - The MG 34 machinegun</Comment>
+								</Event>
+								<Event Name="mg_34_random_02" ID="{2C3897A9-7EBD-4381-BAA3-26A0CC062EBC}">
+									<Comment>Event - The MG 34 machinegun</Comment>
+								</Event>
+								<Event Name="mg_34_random_03" ID="{AE675AB5-CA0D-4865-B4B7-CBEFBB889ADD}">
+									<Comment>Event - The MG 34 machinegun</Comment>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="nebelwerfer" ID="{DA91A427-17D3-498D-AF95-0744AE8F0294}" ShortID="652395798">
+							<ChildrenList>
+								<Event Name="nebelwerfer_shots" ID="{AF8BEBA8-6926-4F4B-BF29-4A43195E3023}">
+									<Comment>Event - Rocket mortar</Comment>
+								</Event>
+								<Event Name="nebelwerfer_expl" ID="{FAEB5D37-0FA9-47F0-A937-BD321BC7154F}">
+									<Comment>Event - Rocket mortar</Comment>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="combat_atmosphere" ID="{EDDC2BD6-A681-4F38-B8F3-0989EFCA208F}" ShortID="474812451">
+					<ChildrenList>
+						<Event Name="combat_atmosphere" ID="{52A75454-6EA4-4F8A-9192-8E10CBAFC617}">
+							<Comment>Event - Combat atmosphere</Comment>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
 </WwiseDocument>

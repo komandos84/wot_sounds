@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{C0E78DAA-768A-438F-8F7B-3701395185C3}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{C0E78DAA-768A-438F-8F7B-3701395185C3}" SchemaVersion="97">
 	<Effects>
 		<WorkUnit Name="Factory Altiverb - Outdoor and More" ID="{C0E78DAA-768A-438F-8F7B-3701395185C3}" PersistMode="Standalone">
 			<ChildrenList>
@@ -43,11 +43,14 @@
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_AlleyIntimate" ID="{5D81E7C6-DC92-45AC-81D1-597D3615B24A}" ShortID="58924823">
+										<PluginMediaSource Name="AE_AlleyIntimate" ID="{5D81E7C6-DC92-45AC-81D1-597D3615B24A}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Outdoor\Alley\AE_AlleyIntimate.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="58924823"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -148,11 +151,14 @@
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_LongDeepAlley" ID="{6891C3F5-3910-4D71-BCE2-09D91210E9DF}" ShortID="198373678">
+										<PluginMediaSource Name="AE_LongDeepAlley" ID="{6891C3F5-3910-4D71-BCE2-09D91210E9DF}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Outdoor\Alley\AE_LongDeepAlley.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="198373678"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -253,11 +259,14 @@
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_NarrowShortAlley" ID="{97A51D93-4600-462A-AF15-3951DE84480C}" ShortID="702837950">
+										<PluginMediaSource Name="AE_NarrowShortAlley" ID="{97A51D93-4600-462A-AF15-3951DE84480C}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Outdoor\Alley\AE_NarrowShortAlley.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="702837950"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -367,11 +376,14 @@
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_DistantBuilding_MicsClose" ID="{CBE8A74C-4663-4EB4-B2B9-DFEFFC55721E}" ShortID="932825353">
+										<PluginMediaSource Name="AE_DistantBuilding_MicsClose" ID="{CBE8A74C-4663-4EB4-B2B9-DFEFFC55721E}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Outdoor\Field\AE_DistantBuilding_MicsClose.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="932825353"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -477,11 +489,14 @@
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_DistantBuilding_MicsFar" ID="{78F2EF96-A978-4992-8E74-2ED63EE41047}" ShortID="941961704">
+										<PluginMediaSource Name="AE_DistantBuilding_MicsFar" ID="{78F2EF96-A978-4992-8E74-2ED63EE41047}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Outdoor\Field\AE_DistantBuilding_MicsFar.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="941961704"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -591,11 +606,14 @@
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_ForestAuterlitz_BetweenTrees" ID="{DE0A91AE-9963-4DED-987D-88FC16776C14}" ShortID="240375163">
+										<PluginMediaSource Name="AE_ForestAuterlitz_BetweenTrees" ID="{DE0A91AE-9963-4DED-987D-88FC16776C14}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Outdoor\Forest\AE_ForestAuterlitz_BetweenTrees.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="240375163"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -691,11 +709,14 @@
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_ForestAuterlitz_DenseClose" ID="{CDA065EA-748A-47AE-8F5B-7D4B29F3A23E}" ShortID="873684731">
+										<PluginMediaSource Name="AE_ForestAuterlitz_DenseClose" ID="{CDA065EA-748A-47AE-8F5B-7D4B29F3A23E}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Outdoor\Forest\AE_ForestAuterlitz_DenseClose.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="873684731"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -791,11 +812,14 @@
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_ForestAuterlitz_DenseFar" ID="{A28C96C6-5323-4407-8EA3-E2011B78F872}" ShortID="507160656">
+										<PluginMediaSource Name="AE_ForestAuterlitz_DenseFar" ID="{A28C96C6-5323-4407-8EA3-E2011B78F872}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Outdoor\Forest\AE_ForestAuterlitz_DenseFar.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="507160656"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -886,11 +910,14 @@
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_ForestAuterlitz_WideOpen" ID="{5DD365BC-4CD8-4AFD-B5BF-15061C611248}" ShortID="30489455">
+										<PluginMediaSource Name="AE_ForestAuterlitz_WideOpen" ID="{5DD365BC-4CD8-4AFD-B5BF-15061C611248}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Outdoor\Forest\AE_ForestAuterlitz_WideOpen.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="30489455"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -995,11 +1022,14 @@
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Tunnel" ID="{8DB8FDD3-EE88-4513-920B-1D65FAB465DC}" ShortID="569254387">
+										<PluginMediaSource Name="AE_Tunnel" ID="{8DB8FDD3-EE88-4513-920B-1D65FAB465DC}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Outdoor\Tunnel\AE_Tunnel.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="569254387"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -1109,11 +1139,14 @@
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Street_CloseEcho" ID="{842CC81F-10B1-46DD-84D3-240C98D3F2F0}" ShortID="832296042">
+										<PluginMediaSource Name="AE_Street_CloseEcho" ID="{842CC81F-10B1-46DD-84D3-240C98D3F2F0}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Outdoor\Street\AE_Street_CloseEcho.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="832296042"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -1214,11 +1247,14 @@
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Street_ComplexEcho" ID="{2DFDA45C-B47A-40DF-A01A-FE479B552372}" ShortID="726190851">
+										<PluginMediaSource Name="AE_Street_ComplexEcho" ID="{2DFDA45C-B47A-40DF-A01A-FE479B552372}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Outdoor\Street\AE_Street_ComplexEcho.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="726190851"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -1319,11 +1355,14 @@
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Street_ComplexDistantEcho" ID="{0FF97EEE-61DA-4CD5-8F75-D8A6D0AE7C73}" ShortID="847080287">
+										<PluginMediaSource Name="AE_Street_ComplexDistantEcho" ID="{0FF97EEE-61DA-4CD5-8F75-D8A6D0AE7C73}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Outdoor\Street\AE_Street_ComplexDistantEcho.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="847080287"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -1429,11 +1468,14 @@
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Street_DistantEcho" ID="{97A51EC9-F17A-41DE-9639-245B44C52A39}" ShortID="789847363">
+										<PluginMediaSource Name="AE_Street_DistantEcho" ID="{97A51EC9-F17A-41DE-9639-245B44C52A39}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Outdoor\Street\AE_Street_DistantEcho.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="789847363"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -1544,11 +1586,14 @@
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Street_DistantSlaps" ID="{E3F4F6F9-4F26-488A-B4BE-8483ACFBB97E}" ShortID="757112749">
+										<PluginMediaSource Name="AE_Street_DistantSlaps" ID="{E3F4F6F9-4F26-488A-B4BE-8483ACFBB97E}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Outdoor\Street\AE_Street_DistantSlaps.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="757112749"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -1659,11 +1704,14 @@
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Street_EquallySpacedEchoes" ID="{8B8AAC41-A32A-43F2-A384-1C4361988517}" ShortID="427082242">
+										<PluginMediaSource Name="AE_Street_EquallySpacedEchoes" ID="{8B8AAC41-A32A-43F2-A384-1C4361988517}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Outdoor\Street\AE_Street_EquallySpacedEchoes.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="427082242"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -1759,11 +1807,14 @@
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Street_LongAndComplex" ID="{4587D099-672B-46FA-AC31-F6D8A8CD2EF3}" ShortID="364607080">
+										<PluginMediaSource Name="AE_Street_LongAndComplex" ID="{4587D099-672B-46FA-AC31-F6D8A8CD2EF3}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Outdoor\Street\AE_Street_LongAndComplex.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="364607080"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -1869,11 +1920,14 @@
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Street_LoudEcho" ID="{FAF8C3B4-EDC5-470B-8A45-65578EA8F12B}" ShortID="1037099072">
+										<PluginMediaSource Name="AE_Street_LoudEcho" ID="{FAF8C3B4-EDC5-470B-8A45-65578EA8F12B}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Outdoor\Street\AE_Street_LoudEcho.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="1037099072"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -1974,11 +2028,14 @@
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Street_LongNoEchoes" ID="{6F9CBF77-70DC-4338-93FF-6324C3492DD6}" ShortID="92795692">
+										<PluginMediaSource Name="AE_Street_LongNoEchoes" ID="{6F9CBF77-70DC-4338-93FF-6324C3492DD6}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Outdoor\Street\AE_Street_LongNoEchoes.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="92795692"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -2084,11 +2141,14 @@
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Street_LongSixWideEchoes" ID="{B8AF2380-13B3-4A00-96BD-DB2BACC55152}" ShortID="42240585">
+										<PluginMediaSource Name="AE_Street_LongSixWideEchoes" ID="{B8AF2380-13B3-4A00-96BD-DB2BACC55152}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Outdoor\Street\AE_Street_LongSixWideEchoes.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="42240585"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -2194,11 +2254,14 @@
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Street_OpenThreeEchoes" ID="{F6DAFCBE-235C-4058-8670-A0047D9E92C2}" ShortID="803100438">
+										<PluginMediaSource Name="AE_Street_OpenThreeEchoes" ID="{F6DAFCBE-235C-4058-8670-A0047D9E92C2}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Outdoor\Street\AE_Street_OpenThreeEchoes.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="803100438"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -2304,11 +2367,14 @@
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Street_OpenShortTwoEchoes" ID="{E90A3FB9-A568-45D5-832A-DBEAC014F058}" ShortID="432605131">
+										<PluginMediaSource Name="AE_Street_OpenShortTwoEchoes" ID="{E90A3FB9-A568-45D5-832A-DBEAC014F058}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Outdoor\Street\AE_Street_OpenShortTwoEchoes.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="432605131"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -2414,11 +2480,14 @@
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Street_PheeeewEcho_01" ID="{6132AC69-F352-4AEE-978C-BAD82EA81A97}" ShortID="783448466">
+										<PluginMediaSource Name="AE_Street_PheeeewEcho_01" ID="{6132AC69-F352-4AEE-978C-BAD82EA81A97}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Outdoor\Street\AE_Street_PheeeewEcho_01.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="783448466"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -2524,11 +2593,14 @@
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Street_PheeeewEcho_02" ID="{98DDD2ED-B859-4175-8F8F-857381C0AC2F}" ShortID="209885183">
+										<PluginMediaSource Name="AE_Street_PheeeewEcho_02" ID="{98DDD2ED-B859-4175-8F8F-857381C0AC2F}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Outdoor\Street\AE_Street_PheeeewEcho_02.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="209885183"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -2629,11 +2701,14 @@
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Street_SlapsEchoClose" ID="{19FAA381-C292-4C75-A057-CD1BA0FB7F71}" ShortID="536838777">
+										<PluginMediaSource Name="AE_Street_SlapsEchoClose" ID="{19FAA381-C292-4C75-A057-CD1BA0FB7F71}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Outdoor\Street\AE_Street_SlapsEchoClose.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="536838777"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -2734,11 +2809,14 @@
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Street_SmoothIntimate" ID="{7D55369E-A2D0-48AC-A32F-09A2200AD208}" ShortID="294815814">
+										<PluginMediaSource Name="AE_Street_SmoothIntimate" ID="{7D55369E-A2D0-48AC-A32F-09A2200AD208}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Outdoor\Street\AE_Street_SmoothIntimate.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="294815814"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -2839,11 +2917,14 @@
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Street_TwoFarBuildings" ID="{55F13B73-5C13-43DA-BACB-C30F64B06104}" ShortID="596456986">
+										<PluginMediaSource Name="AE_Street_TwoFarBuildings" ID="{55F13B73-5C13-43DA-BACB-C30F64B06104}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Outdoor\Street\AE_Street_TwoFarBuildings.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="596456986"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -2944,11 +3025,14 @@
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Street_WideEcho" ID="{81F0ECFF-BE0A-4550-AA1E-EA2EB2FFB080}" ShortID="784884764">
+										<PluginMediaSource Name="AE_Street_WideEcho" ID="{81F0ECFF-BE0A-4550-AA1E-EA2EB2FFB080}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Outdoor\Street\AE_Street_WideEcho.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="784884764"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -3054,11 +3138,14 @@
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Street_WideWithCars" ID="{B08D7D55-8DD2-4C94-9347-6288FBA044F9}" ShortID="512867118">
+										<PluginMediaSource Name="AE_Street_WideWithCars" ID="{B08D7D55-8DD2-4C94-9347-6288FBA044F9}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Outdoor\Street\AE_Street_WideWithCars.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="512867118"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -3158,11 +3245,14 @@
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Attic_01" ID="{4FE9ABA0-B6FA-4502-9D66-ACE15EF6B7D3}" ShortID="1036982009">
+										<PluginMediaSource Name="AE_Attic_01" ID="{4FE9ABA0-B6FA-4502-9D66-ACE15EF6B7D3}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Domestic\AE_Attic_01.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="1036982009"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -3258,11 +3348,14 @@
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Attic_02" ID="{4A9D4ABB-ECA4-438E-9C41-20D400BD3292}" ShortID="60907913">
+										<PluginMediaSource Name="AE_Attic_02" ID="{4A9D4ABB-ECA4-438E-9C41-20D400BD3292}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Domestic\AE_Attic_02.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="60907913"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -3358,11 +3451,14 @@
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Bathroom" ID="{E616F50D-2EDA-414E-B8CF-C78DBB027E83}" ShortID="335771893">
+										<PluginMediaSource Name="AE_Bathroom" ID="{E616F50D-2EDA-414E-B8CF-C78DBB027E83}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Domestic\AE_Bathroom.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="335771893"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -3463,11 +3559,14 @@
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Bedroom" ID="{D06BDB9B-7405-44F0-BBA1-1DFBFAA54287}" ShortID="145606015">
+										<PluginMediaSource Name="AE_Bedroom" ID="{D06BDB9B-7405-44F0-BBA1-1DFBFAA54287}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Domestic\AE_Bedroom.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="145606015"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -3563,11 +3662,14 @@
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Classroom" ID="{0365AA17-19E2-4293-AB8E-CB73EB495C95}" ShortID="1065017050">
+										<PluginMediaSource Name="AE_Classroom" ID="{0365AA17-19E2-4293-AB8E-CB73EB495C95}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Domestic\AE_Classroom.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="1065017050"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -3668,11 +3770,14 @@
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Corridor" ID="{5110A1D7-9953-4DA9-8EA3-74A1095BC1B9}" ShortID="647831537">
+										<PluginMediaSource Name="AE_Corridor" ID="{5110A1D7-9953-4DA9-8EA3-74A1095BC1B9}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Domestic\AE_Corridor.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="647831537"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -3773,11 +3878,14 @@
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Hallway" ID="{0B05BD80-D9C7-4494-844C-919BDA7A5BF1}" ShortID="480496863">
+										<PluginMediaSource Name="AE_Hallway" ID="{0B05BD80-D9C7-4494-844C-919BDA7A5BF1}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Domestic\AE_Hallway.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="480496863"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -3878,11 +3986,14 @@
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_LivingRoom_01" ID="{948D85A9-A8B5-4D2B-B178-1E209BE7F400}" ShortID="435591620">
+										<PluginMediaSource Name="AE_LivingRoom_01" ID="{948D85A9-A8B5-4D2B-B178-1E209BE7F400}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Domestic\AE_LivingRoom_01.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="435591620"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -3983,11 +4094,14 @@
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_LivingRoom_02" ID="{5A7B6485-E087-4B05-A324-EDCD48E8061D}" ShortID="867122333">
+										<PluginMediaSource Name="AE_LivingRoom_02" ID="{5A7B6485-E087-4B05-A324-EDCD48E8061D}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Domestic\AE_LivingRoom_02.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="867122333"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -4088,11 +4202,14 @@
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_SchoolHall" ID="{C6E99C24-52B7-4ADE-AE7B-3CC0A4FA9256}" ShortID="522077337">
+										<PluginMediaSource Name="AE_SchoolHall" ID="{C6E99C24-52B7-4ADE-AE7B-3CC0A4FA9256}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Domestic\AE_SchoolHall.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="522077337"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -4198,11 +4315,14 @@
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Staircase" ID="{D4AE5DDF-8FBB-4A21-A3D0-9B1397794FED}" ShortID="766552005">
+										<PluginMediaSource Name="AE_Staircase" ID="{D4AE5DDF-8FBB-4A21-A3D0-9B1397794FED}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Domestic\AE_Staircase.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="766552005"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -4302,11 +4422,14 @@
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_FireDepartment" ID="{7A35A933-0DA2-4E18-888A-581A4E309154}" ShortID="602284699">
+										<PluginMediaSource Name="AE_FireDepartment" ID="{7A35A933-0DA2-4E18-888A-581A4E309154}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Misc\AE_FireDepartment.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="602284699"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -4401,11 +4524,14 @@
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Beetle" ID="{1674D796-9B0F-4EEC-97B0-916C8D8D8420}" ShortID="1054055703">
+										<PluginMediaSource Name="AE_Beetle" ID="{1674D796-9B0F-4EEC-97B0-916C8D8D8420}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Transport\AE_Beetle.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="1054055703"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -4501,11 +4627,14 @@
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Ford_TransitVanRear" ID="{2DD8FD21-A407-4CF0-A82C-6F6FDF6DA99D}" ShortID="13019290">
+										<PluginMediaSource Name="AE_Ford_TransitVanRear" ID="{2DD8FD21-A407-4CF0-A82C-6F6FDF6DA99D}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Transport\AE_Ford_TransitVanRear.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="13019290"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -4601,11 +4730,14 @@
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Helicopter_Sikorski" ID="{8F35578D-E26C-4939-8D27-492301A43DD1}" ShortID="685400320">
+										<PluginMediaSource Name="AE_Helicopter_Sikorski" ID="{8F35578D-E26C-4939-8D27-492301A43DD1}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Transport\AE_Helicopter_Sikorski.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="685400320"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -4701,11 +4833,14 @@
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Honda_Element" ID="{A151283A-1CF6-4714-B3BF-AE6E281F3E4F}" ShortID="31744546">
+										<PluginMediaSource Name="AE_Honda_Element" ID="{A151283A-1CF6-4714-B3BF-AE6E281F3E4F}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Transport\AE_Honda_Element.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="31744546"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -4801,11 +4936,14 @@
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Honda_ElementRear" ID="{0898B161-6350-4971-876D-9A45DDA2B59F}" ShortID="217396452">
+										<PluginMediaSource Name="AE_Honda_ElementRear" ID="{0898B161-6350-4971-876D-9A45DDA2B59F}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Transport\AE_Honda_ElementRear.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="217396452"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -4906,11 +5044,14 @@
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Peugeot_PartnerFront" ID="{787BE913-8656-486F-8EA6-0480CF46CB3C}" ShortID="569393832">
+										<PluginMediaSource Name="AE_Peugeot_PartnerFront" ID="{787BE913-8656-486F-8EA6-0480CF46CB3C}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Transport\AE_Peugeot_PartnerFront.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="569393832"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -5006,11 +5147,14 @@
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Peugeot_PartnerBackClosed" ID="{6E98F0D6-FF7C-429C-AA49-2AD71673BB60}" ShortID="584011173">
+										<PluginMediaSource Name="AE_Peugeot_PartnerBackClosed" ID="{6E98F0D6-FF7C-429C-AA49-2AD71673BB60}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Transport\AE_Peugeot_PartnerBackClosed.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="584011173"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -5106,11 +5250,14 @@
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Train_BlueAngel" ID="{110A7FC2-8B9E-4B72-89D4-4C5D5437E6A7}" ShortID="13682022">
+										<PluginMediaSource Name="AE_Train_BlueAngel" ID="{110A7FC2-8B9E-4B72-89D4-4C5D5437E6A7}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Transport\AE_Train_BlueAngel.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="13682022"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>

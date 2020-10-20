@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{A3726955-82EA-4F0A-AC08-05ABDEF19185}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{A3726955-82EA-4F0A-AC08-05ABDEF19185}" SchemaVersion="97">
 	<Attenuations>
 		<WorkUnit Name="Pass_By" ID="{A3726955-82EA-4F0A-AC08-05ABDEF19185}" PersistMode="Standalone">
 			<ChildrenList>

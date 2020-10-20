@@ -1,44 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{71C008EC-9644-4740-B426-E64F923A644B}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{71C008EC-9644-4740-B426-E64F923A644B}" SchemaVersion="97">
 	<Events>
 		<WorkUnit Name="Personal_missions" ID="{71C008EC-9644-4740-B426-E64F923A644B}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="pm_music" ID="{5CD1A1D2-FC74-4129-BC68-CAE6A9F43DEE}">
-					<ChildrenList></ChildrenList>
-				</Event>
-				<Event Name="pm_tank_select_animation" ID="{80975C87-C8B2-47B2-A373-54D43D6FF3F8}">
-					<ChildrenList></ChildrenList>
-				</Event>
-				<Event Name="pm_type_select_animation" ID="{0A127283-D3F1-4271-9AEC-AD95415730CD}">
-					<ChildrenList></ChildrenList>
-				</Event>
-				<Event Name="pm_reward_list_spend" ID="{7C2B7D9D-8DF0-45B7-838A-E5EE204FCF1B}">
-					<ChildrenList></ChildrenList>
-				</Event>
-				<Event Name="pm_standard_greeting" ID="{77F04075-DC25-4A1B-A7C7-32386C87F0EC}">
-					<ChildrenList></ChildrenList>
-				</Event>
-				<Event Name="pm_special_greeting_woman" ID="{51D92760-DC10-4A5D-A40F-2E8D140CA71A}">
-					<ChildrenList></ChildrenList>
-				</Event>
-				<Event Name="pm_special_greeting_tank" ID="{A261A4A4-BAF8-4503-83DC-80AE7EDC2107}">
-					<ChildrenList></ChildrenList>
-				</Event>
-				<Event Name="pm_conversion_order_form_confirm" ID="{8B104343-CB2F-4E31-95F7-807532D98D7C}">
-					<ChildrenList></ChildrenList>
-				</Event>
-				<Event Name="pm_conversion_order_form" ID="{A047B185-E68E-48AD-B69F-E37FA686D42C}">
-					<ChildrenList></ChildrenList>
-				</Event>
-				<Event Name="pm_greeting_order_form_confirm" ID="{5ABEF868-5B0A-4AA4-8960-8760E4C3B37E}">
-					<ChildrenList></ChildrenList>
-				</Event>
-				<Event Name="pm_greeting_order_form" ID="{FA91F6F0-D6B0-49B8-940A-E556C1E4E8AD}">
-					<ChildrenList></ChildrenList>
-				</Event>
-				<Event Name="pm_ambient" ID="{D84C0C51-EA09-4C59-9962-EC7E3294E03B}">
-					<ChildrenList></ChildrenList>
-				</Event>
+				<Event Name="pm_music" ID="{5CD1A1D2-FC74-4129-BC68-CAE6A9F43DEE}"/>
+				<Event Name="pm_tank_select_animation" ID="{80975C87-C8B2-47B2-A373-54D43D6FF3F8}"/>
+				<Event Name="pm_type_select_animation" ID="{0A127283-D3F1-4271-9AEC-AD95415730CD}"/>
+				<Event Name="pm_reward_list_spend" ID="{7C2B7D9D-8DF0-45B7-838A-E5EE204FCF1B}"/>
+				<Event Name="pm_standard_greeting" ID="{77F04075-DC25-4A1B-A7C7-32386C87F0EC}"/>
+				<Event Name="pm_special_greeting_woman" ID="{51D92760-DC10-4A5D-A40F-2E8D140CA71A}"/>
+				<Event Name="pm_special_greeting_tank" ID="{A261A4A4-BAF8-4503-83DC-80AE7EDC2107}"/>
+				<Event Name="pm_conversion_order_form_confirm" ID="{8B104343-CB2F-4E31-95F7-807532D98D7C}"/>
+				<Event Name="pm_conversion_order_form" ID="{A047B185-E68E-48AD-B69F-E37FA686D42C}"/>
+				<Event Name="pm_greeting_order_form_confirm" ID="{5ABEF868-5B0A-4AA4-8960-8760E4C3B37E}"/>
+				<Event Name="pm_greeting_order_form" ID="{FA91F6F0-D6B0-49B8-940A-E556C1E4E8AD}"/>
+				<Event Name="pm_ambient" ID="{D84C0C51-EA09-4C59-9962-EC7E3294E03B}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

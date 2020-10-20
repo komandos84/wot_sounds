@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{2234EDCC-911E-442D-AF7F-4A39A6816642}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{2234EDCC-911E-442D-AF7F-4A39A6816642}" SchemaVersion="97">
 	<Busses>
 		<WorkUnit Name="Default Work Unit" ID="{2234EDCC-911E-442D-AF7F-4A39A6816642}" PersistMode="Standalone">
 			<ChildrenList>
@@ -10,7 +10,7 @@
 								<Value>True</Value>
 							</ValueList>
 						</Property>
-						<Property Name="DivergenceCenter" Type="int32">
+						<Property Name="CenterPercentage" Type="int32">
 							<ValueList>
 								<Value>100</Value>
 							</ValueList>
@@ -84,7 +84,7 @@
 										<Value>True</Value>
 									</ValueList>
 								</Property>
-								<Property Name="DivergenceCenter" Type="int32">
+								<Property Name="CenterPercentage" Type="int32">
 									<ValueList>
 										<Value>100</Value>
 									</ValueList>
@@ -166,7 +166,7 @@
 												<Value>True</Value>
 											</ValueList>
 										</Property>
-										<Property Name="DivergenceCenter" Type="int32">
+										<Property Name="CenterPercentage" Type="int32">
 											<ValueList>
 												<Value>100</Value>
 											</ValueList>
@@ -190,7 +190,7 @@
 										<Bus Name="secondary" ID="{93929E99-1009-4DB3-A6E6-C91B0053BCA5}">
 											<Comment>Group bus for changing the volume level upon vehicle explosions.</Comment>
 											<PropertyList>
-												<Property Name="DivergenceCenter" Type="int32">
+												<Property Name="CenterPercentage" Type="int32">
 													<ValueList>
 														<Value>100</Value>
 													</ValueList>
@@ -205,7 +205,7 @@
 																<Value>True</Value>
 															</ValueList>
 														</Property>
-														<Property Name="DivergenceCenter" Type="int32">
+														<Property Name="CenterPercentage" Type="int32">
 															<ValueList>
 																<Value>100</Value>
 															</ValueList>
@@ -231,7 +231,7 @@
 														<Bus Name="SFX_control_3" ID="{41FBB1EE-D97B-475A-8C46-F9E3140FEFB2}">
 															<Comment>Volume control in the game menu - Effects</Comment>
 															<PropertyList>
-																<Property Name="DivergenceCenter" Type="int32">
+																<Property Name="CenterPercentage" Type="int32">
 																	<ValueList>
 																		<Value>100</Value>
 																	</ValueList>
@@ -263,7 +263,7 @@
 																				<Value>True</Value>
 																			</ValueList>
 																		</Property>
-																		<Property Name="DivergenceCenter" Type="int32">
+																		<Property Name="CenterPercentage" Type="int32">
 																			<ValueList>
 																				<Value>100</Value>
 																			</ValueList>
@@ -316,7 +316,7 @@
 																				<Value>5</Value>
 																			</ValueList>
 																		</Property>
-																		<Property Name="DivergenceCenter" Type="int32">
+																		<Property Name="CenterPercentage" Type="int32">
 																			<ValueList>
 																				<Value>100</Value>
 																			</ValueList>
@@ -336,7 +336,7 @@
 																				<Value>True</Value>
 																			</ValueList>
 																		</Property>
-																		<Property Name="DivergenceCenter" Type="int32">
+																		<Property Name="CenterPercentage" Type="int32">
 																			<ValueList>
 																				<Value>100</Value>
 																			</ValueList>
@@ -351,7 +351,7 @@
 																		<Bus Name="092_wpn_NPC_tails" ID="{AF26D99C-3CC4-44C2-B31E-B141BD207D8D}">
 																			<Comment>Shots from NPC vehicles (tracers)</Comment>
 																			<PropertyList>
-																				<Property Name="DivergenceCenter" Type="int32">
+																				<Property Name="CenterPercentage" Type="int32">
 																					<ValueList>
 																						<Value>100</Value>
 																					</ValueList>
@@ -390,7 +390,7 @@
 																<Bus Name="095_imp_NPC_NPC" ID="{B6CEB30C-BF96-4FF0-8AA7-4EF918D97587}">
 																	<Comment>NPC vehicles hitting each other</Comment>
 																	<PropertyList>
-																		<Property Name="DivergenceCenter" Type="int32">
+																		<Property Name="CenterPercentage" Type="int32">
 																			<ValueList>
 																				<Value>100</Value>
 																			</ValueList>
@@ -411,7 +411,7 @@
 																<Bus Name="100_env_expl" ID="{4086BE56-EDDF-4027-87A3-A75DC6886576}">
 																	<Comment>Explosions on a map (artillery strike, air strike, etc.)</Comment>
 																	<PropertyList>
-																		<Property Name="DivergenceCenter" Type="int32">
+																		<Property Name="CenterPercentage" Type="int32">
 																			<ValueList>
 																				<Value>100</Value>
 																			</ValueList>
@@ -426,7 +426,7 @@
 																				<Value>-3</Value>
 																			</ValueList>
 																		</Property>
-																		<Property Name="DivergenceCenter" Type="int32">
+																		<Property Name="CenterPercentage" Type="int32">
 																			<ValueList>
 																				<Value>100</Value>
 																			</ValueList>
@@ -441,7 +441,7 @@
 																				<Value>-8</Value>
 																			</ValueList>
 																		</Property>
-																		<Property Name="DivergenceCenter" Type="int32">
+																		<Property Name="CenterPercentage" Type="int32">
 																			<ValueList>
 																				<Value>100</Value>
 																			</ValueList>
@@ -456,7 +456,7 @@
 																				<Value>9</Value>
 																			</ValueList>
 																		</Property>
-																		<Property Name="DivergenceCenter" Type="int32">
+																		<Property Name="CenterPercentage" Type="int32">
 																			<ValueList>
 																				<Value>100</Value>
 																			</ValueList>
@@ -466,7 +466,7 @@
 																<Bus Name="060_reload" ID="{237ADD9E-23E9-4F92-AB8E-AE80861F6318}">
 																	<Comment>Reloading</Comment>
 																	<PropertyList>
-																		<Property Name="DivergenceCenter" Type="int32">
+																		<Property Name="CenterPercentage" Type="int32">
 																			<ValueList>
 																				<Value>100</Value>
 																			</ValueList>
@@ -480,7 +480,7 @@
 																				<Value>5</Value>
 																			</ValueList>
 																		</Property>
-																		<Property Name="DivergenceCenter" Type="int32">
+																		<Property Name="CenterPercentage" Type="int32">
 																			<ValueList>
 																				<Value>100</Value>
 																			</ValueList>
@@ -497,7 +497,7 @@
 																		<Value>True</Value>
 																	</ValueList>
 																</Property>
-																<Property Name="DivergenceCenter" Type="int32">
+																<Property Name="CenterPercentage" Type="int32">
 																	<ValueList>
 																		<Value>100</Value>
 																	</ValueList>
@@ -525,7 +525,7 @@
 																				<Value>-10</Value>
 																			</ValueList>
 																		</Property>
-																		<Property Name="DivergenceCenter" Type="int32">
+																		<Property Name="CenterPercentage" Type="int32">
 																			<ValueList>
 																				<Value>100</Value>
 																			</ValueList>
@@ -546,7 +546,7 @@
 																		<Bus Name="172_amb_burn" ID="{D3CD3F84-DCA6-4081-8ED8-9DEA9E479FCB}">
 																			<Comment>Ambient - Bonfires</Comment>
 																			<PropertyList>
-																				<Property Name="DivergenceCenter" Type="int32">
+																				<Property Name="CenterPercentage" Type="int32">
 																					<ValueList>
 																						<Value>100</Value>
 																					</ValueList>
@@ -568,7 +568,7 @@
 																		<Bus Name="174_amb_obj" ID="{99BCA2A5-3A42-4B39-8F1D-78DDCA97A39A}">
 																			<Comment>Ambient - Static objects on maps</Comment>
 																			<PropertyList>
-																				<Property Name="DivergenceCenter" Type="int32">
+																				<Property Name="CenterPercentage" Type="int32">
 																					<ValueList>
 																						<Value>100</Value>
 																					</ValueList>
@@ -590,7 +590,7 @@
 																		<Bus Name="176_amb_trees" ID="{3F7AFF72-65E7-46DE-B257-7221BE2C67E5}">
 																			<Comment>Ambient - Trees</Comment>
 																			<PropertyList>
-																				<Property Name="DivergenceCenter" Type="int32">
+																				<Property Name="CenterPercentage" Type="int32">
 																					<ValueList>
 																						<Value>100</Value>
 																					</ValueList>
@@ -611,7 +611,7 @@
 																			<ChildrenList>
 																				<Bus Name="176_amb_trees_close" ID="{19A0B6B9-E13A-44CC-BC09-E70737D3BD0F}">
 																					<PropertyList>
-																						<Property Name="DivergenceCenter" Type="int32">
+																						<Property Name="CenterPercentage" Type="int32">
 																							<ValueList>
 																								<Value>100</Value>
 																							</ValueList>
@@ -637,7 +637,7 @@
 																								<Value>-6</Value>
 																							</ValueList>
 																						</Property>
-																						<Property Name="DivergenceCenter" Type="int32">
+																						<Property Name="CenterPercentage" Type="int32">
 																							<ValueList>
 																								<Value>100</Value>
 																							</ValueList>
@@ -658,7 +658,7 @@
 																				</Bus>
 																				<Bus Name="176_amb_trees_far_con" ID="{ACC43E0C-D20A-4531-91D3-B48AD2BD3E49}">
 																					<PropertyList>
-																						<Property Name="DivergenceCenter" Type="int32">
+																						<Property Name="CenterPercentage" Type="int32">
 																							<ValueList>
 																								<Value>100</Value>
 																							</ValueList>
@@ -690,27 +690,27 @@
 																				<CustomStateList>
 																					<CustomState>
 																						<StateRef Name="STATE_video_overlay_on" ID="{39DCBFCB-2C77-42B7-825E-B186493AF79A}"/>
-																						<State Name="" ID="{0D05D755-C0B1-4BBD-86BB-DCD5CE9980B8}" ShortID="433007539">
+																						<CustomState Name="" ID="{0D05D755-C0B1-4BBD-86BB-DCD5CE9980B8}" ShortID="433007539">
 																							<PropertyList>
 																								<Property Name="BusVolume" Type="Real64" Value="-96"/>
 																							</PropertyList>
-																						</State>
+																						</CustomState>
 																					</CustomState>
 																					<CustomState>
 																						<StateRef Name="STATE_overlay_hangar_general_on" ID="{02FBFA78-F4DF-43CF-905F-68C34613A84F}"/>
-																						<State Name="" ID="{3A4F3F6F-75EF-4DE5-83BB-419F1DD43377}" ShortID="761927255">
+																						<CustomState Name="" ID="{3A4F3F6F-75EF-4DE5-83BB-419F1DD43377}" ShortID="761927255">
 																							<PropertyList>
 																								<Property Name="BusVolume" Type="Real64" Value="-96"/>
 																							</PropertyList>
-																						</State>
+																						</CustomState>
 																					</CustomState>
 																					<CustomState>
 																						<StateRef Name="STATE_overlay_hangar_general_off" ID="{6C92CBF3-3A6B-456A-96B4-3C1A2726E463}"/>
-																						<State Name="" ID="{078BD77A-A7C3-479C-8870-16EACCEC637C}" ShortID="930493547"/>
+																						<CustomState Name="" ID="{078BD77A-A7C3-479C-8870-16EACCEC637C}" ShortID="930493547"/>
 																					</CustomState>
 																					<CustomState>
 																						<StateRef Name="STATE_video_overlay_off" ID="{EC6772CA-A2B4-479C-B5BD-54D7C35FFBBB}"/>
-																						<State Name="" ID="{D7D78B8E-7A12-474B-9D62-9DFAD93DCD9C}" ShortID="746993792"/>
+																						<CustomState Name="" ID="{D7D78B8E-7A12-474B-9D62-9DFAD93DCD9C}" ShortID="746993792"/>
 																					</CustomState>
 																				</CustomStateList>
 																			</StateInfo>
@@ -718,7 +718,7 @@
 																		<Bus Name="178_amb_wind" ID="{2C74BDE6-4553-4607-98C4-990C131AA531}">
 																			<Comment>Ambient - Wind</Comment>
 																			<PropertyList>
-																				<Property Name="DivergenceCenter" Type="int32">
+																				<Property Name="CenterPercentage" Type="int32">
 																					<ValueList>
 																						<Value>100</Value>
 																					</ValueList>
@@ -736,7 +736,7 @@
 																		<Bus Name="179_tank_burning" ID="{9E5D96A7-A45A-4311-BCF2-CE638DEFC719}">
 																			<Comment>Ambient - Destroyed burning vehicles</Comment>
 																			<PropertyList>
-																				<Property Name="DivergenceCenter" Type="int32">
+																				<Property Name="CenterPercentage" Type="int32">
 																					<ValueList>
 																						<Value>100</Value>
 																					</ValueList>
@@ -757,7 +757,7 @@
 																		<Bus Name="175_amb_weather" ID="{205C32EB-B9C7-4ED3-8E20-71454A3F99CB}">
 																			<Comment>Ambient - Weather (lightning)</Comment>
 																			<PropertyList>
-																				<Property Name="DivergenceCenter" Type="int32">
+																				<Property Name="CenterPercentage" Type="int32">
 																					<ValueList>
 																						<Value>100</Value>
 																					</ValueList>
@@ -778,7 +778,7 @@
 																		</Bus>
 																		<Bus Name="178_amb_wind_replace" ID="{536E9F55-94A4-4744-AF78-884F931BC6A2}">
 																			<PropertyList>
-																				<Property Name="DivergenceCenter" Type="int32">
+																				<Property Name="CenterPercentage" Type="int32">
 																					<ValueList>
 																						<Value>100</Value>
 																					</ValueList>
@@ -787,7 +787,7 @@
 																		</Bus>
 																		<Bus Name="171_amb_2D" ID="{A696890B-5444-4C87-9BE1-853E52B979B0}">
 																			<PropertyList>
-																				<Property Name="DivergenceCenter" Type="int32">
+																				<Property Name="CenterPercentage" Type="int32">
 																					<ValueList>
 																						<Value>100</Value>
 																					</ValueList>
@@ -796,7 +796,7 @@
 																		</Bus>
 																		<Bus Name="178_amb_halloween2018_city" ID="{1D0664F3-74A5-421D-9EE1-86A202418F3A}">
 																			<PropertyList>
-																				<Property Name="DivergenceCenter" Type="int32">
+																				<Property Name="CenterPercentage" Type="int32">
 																					<ValueList>
 																						<Value>100</Value>
 																					</ValueList>
@@ -810,7 +810,7 @@
 														<Bus Name="VEHICLE_control" ID="{18537DC2-ACA7-4C6E-B906-45CA2530FBE3}">
 															<Comment>Volume control in the game menu - Vehicles</Comment>
 															<PropertyList>
-																<Property Name="DivergenceCenter" Type="int32">
+																<Property Name="CenterPercentage" Type="int32">
 																	<ValueList>
 																		<Value>100</Value>
 																	</ValueList>
@@ -837,7 +837,7 @@
 																				<Value>True</Value>
 																			</ValueList>
 																		</Property>
-																		<Property Name="DivergenceCenter" Type="int32">
+																		<Property Name="CenterPercentage" Type="int32">
 																			<ValueList>
 																				<Value>100</Value>
 																			</ValueList>
@@ -860,7 +860,7 @@
 																	<ChildrenList>
 																		<Bus Name="110_phys_col_PC" ID="{D5900A76-E23E-4F22-AAB6-F60F3E62DA45}">
 																			<PropertyList>
-																				<Property Name="DivergenceCenter" Type="int32">
+																				<Property Name="CenterPercentage" Type="int32">
 																					<ValueList>
 																						<Value>100</Value>
 																					</ValueList>
@@ -875,7 +875,7 @@
 																		</Bus>
 																		<Bus Name="110_phys_col_sub_multichanel_PC" ID="{79B82548-E978-427D-8694-FBB6A27AD9FF}">
 																			<PropertyList>
-																				<Property Name="DivergenceCenter" Type="int32">
+																				<Property Name="CenterPercentage" Type="int32">
 																					<ValueList>
 																						<Value>100</Value>
 																					</ValueList>
@@ -890,7 +890,7 @@
 																						<Value>True</Value>
 																					</ValueList>
 																				</Property>
-																				<Property Name="DivergenceCenter" Type="int32">
+																				<Property Name="CenterPercentage" Type="int32">
 																					<ValueList>
 																						<Value>100</Value>
 																					</ValueList>
@@ -935,7 +935,7 @@
 																		<Bus Name="110_PhysColl_friction" ID="{E38C0D5F-F908-49E5-9A84-8E11514834C6}">
 																			<Comment>Bus for new vehicles rubbing</Comment>
 																			<PropertyList>
-																				<Property Name="DivergenceCenter" Type="int32">
+																				<Property Name="CenterPercentage" Type="int32">
 																					<ValueList>
 																						<Value>100</Value>
 																					</ValueList>
@@ -970,7 +970,7 @@
 																				<Value>True</Value>
 																			</ValueList>
 																		</Property>
-																		<Property Name="DivergenceCenter" Type="int32">
+																		<Property Name="CenterPercentage" Type="int32">
 																			<ValueList>
 																				<Value>100</Value>
 																			</ValueList>
@@ -1000,7 +1000,7 @@
 																						<Value>True</Value>
 																					</ValueList>
 																				</Property>
-																				<Property Name="DivergenceCenter" Type="int32">
+																				<Property Name="CenterPercentage" Type="int32">
 																					<ValueList>
 																						<Value>100</Value>
 																					</ValueList>
@@ -1034,7 +1034,7 @@
 																		<Bus Name="133_eng_int_PC" ID="{9D0241EE-85F0-461F-99C6-2C062DB9BC12}">
 																			<Comment>Engine in the sniper aim</Comment>
 																			<PropertyList>
-																				<Property Name="DivergenceCenter" Type="int32">
+																				<Property Name="CenterPercentage" Type="int32">
 																					<ValueList>
 																						<Value>100</Value>
 																					</ValueList>
@@ -1054,7 +1054,7 @@
 																						<Value>-3</Value>
 																					</ValueList>
 																				</Property>
-																				<Property Name="DivergenceCenter" Type="int32">
+																				<Property Name="CenterPercentage" Type="int32">
 																					<ValueList>
 																						<Value>100</Value>
 																					</ValueList>
@@ -1064,7 +1064,7 @@
 																		<Bus Name="135_roughness_int" ID="{0AF56895-581E-4CA2-AE35-2BC28C9E159B}">
 																			<Comment>Sound of vehicle rumbling in the sniper aim</Comment>
 																			<PropertyList>
-																				<Property Name="DivergenceCenter" Type="int32">
+																				<Property Name="CenterPercentage" Type="int32">
 																					<ValueList>
 																						<Value>100</Value>
 																					</ValueList>
@@ -1084,7 +1084,7 @@
 																		<Bus Name="138_transmission_int" ID="{CE922C31-D5C6-4C7D-BA56-556BF72618A1}">
 																			<Comment>Transmission in the sniper aim</Comment>
 																			<PropertyList>
-																				<Property Name="DivergenceCenter" Type="int32">
+																				<Property Name="CenterPercentage" Type="int32">
 																					<ValueList>
 																						<Value>100</Value>
 																					</ValueList>
@@ -1099,7 +1099,7 @@
 																						<Value>-27</Value>
 																					</ValueList>
 																				</Property>
-																				<Property Name="DivergenceCenter" Type="int32">
+																				<Property Name="CenterPercentage" Type="int32">
 																					<ValueList>
 																						<Value>100</Value>
 																					</ValueList>
@@ -1152,7 +1152,7 @@
 																						<Value>-1</Value>
 																					</ValueList>
 																				</Property>
-																				<Property Name="DivergenceCenter" Type="int32">
+																				<Property Name="CenterPercentage" Type="int32">
 																					<ValueList>
 																						<Value>100</Value>
 																					</ValueList>
@@ -1176,7 +1176,7 @@
 																		<Bus Name="135_roughness_ext" ID="{DD6DF7F0-790E-4270-A5C8-5CC00203167B}">
 																			<Comment>Sound of vehicle rumbling in the arcade aim</Comment>
 																			<PropertyList>
-																				<Property Name="DivergenceCenter" Type="int32">
+																				<Property Name="CenterPercentage" Type="int32">
 																					<ValueList>
 																						<Value>100</Value>
 																					</ValueList>
@@ -1196,7 +1196,7 @@
 																		<Bus Name="133_eng_sub" ID="{41204482-A3F6-40C1-908C-EF81625E803D}">
 																			<Comment>Additional low-frequency bus for engines</Comment>
 																			<PropertyList>
-																				<Property Name="DivergenceCenter" Type="int32">
+																				<Property Name="CenterPercentage" Type="int32">
 																					<ValueList>
 																						<Value>100</Value>
 																					</ValueList>
@@ -1217,7 +1217,7 @@
 																						<Value>True</Value>
 																					</ValueList>
 																				</Property>
-																				<Property Name="DivergenceCenter" Type="int32">
+																				<Property Name="CenterPercentage" Type="int32">
 																					<ValueList>
 																						<Value>100</Value>
 																					</ValueList>
@@ -1239,7 +1239,7 @@
 																		<Bus Name="135_tangage_PC" ID="{D1B35E1B-4E98-41CA-A1AF-FBE80B5FAF7A}">
 																			<Comment>Ascending and descending the hull of the STRV vehicles driven by the player</Comment>
 																			<PropertyList>
-																				<Property Name="DivergenceCenter" Type="int32">
+																				<Property Name="CenterPercentage" Type="int32">
 																					<ValueList>
 																						<Value>100</Value>
 																					</ValueList>
@@ -1258,7 +1258,7 @@
 																		</Bus>
 																		<AuxBus Name="AUX_eng_load_distortion" ID="{86768FDA-7BE6-4F9B-BE65-5C309AF43133}">
 																			<PropertyList>
-																				<Property Name="DivergenceCenter" Type="int32">
+																				<Property Name="CenterPercentage" Type="int32">
 																					<ValueList>
 																						<Value>100</Value>
 																					</ValueList>
@@ -1295,7 +1295,7 @@
 																		</AuxBus>
 																		<Bus Name="133_eng_sub_wheel_vehicle" ID="{8C7FC601-3AD7-4296-8614-F2299105F7B7}">
 																			<PropertyList>
-																				<Property Name="DivergenceCenter" Type="int32">
+																				<Property Name="CenterPercentage" Type="int32">
 																					<ValueList>
 																						<Value>100</Value>
 																					</ValueList>
@@ -1317,7 +1317,7 @@
 																<Bus Name="140_turret" ID="{A615D023-A61C-47C6-B927-DC917522290E}">
 																	<Comment>Vehicle turret</Comment>
 																	<PropertyList>
-																		<Property Name="DivergenceCenter" Type="int32">
+																		<Property Name="CenterPercentage" Type="int32">
 																			<ValueList>
 																				<Value>100</Value>
 																			</ValueList>
@@ -1343,7 +1343,7 @@
 																				<Value>-3</Value>
 																			</ValueList>
 																		</Property>
-																		<Property Name="DivergenceCenter" Type="int32">
+																		<Property Name="CenterPercentage" Type="int32">
 																			<ValueList>
 																				<Value>100</Value>
 																			</ValueList>
@@ -1352,7 +1352,7 @@
 																	<ChildrenList>
 																		<Bus Name="150_phys_col_npc" ID="{6A644E14-18A3-4F9F-8CD2-BC1CC7BCC754}">
 																			<PropertyList>
-																				<Property Name="DivergenceCenter" Type="int32">
+																				<Property Name="CenterPercentage" Type="int32">
 																					<ValueList>
 																						<Value>100</Value>
 																					</ValueList>
@@ -1381,7 +1381,7 @@
 																				<Value>-3</Value>
 																			</ValueList>
 																		</Property>
-																		<Property Name="DivergenceCenter" Type="int32">
+																		<Property Name="CenterPercentage" Type="int32">
 																			<ValueList>
 																				<Value>100</Value>
 																			</ValueList>
@@ -1392,11 +1392,10 @@
 																			</ValueList>
 																		</Property>
 																	</PropertyList>
-																	<ReferenceList/>
 																	<ChildrenList>
 																		<Bus Name="163_eng_ext_NPC" ID="{60204563-3977-4DF7-B816-47526746D73D}">
 																			<PropertyList>
-																				<Property Name="DivergenceCenter" Type="int32">
+																				<Property Name="CenterPercentage" Type="int32">
 																					<ValueList>
 																						<Value>100</Value>
 																					</ValueList>
@@ -1417,7 +1416,7 @@
 																		</Bus>
 																		<Bus Name="166_trds_ext_NPC" ID="{32207FD1-33CB-4073-B10D-ADDE9E2A5858}">
 																			<PropertyList>
-																				<Property Name="DivergenceCenter" Type="int32">
+																				<Property Name="CenterPercentage" Type="int32">
 																					<ValueList>
 																						<Value>100</Value>
 																					</ValueList>
@@ -1439,7 +1438,7 @@
 																		<Bus Name="165_tangage_NPC" ID="{0F5CE43E-3D09-4261-B434-D52389638BB9}">
 																			<Comment>Ascending and descending the hull of the NPC STRV vehicles</Comment>
 																			<PropertyList>
-																				<Property Name="DivergenceCenter" Type="int32">
+																				<Property Name="CenterPercentage" Type="int32">
 																					<ValueList>
 																						<Value>100</Value>
 																					</ValueList>
@@ -1453,7 +1452,7 @@
 																						<Value>5</Value>
 																					</ValueList>
 																				</Property>
-																				<Property Name="DivergenceCenter" Type="int32">
+																				<Property Name="CenterPercentage" Type="int32">
 																					<ValueList>
 																						<Value>100</Value>
 																					</ValueList>
@@ -1464,7 +1463,7 @@
 																</Bus>
 																<Bus Name="111_col_PC_custom" ID="{4FB1A806-8183-41DA-ADD1-497A31F12546}">
 																	<PropertyList>
-																		<Property Name="DivergenceCenter" Type="int32">
+																		<Property Name="CenterPercentage" Type="int32">
 																			<ValueList>
 																				<Value>100</Value>
 																			</ValueList>
@@ -1478,7 +1477,7 @@
 																				<Value>-3</Value>
 																			</ValueList>
 																		</Property>
-																		<Property Name="DivergenceCenter" Type="int32">
+																		<Property Name="CenterPercentage" Type="int32">
 																			<ValueList>
 																				<Value>100</Value>
 																			</ValueList>
@@ -1492,7 +1491,7 @@
 																				<Value>True</Value>
 																			</ValueList>
 																		</Property>
-																		<Property Name="DivergenceCenter" Type="int32">
+																		<Property Name="CenterPercentage" Type="int32">
 																			<ValueList>
 																				<Value>100</Value>
 																			</ValueList>
@@ -1511,7 +1510,7 @@
 																				<Value>-2</Value>
 																			</ValueList>
 																		</Property>
-																		<Property Name="DivergenceCenter" Type="int32">
+																		<Property Name="CenterPercentage" Type="int32">
 																			<ValueList>
 																				<Value>100</Value>
 																			</ValueList>
@@ -1570,7 +1569,7 @@
 																		<Value>-12</Value>
 																	</ValueList>
 																</Property>
-																<Property Name="DivergenceCenter" Type="int32">
+																<Property Name="CenterPercentage" Type="int32">
 																	<ValueList>
 																		<Value>100</Value>
 																	</ValueList>
@@ -1588,23 +1587,23 @@
 																<CustomStateList>
 																	<CustomState>
 																		<StateRef Name="STATE_fortified_area_on" ID="{3C08466B-6C9C-48D8-BA06-39758FCB3C5B}"/>
-																		<State Name="" ID="{F22B5DC1-F82E-43EC-89FC-89CC823F3E25}" ShortID="298789654"/>
+																		<CustomState Name="" ID="{F22B5DC1-F82E-43EC-89FC-89CC823F3E25}" ShortID="298789654"/>
 																	</CustomState>
 																	<CustomState>
 																		<StateRef Name="STATE_hangar_filtered_off" ID="{B928BD72-334D-4B26-8910-F6B321F0A514}"/>
-																		<State Name="" ID="{63AD2397-23C3-4830-A75C-F5819AF97BF1}" ShortID="211882144"/>
+																		<CustomState Name="" ID="{63AD2397-23C3-4830-A75C-F5819AF97BF1}" ShortID="211882144"/>
 																	</CustomState>
 																	<CustomState>
 																		<StateRef Name="STATE_hangar_filtered_on" ID="{D6802E60-372A-4B9B-B6DD-466C9553F289}"/>
-																		<State Name="Custom State" ID="{6080B441-822D-4045-ABB4-BCD833AD8BAB}" ShortID="879884620">
+																		<CustomState Name="Custom State" ID="{6080B441-822D-4045-ABB4-BCD833AD8BAB}" ShortID="879884620">
 																			<PropertyList>
 																				<Property Name="BusVolume" Type="Real64" Value="-96"/>
 																			</PropertyList>
-																		</State>
+																		</CustomState>
 																	</CustomState>
 																	<CustomState>
 																		<StateRef Name="STATE_fortified_area_off" ID="{62D70F5C-8456-4E56-B63A-BA55B584889A}"/>
-																		<State Name="" ID="{9716E81E-C095-4582-85DB-CF9F39663418}" ShortID="784282089"/>
+																		<CustomState Name="" ID="{9716E81E-C095-4582-85DB-CF9F39663418}" ShortID="784282089"/>
 																	</CustomState>
 																</CustomStateList>
 															</StateInfo>
@@ -1617,7 +1616,7 @@
 																		<Value>2</Value>
 																	</ValueList>
 																</Property>
-																<Property Name="DivergenceCenter" Type="int32">
+																<Property Name="CenterPercentage" Type="int32">
 																	<ValueList>
 																		<Value>100</Value>
 																	</ValueList>
@@ -1635,7 +1634,7 @@
 																	<Comment>Music. Battle drone. NEW!!!
 Effect 2 - adjusts the decrease in LF for the transition between the arena and hangar/result screen</Comment>
 																	<PropertyList>
-																		<Property Name="DivergenceCenter" Type="int32">
+																		<Property Name="CenterPercentage" Type="int32">
 																			<ValueList>
 																				<Value>100</Value>
 																			</ValueList>
@@ -1685,7 +1684,7 @@ Effect 2 - adjusts the decrease in LF for the transition between the arena and h
 																				<Value>2</Value>
 																			</ValueList>
 																		</Property>
-																		<Property Name="DivergenceCenter" Type="int32">
+																		<Property Name="CenterPercentage" Type="int32">
 																			<ValueList>
 																				<Value>100</Value>
 																			</ValueList>
@@ -1718,7 +1717,7 @@ Effect 2 - adjusts the decrease in LF for the transition between the arena and h
 																</Bus>
 																<Bus Name="MUSIC_LOADING_SCREEN" ID="{0896D9D9-9728-460C-A321-3C6CD38BD2AB}">
 																	<PropertyList>
-																		<Property Name="DivergenceCenter" Type="int32">
+																		<Property Name="CenterPercentage" Type="int32">
 																			<ValueList>
 																				<Value>100</Value>
 																			</ValueList>
@@ -1751,7 +1750,7 @@ Effect 2 - adjusts the decrease in LF for the transition between the arena and h
 																	<Comment>Used to seamlessly mix the boot screen music with the battlefield music. In Battle Royale 2019
  Auto-decked by Lobby_Music_Result bus</Comment>
 																	<PropertyList>
-																		<Property Name="DivergenceCenter" Type="int32">
+																		<Property Name="CenterPercentage" Type="int32">
 																			<ValueList>
 																				<Value>100</Value>
 																			</ValueList>
@@ -1786,7 +1785,7 @@ Effect 2 - adjusts the decrease in LF for the transition between the arena and h
 												<Bus Name="SFX_control_2" ID="{EE3601F4-E998-4B6F-AB80-68A3CC8154E4}">
 													<Comment>Volume control in the game menu - Effects</Comment>
 													<PropertyList>
-														<Property Name="DivergenceCenter" Type="int32">
+														<Property Name="CenterPercentage" Type="int32">
 															<ValueList>
 																<Value>100</Value>
 															</ValueList>
@@ -1808,7 +1807,7 @@ Effect 2 - adjusts the decrease in LF for the transition between the arena and h
 																		<Value>15</Value>
 																	</ValueList>
 																</Property>
-																<Property Name="DivergenceCenter" Type="int32">
+																<Property Name="CenterPercentage" Type="int32">
 																	<ValueList>
 																		<Value>100</Value>
 																	</ValueList>
@@ -1822,7 +1821,7 @@ Effect 2 - adjusts the decrease in LF for the transition between the arena and h
 																				<Value>True</Value>
 																			</ValueList>
 																		</Property>
-																		<Property Name="DivergenceCenter" Type="int32">
+																		<Property Name="CenterPercentage" Type="int32">
 																			<ValueList>
 																				<Value>100</Value>
 																			</ValueList>
@@ -1847,7 +1846,7 @@ Effect 2 - adjusts the decrease in LF for the transition between the arena and h
 																				<Value>-5</Value>
 																			</ValueList>
 																		</Property>
-																		<Property Name="DivergenceCenter" Type="int32">
+																		<Property Name="CenterPercentage" Type="int32">
 																			<ValueList>
 																				<Value>100</Value>
 																			</ValueList>
@@ -1856,7 +1855,7 @@ Effect 2 - adjusts the decrease in LF for the transition between the arena and h
 																</Bus>
 																<AuxBus Name="AUX_ev_halloween_wpn_PC" ID="{C972BBB0-0DB1-4677-83AB-4488966821AE}">
 																	<PropertyList>
-																		<Property Name="DivergenceCenter" Type="int32">
+																		<Property Name="CenterPercentage" Type="int32">
 																			<ValueList>
 																				<Value>100</Value>
 																			</ValueList>
@@ -1874,7 +1873,7 @@ Effect 2 - adjusts the decrease in LF for the transition between the arena and h
 																		<Value>True</Value>
 																	</ValueList>
 																</Property>
-																<Property Name="DivergenceCenter" Type="int32">
+																<Property Name="CenterPercentage" Type="int32">
 																	<ValueList>
 																		<Value>100</Value>
 																	</ValueList>
@@ -1929,7 +1928,7 @@ Effect 2 - adjusts the decrease in LF for the transition between the arena and h
 																<Bus Name="043_imp_ext_PC" ID="{5D6E98AD-B540-4A07-8063-D17F2A8AF5CB}">
 																	<Comment>Hits at a PC vehicle - arcade aim</Comment>
 																	<PropertyList>
-																		<Property Name="DivergenceCenter" Type="int32">
+																		<Property Name="CenterPercentage" Type="int32">
 																			<ValueList>
 																				<Value>100</Value>
 																			</ValueList>
@@ -1939,7 +1938,7 @@ Effect 2 - adjusts the decrease in LF for the transition between the arena and h
 																<Bus Name="043_imp_int_PC" ID="{BB854870-473E-4EAC-860C-C6A2F74327C9}">
 																	<Comment>Hits at a PC vehicle - sniper aim</Comment>
 																	<PropertyList>
-																		<Property Name="DivergenceCenter" Type="int32">
+																		<Property Name="CenterPercentage" Type="int32">
 																			<ValueList>
 																				<Value>100</Value>
 																			</ValueList>
@@ -1953,7 +1952,7 @@ Effect 2 - adjusts the decrease in LF for the transition between the arena and h
 																				<Value>True</Value>
 																			</ValueList>
 																		</Property>
-																		<Property Name="DivergenceCenter" Type="int32">
+																		<Property Name="CenterPercentage" Type="int32">
 																			<ValueList>
 																				<Value>100</Value>
 																			</ValueList>
@@ -1981,7 +1980,7 @@ Effect 2 - adjusts the decrease in LF for the transition between the arena and h
 																</Bus>
 																<Bus Name="043_imp_sub_multichanel_PC" ID="{9A816100-622E-4726-A43D-55BD1F536CD8}">
 																	<PropertyList>
-																		<Property Name="DivergenceCenter" Type="int32">
+																		<Property Name="CenterPercentage" Type="int32">
 																			<ValueList>
 																				<Value>100</Value>
 																			</ValueList>
@@ -2007,7 +2006,7 @@ Effect 2 - adjusts the decrease in LF for the transition between the arena and h
 																		<Value>12</Value>
 																	</ValueList>
 																</Property>
-																<Property Name="DivergenceCenter" Type="int32">
+																<Property Name="CenterPercentage" Type="int32">
 																	<ValueList>
 																		<Value>100</Value>
 																	</ValueList>
@@ -2016,17 +2015,16 @@ Effect 2 - adjusts the decrease in LF for the transition between the arena and h
 														</Bus>
 														<AuxBus Name="AUX_NY_comp" ID="{2CEB4ABB-B5DE-49DA-A4C9-5FA386E37A77}">
 															<PropertyList>
-																<Property Name="DivergenceCenter" Type="int32">
+																<Property Name="CenterPercentage" Type="int32">
 																	<ValueList>
 																		<Value>100</Value>
 																	</ValueList>
 																</Property>
 															</PropertyList>
-															<ReferenceList/>
 														</AuxBus>
 														<Bus Name="038_artillery_stuns_PC" ID="{E4CEF247-04DE-4058-8595-5A4CA0897A69}">
 															<PropertyList>
-																<Property Name="DivergenceCenter" Type="int32">
+																<Property Name="CenterPercentage" Type="int32">
 																	<ValueList>
 																		<Value>100</Value>
 																	</ValueList>
@@ -2038,7 +2036,7 @@ Effect 2 - adjusts the decrease in LF for the transition between the arena and h
 												<AuxBus Name="AUX_vehicle_control" ID="{6B6A2938-4A8B-42BB-8C44-B46C5FC20923}">
 													<Comment>Volume control of the SEND bus in the game menu - Vehicles</Comment>
 													<PropertyList>
-														<Property Name="DivergenceCenter" Type="int32">
+														<Property Name="CenterPercentage" Type="int32">
 															<ValueList>
 																<Value>100</Value>
 															</ValueList>
@@ -2048,7 +2046,7 @@ Effect 2 - adjusts the decrease in LF for the transition between the arena and h
 														<AuxBus Name="AUX_wpn_50_75mm_reverb" ID="{08B15B12-1155-4453-9FB5-A29E7955E18C}">
 															<Comment>Reverb for small vehicles (vehicle rumbling sound)</Comment>
 															<PropertyList>
-																<Property Name="DivergenceCenter" Type="int32">
+																<Property Name="CenterPercentage" Type="int32">
 																	<ValueList>
 																		<Value>100</Value>
 																	</ValueList>
@@ -2065,18 +2063,17 @@ Effect 2 - adjusts the decrease in LF for the transition between the arena and h
 														<AuxBus Name="AUX_wpn_85_107mm_reverb" ID="{A41F451F-00EA-480C-8390-E84046F854B1}">
 															<Comment>Reverb for large vehicles (vehicle rumbling sound)</Comment>
 															<PropertyList>
-																<Property Name="DivergenceCenter" Type="int32">
+																<Property Name="CenterPercentage" Type="int32">
 																	<ValueList>
 																		<Value>100</Value>
 																	</ValueList>
 																</Property>
 															</PropertyList>
-															<ReferenceList/>
 														</AuxBus>
 														<AuxBus Name="AUX_collision_reverb" ID="{5E58EFAE-189C-4BCD-AAB6-FF509B1B0A30}">
 															<Comment>Reverb for small vehicles (vehicle rumbling sound)</Comment>
 															<PropertyList>
-																<Property Name="DivergenceCenter" Type="int32">
+																<Property Name="CenterPercentage" Type="int32">
 																	<ValueList>
 																		<Value>100</Value>
 																	</ValueList>
@@ -2102,7 +2099,7 @@ Effect 2 - adjusts the decrease in LF for the transition between the arena and h
 												<AuxBus Name="AUX_ambient_control" ID="{2073C739-BDFD-4B59-B623-8E003DADE8BE}">
 													<Comment>Volume control of the SEND bus in the game menu - ambient</Comment>
 													<PropertyList>
-														<Property Name="DivergenceCenter" Type="int32">
+														<Property Name="CenterPercentage" Type="int32">
 															<ValueList>
 																<Value>100</Value>
 															</ValueList>
@@ -2112,18 +2109,17 @@ Effect 2 - adjusts the decrease in LF for the transition between the arena and h
 														<AuxBus Name="AUX_eng_PC_flanger" ID="{C529265C-73BB-4005-B427-EA65FA941FA0}">
 															<Comment>Engine flanger upon hull travers for a PC vehicle</Comment>
 															<PropertyList>
-																<Property Name="DivergenceCenter" Type="int32">
+																<Property Name="CenterPercentage" Type="int32">
 																	<ValueList>
 																		<Value>100</Value>
 																	</ValueList>
 																</Property>
 															</PropertyList>
-															<ReferenceList/>
 														</AuxBus>
 														<AuxBus Name="AUX_flange_plane" ID="{E2FE8FCF-752C-4324-B410-C72A07EA054E}">
 															<Comment>Flanger for planes</Comment>
 															<PropertyList>
-																<Property Name="DivergenceCenter" Type="int32">
+																<Property Name="CenterPercentage" Type="int32">
 																	<ValueList>
 																		<Value>100</Value>
 																	</ValueList>
@@ -2140,7 +2136,7 @@ Effect 2 - adjusts the decrease in LF for the transition between the arena and h
 												<AuxBus Name="AUX_sfx_control" ID="{CB16D3A1-F698-444C-8003-4CF124DB10F4}">
 													<Comment>Volume control of the SEND bus in the game menu - Effects</Comment>
 													<PropertyList>
-														<Property Name="DivergenceCenter" Type="int32">
+														<Property Name="CenterPercentage" Type="int32">
 															<ValueList>
 																<Value>100</Value>
 															</ValueList>
@@ -2150,18 +2146,17 @@ Effect 2 - adjusts the decrease in LF for the transition between the arena and h
 														<AuxBus Name="AUX_wpn_50_75mm_reverb_01" ID="{9F25EE82-862D-407A-8279-AC533F02560D}">
 															<Comment>Reverb for small vehicles - shots, reloading</Comment>
 															<PropertyList>
-																<Property Name="DivergenceCenter" Type="int32">
+																<Property Name="CenterPercentage" Type="int32">
 																	<ValueList>
 																		<Value>100</Value>
 																	</ValueList>
 																</Property>
 															</PropertyList>
-															<ReferenceList/>
 														</AuxBus>
 														<AuxBus Name="AUX_wpn_85_107mm_reverb_01" ID="{CE8BA88A-05D8-47FD-A698-8F9288FE2056}">
 															<Comment>Reverb for large vehicles - shots, reloading</Comment>
 															<PropertyList>
-																<Property Name="DivergenceCenter" Type="int32">
+																<Property Name="CenterPercentage" Type="int32">
 																	<ValueList>
 																		<Value>100</Value>
 																	</ValueList>
@@ -2182,13 +2177,12 @@ Effect 2 - adjusts the decrease in LF for the transition between the arena and h
 										<Bus Name="SFX_control_1" ID="{D9A0D2C1-9C74-4625-954E-D51887B01550}">
 											<Comment>Volume control in the game menu - Effects</Comment>
 											<PropertyList>
-												<Property Name="DivergenceCenter" Type="int32">
+												<Property Name="CenterPercentage" Type="int32">
 													<ValueList>
 														<Value>100</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
-											<ReferenceList/>
 											<ChildrenList>
 												<Bus Name="030_expl_PC" ID="{753FD25D-AADA-4B5F-AA07-6CE366B02CEA}">
 													<Comment>Explosion of a PC vehicle</Comment>
@@ -2198,7 +2192,7 @@ Effect 2 - adjusts the decrease in LF for the transition between the arena and h
 																<Value>28</Value>
 															</ValueList>
 														</Property>
-														<Property Name="DivergenceCenter" Type="int32">
+														<Property Name="CenterPercentage" Type="int32">
 															<ValueList>
 																<Value>100</Value>
 															</ValueList>
@@ -2231,7 +2225,7 @@ The NPC bus is compensated -6db relatively PC bus in HDR scheme.</Comment>
 																<Value>True</Value>
 															</ValueList>
 														</Property>
-														<Property Name="DivergenceCenter" Type="int32">
+														<Property Name="CenterPercentage" Type="int32">
 															<ValueList>
 																<Value>100</Value>
 															</ValueList>
@@ -2261,7 +2255,7 @@ The NPC bus is compensated -6db relatively PC bus in HDR scheme.</Comment>
 																<Value>28</Value>
 															</ValueList>
 														</Property>
-														<Property Name="DivergenceCenter" Type="int32">
+														<Property Name="CenterPercentage" Type="int32">
 															<ValueList>
 																<Value>100</Value>
 															</ValueList>
@@ -2270,7 +2264,7 @@ The NPC bus is compensated -6db relatively PC bus in HDR scheme.</Comment>
 												</Bus>
 												<AuxBus Name="AUX_env_City" ID="{D12B269F-0E41-419C-B4D4-4CCDD5706203}">
 													<PropertyList>
-														<Property Name="DivergenceCenter" Type="int32">
+														<Property Name="CenterPercentage" Type="int32">
 															<ValueList>
 																<Value>100</Value>
 															</ValueList>
@@ -2306,7 +2300,7 @@ The NPC bus is compensated -6db relatively PC bus in HDR scheme.</Comment>
 												</AuxBus>
 												<AuxBus Name="AUX_env_Mountain" ID="{70AFE01B-E20D-4329-880A-F6F55A53E1A6}">
 													<PropertyList>
-														<Property Name="DivergenceCenter" Type="int32">
+														<Property Name="CenterPercentage" Type="int32">
 															<ValueList>
 																<Value>100</Value>
 															</ValueList>
@@ -2341,7 +2335,7 @@ The NPC bus is compensated -6db relatively PC bus in HDR scheme.</Comment>
 												</AuxBus>
 												<AuxBus Name="AUX_env_Village" ID="{320EC301-FAF1-40D6-8060-3B2CDAA49E6D}">
 													<PropertyList>
-														<Property Name="DivergenceCenter" Type="int32">
+														<Property Name="CenterPercentage" Type="int32">
 															<ValueList>
 																<Value>100</Value>
 															</ValueList>
@@ -2385,7 +2379,7 @@ The NPC bus is compensated -6db relatively PC bus in HDR scheme.</Comment>
 																<Value>True</Value>
 															</ValueList>
 														</Property>
-														<Property Name="DivergenceCenter" Type="int32">
+														<Property Name="CenterPercentage" Type="int32">
 															<ValueList>
 																<Value>100</Value>
 															</ValueList>
@@ -2439,7 +2433,7 @@ The NPC bus is compensated -6db relatively PC bus in HDR scheme.</Comment>
 												</AuxBus>
 												<AuxBus Name="AUX_env_Mountain_close" ID="{E5314C32-6EA0-41E2-A0C0-DAC4D730F69A}">
 													<PropertyList>
-														<Property Name="DivergenceCenter" Type="int32">
+														<Property Name="CenterPercentage" Type="int32">
 															<ValueList>
 																<Value>100</Value>
 															</ValueList>
@@ -2483,13 +2477,12 @@ The NPC bus is compensated -6db relatively PC bus in HDR scheme.</Comment>
 												</AuxBus>
 												<AuxBus Name="AUX_env_Closed_space" ID="{32D83ABA-A789-424C-B2ED-1A1441CE1761}">
 													<PropertyList>
-														<Property Name="DivergenceCenter" Type="int32">
+														<Property Name="CenterPercentage" Type="int32">
 															<ValueList>
 																<Value>100</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
-													<ReferenceList/>
 												</AuxBus>
 											</ChildrenList>
 										</Bus>
@@ -2511,7 +2504,7 @@ The NPC bus is compensated -6db relatively PC bus in HDR scheme.</Comment>
 						<Bus Name="VOICE_GUI" ID="{E1977340-9962-41AC-A9DD-ABFB7C425415}">
 							<Comment>primary_ducks_HDR</Comment>
 							<PropertyList>
-								<Property Name="DivergenceCenter" Type="int32">
+								<Property Name="CenterPercentage" Type="int32">
 									<ValueList>
 										<Value>100</Value>
 									</ValueList>
@@ -2520,7 +2513,7 @@ The NPC bus is compensated -6db relatively PC bus in HDR scheme.</Comment>
 							<ChildrenList>
 								<Bus Name="020_gui_simple" ID="{AC03A99D-ED85-4C59-AA89-7D65EA672C8B}">
 									<PropertyList>
-										<Property Name="DivergenceCenter" Type="int32">
+										<Property Name="CenterPercentage" Type="int32">
 											<ValueList>
 												<Value>100</Value>
 											</ValueList>
@@ -2539,7 +2532,7 @@ The NPC bus is compensated -6db relatively PC bus in HDR scheme.</Comment>
 									<ChildrenList>
 										<Bus Name="021_gui_rewards" ID="{C9AABDA5-CEB0-4028-8614-062AE861011F}">
 											<PropertyList>
-												<Property Name="DivergenceCenter" Type="int32">
+												<Property Name="CenterPercentage" Type="int32">
 													<ValueList>
 														<Value>100</Value>
 													</ValueList>
@@ -2570,7 +2563,7 @@ The NPC bus is compensated -6db relatively PC bus in HDR scheme.</Comment>
 										</Bus>
 										<Bus Name="022_gui_lootboxes" ID="{3534ADDD-5886-41B6-BA95-6CCA91712F88}">
 											<PropertyList>
-												<Property Name="DivergenceCenter" Type="int32">
+												<Property Name="CenterPercentage" Type="int32">
 													<ValueList>
 														<Value>100</Value>
 													</ValueList>
@@ -2585,15 +2578,15 @@ The NPC bus is compensated -6db relatively PC bus in HDR scheme.</Comment>
 												<CustomStateList>
 													<CustomState>
 														<StateRef Name="STATE_video_overlay_on" ID="{39DCBFCB-2C77-42B7-825E-B186493AF79A}"/>
-														<State Name="" ID="{56060854-78D4-4B82-B5DB-3C0445D77993}" ShortID="1066023314">
+														<CustomState Name="" ID="{56060854-78D4-4B82-B5DB-3C0445D77993}" ShortID="1066023314">
 															<PropertyList>
 																<Property Name="BusVolume" Type="Real64" Value="-96"/>
 															</PropertyList>
-														</State>
+														</CustomState>
 													</CustomState>
 													<CustomState>
 														<StateRef Name="STATE_video_overlay_off" ID="{EC6772CA-A2B4-479C-B5BD-54D7C35FFBBB}"/>
-														<State Name="" ID="{7DBC3F86-5E18-4F39-89E1-720E4FC91C77}" ShortID="637376885"/>
+														<CustomState Name="" ID="{7DBC3F86-5E18-4F39-89E1-720E4FC91C77}" ShortID="637376885"/>
 													</CustomState>
 												</CustomStateList>
 											</StateInfo>
@@ -2613,7 +2606,7 @@ The NPC bus is compensated -6db relatively PC bus in HDR scheme.</Comment>
 												<Value>True</Value>
 											</ValueList>
 										</Property>
-										<Property Name="DivergenceCenter" Type="int32">
+										<Property Name="CenterPercentage" Type="int32">
 											<ValueList>
 												<Value>100</Value>
 											</ValueList>
@@ -2658,7 +2651,7 @@ The NPC bus is compensated -6db relatively PC bus in HDR scheme.</Comment>
 														<Value>16641</Value>
 													</ValueList>
 												</Property>
-												<Property Name="DivergenceCenter" Type="int32">
+												<Property Name="CenterPercentage" Type="int32">
 													<ValueList>
 														<Value>100</Value>
 													</ValueList>
@@ -2701,7 +2694,7 @@ The NPC bus is compensated -6db relatively PC bus in HDR scheme.</Comment>
 										</Bus>
 										<Bus Name="010_vo_frontline" ID="{A6701FC8-DEA8-41A1-8C1F-A88228403A88}">
 											<PropertyList>
-												<Property Name="DivergenceCenter" Type="int32">
+												<Property Name="CenterPercentage" Type="int32">
 													<ValueList>
 														<Value>100</Value>
 													</ValueList>
@@ -2745,7 +2738,7 @@ The NPC bus is compensated -6db relatively PC bus in HDR scheme.</Comment>
 											<Comment>Set for Football
 Auto-Duck for HDRdbc bus</Comment>
 											<PropertyList>
-												<Property Name="DivergenceCenter" Type="int32">
+												<Property Name="CenterPercentage" Type="int32">
 													<ValueList>
 														<Value>100</Value>
 													</ValueList>
@@ -2768,7 +2761,7 @@ Auto-Duck for HDRdbc bus</Comment>
 											<ChildrenList>
 												<Bus Name="010_vo_events_hangar" ID="{7779B7F6-90B9-4EA0-B34B-BBB48BB3B946}">
 													<PropertyList>
-														<Property Name="DivergenceCenter" Type="int32">
+														<Property Name="CenterPercentage" Type="int32">
 															<ValueList>
 																<Value>100</Value>
 															</ValueList>
@@ -2789,7 +2782,7 @@ Auto-Duck for HDRdbc bus</Comment>
 												</Bus>
 												<Bus Name="010_vo_events_loading" ID="{CE100631-0435-4F4D-8611-6B12108FA518}">
 													<PropertyList>
-														<Property Name="DivergenceCenter" Type="int32">
+														<Property Name="CenterPercentage" Type="int32">
 															<ValueList>
 																<Value>100</Value>
 															</ValueList>
@@ -2822,7 +2815,7 @@ Auto-Duck for HDRdbc bus</Comment>
 												</Bus>
 												<Bus Name="010_vo_events_gameplay_char_01" ID="{9F1BAC8D-44BA-4936-B8FE-3169C0AD3D38}">
 													<PropertyList>
-														<Property Name="DivergenceCenter" Type="int32">
+														<Property Name="CenterPercentage" Type="int32">
 															<ValueList>
 																<Value>100</Value>
 															</ValueList>
@@ -2840,7 +2833,6 @@ Auto-Duck for HDRdbc bus</Comment>
 															</ValueList>
 														</Property>
 													</PropertyList>
-													<ReferenceList/>
 													<DuckingList>
 														<DuckItem>
 															<BusRef Name="025_gui_battle" ID="{23D34E9A-2999-4E56-8369-B494433EF647}"/>
@@ -2882,7 +2874,7 @@ Auto-Duck for HDRdbc bus</Comment>
 												</Bus>
 												<Bus Name="010_vo_events_gameplay_char_02" ID="{7F4ADFEA-DD89-45A5-8C04-5C8CF877DE10}">
 													<PropertyList>
-														<Property Name="DivergenceCenter" Type="int32">
+														<Property Name="CenterPercentage" Type="int32">
 															<ValueList>
 																<Value>100</Value>
 															</ValueList>
@@ -2961,7 +2953,7 @@ Auto-Duck for HDRdbc bus</Comment>
 								</Bus>
 								<Bus Name="025_gui_battle" ID="{23D34E9A-2999-4E56-8369-B494433EF647}">
 									<PropertyList>
-										<Property Name="DivergenceCenter" Type="int32">
+										<Property Name="CenterPercentage" Type="int32">
 											<ValueList>
 												<Value>100</Value>
 											</ValueList>
@@ -2977,7 +2969,7 @@ Auto-Duck for HDRdbc bus</Comment>
 									<ChildrenList>
 										<Bus Name="027_gui_duck" ID="{5620D278-D5A6-4DF0-8908-4F9FAD46639C}">
 											<PropertyList>
-												<Property Name="DivergenceCenter" Type="int32">
+												<Property Name="CenterPercentage" Type="int32">
 													<ValueList>
 														<Value>100</Value>
 													</ValueList>
@@ -3001,7 +2993,7 @@ Auto-Duck for HDRdbc bus</Comment>
 								</Bus>
 								<AuxBus Name="AUX_reverb_hangar_dark_gui" ID="{57CE6E51-4B80-4AAC-8A32-B599F8F24495}">
 									<PropertyList>
-										<Property Name="DivergenceCenter" Type="int32">
+										<Property Name="CenterPercentage" Type="int32">
 											<ValueList>
 												<Value>100</Value>
 											</ValueList>
@@ -3020,7 +3012,7 @@ Auto-Duck for HDRdbc bus</Comment>
 												<Value>-96</Value>
 											</ValueList>
 										</Property>
-										<Property Name="DivergenceCenter" Type="int32">
+										<Property Name="CenterPercentage" Type="int32">
 											<ValueList>
 												<Value>100</Value>
 											</ValueList>
@@ -3047,13 +3039,12 @@ Auto-Duck for HDRdbc bus</Comment>
 								<AuxBus Name="AUX_reverb_expl_ally_NPC" ID="{15625F21-739B-45FF-973F-A7047B3B37C5}">
 									<Comment>Reverb for small vehicles - shots, reloading</Comment>
 									<PropertyList>
-										<Property Name="DivergenceCenter" Type="int32">
+										<Property Name="CenterPercentage" Type="int32">
 											<ValueList>
 												<Value>100</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
-									<ReferenceList/>
 								</AuxBus>
 								<Bus Name="015_vo_bootcamp" ID="{40541CBD-83CB-4A44-8BCF-05390864F5E5}">
 									<PropertyList>
@@ -3062,7 +3053,7 @@ Auto-Duck for HDRdbc bus</Comment>
 												<Value>16641</Value>
 											</ValueList>
 										</Property>
-										<Property Name="DivergenceCenter" Type="int32">
+										<Property Name="CenterPercentage" Type="int32">
 											<ValueList>
 												<Value>100</Value>
 											</ValueList>
@@ -3127,7 +3118,7 @@ Auto-Duck for HDRdbc bus</Comment>
 								</Bus>
 								<Bus Name="015_vo_bootcamp_hangar" ID="{2156B7EB-2699-43A3-84DF-13DECF83635A}">
 									<PropertyList>
-										<Property Name="DivergenceCenter" Type="int32">
+										<Property Name="CenterPercentage" Type="int32">
 											<ValueList>
 												<Value>100</Value>
 											</ValueList>
@@ -3167,7 +3158,7 @@ Auto-Duck for HDRdbc bus</Comment>
 								<AuxBus Name="AUX_reverb_hangar_Forest_gui" ID="{684ED773-C912-476D-B79B-C461652E8600}">
 									<Comment>This AUX isn't used yet. GUI sounds in the hangar go through AUX_reverb_hangar_Forest_env</Comment>
 									<PropertyList>
-										<Property Name="DivergenceCenter" Type="int32">
+										<Property Name="CenterPercentage" Type="int32">
 											<ValueList>
 												<Value>100</Value>
 											</ValueList>
@@ -3202,7 +3193,7 @@ Auto-Duck for HDRdbc bus</Comment>
 								</AuxBus>
 								<Bus Name="010_vo_com_noducking" ID="{AC17613E-DAC9-4757-B848-E705EA75A70B}">
 									<PropertyList>
-										<Property Name="DivergenceCenter" Type="int32">
+										<Property Name="CenterPercentage" Type="int32">
 											<ValueList>
 												<Value>100</Value>
 											</ValueList>
@@ -3211,7 +3202,7 @@ Auto-Duck for HDRdbc bus</Comment>
 									<ChildrenList>
 										<Bus Name="vo_halloween_2018" ID="{E861DC67-612B-4F43-9415-CDAB01B63D35}">
 											<PropertyList>
-												<Property Name="DivergenceCenter" Type="int32">
+												<Property Name="CenterPercentage" Type="int32">
 													<ValueList>
 														<Value>100</Value>
 													</ValueList>
@@ -3285,7 +3276,7 @@ Auto-Duck for HDRdbc bus</Comment>
 										</Bus>
 										<Bus Name="vo_halloween_2018_radiotones" ID="{F91450C4-8BC0-416F-A94A-DAEF5BF75258}">
 											<PropertyList>
-												<Property Name="DivergenceCenter" Type="int32">
+												<Property Name="CenterPercentage" Type="int32">
 													<ValueList>
 														<Value>100</Value>
 													</ValueList>
@@ -3296,7 +3287,7 @@ Auto-Duck for HDRdbc bus</Comment>
 								</Bus>
 								<Bus Name="024_gui_hangar" ID="{DA0E0942-3316-4AF3-B606-35EC19D6E6BA}">
 									<PropertyList>
-										<Property Name="DivergenceCenter" Type="int32">
+										<Property Name="CenterPercentage" Type="int32">
 											<ValueList>
 												<Value>100</Value>
 											</ValueList>
@@ -3306,7 +3297,7 @@ Auto-Duck for HDRdbc bus</Comment>
 										<Bus Name="024_gui_hangar_dry" ID="{A9B7E066-7CF5-4242-9DB3-B7529203DBBE}">
 											<Comment>Copy of 025_gui_battle</Comment>
 											<PropertyList>
-												<Property Name="DivergenceCenter" Type="int32">
+												<Property Name="CenterPercentage" Type="int32">
 													<ValueList>
 														<Value>100</Value>
 													</ValueList>
@@ -3323,7 +3314,7 @@ Auto-Duck for HDRdbc bus</Comment>
 										<Bus Name="024_gui_hangar_wet" ID="{563B6F14-EA6A-46ED-BA4F-6BDD63C26B6A}">
 											<Comment>Copy of 020_gui_simple</Comment>
 											<PropertyList>
-												<Property Name="DivergenceCenter" Type="int32">
+												<Property Name="CenterPercentage" Type="int32">
 													<ValueList>
 														<Value>100</Value>
 													</ValueList>
@@ -3351,7 +3342,7 @@ Auto-Duck for HDRdbc bus</Comment>
 										<Value>-6</Value>
 									</ValueList>
 								</Property>
-								<Property Name="DivergenceCenter" Type="int32">
+								<Property Name="CenterPercentage" Type="int32">
 									<ValueList>
 										<Value>100</Value>
 									</ValueList>
@@ -3360,7 +3351,7 @@ Auto-Duck for HDRdbc bus</Comment>
 							<ChildrenList>
 								<Bus Name="Hangar" ID="{7DA74227-1176-4A22-B8F8-E55B347F7EED}">
 									<PropertyList>
-										<Property Name="DivergenceCenter" Type="int32">
+										<Property Name="CenterPercentage" Type="int32">
 											<ValueList>
 												<Value>100</Value>
 											</ValueList>
@@ -3369,7 +3360,7 @@ Auto-Duck for HDRdbc bus</Comment>
 									<ChildrenList>
 										<AuxBus Name="AUX_reverb_hangar_dark_env" ID="{6CA3D6C0-10A3-4906-ABF6-E9026353EFC5}">
 											<PropertyList>
-												<Property Name="DivergenceCenter" Type="int32">
+												<Property Name="CenterPercentage" Type="int32">
 													<ValueList>
 														<Value>100</Value>
 													</ValueList>
@@ -3383,17 +3374,16 @@ Auto-Duck for HDRdbc bus</Comment>
 										</AuxBus>
 										<AuxBus Name="AUX_stereo_delay_hangar_h07_newyear_2018" ID="{5E1B8844-DE5D-4B7A-80EF-44A015477E51}">
 											<PropertyList>
-												<Property Name="DivergenceCenter" Type="int32">
+												<Property Name="CenterPercentage" Type="int32">
 													<ValueList>
 														<Value>100</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
-											<ReferenceList/>
 										</AuxBus>
 										<AuxBus Name="AUX_reverb_hangar_Forest_env" ID="{23D8AD1B-A113-4910-B558-FDAC81E5AA16}">
 											<PropertyList>
-												<Property Name="DivergenceCenter" Type="int32">
+												<Property Name="CenterPercentage" Type="int32">
 													<ValueList>
 														<Value>100</Value>
 													</ValueList>
@@ -3443,42 +3433,42 @@ Auto-Duck for HDRdbc bus</Comment>
 										<CustomStateList>
 											<CustomState>
 												<StateRef Name="STATE_video_overlay_on" ID="{39DCBFCB-2C77-42B7-825E-B186493AF79A}"/>
-												<State Name="" ID="{1AE8132F-8355-4C64-B484-0B7FEC4048BC}" ShortID="763840324">
+												<CustomState Name="" ID="{1AE8132F-8355-4C64-B484-0B7FEC4048BC}" ShortID="763840324">
 													<PropertyList>
 														<Property Name="BusVolume" Type="Real64" Value="-96"/>
 													</PropertyList>
-												</State>
+												</CustomState>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="STATE_overlay_hangar_general_on" ID="{02FBFA78-F4DF-43CF-905F-68C34613A84F}"/>
-												<State Name="" ID="{1AEE7470-C39F-4613-880A-1F0B4DA0FB2E}" ShortID="699772652"/>
+												<CustomState Name="" ID="{1AEE7470-C39F-4613-880A-1F0B4DA0FB2E}" ShortID="699772652"/>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="STATE_overlay_hangar_general_off" ID="{6C92CBF3-3A6B-456A-96B4-3C1A2726E463}"/>
-												<State Name="" ID="{4BC8FE53-B8E5-4636-9582-24A23D18C52D}" ShortID="782486085"/>
+												<CustomState Name="" ID="{4BC8FE53-B8E5-4636-9582-24A23D18C52D}" ShortID="782486085"/>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="STATE_video_overlay_off" ID="{EC6772CA-A2B4-479C-B5BD-54D7C35FFBBB}"/>
-												<State Name="" ID="{21A83F68-3679-4BB5-8731-0B563D7B1E3A}" ShortID="289685817"/>
+												<CustomState Name="" ID="{21A83F68-3679-4BB5-8731-0B563D7B1E3A}" ShortID="289685817"/>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="STATE_fortified_area_on" ID="{3C08466B-6C9C-48D8-BA06-39758FCB3C5B}"/>
-												<State Name="Custom State" ID="{7F373FEF-5CDE-4127-85C5-7CA5DFF95780}" ShortID="997868699">
+												<CustomState Name="Custom State" ID="{7F373FEF-5CDE-4127-85C5-7CA5DFF95780}" ShortID="997868699">
 													<PropertyList>
 														<Property Name="BusVolume" Type="Real64" Value="-96"/>
 													</PropertyList>
-												</State>
+												</CustomState>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="STATE_fortified_area_off" ID="{62D70F5C-8456-4E56-B63A-BA55B584889A}"/>
-												<State Name="" ID="{EC1E2281-C774-4CBE-B705-C5BC632DB517}" ShortID="841251892"/>
+												<CustomState Name="" ID="{EC1E2281-C774-4CBE-B705-C5BC632DB517}" ShortID="841251892"/>
 											</CustomState>
 										</CustomStateList>
 									</StateInfo>
 								</Bus>
 								<Bus Name="Fortified_area" ID="{0C4C2B80-1D22-48CC-BD81-D5E6A9D8DC76}">
 									<PropertyList>
-										<Property Name="DivergenceCenter" Type="int32">
+										<Property Name="CenterPercentage" Type="int32">
 											<ValueList>
 												<Value>100</Value>
 											</ValueList>
@@ -3493,22 +3483,22 @@ Auto-Duck for HDRdbc bus</Comment>
 										<CustomStateList>
 											<CustomState>
 												<StateRef Name="STATE_fortified_area_on" ID="{3C08466B-6C9C-48D8-BA06-39758FCB3C5B}"/>
-												<State Name="" ID="{A6D9CFA6-3F19-4A88-8FA7-92790057072B}" ShortID="84842477"/>
+												<CustomState Name="" ID="{A6D9CFA6-3F19-4A88-8FA7-92790057072B}" ShortID="84842477"/>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="STATE_fortified_area_off" ID="{62D70F5C-8456-4E56-B63A-BA55B584889A}"/>
-												<State Name="Custom State" ID="{2C0C8873-32BA-42F4-97B3-BCFE2EC3F213}" ShortID="947725838">
+												<CustomState Name="Custom State" ID="{2C0C8873-32BA-42F4-97B3-BCFE2EC3F213}" ShortID="947725838">
 													<PropertyList>
 														<Property Name="BusVolume" Type="Real64" Value="-96"/>
 													</PropertyList>
-												</State>
+												</CustomState>
 											</CustomState>
 										</CustomStateList>
 									</StateInfo>
 								</Bus>
 								<Bus Name="Personal_missions" ID="{A17B1F7A-7FB4-40BE-BD04-52012C51B30A}">
 									<PropertyList>
-										<Property Name="DivergenceCenter" Type="int32">
+										<Property Name="CenterPercentage" Type="int32">
 											<ValueList>
 												<Value>100</Value>
 											</ValueList>
@@ -3517,7 +3507,7 @@ Auto-Duck for HDRdbc bus</Comment>
 									<ChildrenList>
 										<AuxBus Name="AUX_reverb_hangar_dark_sfx_pm" ID="{26544B92-0DF6-4B3C-BF95-81CB50D2A687}">
 											<PropertyList>
-												<Property Name="DivergenceCenter" Type="int32">
+												<Property Name="CenterPercentage" Type="int32">
 													<ValueList>
 														<Value>100</Value>
 													</ValueList>
@@ -3531,7 +3521,7 @@ Auto-Duck for HDRdbc bus</Comment>
 										</AuxBus>
 										<AuxBus Name="AUX_reverb_personal_missions" ID="{748AED72-D008-403D-8EEF-53AF6EAB6E92}">
 											<PropertyList>
-												<Property Name="DivergenceCenter" Type="int32">
+												<Property Name="CenterPercentage" Type="int32">
 													<ValueList>
 														<Value>100</Value>
 													</ValueList>
@@ -3553,23 +3543,23 @@ Auto-Duck for HDRdbc bus</Comment>
 										<CustomStateList>
 											<CustomState>
 												<StateRef Name="STATE_overlay_hangar_general_on" ID="{02FBFA78-F4DF-43CF-905F-68C34613A84F}"/>
-												<State Name="" ID="{44E29356-E710-4532-8B49-9D66CCAF13BF}" ShortID="332300829">
+												<CustomState Name="" ID="{44E29356-E710-4532-8B49-9D66CCAF13BF}" ShortID="332300829">
 													<PropertyList>
 														<Property Name="BusVolume" Type="Real64" Value="-3"/>
 														<Property Name="Lowpass" Type="int16" Value="26"/>
 													</PropertyList>
-												</State>
+												</CustomState>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="STATE_overlay_hangar_general_off" ID="{6C92CBF3-3A6B-456A-96B4-3C1A2726E463}"/>
-												<State Name="" ID="{AA16F090-F2BD-47B5-B6F4-B7343354C737}" ShortID="57132750"/>
+												<CustomState Name="" ID="{AA16F090-F2BD-47B5-B6F4-B7343354C737}" ShortID="57132750"/>
 											</CustomState>
 										</CustomStateList>
 									</StateInfo>
 								</Bus>
 								<Bus Name="Customization" ID="{F0D02011-4685-465A-8BF0-66045AF994D1}">
 									<PropertyList>
-										<Property Name="DivergenceCenter" Type="int32">
+										<Property Name="CenterPercentage" Type="int32">
 											<ValueList>
 												<Value>100</Value>
 											</ValueList>
@@ -3578,7 +3568,7 @@ Auto-Duck for HDRdbc bus</Comment>
 								</Bus>
 								<Bus Name="Researches" ID="{EFF4124C-742F-4DD3-AF92-6A6FA6331451}">
 									<PropertyList>
-										<Property Name="DivergenceCenter" Type="int32">
+										<Property Name="CenterPercentage" Type="int32">
 											<ValueList>
 												<Value>100</Value>
 											</ValueList>
@@ -3587,7 +3577,7 @@ Auto-Duck for HDRdbc bus</Comment>
 									<ChildrenList>
 										<AuxBus Name="AUX_reverb_researches" ID="{AC2C802E-5588-4731-9BF1-8637A7CE5966}">
 											<PropertyList>
-												<Property Name="DivergenceCenter" Type="int32">
+												<Property Name="CenterPercentage" Type="int32">
 													<ValueList>
 														<Value>100</Value>
 													</ValueList>
@@ -3609,23 +3599,23 @@ Auto-Duck for HDRdbc bus</Comment>
 										<CustomStateList>
 											<CustomState>
 												<StateRef Name="STATE_overlay_hangar_general_on" ID="{02FBFA78-F4DF-43CF-905F-68C34613A84F}"/>
-												<State Name="" ID="{18239A4F-E7F8-4D07-9B9A-E6282F399A52}" ShortID="761884843">
+												<CustomState Name="" ID="{18239A4F-E7F8-4D07-9B9A-E6282F399A52}" ShortID="761884843">
 													<PropertyList>
 														<Property Name="BusVolume" Type="Real64" Value="-4"/>
 														<Property Name="Lowpass" Type="int16" Value="5"/>
 													</PropertyList>
-												</State>
+												</CustomState>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="STATE_overlay_hangar_general_off" ID="{6C92CBF3-3A6B-456A-96B4-3C1A2726E463}"/>
-												<State Name="" ID="{2D041CEF-4B52-4126-98A3-252CE185FA16}" ShortID="755055919"/>
+												<CustomState Name="" ID="{2D041CEF-4B52-4126-98A3-252CE185FA16}" ShortID="755055919"/>
 											</CustomState>
 										</CustomStateList>
 									</StateInfo>
 								</Bus>
 								<Bus Name="Shop" ID="{68CB959F-38ED-4168-AF40-10B179A9462F}">
 									<PropertyList>
-										<Property Name="DivergenceCenter" Type="int32">
+										<Property Name="CenterPercentage" Type="int32">
 											<ValueList>
 												<Value>100</Value>
 											</ValueList>
@@ -3646,47 +3636,47 @@ Auto-Duck for HDRdbc bus</Comment>
 										<CustomStateList>
 											<CustomState>
 												<StateRef Name="STATE_video_overlay_on" ID="{39DCBFCB-2C77-42B7-825E-B186493AF79A}"/>
-												<State Name="" ID="{0B180173-B1DF-4FE0-A121-2AA0A86F5CB1}" ShortID="398647741">
+												<CustomState Name="" ID="{0B180173-B1DF-4FE0-A121-2AA0A86F5CB1}" ShortID="398647741">
 													<PropertyList>
 														<Property Name="BusVolume" Type="Real64" Value="-96"/>
 													</PropertyList>
-												</State>
+												</CustomState>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="STATE_overlay_hangar_general_on" ID="{02FBFA78-F4DF-43CF-905F-68C34613A84F}"/>
-												<State Name="" ID="{40C9D3DD-973E-4074-9FAA-AE0778CD08FF}" ShortID="118290549">
+												<CustomState Name="" ID="{40C9D3DD-973E-4074-9FAA-AE0778CD08FF}" ShortID="118290549">
 													<PropertyList>
 														<Property Name="BusVolume" Type="Real64" Value="-7"/>
 														<Property Name="Lowpass" Type="int16" Value="22"/>
 													</PropertyList>
-												</State>
+												</CustomState>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="STATE_overlay_hangar_general_off" ID="{6C92CBF3-3A6B-456A-96B4-3C1A2726E463}"/>
-												<State Name="" ID="{2AA882FE-31B1-485D-97DB-623C5C970E00}" ShortID="544709453"/>
+												<CustomState Name="" ID="{2AA882FE-31B1-485D-97DB-623C5C970E00}" ShortID="544709453"/>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="STATE_video_overlay_off" ID="{EC6772CA-A2B4-479C-B5BD-54D7C35FFBBB}"/>
-												<State Name="" ID="{C7C04BB0-CFC3-4C24-B98E-2EF39900935C}" ShortID="213792453"/>
+												<CustomState Name="" ID="{C7C04BB0-CFC3-4C24-B98E-2EF39900935C}" ShortID="213792453"/>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="STATE_fortified_area_on" ID="{3C08466B-6C9C-48D8-BA06-39758FCB3C5B}"/>
-												<State Name="" ID="{3D6F3B3E-9B95-4C14-9359-2200AD6EE052}" ShortID="145485092">
+												<CustomState Name="" ID="{3D6F3B3E-9B95-4C14-9359-2200AD6EE052}" ShortID="145485092">
 													<PropertyList>
 														<Property Name="BusVolume" Type="Real64" Value="-96"/>
 													</PropertyList>
-												</State>
+												</CustomState>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="STATE_fortified_area_off" ID="{62D70F5C-8456-4E56-B63A-BA55B584889A}"/>
-												<State Name="" ID="{B8D9576E-4B52-4E0C-A5A3-31D74C5B0AF5}" ShortID="751622471"/>
+												<CustomState Name="" ID="{B8D9576E-4B52-4E0C-A5A3-31D74C5B0AF5}" ShortID="751622471"/>
 											</CustomState>
 										</CustomStateList>
 									</StateInfo>
 								</Bus>
 								<Bus Name="Warehouse" ID="{1A261B2A-80B4-430D-9AF0-7A129FC393F0}">
 									<PropertyList>
-										<Property Name="DivergenceCenter" Type="int32">
+										<Property Name="CenterPercentage" Type="int32">
 											<ValueList>
 												<Value>100</Value>
 											</ValueList>
@@ -3707,47 +3697,47 @@ Auto-Duck for HDRdbc bus</Comment>
 										<CustomStateList>
 											<CustomState>
 												<StateRef Name="STATE_video_overlay_on" ID="{39DCBFCB-2C77-42B7-825E-B186493AF79A}"/>
-												<State Name="" ID="{A87369FB-6E00-45E3-ACB4-51F9A9F958BA}" ShortID="920048669">
+												<CustomState Name="" ID="{A87369FB-6E00-45E3-ACB4-51F9A9F958BA}" ShortID="920048669">
 													<PropertyList>
 														<Property Name="BusVolume" Type="Real64" Value="-96"/>
 													</PropertyList>
-												</State>
+												</CustomState>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="STATE_overlay_hangar_general_on" ID="{02FBFA78-F4DF-43CF-905F-68C34613A84F}"/>
-												<State Name="" ID="{2B14781B-B42E-412A-84E6-2BF951C5E53E}" ShortID="208743897">
+												<CustomState Name="" ID="{2B14781B-B42E-412A-84E6-2BF951C5E53E}" ShortID="208743897">
 													<PropertyList>
 														<Property Name="BusVolume" Type="Real64" Value="-7"/>
 														<Property Name="Lowpass" Type="int16" Value="22"/>
 													</PropertyList>
-												</State>
+												</CustomState>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="STATE_overlay_hangar_general_off" ID="{6C92CBF3-3A6B-456A-96B4-3C1A2726E463}"/>
-												<State Name="" ID="{50201E7B-9364-4446-8A1F-1B9E0F70114F}" ShortID="101214523"/>
+												<CustomState Name="" ID="{50201E7B-9364-4446-8A1F-1B9E0F70114F}" ShortID="101214523"/>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="STATE_video_overlay_off" ID="{EC6772CA-A2B4-479C-B5BD-54D7C35FFBBB}"/>
-												<State Name="" ID="{214471F6-01FA-4E37-811D-BAFA42D2A75F}" ShortID="573379529"/>
+												<CustomState Name="" ID="{214471F6-01FA-4E37-811D-BAFA42D2A75F}" ShortID="573379529"/>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="STATE_fortified_area_on" ID="{3C08466B-6C9C-48D8-BA06-39758FCB3C5B}"/>
-												<State Name="" ID="{A4884323-582D-4A30-A7D6-2B3E5DA2E69A}" ShortID="770337160">
+												<CustomState Name="" ID="{A4884323-582D-4A30-A7D6-2B3E5DA2E69A}" ShortID="770337160">
 													<PropertyList>
 														<Property Name="BusVolume" Type="Real64" Value="-96"/>
 													</PropertyList>
-												</State>
+												</CustomState>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="STATE_fortified_area_off" ID="{62D70F5C-8456-4E56-B63A-BA55B584889A}"/>
-												<State Name="" ID="{7558BB07-B3F8-487C-9C97-1C7869B2F2E3}" ShortID="404638864"/>
+												<CustomState Name="" ID="{7558BB07-B3F8-487C-9C97-1C7869B2F2E3}" ShortID="404638864"/>
 											</CustomState>
 										</CustomStateList>
 									</StateInfo>
 								</Bus>
 								<Bus Name="Frontline" ID="{1B6C3E67-1F66-4541-B2D9-A98B91F4CC72}">
 									<PropertyList>
-										<Property Name="DivergenceCenter" Type="int32">
+										<Property Name="CenterPercentage" Type="int32">
 											<ValueList>
 												<Value>100</Value>
 											</ValueList>
@@ -3765,34 +3755,34 @@ Auto-Duck for HDRdbc bus</Comment>
 										<CustomStateList>
 											<CustomState>
 												<StateRef Name="STATE_video_overlay_on" ID="{39DCBFCB-2C77-42B7-825E-B186493AF79A}"/>
-												<State Name="" ID="{4C60BAB3-B30F-4F80-A0A7-18C57B943A0D}" ShortID="883874648">
+												<CustomState Name="" ID="{4C60BAB3-B30F-4F80-A0A7-18C57B943A0D}" ShortID="883874648">
 													<PropertyList>
 														<Property Name="BusVolume" Type="Real64" Value="-96"/>
 													</PropertyList>
-												</State>
+												</CustomState>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="STATE_video_overlay_off" ID="{EC6772CA-A2B4-479C-B5BD-54D7C35FFBBB}"/>
-												<State Name="" ID="{CC987BB3-65D8-4E05-B503-2F4872DDFC8A}" ShortID="71169873"/>
+												<CustomState Name="" ID="{CC987BB3-65D8-4E05-B503-2F4872DDFC8A}" ShortID="71169873"/>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="STATE_fortified_area_on" ID="{3C08466B-6C9C-48D8-BA06-39758FCB3C5B}"/>
-												<State Name="" ID="{1BEAF18A-6A3A-41D0-8976-871685751770}" ShortID="523480951">
+												<CustomState Name="" ID="{1BEAF18A-6A3A-41D0-8976-871685751770}" ShortID="523480951">
 													<PropertyList>
 														<Property Name="BusVolume" Type="Real64" Value="-96"/>
 													</PropertyList>
-												</State>
+												</CustomState>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="STATE_fortified_area_off" ID="{62D70F5C-8456-4E56-B63A-BA55B584889A}"/>
-												<State Name="" ID="{D66596CE-B060-4533-9836-8A71E6921A17}" ShortID="919854734"/>
+												<CustomState Name="" ID="{D66596CE-B060-4533-9836-8A71E6921A17}" ShortID="919854734"/>
 											</CustomState>
 										</CustomStateList>
 									</StateInfo>
 								</Bus>
 								<Bus Name="Tasks" ID="{DC76C4CF-F55C-4352-81C4-68E72FD475FC}">
 									<PropertyList>
-										<Property Name="DivergenceCenter" Type="int32">
+										<Property Name="CenterPercentage" Type="int32">
 											<ValueList>
 												<Value>100</Value>
 											</ValueList>
@@ -3810,27 +3800,27 @@ Auto-Duck for HDRdbc bus</Comment>
 										<CustomStateList>
 											<CustomState>
 												<StateRef Name="STATE_video_overlay_on" ID="{39DCBFCB-2C77-42B7-825E-B186493AF79A}"/>
-												<State Name="" ID="{4FC75762-0AAA-4FD5-A1D3-F98C5B386CB7}" ShortID="760009559">
+												<CustomState Name="" ID="{4FC75762-0AAA-4FD5-A1D3-F98C5B386CB7}" ShortID="760009559">
 													<PropertyList>
 														<Property Name="BusVolume" Type="Real64" Value="-96"/>
 													</PropertyList>
-												</State>
+												</CustomState>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="STATE_overlay_hangar_general_on" ID="{02FBFA78-F4DF-43CF-905F-68C34613A84F}"/>
-												<State Name="" ID="{09474C8D-FCC8-412E-81A1-850180E10F87}" ShortID="314194828">
+												<CustomState Name="" ID="{09474C8D-FCC8-412E-81A1-850180E10F87}" ShortID="314194828">
 													<PropertyList>
 														<Property Name="BusVolume" Type="Real64" Value="-6"/>
 													</PropertyList>
-												</State>
+												</CustomState>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="STATE_overlay_hangar_general_off" ID="{6C92CBF3-3A6B-456A-96B4-3C1A2726E463}"/>
-												<State Name="" ID="{A733A8FE-1320-4353-96DD-1BB8698F062A}" ShortID="442977589"/>
+												<CustomState Name="" ID="{A733A8FE-1320-4353-96DD-1BB8698F062A}" ShortID="442977589"/>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="STATE_video_overlay_off" ID="{EC6772CA-A2B4-479C-B5BD-54D7C35FFBBB}"/>
-												<State Name="" ID="{55A621EE-EC87-4045-BD3D-50C963B8C0D1}" ShortID="563364785"/>
+												<CustomState Name="" ID="{55A621EE-EC87-4045-BD3D-50C963B8C0D1}" ShortID="563364785"/>
 											</CustomState>
 										</CustomStateList>
 									</StateInfo>
@@ -3845,17 +3835,17 @@ Auto-Duck for HDRdbc bus</Comment>
 								<CustomStateList>
 									<CustomState>
 										<StateRef Name="STATE_hangar_filtered_off" ID="{B928BD72-334D-4B26-8910-F6B321F0A514}"/>
-										<State Name="" ID="{21639ABF-E54C-472B-930E-2FDAD018FAE6}" ShortID="282777573"/>
+										<CustomState Name="" ID="{21639ABF-E54C-472B-930E-2FDAD018FAE6}" ShortID="282777573"/>
 									</CustomState>
 									<CustomState>
 										<StateRef Name="STATE_hangar_filtered_on" ID="{D6802E60-372A-4B9B-B6DD-466C9553F289}"/>
-										<State Name="" ID="{72223299-3692-4875-BB56-8FD4FFA8BE8C}" ShortID="905372752">
+										<CustomState Name="" ID="{72223299-3692-4875-BB56-8FD4FFA8BE8C}" ShortID="905372752">
 											<PropertyList>
 												<Property Name="BusVolume" Type="Real64" Value="-6"/>
 												<Property Name="Lowpass" Type="int16" Value="35"/>
 												<Property Name="Pitch" Type="int32" Value="-100"/>
 											</PropertyList>
-										</State>
+										</CustomState>
 									</CustomState>
 								</CustomStateList>
 							</StateInfo>
@@ -3863,7 +3853,7 @@ Auto-Duck for HDRdbc bus</Comment>
 						<Bus Name="AMBIENT_control_2" ID="{9DD51474-9850-4709-A9F7-EBF5C5A18EEF}">
 							<Comment>Volume control in the game menu - ambience</Comment>
 							<PropertyList>
-								<Property Name="DivergenceCenter" Type="int32">
+								<Property Name="CenterPercentage" Type="int32">
 									<ValueList>
 										<Value>100</Value>
 									</ValueList>
@@ -3873,7 +3863,7 @@ Auto-Duck for HDRdbc bus</Comment>
 								<Bus Name="05_wind_blown" ID="{80F5F1C2-C6C5-4CD2-9E91-7846D11D0CEC}">
 									<Comment>Bus for wind blowing effect for fast vehicles</Comment>
 									<PropertyList>
-										<Property Name="DivergenceCenter" Type="int32">
+										<Property Name="CenterPercentage" Type="int32">
 											<ValueList>
 												<Value>100</Value>
 											</ValueList>
@@ -3895,7 +3885,7 @@ Auto-Duck for HDRdbc bus</Comment>
 						</Bus>
 						<Bus Name="MUSIC_interactive_out_HDR" ID="{E10CB7A0-FB75-440E-AB23-0F8B76719D7C}">
 							<PropertyList>
-								<Property Name="DivergenceCenter" Type="int32">
+								<Property Name="CenterPercentage" Type="int32">
 									<ValueList>
 										<Value>100</Value>
 									</ValueList>
@@ -3924,7 +3914,7 @@ Auto-Duck for HDRdbc bus</Comment>
 												<Value>20</Value>
 											</ValueList>
 										</Property>
-										<Property Name="DivergenceCenter" Type="int32">
+										<Property Name="CenterPercentage" Type="int32">
 											<ValueList>
 												<Value>100</Value>
 											</ValueList>
@@ -3935,7 +3925,7 @@ Auto-Duck for HDRdbc bus</Comment>
 						</Bus>
 						<Bus Name="AUTO_DUCK" ID="{7D309AD6-46C3-45E0-B289-8C1858B91128}">
 							<PropertyList>
-								<Property Name="DivergenceCenter" Type="int32">
+								<Property Name="CenterPercentage" Type="int32">
 									<ValueList>
 										<Value>100</Value>
 									</ValueList>
@@ -3944,7 +3934,7 @@ Auto-Duck for HDRdbc bus</Comment>
 							<ChildrenList>
 								<Bus Name="auto_duck_imp" ID="{A6BB63C6-782D-402C-B8E0-9A3E3D01C989}">
 									<PropertyList>
-										<Property Name="DivergenceCenter" Type="int32">
+										<Property Name="CenterPercentage" Type="int32">
 											<ValueList>
 												<Value>100</Value>
 											</ValueList>
@@ -3986,7 +3976,7 @@ Auto-Duck for HDRdbc bus</Comment>
 								</Bus>
 								<Bus Name="auto_duck_wpn_50ms" ID="{A217BB14-A006-457F-9371-3CDE8BD1931A}">
 									<PropertyList>
-										<Property Name="DivergenceCenter" Type="int32">
+										<Property Name="CenterPercentage" Type="int32">
 											<ValueList>
 												<Value>100</Value>
 											</ValueList>
@@ -4028,7 +4018,7 @@ Auto-Duck for HDRdbc bus</Comment>
 								</Bus>
 								<Bus Name="auto_duck_wpn_30ms" ID="{7077205A-1413-4890-9377-697E8952F26C}">
 									<PropertyList>
-										<Property Name="DivergenceCenter" Type="int32">
+										<Property Name="CenterPercentage" Type="int32">
 											<ValueList>
 												<Value>100</Value>
 											</ValueList>
@@ -4087,7 +4077,7 @@ Auto-Duck for HDRdbc bus</Comment>
 										<Value>True</Value>
 									</ValueList>
 								</Property>
-								<Property Name="DivergenceCenter" Type="int32">
+								<Property Name="CenterPercentage" Type="int32">
 									<ValueList>
 										<Value>100</Value>
 									</ValueList>
@@ -4125,7 +4115,7 @@ Auto-Duck for HDRdbc bus</Comment>
 							<ChildrenList>
 								<AuxBus Name="AUX_multiband_dist_01" ID="{B2EC63D5-DA78-43A6-BB86-4A23CEC8DC29}">
 									<PropertyList>
-										<Property Name="DivergenceCenter" Type="int32">
+										<Property Name="CenterPercentage" Type="int32">
 											<ValueList>
 												<Value>100</Value>
 											</ValueList>
@@ -4151,7 +4141,7 @@ Auto-Duck for HDRdbc bus</Comment>
 								</AuxBus>
 								<Bus Name="Lobby_music_personal_missions" ID="{DBFA2E96-7015-462D-9652-5A1B92E8F56C}">
 									<PropertyList>
-										<Property Name="DivergenceCenter" Type="int32">
+										<Property Name="CenterPercentage" Type="int32">
 											<ValueList>
 												<Value>100</Value>
 											</ValueList>
@@ -4166,23 +4156,23 @@ Auto-Duck for HDRdbc bus</Comment>
 										<CustomStateList>
 											<CustomState>
 												<StateRef Name="STATE_overlay_hangar_general_on" ID="{02FBFA78-F4DF-43CF-905F-68C34613A84F}"/>
-												<State Name="" ID="{5D66BBF3-11C0-48BE-BEEA-07E8486D3FD7}" ShortID="48783990">
+												<CustomState Name="" ID="{5D66BBF3-11C0-48BE-BEEA-07E8486D3FD7}" ShortID="48783990">
 													<PropertyList>
 														<Property Name="BusVolume" Type="Real64" Value="-6"/>
 														<Property Name="Lowpass" Type="int16" Value="7"/>
 													</PropertyList>
-												</State>
+												</CustomState>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="STATE_overlay_hangar_general_off" ID="{6C92CBF3-3A6B-456A-96B4-3C1A2726E463}"/>
-												<State Name="" ID="{BE5123A2-F4FE-4905-A142-0CBDFF50862F}" ShortID="288161920"/>
+												<CustomState Name="" ID="{BE5123A2-F4FE-4905-A142-0CBDFF50862F}" ShortID="288161920"/>
 											</CustomState>
 										</CustomStateList>
 									</StateInfo>
 								</Bus>
 								<Bus Name="Lobby_music_customization" ID="{3266C127-B1F5-4FEB-A687-2C2E72DA8AE2}">
 									<PropertyList>
-										<Property Name="DivergenceCenter" Type="int32">
+										<Property Name="CenterPercentage" Type="int32">
 											<ValueList>
 												<Value>100</Value>
 											</ValueList>
@@ -4191,7 +4181,7 @@ Auto-Duck for HDRdbc bus</Comment>
 								</Bus>
 								<Bus Name="Lobby_music_shop" ID="{ACF68732-9033-4B07-AF77-6CFC2F454D19}">
 									<PropertyList>
-										<Property Name="DivergenceCenter" Type="int32">
+										<Property Name="CenterPercentage" Type="int32">
 											<ValueList>
 												<Value>100</Value>
 											</ValueList>
@@ -4206,23 +4196,23 @@ Auto-Duck for HDRdbc bus</Comment>
 										<CustomStateList>
 											<CustomState>
 												<StateRef Name="STATE_overlay_hangar_general_on" ID="{02FBFA78-F4DF-43CF-905F-68C34613A84F}"/>
-												<State Name="" ID="{FD057E6E-A7A0-4440-A408-84FD761D7BA8}" ShortID="548923907">
+												<CustomState Name="" ID="{FD057E6E-A7A0-4440-A408-84FD761D7BA8}" ShortID="548923907">
 													<PropertyList>
 														<Property Name="BusVolume" Type="Real64" Value="-4"/>
 														<Property Name="Lowpass" Type="int16" Value="7"/>
 													</PropertyList>
-												</State>
+												</CustomState>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="STATE_overlay_hangar_general_off" ID="{6C92CBF3-3A6B-456A-96B4-3C1A2726E463}"/>
-												<State Name="" ID="{FBA2E0DB-F056-4DA3-A8B8-69983D4A6115}" ShortID="333927153"/>
+												<CustomState Name="" ID="{FBA2E0DB-F056-4DA3-A8B8-69983D4A6115}" ShortID="333927153"/>
 											</CustomState>
 										</CustomStateList>
 									</StateInfo>
 								</Bus>
 								<Bus Name="Lobby_music_researches" ID="{AFD55CE7-BB83-4941-A855-73FD49F8E5BA}">
 									<PropertyList>
-										<Property Name="DivergenceCenter" Type="int32">
+										<Property Name="CenterPercentage" Type="int32">
 											<ValueList>
 												<Value>100</Value>
 											</ValueList>
@@ -4237,23 +4227,23 @@ Auto-Duck for HDRdbc bus</Comment>
 										<CustomStateList>
 											<CustomState>
 												<StateRef Name="STATE_overlay_hangar_general_on" ID="{02FBFA78-F4DF-43CF-905F-68C34613A84F}"/>
-												<State Name="" ID="{B4066EEA-C364-4015-A793-DBBB32BEFA5C}" ShortID="751033666">
+												<CustomState Name="" ID="{B4066EEA-C364-4015-A793-DBBB32BEFA5C}" ShortID="751033666">
 													<PropertyList>
 														<Property Name="BusVolume" Type="Real64" Value="-6"/>
 														<Property Name="Lowpass" Type="int16" Value="24"/>
 													</PropertyList>
-												</State>
+												</CustomState>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="STATE_overlay_hangar_general_off" ID="{6C92CBF3-3A6B-456A-96B4-3C1A2726E463}"/>
-												<State Name="" ID="{8611006A-8B4D-4DC5-9EC6-AD5E3C89D2D9}" ShortID="619787026"/>
+												<CustomState Name="" ID="{8611006A-8B4D-4DC5-9EC6-AD5E3C89D2D9}" ShortID="619787026"/>
 											</CustomState>
 										</CustomStateList>
 									</StateInfo>
 								</Bus>
 								<Bus Name="Lobby_music_garage" ID="{C1F10E64-523E-485E-BF65-21C8863B10DD}">
 									<PropertyList>
-										<Property Name="DivergenceCenter" Type="int32">
+										<Property Name="CenterPercentage" Type="int32">
 											<ValueList>
 												<Value>100</Value>
 											</ValueList>
@@ -4262,7 +4252,7 @@ Auto-Duck for HDRdbc bus</Comment>
 									<ChildrenList>
 										<Bus Name="Lobby_music_garage_default" ID="{DF2A1F41-AA0C-4A44-A849-C562F02C0643}">
 											<PropertyList>
-												<Property Name="DivergenceCenter" Type="int32">
+												<Property Name="CenterPercentage" Type="int32">
 													<ValueList>
 														<Value>100</Value>
 													</ValueList>
@@ -4271,7 +4261,7 @@ Auto-Duck for HDRdbc bus</Comment>
 											<ChildrenList>
 												<AuxBus Name="AUX_multiband_dist_football" ID="{15D2AC8A-E5D9-4F6C-A413-587A739BE962}">
 													<PropertyList>
-														<Property Name="DivergenceCenter" Type="int32">
+														<Property Name="CenterPercentage" Type="int32">
 															<ValueList>
 																<Value>100</Value>
 															</ValueList>
@@ -4301,7 +4291,7 @@ Auto-Duck for HDRdbc bus</Comment>
 										</Bus>
 										<Bus Name="Lobby_music_garage_frontline" ID="{96023D21-449D-4B09-AAEB-EA8ED94A5714}">
 											<PropertyList>
-												<Property Name="DivergenceCenter" Type="int32">
+												<Property Name="CenterPercentage" Type="int32">
 													<ValueList>
 														<Value>100</Value>
 													</ValueList>
@@ -4310,7 +4300,7 @@ Auto-Duck for HDRdbc bus</Comment>
 										</Bus>
 										<Bus Name="Lobby_music_garage_ranked" ID="{C31A9486-F51F-424E-963D-1028598461C8}">
 											<PropertyList>
-												<Property Name="DivergenceCenter" Type="int32">
+												<Property Name="CenterPercentage" Type="int32">
 													<ValueList>
 														<Value>100</Value>
 													</ValueList>
@@ -4325,23 +4315,23 @@ Auto-Duck for HDRdbc bus</Comment>
 												<CustomStateList>
 													<CustomState>
 														<StateRef Name="STATE_overlay_hangar_general_on" ID="{02FBFA78-F4DF-43CF-905F-68C34613A84F}"/>
-														<State Name="" ID="{D49DC32F-2658-4A69-AE00-46B0DE47D157}" ShortID="916039440">
+														<CustomState Name="" ID="{D49DC32F-2658-4A69-AE00-46B0DE47D157}" ShortID="916039440">
 															<PropertyList>
 																<Property Name="BusVolume" Type="Real64" Value="-7"/>
 																<Property Name="Lowpass" Type="int16" Value="50"/>
 															</PropertyList>
-														</State>
+														</CustomState>
 													</CustomState>
 													<CustomState>
 														<StateRef Name="STATE_overlay_hangar_general_off" ID="{6C92CBF3-3A6B-456A-96B4-3C1A2726E463}"/>
-														<State Name="" ID="{F1E2B327-AA50-4DD8-8A5F-3CD0BCFD1B4A}" ShortID="944269080"/>
+														<CustomState Name="" ID="{F1E2B327-AA50-4DD8-8A5F-3CD0BCFD1B4A}" ShortID="944269080"/>
 													</CustomState>
 												</CustomStateList>
 											</StateInfo>
 										</Bus>
 										<Bus Name="Lobby_music_garage_bootcamp" ID="{F6DFB368-5234-4A41-B8FE-AA3BF685DBC4}">
 											<PropertyList>
-												<Property Name="DivergenceCenter" Type="int32">
+												<Property Name="CenterPercentage" Type="int32">
 													<ValueList>
 														<Value>100</Value>
 													</ValueList>
@@ -4358,18 +4348,18 @@ Auto-Duck for HDRdbc bus</Comment>
 										<CustomStateList>
 											<CustomState>
 												<StateRef Name="STATE_overlay_hangar_general_on" ID="{02FBFA78-F4DF-43CF-905F-68C34613A84F}"/>
-												<State Name="" ID="{3A629B5D-D252-4798-96CF-809CFE7AD343}" ShortID="449188899"/>
+												<CustomState Name="" ID="{3A629B5D-D252-4798-96CF-809CFE7AD343}" ShortID="449188899"/>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="STATE_overlay_hangar_general_off" ID="{6C92CBF3-3A6B-456A-96B4-3C1A2726E463}"/>
-												<State Name="" ID="{6006467E-3119-43C8-8FDF-D40779771EF0}" ShortID="165579909"/>
+												<CustomState Name="" ID="{6006467E-3119-43C8-8FDF-D40779771EF0}" ShortID="165579909"/>
 											</CustomState>
 										</CustomStateList>
 									</StateInfo>
 								</Bus>
 								<Bus Name="Lobby_music_tasks" ID="{30BC7DED-7576-4986-84F5-05A810588F8D}">
 									<PropertyList>
-										<Property Name="DivergenceCenter" Type="int32">
+										<Property Name="CenterPercentage" Type="int32">
 											<ValueList>
 												<Value>100</Value>
 											</ValueList>
@@ -4384,15 +4374,15 @@ Auto-Duck for HDRdbc bus</Comment>
 										<CustomStateList>
 											<CustomState>
 												<StateRef Name="STATE_overlay_hangar_general_on" ID="{02FBFA78-F4DF-43CF-905F-68C34613A84F}"/>
-												<State Name="" ID="{07466F02-EB85-4F9B-9BAD-C14C87F8B99B}" ShortID="52608125">
+												<CustomState Name="" ID="{07466F02-EB85-4F9B-9BAD-C14C87F8B99B}" ShortID="52608125">
 													<PropertyList>
 														<Property Name="BusVolume" Type="Real64" Value="-6"/>
 													</PropertyList>
-												</State>
+												</CustomState>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="STATE_overlay_hangar_general_off" ID="{6C92CBF3-3A6B-456A-96B4-3C1A2726E463}"/>
-												<State Name="" ID="{F9BBEF39-2F67-4257-B6B4-63079D0F8C1B}" ShortID="852448383"/>
+												<CustomState Name="" ID="{F9BBEF39-2F67-4257-B6B4-63079D0F8C1B}" ShortID="852448383"/>
 											</CustomState>
 										</CustomStateList>
 									</StateInfo>
@@ -4416,48 +4406,48 @@ Auto-Duck for HDRdbc bus</Comment>
 								<CustomStateList>
 									<CustomState>
 										<StateRef Name="STATE_video_overlay_on" ID="{39DCBFCB-2C77-42B7-825E-B186493AF79A}"/>
-										<State Name="" ID="{2BA274AD-246D-40EF-911F-65C3DB977657}" ShortID="614815567">
+										<CustomState Name="" ID="{2BA274AD-246D-40EF-911F-65C3DB977657}" ShortID="614815567">
 											<PropertyList>
 												<Property Name="BusVolume" Type="Real64" Value="-96"/>
 											</PropertyList>
-										</State>
+										</CustomState>
 									</CustomState>
 									<CustomState>
 										<StateRef Name="STATE_overlay_hangar_general_on" ID="{02FBFA78-F4DF-43CF-905F-68C34613A84F}"/>
-										<State Name="" ID="{FFA63AFF-3C69-407A-BDE3-64CA716E1F0E}" ShortID="397996628"/>
+										<CustomState Name="" ID="{FFA63AFF-3C69-407A-BDE3-64CA716E1F0E}" ShortID="397996628"/>
 									</CustomState>
 									<CustomState>
 										<StateRef Name="STATE_overlay_hangar_general_off" ID="{6C92CBF3-3A6B-456A-96B4-3C1A2726E463}"/>
-										<State Name="" ID="{FFD4534F-A2CF-4261-8899-E7E5E6500072}" ShortID="621504924"/>
+										<CustomState Name="" ID="{FFD4534F-A2CF-4261-8899-E7E5E6500072}" ShortID="621504924"/>
 									</CustomState>
 									<CustomState>
 										<StateRef Name="STATE_video_overlay_off" ID="{EC6772CA-A2B4-479C-B5BD-54D7C35FFBBB}"/>
-										<State Name="" ID="{89758CCA-2AC8-49B6-8276-1CA803E850E7}" ShortID="518306496"/>
+										<CustomState Name="" ID="{89758CCA-2AC8-49B6-8276-1CA803E850E7}" ShortID="518306496"/>
 									</CustomState>
 									<CustomState>
 										<StateRef Name="STATE_fortified_area_on" ID="{3C08466B-6C9C-48D8-BA06-39758FCB3C5B}"/>
-										<State Name="Custom State" ID="{DF3F10B0-46CB-499C-958D-71C6F359FB8D}" ShortID="848946502">
+										<CustomState Name="Custom State" ID="{DF3F10B0-46CB-499C-958D-71C6F359FB8D}" ShortID="848946502">
 											<PropertyList>
 												<Property Name="BusVolume" Type="Real64" Value="-96"/>
 											</PropertyList>
-										</State>
+										</CustomState>
 									</CustomState>
 									<CustomState>
 										<StateRef Name="STATE_hangar_filtered_off" ID="{B928BD72-334D-4B26-8910-F6B321F0A514}"/>
-										<State Name="" ID="{7D7ABF10-EC1C-4506-B3CA-B004569713BB}" ShortID="839636817"/>
+										<CustomState Name="" ID="{7D7ABF10-EC1C-4506-B3CA-B004569713BB}" ShortID="839636817"/>
 									</CustomState>
 									<CustomState>
 										<StateRef Name="STATE_hangar_filtered_on" ID="{D6802E60-372A-4B9B-B6DD-466C9553F289}"/>
-										<State Name="Custom State" ID="{FB212D1A-43F6-4F9A-B60D-8226B7360E50}" ShortID="454939563">
+										<CustomState Name="Custom State" ID="{FB212D1A-43F6-4F9A-B60D-8226B7360E50}" ShortID="454939563">
 											<PropertyList>
 												<Property Name="BusVolume" Type="Real64" Value="-6"/>
 												<Property Name="Lowpass" Type="int16" Value="35"/>
 											</PropertyList>
-										</State>
+										</CustomState>
 									</CustomState>
 									<CustomState>
 										<StateRef Name="STATE_fortified_area_off" ID="{62D70F5C-8456-4E56-B63A-BA55B584889A}"/>
-										<State Name="" ID="{20621396-E446-4603-B8A2-939ADAAE8317}" ShortID="52037735"/>
+										<CustomState Name="" ID="{20621396-E446-4603-B8A2-939ADAAE8317}" ShortID="52037735"/>
 									</CustomState>
 								</CustomStateList>
 							</StateInfo>
@@ -4469,7 +4459,7 @@ Auto-Duck for HDRdbc bus</Comment>
 										<Value>-12</Value>
 									</ValueList>
 								</Property>
-								<Property Name="DivergenceCenter" Type="int32">
+								<Property Name="CenterPercentage" Type="int32">
 									<ValueList>
 										<Value>100</Value>
 									</ValueList>
@@ -4484,145 +4474,32 @@ Auto-Duck for HDRdbc bus</Comment>
 								<CustomStateList>
 									<CustomState>
 										<StateRef Name="STATE_hangar_filtered_off" ID="{B928BD72-334D-4B26-8910-F6B321F0A514}"/>
-										<State Name="" ID="{D9B74E69-A8FA-4D2D-B493-C8383547EEAF}" ShortID="1007939822"/>
+										<CustomState Name="" ID="{D9B74E69-A8FA-4D2D-B493-C8383547EEAF}" ShortID="1007939822"/>
 									</CustomState>
 									<CustomState>
 										<StateRef Name="STATE_hangar_filtered_on" ID="{D6802E60-372A-4B9B-B6DD-466C9553F289}"/>
-										<State Name="Custom State" ID="{F997603E-036B-4AE5-81FD-77DAEC2C47A8}" ShortID="643776086">
+										<CustomState Name="Custom State" ID="{F997603E-036B-4AE5-81FD-77DAEC2C47A8}" ShortID="643776086">
 											<PropertyList>
 												<Property Name="BusVolume" Type="Real64" Value="-6"/>
 												<Property Name="Lowpass" Type="int16" Value="40"/>
 											</PropertyList>
-										</State>
+										</CustomState>
 									</CustomState>
 								</CustomStateList>
 							</StateInfo>
 						</Bus>
 						<Bus Name="LOBBY_MUSIC_RESULT" ID="{5DDDAA70-5A93-4EAB-8C32-6680943C43AC}">
 							<PropertyList>
-								<Property Name="3DPositionSource" Type="int16" Value="0"/>
-								<Property Name="DivergenceCenter" Type="int32">
+								<Property Name="3DPosition" Type="int16" Value="2"/>
+								<Property Name="CenterPercentage" Type="int32">
 									<ValueList>
 										<Value>100</Value>
 									</ValueList>
 								</Property>
-								<Property Name="EnablePositioning" Type="bool" Value="True"/>
-								<Property Name="FollowListenerOrientation" Type="bool" Value="False"/>
+								<Property Name="HoldListenerOrientation" Type="bool" Value="True"/>
+								<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
-								<Reference Name="Attenuation">
-									<Custom>
-										<Attenuation Name="Attenuation (Custom)" ID="{DD5C5306-3EA7-47C4-9A13-79558F43C158}" ShortID="856341388">
-											<PropertyList>
-												<Property Name="RadiusMax" Type="Real64" Value="60"/>
-											</PropertyList>
-											<CurveUsageInfoList>
-												<VolumeDryUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="VolumeDry" ID="{17C197B4-FDA1-4F95-8F18-32D8BB8632AA}">
-															<PropertyList>
-																<Property Name="Flags" Type="int32" Value="3"/>
-															</PropertyList>
-															<PointList>
-																<Point>
-																	<XPos>0</XPos>
-																	<YPos>0</YPos>
-																	<Flags>5</Flags>
-																	<SegmentShape>SCurve</SegmentShape>
-																</Point>
-																<Point>
-																	<XPos>60</XPos>
-																	<YPos>-3</YPos>
-																	<Flags>37</Flags>
-																</Point>
-															</PointList>
-														</Curve>
-													</CurveUsageInfo>
-												</VolumeDryUsage>
-												<VolumeWetGameUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-												</VolumeWetGameUsage>
-												<VolumeWetUserUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry">
-														<Curve Name="VolumeWetUser" ID="{C8C94FFB-942F-4AE9-81B3-EC34399A42CE}">
-															<PropertyList>
-																<Property Name="Flags" Type="int32" Value="3"/>
-															</PropertyList>
-															<PointList>
-																<Point>
-																	<XPos>0</XPos>
-																	<YPos>0</YPos>
-																	<Flags>5</Flags>
-																</Point>
-																<Point>
-																	<XPos>60</XPos>
-																	<YPos>0</YPos>
-																	<Flags>37</Flags>
-																</Point>
-															</PointList>
-														</Curve>
-													</CurveUsageInfo>
-												</VolumeWetUserUsage>
-												<LowPassFilterUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</LowPassFilterUsage>
-												<HighPassFilterUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</HighPassFilterUsage>
-												<SpreadUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="Spread" ID="{E6EEDFC6-87AC-49C8-9C47-C70C298DE1DC}">
-															<PropertyList>
-																<Property Name="Flags" Type="int32" Value="1"/>
-															</PropertyList>
-															<PointList>
-																<Point>
-																	<XPos>0</XPos>
-																	<YPos>100</YPos>
-																	<Flags>5</Flags>
-																	<SegmentShape>Log1</SegmentShape>
-																</Point>
-																<Point>
-																	<XPos>60</XPos>
-																	<YPos>20</YPos>
-																	<Flags>37</Flags>
-																</Point>
-															</PointList>
-														</Curve>
-													</CurveUsageInfo>
-												</SpreadUsage>
-												<FocusUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="Focus" ID="{0D67EBF6-9C17-4662-BCBE-9AE2A1B3C89B}">
-															<PropertyList>
-																<Property Name="Flags" Type="int32" Value="1"/>
-															</PropertyList>
-															<PointList>
-																<Point>
-																	<XPos>0</XPos>
-																	<YPos>100</YPos>
-																	<Flags>5</Flags>
-																	<SegmentShape>Log1</SegmentShape>
-																</Point>
-																<Point>
-																	<XPos>7.809525</XPos>
-																	<YPos>100</YPos>
-																	<Flags>0</Flags>
-																	<SegmentShape>Log2</SegmentShape>
-																</Point>
-																<Point>
-																	<XPos>60</XPos>
-																	<YPos>70</YPos>
-																	<Flags>37</Flags>
-																</Point>
-															</PointList>
-														</Curve>
-													</CurveUsageInfo>
-												</FocusUsage>
-											</CurveUsageInfoList>
-										</Attenuation>
-									</Custom>
-								</Reference>
 								<Reference Name="Effect0">
 									<Custom>
 										<Effect Name="McDSP FutzBox (Custom)" ID="{FB38373D-2213-4BC2-9AB7-0EA8E1F6739F}" ShortID="211091014" PluginName="McDSP FutzBox" CompanyID="256" PluginID="110" PluginType="3">
@@ -4660,7 +4537,7 @@ Auto-Duck for HDRdbc bus</Comment>
 									<ChildrenList>
 										<Path2D Name="LOBBY_MUSIC_RESULT_Path_02" ID="{0F0286CF-09FF-4A5D-8363-111069165587}">
 											<PropertyList>
-												<Property Name="Duration" Type="int32" Value="10000"/>
+												<Property Name="Duration" Type="Uint32" Value="10000"/>
 											</PropertyList>
 											<PointList>
 												<Point>
@@ -4724,15 +4601,15 @@ Auto-Duck for HDRdbc bus</Comment>
 								<CustomStateList>
 									<CustomState>
 										<StateRef Name="STATE_overlay_hangar_general_on" ID="{02FBFA78-F4DF-43CF-905F-68C34613A84F}"/>
-										<State Name="" ID="{7F878085-7D47-41BB-A9CF-1540D4960872}" ShortID="10593001">
+										<CustomState Name="" ID="{7F878085-7D47-41BB-A9CF-1540D4960872}" ShortID="10593001">
 											<PropertyList>
 												<Property Name="BusVolume" Type="Real64" Value="-96"/>
 											</PropertyList>
-										</State>
+										</CustomState>
 									</CustomState>
 									<CustomState>
 										<StateRef Name="STATE_overlay_hangar_general_off" ID="{6C92CBF3-3A6B-456A-96B4-3C1A2726E463}"/>
-										<State Name="" ID="{57CF45D5-B498-4929-A72E-6D6DE52ACF6B}" ShortID="512913874"/>
+										<CustomState Name="" ID="{57CF45D5-B498-4929-A72E-6D6DE52ACF6B}" ShortID="512913874"/>
 									</CustomState>
 								</CustomStateList>
 							</StateInfo>
@@ -4759,7 +4636,7 @@ Auto-Duck for HDRdbc bus</Comment>
 						</Bus>
 						<Bus Name="LOBBY_VIDEO" ID="{578451B4-8017-445F-88D8-03DFC4A44490}">
 							<PropertyList>
-								<Property Name="DivergenceCenter" Type="int32">
+								<Property Name="CenterPercentage" Type="int32">
 									<ValueList>
 										<Value>100</Value>
 									</ValueList>
@@ -4774,15 +4651,15 @@ Auto-Duck for HDRdbc bus</Comment>
 								<CustomStateList>
 									<CustomState>
 										<StateRef Name="STATE_video_overlay_on" ID="{39DCBFCB-2C77-42B7-825E-B186493AF79A}"/>
-										<State Name="" ID="{CC6EE1AC-152B-47B1-AA6C-5A45E335E5EF}" ShortID="136605892"/>
+										<CustomState Name="" ID="{CC6EE1AC-152B-47B1-AA6C-5A45E335E5EF}" ShortID="136605892"/>
 									</CustomState>
 									<CustomState>
 										<StateRef Name="STATE_video_overlay_off" ID="{EC6772CA-A2B4-479C-B5BD-54D7C35FFBBB}"/>
-										<State Name="" ID="{0EE532BA-89BA-48AA-814E-3A2B435A7C65}" ShortID="143045618">
+										<CustomState Name="" ID="{0EE532BA-89BA-48AA-814E-3A2B435A7C65}" ShortID="143045618">
 											<PropertyList>
 												<Property Name="BusVolume" Type="Real64" Value="-96"/>
 											</PropertyList>
-										</State>
+										</CustomState>
 									</CustomState>
 								</CustomStateList>
 							</StateInfo>
@@ -4796,7 +4673,7 @@ Auto-Duck for HDRdbc bus</Comment>
 								<Value>-96</Value>
 							</ValueList>
 						</Property>
-						<Property Name="DivergenceCenter" Type="int32">
+						<Property Name="CenterPercentage" Type="int32">
 							<ValueList>
 								<Value>100</Value>
 							</ValueList>

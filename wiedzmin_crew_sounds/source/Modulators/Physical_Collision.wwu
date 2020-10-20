@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{4BB0526B-7883-436E-AAD3-EC1BA2C8179B}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{4BB0526B-7883-436E-AAD3-EC1BA2C8179B}" SchemaVersion="97">
 	<Modulators>
 		<WorkUnit Name="Physical_Collision" ID="{4BB0526B-7883-436E-AAD3-EC1BA2C8179B}" PersistMode="Standalone">
 			<ChildrenList>

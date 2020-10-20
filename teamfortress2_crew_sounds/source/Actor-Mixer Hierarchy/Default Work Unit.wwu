@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{65190E54-2D13-4236-B92A-68EECE61A842}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{65190E54-2D13-4236-B92A-68EECE61A842}" SchemaVersion="97">
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{65190E54-2D13-4236-B92A-68EECE61A842}" PersistMode="Standalone">
 			<PropertyList>
@@ -57,9 +57,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Audio 2017-07-04 17-33-16" ID="{0CB01A43-2243-4552-9E98-F9D2F4A4076B}" ShortID="281197797">
+										<AudioFileSource Name="Audio 2017-07-04 17-33-16" ID="{0CB01A43-2243-4552-9E98-F9D2F4A4076B}">
 											<Language>SFX</Language>
 											<AudioFile>enemy_sighted_for_team\Audio 2017-07-04 17-33-16.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="281197797"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -76,9 +79,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Audio 2017-07-04 17-31-28" ID="{7D1FE1F7-427D-4892-B801-ED1AF45B19D9}" ShortID="837327769">
+										<AudioFileSource Name="Audio 2017-07-04 17-31-28" ID="{7D1FE1F7-427D-4892-B801-ED1AF45B19D9}">
 											<Language>SFX</Language>
 											<AudioFile>enemy_sighted_for_team\Audio 2017-07-04 17-31-28.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="837327769"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -95,9 +101,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Audio 2017-07-04 17-31-20" ID="{E48BAC96-2D71-4A5F-A140-239A1CCD4C85}" ShortID="26611225">
+										<AudioFileSource Name="Audio 2017-07-04 17-31-20" ID="{E48BAC96-2D71-4A5F-A140-239A1CCD4C85}">
 											<Language>SFX</Language>
 											<AudioFile>enemy_sighted_for_team\Audio 2017-07-04 17-31-20.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="26611225"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -137,9 +146,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_autoonfire01_Fire,_Fire," ID="{35A2C157-5E21-462F-9F41-88CE30E8A2CE}" ShortID="845525680">
+										<AudioFileSource Name="Heavy_autoonfire01_Fire,_Fire," ID="{35A2C157-5E21-462F-9F41-88CE30E8A2CE}">
 											<Language>SFX</Language>
 											<AudioFile>gun_reloaded\Heavy_autoonfire01_Fire,_Fire,.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="845525680"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -156,9 +168,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_autoonfire02_FIRE!" ID="{75DFDC8A-499C-4EA0-A502-1AC9D1DA3AF7}" ShortID="376371281">
+										<AudioFileSource Name="Heavy_autoonfire02_FIRE!" ID="{75DFDC8A-499C-4EA0-A502-1AC9D1DA3AF7}">
 											<Language>SFX</Language>
 											<AudioFile>gun_reloaded\Heavy_autoonfire02_FIRE!.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="376371281"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -191,9 +206,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_meleedare03_Fight_me,_co" ID="{36DE4D34-DFAC-4952-AD63-FEB9168BAB0B}" ShortID="511293182">
+										<AudioFileSource Name="Heavy_meleedare03_Fight_me,_co" ID="{36DE4D34-DFAC-4952-AD63-FEB9168BAB0B}">
 											<Language>SFX</Language>
 											<AudioFile>lightbulb\Heavy_meleedare03_Fight_me,_co.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="511293182"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -210,9 +228,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Audio 2017-07-04 17-28-59" ID="{971B9614-DD37-4540-9F2D-65926E4E8B91}" ShortID="847949279">
+										<AudioFileSource Name="Audio 2017-07-04 17-28-59" ID="{971B9614-DD37-4540-9F2D-65926E4E8B91}">
 											<Language>SFX</Language>
 											<AudioFile>lightbulb\Audio 2017-07-04 17-28-59.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="847949279"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -245,9 +266,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_jeers09_How_could_this_h" ID="{4BCC4E5E-81CD-4087-829C-05E56FF2E58D}" ShortID="126051177">
+										<AudioFileSource Name="Heavy_jeers09_How_could_this_h" ID="{4BCC4E5E-81CD-4087-829C-05E56FF2E58D}">
 											<Language>SFX</Language>
 											<AudioFile>vo_ally_killed_by_player\Heavy_jeers09_How_could_this_h.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="126051177"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -280,9 +304,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_meleeing01_BOOM!" ID="{11D98085-7DB7-409D-AFE6-40335B81F850}" ShortID="325265647">
+										<AudioFileSource Name="Heavy_meleeing01_BOOM!" ID="{11D98085-7DB7-409D-AFE6-40335B81F850}">
 											<Language>SFX</Language>
 											<AudioFile>vo_ammo_bay_damaged\Heavy_meleeing01_BOOM!.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="325265647"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -315,9 +342,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_jeers08_Tell_me,_where_d" ID="{F252B48B-2A78-4EA6-A0D7-4B5816DE0F10}" ShortID="795575700">
+										<AudioFileSource Name="Heavy_jeers08_Tell_me,_where_d" ID="{F252B48B-2A78-4EA6-A0D7-4B5816DE0F10}">
 											<Language>SFX</Language>
 											<AudioFile>vo_armor_not_pierced_by_player\Heavy_jeers08_Tell_me,_where_d.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="795575700"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -334,9 +364,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_battlecry05_Yaaaargh!" ID="{D98A9C72-1A32-4530-90ED-7EF84C7979E2}" ShortID="441084808">
+										<AudioFileSource Name="Heavy_battlecry05_Yaaaargh!" ID="{D98A9C72-1A32-4530-90ED-7EF84C7979E2}">
 											<Language>SFX</Language>
 											<AudioFile>vo_armor_not_pierced_by_player\Heavy_battlecry05_Yaaaargh!.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="441084808"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -353,9 +386,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_domination02_You_are_no_" ID="{E98021CE-C4D2-4C11-A1B8-2D5C206F474E}" ShortID="131356976">
+										<AudioFileSource Name="Heavy_domination02_You_are_no_" ID="{E98021CE-C4D2-4C11-A1B8-2D5C206F474E}">
 											<Language>SFX</Language>
 											<AudioFile>vo_armor_not_pierced_by_player\Heavy_domination02_You_are_no_.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="131356976"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -372,9 +408,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_jeers04_OHHHHH" ID="{EB340E22-412F-4391-A875-9BB1A0406A2B}" ShortID="819391843">
+										<AudioFileSource Name="Heavy_jeers04_OHHHHH" ID="{EB340E22-412F-4391-A875-9BB1A0406A2B}">
 											<Language>SFX</Language>
 											<AudioFile>vo_armor_not_pierced_by_player\Heavy_jeers04_OHHHHH.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="819391843"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -391,9 +430,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Audio 2017-07-04 17-27-54" ID="{9BFF0402-A6F6-4DFD-B34E-3FAAA3E27F3A}" ShortID="345595264">
+										<AudioFileSource Name="Audio 2017-07-04 17-27-54" ID="{9BFF0402-A6F6-4DFD-B34E-3FAAA3E27F3A}">
 											<Language>SFX</Language>
 											<AudioFile>vo_armor_not_pierced_by_player\Audio 2017-07-04 17-27-54.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="345595264"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -426,9 +468,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Audio 2017-07-04 17-25-10" ID="{C38632A9-E061-4065-8C9F-CEDE960BBDBA}" ShortID="876275799">
+										<AudioFileSource Name="Audio 2017-07-04 17-25-10" ID="{C38632A9-E061-4065-8C9F-CEDE960BBDBA}">
 											<Language>SFX</Language>
 											<AudioFile>vo_armor_ricochet_by_player\Audio 2017-07-04 17-25-10.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="876275799"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -445,9 +490,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_domination10_Do_I_smell_" ID="{3D7A58C9-D158-4B84-8D10-87377D4C4D2F}" ShortID="676267544">
+										<AudioFileSource Name="Heavy_domination10_Do_I_smell_" ID="{3D7A58C9-D158-4B84-8D10-87377D4C4D2F}">
 											<Language>SFX</Language>
 											<AudioFile>vo_armor_ricochet_by_player\Heavy_domination10_Do_I_smell_.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="676267544"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -464,9 +512,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_jeers02_ARRRRGH!" ID="{094E6ACA-CE49-4EE5-A9FE-715D7ED92064}" ShortID="8928924">
+										<AudioFileSource Name="Heavy_jeers02_ARRRRGH!" ID="{094E6ACA-CE49-4EE5-A9FE-715D7ED92064}">
 											<Language>SFX</Language>
 											<AudioFile>vo_armor_ricochet_by_player\Heavy_jeers02_ARRRRGH!.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="8928924"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -483,9 +534,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_jeers05_OHHHHH,_IT_IS_SA" ID="{339BE163-0AC3-444F-907C-59675B5AE84F}" ShortID="267673355">
+										<AudioFileSource Name="Heavy_jeers05_OHHHHH,_IT_IS_SA" ID="{339BE163-0AC3-444F-907C-59675B5AE84F}">
 											<Language>SFX</Language>
 											<AudioFile>vo_armor_ricochet_by_player\Heavy_jeers05_OHHHHH,_IT_IS_SA.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="267673355"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -518,9 +572,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_revenge04_Never,_never,_" ID="{6180FEBA-75B2-4356-AFE5-D079B36C08AD}" ShortID="1064814399">
+										<AudioFileSource Name="Heavy_revenge04_Never,_never,_" ID="{6180FEBA-75B2-4356-AFE5-D079B36C08AD}">
 											<Language>SFX</Language>
 											<AudioFile>vo_commander_killed\Heavy_revenge04_Never,_never,_.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1064814399"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -553,9 +610,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_meleedare04_Hit_me" ID="{E31B26F4-B6D5-4238-8A5C-EA80239F0356}" ShortID="862972030">
+										<AudioFileSource Name="Heavy_meleedare04_Hit_me" ID="{E31B26F4-B6D5-4238-8A5C-EA80239F0356}">
 											<Language>SFX</Language>
 											<AudioFile>vo_damage_by_near_explosion_by_enemy\Heavy_meleedare04_Hit_me.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="862972030"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -572,9 +632,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_taunts19_What_sick_man_s" ID="{4A6AB9D7-6C87-4D97-92A4-2C35890E82D4}" ShortID="1799900">
+										<AudioFileSource Name="Heavy_taunts19_What_sick_man_s" ID="{4A6AB9D7-6C87-4D97-92A4-2C35890E82D4}">
 											<Language>SFX</Language>
 											<AudioFile>vo_damage_by_near_explosion_by_enemy\Heavy_taunts19_What_sick_man_s.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1799900"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -591,9 +654,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_yell1_Beeeeehhhhh!" ID="{AAB9D544-C0B5-44C8-A029-B4ACDBE893A0}" ShortID="539725146">
+										<AudioFileSource Name="Heavy_yell1_Beeeeehhhhh!" ID="{AAB9D544-C0B5-44C8-A029-B4ACDBE893A0}">
 											<Language>SFX</Language>
 											<AudioFile>vo_damage_by_near_explosion_by_enemy\Heavy_yell1_Beeeeehhhhh!.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="539725146"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -626,9 +692,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_meleedare05_I_will_kill_" ID="{F2184D52-A6C7-4571-9DCF-CA343F18BD9F}" ShortID="104801098">
+										<AudioFileSource Name="Heavy_meleedare05_I_will_kill_" ID="{F2184D52-A6C7-4571-9DCF-CA343F18BD9F}">
 											<Language>SFX</Language>
 											<AudioFile>vo_damage_by_near_explosion_by_player\Heavy_meleedare05_I_will_kill_.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="104801098"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -645,9 +714,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_specialcompleted02_I_des" ID="{7BED4CD0-7295-4D9F-A23F-B5DDBF016B8E}" ShortID="760170351">
+										<AudioFileSource Name="Heavy_specialcompleted02_I_des" ID="{7BED4CD0-7295-4D9F-A23F-B5DDBF016B8E}">
 											<Language>SFX</Language>
 											<AudioFile>vo_damage_by_near_explosion_by_player\Heavy_specialcompleted02_I_des.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="760170351"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -664,9 +736,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_specialcompleted11_Gleef" ID="{0C044234-6B75-4833-8071-68F3EAD21B43}" ShortID="451501733">
+										<AudioFileSource Name="Heavy_specialcompleted11_Gleef" ID="{0C044234-6B75-4833-8071-68F3EAD21B43}">
 											<Language>SFX</Language>
 											<AudioFile>vo_damage_by_near_explosion_by_player\Heavy_specialcompleted11_Gleef.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="451501733"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -683,9 +758,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Audio 2017-07-04 17-31-35" ID="{E35A3E1C-0AFB-4B38-8916-5790C5551D78}" ShortID="386791969">
+										<AudioFileSource Name="Audio 2017-07-04 17-31-35" ID="{E35A3E1C-0AFB-4B38-8916-5790C5551D78}">
 											<Language>SFX</Language>
 											<AudioFile>vo_damage_by_near_explosion_by_player\Audio 2017-07-04 17-31-35.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="386791969"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -702,9 +780,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_domination08_I_have_plan" ID="{A1B2CFA5-E8C3-44FB-891B-D6181255D82D}" ShortID="62058550">
+										<AudioFileSource Name="Heavy_domination08_I_have_plan" ID="{A1B2CFA5-E8C3-44FB-891B-D6181255D82D}">
 											<Language>SFX</Language>
 											<AudioFile>vo_damage_by_near_explosion_by_player\Heavy_domination08_I_have_plan.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="62058550"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -721,9 +802,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_jeers01_BOOOOOOO!" ID="{1E986B20-EDC4-48E2-93CA-B23AB05A339D}" ShortID="769076707">
+										<AudioFileSource Name="Heavy_jeers01_BOOOOOOO!" ID="{1E986B20-EDC4-48E2-93CA-B23AB05A339D}">
 											<Language>SFX</Language>
 											<AudioFile>vo_damage_by_near_explosion_by_player\Heavy_jeers01_BOOOOOOO!.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="769076707"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -740,9 +824,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Audio 2017-07-04 17-28-26" ID="{39A2DC46-17D2-4C92-AB58-1C8248E784C1}" ShortID="206633346">
+										<AudioFileSource Name="Audio 2017-07-04 17-28-26" ID="{39A2DC46-17D2-4C92-AB58-1C8248E784C1}">
 											<Language>SFX</Language>
 											<AudioFile>vo_damage_by_near_explosion_by_player\Audio 2017-07-04 17-28-26.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="206633346"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -759,9 +846,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Audio 2017-07-04 17-27-33" ID="{F3E8D09B-2D98-41D3-929D-CD6917F4DB19}" ShortID="750606175">
+										<AudioFileSource Name="Audio 2017-07-04 17-27-33" ID="{F3E8D09B-2D98-41D3-929D-CD6917F4DB19}">
 											<Language>SFX</Language>
 											<AudioFile>vo_damage_by_near_explosion_by_player\Audio 2017-07-04 17-27-33.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="750606175"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -794,9 +884,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Audio 2017-07-04 17-30-00" ID="{FE904372-2BDF-4725-805E-2C3228A015ED}" ShortID="688361626">
+										<AudioFileSource Name="Audio 2017-07-04 17-30-00" ID="{FE904372-2BDF-4725-805E-2C3228A015ED}">
 											<Language>SFX</Language>
 											<AudioFile>vo_driver_killed\Audio 2017-07-04 17-30-00.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="688361626"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -813,9 +906,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_taunts09_I_was_told_we_w" ID="{89D9D2FD-3294-499F-B1C0-F8999711F1DB}" ShortID="528248688">
+										<AudioFileSource Name="Heavy_taunts09_I_was_told_we_w" ID="{89D9D2FD-3294-499F-B1C0-F8999711F1DB}">
 											<Language>SFX</Language>
 											<AudioFile>vo_driver_killed\Heavy_taunts09_I_was_told_we_w.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="528248688"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -848,9 +944,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Audio 2017-07-04 17-23-50" ID="{BD8324D8-32CE-4164-AD62-1E9B9E199327}" ShortID="589095374">
+										<AudioFileSource Name="Audio 2017-07-04 17-23-50" ID="{BD8324D8-32CE-4164-AD62-1E9B9E199327}">
 											<Language>SFX</Language>
 											<AudioFile>vo_enemy_fire_started_by_player\Audio 2017-07-04 17-23-50.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="589095374"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -867,9 +966,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_cheers04_AHAHAHA!" ID="{B5978A03-BA85-4279-9965-C2C6B100BFD2}" ShortID="209370456">
+										<AudioFileSource Name="Heavy_cheers04_AHAHAHA!" ID="{B5978A03-BA85-4279-9965-C2C6B100BFD2}">
 											<Language>SFX</Language>
 											<AudioFile>vo_enemy_fire_started_by_player\Heavy_cheers04_AHAHAHA!.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="209370456"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -902,9 +1004,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_niceshot02_POW!_haha!" ID="{F9C008D3-BCF9-4212-B7BE-11AA43A49D29}" ShortID="547169988">
+										<AudioFileSource Name="Heavy_niceshot02_POW!_haha!" ID="{F9C008D3-BCF9-4212-B7BE-11AA43A49D29}">
 											<Language>SFX</Language>
 											<AudioFile>vo_enemy_hp_damaged_by_explosion_at_direct_hit_by_player\Heavy_niceshot02_POW!_haha!.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="547169988"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -921,9 +1026,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_revenge03_Let_this_be_le" ID="{3413DDBB-9BD5-455D-9341-389DFDEE316F}" ShortID="123340883">
+										<AudioFileSource Name="Heavy_revenge03_Let_this_be_le" ID="{3413DDBB-9BD5-455D-9341-389DFDEE316F}">
 											<Language>SFX</Language>
 											<AudioFile>vo_enemy_hp_damaged_by_explosion_at_direct_hit_by_player\Heavy_revenge03_Let_this_be_le.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="123340883"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -940,9 +1048,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_revenge06_You_feel_shame" ID="{3BDD1113-2256-410B-8701-90FA9CFC2FB6}" ShortID="415910104">
+										<AudioFileSource Name="Heavy_revenge06_You_feel_shame" ID="{3BDD1113-2256-410B-8701-90FA9CFC2FB6}">
 											<Language>SFX</Language>
 											<AudioFile>vo_enemy_hp_damaged_by_explosion_at_direct_hit_by_player\Heavy_revenge06_You_feel_shame.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="415910104"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -959,9 +1070,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_specialcompleted06_I_AM_" ID="{2D5461C1-0473-4CB6-A6AC-327CD1D2721E}" ShortID="937992001">
+										<AudioFileSource Name="Heavy_specialcompleted06_I_AM_" ID="{2D5461C1-0473-4CB6-A6AC-327CD1D2721E}">
 											<Language>SFX</Language>
 											<AudioFile>vo_enemy_hp_damaged_by_explosion_at_direct_hit_by_player\Heavy_specialcompleted06_I_AM_.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="937992001"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -978,9 +1092,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Audio 2017-07-04 17-28-33" ID="{6E4C5B9E-B4BA-4903-8607-5790F0ABCAA2}" ShortID="288464682">
+										<AudioFileSource Name="Audio 2017-07-04 17-28-33" ID="{6E4C5B9E-B4BA-4903-8607-5790F0ABCAA2}">
 											<Language>SFX</Language>
 											<AudioFile>vo_enemy_hp_damaged_by_explosion_at_direct_hit_by_player\Audio 2017-07-04 17-28-33.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="288464682"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -997,9 +1114,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Audio 2017-07-04 17-34-32" ID="{215AA51F-2314-4023-AE57-E1EAE136944B}" ShortID="493424714">
+										<AudioFileSource Name="Audio 2017-07-04 17-34-32" ID="{215AA51F-2314-4023-AE57-E1EAE136944B}">
 											<Language>SFX</Language>
 											<AudioFile>vo_enemy_hp_damaged_by_explosion_at_direct_hit_by_player\Audio 2017-07-04 17-34-32.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="493424714"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -1016,9 +1136,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_jeers06_Which_one_of_you" ID="{A85CDBDF-8C09-4A8C-9802-5B44D77C2A1B}" ShortID="77629732">
+										<AudioFileSource Name="Heavy_jeers06_Which_one_of_you" ID="{A85CDBDF-8C09-4A8C-9802-5B44D77C2A1B}">
 											<Language>SFX</Language>
 											<AudioFile>vo_enemy_hp_damaged_by_explosion_at_direct_hit_by_player\Heavy_jeers06_Which_one_of_you.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="77629732"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -1035,9 +1158,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Audio 2017-07-04 17-31-55" ID="{D37DC0B4-BA5C-4DA4-939F-C4BD8051C91E}" ShortID="77814019">
+										<AudioFileSource Name="Audio 2017-07-04 17-31-55" ID="{D37DC0B4-BA5C-4DA4-939F-C4BD8051C91E}">
 											<Language>SFX</Language>
 											<AudioFile>vo_enemy_hp_damaged_by_explosion_at_direct_hit_by_player\Audio 2017-07-04 17-31-55.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="77814019"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -1054,9 +1180,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_laughshort02_Hah!" ID="{DA1A59DA-747B-4B40-A709-7A37253EF7DE}" ShortID="441109059">
+										<AudioFileSource Name="Heavy_laughshort02_Hah!" ID="{DA1A59DA-747B-4B40-A709-7A37253EF7DE}">
 											<Language>SFX</Language>
 											<AudioFile>vo_enemy_hp_damaged_by_explosion_at_direct_hit_by_player\Heavy_laughshort02_Hah!.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="441109059"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -1073,9 +1202,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Audio 2017-07-04 17-30-14" ID="{547F463D-86B8-42FA-BCA1-5218EAD3808E}" ShortID="106754398">
+										<AudioFileSource Name="Audio 2017-07-04 17-30-14" ID="{547F463D-86B8-42FA-BCA1-5218EAD3808E}">
 											<Language>SFX</Language>
 											<AudioFile>vo_enemy_hp_damaged_by_explosion_at_direct_hit_by_player\Audio 2017-07-04 17-30-14.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="106754398"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -1092,9 +1224,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_yell3_Wahahahahaha!" ID="{AD06971A-ADD2-4D85-8D34-9FD3E03A3CB3}" ShortID="210532263">
+										<AudioFileSource Name="Heavy_yell3_Wahahahahaha!" ID="{AD06971A-ADD2-4D85-8D34-9FD3E03A3CB3}">
 											<Language>SFX</Language>
 											<AudioFile>vo_enemy_hp_damaged_by_explosion_at_direct_hit_by_player\Heavy_yell3_Wahahahahaha!.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="210532263"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -1111,9 +1246,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_cheers01_YES!" ID="{53327400-16E1-422F-9617-20B5F5A952F4}" ShortID="557363904">
+										<AudioFileSource Name="Heavy_cheers01_YES!" ID="{53327400-16E1-422F-9617-20B5F5A952F4}">
 											<Language>SFX</Language>
 											<AudioFile>vo_enemy_hp_damaged_by_explosion_at_direct_hit_by_player\Heavy_cheers01_YES!.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="557363904"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -1130,9 +1268,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_domination16_I_am_going_" ID="{9732C6B1-80E8-4B74-AD6B-B5694519C26A}" ShortID="592983945">
+										<AudioFileSource Name="Heavy_domination16_I_am_going_" ID="{9732C6B1-80E8-4B74-AD6B-B5694519C26A}">
 											<Language>SFX</Language>
 											<AudioFile>vo_enemy_hp_damaged_by_explosion_at_direct_hit_by_player\Heavy_domination16_I_am_going_.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="592983945"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -1149,9 +1290,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_meleeing03_TAKE_THAT!" ID="{F982D144-B45B-42E0-A499-16F3A01CCB9C}" ShortID="752477548">
+										<AudioFileSource Name="Heavy_meleeing03_TAKE_THAT!" ID="{F982D144-B45B-42E0-A499-16F3A01CCB9C}">
 											<Language>SFX</Language>
 											<AudioFile>vo_enemy_hp_damaged_by_explosion_at_direct_hit_by_player\Heavy_meleeing03_TAKE_THAT!.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="752477548"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -1168,9 +1312,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_domination09_AHAHAHAHAHA" ID="{381705B1-C772-49F7-9A55-00BBD10BF754}" ShortID="853728309">
+										<AudioFileSource Name="Heavy_domination09_AHAHAHAHAHA" ID="{381705B1-C772-49F7-9A55-00BBD10BF754}">
 											<Language>SFX</Language>
 											<AudioFile>vo_enemy_hp_damaged_by_explosion_at_direct_hit_by_player\Heavy_domination09_AHAHAHAHAHA.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="853728309"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -1203,9 +1350,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Audio 2017-07-04 17-30-29" ID="{FF82C13E-7DC6-4092-B29C-5B84CC6B3A64}" ShortID="657926855">
+										<AudioFileSource Name="Audio 2017-07-04 17-30-29" ID="{FF82C13E-7DC6-4092-B29C-5B84CC6B3A64}">
 											<Language>SFX</Language>
 											<AudioFile>vo_enemy_killed_by_player\Audio 2017-07-04 17-30-29.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="657926855"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -1222,9 +1372,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_award03_It_is_good_day_t" ID="{46403DB9-652A-4B39-BCC6-A04FD1329C4A}" ShortID="723339225">
+										<AudioFileSource Name="Heavy_award03_It_is_good_day_t" ID="{46403DB9-652A-4B39-BCC6-A04FD1329C4A}">
 											<Language>SFX</Language>
 											<AudioFile>vo_enemy_killed_by_player\Heavy_award03_It_is_good_day_t.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="723339225"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -1241,9 +1394,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_award15_I_am_big_war_her" ID="{E6E49F6A-8E1B-40FB-94F9-AFFD2E896CB9}" ShortID="1031820510">
+										<AudioFileSource Name="Heavy_award15_I_am_big_war_her" ID="{E6E49F6A-8E1B-40FB-94F9-AFFD2E896CB9}">
 											<Language>SFX</Language>
 											<AudioFile>vo_enemy_killed_by_player\Heavy_award15_I_am_big_war_her.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1031820510"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -1260,9 +1416,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_cheers05_We_are_killers!" ID="{4560D4FF-8F7D-4754-8238-FD7B00FFAF38}" ShortID="599227986">
+										<AudioFileSource Name="Heavy_cheers05_We_are_killers!" ID="{4560D4FF-8F7D-4754-8238-FD7B00FFAF38}">
 											<Language>SFX</Language>
 											<AudioFile>vo_enemy_killed_by_player\Heavy_cheers05_We_are_killers!.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="599227986"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -1279,9 +1438,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_domination15_The_burning" ID="{50758582-2C6A-47A7-92D0-69CB238A59F5}" ShortID="744559194">
+										<AudioFileSource Name="Heavy_domination15_The_burning" ID="{50758582-2C6A-47A7-92D0-69CB238A59F5}">
 											<Language>SFX</Language>
 											<AudioFile>vo_enemy_killed_by_player\Heavy_domination15_The_burning.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="744559194"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -1298,9 +1460,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_jeers07_Daaaagh,_too_man" ID="{C17B16C6-1B89-42A4-838B-E9DED34F5F8B}" ShortID="508535741">
+										<AudioFileSource Name="Heavy_jeers07_Daaaagh,_too_man" ID="{C17B16C6-1B89-42A4-838B-E9DED34F5F8B}">
 											<Language>SFX</Language>
 											<AudioFile>vo_enemy_killed_by_player\Heavy_jeers07_Daaaagh,_too_man.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="508535741"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -1317,9 +1482,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_award05_Yes!" ID="{AF6DD27B-3BC1-4D58-B88B-2A9E9C7BAAC8}" ShortID="481081381">
+										<AudioFileSource Name="Heavy_award05_Yes!" ID="{AF6DD27B-3BC1-4D58-B88B-2A9E9C7BAAC8}">
 											<Language>SFX</Language>
 											<AudioFile>vo_enemy_killed_by_player\Heavy_award05_Yes!.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="481081381"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -1336,9 +1504,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_award14_Another_medal_" ID="{7A6B4A10-9533-417D-809A-E0F6DF886A25}" ShortID="904809457">
+										<AudioFileSource Name="Heavy_award14_Another_medal_" ID="{7A6B4A10-9533-417D-809A-E0F6DF886A25}">
 											<Language>SFX</Language>
 											<AudioFile>vo_enemy_killed_by_player\Heavy_award14_Another_medal..wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="904809457"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -1355,9 +1526,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_award16_Now_I_am_king_of" ID="{28F55398-D696-49DA-9C7C-AA9BF4AD000F}" ShortID="617092167">
+										<AudioFileSource Name="Heavy_award16_Now_I_am_king_of" ID="{28F55398-D696-49DA-9C7C-AA9BF4AD000F}">
 											<Language>SFX</Language>
 											<AudioFile>vo_enemy_killed_by_player\Heavy_award16_Now_I_am_king_of.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="617092167"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -1374,9 +1548,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_award06_Very_good!" ID="{009BF70C-6D2D-4EB7-B093-D083BA43C12E}" ShortID="1007408346">
+										<AudioFileSource Name="Heavy_award06_Very_good!" ID="{009BF70C-6D2D-4EB7-B093-D083BA43C12E}">
 											<Language>SFX</Language>
 											<AudioFile>vo_enemy_killed_by_player\Heavy_award06_Very_good!.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1007408346"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -1393,9 +1570,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_revenge01_You_mean_nothi" ID="{AACA7110-EE30-459E-8DAE-912BC9F19FCA}" ShortID="982696918">
+										<AudioFileSource Name="Heavy_revenge01_You_mean_nothi" ID="{AACA7110-EE30-459E-8DAE-912BC9F19FCA}">
 											<Language>SFX</Language>
 											<AudioFile>vo_enemy_killed_by_player\Heavy_revenge01_You_mean_nothi.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="982696918"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -1412,9 +1592,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_award07_Very_good,_very_" ID="{59E87232-D65E-4BD7-B770-207C2D440006}" ShortID="1046615462">
+										<AudioFileSource Name="Heavy_award07_Very_good,_very_" ID="{59E87232-D65E-4BD7-B770-207C2D440006}">
 											<Language>SFX</Language>
 											<AudioFile>vo_enemy_killed_by_player\Heavy_award07_Very_good,_very_.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1046615462"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -1431,9 +1614,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Audio 2017-07-04 17-27-16" ID="{FA0B0BF6-AFFD-4FCE-A1DF-23F2D3A8E585}" ShortID="423207702">
+										<AudioFileSource Name="Audio 2017-07-04 17-27-16" ID="{FA0B0BF6-AFFD-4FCE-A1DF-23F2D3A8E585}">
 											<Language>SFX</Language>
 											<AudioFile>vo_enemy_killed_by_player\Audio 2017-07-04 17-27-16.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="423207702"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -1450,9 +1636,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Audio 2017-07-04 17-29-22" ID="{BAD0FCDB-F43B-4533-AE43-E75C435791A8}" ShortID="383131975">
+										<AudioFileSource Name="Audio 2017-07-04 17-29-22" ID="{BAD0FCDB-F43B-4533-AE43-E75C435791A8}">
 											<Language>SFX</Language>
 											<AudioFile>vo_enemy_killed_by_player\Audio 2017-07-04 17-29-22.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="383131975"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -1469,9 +1658,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_award02_I_am_hero!" ID="{8C518D35-6921-45DF-87CB-52409ED8987B}" ShortID="665368398">
+										<AudioFileSource Name="Heavy_award02_I_am_hero!" ID="{8C518D35-6921-45DF-87CB-52409ED8987B}">
 											<Language>SFX</Language>
 											<AudioFile>vo_enemy_killed_by_player\Heavy_award02_I_am_hero!.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="665368398"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -1488,9 +1680,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_award13_I_have_many_meda" ID="{7F93F3F6-7254-4443-A37E-0437AA820B81}" ShortID="308609243">
+										<AudioFileSource Name="Heavy_award13_I_have_many_meda" ID="{7F93F3F6-7254-4443-A37E-0437AA820B81}">
 											<Language>SFX</Language>
 											<AudioFile>vo_enemy_killed_by_player\Heavy_award13_I_have_many_meda.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="308609243"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -1507,9 +1702,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_taunts08 You_Yes_You,_Yo" ID="{BF121CB8-7EBC-4706-9E2E-BC2E1FE4A917}" ShortID="903116901">
+										<AudioFileSource Name="Heavy_taunts08 You_Yes_You,_Yo" ID="{BF121CB8-7EBC-4706-9E2E-BC2E1FE4A917}">
 											<Language>SFX</Language>
 											<AudioFile>vo_enemy_killed_by_player\Heavy_taunts08 You_Yes_You,_Yo.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="903116901"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -1526,9 +1724,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_revenge02_Your_luck_runs" ID="{33FF1165-96EC-4DD1-8DAF-BDF027A62C59}" ShortID="960719428">
+										<AudioFileSource Name="Heavy_revenge02_Your_luck_runs" ID="{33FF1165-96EC-4DD1-8DAF-BDF027A62C59}">
 											<Language>SFX</Language>
 											<AudioFile>vo_enemy_killed_by_player\Heavy_revenge02_Your_luck_runs.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="960719428"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -1561,9 +1762,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_meleedare10_Why_waste_bu" ID="{5AE483F3-5D0D-4849-A66E-EB2D0C79EB82}" ShortID="1057295003">
+										<AudioFileSource Name="Heavy_meleedare10_Why_waste_bu" ID="{5AE483F3-5D0D-4849-A66E-EB2D0C79EB82}">
 											<Language>SFX</Language>
 											<AudioFile>vo_enemy_no_hp_damage_at_attempt_and_chassis_damaged_by_player\Heavy_meleedare10_Why_waste_bu.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1057295003"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -1580,9 +1784,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_revenge05_You_are_not_so" ID="{194D7E52-ED77-4CA3-9827-9C4781D32797}" ShortID="177371467">
+										<AudioFileSource Name="Heavy_revenge05_You_are_not_so" ID="{194D7E52-ED77-4CA3-9827-9C4781D32797}">
 											<Language>SFX</Language>
 											<AudioFile>vo_enemy_no_hp_damage_at_attempt_and_chassis_damaged_by_player\Heavy_revenge05_You_are_not_so.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="177371467"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -1599,9 +1806,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Audio 2017-07-04 17-24-48" ID="{E47F2FA1-8897-40A2-AA43-F03A4319721B}" ShortID="76710743">
+										<AudioFileSource Name="Audio 2017-07-04 17-24-48" ID="{E47F2FA1-8897-40A2-AA43-F03A4319721B}">
 											<Language>SFX</Language>
 											<AudioFile>vo_enemy_no_hp_damage_at_attempt_and_chassis_damaged_by_player\Audio 2017-07-04 17-24-48.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="76710743"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -1634,9 +1844,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_domination11_Uh_oh" ID="{270A12F4-2004-4FB6-8505-D48C201811B4}" ShortID="155679527">
+										<AudioFileSource Name="Heavy_domination11_Uh_oh" ID="{270A12F4-2004-4FB6-8505-D48C201811B4}">
 											<Language>SFX</Language>
 											<AudioFile>vo_engine_damaged\Heavy_domination11_Uh_oh.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="155679527"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -1669,9 +1882,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Audio 2017-07-04 17-33-33" ID="{6E9B9567-44B2-4CF1-BEEF-E4E8053A2F48}" ShortID="743922722">
+										<AudioFileSource Name="Audio 2017-07-04 17-33-33" ID="{6E9B9567-44B2-4CF1-BEEF-E4E8053A2F48}">
 											<Language>SFX</Language>
 											<AudioFile>vo_engine_functional\Audio 2017-07-04 17-33-33.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="743922722"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -1688,9 +1904,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_specialcompleted09_Cry_s" ID="{D4C030E6-E7E7-4795-81BA-9DE3D8A7885B}" ShortID="864330354">
+										<AudioFileSource Name="Heavy_specialcompleted09_Cry_s" ID="{D4C030E6-E7E7-4795-81BA-9DE3D8A7885B}">
 											<Language>SFX</Language>
 											<AudioFile>vo_engine_functional\Heavy_specialcompleted09_Cry_s.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="864330354"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -1723,9 +1942,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_autoonfire05_Ahh_ahh,_FI" ID="{C52B4C6D-585E-4288-A372-2D7DC84D463F}" ShortID="496877242">
+										<AudioFileSource Name="Heavy_autoonfire05_Ahh_ahh,_FI" ID="{C52B4C6D-585E-4288-A372-2D7DC84D463F}">
 											<Language>SFX</Language>
 											<AudioFile>vo_fire_started\Heavy_autoonfire05_Ahh_ahh,_FI.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="496877242"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -1742,9 +1964,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_autoonfire03_I'M_BURN!" ID="{DAE74436-B1A6-4EFF-9FD9-CACB7CD0DD43}" ShortID="664400158">
+										<AudioFileSource Name="Heavy_autoonfire03_I'M_BURN!" ID="{DAE74436-B1A6-4EFF-9FD9-CACB7CD0DD43}">
 											<Language>SFX</Language>
 											<AudioFile>vo_fire_started\Heavy_autoonfire03_I'M_BURN!.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="664400158"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -1761,9 +1986,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_autoonfire04_My_flesh,_i" ID="{75F9A563-F084-4081-AE5A-16E27C3E8BC9}" ShortID="421456649">
+										<AudioFileSource Name="Heavy_autoonfire04_My_flesh,_i" ID="{75F9A563-F084-4081-AE5A-16E27C3E8BC9}">
 											<Language>SFX</Language>
 											<AudioFile>vo_fire_started\Heavy_autoonfire04_My_flesh,_i.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="421456649"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -1796,9 +2024,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_battlecry06_I_live!" ID="{A227D491-6CDD-49C7-AE1D-582ACF11BD58}" ShortID="392584227">
+										<AudioFileSource Name="Heavy_battlecry06_I_live!" ID="{A227D491-6CDD-49C7-AE1D-582ACF11BD58}">
 											<Language>SFX</Language>
 											<AudioFile>vo_fire_stopped\Heavy_battlecry06_I_live!.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="392584227"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -1815,9 +2046,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Audio 2017-07-04 17-28-22" ID="{319CAC55-E9FD-416A-AB65-E8E3508E187B}" ShortID="416710790">
+										<AudioFileSource Name="Audio 2017-07-04 17-28-22" ID="{319CAC55-E9FD-416A-AB65-E8E3508E187B}">
 											<Language>SFX</Language>
 											<AudioFile>vo_fire_stopped\Audio 2017-07-04 17-28-22.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="416710790"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -1850,9 +2084,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_cartgoingbackoffense02_N" ID="{F953A803-EFDC-4787-AE10-7849EFEEC59E}" ShortID="57480557">
+										<AudioFileSource Name="Heavy_cartgoingbackoffense02_N" ID="{F953A803-EFDC-4787-AE10-7849EFEEC59E}">
 											<Language>SFX</Language>
 											<AudioFile>vo_fuel_tank_damaged\Heavy_cartgoingbackoffense02_N.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="57480557"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -1885,9 +2122,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_taunts06_Who__Touched" ID="{E817109C-4B7B-49F5-93E1-97495197EA23}" ShortID="1062769050">
+										<AudioFileSource Name="Heavy_taunts06_Who__Touched" ID="{E817109C-4B7B-49F5-93E1-97495197EA23}">
 											<Language>SFX</Language>
 											<AudioFile>vo_gun_damaged\Heavy_taunts06_Who._Touched.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1062769050"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -1920,9 +2160,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_battlecry01_Here_I_come!" ID="{92DA4A8F-2671-475B-B590-30D7FE544635}" ShortID="165591979">
+										<AudioFileSource Name="Heavy_battlecry01_Here_I_come!" ID="{92DA4A8F-2671-475B-B590-30D7FE544635}">
 											<Language>SFX</Language>
 											<AudioFile>vo_gun_functional\Heavy_battlecry01_Here_I_come!.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="165591979"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -1955,9 +2198,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_taunts18_I_think_you_nee" ID="{5C0E5506-2291-4F1F-B68F-CB43D0BFF686}" ShortID="705598410">
+										<AudioFileSource Name="Heavy_taunts18_I_think_you_nee" ID="{5C0E5506-2291-4F1F-B68F-CB43D0BFF686}">
 											<Language>SFX</Language>
 											<AudioFile>vo_gunner_killed\Heavy_taunts18_I_think_you_nee.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="705598410"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -1990,9 +2236,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Audio 2017-07-04 17-31-51" ID="{E2F83622-B06C-4BEF-9D32-1716E00CA24E}" ShortID="266949558">
+										<AudioFileSource Name="Audio 2017-07-04 17-31-51" ID="{E2F83622-B06C-4BEF-9D32-1716E00CA24E}">
 											<Language>SFX</Language>
 											<AudioFile>vo_loader_killed\Audio 2017-07-04 17-31-51.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="266949558"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -2009,9 +2258,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_cheers02_Ouuuuugh!" ID="{26EE1294-75D5-4E51-B646-6F3E14E8021A}" ShortID="442093402">
+										<AudioFileSource Name="Heavy_cheers02_Ouuuuugh!" ID="{26EE1294-75D5-4E51-B646-6F3E14E8021A}">
 											<Language>SFX</Language>
 											<AudioFile>vo_loader_killed\Heavy_cheers02_Ouuuuugh!.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="442093402"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -2044,9 +2296,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_domination03_Go_ahead_an" ID="{B6431ECC-E812-41FA-A21C-BCA866E167D8}" ShortID="91613196">
+										<AudioFileSource Name="Heavy_domination03_Go_ahead_an" ID="{B6431ECC-E812-41FA-A21C-BCA866E167D8}">
 											<Language>SFX</Language>
 											<AudioFile>vo_radio_damaged\Heavy_domination03_Go_ahead_an.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="91613196"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -2079,9 +2334,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Audio 2017-07-04 17-24-05" ID="{2938EC25-6BA8-4D7F-8C9D-B3CE7ADCE314}" ShortID="686088897">
+										<AudioFileSource Name="Audio 2017-07-04 17-24-05" ID="{2938EC25-6BA8-4D7F-8C9D-B3CE7ADCE314}">
 											<Language>SFX</Language>
 											<AudioFile>vo_radioman_killed\Audio 2017-07-04 17-24-05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="686088897"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -2098,9 +2356,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_singing05_(Sings)_What's" ID="{590DFF3C-F4B1-4F49-84C1-5F9F37EC8B7E}" ShortID="466776704">
+										<AudioFileSource Name="Heavy_singing05_(Sings)_What's" ID="{590DFF3C-F4B1-4F49-84C1-5F9F37EC8B7E}">
 											<Language>SFX</Language>
 											<AudioFile>vo_radioman_killed\Heavy_singing05_(Sings)_What's.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="466776704"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -2133,9 +2394,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Audio 2017-07-04 17-28-51" ID="{33282E6B-A73D-4FF9-988E-7286AB03034B}" ShortID="517691779">
+										<AudioFileSource Name="Audio 2017-07-04 17-28-51" ID="{33282E6B-A73D-4FF9-988E-7286AB03034B}">
 											<Language>SFX</Language>
 											<AudioFile>vo_start_battle\Audio 2017-07-04 17-28-51.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="517691779"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -2152,9 +2416,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_award09_Who_dares_stand_" ID="{B0634D9D-5A50-49AA-B4AB-B84007142FAB}" ShortID="768720777">
+										<AudioFileSource Name="Heavy_award09_Who_dares_stand_" ID="{B0634D9D-5A50-49AA-B4AB-B84007142FAB}">
 											<Language>SFX</Language>
 											<AudioFile>vo_start_battle\Heavy_award09_Who_dares_stand_.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="768720777"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -2171,9 +2438,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_award11_I_am_credit_to_t" ID="{410B6CB7-001D-4D15-ACB5-7DD80863F272}" ShortID="696937248">
+										<AudioFileSource Name="Heavy_award11_I_am_credit_to_t" ID="{410B6CB7-001D-4D15-ACB5-7DD80863F272}">
 											<Language>SFX</Language>
 											<AudioFile>vo_start_battle\Heavy_award11_I_am_credit_to_t.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="696937248"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -2190,9 +2460,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_award10_Fear_me_cowards!" ID="{7FBA3380-9682-4FFC-9175-E9F631EAB001}" ShortID="877142701">
+										<AudioFileSource Name="Heavy_award10_Fear_me_cowards!" ID="{7FBA3380-9682-4FFC-9175-E9F631EAB001}">
 											<Language>SFX</Language>
 											<AudioFile>vo_start_battle\Heavy_award10_Fear_me_cowards!.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="877142701"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -2209,9 +2482,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_award08_I_am_most_danger" ID="{F8DEABBF-9D70-4295-94AF-857077F5E7E0}" ShortID="935019842">
+										<AudioFileSource Name="Heavy_award08_I_am_most_danger" ID="{F8DEABBF-9D70-4295-94AF-857077F5E7E0}">
 											<Language>SFX</Language>
 											<AudioFile>vo_start_battle\Heavy_award08_I_am_most_danger.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="935019842"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -2228,9 +2504,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_specialcompleted03_More_" ID="{9898E29F-F11C-4935-9951-5B8F74B24816}" ShortID="1005774685">
+										<AudioFileSource Name="Heavy_specialcompleted03_More_" ID="{9898E29F-F11C-4935-9951-5B8F74B24816}">
 											<Language>SFX</Language>
 											<AudioFile>vo_start_battle\Heavy_specialcompleted03_More_.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1005774685"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -2247,9 +2526,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_specialcompleted05_Now_i" ID="{BA65AEA5-AE5D-47AD-A48E-3066FEA3CE4A}" ShortID="743190784">
+										<AudioFileSource Name="Heavy_specialcompleted05_Now_i" ID="{BA65AEA5-AE5D-47AD-A48E-3066FEA3CE4A}">
 											<Language>SFX</Language>
 											<AudioFile>vo_start_battle\Heavy_specialcompleted05_Now_i.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="743190784"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -2266,9 +2548,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_revenge15_This_is_just_t" ID="{600784D2-3623-4471-8E9D-5C01546C8943}" ShortID="541346787">
+										<AudioFileSource Name="Heavy_revenge15_This_is_just_t" ID="{600784D2-3623-4471-8E9D-5C01546C8943}">
 											<Language>SFX</Language>
 											<AudioFile>vo_start_battle\Heavy_revenge15_This_is_just_t.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="541346787"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -2285,9 +2570,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_meleedare07_Put_up_fists" ID="{2B26C82C-06CB-41B1-9E1E-4FAB728154A3}" ShortID="865864177">
+										<AudioFileSource Name="Heavy_meleedare07_Put_up_fists" ID="{2B26C82C-06CB-41B1-9E1E-4FAB728154A3}">
 											<Language>SFX</Language>
 											<AudioFile>vo_start_battle\Heavy_meleedare07_Put_up_fists.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="865864177"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -2304,9 +2592,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_taunts10_Who_send_all_th" ID="{D2C02272-584B-4BB3-A529-E288D87FBF7F}" ShortID="671674036">
+										<AudioFileSource Name="Heavy_taunts10_Who_send_all_th" ID="{D2C02272-584B-4BB3-A529-E288D87FBF7F}">
 											<Language>SFX</Language>
 											<AudioFile>vo_start_battle\Heavy_taunts10_Who_send_all_th.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="671674036"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -2323,9 +2614,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_specialcompleted08_Ooohh" ID="{58574179-F9B9-4ADD-91BB-C7E46BD62E8B}" ShortID="153453381">
+										<AudioFileSource Name="Heavy_specialcompleted08_Ooohh" ID="{58574179-F9B9-4ADD-91BB-C7E46BD62E8B}">
 											<Language>SFX</Language>
 											<AudioFile>vo_start_battle\Heavy_specialcompleted08_Ooohh.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="153453381"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -2358,9 +2652,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_revenge13_Next_time,_pic" ID="{DE57136B-F877-41AB-8D34-41B21184D30B}" ShortID="874074152">
+										<AudioFileSource Name="Heavy_revenge13_Next_time,_pic" ID="{DE57136B-F877-41AB-8D34-41B21184D30B}">
 											<Language>SFX</Language>
 											<AudioFile>vo_surveying_devices_damaged\Heavy_revenge13_Next_time,_pic.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="874074152"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -2393,9 +2690,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Audio 2017-07-04 17-33-07" ID="{63518694-01E0-478C-96EA-6BBA1E475BD7}" ShortID="418315679">
+										<AudioFileSource Name="Audio 2017-07-04 17-33-07" ID="{63518694-01E0-478C-96EA-6BBA1E475BD7}">
 											<Language>SFX</Language>
 											<AudioFile>vo_surveying_devices_functional\Audio 2017-07-04 17-33-07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="418315679"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -2412,9 +2712,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_specialcompleted-assiste" ID="{06FE0C71-4D03-4D7A-BB74-10E66FB9E259}" ShortID="403396439">
+										<AudioFileSource Name="Heavy_specialcompleted-assiste" ID="{06FE0C71-4D03-4D7A-BB74-10E66FB9E259}">
 											<Language>SFX</Language>
 											<AudioFile>vo_surveying_devices_functional\Heavy_specialcompleted-assiste.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="403396439"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -2447,9 +2750,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_meleedare11_Fight_me!" ID="{70F672FF-37DD-493B-879C-D88C8D77E664}" ShortID="291872578">
+										<AudioFileSource Name="Heavy_meleedare11_Fight_me!" ID="{70F672FF-37DD-493B-879C-D88C8D77E664}">
 											<Language>SFX</Language>
 											<AudioFile>vo_target_captured\Heavy_meleedare11_Fight_me!.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="291872578"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -2466,9 +2772,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Audio 2017-07-04 17-35-57" ID="{E3075483-9ABB-492C-99F3-DB36DA77E2C9}" ShortID="663096843">
+										<AudioFileSource Name="Audio 2017-07-04 17-35-57" ID="{E3075483-9ABB-492C-99F3-DB36DA77E2C9}">
 											<Language>SFX</Language>
 											<AudioFile>vo_target_captured\Audio 2017-07-04 17-35-57.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="663096843"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -2501,9 +2810,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_domination04_You_cannot_" ID="{642300A1-9AAC-4DC4-9B29-2F49790B76E4}" ShortID="640439236">
+										<AudioFileSource Name="Heavy_domination04_You_cannot_" ID="{642300A1-9AAC-4DC4-9B29-2F49790B76E4}">
 											<Language>SFX</Language>
 											<AudioFile>vo_target_lost\Heavy_domination04_You_cannot_.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="640439236"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -2536,9 +2848,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Audio 2017-07-04 17-33-56" ID="{8232E0C4-313B-4F27-A5AE-8533FEC248B6}" ShortID="106857436">
+										<AudioFileSource Name="Audio 2017-07-04 17-33-56" ID="{8232E0C4-313B-4F27-A5AE-8533FEC248B6}">
 											<Language>SFX</Language>
 											<AudioFile>vo_target_unlocked\Audio 2017-07-04 17-33-56.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="106857436"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -2555,9 +2870,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_revenge14_I_am_not_done_" ID="{AA99B939-F451-48BE-A849-0C91064F8D1C}" ShortID="508735527">
+										<AudioFileSource Name="Heavy_revenge14_I_am_not_done_" ID="{AA99B939-F451-48BE-A849-0C91064F8D1C}">
 											<Language>SFX</Language>
 											<AudioFile>vo_target_unlocked\Heavy_revenge14_I_am_not_done_.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="508735527"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -2590,9 +2908,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_yell2_Uwaaaaaaah!" ID="{368E1360-4EA7-4FA2-A8E3-98F4093CA1EF}" ShortID="1003486375">
+										<AudioFileSource Name="Heavy_yell2_Uwaaaaaaah!" ID="{368E1360-4EA7-4FA2-A8E3-98F4093CA1EF}">
 											<Language>SFX</Language>
 											<AudioFile>vo_track_damaged\Heavy_yell2_Uwaaaaaaah!.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1003486375"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -2625,9 +2946,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_sandwichtaunt06_Don't_ru" ID="{75FB0CCC-CCA2-4104-B861-9823E2E9273E}" ShortID="575634761">
+										<AudioFileSource Name="Heavy_sandwichtaunt06_Don't_ru" ID="{75FB0CCC-CCA2-4104-B861-9823E2E9273E}">
 											<Language>SFX</Language>
 											<AudioFile>vo_track_destroyed\Heavy_sandwichtaunt06_Don't_ru.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="575634761"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -2660,9 +2984,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Audio 2017-07-04 17-34-51" ID="{41602233-A144-4E9F-87CB-D0AFBB5C3629}" ShortID="451539068">
+										<AudioFileSource Name="Audio 2017-07-04 17-34-51" ID="{41602233-A144-4E9F-87CB-D0AFBB5C3629}">
 											<Language>SFX</Language>
 											<AudioFile>vo_track_functional\Audio 2017-07-04 17-34-51.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="451539068"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -2695,9 +3022,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_yell7_Time_to_hide_cowar" ID="{ACB1DE8B-D75D-423A-B1EC-50A230C5E7FE}" ShortID="958809994">
+										<AudioFileSource Name="Heavy_yell7_Time_to_hide_cowar" ID="{ACB1DE8B-D75D-423A-B1EC-50A230C5E7FE}">
 											<Language>SFX</Language>
 											<AudioFile>vo_track_functional_can_move\Heavy_yell7_Time_to_hide_cowar.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="958809994"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -2730,9 +3060,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_meleeing02_UGHRRRR!" ID="{0410D688-988C-40CF-A23E-D01660098786}" ShortID="484022079">
+										<AudioFileSource Name="Heavy_meleeing02_UGHRRRR!" ID="{0410D688-988C-40CF-A23E-D01660098786}">
 											<Language>SFX</Language>
 											<AudioFile>vo_turret_rotator_damaged\Heavy_meleeing02_UGHRRRR!.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="484022079"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -2765,9 +3098,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_yell12_Is_good_time_to_r" ID="{6B1C9E4A-EA99-41EF-98C4-8DF8EBAA502D}" ShortID="781560486">
+										<AudioFileSource Name="Heavy_yell12_Is_good_time_to_r" ID="{6B1C9E4A-EA99-41EF-98C4-8DF8EBAA502D}">
 											<Language>SFX</Language>
 											<AudioFile>vo_turret_rotator_functional\Heavy_yell12_Is_good_time_to_r.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="781560486"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -2800,9 +3136,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_specialcompleted10_Waaaa" ID="{4A1C4642-CE12-4298-8F9A-2B7D9FCF125D}" ShortID="222483617">
+										<AudioFileSource Name="Heavy_specialcompleted10_Waaaa" ID="{4A1C4642-CE12-4298-8F9A-2B7D9FCF125D}">
 											<Language>SFX</Language>
 											<AudioFile>vo_vehicle_destroyed\Heavy_specialcompleted10_Waaaa.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="222483617"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -2819,9 +3158,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_taunts14_Entire_team_is_" ID="{40BFE3C5-9C68-4C47-AFFA-55777DD4DB04}" ShortID="255663158">
+										<AudioFileSource Name="Heavy_taunts14_Entire_team_is_" ID="{40BFE3C5-9C68-4C47-AFFA-55777DD4DB04}">
 											<Language>SFX</Language>
 											<AudioFile>vo_vehicle_destroyed\Heavy_taunts14_Entire_team_is_.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="255663158"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -2838,9 +3180,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_cartgoingbackdefense01_M" ID="{32C35355-40F2-42F2-9A59-EE9A76BB138F}" ShortID="23215147">
+										<AudioFileSource Name="Heavy_cartgoingbackdefense01_M" ID="{32C35355-40F2-42F2-9A59-EE9A76BB138F}">
 											<Language>SFX</Language>
 											<AudioFile>vo_vehicle_destroyed\Heavy_cartgoingbackdefense01_M.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="23215147"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -2857,9 +3202,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_domination05_Run_home_to" ID="{2B46B3EE-FA0C-4A49-94DE-B17A31499099}" ShortID="317633632">
+										<AudioFileSource Name="Heavy_domination05_Run_home_to" ID="{2B46B3EE-FA0C-4A49-94DE-B17A31499099}">
 											<Language>SFX</Language>
 											<AudioFile>vo_vehicle_destroyed\Heavy_domination05_Run_home_to.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="317633632"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -2876,9 +3224,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_specialcompleted01_Dakka" ID="{61E7F5EE-D695-4ABA-93FF-F0BBF039C4F5}" ShortID="1025756370">
+										<AudioFileSource Name="Heavy_specialcompleted01_Dakka" ID="{61E7F5EE-D695-4ABA-93FF-F0BBF039C4F5}">
 											<Language>SFX</Language>
 											<AudioFile>vo_vehicle_destroyed\Heavy_specialcompleted01_Dakka.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1025756370"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -2895,9 +3246,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_cheers07_Da_da_da_da" ID="{106D320D-8C8E-47A2-9466-EE4B413BB6E5}" ShortID="1047121286">
+										<AudioFileSource Name="Heavy_cheers07_Da_da_da_da" ID="{106D320D-8C8E-47A2-9466-EE4B413BB6E5}">
 											<Language>SFX</Language>
 											<AudioFile>vo_vehicle_destroyed\Heavy_cheers07_Da_da_da_da.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1047121286"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -2914,9 +3268,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_jeers03_STUPID,_STUPID,_" ID="{1FE799EB-71B6-415E-AB5D-559DF201DA96}" ShortID="609005329">
+										<AudioFileSource Name="Heavy_jeers03_STUPID,_STUPID,_" ID="{1FE799EB-71B6-415E-AB5D-559DF201DA96}">
 											<Language>SFX</Language>
 											<AudioFile>vo_vehicle_destroyed\Heavy_jeers03_STUPID,_STUPID,_.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="609005329"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -2933,9 +3290,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_cheers08_Dah_da_da-dah_d" ID="{8E0A7018-B391-45A0-B989-977AAC7E6DB5}" ShortID="857673465">
+										<AudioFileSource Name="Heavy_cheers08_Dah_da_da-dah_d" ID="{8E0A7018-B391-45A0-B989-977AAC7E6DB5}">
 											<Language>SFX</Language>
 											<AudioFile>vo_vehicle_destroyed\Heavy_cheers08_Dah_da_da-dah_d.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="857673465"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -2952,9 +3312,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Audio 2017-07-04 17-27-22" ID="{886C801B-5142-4934-8018-4A4C2ED63B54}" ShortID="966297619">
+										<AudioFileSource Name="Audio 2017-07-04 17-27-22" ID="{886C801B-5142-4934-8018-4A4C2ED63B54}">
 											<Language>SFX</Language>
 											<AudioFile>vo_vehicle_destroyed\Audio 2017-07-04 17-27-22.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="966297619"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -2971,9 +3334,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Audio 2017-07-04 17-28-13" ID="{DE1999B3-75E1-453F-8BBC-58CF172B8C35}" ShortID="598080663">
+										<AudioFileSource Name="Audio 2017-07-04 17-28-13" ID="{DE1999B3-75E1-453F-8BBC-58CF172B8C35}">
 											<Language>SFX</Language>
 											<AudioFile>vo_vehicle_destroyed\Audio 2017-07-04 17-28-13.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="598080663"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -2990,9 +3356,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Audio 2017-07-04 17-26-58" ID="{6652E48C-F1C5-455B-80B5-95430A9BB27E}" ShortID="137885372">
+										<AudioFileSource Name="Audio 2017-07-04 17-26-58" ID="{6652E48C-F1C5-455B-80B5-95430A9BB27E}">
 											<Language>SFX</Language>
 											<AudioFile>vo_vehicle_destroyed\Audio 2017-07-04 17-26-58.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="137885372"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -3009,9 +3378,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_autodejectedtie03_Ohhhhh" ID="{A0AB8B48-FF0F-4DD1-BBC1-1A47DD0C82D4}" ShortID="157064013">
+										<AudioFileSource Name="Heavy_autodejectedtie03_Ohhhhh" ID="{A0AB8B48-FF0F-4DD1-BBC1-1A47DD0C82D4}">
 											<Language>SFX</Language>
 											<AudioFile>vo_vehicle_destroyed\Heavy_autodejectedtie03_Ohhhhh.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="157064013"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -3028,9 +3400,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heavy_award12_The_medal_" ID="{33BBF571-6C0C-424D-9FA0-AC390B8B1F3F}" ShortID="777538669">
+										<AudioFileSource Name="Heavy_award12_The_medal_" ID="{33BBF571-6C0C-424D-9FA0-AC390B8B1F3F}">
 											<Language>SFX</Language>
 											<AudioFile>vo_vehicle_destroyed\Heavy_award12_The_medal..wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="777538669"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>

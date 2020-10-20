@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{D027AE09-B077-4EB1-BD21-F03F0DED8F4A}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{D027AE09-B077-4EB1-BD21-F03F0DED8F4A}" SchemaVersion="97">
 	<MixingSessions>
 		<WorkUnit Name="Main Mix" ID="{D027AE09-B077-4EB1-BD21-F03F0DED8F4A}" PersistMode="Standalone">
 			<ChildrenList>

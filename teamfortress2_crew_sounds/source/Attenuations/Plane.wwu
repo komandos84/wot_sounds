@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{01F8913C-2708-4909-A427-859D095C2D4B}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{01F8913C-2708-4909-A427-859D095C2D4B}" SchemaVersion="97">
 	<Attenuations>
 		<WorkUnit Name="Plane" ID="{01F8913C-2708-4909-A427-859D095C2D4B}" PersistMode="Standalone">
 			<ChildrenList>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{40F9F025-C4B4-4FB9-AE54-928F9A26808A}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{40F9F025-C4B4-4FB9-AE54-928F9A26808A}" SchemaVersion="97">
 	<States>
 		<WorkUnit Name="GUI_Lootboxes" ID="{40F9F025-C4B4-4FB9-AE54-928F9A26808A}" PersistMode="Standalone">
 			<ChildrenList>

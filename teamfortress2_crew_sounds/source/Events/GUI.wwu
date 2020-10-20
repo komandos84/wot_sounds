@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{DFF2755B-9A8F-4FB9-A356-F3AC81BDD167}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{DFF2755B-9A8F-4FB9-A356-F3AC81BDD167}" SchemaVersion="97">
 	<Events>
 		<WorkUnit Name="GUI" ID="{DFF2755B-9A8F-4FB9-A356-F3AC81BDD167}" PersistMode="Standalone">
 			<Comment>Звуки интерфейса </Comment>

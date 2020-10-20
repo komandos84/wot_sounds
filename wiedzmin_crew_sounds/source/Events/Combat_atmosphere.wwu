@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{89181590-26F2-45C9-8504-23D2FD1ED437}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{89181590-26F2-45C9-8504-23D2FD1ED437}" SchemaVersion="97">
 	<Events>
 		<WorkUnit Name="Combat_atmosphere" ID="{89181590-26F2-45C9-8504-23D2FD1ED437}" PersistMode="Standalone">
 			<Comment>Combat ambience</Comment>

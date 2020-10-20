@@ -1,66 +1,67 @@
-<WwiseDocument Type="WorkUnit" ID="{12D179B7-3DA1-4BF9-A8BE-21C81844A2FB}" SchemaVersion="85">
-  <States>
-    <WorkUnit Name="Default Work Unit" ID="{12D179B7-3DA1-4BF9-A8BE-21C81844A2FB}" PersistMode="Standalone">
-      <ChildrenList>
-        <StateGroup Name="STATE_hangar_filtered" ID="{0F458F0E-5F21-4D8A-AB5D-9AA9D87B6ED3}">
-          <Comment>The state is used for filtering HF in the Garage when clicking 
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{12D179B7-3DA1-4BF9-A8BE-21C81844A2FB}" SchemaVersion="97">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{12D179B7-3DA1-4BF9-A8BE-21C81844A2FB}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="STATE_hangar_filtered" ID="{0F458F0E-5F21-4D8A-AB5D-9AA9D87B6ED3}">
+					<Comment>The state is used for filtering HF in the Garage when clicking 
 GARAGE-STORE.........-STRONGHOLD</Comment>
-          <PropertyList>
-            <Property Name="DefaultTransitionTime" Type="Real64" Value="0.5" />
-          </PropertyList>
-          <ChildrenList>
-            <State Name="None" ID="{7D912DD5-DF06-47F6-B9D1-FFA4B6D3C994}" />
-            <State Name="STATE_hangar_filtered_on" ID="{D6802E60-372A-4B9B-B6DD-466C9553F289}">
-              <Comment>Filter enabled</Comment>
-            </State>
-            <State Name="STATE_hangar_filtered_off" ID="{B928BD72-334D-4B26-8910-F6B321F0A514}">
-              <Comment>Filter disabled</Comment>
-            </State>
-          </ChildrenList>
-          <TransitionList>
-            <Transition>
-              <StartState Name="STATE_hangar_filtered_on" ID="{D6802E60-372A-4B9B-B6DD-466C9553F289}" />
-              <EndState Name="STATE_hangar_filtered_off" ID="{B928BD72-334D-4B26-8910-F6B321F0A514}" />
-              <Time>1.5</Time>
-              <IsShared>false</IsShared>
-            </Transition>
-          </TransitionList>
-        </StateGroup>
-        <StateGroup Name="STATE_fortified_area" ID="{454724A8-AA73-4799-A009-C7ACCF69463B}">
-          <Comment>The state is responsible for enabling the sound for Stronghold</Comment>
-          <PropertyList>
-            <Property Name="DefaultTransitionTime" Type="Real64" Value="2" />
-          </PropertyList>
-          <ChildrenList>
-            <State Name="None" ID="{9AFDAEA3-E6BA-4DC7-AE61-A6234FD7736A}" />
-            <State Name="STATE_fortified_area_on" ID="{3C08466B-6C9C-48D8-BA06-39758FCB3C5B}">
-              <Comment>Disable sounds and music in the Garage</Comment>
-            </State>
-            <State Name="STATE_fortified_area_off" ID="{62D70F5C-8456-4E56-B63A-BA55B584889A}">
-              <Comment>no actions</Comment>
-            </State>
-          </ChildrenList>
-        </StateGroup>
-        <StateGroup Name="STATE_video_overlay" ID="{45D461A4-9865-43D6-8958-86FA4A12A448}">
-          <PropertyList>
-            <Property Name="DefaultTransitionTime" Type="Real64" Value="2" />
-          </PropertyList>
-          <ChildrenList>
-            <State Name="None" ID="{71C7D459-5C87-4E9F-AC67-180B2D6FFBEB}" />
-            <State Name="STATE_video_overlay_on" ID="{39DCBFCB-2C77-42B7-825E-B186493AF79A}">
-              <Comment>The state is responsible for attenuating the sounds of the hangar during video playback (Lootbox)</Comment>
-            </State>
-            <State Name="STATE_video_overlay_off" ID="{EC6772CA-A2B4-479C-B5BD-54D7C35FFBBB}" />
-          </ChildrenList>
-        </StateGroup>
-        <StateGroup Name="STATE_overlay_hangar_general" ID="{205CE61E-ECDD-491F-AD4E-6AF16B15594A}">
-          <ChildrenList>
-            <State Name="None" ID="{FAF93FBE-948E-4C8D-8FCA-D99BD3A2FCB8}" />
-            <State Name="STATE_overlay_hangar_general_on" ID="{02FBFA78-F4DF-43CF-905F-68C34613A84F}" />
-            <State Name="STATE_overlay_hangar_general_off" ID="{6C92CBF3-3A6B-456A-96B4-3C1A2726E463}" />
-          </ChildrenList>
-        </StateGroup>
-      </ChildrenList>
-    </WorkUnit>
-  </States>
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.5"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{7D912DD5-DF06-47F6-B9D1-FFA4B6D3C994}"/>
+						<State Name="STATE_hangar_filtered_on" ID="{D6802E60-372A-4B9B-B6DD-466C9553F289}">
+							<Comment>Filter enabled</Comment>
+						</State>
+						<State Name="STATE_hangar_filtered_off" ID="{B928BD72-334D-4B26-8910-F6B321F0A514}">
+							<Comment>Filter disabled</Comment>
+						</State>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="STATE_hangar_filtered_on" ID="{D6802E60-372A-4B9B-B6DD-466C9553F289}"/>
+							<EndState Name="STATE_hangar_filtered_off" ID="{B928BD72-334D-4B26-8910-F6B321F0A514}"/>
+							<Time>1.5</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+				<StateGroup Name="STATE_fortified_area" ID="{454724A8-AA73-4799-A009-C7ACCF69463B}">
+					<Comment>The state is responsible for enabling the sound for Stronghold</Comment>
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="2"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{9AFDAEA3-E6BA-4DC7-AE61-A6234FD7736A}"/>
+						<State Name="STATE_fortified_area_on" ID="{3C08466B-6C9C-48D8-BA06-39758FCB3C5B}">
+							<Comment>Disable sounds and music in the Garage</Comment>
+						</State>
+						<State Name="STATE_fortified_area_off" ID="{62D70F5C-8456-4E56-B63A-BA55B584889A}">
+							<Comment>no actions</Comment>
+						</State>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="STATE_video_overlay" ID="{45D461A4-9865-43D6-8958-86FA4A12A448}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="2"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{71C7D459-5C87-4E9F-AC67-180B2D6FFBEB}"/>
+						<State Name="STATE_video_overlay_on" ID="{39DCBFCB-2C77-42B7-825E-B186493AF79A}">
+							<Comment>The state is responsible for attenuating the sounds of the hangar during video playback (Lootbox)</Comment>
+						</State>
+						<State Name="STATE_video_overlay_off" ID="{EC6772CA-A2B4-479C-B5BD-54D7C35FFBBB}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="STATE_overlay_hangar_general" ID="{205CE61E-ECDD-491F-AD4E-6AF16B15594A}">
+					<ChildrenList>
+						<State Name="None" ID="{FAF93FBE-948E-4C8D-8FCA-D99BD3A2FCB8}"/>
+						<State Name="STATE_overlay_hangar_general_on" ID="{02FBFA78-F4DF-43CF-905F-68C34613A84F}"/>
+						<State Name="STATE_overlay_hangar_general_off" ID="{6C92CBF3-3A6B-456A-96B4-3C1A2726E463}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
 </WwiseDocument>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{D3594B33-DAD1-44C7-A2D0-BBD8B690B848}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{D3594B33-DAD1-44C7-A2D0-BBD8B690B848}" SchemaVersion="97">
 	<Attenuations>
 		<WorkUnit Name="Collision" ID="{D3594B33-DAD1-44C7-A2D0-BBD8B690B848}" PersistMode="Standalone">
 			<ChildrenList>

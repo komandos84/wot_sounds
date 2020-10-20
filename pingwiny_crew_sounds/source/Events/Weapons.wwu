@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{E811023D-8930-4266-8283-3B46EAFCF06B}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{E811023D-8930-4266-8283-3B46EAFCF06B}" SchemaVersion="97">
 	<Events>
 		<WorkUnit Name="Weapons" ID="{E811023D-8930-4266-8283-3B46EAFCF06B}" PersistMode="Standalone">
 			<Comment>Shots fired</Comment>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{8B6FEDBF-4E65-4D47-A19C-C7FBA129CFB5}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{8B6FEDBF-4E65-4D47-A19C-C7FBA129CFB5}" SchemaVersion="97">
 	<Effects>
 		<WorkUnit Name="Default Work Unit" ID="{8B6FEDBF-4E65-4D47-A19C-C7FBA129CFB5}" PersistMode="Standalone">
 			<ChildrenList>
@@ -45,21 +45,39 @@
 				</Effect>
 				<Effect Name="ev_halloween_reverb_reversed" ID="{9444BAAC-0568-494F-82DD-31780AF12AB7}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 					<PropertyList>
-						<Property Name="IRChannelSelect" Type="int32" Value="4"/>
-						<Property Name="IRConvolutionStop" Type="Real64" Value="1.027"/>
-						<Property Name="IRGraphicEQAutomate" Type="bool" Value="True"/>
-						<Property Name="WetLevel" Type="Real32" Value="-25"/>
+						<Property Name="IRChannelSelect" Type="int32">
+							<ValueList>
+								<Value>4</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IRConvolutionStop" Type="Real64">
+							<ValueList>
+								<Value>1.027</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IRGraphicEQAutomate" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="WetLevel" Type="Real32">
+							<ValueList>
+								<Value>-25</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ChildrenList>
-						<PluginMediaSource Name="ev_halloween_reverced" ID="{9E27AF06-04A1-4FDF-A5D0-09B5383BFC2C}" ShortID="366494642">
+						<PluginMediaSource Name="ev_halloween_reverced" ID="{9E27AF06-04A1-4FDF-A5D0-09B5383BFC2C}">
 							<ParentPluginID>8323075</ParentPluginID>
 							<PropertyList>
 								<Property Name="DataFileName" Type="string" Value="ev_halloween_reverced.wav"/>
 							</PropertyList>
+							<MediaIDList>
+								<MediaID ID="366494642"/>
+							</MediaIDList>
 						</PluginMediaSource>
 					</ChildrenList>
-					<PluginData>
-	<ConvolutionData>
+					<PluginData><ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
 				<Curve Name="" ID="{9FD5941A-B5DD-4041-AA6E-10564F7F086C}">
@@ -138,8 +156,7 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData>
-</PluginData>
+	</ConvolutionData></PluginData>
 				</Effect>
 				<Effect Name="ev_halloween_eq_vo" ID="{7CB5FB0D-D79B-4A19-8E87-6C849328D22E}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 					<PropertyList>

@@ -1,159 +1,117 @@
-<WwiseDocument Type="WorkUnit" ID="{A584D01B-B079-48C1-9A52-5206FA314BC5}" SchemaVersion="85">
-  <Events>
-    <WorkUnit Name="Fortified_Area" ID="{A584D01B-B079-48C1-9A52-5206FA314BC5}" PersistMode="Standalone">
-      <Comment>Strongholds</Comment>
-      <ChildrenList>
-        <Folder Name="ambient" ID="{443DEEA7-4AEA-484A-9D0E-79F74FE33F7F}" ShortID="776664443">
-          <ChildrenList>
-            <Event Name="fa_amb_dynamic_ambient_main" ID="{47E3DE9F-8B72-43FC-821E-2E79FF37381F}">
-              <Comment>Event - Ambience in the Battles for Stronghold mode</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="fa_music_global_unmute" ID="{223A1273-A50A-4F99-8667-803F7D9B11BC}">
-              <ChildrenList></ChildrenList>
-            </Event>
-          </ChildrenList>
-        </Folder>
-        <Folder Name="gui" ID="{11F62AF7-BA94-409A-8A6F-9CFC9457DD92}" ShortID="127727054">
-          <ChildrenList>
-            <Event Name="fa_gui_dp_enable" ID="{344D5B19-C9D2-4428-A579-80460624B9CF}">
-              <Comment>Event - Activating defense period</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="fa_gui_dp_enemy_dir" ID="{3AA1243F-DB6D-48F8-ACBF-ED57639AF21C}">
-              <Comment>Event - Selecting a zone for attack</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="fa_gui_dp_confirm_attack" ID="{2A233769-29FD-4216-9E9E-4B18A9456E24}">
-              <Comment>Event - Confirming attack</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="fa_gui_fort_fixed_in_building" ID="{6542A88D-0311-422B-92C2-CF6FDDF2E2EC}">
-              <Comment>Event - Selecting a structure</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="fa_gui_dp_disable" ID="{4243F9E7-1623-44BA-9186-424A4A741669}">
-              <Comment>Event - Deactivating Defense Period</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="fa_gui_fort_create" ID="{72EAA3E2-7AF9-4CA6-B2C9-0EE95E0F1190}">
-              <Comment>Event - Create a Stronghold</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="fa_gui_building_click" ID="{8BF3FFF7-42BE-4A2A-B013-E33CD2F9ADA1}">
-              <Comment>Event - Clicking on a structure</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="fa_gui_bulding_end_general" ID="{30F4EA9B-4617-4243-93B2-61579218EDC8}">
-              <Comment>Event - Completing construction</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="fa_gui_direction_close" ID="{B4AE1148-3ED2-437B-8DDE-28906601A36F}">
-              <Comment>Event - Closing a zone</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="fa_gui_direction_create" ID="{9C065053-80B8-4DFF-ACDC-A37C3B46D656}">
-              <Comment>Event - Opening a zone</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="fa_gui_dp_docking_dir" ID="{B03AD6C2-43EC-42AE-9DFA-A4ACF7403110}">
-              <Comment>Event - Selecting a zone convergence</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="fa_gui_fort_order_in_progress" ID="{E3C06199-8A95-4506-91BF-32F031C87F27}">
-              <Comment>Event - Consumable - Cooldown (same for all types)</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="fa_gui_fort_order_is_ready" ID="{1B32BE32-0F7E-4B59-BA13-EA94D8DB0BE7}">
-              <Comment>Event - Consumable - Ready (same for all types)</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="fa_gui_fort_upgrade_building" ID="{E10CBE56-0612-4DC9-B2D7-18C42CB19037}">
-              <Comment>Event - Structure level increased (same for all structure types)</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="fa_gui_transport_exit" ID="{FDE2A0DE-A691-446E-BFCC-4E8235224054}">
-              <Comment>Event - exiting the Transportation Mode</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="fa_gui_transport_first_step" ID="{BD97E9EA-43A9-4398-A871-AD2BC49EB3BF}">
-              <Comment>Event - Selecting a source structure in the Transportation Mode</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="fa_gui_transport_approve" ID="{5F453AF0-4BFC-42C4-B556-C959A1E2F91E}">
-              <Comment>Event - Clicking the "Transport" button</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="fa_gui_transport_enter" ID="{FC8E0548-4C33-4152-9407-281E8AC58E15}">
-              <Comment>Event - Entering the Transportation Mode</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="fa_gui_transport_constrain" ID="{FD5AFF6F-00D3-4FB9-9789-0F964039C0EF}">
-              <Comment>Event - Sound of reaching the limit in the Transportation confirmation window</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="fa_gui_transport_next_step" ID="{8E051890-42FA-4D28-B895-290E51D58B7B}">
-              <Comment>Event - Selecting a recipient structure in the Transportation mode</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="fa_gui_dp_battle_timer" ID="{D0C23F82-E69D-4C6B-9592-826B870B7A95}">
-              <Comment>Event - Timer countdown sound</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="fa_gui_fort_entered_foundation_state" ID="{C5960425-5A7C-46B1-9E79-AC213DA14221}">
-              <Comment>Event - Laying the foundation (same for all structure types)</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="fa_gui_fort_demount_building" ID="{BCF8C3EB-4A52-4F6D-9E57-275F4CB28F25}">
-              <Comment>Event - Structure Demolition</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="fa_gui_activate_battlePayments" ID="{2B84A699-D8B4-4F36-804B-75D8C329ABFF}">
-              <Comment>Event - activating the Battle Payments reserve
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A584D01B-B079-48C1-9A52-5206FA314BC5}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Fortified_Area" ID="{A584D01B-B079-48C1-9A52-5206FA314BC5}" PersistMode="Standalone">
+			<Comment>Strongholds</Comment>
+			<ChildrenList>
+				<Folder Name="ambient" ID="{443DEEA7-4AEA-484A-9D0E-79F74FE33F7F}" ShortID="776664443">
+					<ChildrenList>
+						<Event Name="fa_amb_dynamic_ambient_main" ID="{47E3DE9F-8B72-43FC-821E-2E79FF37381F}">
+							<Comment>Event - Ambience in the Battles for Stronghold mode</Comment>
+						</Event>
+						<Event Name="fa_music_global_unmute" ID="{223A1273-A50A-4F99-8667-803F7D9B11BC}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="gui" ID="{11F62AF7-BA94-409A-8A6F-9CFC9457DD92}" ShortID="127727054">
+					<ChildrenList>
+						<Event Name="fa_gui_dp_enable" ID="{344D5B19-C9D2-4428-A579-80460624B9CF}">
+							<Comment>Event - Activating defense period</Comment>
+						</Event>
+						<Event Name="fa_gui_dp_enemy_dir" ID="{3AA1243F-DB6D-48F8-ACBF-ED57639AF21C}">
+							<Comment>Event - Selecting a zone for attack</Comment>
+						</Event>
+						<Event Name="fa_gui_dp_confirm_attack" ID="{2A233769-29FD-4216-9E9E-4B18A9456E24}">
+							<Comment>Event - Confirming attack</Comment>
+						</Event>
+						<Event Name="fa_gui_fort_fixed_in_building" ID="{6542A88D-0311-422B-92C2-CF6FDDF2E2EC}">
+							<Comment>Event - Selecting a structure</Comment>
+						</Event>
+						<Event Name="fa_gui_dp_disable" ID="{4243F9E7-1623-44BA-9186-424A4A741669}">
+							<Comment>Event - Deactivating Defense Period</Comment>
+						</Event>
+						<Event Name="fa_gui_fort_create" ID="{72EAA3E2-7AF9-4CA6-B2C9-0EE95E0F1190}">
+							<Comment>Event - Create a Stronghold</Comment>
+						</Event>
+						<Event Name="fa_gui_building_click" ID="{8BF3FFF7-42BE-4A2A-B013-E33CD2F9ADA1}">
+							<Comment>Event - Clicking on a structure</Comment>
+						</Event>
+						<Event Name="fa_gui_bulding_end_general" ID="{30F4EA9B-4617-4243-93B2-61579218EDC8}">
+							<Comment>Event - Completing construction</Comment>
+						</Event>
+						<Event Name="fa_gui_direction_close" ID="{B4AE1148-3ED2-437B-8DDE-28906601A36F}">
+							<Comment>Event - Closing a zone</Comment>
+						</Event>
+						<Event Name="fa_gui_direction_create" ID="{9C065053-80B8-4DFF-ACDC-A37C3B46D656}">
+							<Comment>Event - Opening a zone</Comment>
+						</Event>
+						<Event Name="fa_gui_dp_docking_dir" ID="{B03AD6C2-43EC-42AE-9DFA-A4ACF7403110}">
+							<Comment>Event - Selecting a zone convergence</Comment>
+						</Event>
+						<Event Name="fa_gui_fort_order_in_progress" ID="{E3C06199-8A95-4506-91BF-32F031C87F27}">
+							<Comment>Event - Consumable - Cooldown (same for all types)</Comment>
+						</Event>
+						<Event Name="fa_gui_fort_order_is_ready" ID="{1B32BE32-0F7E-4B59-BA13-EA94D8DB0BE7}">
+							<Comment>Event - Consumable - Ready (same for all types)</Comment>
+						</Event>
+						<Event Name="fa_gui_fort_upgrade_building" ID="{E10CBE56-0612-4DC9-B2D7-18C42CB19037}">
+							<Comment>Event - Structure level increased (same for all structure types)</Comment>
+						</Event>
+						<Event Name="fa_gui_transport_exit" ID="{FDE2A0DE-A691-446E-BFCC-4E8235224054}">
+							<Comment>Event - exiting the Transportation Mode</Comment>
+						</Event>
+						<Event Name="fa_gui_transport_first_step" ID="{BD97E9EA-43A9-4398-A871-AD2BC49EB3BF}">
+							<Comment>Event - Selecting a source structure in the Transportation Mode</Comment>
+						</Event>
+						<Event Name="fa_gui_transport_approve" ID="{5F453AF0-4BFC-42C4-B556-C959A1E2F91E}">
+							<Comment>Event - Clicking the "Transport" button</Comment>
+						</Event>
+						<Event Name="fa_gui_transport_enter" ID="{FC8E0548-4C33-4152-9407-281E8AC58E15}">
+							<Comment>Event - Entering the Transportation Mode</Comment>
+						</Event>
+						<Event Name="fa_gui_transport_constrain" ID="{FD5AFF6F-00D3-4FB9-9789-0F964039C0EF}">
+							<Comment>Event - Sound of reaching the limit in the Transportation confirmation window</Comment>
+						</Event>
+						<Event Name="fa_gui_transport_next_step" ID="{8E051890-42FA-4D28-B895-290E51D58B7B}">
+							<Comment>Event - Selecting a recipient structure in the Transportation mode</Comment>
+						</Event>
+						<Event Name="fa_gui_dp_battle_timer" ID="{D0C23F82-E69D-4C6B-9592-826B870B7A95}">
+							<Comment>Event - Timer countdown sound</Comment>
+						</Event>
+						<Event Name="fa_gui_fort_entered_foundation_state" ID="{C5960425-5A7C-46B1-9E79-AC213DA14221}">
+							<Comment>Event - Laying the foundation (same for all structure types)</Comment>
+						</Event>
+						<Event Name="fa_gui_fort_demount_building" ID="{BCF8C3EB-4A52-4F6D-9E57-275F4CB28F25}">
+							<Comment>Event - Structure Demolition</Comment>
+						</Event>
+						<Event Name="fa_gui_activate_battlePayments" ID="{2B84A699-D8B4-4F36-804B-75D8C329ABFF}">
+							<Comment>Event - activating the Battle Payments reserve
              Activating the Tactical Training reserve</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="fa_gui_silence" ID="{EB8D18C7-ED2F-4A60-9DFE-1F6605CD21F7}">
-              <Comment>Event - Silence</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="fa_gui_battle_win" ID="{973E4280-3A29-4D99-BBEC-4B78F1C0EFDB}">
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="fa_gui_battle_counter_win" ID="{FDC012A6-4BA9-4A3F-8FDC-E0A5CFCF0367}">
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="fa_gui_battle_loose_enemy_citadel" ID="{3AF8D0C3-166F-47CD-B442-2717533ABF65}">
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="fa_gui_battle_win_our_citadel" ID="{23E488BD-5D36-4203-BEA0-AA3973B7FEB7}">
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="fa_gui_battle_counter_loose" ID="{DD210ABC-6A77-4856-905C-F8DB55A7541C}">
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="fa_gui_battle_loose" ID="{3B8ABE0A-9887-49DD-8361-9C84894DE453}">
-              <ChildrenList></ChildrenList>
-            </Event>
-          </ChildrenList>
-        </Folder>
-        <Folder Name="music" ID="{3C80E2C1-F1CD-4D59-B163-3BC90A81412D}" ShortID="469730994">
-          <ChildrenList>
-            <Event Name="fa_music_defeat" ID="{6F8A84ED-BAAD-4C87-B290-021FBE3836BD}">
-              <Comment>Event - Background music</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="fa_music_win" ID="{78A8B136-4B70-4445-BB4E-E9CB9C6831E7}">
-              <Comment>Event - Victory music</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="fa_music_draw" ID="{08787351-5E7C-4045-8AF7-4F6233D58732}">
-              <Comment>Event - Draw music</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-          </ChildrenList>
-        </Folder>
-      </ChildrenList>
-    </WorkUnit>
-  </Events>
+						</Event>
+						<Event Name="fa_gui_silence" ID="{EB8D18C7-ED2F-4A60-9DFE-1F6605CD21F7}">
+							<Comment>Event - Silence</Comment>
+						</Event>
+						<Event Name="fa_gui_battle_win" ID="{973E4280-3A29-4D99-BBEC-4B78F1C0EFDB}"/>
+						<Event Name="fa_gui_battle_counter_win" ID="{FDC012A6-4BA9-4A3F-8FDC-E0A5CFCF0367}"/>
+						<Event Name="fa_gui_battle_loose_enemy_citadel" ID="{3AF8D0C3-166F-47CD-B442-2717533ABF65}"/>
+						<Event Name="fa_gui_battle_win_our_citadel" ID="{23E488BD-5D36-4203-BEA0-AA3973B7FEB7}"/>
+						<Event Name="fa_gui_battle_counter_loose" ID="{DD210ABC-6A77-4856-905C-F8DB55A7541C}"/>
+						<Event Name="fa_gui_battle_loose" ID="{3B8ABE0A-9887-49DD-8361-9C84894DE453}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="music" ID="{3C80E2C1-F1CD-4D59-B163-3BC90A81412D}" ShortID="469730994">
+					<ChildrenList>
+						<Event Name="fa_music_defeat" ID="{6F8A84ED-BAAD-4C87-B290-021FBE3836BD}">
+							<Comment>Event - Background music</Comment>
+						</Event>
+						<Event Name="fa_music_win" ID="{78A8B136-4B70-4445-BB4E-E9CB9C6831E7}">
+							<Comment>Event - Victory music</Comment>
+						</Event>
+						<Event Name="fa_music_draw" ID="{08787351-5E7C-4045-8AF7-4F6233D58732}">
+							<Comment>Event - Draw music</Comment>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
 </WwiseDocument>

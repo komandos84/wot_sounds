@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{9D68BE5F-8CA6-43E0-BCE2-C7D59F63E582}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{9D68BE5F-8CA6-43E0-BCE2-C7D59F63E582}" SchemaVersion="97">
 	<Effects>
 		<WorkUnit Name="Factory Convolution Reverb Effects" ID="{9D68BE5F-8CA6-43E0-BCE2-C7D59F63E582}" PersistMode="Standalone">
 			<ChildrenList>
@@ -46,11 +46,14 @@ IR Pre-delay: 6ms</Comment>
 												</Property>
 											</PropertyList>
 											<ChildrenList>
-												<PluginMediaSource Name="AK Berlin Teldex" ID="{F790A942-06D7-4B0D-98CA-00192F55631F}" ShortID="162018684">
+												<PluginMediaSource Name="AK Berlin Teldex" ID="{F790A942-06D7-4B0D-98CA-00192F55631F}">
 													<ParentPluginID>8323075</ParentPluginID>
 													<PropertyList>
 														<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Halls\AK Berlin Teldex.wav"/>
 													</PropertyList>
+													<MediaIDList>
+														<MediaID ID="162018684"/>
+													</MediaIDList>
 												</PluginMediaSource>
 											</ChildrenList>
 											<PluginData><ConvolutionData>
@@ -158,11 +161,14 @@ IR Pre-delay: 5ms
 												</Property>
 											</PropertyList>
 											<ChildrenList>
-												<PluginMediaSource Name="AK Berlin Stadtbad" ID="{BE26ADD0-4A3E-4342-8A3F-4AF02920A1A1}" ShortID="88530504">
+												<PluginMediaSource Name="AK Berlin Stadtbad" ID="{BE26ADD0-4A3E-4342-8A3F-4AF02920A1A1}">
 													<ParentPluginID>8323075</ParentPluginID>
 													<PropertyList>
 														<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Halls\AK Berlin Stadtbad.wav"/>
 													</PropertyList>
+													<MediaIDList>
+														<MediaID ID="88530504"/>
+													</MediaIDList>
 												</PluginMediaSource>
 											</ChildrenList>
 											<PluginData><ConvolutionData>
@@ -265,14 +271,14 @@ IR Pre-delay: 10ms
 												</Property>
 											</PropertyList>
 											<ChildrenList>
-												<PluginMediaSource Name="AK Brasilien Halle" ID="{55A22F2C-DD1C-4B35-A865-6CA83DB573C6}" ShortID="609174261">
+												<PluginMediaSource Name="AK Brasilien Halle" ID="{55A22F2C-DD1C-4B35-A865-6CA83DB573C6}">
 													<ParentPluginID>8323075</ParentPluginID>
 													<PropertyList>
 														<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Halls\AK Brasilien Halle.wav"/>
 													</PropertyList>
-													<ConvertedFileIDList>
-														<File ID="417701481"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="417701481"/>
+													</MediaIDList>
 												</PluginMediaSource>
 											</ChildrenList>
 											<PluginData><ConvolutionData>
@@ -378,11 +384,14 @@ IR Pre-delay: 2ms </Comment>
 												</Property>
 											</PropertyList>
 											<ChildrenList>
-												<PluginMediaSource Name="AK Hamburg Harburger See" ID="{E93B7651-0A28-4AAC-A86F-D3995CB3E07D}" ShortID="612082618">
+												<PluginMediaSource Name="AK Hamburg Harburger See" ID="{E93B7651-0A28-4AAC-A86F-D3995CB3E07D}">
 													<ParentPluginID>8323075</ParentPluginID>
 													<PropertyList>
 														<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Exteriors\AK Hamburg Harburger See.wav"/>
 													</PropertyList>
+													<MediaIDList>
+														<MediaID ID="612082618"/>
+													</MediaIDList>
 												</PluginMediaSource>
 											</ChildrenList>
 											<PluginData><ConvolutionData>
@@ -480,11 +489,14 @@ IR Pre-delay: 9ms
 												</Property>
 											</PropertyList>
 											<ChildrenList>
-												<PluginMediaSource Name="AK Hamburg Volksdorfer Wald" ID="{1AD06791-38BB-4CF8-B88E-E0F7A249317E}" ShortID="13000250">
+												<PluginMediaSource Name="AK Hamburg Volksdorfer Wald" ID="{1AD06791-38BB-4CF8-B88E-E0F7A249317E}">
 													<ParentPluginID>8323075</ParentPluginID>
 													<PropertyList>
 														<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Exteriors\AK Hamburg Volksdorfer Wald.wav"/>
 													</PropertyList>
+													<MediaIDList>
+														<MediaID ID="13000250"/>
+													</MediaIDList>
 												</PluginMediaSource>
 											</ChildrenList>
 											<PluginData><ConvolutionData>
@@ -582,14 +594,14 @@ IR Pre-delay: 8ms
 												</Property>
 											</PropertyList>
 											<ChildrenList>
-												<PluginMediaSource Name="AK Hamburg Stadtpark 01" ID="{BF048F2A-BA09-46E4-A29F-E1150D014061}" ShortID="584321412">
+												<PluginMediaSource Name="AK Hamburg Stadtpark 01" ID="{BF048F2A-BA09-46E4-A29F-E1150D014061}">
 													<ParentPluginID>8323075</ParentPluginID>
 													<PropertyList>
 														<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Exteriors\AK Hamburg Stadtpark 01.wav"/>
 													</PropertyList>
-													<ConvertedFileIDList>
-														<File ID="152920738"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="152920738"/>
+													</MediaIDList>
 												</PluginMediaSource>
 											</ChildrenList>
 											<PluginData><ConvolutionData>
@@ -692,14 +704,14 @@ IR Pre-delay: 3ms
 												</Property>
 											</PropertyList>
 											<ChildrenList>
-												<PluginMediaSource Name="AK Hamburg Stadtpark 02" ID="{20E26D41-8E0A-4B04-B5B3-340BB77A42C4}" ShortID="1002455079">
+												<PluginMediaSource Name="AK Hamburg Stadtpark 02" ID="{20E26D41-8E0A-4B04-B5B3-340BB77A42C4}">
 													<ParentPluginID>8323075</ParentPluginID>
 													<PropertyList>
 														<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Exteriors\AK Hamburg Stadtpark 02.wav"/>
 													</PropertyList>
-													<ConvertedFileIDList>
-														<File ID="195840689"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="195840689"/>
+													</MediaIDList>
 												</PluginMediaSource>
 											</ChildrenList>
 											<PluginData><ConvolutionData>
@@ -806,14 +818,14 @@ IR Pre-delay: 4ms
 												</Property>
 											</PropertyList>
 											<ChildrenList>
-												<PluginMediaSource Name="AK Hamburg Parkhaus" ID="{72804A69-D338-40C4-A3DF-CB9121E56309}" ShortID="1010311289">
+												<PluginMediaSource Name="AK Hamburg Parkhaus" ID="{72804A69-D338-40C4-A3DF-CB9121E56309}">
 													<ParentPluginID>8323075</ParentPluginID>
 													<PropertyList>
 														<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Large Spaces\AK Hamburg Parkhaus.wav"/>
 													</PropertyList>
-													<ConvertedFileIDList>
-														<File ID="785966779"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="785966779"/>
+													</MediaIDList>
 												</PluginMediaSource>
 											</ChildrenList>
 											<PluginData><ConvolutionData>
@@ -916,14 +928,14 @@ IR Pre-delay: 7ms
 												</Property>
 											</PropertyList>
 											<ChildrenList>
-												<PluginMediaSource Name="AK Stair Way Hall" ID="{4AB19057-35F9-4A73-A1F5-FED1EFF110D5}" ShortID="539027192">
+												<PluginMediaSource Name="AK Stair Way Hall" ID="{4AB19057-35F9-4A73-A1F5-FED1EFF110D5}">
 													<ParentPluginID>8323075</ParentPluginID>
 													<PropertyList>
 														<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Large Spaces\AK Stair Way Hall.wav"/>
 													</PropertyList>
-													<ConvertedFileIDList>
-														<File ID="46969464"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="46969464"/>
+													</MediaIDList>
 												</PluginMediaSource>
 											</ChildrenList>
 											<PluginData><ConvolutionData>
@@ -1021,11 +1033,14 @@ IR Pre-delay: 0ms
 												</Property>
 											</PropertyList>
 											<ChildrenList>
-												<PluginMediaSource Name="AK Hamburg Fabrik" ID="{4AEBCBEE-DCE1-4E5A-879B-843712E0648C}" ShortID="734720824">
+												<PluginMediaSource Name="AK Hamburg Fabrik" ID="{4AEBCBEE-DCE1-4E5A-879B-843712E0648C}">
 													<ParentPluginID>8323075</ParentPluginID>
 													<PropertyList>
 														<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Large Spaces\AK Hamburg Fabrik.wav"/>
 													</PropertyList>
+													<MediaIDList>
+														<MediaID ID="734720824"/>
+													</MediaIDList>
 												</PluginMediaSource>
 											</ChildrenList>
 											<PluginData><ConvolutionData>
@@ -1127,14 +1142,14 @@ IR Pre-delay: 0ms </Comment>
 												</Property>
 											</PropertyList>
 											<ChildrenList>
-												<PluginMediaSource Name="AK Hamburg Fabrik SCOUT" ID="{8776D08B-A0B5-448E-A09A-E355E3646440}" ShortID="825862339">
+												<PluginMediaSource Name="AK Hamburg Fabrik SCOUT" ID="{8776D08B-A0B5-448E-A09A-E355E3646440}">
 													<ParentPluginID>8323075</ParentPluginID>
 													<PropertyList>
 														<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Large Spaces\AK Hamburg Fabrik SCOUT.wav"/>
 													</PropertyList>
-													<ConvertedFileIDList>
-														<File ID="765520478"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="765520478"/>
+													</MediaIDList>
 												</PluginMediaSource>
 											</ChildrenList>
 											<PluginData><ConvolutionData>
@@ -1246,14 +1261,14 @@ IR Pre-delay: 4ms
 												</Property>
 											</PropertyList>
 											<ChildrenList>
-												<PluginMediaSource Name="AK Hamburg Echo Chamber" ID="{EB7CAD97-6B2B-4742-97D5-9C7BFFFCB430}" ShortID="667537848">
+												<PluginMediaSource Name="AK Hamburg Echo Chamber" ID="{EB7CAD97-6B2B-4742-97D5-9C7BFFFCB430}">
 													<ParentPluginID>8323075</ParentPluginID>
 													<PropertyList>
 														<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Rooms\AK Hamburg Echo Chamber.wav"/>
 													</PropertyList>
-													<ConvertedFileIDList>
-														<File ID="185425062"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="185425062"/>
+													</MediaIDList>
 												</PluginMediaSource>
 											</ChildrenList>
 											<PluginData><ConvolutionData>
@@ -1346,11 +1361,14 @@ IR Pre-delay: 0ms
 												</Property>
 											</PropertyList>
 											<ChildrenList>
-												<PluginMediaSource Name="AK Hamburg Pinguin Buro" ID="{3BE96017-02D3-40B6-AF9E-E89764DC3631}" ShortID="879974926">
+												<PluginMediaSource Name="AK Hamburg Pinguin Buro" ID="{3BE96017-02D3-40B6-AF9E-E89764DC3631}">
 													<ParentPluginID>8323075</ParentPluginID>
 													<PropertyList>
 														<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Rooms\AK Hamburg Pinguin Buro.wav"/>
 													</PropertyList>
+													<MediaIDList>
+														<MediaID ID="879974926"/>
+													</MediaIDList>
 												</PluginMediaSource>
 											</ChildrenList>
 											<PluginData><ConvolutionData>
@@ -1443,14 +1461,14 @@ IR Pre-delay: 8ms
 												</Property>
 											</PropertyList>
 											<ChildrenList>
-												<PluginMediaSource Name="AK Blue Noise Room 01" ID="{4CDF023A-F100-4A7D-80A2-CB591F591EDC}" ShortID="830379118">
+												<PluginMediaSource Name="AK Blue Noise Room 01" ID="{4CDF023A-F100-4A7D-80A2-CB591F591EDC}">
 													<ParentPluginID>8323075</ParentPluginID>
 													<PropertyList>
 														<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Rooms\AK Blue Noise Room 01.wav"/>
 													</PropertyList>
-													<ConvertedFileIDList>
-														<File ID="358895006"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="358895006"/>
+													</MediaIDList>
 												</PluginMediaSource>
 											</ChildrenList>
 											<PluginData><ConvolutionData>
@@ -1552,11 +1570,14 @@ IR Pre-delay: 6ms </Comment>
 												</Property>
 											</PropertyList>
 											<ChildrenList>
-												<PluginMediaSource Name="AK Blue Noise Room 02" ID="{35482B35-AD23-4C36-9863-2252DA794223}" ShortID="238341605">
+												<PluginMediaSource Name="AK Blue Noise Room 02" ID="{35482B35-AD23-4C36-9863-2252DA794223}">
 													<ParentPluginID>8323075</ParentPluginID>
 													<PropertyList>
 														<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Rooms\AK Blue Noise Room 02.wav"/>
 													</PropertyList>
+													<MediaIDList>
+														<MediaID ID="238341605"/>
+													</MediaIDList>
 												</PluginMediaSource>
 											</ChildrenList>
 											<PluginData><ConvolutionData>
@@ -1654,11 +1675,14 @@ IR Pre-delay: 3ms
 												</Property>
 											</PropertyList>
 											<ChildrenList>
-												<PluginMediaSource Name="AK Blue Noise Room 03" ID="{507AD50D-8703-4CD8-880E-5C11D4E133E1}" ShortID="680452062">
+												<PluginMediaSource Name="AK Blue Noise Room 03" ID="{507AD50D-8703-4CD8-880E-5C11D4E133E1}">
 													<ParentPluginID>8323075</ParentPluginID>
 													<PropertyList>
 														<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Rooms\AK Blue Noise Room 03.wav"/>
 													</PropertyList>
+													<MediaIDList>
+														<MediaID ID="680452062"/>
+													</MediaIDList>
 												</PluginMediaSource>
 											</ChildrenList>
 											<PluginData><ConvolutionData>
@@ -1766,14 +1790,14 @@ IR Pre-delay: 8ms
 												</Property>
 											</PropertyList>
 											<ChildrenList>
-												<PluginMediaSource Name="AK Luna Studio" ID="{F77C031B-A37D-4B46-90E5-F65781FC5369}" ShortID="765420740">
+												<PluginMediaSource Name="AK Luna Studio" ID="{F77C031B-A37D-4B46-90E5-F65781FC5369}">
 													<ParentPluginID>8323075</ParentPluginID>
 													<PropertyList>
 														<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Rooms\AK Luna Studio.wav"/>
 													</PropertyList>
-													<ConvertedFileIDList>
-														<File ID="749103418"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="749103418"/>
+													</MediaIDList>
 												</PluginMediaSource>
 											</ChildrenList>
 											<PluginData><ConvolutionData>
@@ -1875,11 +1899,14 @@ IR Pre-delay: 5ms </Comment>
 												</Property>
 											</PropertyList>
 											<ChildrenList>
-												<PluginMediaSource Name="AK Hamburg Karl Schneider Halle" ID="{E8DE3F46-8E2D-46D4-95BC-1E8E5673CEF9}" ShortID="237532661">
+												<PluginMediaSource Name="AK Hamburg Karl Schneider Halle" ID="{E8DE3F46-8E2D-46D4-95BC-1E8E5673CEF9}">
 													<ParentPluginID>8323075</ParentPluginID>
 													<PropertyList>
 														<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Rooms\AK Hamburg Karl Schneider Halle.wav"/>
 													</PropertyList>
+													<MediaIDList>
+														<MediaID ID="237532661"/>
+													</MediaIDList>
 												</PluginMediaSource>
 											</ChildrenList>
 											<PluginData><ConvolutionData>
@@ -1990,14 +2017,14 @@ IR Pre-delay: 20ms </Comment>
 												</Property>
 											</PropertyList>
 											<ChildrenList>
-												<PluginMediaSource Name="AK St-Katharinen" ID="{D5A61DB3-EE33-431A-BD34-2FF9611F6282}" ShortID="1005069349">
+												<PluginMediaSource Name="AK St-Katharinen" ID="{D5A61DB3-EE33-431A-BD34-2FF9611F6282}">
 													<ParentPluginID>8323075</ParentPluginID>
 													<PropertyList>
 														<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Churches\AK St-Katharinen.wav"/>
 													</PropertyList>
-													<ConvertedFileIDList>
-														<File ID="8071170"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="8071170"/>
+													</MediaIDList>
 												</PluginMediaSource>
 											</ChildrenList>
 											<PluginData><ConvolutionData>
@@ -2099,14 +2126,14 @@ IR Pre-delay: 5ms </Comment>
 												</Property>
 											</PropertyList>
 											<ChildrenList>
-												<PluginMediaSource Name="AK Medium Church" ID="{9C238E27-5F6F-49E3-A0B5-C2143DD1336B}" ShortID="1010865615">
+												<PluginMediaSource Name="AK Medium Church" ID="{9C238E27-5F6F-49E3-A0B5-C2143DD1336B}">
 													<ParentPluginID>8323075</ParentPluginID>
 													<PropertyList>
 														<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Churches\AK Medium Church.wav"/>
 													</PropertyList>
-													<ConvertedFileIDList>
-														<File ID="659069708"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="659069708"/>
+													</MediaIDList>
 												</PluginMediaSource>
 											</ChildrenList>
 											<PluginData><ConvolutionData>
@@ -2225,11 +2252,14 @@ IR Pre-delay: 20ms
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AK St-Katharinen" ID="{5314F988-340E-4631-B4BC-52FB22E4AD77}" ShortID="8071170">
+										<PluginMediaSource Name="AK St-Katharinen" ID="{5314F988-340E-4631-B4BC-52FB22E4AD77}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Churches\AK St-Katharinen.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="8071170"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -2336,14 +2366,14 @@ IR Pre-delay: 20ms </Comment>
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AK St-Katharinen" ID="{C5313782-BD0A-4C94-9B74-E9F268B84A87}" ShortID="99990636">
+										<PluginMediaSource Name="AK St-Katharinen" ID="{C5313782-BD0A-4C94-9B74-E9F268B84A87}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Churches\AK St-Katharinen.wav"/>
 											</PropertyList>
-											<ConvertedFileIDList>
-												<File ID="8071170"/>
-											</ConvertedFileIDList>
+											<MediaIDList>
+												<MediaID ID="8071170"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -2450,14 +2480,14 @@ IR Pre-delay: 20ms </Comment>
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AK St-Katharinen" ID="{E7B574A3-AD36-4D7A-BB0E-E25E3ED6C822}" ShortID="535111107">
+										<PluginMediaSource Name="AK St-Katharinen" ID="{E7B574A3-AD36-4D7A-BB0E-E25E3ED6C822}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Churches\AK St-Katharinen.wav"/>
 											</PropertyList>
-											<ConvertedFileIDList>
-												<File ID="8071170"/>
-											</ConvertedFileIDList>
+											<MediaIDList>
+												<MediaID ID="8071170"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -2569,14 +2599,14 @@ IR Pre-delay: 20ms </Comment>
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AK St-Katharinen" ID="{CAF740FD-0DE5-4D73-8C7F-FAAB52665D18}" ShortID="101091315">
+										<PluginMediaSource Name="AK St-Katharinen" ID="{CAF740FD-0DE5-4D73-8C7F-FAAB52665D18}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Churches\AK St-Katharinen.wav"/>
 											</PropertyList>
-											<ConvertedFileIDList>
-												<File ID="8071170"/>
-											</ConvertedFileIDList>
+											<MediaIDList>
+												<MediaID ID="8071170"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -2692,11 +2722,14 @@ IR Pre-delay: 5ms </Comment>
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AK Medium Church" ID="{947B2DEF-09DA-4546-9EDD-3BE75AB3C2B1}" ShortID="659069708">
+										<PluginMediaSource Name="AK Medium Church" ID="{947B2DEF-09DA-4546-9EDD-3BE75AB3C2B1}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Churches\AK Medium Church.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="659069708"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -2808,14 +2841,14 @@ IR Pre-delay: 5ms </Comment>
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AK Medium Church" ID="{D89E8FFC-F6B7-46CD-B475-25DE33104B93}" ShortID="1035327887">
+										<PluginMediaSource Name="AK Medium Church" ID="{D89E8FFC-F6B7-46CD-B475-25DE33104B93}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Churches\AK Medium Church.wav"/>
 											</PropertyList>
-											<ConvertedFileIDList>
-												<File ID="659069708"/>
-											</ConvertedFileIDList>
+											<MediaIDList>
+												<MediaID ID="659069708"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -2931,14 +2964,14 @@ IR Pre-delay: 2ms </Comment>
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AK Hamburg Harburger See" ID="{3F6FB504-8D95-4B23-9015-F1F87AF22F50}" ShortID="930622549">
+										<PluginMediaSource Name="AK Hamburg Harburger See" ID="{3F6FB504-8D95-4B23-9015-F1F87AF22F50}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Exteriors\AK Hamburg Harburger See.wav"/>
 											</PropertyList>
-											<ConvertedFileIDList>
-												<File ID="612082618"/>
-											</ConvertedFileIDList>
+											<MediaIDList>
+												<MediaID ID="612082618"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -3055,14 +3088,14 @@ IR Pre-delay: 2ms </Comment>
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AK Hamburg Harburger See" ID="{1523AA96-D5B1-462D-9619-F40F5BC1471B}" ShortID="926581161">
+										<PluginMediaSource Name="AK Hamburg Harburger See" ID="{1523AA96-D5B1-462D-9619-F40F5BC1471B}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Exteriors\AK Hamburg Harburger See.wav"/>
 											</PropertyList>
-											<ConvertedFileIDList>
-												<File ID="612082618"/>
-											</ConvertedFileIDList>
+											<MediaIDList>
+												<MediaID ID="612082618"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -3169,11 +3202,14 @@ IR Pre-delay: 8ms </Comment>
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AK Hamburg Stadtpark 01" ID="{822FA9DA-7687-4794-90DA-AA3A8C91580A}" ShortID="152920738">
+										<PluginMediaSource Name="AK Hamburg Stadtpark 01" ID="{822FA9DA-7687-4794-90DA-AA3A8C91580A}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Exteriors\AK Hamburg Stadtpark 01.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="152920738"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -3281,14 +3317,14 @@ IR Pre-delay: 9ms
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AK Hamburg Volksdorfer Wald" ID="{D598937B-2ABE-4263-862F-4BE4C4E4DA67}" ShortID="299482527">
+										<PluginMediaSource Name="AK Hamburg Volksdorfer Wald" ID="{D598937B-2ABE-4263-862F-4BE4C4E4DA67}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Exteriors\AK Hamburg Volksdorfer Wald.wav"/>
 											</PropertyList>
-											<ConvertedFileIDList>
-												<File ID="13000250"/>
-											</ConvertedFileIDList>
+											<MediaIDList>
+												<MediaID ID="13000250"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -3408,14 +3444,14 @@ IR Pre-delay: 8ms
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AK Hamburg Stadtpark 01" ID="{55105436-A217-4AC5-8F9D-C4DAB8A97557}" ShortID="1051291759">
+										<PluginMediaSource Name="AK Hamburg Stadtpark 01" ID="{55105436-A217-4AC5-8F9D-C4DAB8A97557}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Exteriors\AK Hamburg Stadtpark 01.wav"/>
 											</PropertyList>
-											<ConvertedFileIDList>
-												<File ID="152920738"/>
-											</ConvertedFileIDList>
+											<MediaIDList>
+												<MediaID ID="152920738"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -3534,11 +3570,14 @@ IR Pre-delay: 3ms </Comment>
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AK Hamburg Stadtpark 02" ID="{ED2C8D5F-4C93-4527-9FB5-5AB0886DFE34}" ShortID="195840689">
+										<PluginMediaSource Name="AK Hamburg Stadtpark 02" ID="{ED2C8D5F-4C93-4527-9FB5-5AB0886DFE34}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Exteriors\AK Hamburg Stadtpark 02.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="195840689"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -3655,14 +3694,14 @@ IR Pre-delay: 3ms </Comment>
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AK Hamburg Stadtpark 02" ID="{97E580AC-488A-4296-964B-5B8B91C87A80}" ShortID="433739779">
+										<PluginMediaSource Name="AK Hamburg Stadtpark 02" ID="{97E580AC-488A-4296-964B-5B8B91C87A80}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Exteriors\AK Hamburg Stadtpark 02.wav"/>
 											</PropertyList>
-											<ConvertedFileIDList>
-												<File ID="195840689"/>
-											</ConvertedFileIDList>
+											<MediaIDList>
+												<MediaID ID="195840689"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -3768,14 +3807,14 @@ IR Pre-delay: 6ms</Comment>
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AK Berlin Teldex" ID="{BE2B50C1-670E-4C34-BF9B-0F68780E6780}" ShortID="654850748">
+										<PluginMediaSource Name="AK Berlin Teldex" ID="{BE2B50C1-670E-4C34-BF9B-0F68780E6780}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Halls\AK Berlin Teldex.wav"/>
 											</PropertyList>
-											<ConvertedFileIDList>
-												<File ID="162018684"/>
-											</ConvertedFileIDList>
+											<MediaIDList>
+												<MediaID ID="162018684"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -3882,14 +3921,14 @@ IR Pre-delay: 6ms</Comment>
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AK Berlin Teldex" ID="{74A74A9F-7BBC-40A4-AE8F-AEFE26BF5747}" ShortID="1045271282">
+										<PluginMediaSource Name="AK Berlin Teldex" ID="{74A74A9F-7BBC-40A4-AE8F-AEFE26BF5747}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Halls\AK Berlin Teldex.wav"/>
 											</PropertyList>
-											<ConvertedFileIDList>
-												<File ID="162018684"/>
-											</ConvertedFileIDList>
+											<MediaIDList>
+												<MediaID ID="162018684"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -4006,14 +4045,14 @@ IR Pre-delay: 6ms</Comment>
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AK Berlin Teldex" ID="{A8F0CB83-4005-44E4-9C2F-95052ED3CAA9}" ShortID="689379105">
+										<PluginMediaSource Name="AK Berlin Teldex" ID="{A8F0CB83-4005-44E4-9C2F-95052ED3CAA9}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Halls\AK Berlin Teldex.wav"/>
 											</PropertyList>
-											<ConvertedFileIDList>
-												<File ID="162018684"/>
-											</ConvertedFileIDList>
+											<MediaIDList>
+												<MediaID ID="162018684"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -4135,14 +4174,14 @@ IR Pre-delay: 6ms</Comment>
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AK Berlin Teldex" ID="{BEC683B7-F228-43CE-BFA0-8F641B9AA366}" ShortID="733994131">
+										<PluginMediaSource Name="AK Berlin Teldex" ID="{BEC683B7-F228-43CE-BFA0-8F641B9AA366}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Halls\AK Berlin Teldex.wav"/>
 											</PropertyList>
-											<ConvertedFileIDList>
-												<File ID="162018684"/>
-											</ConvertedFileIDList>
+											<MediaIDList>
+												<MediaID ID="162018684"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -4265,11 +4304,14 @@ IR Pre-delay: 10ms </Comment>
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AK Brasilien Halle" ID="{DFA34AB6-25FF-4677-ADC1-8E4F112BA18E}" ShortID="417701481">
+										<PluginMediaSource Name="AK Brasilien Halle" ID="{DFA34AB6-25FF-4677-ADC1-8E4F112BA18E}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Halls\AK Brasilien Halle.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="417701481"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -4391,11 +4433,14 @@ IR Pre-delay: 4ms
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AK Hamburg Parkhaus" ID="{F5643149-8089-46B4-81BE-A77E435F4A39}" ShortID="785966779">
+										<PluginMediaSource Name="AK Hamburg Parkhaus" ID="{F5643149-8089-46B4-81BE-A77E435F4A39}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Large Spaces\AK Hamburg Parkhaus.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="785966779"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -4508,14 +4553,14 @@ IR Pre-delay: 7ms
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AK Stair Way Hall" ID="{8D8913CE-9343-49C7-B562-29C1A9944A27}" ShortID="304471121">
+										<PluginMediaSource Name="AK Stair Way Hall" ID="{8D8913CE-9343-49C7-B562-29C1A9944A27}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Large Spaces\AK Stair Way Hall.wav"/>
 											</PropertyList>
-											<ConvertedFileIDList>
-												<File ID="46969464"/>
-											</ConvertedFileIDList>
+											<MediaIDList>
+												<MediaID ID="46969464"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -4623,14 +4668,14 @@ IR Pre-delay: 7ms
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AK Stair Way Hall" ID="{68868578-9A15-49D1-9D7E-0B3F2AEC3A63}" ShortID="811934406">
+										<PluginMediaSource Name="AK Stair Way Hall" ID="{68868578-9A15-49D1-9D7E-0B3F2AEC3A63}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Large Spaces\AK Stair Way Hall.wav"/>
 											</PropertyList>
-											<ConvertedFileIDList>
-												<File ID="46969464"/>
-											</ConvertedFileIDList>
+											<MediaIDList>
+												<MediaID ID="46969464"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -4748,11 +4793,14 @@ IR Pre-delay: 0ms
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AK Hamburg Fabrik SCOUT" ID="{1EC9BCD4-19BA-4AE0-BB05-D1AD66F9F72B}" ShortID="765520478">
+										<PluginMediaSource Name="AK Hamburg Fabrik SCOUT" ID="{1EC9BCD4-19BA-4AE0-BB05-D1AD66F9F72B}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Large Spaces\AK Hamburg Fabrik SCOUT.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="765520478"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -4863,14 +4911,14 @@ IR Pre-delay: 4ms </Comment>
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AK Hamburg Echo Chamber" ID="{1EC8D311-6031-4BD4-A538-EDD062C4AC92}" ShortID="538281099">
+										<PluginMediaSource Name="AK Hamburg Echo Chamber" ID="{1EC8D311-6031-4BD4-A538-EDD062C4AC92}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Rooms\AK Hamburg Echo Chamber.wav"/>
 											</PropertyList>
-											<ConvertedFileIDList>
-												<File ID="185425062"/>
-											</ConvertedFileIDList>
+											<MediaIDList>
+												<MediaID ID="185425062"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -4983,11 +5031,14 @@ IR Pre-delay: 4ms
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AK Hamburg Echo Chamber" ID="{21702E7B-FF1F-4F93-85D5-A60DAA1F4682}" ShortID="185425062">
+										<PluginMediaSource Name="AK Hamburg Echo Chamber" ID="{21702E7B-FF1F-4F93-85D5-A60DAA1F4682}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Rooms\AK Hamburg Echo Chamber.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="185425062"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -5085,11 +5136,14 @@ IR Pre-delay: 8ms
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AK Blue Noise_Room" ID="{220EFEE1-7F13-4EA4-80D2-7E6E197BA77E}" ShortID="358895006">
+										<PluginMediaSource Name="AK Blue Noise_Room" ID="{220EFEE1-7F13-4EA4-80D2-7E6E197BA77E}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Rooms\AK Blue Noise Room 01.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="358895006"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -5203,14 +5257,14 @@ IR Pre-delay: 8ms
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AK Blue Noise Room 01" ID="{E2405E23-5F0A-41D7-B854-DF78E534D101}" ShortID="477192351">
+										<PluginMediaSource Name="AK Blue Noise Room 01" ID="{E2405E23-5F0A-41D7-B854-DF78E534D101}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Rooms\AK Blue Noise Room 01.wav"/>
 											</PropertyList>
-											<ConvertedFileIDList>
-												<File ID="358895006"/>
-											</ConvertedFileIDList>
+											<MediaIDList>
+												<MediaID ID="358895006"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -5324,14 +5378,14 @@ IR Pre-delay: 6ms
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AK Blue Noise Room 02" ID="{7113FA76-290B-46C7-934E-FC3104C13403}" ShortID="828807711">
+										<PluginMediaSource Name="AK Blue Noise Room 02" ID="{7113FA76-290B-46C7-934E-FC3104C13403}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Rooms\AK Blue Noise Room 02.wav"/>
 											</PropertyList>
-											<ConvertedFileIDList>
-												<File ID="238341605"/>
-											</ConvertedFileIDList>
+											<MediaIDList>
+												<MediaID ID="238341605"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -5444,11 +5498,14 @@ IR Pre-delay: 8ms
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AK Luna Studio" ID="{F0214EF8-B9F1-4513-9BF0-2C17DB934FD5}" ShortID="749103418">
+										<PluginMediaSource Name="AK Luna Studio" ID="{F0214EF8-B9F1-4513-9BF0-2C17DB934FD5}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Rooms\AK Luna Studio.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="749103418"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -5551,14 +5608,14 @@ IR Pre-delay: 8ms
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AK Luna Studio" ID="{64942F62-D719-4DCE-92FC-3C040065DEF5}" ShortID="1012937349">
+										<PluginMediaSource Name="AK Luna Studio" ID="{64942F62-D719-4DCE-92FC-3C040065DEF5}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Rooms\AK Luna Studio.wav"/>
 											</PropertyList>
-											<ConvertedFileIDList>
-												<File ID="749103418"/>
-											</ConvertedFileIDList>
+											<MediaIDList>
+												<MediaID ID="749103418"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -5656,14 +5713,14 @@ IR Pre-delay: 5ms
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AK Hamburg Karl Schneider Halle" ID="{6676DD52-CE82-48D0-8C11-8910933FEEFA}" ShortID="634339356">
+										<PluginMediaSource Name="AK Hamburg Karl Schneider Halle" ID="{6676DD52-CE82-48D0-8C11-8910933FEEFA}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Rooms\AK Hamburg Karl Schneider Halle.wav"/>
 											</PropertyList>
-											<ConvertedFileIDList>
-												<File ID="237532661"/>
-											</ConvertedFileIDList>
+											<MediaIDList>
+												<MediaID ID="237532661"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>
@@ -5776,11 +5833,14 @@ IR Pre-delay: 7ms
 										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AK Stair Way Hall" ID="{0A3DCE8C-790D-45FB-AA4A-D32C0AD8F146}" ShortID="46969464">
+										<PluginMediaSource Name="AK Stair Way Hall" ID="{0A3DCE8C-790D-45FB-AA4A-D32C0AD8F146}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Large Spaces\AK Stair Way Hall.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="46969464"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
 									<PluginData><ConvolutionData>

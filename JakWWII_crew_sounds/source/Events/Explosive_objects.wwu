@@ -1,81 +1,69 @@
-<WwiseDocument Type="WorkUnit" ID="{69FEFA84-0A7D-4B6B-A2F4-857E89E14287}" SchemaVersion="85">
-  <Events>
-    <WorkUnit Name="Explosive_objects" ID="{69FEFA84-0A7D-4B6B-A2F4-857E89E14287}" PersistMode="Standalone">
-      <Comment>Explosive objects</Comment>
-      <ChildrenList>
-        <Folder Name="fuel_small" ID="{47D42322-B62A-4AB9-A98E-60810579575C}" ShortID="392325432">
-          <ChildrenList>
-            <Event Name="inf_fuel_env418_OldGMercedes2" ID="{C6B29380-6570-41C7-B4A7-7AA2510A4571}">
-              <Comment>Event - Explosion of object *OldGMercedes2*</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="inf_fuel_env608_Sovbus" ID="{83108B6D-2BF0-400A-93FD-B85933589805}">
-              <Comment>Event - Explosion of object *Sovbus*</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="inf_fuel_envAM_011_Truck" ID="{FA6CCB61-C99F-44CF-9AB3-0C9C8CD2D4A5}">
-              <Comment>Event - Explosion of object *011_Truck*</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="inf_fuel_mle008_Canisters1" ID="{94D6F6AC-718C-4125-94C5-731A02EE7BE7}">
-              <Comment>Event - Explosion of object *Canisters1*</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="inf_fuel_mle008_Canisters2" ID="{24D080C3-9C9F-4F6B-AE51-01C319CEBBF5}">
-              <Comment>Event - Explosion of object *Canisters2*</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-          </ChildrenList>
-        </Folder>
-        <Folder Name="fuel_unique" ID="{1B9936D2-E6D2-4203-BBF5-BDE4EED5899F}" ShortID="894878079">
-          <ChildrenList>
-            <Event Name="inf_fuel_envAF_006_BarellFuel2" ID="{25065F15-C2CF-44EA-8B3C-048BC1F43481}">
-              <Comment>Event - Explosion of object *006_BarellFuel2*</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-          </ChildrenList>
-        </Folder>
-        <Folder Name="fuel_mid" ID="{88749328-831C-4C1F-8D3F-718A3FF61B62}" ShortID="252860096">
-          <ChildrenList>
-            <Event Name="inf_fuel_mleAF_003_WestlandLysander" ID="{8F046894-645D-450C-B1BC-B69F8C4CC76A}">
-              <Comment>Event - Explosion of object *WestlandLysander*</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="inf_fuel_envAF_007_AircraftRefueller" ID="{60F89D58-3510-4B90-A687-AAB58EEFF318}">
-              <Comment>Event - Explosion of object *AircraftRefueller*</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="inf_env801_TrackBoomTank01" ID="{0E947718-8F97-4AC4-8F9B-50EFC1FE6804}">
-              <Comment>Event - Explosion of object *TrackBoomTank01*</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-          </ChildrenList>
-        </Folder>
-        <Folder Name="fuel_big" ID="{B13F8DB8-E61D-40BB-8A1D-FB19A86FF4C5}" ShortID="701727766">
-          <ChildrenList>
-            <Event Name="inf_env801_TrackBoomTank02" ID="{46B62B0C-36BE-470D-9C2F-BDA1447DE894}">
-              <Comment>Event - Explosion of object *TrackBoomTank02*</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="inf_fuel_rw004_carriage3" ID="{E6C1CD92-68B9-4E0E-8522-33C4748484C4}">
-              <Comment>Event - Explosion of object *Сarriage3*</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-          </ChildrenList>
-        </Folder>
-        <Folder Name="ammo_small_mid" ID="{F71CD6AE-8D2D-4D2C-9D96-695C49876093}" ShortID="76350373">
-          <ChildrenList>
-            <Event Name="inf_shells_detonation_medium" ID="{2FB9F0F7-6B5B-4898-9DA5-D47BEE9C2920}">
-              <Comment>Event - Explosion from a shell on maps (medium)</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="inf_shells_detonation_small" ID="{53C890DD-1076-438E-8FFB-80EF31EFFA14}">
-              <Comment>Event - Explosion from a shell on maps (small)</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-          </ChildrenList>
-        </Folder>
-      </ChildrenList>
-    </WorkUnit>
-  </Events>
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{69FEFA84-0A7D-4B6B-A2F4-857E89E14287}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Explosive_objects" ID="{69FEFA84-0A7D-4B6B-A2F4-857E89E14287}" PersistMode="Standalone">
+			<Comment>Explosive objects</Comment>
+			<ChildrenList>
+				<Folder Name="fuel_small" ID="{47D42322-B62A-4AB9-A98E-60810579575C}" ShortID="392325432">
+					<ChildrenList>
+						<Event Name="inf_fuel_env418_OldGMercedes2" ID="{C6B29380-6570-41C7-B4A7-7AA2510A4571}">
+							<Comment>Event - Explosion of object *OldGMercedes2*</Comment>
+						</Event>
+						<Event Name="inf_fuel_env608_Sovbus" ID="{83108B6D-2BF0-400A-93FD-B85933589805}">
+							<Comment>Event - Explosion of object *Sovbus*</Comment>
+						</Event>
+						<Event Name="inf_fuel_envAM_011_Truck" ID="{FA6CCB61-C99F-44CF-9AB3-0C9C8CD2D4A5}">
+							<Comment>Event - Explosion of object *011_Truck*</Comment>
+						</Event>
+						<Event Name="inf_fuel_mle008_Canisters1" ID="{94D6F6AC-718C-4125-94C5-731A02EE7BE7}">
+							<Comment>Event - Explosion of object *Canisters1*</Comment>
+						</Event>
+						<Event Name="inf_fuel_mle008_Canisters2" ID="{24D080C3-9C9F-4F6B-AE51-01C319CEBBF5}">
+							<Comment>Event - Explosion of object *Canisters2*</Comment>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="fuel_unique" ID="{1B9936D2-E6D2-4203-BBF5-BDE4EED5899F}" ShortID="894878079">
+					<ChildrenList>
+						<Event Name="inf_fuel_envAF_006_BarellFuel2" ID="{25065F15-C2CF-44EA-8B3C-048BC1F43481}">
+							<Comment>Event - Explosion of object *006_BarellFuel2*</Comment>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="fuel_mid" ID="{88749328-831C-4C1F-8D3F-718A3FF61B62}" ShortID="252860096">
+					<ChildrenList>
+						<Event Name="inf_fuel_mleAF_003_WestlandLysander" ID="{8F046894-645D-450C-B1BC-B69F8C4CC76A}">
+							<Comment>Event - Explosion of object *WestlandLysander*</Comment>
+						</Event>
+						<Event Name="inf_fuel_envAF_007_AircraftRefueller" ID="{60F89D58-3510-4B90-A687-AAB58EEFF318}">
+							<Comment>Event - Explosion of object *AircraftRefueller*</Comment>
+						</Event>
+						<Event Name="inf_env801_TrackBoomTank01" ID="{0E947718-8F97-4AC4-8F9B-50EFC1FE6804}">
+							<Comment>Event - Explosion of object *TrackBoomTank01*</Comment>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="fuel_big" ID="{B13F8DB8-E61D-40BB-8A1D-FB19A86FF4C5}" ShortID="701727766">
+					<ChildrenList>
+						<Event Name="inf_env801_TrackBoomTank02" ID="{46B62B0C-36BE-470D-9C2F-BDA1447DE894}">
+							<Comment>Event - Explosion of object *TrackBoomTank02*</Comment>
+						</Event>
+						<Event Name="inf_fuel_rw004_carriage3" ID="{E6C1CD92-68B9-4E0E-8522-33C4748484C4}">
+							<Comment>Event - Explosion of object *Сarriage3*</Comment>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="ammo_small_mid" ID="{F71CD6AE-8D2D-4D2C-9D96-695C49876093}" ShortID="76350373">
+					<ChildrenList>
+						<Event Name="inf_shells_detonation_medium" ID="{2FB9F0F7-6B5B-4898-9DA5-D47BEE9C2920}">
+							<Comment>Event - Explosion from a shell on maps (medium)</Comment>
+						</Event>
+						<Event Name="inf_shells_detonation_small" ID="{53C890DD-1076-438E-8FFB-80EF31EFFA14}">
+							<Comment>Event - Explosion from a shell on maps (small)</Comment>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
 </WwiseDocument>

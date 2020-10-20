@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{D4466520-3F6D-4F98-B6B2-A2C2CC971AE9}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{D4466520-3F6D-4F98-B6B2-A2C2CC971AE9}" SchemaVersion="97">
 	<Attenuations>
 		<WorkUnit Name="Turret" ID="{D4466520-3F6D-4F98-B6B2-A2C2CC971AE9}" PersistMode="Standalone">
 			<ChildrenList>

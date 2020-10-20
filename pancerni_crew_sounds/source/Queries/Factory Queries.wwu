@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{7FBA6390-4CF1-44FA-9DA5-FC65F66E8FC0}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{7FBA6390-4CF1-44FA-9DA5-FC65F66E8FC0}" SchemaVersion="97">
 	<Queries>
 		<WorkUnit Name="Factory Queries" ID="{7FBA6390-4CF1-44FA-9DA5-FC65F66E8FC0}" PersistMode="Standalone">
 			<ChildrenList>
@@ -170,8 +170,8 @@
 							<PropertyList>
 								<Property Name="ObjectType" Type="int32" Value="800"/>
 								<Property Name="Platform" Type="int16" Value="0"/>
-								<Property Name="StartFromHereObject" Type="string" Value="{DBCE5932-6C81-4A24-A101-AD72053E5667}"/>
 							</PropertyList>
+							<ReferenceList/>
 						</Query>
 						<Query Name="Sound = SFX" ID="{52F6FBC8-499A-411D-A790-CB4FACBE6F6D}">
 							<PropertyList>
@@ -625,8 +625,8 @@
 				<Query Name="Name - Contains" ID="{0C2BEF06-3ABD-40A6-BFE9-A5A656A52571}">
 					<PropertyList>
 						<Property Name="ObjectType" Type="int32" Value="700"/>
-						<Property Name="StartFromHereObject" Type="string" Value="{4759ACD8-59A8-445D-ABC9-E28487EBEEE1}"/>
 					</PropertyList>
+					<ReferenceList/>
 					<ChildrenList>
 						<SearchCriteria Name="GeneralName" ID="{2E521352-0345-47A7-9939-53653A654F49}" SearchOperationID="{82CCCD47-591B-4BD8-B3CE-89A8172A1802}">
 							<PropertyList>

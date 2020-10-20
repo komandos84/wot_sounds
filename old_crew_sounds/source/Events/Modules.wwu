@@ -1,47 +1,36 @@
-<WwiseDocument Type="WorkUnit" ID="{E44AA8E0-0104-42AD-A2CB-DAF85C6ED70A}" SchemaVersion="85">
-  <Events>
-    <WorkUnit Name="Modules" ID="{E44AA8E0-0104-42AD-A2CB-DAF85C6ED70A}" PersistMode="Standalone">
-      <Comment>Modules mounted on a vehicle</Comment>
-      <ChildrenList>
-        <Event Name="ammo_bay_damaged" ID="{C45E17E8-DFAF-4DBF-91DE-C19BFE89F9B2}">
-          <Comment>Event - Ammo Rack damaged</Comment>
-          <ChildrenList></ChildrenList>
-        </Event>
-        <Event Name="surveying_devices_destroyed" ID="{BEF34718-0987-4CDA-8BAA-5EBD8D24E23D}">
-          <Comment>Event - Observation device damaged</Comment>
-          <ChildrenList></ChildrenList>
-        </Event>
-        <Event Name="radio_damaged" ID="{4FC6DB76-5B69-4EAC-A9B7-152396902971}">
-          <Comment>Event - Radio damaged</Comment>
-          <ChildrenList></ChildrenList>
-        </Event>
-        <Event Name="fuel_tank_damaged" ID="{8660AC4E-7552-4751-8CBF-503425344A6F}">
-          <Comment>Event - Fuel Tanks hit</Comment>
-          <ChildrenList></ChildrenList>
-        </Event>
-        <Event Name="camo_net_start" ID="{14DD238B-A1F4-482A-9FB7-D021C5C9003A}">
-          <Comment>Event - Camouflage Net activation sound</Comment>
-          <ChildrenList></ChildrenList>
-        </Event>
-        <Event Name="stereo_trumpet_start" ID="{BA4450B0-1698-40CE-BC6D-D496DCCF101D}">
-          <Comment>Event - Binocular Telescope activation sound</Comment>
-          <ChildrenList></ChildrenList>
-        </Event>
-        <Event Name="camo_net_stop" ID="{1F135B66-01F3-46F1-BDDC-C499826EB1E9}">
-          <Comment>Event - Camouflage Net </Comment>
-          <ChildrenList></ChildrenList>
-        </Event>
-        <Event Name="stereo_trumpet_stop" ID="{E5A27455-7948-40B5-8EDB-8A22C3F587C3}">
-          <Comment>Event - Binocular Telescope deactivation sound</Comment>
-          <ChildrenList></ChildrenList>
-        </Event>
-        <Event Name="gun_damaged" ID="{16385815-4F0D-4ED3-A905-4BB04C46E2D5}">
-          <ChildrenList></ChildrenList>
-        </Event>
-        <Event Name="crew_member_contusion" ID="{75A5A228-3CCE-4010-8EBA-A6B22BAC4DE9}">
-          <ChildrenList></ChildrenList>
-        </Event>
-      </ChildrenList>
-    </WorkUnit>
-  </Events>
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E44AA8E0-0104-42AD-A2CB-DAF85C6ED70A}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Modules" ID="{E44AA8E0-0104-42AD-A2CB-DAF85C6ED70A}" PersistMode="Standalone">
+			<Comment>Modules mounted on a vehicle</Comment>
+			<ChildrenList>
+				<Event Name="ammo_bay_damaged" ID="{C45E17E8-DFAF-4DBF-91DE-C19BFE89F9B2}">
+					<Comment>Event - Ammo Rack damaged</Comment>
+				</Event>
+				<Event Name="surveying_devices_destroyed" ID="{BEF34718-0987-4CDA-8BAA-5EBD8D24E23D}">
+					<Comment>Event - Observation device damaged</Comment>
+				</Event>
+				<Event Name="radio_damaged" ID="{4FC6DB76-5B69-4EAC-A9B7-152396902971}">
+					<Comment>Event - Radio damaged</Comment>
+				</Event>
+				<Event Name="fuel_tank_damaged" ID="{8660AC4E-7552-4751-8CBF-503425344A6F}">
+					<Comment>Event - Fuel Tanks hit</Comment>
+				</Event>
+				<Event Name="camo_net_start" ID="{14DD238B-A1F4-482A-9FB7-D021C5C9003A}">
+					<Comment>Event - Camouflage Net activation sound</Comment>
+				</Event>
+				<Event Name="stereo_trumpet_start" ID="{BA4450B0-1698-40CE-BC6D-D496DCCF101D}">
+					<Comment>Event - Binocular Telescope activation sound</Comment>
+				</Event>
+				<Event Name="camo_net_stop" ID="{1F135B66-01F3-46F1-BDDC-C499826EB1E9}">
+					<Comment>Event - Camouflage Net </Comment>
+				</Event>
+				<Event Name="stereo_trumpet_stop" ID="{E5A27455-7948-40B5-8EDB-8A22C3F587C3}">
+					<Comment>Event - Binocular Telescope deactivation sound</Comment>
+				</Event>
+				<Event Name="gun_damaged" ID="{16385815-4F0D-4ED3-A905-4BB04C46E2D5}"/>
+				<Event Name="crew_member_contusion" ID="{75A5A228-3CCE-4010-8EBA-A6B22BAC4DE9}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
 </WwiseDocument>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{C4121362-75C7-407B-AC48-BFCAC095FD03}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{C4121362-75C7-407B-AC48-BFCAC095FD03}" SchemaVersion="97">
 	<GameParameters>
 		<WorkUnit Name="Personal_missions" ID="{C4121362-75C7-407B-AC48-BFCAC095FD03}" PersistMode="Standalone">
 			<ChildrenList>

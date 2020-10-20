@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{65190E54-2D13-4236-B92A-68EECE61A842}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{65190E54-2D13-4236-B92A-68EECE61A842}" SchemaVersion="97">
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{65190E54-2D13-4236-B92A-68EECE61A842}" PersistMode="Standalone">
 			<PropertyList>
@@ -45,9 +45,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="400105925" ID="{F8CB36E8-1EA8-41FA-94FA-9C86E55D49C8}" ShortID="215974334">
+														<AudioFileSource Name="400105925" ID="{F8CB36E8-1EA8-41FA-94FA-9C86E55D49C8}">
 															<Language>SFX</Language>
 															<AudioFile>400105925.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="215974334"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -64,9 +67,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="802382355" ID="{BA478BC1-3C0B-4816-B295-EBDF9235448D}" ShortID="230473477">
+														<AudioFileSource Name="802382355" ID="{BA478BC1-3C0B-4816-B295-EBDF9235448D}">
 															<Language>SFX</Language>
 															<AudioFile>802382355.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="230473477"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -99,9 +105,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="20114024" ID="{E7815ABA-50FC-4FD1-938F-045B3D85C0EF}" ShortID="939857559">
+														<AudioFileSource Name="20114024" ID="{E7815ABA-50FC-4FD1-938F-045B3D85C0EF}">
 															<Language>SFX</Language>
 															<AudioFile>20114024.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="939857559"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -118,9 +127,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="1000148823" ID="{82A8A1BF-B8DF-4E3B-A3E7-A67BF493702E}" ShortID="375770929">
+														<AudioFileSource Name="1000148823" ID="{82A8A1BF-B8DF-4E3B-A3E7-A67BF493702E}">
 															<Language>SFX</Language>
 															<AudioFile>1000148823.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="375770929"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -149,9 +161,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="613013029" ID="{00047FB5-B01F-4738-97DC-D7F90F5EDB97}" ShortID="966034289">
+														<AudioFileSource Name="613013029" ID="{00047FB5-B01F-4738-97DC-D7F90F5EDB97}">
 															<Language>SFX</Language>
 															<AudioFile>613013029.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="966034289"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -180,9 +195,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="152461286" ID="{D4609D0C-E6CA-4D11-9A53-24A1B0E12275}" ShortID="268242504">
+														<AudioFileSource Name="152461286" ID="{D4609D0C-E6CA-4D11-9A53-24A1B0E12275}">
 															<Language>SFX</Language>
 															<AudioFile>152461286.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="268242504"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -199,9 +217,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="592469889" ID="{A1970926-9B47-4719-94FC-8E649024206C}" ShortID="297622761">
+														<AudioFileSource Name="592469889" ID="{A1970926-9B47-4719-94FC-8E649024206C}">
 															<Language>SFX</Language>
 															<AudioFile>592469889.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="297622761"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -218,9 +239,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="602911891" ID="{4C7B4E95-02EB-4CCD-ACE7-EC4EFD213DF8}" ShortID="159003149">
+														<AudioFileSource Name="602911891" ID="{4C7B4E95-02EB-4CCD-ACE7-EC4EFD213DF8}">
 															<Language>SFX</Language>
 															<AudioFile>602911891.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="159003149"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -249,9 +273,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="26662178" ID="{8A728646-4189-4E79-B490-43E7D626B5C7}" ShortID="212651966">
+														<AudioFileSource Name="26662178" ID="{8A728646-4189-4E79-B490-43E7D626B5C7}">
 															<Language>SFX</Language>
 															<AudioFile>26662178.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="212651966"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -268,9 +295,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="74578491" ID="{94869DEE-CCE6-40DD-B9D1-268EA6CED623}" ShortID="99462012">
+														<AudioFileSource Name="74578491" ID="{94869DEE-CCE6-40DD-B9D1-268EA6CED623}">
 															<Language>SFX</Language>
 															<AudioFile>74578491.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="99462012"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -287,9 +317,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="555517187" ID="{6C1579FE-0B8A-439A-800E-BD8C384531C1}" ShortID="789891300">
+														<AudioFileSource Name="555517187" ID="{6C1579FE-0B8A-439A-800E-BD8C384531C1}">
 															<Language>SFX</Language>
 															<AudioFile>555517187.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="789891300"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -306,9 +339,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="763694814" ID="{0E2A97E8-66B1-4ECD-AC3C-F848A90859D8}" ShortID="563035603">
+														<AudioFileSource Name="763694814" ID="{0E2A97E8-66B1-4ECD-AC3C-F848A90859D8}">
 															<Language>SFX</Language>
 															<AudioFile>763694814.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="563035603"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -325,9 +361,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="919588509" ID="{7C8303C4-13F4-421C-A599-FCEF1FFD4AFC}" ShortID="387155953">
+														<AudioFileSource Name="919588509" ID="{7C8303C4-13F4-421C-A599-FCEF1FFD4AFC}">
 															<Language>SFX</Language>
 															<AudioFile>919588509.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="387155953"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -344,9 +383,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="924139396" ID="{746DBB08-23F6-4071-8567-C9A4AC889C84}" ShortID="17585718">
+														<AudioFileSource Name="924139396" ID="{746DBB08-23F6-4071-8567-C9A4AC889C84}">
 															<Language>SFX</Language>
 															<AudioFile>924139396.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="17585718"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -379,9 +421,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="189716043" ID="{FBA8A477-E875-4E4C-83F4-7033F813CDF5}" ShortID="289235689">
+														<AudioFileSource Name="189716043" ID="{FBA8A477-E875-4E4C-83F4-7033F813CDF5}">
 															<Language>SFX</Language>
 															<AudioFile>189716043.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="289235689"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -398,9 +443,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="278637609" ID="{5B4A75BA-5B88-4A57-9C4B-A8F5A01F59C8}" ShortID="217213795">
+														<AudioFileSource Name="278637609" ID="{5B4A75BA-5B88-4A57-9C4B-A8F5A01F59C8}">
 															<Language>SFX</Language>
 															<AudioFile>278637609.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="217213795"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -417,9 +465,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="652281492" ID="{D0503613-43DF-438F-BC38-58B9C4A6B623}" ShortID="451548717">
+														<AudioFileSource Name="652281492" ID="{D0503613-43DF-438F-BC38-58B9C4A6B623}">
 															<Language>SFX</Language>
 															<AudioFile>652281492.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="451548717"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -436,9 +487,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="786232431" ID="{EB4206A5-9708-4EA7-868C-D88D2163C573}" ShortID="702132933">
+														<AudioFileSource Name="786232431" ID="{EB4206A5-9708-4EA7-868C-D88D2163C573}">
 															<Language>SFX</Language>
 															<AudioFile>786232431.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="702132933"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -455,9 +509,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="856138937" ID="{DA7CEF8F-6BCA-4199-BC4F-6E90C757BC0E}" ShortID="216937408">
+														<AudioFileSource Name="856138937" ID="{DA7CEF8F-6BCA-4199-BC4F-6E90C757BC0E}">
 															<Language>SFX</Language>
 															<AudioFile>856138937.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="216937408"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -474,9 +531,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="858448046" ID="{13C3A33C-00EC-4870-8295-89A852C3B85F}" ShortID="123679946">
+														<AudioFileSource Name="858448046" ID="{13C3A33C-00EC-4870-8295-89A852C3B85F}">
 															<Language>SFX</Language>
 															<AudioFile>858448046.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="123679946"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -493,9 +553,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="987614054" ID="{E0EAE34C-B803-4AA3-8C44-0B1DFF6055E3}" ShortID="711110137">
+														<AudioFileSource Name="987614054" ID="{E0EAE34C-B803-4AA3-8C44-0B1DFF6055E3}">
 															<Language>SFX</Language>
 															<AudioFile>987614054.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="711110137"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -532,9 +595,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="253867078" ID="{56A88F53-2434-4649-A69F-115FED327A51}" ShortID="478822869">
+														<AudioFileSource Name="253867078" ID="{56A88F53-2434-4649-A69F-115FED327A51}">
 															<Language>SFX</Language>
 															<AudioFile>253867078.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="478822869"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -551,9 +617,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="441536893" ID="{58932B02-0561-45E0-BA13-71705366B463}" ShortID="186097804">
+														<AudioFileSource Name="441536893" ID="{58932B02-0561-45E0-BA13-71705366B463}">
 															<Language>SFX</Language>
 															<AudioFile>441536893.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="186097804"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -590,9 +659,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="667665005" ID="{F7BBD043-D664-4AE8-B1E5-0D69BBBD2DD9}" ShortID="418097678">
+														<AudioFileSource Name="667665005" ID="{F7BBD043-D664-4AE8-B1E5-0D69BBBD2DD9}">
 															<Language>SFX</Language>
 															<AudioFile>667665005.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="418097678"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -621,9 +693,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="22452503" ID="{5D8B0A1B-C627-4821-9A78-587E7B549856}" ShortID="592554810">
+														<AudioFileSource Name="22452503" ID="{5D8B0A1B-C627-4821-9A78-587E7B549856}">
 															<Language>SFX</Language>
 															<AudioFile>22452503.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="592554810"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -640,9 +715,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="170898090" ID="{BED5DD45-F5A0-4146-BC4C-CD555FAB304A}" ShortID="601963296">
+														<AudioFileSource Name="170898090" ID="{BED5DD45-F5A0-4146-BC4C-CD555FAB304A}">
 															<Language>SFX</Language>
 															<AudioFile>170898090.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="601963296"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -671,9 +749,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="254213687" ID="{D5C83A40-BCA8-4B4C-AEE6-705821430D8F}" ShortID="768902840">
+														<AudioFileSource Name="254213687" ID="{D5C83A40-BCA8-4B4C-AEE6-705821430D8F}">
 															<Language>SFX</Language>
 															<AudioFile>254213687.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="768902840"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -702,9 +783,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="354705206" ID="{E05EFF88-5C23-4B11-A03F-F653ED3FB582}" ShortID="771267161">
+														<AudioFileSource Name="354705206" ID="{E05EFF88-5C23-4B11-A03F-F653ED3FB582}">
 															<Language>SFX</Language>
 															<AudioFile>354705206.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="771267161"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -737,9 +821,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="155478204" ID="{C1435EDE-A1A5-41A6-8F36-33F75BB4196B}" ShortID="642825431">
+														<AudioFileSource Name="155478204" ID="{C1435EDE-A1A5-41A6-8F36-33F75BB4196B}">
 															<Language>SFX</Language>
 															<AudioFile>155478204.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="642825431"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -756,9 +843,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="444953267" ID="{83380FAF-3818-4566-A976-4EC7F74B5E22}" ShortID="917189764">
+														<AudioFileSource Name="444953267" ID="{83380FAF-3818-4566-A976-4EC7F74B5E22}">
 															<Language>SFX</Language>
 															<AudioFile>444953267.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="917189764"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -775,9 +865,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="908124710" ID="{C689E846-84B4-474C-A789-47ADFCCBC3C5}" ShortID="786400206">
+														<AudioFileSource Name="908124710" ID="{C689E846-84B4-474C-A789-47ADFCCBC3C5}">
 															<Language>SFX</Language>
 															<AudioFile>908124710.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="786400206"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -806,9 +899,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="987180671" ID="{55D3F98E-5B21-40CA-81BD-D47570D91570}" ShortID="1022984446">
+														<AudioFileSource Name="987180671" ID="{55D3F98E-5B21-40CA-81BD-D47570D91570}">
 															<Language>SFX</Language>
 															<AudioFile>987180671.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1022984446"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -837,9 +933,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="826674632" ID="{192C5FDE-7F4D-4288-A44D-373A4C152B42}" ShortID="896386117">
+														<AudioFileSource Name="826674632" ID="{192C5FDE-7F4D-4288-A44D-373A4C152B42}">
 															<Language>SFX</Language>
 															<AudioFile>826674632.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="896386117"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -868,9 +967,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="95979981" ID="{EBDA583B-A586-4C39-B27A-C7B6BCA865C9}" ShortID="702136334">
+														<AudioFileSource Name="95979981" ID="{EBDA583B-A586-4C39-B27A-C7B6BCA865C9}">
 															<Language>SFX</Language>
 															<AudioFile>95979981.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="702136334"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -887,9 +989,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="785080130" ID="{C5D7F818-317F-4037-8431-6CBF6F47CA63}" ShortID="641375881">
+														<AudioFileSource Name="785080130" ID="{C5D7F818-317F-4037-8431-6CBF6F47CA63}">
 															<Language>SFX</Language>
 															<AudioFile>785080130.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="641375881"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -918,9 +1023,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="290391764" ID="{86D6F128-1118-4285-BB49-1368BBF80A84}" ShortID="1062161234">
+														<AudioFileSource Name="290391764" ID="{86D6F128-1118-4285-BB49-1368BBF80A84}">
 															<Language>SFX</Language>
 															<AudioFile>290391764.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1062161234"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -949,9 +1057,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="881565234" ID="{0A752FEA-9669-4A2C-8847-3DCC6A212EB8}" ShortID="168256352">
+														<AudioFileSource Name="881565234" ID="{0A752FEA-9669-4A2C-8847-3DCC6A212EB8}">
 															<Language>SFX</Language>
 															<AudioFile>881565234.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="168256352"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -984,9 +1095,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="59420282" ID="{15C59987-8D83-4B8E-9DFF-95327E6D38A1}" ShortID="549252477">
+														<AudioFileSource Name="59420282" ID="{15C59987-8D83-4B8E-9DFF-95327E6D38A1}">
 															<Language>SFX</Language>
 															<AudioFile>59420282.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="549252477"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1003,9 +1117,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="433963936" ID="{A90444F7-30DF-42A9-A4AE-13F560780943}" ShortID="770303935">
+														<AudioFileSource Name="433963936" ID="{A90444F7-30DF-42A9-A4AE-13F560780943}">
 															<Language>SFX</Language>
 															<AudioFile>433963936.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="770303935"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1034,9 +1151,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="496018347" ID="{B0A162D9-DC2A-49B1-B41C-13564F414821}" ShortID="174609447">
+														<AudioFileSource Name="496018347" ID="{B0A162D9-DC2A-49B1-B41C-13564F414821}">
 															<Language>SFX</Language>
 															<AudioFile>496018347.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="174609447"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1065,9 +1185,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="250976560" ID="{3B93A61F-3B12-41FD-AC21-6C69C5EAD110}" ShortID="128795604">
+														<AudioFileSource Name="250976560" ID="{3B93A61F-3B12-41FD-AC21-6C69C5EAD110}">
 															<Language>SFX</Language>
 															<AudioFile>250976560.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="128795604"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1100,9 +1223,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="93501732" ID="{0E33D2AB-251C-46D4-872A-DFBA4C15C0DF}" ShortID="927451684">
+														<AudioFileSource Name="93501732" ID="{0E33D2AB-251C-46D4-872A-DFBA4C15C0DF}">
 															<Language>SFX</Language>
 															<AudioFile>93501732.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="927451684"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1119,9 +1245,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="866557076" ID="{71BF86E0-6D5F-4D0E-82B6-16D22888F9BF}" ShortID="954487818">
+														<AudioFileSource Name="866557076" ID="{71BF86E0-6D5F-4D0E-82B6-16D22888F9BF}">
 															<Language>SFX</Language>
 															<AudioFile>866557076.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="954487818"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1150,9 +1279,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="639856612" ID="{E079ADFF-A1A4-43AD-8519-BFE2C879CFB3}" ShortID="254442393">
+														<AudioFileSource Name="639856612" ID="{E079ADFF-A1A4-43AD-8519-BFE2C879CFB3}">
 															<Language>SFX</Language>
 															<AudioFile>639856612.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="254442393"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1169,9 +1301,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="752077454" ID="{BED4B9BB-7A2D-4DF1-BE24-B535BEEA3B0B}" ShortID="101965507">
+														<AudioFileSource Name="752077454" ID="{BED4B9BB-7A2D-4DF1-BE24-B535BEEA3B0B}">
 															<Language>SFX</Language>
 															<AudioFile>752077454.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="101965507"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1204,9 +1339,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="619710482" ID="{6CE06CE3-8771-48EB-ACE3-713153DD454E}" ShortID="481432511">
+														<AudioFileSource Name="619710482" ID="{6CE06CE3-8771-48EB-ACE3-713153DD454E}">
 															<Language>SFX</Language>
 															<AudioFile>619710482.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="481432511"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1223,9 +1361,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="1024321231" ID="{08291E61-91A9-44CA-A787-56D862B179BB}" ShortID="651378849">
+														<AudioFileSource Name="1024321231" ID="{08291E61-91A9-44CA-A787-56D862B179BB}">
 															<Language>SFX</Language>
 															<AudioFile>1024321231.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="651378849"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1254,9 +1395,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="331777583" ID="{3E8DF800-8031-4808-981F-2DB6DC554BA1}" ShortID="77356628">
+														<AudioFileSource Name="331777583" ID="{3E8DF800-8031-4808-981F-2DB6DC554BA1}">
 															<Language>SFX</Language>
 															<AudioFile>331777583.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="77356628"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1273,9 +1417,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="553137814" ID="{507AD1C5-9B80-4C0D-B9FD-04D1AE564523}" ShortID="995448859">
+														<AudioFileSource Name="553137814" ID="{507AD1C5-9B80-4C0D-B9FD-04D1AE564523}">
 															<Language>SFX</Language>
 															<AudioFile>553137814.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="995448859"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1304,9 +1451,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="63457512" ID="{9FCD36B2-E135-40DD-8629-D8EE9AC2F2A5}" ShortID="502961419">
+														<AudioFileSource Name="63457512" ID="{9FCD36B2-E135-40DD-8629-D8EE9AC2F2A5}">
 															<Language>SFX</Language>
 															<AudioFile>63457512.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="502961419"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1323,9 +1473,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="125380613" ID="{32267984-7FF9-42F3-87BC-5FC0993BD00E}" ShortID="999178287">
+														<AudioFileSource Name="125380613" ID="{32267984-7FF9-42F3-87BC-5FC0993BD00E}">
 															<Language>SFX</Language>
 															<AudioFile>125380613.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="999178287"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1358,9 +1511,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="952297632" ID="{A615DE98-0ACF-4F81-B86A-0F4901C0B7A3}" ShortID="30958974">
+														<AudioFileSource Name="952297632" ID="{A615DE98-0ACF-4F81-B86A-0F4901C0B7A3}">
 															<Language>SFX</Language>
 															<AudioFile>952297632.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="30958974"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1389,9 +1545,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="132134861" ID="{3DC7E700-2F36-4122-ACF7-59A21D9DCDDD}" ShortID="497367895">
+														<AudioFileSource Name="132134861" ID="{3DC7E700-2F36-4122-ACF7-59A21D9DCDDD}">
 															<Language>SFX</Language>
 															<AudioFile>132134861.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="497367895"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1420,9 +1579,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="643979605" ID="{4C7798C6-B37B-4164-B779-492DD36209C0}" ShortID="998197572">
+														<AudioFileSource Name="643979605" ID="{4C7798C6-B37B-4164-B779-492DD36209C0}">
 															<Language>SFX</Language>
 															<AudioFile>643979605.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="998197572"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1455,9 +1617,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="794934482" ID="{12DF72C6-3D3A-4529-B8AC-2544F4E45644}" ShortID="708193548">
+														<AudioFileSource Name="794934482" ID="{12DF72C6-3D3A-4529-B8AC-2544F4E45644}">
 															<Language>SFX</Language>
 															<AudioFile>794934482.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="708193548"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1486,9 +1651,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="298403418" ID="{603FF864-C743-4002-8544-DDD4D561004A}" ShortID="350789339">
+														<AudioFileSource Name="298403418" ID="{603FF864-C743-4002-8544-DDD4D561004A}">
 															<Language>SFX</Language>
 															<AudioFile>298403418.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="350789339"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1527,9 +1695,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="131750344" ID="{7F8E591B-AA7A-490E-A383-3C67888F7B6A}" ShortID="996368883">
+														<AudioFileSource Name="131750344" ID="{7F8E591B-AA7A-490E-A383-3C67888F7B6A}">
 															<Language>SFX</Language>
 															<AudioFile>131750344.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="996368883"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1562,9 +1733,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="112812167" ID="{6F39D473-BC11-49C3-844C-A372C0DC61A7}" ShortID="62594969">
+														<AudioFileSource Name="112812167" ID="{6F39D473-BC11-49C3-844C-A372C0DC61A7}">
 															<Language>SFX</Language>
 															<AudioFile>112812167.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="62594969"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1581,9 +1755,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="592664826" ID="{6457F922-8486-40E4-BAFA-45D9C6E526C3}" ShortID="1052909277">
+														<AudioFileSource Name="592664826" ID="{6457F922-8486-40E4-BAFA-45D9C6E526C3}">
 															<Language>SFX</Language>
 															<AudioFile>592664826.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1052909277"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1612,9 +1789,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="19812053" ID="{5C044A32-FA2C-471C-B743-8E1C7DE74F60}" ShortID="845273532">
+														<AudioFileSource Name="19812053" ID="{5C044A32-FA2C-471C-B743-8E1C7DE74F60}">
 															<Language>SFX</Language>
 															<AudioFile>19812053.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="845273532"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1631,9 +1811,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="722532057" ID="{7E5C56B7-97CE-4B7D-A9DC-0467E31DDF28}" ShortID="195434600">
+														<AudioFileSource Name="722532057" ID="{7E5C56B7-97CE-4B7D-A9DC-0467E31DDF28}">
 															<Language>SFX</Language>
 															<AudioFile>722532057.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="195434600"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1662,9 +1845,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="36853134" ID="{5EE817E0-F4BC-4DDC-9D47-00EAB3C251F1}" ShortID="903170588">
+														<AudioFileSource Name="36853134" ID="{5EE817E0-F4BC-4DDC-9D47-00EAB3C251F1}">
 															<Language>SFX</Language>
 															<AudioFile>36853134.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="903170588"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1697,9 +1883,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="148431301" ID="{3A12EABD-6174-4D4D-BAF7-62F5F98FB8ED}" ShortID="760281731">
+														<AudioFileSource Name="148431301" ID="{3A12EABD-6174-4D4D-BAF7-62F5F98FB8ED}">
 															<Language>SFX</Language>
 															<AudioFile>148431301.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="760281731"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1716,9 +1905,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="396833513" ID="{7EEE661D-47EC-459D-BC5A-4192CDEA2A50}" ShortID="601501587">
+														<AudioFileSource Name="396833513" ID="{7EEE661D-47EC-459D-BC5A-4192CDEA2A50}">
 															<Language>SFX</Language>
 															<AudioFile>396833513.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="601501587"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1735,9 +1927,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="634819176" ID="{CBAEA8CF-A9AB-4154-BC29-AE97232CD4B1}" ShortID="788688433">
+														<AudioFileSource Name="634819176" ID="{CBAEA8CF-A9AB-4154-BC29-AE97232CD4B1}">
 															<Language>SFX</Language>
 															<AudioFile>634819176.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="788688433"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1754,9 +1949,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="717197448" ID="{3B89F68C-31BC-4959-84DC-7DD65D5465DD}" ShortID="112994076">
+														<AudioFileSource Name="717197448" ID="{3B89F68C-31BC-4959-84DC-7DD65D5465DD}">
 															<Language>SFX</Language>
 															<AudioFile>717197448.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="112994076"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1773,9 +1971,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="897640449" ID="{B889F291-DA0D-46F4-9AFB-CC6CDEA367D9}" ShortID="24885097">
+														<AudioFileSource Name="897640449" ID="{B889F291-DA0D-46F4-9AFB-CC6CDEA367D9}">
 															<Language>SFX</Language>
 															<AudioFile>897640449.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="24885097"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1808,9 +2009,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="692265122" ID="{092150E4-1A90-44DD-9246-96899D77DD19}" ShortID="734532686">
+														<AudioFileSource Name="692265122" ID="{092150E4-1A90-44DD-9246-96899D77DD19}">
 															<Language>SFX</Language>
 															<AudioFile>692265122.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="734532686"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1843,9 +2047,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="87726513" ID="{68EF5AE0-3D55-48D4-AFC3-5784303225AB}" ShortID="938986799">
+														<AudioFileSource Name="87726513" ID="{68EF5AE0-3D55-48D4-AFC3-5784303225AB}">
 															<Language>SFX</Language>
 															<AudioFile>87726513.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="938986799"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1862,9 +2069,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="487060457" ID="{9EEEEB17-C660-421D-8864-913B0F60AFB3}" ShortID="37264008">
+														<AudioFileSource Name="487060457" ID="{9EEEEB17-C660-421D-8864-913B0F60AFB3}">
 															<Language>SFX</Language>
 															<AudioFile>487060457.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="37264008"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1897,9 +2107,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="533818007" ID="{CCDA0157-275B-4D43-9BFF-6A7AC06B6231}" ShortID="579709457">
+														<AudioFileSource Name="533818007" ID="{CCDA0157-275B-4D43-9BFF-6A7AC06B6231}">
 															<Language>SFX</Language>
 															<AudioFile>533818007.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="579709457"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1916,9 +2129,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="1002220899" ID="{E29B2C72-448A-4394-AE1B-000BFF617A99}" ShortID="869319142">
+														<AudioFileSource Name="1002220899" ID="{E29B2C72-448A-4394-AE1B-000BFF617A99}">
 															<Language>SFX</Language>
 															<AudioFile>1002220899.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="869319142"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1953,9 +2169,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="109756135" ID="{957B89D2-8D1C-4C38-A8FC-370C71E1D801}" ShortID="152177461">
+												<AudioFileSource Name="109756135" ID="{957B89D2-8D1C-4C38-A8FC-370C71E1D801}">
 													<Language>SFX</Language>
 													<AudioFile>109756135.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="152177461"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1972,9 +2191,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="231139868" ID="{C5439631-997E-4CE2-B455-3214C553CD9D}" ShortID="845336019">
+												<AudioFileSource Name="231139868" ID="{C5439631-997E-4CE2-B455-3214C553CD9D}">
 													<Language>SFX</Language>
 													<AudioFile>231139868.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="845336019"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1991,9 +2213,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="438416274" ID="{C7DD9B03-5F11-46AA-957A-484845064EB3}" ShortID="690076040">
+												<AudioFileSource Name="438416274" ID="{C7DD9B03-5F11-46AA-957A-484845064EB3}">
 													<Language>SFX</Language>
 													<AudioFile>438416274.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="690076040"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -2010,9 +2235,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="698709613" ID="{A67B9F2A-6FF4-4729-9AEB-1664494C822D}" ShortID="619966618">
+												<AudioFileSource Name="698709613" ID="{A67B9F2A-6FF4-4729-9AEB-1664494C822D}">
 													<Language>SFX</Language>
 													<AudioFile>698709613.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="619966618"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -2029,9 +2257,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="850978829" ID="{6FF669BE-F188-44D3-A34B-C0CA3EA3F154}" ShortID="551707764">
+												<AudioFileSource Name="850978829" ID="{6FF669BE-F188-44D3-A34B-C0CA3EA3F154}">
 													<Language>SFX</Language>
 													<AudioFile>850978829.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="551707764"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>

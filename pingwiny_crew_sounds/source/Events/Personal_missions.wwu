@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{71C008EC-9644-4740-B426-E64F923A644B}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{71C008EC-9644-4740-B426-E64F923A644B}" SchemaVersion="97">
 	<Events>
 		<WorkUnit Name="Personal_missions" ID="{71C008EC-9644-4740-B426-E64F923A644B}" PersistMode="Standalone">
 			<ChildrenList>

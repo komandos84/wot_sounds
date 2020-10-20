@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{0B1A4DB1-F2A6-4D5F-A88C-27E5EF1F5F18}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{0B1A4DB1-F2A6-4D5F-A88C-27E5EF1F5F18}" SchemaVersion="97">
 	<Events>
 		<WorkUnit Name="Ranked_battles" ID="{0B1A4DB1-F2A6-4D5F-A88C-27E5EF1F5F18}" PersistMode="Standalone">
 			<ChildrenList>

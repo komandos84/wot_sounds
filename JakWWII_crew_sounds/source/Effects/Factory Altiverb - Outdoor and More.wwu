@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{C0E78DAA-768A-438F-8F7B-3701395185C3}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{C0E78DAA-768A-438F-8F7B-3701395185C3}" SchemaVersion="97">
 	<Effects>
 		<WorkUnit Name="Factory Altiverb - Outdoor and More" ID="{C0E78DAA-768A-438F-8F7B-3701395185C3}" PersistMode="Standalone">
 			<ChildrenList>
@@ -11,23 +11,49 @@
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
-										<Property Name="IRConvolutionStop" Type="Real64" Value="0.793863828502419"/>
-										<Property Name="IRConvolutionThreshold" Type="Real32" Value="-70"/>
-										<Property Name="IRLRMix" Type="Real32" Value="-11"/>
-										<Property Name="IRLevel" Type="Real32" Value="-17"/>
-										<Property Name="PreDelay" Type="Real32" Value="26"/>
+										<Property Name="CenterLevel" Type="Real32">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionStop" Type="Real64">
+											<ValueList>
+												<Value>0.793863828502419</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionThreshold" Type="Real32">
+											<ValueList>
+												<Value>-70</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLRMix" Type="Real32">
+											<ValueList>
+												<Value>-11</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLevel" Type="Real32">
+											<ValueList>
+												<Value>-17</Value>
+											</ValueList>
+										</Property>
+										<Property Name="PreDelay" Type="Real32">
+											<ValueList>
+												<Value>26</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_AlleyIntimate" ID="{5D81E7C6-DC92-45AC-81D1-597D3615B24A}" ShortID="58924823">
+										<PluginMediaSource Name="AE_AlleyIntimate" ID="{5D81E7C6-DC92-45AC-81D1-597D3615B24A}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Outdoor\Alley\AE_AlleyIntimate.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="58924823"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData>
-	<ConvolutionData>
+									<PluginData><ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
 				<Curve Name="" ID="{86ED78DF-2B56-41E7-AC69-6938AC3E1419}">
@@ -87,30 +113,55 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData>
-</PluginData>
+	</ConvolutionData></PluginData>
 								</Effect>
 								<Effect Name="LongDeepAlley" ID="{C1DFB6E9-5626-4094-BC45-97997340CBE6}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
-										<Property Name="IRConvolutionStop" Type="Real64" Value="1.46922554347826"/>
-										<Property Name="IRConvolutionThreshold" Type="Real32" Value="-60"/>
-										<Property Name="IRLRMix" Type="Real32" Value="11"/>
-										<Property Name="IRLevel" Type="Real32" Value="-24"/>
-										<Property Name="PreDelay" Type="Real32" Value="31"/>
+										<Property Name="CenterLevel" Type="Real32">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionStop" Type="Real64">
+											<ValueList>
+												<Value>1.46922554347826</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionThreshold" Type="Real32">
+											<ValueList>
+												<Value>-60</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLRMix" Type="Real32">
+											<ValueList>
+												<Value>11</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLevel" Type="Real32">
+											<ValueList>
+												<Value>-24</Value>
+											</ValueList>
+										</Property>
+										<Property Name="PreDelay" Type="Real32">
+											<ValueList>
+												<Value>31</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_LongDeepAlley" ID="{6891C3F5-3910-4D71-BCE2-09D91210E9DF}" ShortID="198373678">
+										<PluginMediaSource Name="AE_LongDeepAlley" ID="{6891C3F5-3910-4D71-BCE2-09D91210E9DF}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Outdoor\Alley\AE_LongDeepAlley.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="198373678"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData>
-	<ConvolutionData>
+									<PluginData><ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
 				<Curve Name="" ID="{AFB65843-957A-4D73-8ED2-BFF2D8484102}">
@@ -170,30 +221,55 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData>
-</PluginData>
+	</ConvolutionData></PluginData>
 								</Effect>
 								<Effect Name="NarrowShortAlley" ID="{5F21B86B-F430-44FF-A9BF-37B1DEF8105B}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
-										<Property Name="IRConvolutionSmooth" Type="Real32" Value="3"/>
-										<Property Name="IRConvolutionStop" Type="Real64" Value="1.14019640700483"/>
-										<Property Name="IRLRMix" Type="Real32" Value="-23"/>
-										<Property Name="IRLevel" Type="Real32" Value="-16"/>
-										<Property Name="PreDelay" Type="Real32" Value="28"/>
+										<Property Name="CenterLevel" Type="Real32">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionSmooth" Type="Real32">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionStop" Type="Real64">
+											<ValueList>
+												<Value>1.14019640700483</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLRMix" Type="Real32">
+											<ValueList>
+												<Value>-23</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLevel" Type="Real32">
+											<ValueList>
+												<Value>-16</Value>
+											</ValueList>
+										</Property>
+										<Property Name="PreDelay" Type="Real32">
+											<ValueList>
+												<Value>28</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_NarrowShortAlley" ID="{97A51D93-4600-462A-AF15-3951DE84480C}" ShortID="702837950">
+										<PluginMediaSource Name="AE_NarrowShortAlley" ID="{97A51D93-4600-462A-AF15-3951DE84480C}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Outdoor\Alley\AE_NarrowShortAlley.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="702837950"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData>
-	<ConvolutionData>
+									<PluginData><ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
 				<Curve Name="" ID="{F8A112F1-5D87-4EC0-AA45-22CEC6925FB2}">
@@ -253,8 +329,7 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData>
-</PluginData>
+	</ConvolutionData></PluginData>
 								</Effect>
 							</ChildrenList>
 						</Folder>
@@ -264,24 +339,54 @@
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
-										<Property Name="IRConvolutionSmooth" Type="Real32" Value="6"/>
-										<Property Name="IRConvolutionStop" Type="Real64" Value="1.22951690821256"/>
-										<Property Name="IRConvolutionThreshold" Type="Real32" Value="-78"/>
-										<Property Name="IRLRMix" Type="Real32" Value="-5"/>
-										<Property Name="IRLevel" Type="Real32" Value="-17"/>
-										<Property Name="PreDelay" Type="Real32" Value="37"/>
+										<Property Name="CenterLevel" Type="Real32">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionSmooth" Type="Real32">
+											<ValueList>
+												<Value>6</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionStop" Type="Real64">
+											<ValueList>
+												<Value>1.22951690821256</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionThreshold" Type="Real32">
+											<ValueList>
+												<Value>-78</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLRMix" Type="Real32">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLevel" Type="Real32">
+											<ValueList>
+												<Value>-17</Value>
+											</ValueList>
+										</Property>
+										<Property Name="PreDelay" Type="Real32">
+											<ValueList>
+												<Value>37</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_DistantBuilding_MicsClose" ID="{CBE8A74C-4663-4EB4-B2B9-DFEFFC55721E}" ShortID="932825353">
+										<PluginMediaSource Name="AE_DistantBuilding_MicsClose" ID="{CBE8A74C-4663-4EB4-B2B9-DFEFFC55721E}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Outdoor\Field\AE_DistantBuilding_MicsClose.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="932825353"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData>
-	<ConvolutionData>
+									<PluginData><ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
 				<Curve Name="" ID="{29F052B6-CEB2-4E8E-A83D-BC02B8917C9E}">
@@ -341,31 +446,60 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData>
-</PluginData>
+	</ConvolutionData></PluginData>
 								</Effect>
 								<Effect Name="DistantBuilding_MicsFar" ID="{22EE2792-F5F3-4B26-A6E1-843A0A964677}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
-										<Property Name="IRConvolutionSmooth" Type="Real32" Value="7"/>
-										<Property Name="IRConvolutionStop" Type="Real64" Value="1.35468576388889"/>
-										<Property Name="IRConvolutionThreshold" Type="Real32" Value="-65"/>
-										<Property Name="IRLRMix" Type="Real32" Value="-9"/>
-										<Property Name="IRLevel" Type="Real32" Value="-28"/>
-										<Property Name="PreDelay" Type="Real32" Value="47"/>
+										<Property Name="CenterLevel" Type="Real32">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionSmooth" Type="Real32">
+											<ValueList>
+												<Value>7</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionStop" Type="Real64">
+											<ValueList>
+												<Value>1.35468576388889</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionThreshold" Type="Real32">
+											<ValueList>
+												<Value>-65</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLRMix" Type="Real32">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLevel" Type="Real32">
+											<ValueList>
+												<Value>-28</Value>
+											</ValueList>
+										</Property>
+										<Property Name="PreDelay" Type="Real32">
+											<ValueList>
+												<Value>47</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_DistantBuilding_MicsFar" ID="{78F2EF96-A978-4992-8E74-2ED63EE41047}" ShortID="941961704">
+										<PluginMediaSource Name="AE_DistantBuilding_MicsFar" ID="{78F2EF96-A978-4992-8E74-2ED63EE41047}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Outdoor\Field\AE_DistantBuilding_MicsFar.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="941961704"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData>
-	<ConvolutionData>
+									<PluginData><ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
 				<Curve Name="" ID="{EA313819-7695-49F4-861A-BADBBAEEDA23}">
@@ -425,8 +559,7 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData>
-</PluginData>
+	</ConvolutionData></PluginData>
 								</Effect>
 							</ChildrenList>
 						</Folder>
@@ -436,24 +569,54 @@
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
-										<Property Name="FrontRearDelay" Type="Real32" Value="3"/>
-										<Property Name="IRConvolutionStop" Type="Real64" Value="1.45462817028986"/>
-										<Property Name="IRConvolutionThreshold" Type="Real32" Value="-70"/>
-										<Property Name="IRLRMix" Type="Real32" Value="-11"/>
-										<Property Name="IRLevel" Type="Real32" Value="-16"/>
-										<Property Name="PreDelay" Type="Real32" Value="12"/>
+										<Property Name="CenterLevel" Type="Real32">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="FrontRearDelay" Type="Real32">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionStop" Type="Real64">
+											<ValueList>
+												<Value>1.45462817028986</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionThreshold" Type="Real32">
+											<ValueList>
+												<Value>-70</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLRMix" Type="Real32">
+											<ValueList>
+												<Value>-11</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLevel" Type="Real32">
+											<ValueList>
+												<Value>-16</Value>
+											</ValueList>
+										</Property>
+										<Property Name="PreDelay" Type="Real32">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_ForestAuterlitz_BetweenTrees" ID="{DE0A91AE-9963-4DED-987D-88FC16776C14}" ShortID="240375163">
+										<PluginMediaSource Name="AE_ForestAuterlitz_BetweenTrees" ID="{DE0A91AE-9963-4DED-987D-88FC16776C14}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Outdoor\Forest\AE_ForestAuterlitz_BetweenTrees.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="240375163"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData>
-	<ConvolutionData>
+									<PluginData><ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
 				<Curve Name="" ID="{A14D96AE-54AC-4B61-BF3D-A59A063AF6DF}">
@@ -513,29 +676,50 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData>
-</PluginData>
+	</ConvolutionData></PluginData>
 								</Effect>
 								<Effect Name="ForestAuterlitz_DenseClose" ID="{1E3979AB-2FBC-4380-8E6A-3E8A71CEC166}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
-										<Property Name="IRConvolutionStop" Type="Real64" Value="1.31993365036232"/>
-										<Property Name="IRConvolutionThreshold" Type="Real32" Value="-77"/>
-										<Property Name="IRLRMix" Type="Real32" Value="34"/>
-										<Property Name="IRLevel" Type="Real32" Value="-12"/>
+										<Property Name="CenterLevel" Type="Real32">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionStop" Type="Real64">
+											<ValueList>
+												<Value>1.31993365036232</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionThreshold" Type="Real32">
+											<ValueList>
+												<Value>-77</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLRMix" Type="Real32">
+											<ValueList>
+												<Value>34</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLevel" Type="Real32">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_ForestAuterlitz_DenseClose" ID="{CDA065EA-748A-47AE-8F5B-7D4B29F3A23E}" ShortID="873684731">
+										<PluginMediaSource Name="AE_ForestAuterlitz_DenseClose" ID="{CDA065EA-748A-47AE-8F5B-7D4B29F3A23E}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Outdoor\Forest\AE_ForestAuterlitz_DenseClose.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="873684731"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData>
-	<ConvolutionData>
+									<PluginData><ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
 				<Curve Name="" ID="{7F40FEAF-8992-4CA6-933E-F3785419D2F5}">
@@ -595,29 +779,50 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData>
-</PluginData>
+	</ConvolutionData></PluginData>
 								</Effect>
 								<Effect Name="ForestAuterlitz_DenseFar" ID="{0F74A865-50E7-4277-956F-A54FFB0E301C}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
-										<Property Name="IRConvolutionSmooth" Type="Real32" Value="9"/>
-										<Property Name="IRConvolutionStop" Type="Real64" Value="1.49278004227053"/>
-										<Property Name="IRConvolutionThreshold" Type="Real32" Value="-83"/>
-										<Property Name="IRLevel" Type="Real32" Value="-15"/>
+										<Property Name="CenterLevel" Type="Real32">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionSmooth" Type="Real32">
+											<ValueList>
+												<Value>9</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionStop" Type="Real64">
+											<ValueList>
+												<Value>1.49278004227053</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionThreshold" Type="Real32">
+											<ValueList>
+												<Value>-83</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLevel" Type="Real32">
+											<ValueList>
+												<Value>-15</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_ForestAuterlitz_DenseFar" ID="{A28C96C6-5323-4407-8EA3-E2011B78F872}" ShortID="507160656">
+										<PluginMediaSource Name="AE_ForestAuterlitz_DenseFar" ID="{A28C96C6-5323-4407-8EA3-E2011B78F872}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Outdoor\Forest\AE_ForestAuterlitz_DenseFar.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="507160656"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData>
-	<ConvolutionData>
+									<PluginData><ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
 				<Curve Name="" ID="{607370AB-AE21-420A-A79E-BD78F9367838}">
@@ -677,28 +882,45 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData>
-</PluginData>
+	</ConvolutionData></PluginData>
 								</Effect>
 								<Effect Name="ForestAuterlitz_WideOpen" ID="{2239E747-92DD-4A09-81B6-AEAD2528D282}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
-										<Property Name="IRConvolutionStop" Type="Real64" Value="1.13573913043478"/>
-										<Property Name="IRLRMix" Type="Real32" Value="44"/>
-										<Property Name="IRLevel" Type="Real32" Value="-12"/>
+										<Property Name="CenterLevel" Type="Real32">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionStop" Type="Real64">
+											<ValueList>
+												<Value>1.13573913043478</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLRMix" Type="Real32">
+											<ValueList>
+												<Value>44</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLevel" Type="Real32">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_ForestAuterlitz_WideOpen" ID="{5DD365BC-4CD8-4AFD-B5BF-15061C611248}" ShortID="30489455">
+										<PluginMediaSource Name="AE_ForestAuterlitz_WideOpen" ID="{5DD365BC-4CD8-4AFD-B5BF-15061C611248}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Outdoor\Forest\AE_ForestAuterlitz_WideOpen.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="30489455"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData>
-	<ConvolutionData>
+									<PluginData><ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
 				<Curve Name="" ID="{60B326EF-5C62-4E95-BE71-716F36297B2E}">
@@ -758,8 +980,7 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData>
-</PluginData>
+	</ConvolutionData></PluginData>
 								</Effect>
 							</ChildrenList>
 						</Folder>
@@ -769,23 +990,49 @@
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
-										<Property Name="IRConvolutionSmooth" Type="Real32" Value="11"/>
-										<Property Name="IRConvolutionStop" Type="Real64" Value="1.81183574879227"/>
-										<Property Name="IRConvolutionThreshold" Type="Real32" Value="-70"/>
-										<Property Name="IRLRMix" Type="Real32" Value="5"/>
-										<Property Name="IRLevel" Type="Real32" Value="-16"/>
+										<Property Name="CenterLevel" Type="Real32">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionSmooth" Type="Real32">
+											<ValueList>
+												<Value>11</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionStop" Type="Real64">
+											<ValueList>
+												<Value>1.81183574879227</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionThreshold" Type="Real32">
+											<ValueList>
+												<Value>-70</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLRMix" Type="Real32">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLevel" Type="Real32">
+											<ValueList>
+												<Value>-16</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Tunnel" ID="{8DB8FDD3-EE88-4513-920B-1D65FAB465DC}" ShortID="569254387">
+										<PluginMediaSource Name="AE_Tunnel" ID="{8DB8FDD3-EE88-4513-920B-1D65FAB465DC}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Outdoor\Tunnel\AE_Tunnel.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="569254387"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData>
-	<ConvolutionData>
+									<PluginData><ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
 				<Curve Name="" ID="{B822E767-CA62-4F45-BEDF-435E6F92E519}">
@@ -845,8 +1092,7 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData>
-</PluginData>
+	</ConvolutionData></PluginData>
 								</Effect>
 							</ChildrenList>
 						</Folder>
@@ -856,24 +1102,54 @@
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
-										<Property Name="IRConvolutionStop" Type="Real64" Value="1.38839130434783"/>
-										<Property Name="IRConvolutionThreshold" Type="Real32" Value="-60"/>
-										<Property Name="IRLRMix" Type="Real32" Value="-9"/>
-										<Property Name="IRLevel" Type="Real32" Value="-17"/>
-										<Property Name="PreDelay" Type="Real32" Value="23"/>
-										<Property Name="WetLevel" Type="Real32" Value="-5"/>
+										<Property Name="CenterLevel" Type="Real32">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionStop" Type="Real64">
+											<ValueList>
+												<Value>1.38839130434783</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionThreshold" Type="Real32">
+											<ValueList>
+												<Value>-60</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLRMix" Type="Real32">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLevel" Type="Real32">
+											<ValueList>
+												<Value>-17</Value>
+											</ValueList>
+										</Property>
+										<Property Name="PreDelay" Type="Real32">
+											<ValueList>
+												<Value>23</Value>
+											</ValueList>
+										</Property>
+										<Property Name="WetLevel" Type="Real32">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Street_CloseEcho" ID="{842CC81F-10B1-46DD-84D3-240C98D3F2F0}" ShortID="832296042">
+										<PluginMediaSource Name="AE_Street_CloseEcho" ID="{842CC81F-10B1-46DD-84D3-240C98D3F2F0}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Outdoor\Street\AE_Street_CloseEcho.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="832296042"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData>
-	<ConvolutionData>
+									<PluginData><ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
 				<Curve Name="" ID="{CE9B8F91-9A77-48B0-B459-C81D882B5F56}">
@@ -933,30 +1209,55 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData>
-</PluginData>
+	</ConvolutionData></PluginData>
 								</Effect>
 								<Effect Name="ComplexEcho" ID="{E934CD9A-AC49-4015-8E51-6EE4DB6A8634}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
-										<Property Name="IRConvolutionStop" Type="Real64" Value="1.24507820048309"/>
-										<Property Name="IRConvolutionThreshold" Type="Real32" Value="-70"/>
-										<Property Name="IRLRMix" Type="Real32" Value="-11"/>
-										<Property Name="IRLevel" Type="Real32" Value="-16"/>
-										<Property Name="PreDelay" Type="Real32" Value="12"/>
+										<Property Name="CenterLevel" Type="Real32">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionStop" Type="Real64">
+											<ValueList>
+												<Value>1.24507820048309</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionThreshold" Type="Real32">
+											<ValueList>
+												<Value>-70</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLRMix" Type="Real32">
+											<ValueList>
+												<Value>-11</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLevel" Type="Real32">
+											<ValueList>
+												<Value>-16</Value>
+											</ValueList>
+										</Property>
+										<Property Name="PreDelay" Type="Real32">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Street_ComplexEcho" ID="{2DFDA45C-B47A-40DF-A01A-FE479B552372}" ShortID="726190851">
+										<PluginMediaSource Name="AE_Street_ComplexEcho" ID="{2DFDA45C-B47A-40DF-A01A-FE479B552372}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Outdoor\Street\AE_Street_ComplexEcho.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="726190851"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData>
-	<ConvolutionData>
+									<PluginData><ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
 				<Curve Name="" ID="{1B73F2C3-E7B0-42BE-971F-6EF53F84F52A}">
@@ -1016,30 +1317,55 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData>
-</PluginData>
+	</ConvolutionData></PluginData>
 								</Effect>
 								<Effect Name="ComplexDistantEcho" ID="{87CB8176-AFB2-41B3-BDCB-0E7A39AA2FA8}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
-										<Property Name="IRConvolutionStop" Type="Real64" Value="1.49745471014492"/>
-										<Property Name="IRConvolutionThreshold" Type="Real32" Value="-65"/>
-										<Property Name="IRLRMix" Type="Real32" Value="-40"/>
-										<Property Name="IRLevel" Type="Real32" Value="-16"/>
-										<Property Name="PreDelay" Type="Real32" Value="15"/>
+										<Property Name="CenterLevel" Type="Real32">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionStop" Type="Real64">
+											<ValueList>
+												<Value>1.49745471014492</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionThreshold" Type="Real32">
+											<ValueList>
+												<Value>-65</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLRMix" Type="Real32">
+											<ValueList>
+												<Value>-40</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLevel" Type="Real32">
+											<ValueList>
+												<Value>-16</Value>
+											</ValueList>
+										</Property>
+										<Property Name="PreDelay" Type="Real32">
+											<ValueList>
+												<Value>15</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Street_ComplexDistantEcho" ID="{0FF97EEE-61DA-4CD5-8F75-D8A6D0AE7C73}" ShortID="847080287">
+										<PluginMediaSource Name="AE_Street_ComplexDistantEcho" ID="{0FF97EEE-61DA-4CD5-8F75-D8A6D0AE7C73}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Outdoor\Street\AE_Street_ComplexDistantEcho.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="847080287"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData>
-	<ConvolutionData>
+									<PluginData><ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
 				<Curve Name="" ID="{D05D887D-00A5-4352-A2CB-C3506E0FC7D8}">
@@ -1099,31 +1425,60 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData>
-</PluginData>
+	</ConvolutionData></PluginData>
 								</Effect>
 								<Effect Name="DistantEcho" ID="{98DB1465-072F-40FF-84B7-97380DBBFD50}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
-										<Property Name="DryLevel" Type="Real32" Value="-96.3"/>
-										<Property Name="IRConvolutionStop" Type="Real64" Value="0.869616847826087"/>
-										<Property Name="IRConvolutionThreshold" Type="Real32" Value="-65"/>
-										<Property Name="IRLRMix" Type="Real32" Value="18"/>
-										<Property Name="IRLevel" Type="Real32" Value="-12"/>
-										<Property Name="PreDelay" Type="Real32" Value="12"/>
+										<Property Name="CenterLevel" Type="Real32">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="DryLevel" Type="Real32">
+											<ValueList>
+												<Value>-96.3</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionStop" Type="Real64">
+											<ValueList>
+												<Value>0.869616847826087</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionThreshold" Type="Real32">
+											<ValueList>
+												<Value>-65</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLRMix" Type="Real32">
+											<ValueList>
+												<Value>18</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLevel" Type="Real32">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="PreDelay" Type="Real32">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Street_DistantEcho" ID="{97A51EC9-F17A-41DE-9639-245B44C52A39}" ShortID="789847363">
+										<PluginMediaSource Name="AE_Street_DistantEcho" ID="{97A51EC9-F17A-41DE-9639-245B44C52A39}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Outdoor\Street\AE_Street_DistantEcho.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="789847363"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData>
-	<ConvolutionData>
+									<PluginData><ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
 				<Curve Name="" ID="{DEEAEA2D-FF32-44F1-A8DC-3F5584401595}">
@@ -1183,32 +1538,65 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData>
-</PluginData>
+	</ConvolutionData></PluginData>
 								</Effect>
 								<Effect Name="DistantSlaps" ID="{FED200E2-F7CC-45AC-8339-5BF19AE8DC4A}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
-										<Property Name="DryLevel" Type="Real32" Value="-3.3"/>
-										<Property Name="IRConvolutionStop" Type="Real64" Value="1.1992545289855"/>
-										<Property Name="IRConvolutionThreshold" Type="Real32" Value="-64"/>
-										<Property Name="IRLRMix" Type="Real32" Value="-1"/>
-										<Property Name="IRLevel" Type="Real32" Value="-19"/>
-										<Property Name="IRStretch" Type="Real32" Value="126"/>
-										<Property Name="PreDelay" Type="Real32" Value="15"/>
+										<Property Name="CenterLevel" Type="Real32">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="DryLevel" Type="Real32">
+											<ValueList>
+												<Value>-3.3</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionStop" Type="Real64">
+											<ValueList>
+												<Value>1.1992545289855</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionThreshold" Type="Real32">
+											<ValueList>
+												<Value>-64</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLRMix" Type="Real32">
+											<ValueList>
+												<Value>-1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLevel" Type="Real32">
+											<ValueList>
+												<Value>-19</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRStretch" Type="Real32">
+											<ValueList>
+												<Value>126</Value>
+											</ValueList>
+										</Property>
+										<Property Name="PreDelay" Type="Real32">
+											<ValueList>
+												<Value>15</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Street_DistantSlaps" ID="{E3F4F6F9-4F26-488A-B4BE-8483ACFBB97E}" ShortID="757112749">
+										<PluginMediaSource Name="AE_Street_DistantSlaps" ID="{E3F4F6F9-4F26-488A-B4BE-8483ACFBB97E}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Outdoor\Street\AE_Street_DistantSlaps.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="757112749"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData>
-	<ConvolutionData>
+									<PluginData><ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
 				<Curve Name="" ID="{CD3BB43C-166F-41B8-84C6-5D3997A90287}">
@@ -1268,32 +1656,65 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData>
-</PluginData>
+	</ConvolutionData></PluginData>
 								</Effect>
 								<Effect Name="EquallySpacedEchoes" ID="{AD08D197-5418-4635-9434-D23F18A14ADD}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
-										<Property Name="FrontRearDelay" Type="Real32" Value="6"/>
-										<Property Name="IRConvolutionSmooth" Type="Real32" Value="6"/>
-										<Property Name="IRConvolutionStop" Type="Real64" Value="1.43612394323672"/>
-										<Property Name="IRConvolutionThreshold" Type="Real32" Value="-70"/>
-										<Property Name="IRLRMix" Type="Real32" Value="28"/>
-										<Property Name="IRLevel" Type="Real32" Value="-15"/>
-										<Property Name="PreDelay" Type="Real32" Value="30"/>
+										<Property Name="CenterLevel" Type="Real32">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="FrontRearDelay" Type="Real32">
+											<ValueList>
+												<Value>6</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionSmooth" Type="Real32">
+											<ValueList>
+												<Value>6</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionStop" Type="Real64">
+											<ValueList>
+												<Value>1.43612394323672</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionThreshold" Type="Real32">
+											<ValueList>
+												<Value>-70</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLRMix" Type="Real32">
+											<ValueList>
+												<Value>28</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLevel" Type="Real32">
+											<ValueList>
+												<Value>-15</Value>
+											</ValueList>
+										</Property>
+										<Property Name="PreDelay" Type="Real32">
+											<ValueList>
+												<Value>30</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Street_EquallySpacedEchoes" ID="{8B8AAC41-A32A-43F2-A384-1C4361988517}" ShortID="427082242">
+										<PluginMediaSource Name="AE_Street_EquallySpacedEchoes" ID="{8B8AAC41-A32A-43F2-A384-1C4361988517}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Outdoor\Street\AE_Street_EquallySpacedEchoes.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="427082242"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData>
-	<ConvolutionData>
+									<PluginData><ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
 				<Curve Name="" ID="{031DC898-099F-4A33-8911-CAB2AF1DFC28}">
@@ -1353,29 +1774,50 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData>
-</PluginData>
+	</ConvolutionData></PluginData>
 								</Effect>
 								<Effect Name="LongAndComplex" ID="{5C94DA5C-15F2-456F-A42A-CE14A659874B}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
-										<Property Name="IRConvolutionStop" Type="Real64" Value="1.48808423913043"/>
-										<Property Name="IRConvolutionThreshold" Type="Real32" Value="-70"/>
-										<Property Name="IRLevel" Type="Real32" Value="-11"/>
-										<Property Name="PreDelay" Type="Real32" Value="11"/>
+										<Property Name="CenterLevel" Type="Real32">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionStop" Type="Real64">
+											<ValueList>
+												<Value>1.48808423913043</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionThreshold" Type="Real32">
+											<ValueList>
+												<Value>-70</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLevel" Type="Real32">
+											<ValueList>
+												<Value>-11</Value>
+											</ValueList>
+										</Property>
+										<Property Name="PreDelay" Type="Real32">
+											<ValueList>
+												<Value>11</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Street_LongAndComplex" ID="{4587D099-672B-46FA-AC31-F6D8A8CD2EF3}" ShortID="364607080">
+										<PluginMediaSource Name="AE_Street_LongAndComplex" ID="{4587D099-672B-46FA-AC31-F6D8A8CD2EF3}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Outdoor\Street\AE_Street_LongAndComplex.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="364607080"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData>
-	<ConvolutionData>
+									<PluginData><ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
 				<Curve Name="" ID="{B0ECAD8D-77E1-44C1-99D4-8B5E66D70FDC}">
@@ -1435,31 +1877,60 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData>
-</PluginData>
+	</ConvolutionData></PluginData>
 								</Effect>
 								<Effect Name="LoudEcho" ID="{23889FA1-0C6E-47EB-87D4-C2688465C490}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
-										<Property Name="FrontRearDelay" Type="Real32" Value="7"/>
-										<Property Name="IRConvolutionStop" Type="Real64" Value="1.27833627717391"/>
-										<Property Name="IRConvolutionThreshold" Type="Real32" Value="-50"/>
-										<Property Name="IRLRMix" Type="Real32" Value="-5"/>
-										<Property Name="IRLevel" Type="Real32" Value="-17"/>
-										<Property Name="PreDelay" Type="Real32" Value="15"/>
+										<Property Name="CenterLevel" Type="Real32">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="FrontRearDelay" Type="Real32">
+											<ValueList>
+												<Value>7</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionStop" Type="Real64">
+											<ValueList>
+												<Value>1.27833627717391</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionThreshold" Type="Real32">
+											<ValueList>
+												<Value>-50</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLRMix" Type="Real32">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLevel" Type="Real32">
+											<ValueList>
+												<Value>-17</Value>
+											</ValueList>
+										</Property>
+										<Property Name="PreDelay" Type="Real32">
+											<ValueList>
+												<Value>15</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Street_LoudEcho" ID="{FAF8C3B4-EDC5-470B-8A45-65578EA8F12B}" ShortID="1037099072">
+										<PluginMediaSource Name="AE_Street_LoudEcho" ID="{FAF8C3B4-EDC5-470B-8A45-65578EA8F12B}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Outdoor\Street\AE_Street_LoudEcho.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="1037099072"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData>
-	<ConvolutionData>
+									<PluginData><ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
 				<Curve Name="" ID="{A698AB2F-5CC0-4F84-9F8D-4C3468CE9BCF}">
@@ -1519,30 +1990,55 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData>
-</PluginData>
+	</ConvolutionData></PluginData>
 								</Effect>
 								<Effect Name="LongNoEchoes" ID="{15890451-B708-4DA9-838F-1F09F56D6FB7}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
-										<Property Name="IRConvolutionStop" Type="Real64" Value="1.4917270531401"/>
-										<Property Name="IRConvolutionThreshold" Type="Real32" Value="-80"/>
-										<Property Name="IRLRMix" Type="Real32" Value="1"/>
-										<Property Name="IRLevel" Type="Real32" Value="-15"/>
-										<Property Name="PreDelay" Type="Real32" Value="19"/>
+										<Property Name="CenterLevel" Type="Real32">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionStop" Type="Real64">
+											<ValueList>
+												<Value>1.4917270531401</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionThreshold" Type="Real32">
+											<ValueList>
+												<Value>-80</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLRMix" Type="Real32">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLevel" Type="Real32">
+											<ValueList>
+												<Value>-15</Value>
+											</ValueList>
+										</Property>
+										<Property Name="PreDelay" Type="Real32">
+											<ValueList>
+												<Value>19</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Street_LongNoEchoes" ID="{6F9CBF77-70DC-4338-93FF-6324C3492DD6}" ShortID="92795692">
+										<PluginMediaSource Name="AE_Street_LongNoEchoes" ID="{6F9CBF77-70DC-4338-93FF-6324C3492DD6}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Outdoor\Street\AE_Street_LongNoEchoes.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="92795692"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData>
-	<ConvolutionData>
+									<PluginData><ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
 				<Curve Name="" ID="{AD0070CD-4FB2-4FD5-B2CE-7362C924FD2D}">
@@ -1602,31 +2098,60 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData>
-</PluginData>
+	</ConvolutionData></PluginData>
 								</Effect>
 								<Effect Name="LongSixWideEchoes" ID="{C0C26D4A-DA2C-44DC-A63A-686E0A3F624A}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
-										<Property Name="FrontRearDelay" Type="Real32" Value="3"/>
-										<Property Name="IRConvolutionStop" Type="Real64" Value="1.75574252717391"/>
-										<Property Name="IRConvolutionThreshold" Type="Real32" Value="-70"/>
-										<Property Name="IRLRMix" Type="Real32" Value="-45"/>
-										<Property Name="IRLevel" Type="Real32" Value="-15"/>
-										<Property Name="PreDelay" Type="Real32" Value="3"/>
+										<Property Name="CenterLevel" Type="Real32">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="FrontRearDelay" Type="Real32">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionStop" Type="Real64">
+											<ValueList>
+												<Value>1.75574252717391</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionThreshold" Type="Real32">
+											<ValueList>
+												<Value>-70</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLRMix" Type="Real32">
+											<ValueList>
+												<Value>-45</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLevel" Type="Real32">
+											<ValueList>
+												<Value>-15</Value>
+											</ValueList>
+										</Property>
+										<Property Name="PreDelay" Type="Real32">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Street_LongSixWideEchoes" ID="{B8AF2380-13B3-4A00-96BD-DB2BACC55152}" ShortID="42240585">
+										<PluginMediaSource Name="AE_Street_LongSixWideEchoes" ID="{B8AF2380-13B3-4A00-96BD-DB2BACC55152}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Outdoor\Street\AE_Street_LongSixWideEchoes.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="42240585"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData>
-	<ConvolutionData>
+									<PluginData><ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
 				<Curve Name="" ID="{1EE10E41-BA17-400F-B666-E144B849A521}">
@@ -1686,31 +2211,60 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData>
-</PluginData>
+	</ConvolutionData></PluginData>
 								</Effect>
 								<Effect Name="OpenThreeEchoes" ID="{401401C1-A4E3-4720-AD98-CB5B3C916B2B}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.  
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
-										<Property Name="FrontRearDelay" Type="Real32" Value="9"/>
-										<Property Name="IRConvolutionStop" Type="Real64" Value="1.17451313405797"/>
-										<Property Name="IRConvolutionThreshold" Type="Real32" Value="-74"/>
-										<Property Name="IRLRMix" Type="Real32" Value="5"/>
-										<Property Name="IRLevel" Type="Real32" Value="-13"/>
-										<Property Name="PreDelay" Type="Real32" Value="18"/>
+										<Property Name="CenterLevel" Type="Real32">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="FrontRearDelay" Type="Real32">
+											<ValueList>
+												<Value>9</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionStop" Type="Real64">
+											<ValueList>
+												<Value>1.17451313405797</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionThreshold" Type="Real32">
+											<ValueList>
+												<Value>-74</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLRMix" Type="Real32">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLevel" Type="Real32">
+											<ValueList>
+												<Value>-13</Value>
+											</ValueList>
+										</Property>
+										<Property Name="PreDelay" Type="Real32">
+											<ValueList>
+												<Value>18</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Street_OpenThreeEchoes" ID="{F6DAFCBE-235C-4058-8670-A0047D9E92C2}" ShortID="803100438">
+										<PluginMediaSource Name="AE_Street_OpenThreeEchoes" ID="{F6DAFCBE-235C-4058-8670-A0047D9E92C2}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Outdoor\Street\AE_Street_OpenThreeEchoes.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="803100438"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData>
-	<ConvolutionData>
+									<PluginData><ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
 				<Curve Name="" ID="{9DB5FBCE-FA46-4314-9B78-568AC2B1D464}">
@@ -1770,31 +2324,60 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData>
-</PluginData>
+	</ConvolutionData></PluginData>
 								</Effect>
 								<Effect Name="OpenShortTwoEchoes" ID="{7DC26658-B270-4262-B5FB-E29B3D6683A8}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
-										<Property Name="FrontRearDelay" Type="Real32" Value="40"/>
-										<Property Name="IRConvolutionStop" Type="Real64" Value="1.34140625"/>
-										<Property Name="IRConvolutionThreshold" Type="Real32" Value="-66"/>
-										<Property Name="IRLRMix" Type="Real32" Value="1"/>
-										<Property Name="IRLevel" Type="Real32" Value="-19"/>
-										<Property Name="PreDelay" Type="Real32" Value="20"/>
+										<Property Name="CenterLevel" Type="Real32">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="FrontRearDelay" Type="Real32">
+											<ValueList>
+												<Value>40</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionStop" Type="Real64">
+											<ValueList>
+												<Value>1.34140625</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionThreshold" Type="Real32">
+											<ValueList>
+												<Value>-66</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLRMix" Type="Real32">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLevel" Type="Real32">
+											<ValueList>
+												<Value>-19</Value>
+											</ValueList>
+										</Property>
+										<Property Name="PreDelay" Type="Real32">
+											<ValueList>
+												<Value>20</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Street_OpenShortTwoEchoes" ID="{E90A3FB9-A568-45D5-832A-DBEAC014F058}" ShortID="432605131">
+										<PluginMediaSource Name="AE_Street_OpenShortTwoEchoes" ID="{E90A3FB9-A568-45D5-832A-DBEAC014F058}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Outdoor\Street\AE_Street_OpenShortTwoEchoes.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="432605131"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData>
-	<ConvolutionData>
+									<PluginData><ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
 				<Curve Name="" ID="{A11567DD-E7E0-41BA-AC51-4DD1C36219D0}">
@@ -1854,31 +2437,60 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData>
-</PluginData>
+	</ConvolutionData></PluginData>
 								</Effect>
 								<Effect Name="PheeeewEcho_01" ID="{FA5C3026-2163-4643-9C53-98F051751ABE}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
-										<Property Name="FrontRearDelay" Type="Real32" Value="11"/>
-										<Property Name="IRConvolutionStop" Type="Real64" Value="1.38011979166667"/>
-										<Property Name="IRConvolutionThreshold" Type="Real32" Value="-60"/>
-										<Property Name="IRLRMix" Type="Real32" Value="2"/>
-										<Property Name="IRLevel" Type="Real32" Value="-10"/>
-										<Property Name="PreDelay" Type="Real32" Value="31"/>
+										<Property Name="CenterLevel" Type="Real32">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="FrontRearDelay" Type="Real32">
+											<ValueList>
+												<Value>11</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionStop" Type="Real64">
+											<ValueList>
+												<Value>1.38011979166667</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionThreshold" Type="Real32">
+											<ValueList>
+												<Value>-60</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLRMix" Type="Real32">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLevel" Type="Real32">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+										<Property Name="PreDelay" Type="Real32">
+											<ValueList>
+												<Value>31</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Street_PheeeewEcho_01" ID="{6132AC69-F352-4AEE-978C-BAD82EA81A97}" ShortID="783448466">
+										<PluginMediaSource Name="AE_Street_PheeeewEcho_01" ID="{6132AC69-F352-4AEE-978C-BAD82EA81A97}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Outdoor\Street\AE_Street_PheeeewEcho_01.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="783448466"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData>
-	<ConvolutionData>
+									<PluginData><ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
 				<Curve Name="" ID="{7518F57E-B2F4-4C57-ABD0-FEBF2155F313}">
@@ -1938,31 +2550,60 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData>
-</PluginData>
+	</ConvolutionData></PluginData>
 								</Effect>
 								<Effect Name="PheeeewEcho_02" ID="{6E62F55F-9118-4ABB-AD99-E4C7C37FC181}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
-										<Property Name="FrontRearDelay" Type="Real32" Value="32"/>
-										<Property Name="IRConvolutionStop" Type="Real64" Value="1.07301811594203"/>
-										<Property Name="IRConvolutionThreshold" Type="Real32" Value="-67"/>
-										<Property Name="IRLRMix" Type="Real32" Value="-3"/>
-										<Property Name="IRLevel" Type="Real32" Value="-14"/>
-										<Property Name="PreDelay" Type="Real32" Value="16"/>
+										<Property Name="CenterLevel" Type="Real32">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="FrontRearDelay" Type="Real32">
+											<ValueList>
+												<Value>32</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionStop" Type="Real64">
+											<ValueList>
+												<Value>1.07301811594203</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionThreshold" Type="Real32">
+											<ValueList>
+												<Value>-67</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLRMix" Type="Real32">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLevel" Type="Real32">
+											<ValueList>
+												<Value>-14</Value>
+											</ValueList>
+										</Property>
+										<Property Name="PreDelay" Type="Real32">
+											<ValueList>
+												<Value>16</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Street_PheeeewEcho_02" ID="{98DDD2ED-B859-4175-8F8F-857381C0AC2F}" ShortID="209885183">
+										<PluginMediaSource Name="AE_Street_PheeeewEcho_02" ID="{98DDD2ED-B859-4175-8F8F-857381C0AC2F}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Outdoor\Street\AE_Street_PheeeewEcho_02.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="209885183"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData>
-	<ConvolutionData>
+									<PluginData><ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
 				<Curve Name="" ID="{746565ED-D633-45F8-9485-36AC44B8FF17}">
@@ -2022,30 +2663,55 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData>
-</PluginData>
+	</ConvolutionData></PluginData>
 								</Effect>
 								<Effect Name="SlapsEchoClose" ID="{8DC386DA-3F95-4C43-8993-631734B0722D}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
-										<Property Name="IRConvolutionStop" Type="Real64" Value="1.02625905797101"/>
-										<Property Name="IRConvolutionThreshold" Type="Real32" Value="-60"/>
-										<Property Name="IRLRMix" Type="Real32" Value="2"/>
-										<Property Name="IRLevel" Type="Real32" Value="-21"/>
-										<Property Name="PreDelay" Type="Real32" Value="51"/>
+										<Property Name="CenterLevel" Type="Real32">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionStop" Type="Real64">
+											<ValueList>
+												<Value>1.02625905797101</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionThreshold" Type="Real32">
+											<ValueList>
+												<Value>-60</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLRMix" Type="Real32">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLevel" Type="Real32">
+											<ValueList>
+												<Value>-21</Value>
+											</ValueList>
+										</Property>
+										<Property Name="PreDelay" Type="Real32">
+											<ValueList>
+												<Value>51</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Street_SlapsEchoClose" ID="{19FAA381-C292-4C75-A057-CD1BA0FB7F71}" ShortID="536838777">
+										<PluginMediaSource Name="AE_Street_SlapsEchoClose" ID="{19FAA381-C292-4C75-A057-CD1BA0FB7F71}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Outdoor\Street\AE_Street_SlapsEchoClose.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="536838777"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData>
-	<ConvolutionData>
+									<PluginData><ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
 				<Curve Name="" ID="{96A89EF0-BC05-4FFD-AFA3-0978E5AFAF75}">
@@ -2105,30 +2771,55 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData>
-</PluginData>
+	</ConvolutionData></PluginData>
 								</Effect>
 								<Effect Name="SmoothIntimate" ID="{7DF1462C-BE58-4E5A-B895-A6B2DC1FC49C}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
-										<Property Name="IRConvolutionStop" Type="Real64" Value="0.942431310386473"/>
-										<Property Name="IRConvolutionThreshold" Type="Real32" Value="-83"/>
-										<Property Name="IRLRMix" Type="Real32" Value="16"/>
-										<Property Name="IRLevel" Type="Real32" Value="-14"/>
-										<Property Name="PreDelay" Type="Real32" Value="55"/>
+										<Property Name="CenterLevel" Type="Real32">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionStop" Type="Real64">
+											<ValueList>
+												<Value>0.942431310386473</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionThreshold" Type="Real32">
+											<ValueList>
+												<Value>-83</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLRMix" Type="Real32">
+											<ValueList>
+												<Value>16</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLevel" Type="Real32">
+											<ValueList>
+												<Value>-14</Value>
+											</ValueList>
+										</Property>
+										<Property Name="PreDelay" Type="Real32">
+											<ValueList>
+												<Value>55</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Street_SmoothIntimate" ID="{7D55369E-A2D0-48AC-A32F-09A2200AD208}" ShortID="294815814">
+										<PluginMediaSource Name="AE_Street_SmoothIntimate" ID="{7D55369E-A2D0-48AC-A32F-09A2200AD208}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Outdoor\Street\AE_Street_SmoothIntimate.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="294815814"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData>
-	<ConvolutionData>
+									<PluginData><ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
 				<Curve Name="" ID="{869259CA-0E4C-4332-B8D6-DE85FBBD0865}">
@@ -2188,30 +2879,55 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData>
-</PluginData>
+	</ConvolutionData></PluginData>
 								</Effect>
 								<Effect Name="TwoFarBuildings" ID="{0BEE9347-3498-43C8-8AC4-2F777205CF3A}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
-										<Property Name="IRConvolutionStop" Type="Real64" Value="1.09178713768116"/>
-										<Property Name="IRConvolutionThreshold" Type="Real32" Value="-60"/>
-										<Property Name="IRLRMix" Type="Real32" Value="4"/>
-										<Property Name="IRLevel" Type="Real32" Value="-15"/>
-										<Property Name="PreDelay" Type="Real32" Value="37"/>
+										<Property Name="CenterLevel" Type="Real32">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionStop" Type="Real64">
+											<ValueList>
+												<Value>1.09178713768116</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionThreshold" Type="Real32">
+											<ValueList>
+												<Value>-60</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLRMix" Type="Real32">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLevel" Type="Real32">
+											<ValueList>
+												<Value>-15</Value>
+											</ValueList>
+										</Property>
+										<Property Name="PreDelay" Type="Real32">
+											<ValueList>
+												<Value>37</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Street_TwoFarBuildings" ID="{55F13B73-5C13-43DA-BACB-C30F64B06104}" ShortID="596456986">
+										<PluginMediaSource Name="AE_Street_TwoFarBuildings" ID="{55F13B73-5C13-43DA-BACB-C30F64B06104}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Outdoor\Street\AE_Street_TwoFarBuildings.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="596456986"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData>
-	<ConvolutionData>
+									<PluginData><ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
 				<Curve Name="" ID="{CEFCDDB9-6F8E-4EB2-825B-58B198D73033}">
@@ -2271,30 +2987,55 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData>
-</PluginData>
+	</ConvolutionData></PluginData>
 								</Effect>
 								<Effect Name="WideEcho" ID="{17F76320-8B17-4B35-AD45-75D6966F28D0}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
-										<Property Name="IRConvolutionStop" Type="Real64" Value="1.09499479166667"/>
-										<Property Name="IRConvolutionThreshold" Type="Real32" Value="-64"/>
-										<Property Name="IRLRMix" Type="Real32" Value="31"/>
-										<Property Name="IRLevel" Type="Real32" Value="-18"/>
-										<Property Name="PreDelay" Type="Real32" Value="51"/>
+										<Property Name="CenterLevel" Type="Real32">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionStop" Type="Real64">
+											<ValueList>
+												<Value>1.09499479166667</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionThreshold" Type="Real32">
+											<ValueList>
+												<Value>-64</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLRMix" Type="Real32">
+											<ValueList>
+												<Value>31</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLevel" Type="Real32">
+											<ValueList>
+												<Value>-18</Value>
+											</ValueList>
+										</Property>
+										<Property Name="PreDelay" Type="Real32">
+											<ValueList>
+												<Value>51</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Street_WideEcho" ID="{81F0ECFF-BE0A-4550-AA1E-EA2EB2FFB080}" ShortID="784884764">
+										<PluginMediaSource Name="AE_Street_WideEcho" ID="{81F0ECFF-BE0A-4550-AA1E-EA2EB2FFB080}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Outdoor\Street\AE_Street_WideEcho.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="784884764"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData>
-	<ConvolutionData>
+									<PluginData><ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
 				<Curve Name="" ID="{8E66720B-070D-4313-A1D7-8798DA12E734}">
@@ -2354,31 +3095,60 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData>
-</PluginData>
+	</ConvolutionData></PluginData>
 								</Effect>
 								<Effect Name="WideWithCars" ID="{115F392A-1C33-49E5-87D8-5E89E6A1F053}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
-										<Property Name="IRConvolutionSmooth" Type="Real32" Value="8"/>
-										<Property Name="IRConvolutionStop" Type="Real64" Value="0.773524305555556"/>
-										<Property Name="IRConvolutionThreshold" Type="Real32" Value="-68"/>
-										<Property Name="IRLRMix" Type="Real32" Value="27"/>
-										<Property Name="IRLevel" Type="Real32" Value="-11"/>
-										<Property Name="PreDelay" Type="Real32" Value="20"/>
+										<Property Name="CenterLevel" Type="Real32">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionSmooth" Type="Real32">
+											<ValueList>
+												<Value>8</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionStop" Type="Real64">
+											<ValueList>
+												<Value>0.773524305555556</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionThreshold" Type="Real32">
+											<ValueList>
+												<Value>-68</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLRMix" Type="Real32">
+											<ValueList>
+												<Value>27</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLevel" Type="Real32">
+											<ValueList>
+												<Value>-11</Value>
+											</ValueList>
+										</Property>
+										<Property Name="PreDelay" Type="Real32">
+											<ValueList>
+												<Value>20</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Street_WideWithCars" ID="{B08D7D55-8DD2-4C94-9347-6288FBA044F9}" ShortID="512867118">
+										<PluginMediaSource Name="AE_Street_WideWithCars" ID="{B08D7D55-8DD2-4C94-9347-6288FBA044F9}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Outdoor\Street\AE_Street_WideWithCars.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="512867118"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData>
-	<ConvolutionData>
+									<PluginData><ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
 				<Curve Name="" ID="{1C0C3E13-A05E-4069-A81A-70997BC44024}">
@@ -2438,8 +3208,7 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData>
-</PluginData>
+	</ConvolutionData></PluginData>
 								</Effect>
 							</ChildrenList>
 						</Folder>
@@ -2449,22 +3218,44 @@
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
-										<Property Name="IRConvolutionStop" Type="Real64" Value="0.252205615942029"/>
-										<Property Name="IRConvolutionThreshold" Type="Real32" Value="-70"/>
-										<Property Name="IRLRMix" Type="Real32" Value="-5"/>
-										<Property Name="IRLevel" Type="Real32" Value="-12"/>
+										<Property Name="CenterLevel" Type="Real32">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionStop" Type="Real64">
+											<ValueList>
+												<Value>0.252205615942029</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionThreshold" Type="Real32">
+											<ValueList>
+												<Value>-70</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLRMix" Type="Real32">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLevel" Type="Real32">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Attic_01" ID="{4FE9ABA0-B6FA-4502-9D66-ACE15EF6B7D3}" ShortID="1036982009">
+										<PluginMediaSource Name="AE_Attic_01" ID="{4FE9ABA0-B6FA-4502-9D66-ACE15EF6B7D3}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Domestic\AE_Attic_01.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="1036982009"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData>
-	<ConvolutionData>
+									<PluginData><ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
 				<Curve Name="" ID="{43EF82C8-9EC8-4C17-ACBE-FE53F3042C16}">
@@ -2524,29 +3315,50 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData>
-</PluginData>
+	</ConvolutionData></PluginData>
 								</Effect>
 								<Effect Name="Attic_02" ID="{B1D31439-6E63-4BC9-98B6-71E8D9D934E4}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
-										<Property Name="IRConvolutionStop" Type="Real64" Value="0.389665760869565"/>
-										<Property Name="IRConvolutionThreshold" Type="Real32" Value="-62"/>
-										<Property Name="IRLRMix" Type="Real32" Value="-17"/>
-										<Property Name="IRLevel" Type="Real32" Value="-6"/>
+										<Property Name="CenterLevel" Type="Real32">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionStop" Type="Real64">
+											<ValueList>
+												<Value>0.389665760869565</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionThreshold" Type="Real32">
+											<ValueList>
+												<Value>-62</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLRMix" Type="Real32">
+											<ValueList>
+												<Value>-17</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLevel" Type="Real32">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Attic_02" ID="{4A9D4ABB-ECA4-438E-9C41-20D400BD3292}" ShortID="60907913">
+										<PluginMediaSource Name="AE_Attic_02" ID="{4A9D4ABB-ECA4-438E-9C41-20D400BD3292}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Domestic\AE_Attic_02.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="60907913"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData>
-	<ConvolutionData>
+									<PluginData><ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
 				<Curve Name="" ID="{5BF95B12-8568-4028-B816-5D2E3022D9E4}">
@@ -2606,29 +3418,50 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData>
-</PluginData>
+	</ConvolutionData></PluginData>
 								</Effect>
 								<Effect Name="Bathroom" ID="{4B9F7290-216D-41E2-958A-8404D665A0EE}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
-										<Property Name="IRConvolutionStop" Type="Real64" Value="1.00091862922705"/>
-										<Property Name="IRConvolutionThreshold" Type="Real32" Value="-63"/>
-										<Property Name="IRLRMix" Type="Real32" Value="-31"/>
-										<Property Name="IRLevel" Type="Real32" Value="-15"/>
+										<Property Name="CenterLevel" Type="Real32">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionStop" Type="Real64">
+											<ValueList>
+												<Value>1.00091862922705</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionThreshold" Type="Real32">
+											<ValueList>
+												<Value>-63</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLRMix" Type="Real32">
+											<ValueList>
+												<Value>-31</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLevel" Type="Real32">
+											<ValueList>
+												<Value>-15</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Bathroom" ID="{E616F50D-2EDA-414E-B8CF-C78DBB027E83}" ShortID="335771893">
+										<PluginMediaSource Name="AE_Bathroom" ID="{E616F50D-2EDA-414E-B8CF-C78DBB027E83}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Domestic\AE_Bathroom.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="335771893"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData>
-	<ConvolutionData>
+									<PluginData><ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
 				<Curve Name="" ID="{870AF30B-A6E2-49BE-BE62-B4B30CCBF0E9}">
@@ -2688,30 +3521,55 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData>
-</PluginData>
+	</ConvolutionData></PluginData>
 								</Effect>
 								<Effect Name="Bedroom" ID="{CB31448F-1272-4004-9231-65EFA2D5A2D4}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
-										<Property Name="IRConvolutionSmooth" Type="Real32" Value="9"/>
-										<Property Name="IRConvolutionStop" Type="Real64" Value="0.59133008756039"/>
-										<Property Name="IRConvolutionThreshold" Type="Real32" Value="-60"/>
-										<Property Name="IRLRMix" Type="Real32" Value="31"/>
-										<Property Name="IRLevel" Type="Real32" Value="-23"/>
+										<Property Name="CenterLevel" Type="Real32">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionSmooth" Type="Real32">
+											<ValueList>
+												<Value>9</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionStop" Type="Real64">
+											<ValueList>
+												<Value>0.59133008756039</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionThreshold" Type="Real32">
+											<ValueList>
+												<Value>-60</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLRMix" Type="Real32">
+											<ValueList>
+												<Value>31</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLevel" Type="Real32">
+											<ValueList>
+												<Value>-23</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Bedroom" ID="{D06BDB9B-7405-44F0-BBA1-1DFBFAA54287}" ShortID="145606015">
+										<PluginMediaSource Name="AE_Bedroom" ID="{D06BDB9B-7405-44F0-BBA1-1DFBFAA54287}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Domestic\AE_Bedroom.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="145606015"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData>
-	<ConvolutionData>
+									<PluginData><ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
 				<Curve Name="" ID="{9D681D31-1626-4C09-B36B-D82912F74ABB}">
@@ -2771,29 +3629,50 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData>
-</PluginData>
+	</ConvolutionData></PluginData>
 								</Effect>
 								<Effect Name="Classroom" ID="{2DC5C6AB-AD35-4C61-B392-4628E066AF21}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
-										<Property Name="IRConvolutionStop" Type="Real64" Value="0.502397041062802"/>
-										<Property Name="IRConvolutionThreshold" Type="Real32" Value="-70"/>
-										<Property Name="IRLRMix" Type="Real32" Value="6"/>
-										<Property Name="IRLevel" Type="Real32" Value="-5"/>
+										<Property Name="CenterLevel" Type="Real32">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionStop" Type="Real64">
+											<ValueList>
+												<Value>0.502397041062802</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionThreshold" Type="Real32">
+											<ValueList>
+												<Value>-70</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLRMix" Type="Real32">
+											<ValueList>
+												<Value>6</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLevel" Type="Real32">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Classroom" ID="{0365AA17-19E2-4293-AB8E-CB73EB495C95}" ShortID="1065017050">
+										<PluginMediaSource Name="AE_Classroom" ID="{0365AA17-19E2-4293-AB8E-CB73EB495C95}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Domestic\AE_Classroom.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="1065017050"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData>
-	<ConvolutionData>
+									<PluginData><ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
 				<Curve Name="" ID="{B8FE3E44-CA24-41E9-94ED-C218DC0CB796}">
@@ -2853,30 +3732,55 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData>
-</PluginData>
+	</ConvolutionData></PluginData>
 								</Effect>
 								<Effect Name="Corridor" ID="{BF07E34F-67C0-43F6-BD7A-6B266536859C}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
-										<Property Name="IRConvolutionSmooth" Type="Real32" Value="7"/>
-										<Property Name="IRConvolutionStop" Type="Real64" Value="0.632041213768116"/>
-										<Property Name="IRConvolutionThreshold" Type="Real32" Value="-65"/>
-										<Property Name="IRLRMix" Type="Real32" Value="15"/>
-										<Property Name="IRLevel" Type="Real32" Value="-16"/>
+										<Property Name="CenterLevel" Type="Real32">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionSmooth" Type="Real32">
+											<ValueList>
+												<Value>7</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionStop" Type="Real64">
+											<ValueList>
+												<Value>0.632041213768116</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionThreshold" Type="Real32">
+											<ValueList>
+												<Value>-65</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLRMix" Type="Real32">
+											<ValueList>
+												<Value>15</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLevel" Type="Real32">
+											<ValueList>
+												<Value>-16</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Corridor" ID="{5110A1D7-9953-4DA9-8EA3-74A1095BC1B9}" ShortID="647831537">
+										<PluginMediaSource Name="AE_Corridor" ID="{5110A1D7-9953-4DA9-8EA3-74A1095BC1B9}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Domestic\AE_Corridor.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="647831537"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData>
-	<ConvolutionData>
+									<PluginData><ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
 				<Curve Name="" ID="{3BEE9D4F-A15A-4EB3-83FA-2BED40C37431}">
@@ -2936,30 +3840,55 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData>
-</PluginData>
+	</ConvolutionData></PluginData>
 								</Effect>
 								<Effect Name="Hallway" ID="{0D3731CC-E532-4F15-9554-FCC2ED0F2533}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
-										<Property Name="IRConvolutionSmooth" Type="Real32" Value="7"/>
-										<Property Name="IRConvolutionStop" Type="Real64" Value="0.973164251207729"/>
-										<Property Name="IRConvolutionThreshold" Type="Real32" Value="-63"/>
-										<Property Name="IRLRMix" Type="Real32" Value="-8"/>
-										<Property Name="IRLevel" Type="Real32" Value="-9"/>
+										<Property Name="CenterLevel" Type="Real32">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionSmooth" Type="Real32">
+											<ValueList>
+												<Value>7</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionStop" Type="Real64">
+											<ValueList>
+												<Value>0.973164251207729</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionThreshold" Type="Real32">
+											<ValueList>
+												<Value>-63</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLRMix" Type="Real32">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLevel" Type="Real32">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Hallway" ID="{0B05BD80-D9C7-4494-844C-919BDA7A5BF1}" ShortID="480496863">
+										<PluginMediaSource Name="AE_Hallway" ID="{0B05BD80-D9C7-4494-844C-919BDA7A5BF1}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Domestic\AE_Hallway.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="480496863"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData>
-	<ConvolutionData>
+									<PluginData><ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
 				<Curve Name="" ID="{BA68DB64-ACF1-440C-A5B0-49954567BF43}">
@@ -3019,30 +3948,55 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData>
-</PluginData>
+	</ConvolutionData></PluginData>
 								</Effect>
 								<Effect Name="LivingRoom_01" ID="{87D6BD4A-875B-45A3-900B-FCC17A978F38}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
-										<Property Name="IRConvolutionSmooth" Type="Real32" Value="8"/>
-										<Property Name="IRConvolutionStop" Type="Real64" Value="0.448604619565217"/>
-										<Property Name="IRConvolutionThreshold" Type="Real32" Value="-74"/>
-										<Property Name="IRLRMix" Type="Real32" Value="-48"/>
-										<Property Name="IRLevel" Type="Real32" Value="-9"/>
+										<Property Name="CenterLevel" Type="Real32">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionSmooth" Type="Real32">
+											<ValueList>
+												<Value>8</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionStop" Type="Real64">
+											<ValueList>
+												<Value>0.448604619565217</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionThreshold" Type="Real32">
+											<ValueList>
+												<Value>-74</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLRMix" Type="Real32">
+											<ValueList>
+												<Value>-48</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLevel" Type="Real32">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_LivingRoom_01" ID="{948D85A9-A8B5-4D2B-B178-1E209BE7F400}" ShortID="435591620">
+										<PluginMediaSource Name="AE_LivingRoom_01" ID="{948D85A9-A8B5-4D2B-B178-1E209BE7F400}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Domestic\AE_LivingRoom_01.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="435591620"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData>
-	<ConvolutionData>
+									<PluginData><ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
 				<Curve Name="" ID="{341D7835-DDD1-4B59-8424-FC8D3D1D45DF}">
@@ -3102,30 +4056,55 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData>
-</PluginData>
+	</ConvolutionData></PluginData>
 								</Effect>
 								<Effect Name="LivingRoom_02" ID="{1F16AF94-4D37-40B7-9172-FBEEF37CD6B6}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
-										<Property Name="IRConvolutionStop" Type="Real64" Value="0.594255736714976"/>
-										<Property Name="IRConvolutionThreshold" Type="Real32" Value="-74"/>
-										<Property Name="IRLRMix" Type="Real32" Value="-5"/>
-										<Property Name="IRLevel" Type="Real32" Value="-10"/>
-										<Property Name="PreDelay" Type="Real32" Value="3"/>
+										<Property Name="CenterLevel" Type="Real32">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionStop" Type="Real64">
+											<ValueList>
+												<Value>0.594255736714976</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionThreshold" Type="Real32">
+											<ValueList>
+												<Value>-74</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLRMix" Type="Real32">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLevel" Type="Real32">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+										<Property Name="PreDelay" Type="Real32">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_LivingRoom_02" ID="{5A7B6485-E087-4B05-A324-EDCD48E8061D}" ShortID="867122333">
+										<PluginMediaSource Name="AE_LivingRoom_02" ID="{5A7B6485-E087-4B05-A324-EDCD48E8061D}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Domestic\AE_LivingRoom_02.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="867122333"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData>
-	<ConvolutionData>
+									<PluginData><ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
 				<Curve Name="" ID="{C3249B6C-3636-469C-9B62-427A0A27029F}">
@@ -3185,30 +4164,55 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData>
-</PluginData>
+	</ConvolutionData></PluginData>
 								</Effect>
 								<Effect Name="SchoolHall" ID="{BB0D7BD2-44E6-4818-AC96-C0216B54E854}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
-										<Property Name="IRConvolutionSmooth" Type="Real32" Value="12"/>
-										<Property Name="IRConvolutionStop" Type="Real64" Value="1.50340760869565"/>
-										<Property Name="IRConvolutionThreshold" Type="Real32" Value="-81"/>
-										<Property Name="IRLRMix" Type="Real32" Value="-4"/>
-										<Property Name="IRLevel" Type="Real32" Value="-20"/>
+										<Property Name="CenterLevel" Type="Real32">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionSmooth" Type="Real32">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionStop" Type="Real64">
+											<ValueList>
+												<Value>1.50340760869565</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionThreshold" Type="Real32">
+											<ValueList>
+												<Value>-81</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLRMix" Type="Real32">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLevel" Type="Real32">
+											<ValueList>
+												<Value>-20</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_SchoolHall" ID="{C6E99C24-52B7-4ADE-AE7B-3CC0A4FA9256}" ShortID="522077337">
+										<PluginMediaSource Name="AE_SchoolHall" ID="{C6E99C24-52B7-4ADE-AE7B-3CC0A4FA9256}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Domestic\AE_SchoolHall.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="522077337"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData>
-	<ConvolutionData>
+									<PluginData><ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
 				<Curve Name="" ID="{A72E86FE-CEE5-42FF-BE43-BABFDE43D71E}">
@@ -3268,31 +4272,60 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData>
-</PluginData>
+	</ConvolutionData></PluginData>
 								</Effect>
 								<Effect Name="Staircase" ID="{127E52AD-3162-4A20-B3CF-D02B7FAD04B5}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
-										<Property Name="IRConvolutionSmooth" Type="Real32" Value="7"/>
-										<Property Name="IRConvolutionStop" Type="Real64" Value="1.74063768115942"/>
-										<Property Name="IRConvolutionThreshold" Type="Real32" Value="-73"/>
-										<Property Name="IRLRMix" Type="Real32" Value="-11"/>
-										<Property Name="IRLevel" Type="Real32" Value="-20"/>
-										<Property Name="PreDelay" Type="Real32" Value="13"/>
+										<Property Name="CenterLevel" Type="Real32">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionSmooth" Type="Real32">
+											<ValueList>
+												<Value>7</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionStop" Type="Real64">
+											<ValueList>
+												<Value>1.74063768115942</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionThreshold" Type="Real32">
+											<ValueList>
+												<Value>-73</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLRMix" Type="Real32">
+											<ValueList>
+												<Value>-11</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLevel" Type="Real32">
+											<ValueList>
+												<Value>-20</Value>
+											</ValueList>
+										</Property>
+										<Property Name="PreDelay" Type="Real32">
+											<ValueList>
+												<Value>13</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Staircase" ID="{D4AE5DDF-8FBB-4A21-A3D0-9B1397794FED}" ShortID="766552005">
+										<PluginMediaSource Name="AE_Staircase" ID="{D4AE5DDF-8FBB-4A21-A3D0-9B1397794FED}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Domestic\AE_Staircase.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="766552005"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData>
-	<ConvolutionData>
+									<PluginData><ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
 				<Curve Name="" ID="{A61C0680-4FE3-409F-8484-5E7102DD36A5}">
@@ -3352,8 +4385,7 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData>
-</PluginData>
+	</ConvolutionData></PluginData>
 								</Effect>
 							</ChildrenList>
 						</Folder>
@@ -3363,22 +4395,44 @@
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
-										<Property Name="IRConvolutionStop" Type="Real64" Value="0.669963919082126"/>
-										<Property Name="IRConvolutionThreshold" Type="Real32" Value="-74"/>
-										<Property Name="IRLRMix" Type="Real32" Value="-13"/>
-										<Property Name="IRLevel" Type="Real32" Value="-16"/>
+										<Property Name="CenterLevel" Type="Real32">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionStop" Type="Real64">
+											<ValueList>
+												<Value>0.669963919082126</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionThreshold" Type="Real32">
+											<ValueList>
+												<Value>-74</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLRMix" Type="Real32">
+											<ValueList>
+												<Value>-13</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLevel" Type="Real32">
+											<ValueList>
+												<Value>-16</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_FireDepartment" ID="{7A35A933-0DA2-4E18-888A-581A4E309154}" ShortID="602284699">
+										<PluginMediaSource Name="AE_FireDepartment" ID="{7A35A933-0DA2-4E18-888A-581A4E309154}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Misc\AE_FireDepartment.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="602284699"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData>
-	<ConvolutionData>
+									<PluginData><ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
 				<Curve Name="" ID="{F70E085E-D8BC-4306-8424-0AAE858D3C95}">
@@ -3438,8 +4492,7 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData>
-</PluginData>
+	</ConvolutionData></PluginData>
 								</Effect>
 							</ChildrenList>
 						</Folder>
@@ -3449,21 +4502,39 @@
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
-										<Property Name="IRConvolutionStop" Type="Real64" Value="0.067125"/>
-										<Property Name="IRLRMix" Type="Real32" Value="12"/>
-										<Property Name="IRLevel" Type="Real32" Value="-17"/>
+										<Property Name="CenterLevel" Type="Real32">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionStop" Type="Real64">
+											<ValueList>
+												<Value>0.067125</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLRMix" Type="Real32">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLevel" Type="Real32">
+											<ValueList>
+												<Value>-17</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Beetle" ID="{1674D796-9B0F-4EEC-97B0-916C8D8D8420}" ShortID="1054055703">
+										<PluginMediaSource Name="AE_Beetle" ID="{1674D796-9B0F-4EEC-97B0-916C8D8D8420}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Transport\AE_Beetle.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="1054055703"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData>
-	<ConvolutionData>
+									<PluginData><ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
 				<Curve Name="" ID="{E3C137F5-4D7C-421E-8E36-4CEEC0F1ADE3}">
@@ -3523,29 +4594,50 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData>
-</PluginData>
+	</ConvolutionData></PluginData>
 								</Effect>
 								<Effect Name="Ford_TransitVanRear" ID="{2B7FF8E2-4D53-4A42-ADA3-402340BEF2EB}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
-										<Property Name="IRConvolutionStop" Type="Real64" Value="0.507961956521739"/>
-										<Property Name="IRConvolutionThreshold" Type="Real32" Value="-75"/>
-										<Property Name="IRLRMix" Type="Real32" Value="37"/>
-										<Property Name="IRLevel" Type="Real32" Value="-10"/>
+										<Property Name="CenterLevel" Type="Real32">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionStop" Type="Real64">
+											<ValueList>
+												<Value>0.507961956521739</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionThreshold" Type="Real32">
+											<ValueList>
+												<Value>-75</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLRMix" Type="Real32">
+											<ValueList>
+												<Value>37</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLevel" Type="Real32">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Ford_TransitVanRear" ID="{2DD8FD21-A407-4CF0-A82C-6F6FDF6DA99D}" ShortID="13019290">
+										<PluginMediaSource Name="AE_Ford_TransitVanRear" ID="{2DD8FD21-A407-4CF0-A82C-6F6FDF6DA99D}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Transport\AE_Ford_TransitVanRear.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="13019290"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData>
-	<ConvolutionData>
+									<PluginData><ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
 				<Curve Name="" ID="{908BF1B3-C019-4A4C-8F95-FABB84765D41}">
@@ -3605,29 +4697,50 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData>
-</PluginData>
+	</ConvolutionData></PluginData>
 								</Effect>
 								<Effect Name="Helicopter_Sikorski" ID="{DEBC6B2B-CCD9-41D6-B1DB-4A98FAAF038D}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
-										<Property Name="IRConvolutionStop" Type="Real64" Value="0.313263888888889"/>
-										<Property Name="IRConvolutionThreshold" Type="Real32" Value="-46"/>
-										<Property Name="IRLRMix" Type="Real32" Value="-58"/>
-										<Property Name="IRLevel" Type="Real32" Value="-8"/>
+										<Property Name="CenterLevel" Type="Real32">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionStop" Type="Real64">
+											<ValueList>
+												<Value>0.313263888888889</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionThreshold" Type="Real32">
+											<ValueList>
+												<Value>-46</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLRMix" Type="Real32">
+											<ValueList>
+												<Value>-58</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLevel" Type="Real32">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Helicopter_Sikorski" ID="{8F35578D-E26C-4939-8D27-492301A43DD1}" ShortID="685400320">
+										<PluginMediaSource Name="AE_Helicopter_Sikorski" ID="{8F35578D-E26C-4939-8D27-492301A43DD1}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Transport\AE_Helicopter_Sikorski.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="685400320"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData>
-	<ConvolutionData>
+									<PluginData><ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
 				<Curve Name="" ID="{AA089D4E-021E-4CAB-A356-B7C54697802F}">
@@ -3687,29 +4800,50 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData>
-</PluginData>
+	</ConvolutionData></PluginData>
 								</Effect>
 								<Effect Name="Honda_Element" ID="{FDC4E309-9F1E-4F04-A27F-3F573A5F4014}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
-										<Property Name="IRConvolutionStop" Type="Real64" Value="0.151583333333333"/>
-										<Property Name="IRConvolutionThreshold" Type="Real32" Value="-30"/>
-										<Property Name="IRLRMix" Type="Real32" Value="-41"/>
-										<Property Name="IRLevel" Type="Real32" Value="-11"/>
+										<Property Name="CenterLevel" Type="Real32">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionStop" Type="Real64">
+											<ValueList>
+												<Value>0.151583333333333</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionThreshold" Type="Real32">
+											<ValueList>
+												<Value>-30</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLRMix" Type="Real32">
+											<ValueList>
+												<Value>-41</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLevel" Type="Real32">
+											<ValueList>
+												<Value>-11</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Honda_Element" ID="{A151283A-1CF6-4714-B3BF-AE6E281F3E4F}" ShortID="31744546">
+										<PluginMediaSource Name="AE_Honda_Element" ID="{A151283A-1CF6-4714-B3BF-AE6E281F3E4F}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Transport\AE_Honda_Element.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="31744546"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData>
-	<ConvolutionData>
+									<PluginData><ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
 				<Curve Name="" ID="{C6038868-F266-4A9C-AB7B-BFB23CB89563}">
@@ -3769,29 +4903,50 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData>
-</PluginData>
+	</ConvolutionData></PluginData>
 								</Effect>
 								<Effect Name="Honda_ElementRear" ID="{8A3167A6-572D-48D3-A3B4-970E5F557F02}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
-										<Property Name="IRConvolutionStop" Type="Real64" Value="0.134125"/>
-										<Property Name="IRConvolutionThreshold" Type="Real32" Value="-32"/>
-										<Property Name="IRLRMix" Type="Real32" Value="-38"/>
-										<Property Name="IRLevel" Type="Real32" Value="-11"/>
+										<Property Name="CenterLevel" Type="Real32">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionStop" Type="Real64">
+											<ValueList>
+												<Value>0.134125</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionThreshold" Type="Real32">
+											<ValueList>
+												<Value>-32</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLRMix" Type="Real32">
+											<ValueList>
+												<Value>-38</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLevel" Type="Real32">
+											<ValueList>
+												<Value>-11</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Honda_ElementRear" ID="{0898B161-6350-4971-876D-9A45DDA2B59F}" ShortID="217396452">
+										<PluginMediaSource Name="AE_Honda_ElementRear" ID="{0898B161-6350-4971-876D-9A45DDA2B59F}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Transport\AE_Honda_ElementRear.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="217396452"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData>
-	<ConvolutionData>
+									<PluginData><ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
 				<Curve Name="" ID="{39FC0913-A4DF-4CA8-B9E7-6A8890DD45E5}">
@@ -3851,30 +5006,55 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData>
-</PluginData>
+	</ConvolutionData></PluginData>
 								</Effect>
 								<Effect Name="Peugeot_PartnerFront" ID="{B84C1B8F-C954-4E7F-ABCF-1EF69852A3E9}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
-										<Property Name="IRConvolutionSmooth" Type="Real32" Value="5"/>
-										<Property Name="IRConvolutionStop" Type="Real64" Value="0.309816198671498"/>
-										<Property Name="IRConvolutionThreshold" Type="Real32" Value="-70"/>
-										<Property Name="IRLRMix" Type="Real32" Value="52"/>
-										<Property Name="IRLevel" Type="Real32" Value="-18"/>
+										<Property Name="CenterLevel" Type="Real32">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionSmooth" Type="Real32">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionStop" Type="Real64">
+											<ValueList>
+												<Value>0.309816198671498</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionThreshold" Type="Real32">
+											<ValueList>
+												<Value>-70</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLRMix" Type="Real32">
+											<ValueList>
+												<Value>52</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLevel" Type="Real32">
+											<ValueList>
+												<Value>-18</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Peugeot_PartnerFront" ID="{787BE913-8656-486F-8EA6-0480CF46CB3C}" ShortID="569393832">
+										<PluginMediaSource Name="AE_Peugeot_PartnerFront" ID="{787BE913-8656-486F-8EA6-0480CF46CB3C}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Transport\AE_Peugeot_PartnerFront.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="569393832"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData>
-	<ConvolutionData>
+									<PluginData><ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
 				<Curve Name="" ID="{FC0882C9-DEE1-4171-8EA2-071845118947}">
@@ -3934,29 +5114,50 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData>
-</PluginData>
+	</ConvolutionData></PluginData>
 								</Effect>
 								<Effect Name="Peugeot_PartnerBackClosed" ID="{F9E60FF4-1F67-4447-8007-165DD144A29A}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
-										<Property Name="IRConvolutionStop" Type="Real64" Value="0.2328023852657"/>
-										<Property Name="IRConvolutionThreshold" Type="Real32" Value="-64"/>
-										<Property Name="IRLRMix" Type="Real32" Value="4"/>
-										<Property Name="IRLevel" Type="Real32" Value="-20"/>
+										<Property Name="CenterLevel" Type="Real32">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionStop" Type="Real64">
+											<ValueList>
+												<Value>0.2328023852657</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionThreshold" Type="Real32">
+											<ValueList>
+												<Value>-64</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLRMix" Type="Real32">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLevel" Type="Real32">
+											<ValueList>
+												<Value>-20</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Peugeot_PartnerBackClosed" ID="{6E98F0D6-FF7C-429C-AA49-2AD71673BB60}" ShortID="584011173">
+										<PluginMediaSource Name="AE_Peugeot_PartnerBackClosed" ID="{6E98F0D6-FF7C-429C-AA49-2AD71673BB60}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Transport\AE_Peugeot_PartnerBackClosed.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="584011173"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData>
-	<ConvolutionData>
+									<PluginData><ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
 				<Curve Name="" ID="{A3EA6FEC-44E2-4E29-9E6D-E49578D1D321}">
@@ -4016,29 +5217,50 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData>
-</PluginData>
+	</ConvolutionData></PluginData>
 								</Effect>
 								<Effect Name="Train_BlueAngel" ID="{04F15A4B-055B-4104-A0D6-CE6B027EA8FE}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
-										<Property Name="IRConvolutionStop" Type="Real64" Value="0.706763888888889"/>
-										<Property Name="IRConvolutionThreshold" Type="Real32" Value="-83"/>
-										<Property Name="IRLRMix" Type="Real32" Value="-8"/>
-										<Property Name="IRLevel" Type="Real32" Value="-18"/>
+										<Property Name="CenterLevel" Type="Real32">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionStop" Type="Real64">
+											<ValueList>
+												<Value>0.706763888888889</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRConvolutionThreshold" Type="Real32">
+											<ValueList>
+												<Value>-83</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLRMix" Type="Real32">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IRLevel" Type="Real32">
+											<ValueList>
+												<Value>-18</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ChildrenList>
-										<PluginMediaSource Name="AE_Train_BlueAngel" ID="{110A7FC2-8B9E-4B72-89D4-4C5D5437E6A7}" ShortID="13682022">
+										<PluginMediaSource Name="AE_Train_BlueAngel" ID="{110A7FC2-8B9E-4B72-89D4-4C5D5437E6A7}">
 											<ParentPluginID>8323075</ParentPluginID>
 											<PropertyList>
 												<Property Name="DataFileName" Type="string" Value="AudioEase\Altiverb - Outdoor and More\Transport\AE_Train_BlueAngel.wav"/>
 											</PropertyList>
+											<MediaIDList>
+												<MediaID ID="13682022"/>
+											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData>
-	<ConvolutionData>
+									<PluginData><ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
 				<Curve Name="" ID="{6CA80B1B-8166-42E7-9F23-995C4F53C7D6}">
@@ -4098,8 +5320,7 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData>
-</PluginData>
+	</ConvolutionData></PluginData>
 								</Effect>
 							</ChildrenList>
 						</Folder>

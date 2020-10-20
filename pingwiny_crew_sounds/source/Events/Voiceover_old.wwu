@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{B8424251-D94B-4427-BF66-A85D3ACABAE7}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{B8424251-D94B-4427-BF66-A85D3ACABAE7}" SchemaVersion="97">
 	<Events>
 		<WorkUnit Name="Voiceover_old" ID="{B8424251-D94B-4427-BF66-A85D3ACABAE7}" PersistMode="Standalone">
 			<Comment>Voice notifications</Comment>

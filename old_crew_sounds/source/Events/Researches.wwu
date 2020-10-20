@@ -1,20 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{9525636C-61AF-4534-B552-BC9AD48E3C94}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{9525636C-61AF-4534-B552-BC9AD48E3C94}" SchemaVersion="97">
 	<Events>
 		<WorkUnit Name="Researches" ID="{9525636C-61AF-4534-B552-BC9AD48E3C94}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="researches_ambience" ID="{832666C2-34C4-4205-B4A4-524D5540F657}">
-					<ChildrenList></ChildrenList>
-				</Event>
-				<Event Name="researches_music" ID="{90D81C77-0702-46AF-9ACA-A3FE36B0C5B5}">
-					<ChildrenList></ChildrenList>
-				</Event>
-				<Event Name="researches_tank_rollover" ID="{9BB3D420-C208-43F2-8847-182E75CD9DC9}">
-					<ChildrenList></ChildrenList>
-				</Event>
-				<Event Name="researches_icon_rollover" ID="{0E8DDCF9-88B8-4B5F-8553-854890C86C8D}">
-					<ChildrenList></ChildrenList>
-				</Event>
+				<Event Name="researches_ambience" ID="{832666C2-34C4-4205-B4A4-524D5540F657}"/>
+				<Event Name="researches_music" ID="{90D81C77-0702-46AF-9ACA-A3FE36B0C5B5}"/>
+				<Event Name="researches_tank_rollover" ID="{9BB3D420-C208-43F2-8847-182E75CD9DC9}"/>
+				<Event Name="researches_icon_rollover" ID="{0E8DDCF9-88B8-4B5F-8553-854890C86C8D}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -1,0 +1,257 @@
+<WwiseDocument Type="WorkUnit" ID="{2919E36D-D7A0-482C-9D63-0D8F398C9469}" SchemaVersion="97">
+  <States>
+    <WorkUnit Name="Common" ID="{2919E36D-D7A0-482C-9D63-0D8F398C9469}" PersistMode="Standalone">
+      <ChildrenList>
+        <StateGroup Name="STATE_viewPlayMode" ID="{94AF04AB-50F8-4D8F-9E12-EF87EF6A78A7}">
+          <Comment>The state is used for switching the player betwee three modes</Comment>
+          <PropertyList>
+            <Property Name="DefaultTransitionTime" Type="Real64" Value="0.05" />
+          </PropertyList>
+          <ChildrenList>
+            <State Name="None" ID="{F1945C64-4568-4C30-8128-1460D9EBB041}" />
+            <State Name="STATE_viewPlayMode_arcade" ID="{38532EFB-0C84-4858-9839-3FFE7D765E45}">
+              <Comment>Arcade aim - the main mode (the camera is located behind the vehicle)</Comment>
+            </State>
+            <State Name="STATE_viewPlayMode_sniper" ID="{B84360EE-0891-43A8-9F9B-76A898F6C9B6}">
+              <Comment>Sniper aim - the camer is located inside the vehicle</Comment>
+            </State>
+            <State Name="STATE_viewPlayMode_strategic" ID="{851DD47E-B7C7-4DEA-A07F-83D254EF6192}">
+              <Comment>Strategic - SPG artillery aim</Comment>
+            </State>
+            <State Name="STATE_viewPlayMode_arcade_ceilless" ID="{460305C3-914D-4E7A-B2FF-B5E3FEE9D830}">
+              <Comment>Arcade ceilless - open-top vehicles</Comment>
+            </State>
+            <State Name="STATE_viewPlayMode_sniper_ceilless" ID="{2E037C3D-50E0-434A-B018-29231D9083D7}">
+              <Comment>Sniper ceilless - open-top vehicles</Comment>
+            </State>
+          </ChildrenList>
+        </StateGroup>
+        <StateGroup Name="STATE_underwater" ID="{F93B4511-A96E-41B5-AFD1-523B18C58D1F}">
+          <Comment>The state is responsible for filtering HF upon moving under the water</Comment>
+          <PropertyList>
+            <Property Name="DefaultTransitionTime" Type="Real64" Value="0.8" />
+          </PropertyList>
+          <ChildrenList>
+            <State Name="None" ID="{46E389E1-6A04-466E-B9F0-BD6AD470A844}" />
+            <State Name="STATE_underwater_off" ID="{91121861-3203-4FD1-8E3F-56E917823703}">
+              <Comment>no actions</Comment>
+            </State>
+            <State Name="STATE_underwater_on" ID="{077037E4-20F3-4D54-9FDC-85308C297D5E}">
+              <Comment>Vehicle under the water</Comment>
+            </State>
+          </ChildrenList>
+        </StateGroup>
+        <StateGroup Name="STATE_int_camoNet_stereoTrumpet" ID="{64F49E80-1E5E-405D-B9AD-C36C9132E02D}">
+          <Comment>The state is responsible for filtering HF when Binocular Telescope or Concealment Net are activated.</Comment>
+          <PropertyList>
+            <Property Name="DefaultTransitionTime" Type="Real64" Value="0.5" />
+          </PropertyList>
+          <ChildrenList>
+            <State Name="None" ID="{F60A734F-E373-4042-8FD5-B6368BEC61AD}" />
+            <State Name="STATE_int_camoNet_stereoTrumpet_on" ID="{F580CB22-B615-4947-940E-4537402642EE}">
+              <Comment>Filtering of HF when Binocular Telescope or Concealment Net are activated.</Comment>
+            </State>
+            <State Name="STATE_int_camoNet_stereoTrumpet_off" ID="{385BF16C-0196-4B7D-9191-0DFD87506708}">
+              <Comment>no actions</Comment>
+            </State>
+          </ChildrenList>
+        </StateGroup>
+        <StateGroup Name="STATE_arenastate" ID="{B32456E6-63B9-4FE1-9A95-BB105575A2EC}">
+          <PropertyList>
+            <Property Name="DefaultTransitionTime" Type="Real64" Value="10" />
+          </PropertyList>
+          <ChildrenList>
+            <State Name="None" ID="{D4638A1B-F0B7-4488-BA36-DF6AB4C78088}" />
+            <State Name="STATE_arenastate_waiting" ID="{28DBD9E0-C6EC-4CB5-9433-E0B00C89D24F}" />
+            <State Name="STATE_arenastate_counter" ID="{A472FE99-A480-45CA-9967-8E3BE517B95B}" />
+            <State Name="STATE_arenastate_battle" ID="{126BE672-210F-42AA-A692-B31FF206C30E}" />
+          </ChildrenList>
+          <TransitionList>
+            <Transition>
+              <StartState Name="STATE_arenastate_waiting" ID="{28DBD9E0-C6EC-4CB5-9433-E0B00C89D24F}" />
+              <EndState Name="STATE_arenastate_counter" ID="{A472FE99-A480-45CA-9967-8E3BE517B95B}" />
+              <Time>0.5</Time>
+              <IsShared>false</IsShared>
+            </Transition>
+            <Transition>
+              <StartState Name="STATE_arenastate_counter" ID="{A472FE99-A480-45CA-9967-8E3BE517B95B}" />
+              <EndState Name="STATE_arenastate_battle" ID="{126BE672-210F-42AA-A692-B31FF206C30E}" />
+              <Time>10</Time>
+              <IsShared>false</IsShared>
+            </Transition>
+            <Transition>
+              <StartState Name="STATE_arenastate_battle" ID="{126BE672-210F-42AA-A692-B31FF206C30E}" />
+              <EndState Name="STATE_arenastate_waiting" ID="{28DBD9E0-C6EC-4CB5-9433-E0B00C89D24F}" />
+              <Time>0.5</Time>
+              <IsShared>false</IsShared>
+            </Transition>
+          </TransitionList>
+        </StateGroup>
+        <StateGroup Name="STATE_gameplace" ID="{F1BD5445-7799-46B9-9915-3A70F970E7E5}">
+          <ChildrenList>
+            <State Name="None" ID="{40677D9D-85B7-4335-8BA1-8FB9997C823F}" />
+            <State Name="STATE_gameplace_hangar" ID="{0A75F168-9864-4E69-8856-619A6B552E21}" />
+            <State Name="STATE_gameplace_arena" ID="{CFD647DE-5366-44B2-9033-A31B10F4D1D8}" />
+            <State Name="STATE_gamplace_lobby" ID="{E862B8FC-D499-4953-A046-8965DD9787E5}" />
+            <State Name="STATE_gamplace_loading" ID="{B8743AE8-CB93-4F98-AF47-DA926B5A5B4F}" />
+            <State Name="STATE_gameplace_result" ID="{BA577818-50F7-4AD0-A59F-78FF0B8328AB}" />
+          </ChildrenList>
+          <TransitionList>
+            <Transition>
+              <StartState Name="STATE_gameplace_result" ID="{BA577818-50F7-4AD0-A59F-78FF0B8328AB}" />
+              <EndState Name="STATE_gameplace_hangar" ID="{0A75F168-9864-4E69-8856-619A6B552E21}" />
+              <Time>5</Time>
+              <IsShared>false</IsShared>
+            </Transition>
+          </TransitionList>
+        </StateGroup>
+        <StateGroup Name="STATE_hangar_place" ID="{F4715A4A-9FB0-48CB-878A-9E4FD19471B3}">
+          <PropertyList>
+            <Property Name="DefaultTransitionTime" Type="Real64" Value="2" />
+          </PropertyList>
+          <ChildrenList>
+            <State Name="None" ID="{77E74F62-04F2-4467-974C-7CD89CE5BC00}" />
+            <State Name="STATE_hangar_place_garage" ID="{D25049B4-2C90-473A-BAAC-D5C3CBE62033}" />
+            <State Name="STATE_hangar_place_personalMissions" ID="{C6BE04DE-E635-4984-A09D-FEE4DA74DDD0}" />
+            <State Name="STATE_hangar_place_customization" ID="{17A1E408-1E5F-4585-BBD4-71D33F5EE345}" />
+            <State Name="STATE_hangar_place_shop" ID="{68AFA601-9290-4075-A068-46CEC525C970}" />
+            <State Name="STATE_hangar_place_research" ID="{6DB32473-41BC-4659-893A-B5308EB06C85}" />
+            <State Name="STATE_hangar_place_tasks" ID="{59CAC0FE-A5DB-4DDD-9833-FFD91617B2A5}" />
+            <State Name="STATE_hangar_place_barracks" ID="{B17ADA94-E2DB-4E0F-AD44-3BD718336256}" />
+            <State Name="STATE_hangar_place_achievements" ID="{69A8A595-A314-4800-9527-B3A3BC8EA2D4}" />
+            <State Name="STATE_hangar_place_clans" ID="{CF70A315-BC23-4590-99B5-F98A8A8F940B}">
+              <Comment>The state is called when a player hits the Clans section (tab).</Comment>
+            </State>
+            <State Name="STATE_hangar_place_browser" ID="{94079D08-501B-4EA5-A9B3-496C7AE06141}">
+              <Comment>not used</Comment>
+            </State>
+            <State Name="STATE_hangar_place_noobieCenter" ID="{1962C9F9-149A-4921-BA84-624CC6529C57}">
+              <Comment>not used</Comment>
+            </State>
+            <State Name="STATE_hangar_place_warehouse" ID="{3C6E3EEF-2A9F-4DF0-992B-1DB6ACB1CDD5}" />
+            <State Name="STATE_hangar_place_researches_preview" ID="{1F47C73E-84DE-41B3-96CE-92BE934B0B17}" />
+            <State Name="STATE_hangar_place_shop_preview" ID="{986B5D59-1176-4D90-8C9A-1E5BF3DEE150}" />
+            <State Name="STATE_hangar_place_consumables" ID="{8A7D2F91-6EF4-4AF7-A67C-E40C810254A4}" />
+            <State Name="STATE_hangar_place_dog_tags" ID="{67CCB58C-1AD9-405F-A04C-41A23E4E88DD}" />
+            <State Name="STATE_hangar_place_lootboxes" ID="{E82E0D66-2092-40D0-977B-D80E1298FEF3}" />
+          </ChildrenList>
+          <TransitionList>
+            <Transition>
+              <StartState Name="STATE_hangar_place_garage" ID="{D25049B4-2C90-473A-BAAC-D5C3CBE62033}" />
+              <EndState Name="STATE_hangar_place_shop" ID="{68AFA601-9290-4075-A068-46CEC525C970}" />
+              <Time>3</Time>
+              <IsShared>false</IsShared>
+            </Transition>
+          </TransitionList>
+        </StateGroup>
+        <StateGroup Name="STATE_hangar_camera_rotating" ID="{9EF2A35B-6466-45FB-ABB1-D9FA9392A29E}">
+          <PropertyList>
+            <Property Name="DefaultTransitionTime" Type="Real64" Value="3" />
+          </PropertyList>
+          <ChildrenList>
+            <State Name="None" ID="{49051F0C-9CD2-48CE-9E6A-44FB977081A9}" />
+            <State Name="STATE_hangar_camera_rotating_on" ID="{B338CD76-4C59-4E15-A9E3-804F91D02F67}" />
+            <State Name="STATE_hangar_camera_rotating_off" ID="{4BD6D774-AB99-40CB-9E06-E27A5B3B210F}" />
+          </ChildrenList>
+        </StateGroup>
+        <StateGroup Name="STATE_hangar_camera_state_rotate_or_onproposal" ID="{1C279D62-94CB-4840-8114-5C3158086282}">
+          <PropertyList>
+            <Property Name="DefaultTransitionTime" Type="Real64" Value="3" />
+          </PropertyList>
+          <ChildrenList>
+            <State Name="None" ID="{CAA00F72-E459-4E22-A886-A739656B539E}" />
+            <State Name="STATE_hangar_camera_state_rotate_or_onproposal_true" ID="{7D381080-5D94-4462-9F1E-0F0ABBB00A77}" />
+            <State Name="STATE_hangar_camera_state_rotate_or_onproposal_false" ID="{AF809FC6-2C33-4D9E-AAE0-6632417CA40C}" />
+          </ChildrenList>
+          <TransitionList>
+            <Transition>
+              <StartState Name="STATE_hangar_camera_state_rotate_or_onproposal_false" ID="{AF809FC6-2C33-4D9E-AAE0-6632417CA40C}" />
+              <EndState Name="STATE_hangar_camera_state_rotate_or_onproposal_true" ID="{7D381080-5D94-4462-9F1E-0F0ABBB00A77}" />
+              <Time>5</Time>
+              <IsShared>false</IsShared>
+            </Transition>
+          </TransitionList>
+        </StateGroup>
+        <StateGroup Name="STATE_gamemode" ID="{8064DB33-AEAA-4FFE-9AA0-D68DFB9AB767}">
+          <PropertyList>
+            <Property Name="DefaultTransitionTime" Type="Real64" Value="3" />
+          </PropertyList>
+          <ChildrenList>
+            <State Name="None" ID="{EC9DBF47-7F5A-49A4-9329-46E189C73BE3}" />
+            <State Name="STATE_gamemode_default" ID="{42EE6B79-289F-4743-A3F5-3C58B4F4EF51}" />
+            <State Name="STATE_gamemode_frontline" ID="{5751F333-EEB3-417A-B5AB-988DB71381D6}" />
+            <State Name="STATE_gamemode_ranked" ID="{171C0092-B8A0-4640-B8BC-8099CF433F87}" />
+            <State Name="STATE_gamemode_bootcamp" ID="{D757020F-C273-4C72-B0C1-F016DA9E1626}" />
+            <State Name="STATE_gamemode_battle_of_bloggers" ID="{8D0F7DFD-A502-44E7-84D4-D4BE2B84A81B}" />
+            <State Name="STATE_gamemode_weekend_brawl" ID="{B98A4EF0-217D-49C6-828E-B9DEACF6C3B2}" />
+          </ChildrenList>
+        </StateGroup>
+        <StateGroup Name="STATE_gamemode_progress_page" ID="{CB7FE8BB-4C1B-414C-980C-D43BE093291F}">
+          <ChildrenList>
+            <State Name="None" ID="{C356A3C0-C679-49B8-9DA4-1FFE9EE886C1}" />
+            <State Name="STATE_gamemode_progress_page_on" ID="{09B97428-33D1-4AAB-B14D-8663B867670D}" />
+            <State Name="STATE_gamemode_progress_page_off" ID="{7B51DA68-CAF3-4270-9217-DEDD99780F8F}" />
+          </ChildrenList>
+        </StateGroup>
+        <StateGroup Name="STATE_hangar_view" ID="{CC8C2604-566F-4445-A949-7489E7CDD2CC}">
+          <PropertyList>
+            <Property Name="DefaultTransitionTime" Type="Real64" Value="2" />
+          </PropertyList>
+          <ChildrenList>
+            <State Name="None" ID="{3556ED44-1D65-4FD0-9C1E-A5278F8CBCFA}" />
+            <State Name="STATE_hangar_view_01" ID="{DE99AD14-CEA7-4A44-AD78-DBC0A4D0BB87}" />
+            <State Name="STATE_hangar_view_02" ID="{17B04F4A-A923-4507-9E7E-FB2FC848C4CD}" />
+            <State Name="STATE_hangar_view_03" ID="{79E73726-A335-4F8F-BB74-EB47342634E7}" />
+            <State Name="STATE_hangar_view_04" ID="{2ADC6B92-2C83-446A-AB54-6885BF1CF52F}" />
+            <State Name="STATE_hangar_view_05" ID="{20729D9D-F5C1-46AD-A9DC-09B1235F0B1B}" />
+          </ChildrenList>
+        </StateGroup>
+        <StateGroup Name="STATE_infopage_show" ID="{48844994-3713-4B2B-9AD5-A77D10C72A66}">
+          <PropertyList>
+            <Property Name="DefaultTransitionTime" Type="Real64" Value="1.2" />
+          </PropertyList>
+          <ChildrenList>
+            <State Name="None" ID="{05D38276-7F84-4D68-A840-AB31D6A50480}" />
+            <State Name="STATE_infopage_show_on" ID="{9741668D-9175-4758-82B0-04C55FFB0FBD}" />
+            <State Name="STATE_infopage_show_off" ID="{CFF11A10-5F6E-4708-BD52-2FFAF7065C5E}" />
+          </ChildrenList>
+        </StateGroup>
+        <StateGroup Name="STATE_postmortem_mode" ID="{463109E2-7066-4E85-9193-ACCAA84AFF14}">
+          <ChildrenList>
+            <State Name="None" ID="{EC974156-7F43-4A9E-82E4-DB88174A598F}" />
+            <State Name="STATE_postmortem_mode_on" ID="{D4FFAB22-86BB-464C-A410-8D3A3D9A303F}" />
+            <State Name="STATE_postmortem_mode_off" ID="{56406AC8-2DD8-4E1A-848C-7BCAD2646F48}" />
+          </ChildrenList>
+        </StateGroup>
+        <StateGroup Name="STATE_cust_progress" ID="{293D6992-111D-4630-A1EE-4B97C663743B}">
+          <PropertyList>
+            <Property Name="DefaultTransitionTime" Type="Real64" Value="1.5" />
+          </PropertyList>
+          <ChildrenList>
+            <State Name="None" ID="{F0D6A2BC-E08E-43F7-B2E1-C5BEBBAF8E5A}" />
+            <State Name="STATE_cust_progress_on" ID="{8C0AE6A2-6D12-4771-BA25-BAB265D2336D}" />
+            <State Name="STATE_cust_progress_off" ID="{ACC4132C-CBCC-49A8-9B5D-8458C425688D}" />
+          </ChildrenList>
+        </StateGroup>
+        <StateGroup Name="STATE_hangar_place_battle_pass" ID="{902295DA-85E4-4EB4-ABB0-39BE8385E4E9}">
+          <ChildrenList>
+            <State Name="None" ID="{DAF97DEB-1CA3-4440-80C8-8AD9EF99EF61}" />
+            <State Name="STATE_hangar_place_battle_pass_on" ID="{2B97E2C8-AA8E-4E31-A47E-9977B02C611C}" />
+            <State Name="STATE_hangar_place_battle_pass_off" ID="{E4866174-7A5C-457E-BE08-037031F73848}" />
+          </ChildrenList>
+        </StateGroup>
+        <StateGroup Name="STATE_in_bunker" ID="{4AF0A74F-AE68-4F15-A66F-26EE4FEDBF7E}">
+          <Comment>State for use on a bus 180_combat_atmosphere on maps where there are bunkers and other objects in which you can enter</Comment>
+          <PropertyList>
+            <Property Name="DefaultTransitionTime" Type="Real64" Value="0.5" />
+          </PropertyList>
+          <ChildrenList>
+            <State Name="None" ID="{20346A0C-984B-4713-ABE9-7095BE5DCF1B}" />
+            <State Name="STATE_in_bunker_on" ID="{7CA8480D-B853-471F-B443-6BB5B7FD6B69}" />
+            <State Name="STATE_in_bunker_off" ID="{BA736B69-9305-4025-AAA0-B88B247184F7}" />
+          </ChildrenList>
+        </StateGroup>
+      </ChildrenList>
+    </WorkUnit>
+  </States>
+</WwiseDocument>

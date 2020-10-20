@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{37A94ED0-8F69-4048-AAC1-097D1FA64423}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{37A94ED0-8F69-4048-AAC1-097D1FA64423}" SchemaVersion="97">
 	<GameParameters>
 		<WorkUnit Name="Gun_Reload" ID="{37A94ED0-8F69-4048-AAC1-097D1FA64423}" PersistMode="Standalone">
 			<Comment>Gun reloading</Comment>

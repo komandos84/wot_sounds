@@ -1,45 +1,38 @@
-<WwiseDocument Type="WorkUnit" ID="{8C56D420-4D2A-4342-87B4-43E4C5E905B5}" SchemaVersion="85">
-  <Events>
-    <WorkUnit Name="Turret" ID="{8C56D420-4D2A-4342-87B4-43E4C5E905B5}" PersistMode="Standalone">
-      <Comment>Turret rotation</Comment>
-      <ChildrenList>
-        <Folder Name="tur_02" ID="{A079DA69-5078-4D94-8A53-23928537A11E}" ShortID="250434540">
-          <ChildrenList>
-            <Event Name="tur_man_trav_07" ID="{8C17CB88-C664-4101-A1EE-3122FB4B8E15}">
-              <Comment>Event - Manual rotation</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="tur_man_trav_05" ID="{63809AB5-A983-47AF-A58B-7AED38CCA9B4}">
-              <Comment>Event - Manual rotation</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="tur_man_trav_06" ID="{E89D9E8C-FCCD-41D9-A443-1258D88C23E1}">
-              <Comment>Event - Manual rotation</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="tur_mech_trav" ID="{AE50E172-BFF9-47F0-AEB8-81EF39802C38}">
-              <Comment>Event - Hydraulic rotation (depends on a turret weight)</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="tur_man_trav_02" ID="{D5BD9F93-5AF5-4DC4-BBD9-55226F1D5FA5}">
-              <Comment>Event - Manual rotation</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="tur_man_trav_03" ID="{4D9B445F-2D13-417A-A874-8A500E733CD5}">
-              <Comment>Event - Manual rotation</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="tur_man_trav_01" ID="{F51CF228-545F-4012-A4CE-BCC1E98E938D}">
-              <Comment>Event - Manual rotation</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="tur_man_trav_04" ID="{B547D22D-EC1D-4E6D-8578-312EBAE13A3B}">
-              <Comment>Event - Manual rotation</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-          </ChildrenList>
-        </Folder>
-      </ChildrenList>
-    </WorkUnit>
-  </Events>
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8C56D420-4D2A-4342-87B4-43E4C5E905B5}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Turret" ID="{8C56D420-4D2A-4342-87B4-43E4C5E905B5}" PersistMode="Standalone">
+			<Comment>Turret rotation</Comment>
+			<ChildrenList>
+				<Folder Name="tur_02" ID="{A079DA69-5078-4D94-8A53-23928537A11E}" ShortID="250434540">
+					<ChildrenList>
+						<Event Name="tur_man_trav_07" ID="{8C17CB88-C664-4101-A1EE-3122FB4B8E15}">
+							<Comment>Event - Manual rotation</Comment>
+						</Event>
+						<Event Name="tur_man_trav_05" ID="{63809AB5-A983-47AF-A58B-7AED38CCA9B4}">
+							<Comment>Event - Manual rotation</Comment>
+						</Event>
+						<Event Name="tur_man_trav_06" ID="{E89D9E8C-FCCD-41D9-A443-1258D88C23E1}">
+							<Comment>Event - Manual rotation</Comment>
+						</Event>
+						<Event Name="tur_mech_trav" ID="{AE50E172-BFF9-47F0-AEB8-81EF39802C38}">
+							<Comment>Event - Hydraulic rotation (depends on a turret weight)</Comment>
+						</Event>
+						<Event Name="tur_man_trav_02" ID="{D5BD9F93-5AF5-4DC4-BBD9-55226F1D5FA5}">
+							<Comment>Event - Manual rotation</Comment>
+						</Event>
+						<Event Name="tur_man_trav_03" ID="{4D9B445F-2D13-417A-A874-8A500E733CD5}">
+							<Comment>Event - Manual rotation</Comment>
+						</Event>
+						<Event Name="tur_man_trav_01" ID="{F51CF228-545F-4012-A4CE-BCC1E98E938D}">
+							<Comment>Event - Manual rotation</Comment>
+						</Event>
+						<Event Name="tur_man_trav_04" ID="{B547D22D-EC1D-4E6D-8578-312EBAE13A3B}">
+							<Comment>Event - Manual rotation</Comment>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
 </WwiseDocument>

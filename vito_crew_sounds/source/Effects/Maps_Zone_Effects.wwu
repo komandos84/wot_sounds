@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{F5F6A6A5-94E6-4B78-889E-457783FEFBB3}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{F5F6A6A5-94E6-4B78-889E-457783FEFBB3}" SchemaVersion="97">
 	<Effects>
 		<WorkUnit Name="Maps_Zone_Effects" ID="{F5F6A6A5-94E6-4B78-889E-457783FEFBB3}" PersistMode="Standalone">
 			<ChildrenList>
@@ -73,11 +73,14 @@
 						</Property>
 					</PropertyList>
 					<ChildrenList>
-						<PluginMediaSource Name="Deep forest" ID="{EDE1044C-D411-416D-9AE4-AC09A447DBB6}" ShortID="554205954">
+						<PluginMediaSource Name="Deep forest" ID="{EDE1044C-D411-416D-9AE4-AC09A447DBB6}">
 							<ParentPluginID>8323075</ParentPluginID>
 							<PropertyList>
 								<Property Name="DataFileName" Type="string" Value="Map_Zone\Deep forest.WAV"/>
 							</PropertyList>
+							<MediaIDList>
+								<MediaID ID="554205954"/>
+							</MediaIDList>
 						</PluginMediaSource>
 					</ChildrenList>
 					<PluginData><ConvolutionData>
@@ -224,11 +227,14 @@
 						</Property>
 					</PropertyList>
 					<ChildrenList>
-						<PluginMediaSource Name="Canyons" ID="{785299F0-D5F4-4D6B-A3BD-BBD96C7D8CF8}" ShortID="684936451">
+						<PluginMediaSource Name="Canyons" ID="{785299F0-D5F4-4D6B-A3BD-BBD96C7D8CF8}">
 							<ParentPluginID>8323075</ParentPluginID>
 							<PropertyList>
 								<Property Name="DataFileName" Type="string" Value="Map_Zone\Canyons.wav"/>
 							</PropertyList>
+							<MediaIDList>
+								<MediaID ID="684936451"/>
+							</MediaIDList>
 						</PluginMediaSource>
 					</ChildrenList>
 					<PluginData><ConvolutionData>
@@ -406,14 +412,14 @@
 						</Property>
 					</PropertyList>
 					<ChildrenList>
-						<PluginMediaSource Name="AK Blue Noise Room 01" ID="{F7442900-70A4-4D6A-9DA5-87B21F82FD52}" ShortID="418610816">
+						<PluginMediaSource Name="AK Blue Noise Room 01" ID="{F7442900-70A4-4D6A-9DA5-87B21F82FD52}">
 							<ParentPluginID>8323075</ParentPluginID>
 							<PropertyList>
 								<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Rooms\AK Blue Noise Room 01.wav"/>
 							</PropertyList>
-							<ConvertedFileIDList>
-								<File ID="358895006"/>
-							</ConvertedFileIDList>
+							<MediaIDList>
+								<MediaID ID="358895006"/>
+							</MediaIDList>
 						</PluginMediaSource>
 					</ChildrenList>
 					<PluginData><ConvolutionData>

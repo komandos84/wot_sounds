@@ -1,71 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{A9CBA44D-53EB-44A0-B4B9-80CEA7294889}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{A9CBA44D-53EB-44A0-B4B9-80CEA7294889}" SchemaVersion="97">
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{A9CBA44D-53EB-44A0-B4B9-80CEA7294889}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundBank Name="utility" ID="{8AC0C734-1358-4769-8DCD-511702CF25D6}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Utilite_events" ID="{6E76A620-F9B5-47F4-8C0B-13AA1956131B}" WorkUnitID="{6E76A620-F9B5-47F4-8C0B-13AA1956131B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Utilite_events" ID="{6E76A620-F9B5-47F4-8C0B-13AA1956131B}" WorkUnitID="{6E76A620-F9B5-47F4-8C0B-13AA1956131B}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="music_interactive" ID="{13A25107-2180-4587-B6D3-7F20076AED78}">
 					<ObjectInclusionList>
-						<ObjectRef Name="41_Lost_city" ID="{81C7A9BB-7AA3-402B-9FF3-36A9C001603A}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="23_Mannerheim" ID="{56A35887-2809-4056-940D-EB1786166781}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="music_stinger" ID="{FA160C85-64FD-406A-8A60-DD990F410A19}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="30_Epic_valley" ID="{B8A588C4-1B9C-4081-9A35-386102CBA2F9}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="02_Abbey" ID="{EF0D4822-33D2-4135-8470-294C5FA58C78}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="09_Ensk" ID="{6756EE01-3D13-4168-82C0-CC9DA941FB98}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="25_Fjords" ID="{B74882CC-0F29-4174-8DAD-C06680213F7E}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="27_Erlenberg" ID="{13216ECF-217E-41B0-8DC0-A4DC2AEA8871}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="37_Munchen" ID="{D0A746A4-5C05-41CE-B9D7-278D5F67021A}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="11_Cliff" ID="{4FBED6B2-4BAA-41EC-A3E5-A1BA74226BC4}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="29_Tundra" ID="{19E4996B-B290-422F-A4D8-B8234C8E6877}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="14_Sand_river" ID="{14F44DB3-1DC6-425F-BB67-DE20138BEE18}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="36_Minsk" ID="{4888BF5C-D0E6-42B9-B884-D4F06053ABEF}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="10_Serene_coast" ID="{9BA71353-6C0D-42C7-B787-F24DCEBE6B9F}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="18_Airfield" ID="{9E6B3918-38F6-42E7-BFC4-29FBAF180C2D}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="33_Klondike" ID="{7124B508-ED50-42FA-8E66-D63CE5C77924}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="28_Fishing_bay" ID="{E33CCEB7-94FA-449A-8311-7FE04875F96F}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="07_Himmelsdorf" ID="{E47B721A-B6C0-44DB-89EE-B45716B1B4C4}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="35_Poland" ID="{8F759F13-625F-454E-8999-2C65946E80D7}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="26_Westfield" ID="{78A22FDE-6D50-456B-B7A3-143231D1DF5F}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="20_Live_oaks" ID="{15457EE1-D74A-4613-BE05-08781AC30F9D}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="01_Paris" ID="{526FD1D2-659D-4632-8934-78F426CE07FC}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="17_Ruinberg" ID="{BDE35647-6CA3-4668-9B3D-112E35A90305}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="32_Province" ID="{CD4E7F3D-B77D-4710-AF30-70431522254C}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="24_Redshire" ID="{C496E461-F224-4712-B108-E13AC59C134A}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="music_dron_stop" ID="{923A6E64-EF55-478C-834A-34BF06F67DAA}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="08_Overlord" ID="{54FDDF75-47E4-47EB-A5CE-75CB37A87C94}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="16_Caucasus" ID="{A98CFDDB-449E-47FF-ADF4-B9FFEF453005}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="04_Mines" ID="{B1546101-7DBC-485A-8F64-65A91D170CB5}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="13_Prokhorovka" ID="{23D0E3F5-21DF-49A9-AE7F-84A61AC3DEB7}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="34_Pilsen" ID="{8FD01550-84D7-49CF-AAA5-8FC31F048202}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="19_Lakeville" ID="{2E82A6B7-94B2-4A85-8CB4-D4F66A1A3BD3}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="42_Kharkiv" ID="{099499BD-C098-4AD4-8E33-A5DBB2B7A594}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="06_Steppes" ID="{518655D4-B05D-4B00-9BC3-C38D6445004B}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="44_Epic_Suburbia" ID="{F3B1AA02-1CD2-4B94-866D-01F6E406A309}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="22_Siegfried" ID="{03B7EFA2-3840-4BA7-8107-B9728A843A1A}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="21_Karelia" ID="{BF9B757D-E0C3-4C9B-99B0-C68FC752112C}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="38_Great_wall" ID="{18010B1D-E87E-4CAA-8A7F-A11526A20093}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="05_Malinovka" ID="{3A429F7D-7E3C-4CCE-A76B-6D3348530D37}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="40_Kursk" ID="{D88ACD0B-BEBF-4CF6-8579-F005B6CD8A10}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="03_Sweden" ID="{A0199E05-84E5-4D61-80E7-078BC5DC75A9}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="31_Epic_Normandy" ID="{494E7DD5-5A90-4D6F-92B1-B65325C64468}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="music_dron_endbattle_stop" ID="{667BEFA3-519E-4D90-BFF5-F365AFA0FEAE}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="15_El_halluf" ID="{7584343D-EA7D-4DD2-BFD5-7BFA777CF4CD}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="39_Highway" ID="{29FFC44D-B870-4E14-910D-58077876EF2B}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="43_Off" ID="{F1BE3255-93EE-4EF1-99F4-62C4F88CA3DC}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="12_Murovanka" ID="{F72926FB-9722-4FAC-8F72-FAF8E0A06D49}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="41_Lost_city" ID="{81C7A9BB-7AA3-402B-9FF3-36A9C001603A}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="23_Mannerheim" ID="{56A35887-2809-4056-940D-EB1786166781}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="music_stinger" ID="{FA160C85-64FD-406A-8A60-DD990F410A19}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="30_Epic_valley" ID="{B8A588C4-1B9C-4081-9A35-386102CBA2F9}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="02_Abbey" ID="{EF0D4822-33D2-4135-8470-294C5FA58C78}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="09_Ensk" ID="{6756EE01-3D13-4168-82C0-CC9DA941FB98}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="25_Fjords" ID="{B74882CC-0F29-4174-8DAD-C06680213F7E}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="27_Erlenberg" ID="{13216ECF-217E-41B0-8DC0-A4DC2AEA8871}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="37_Munchen" ID="{D0A746A4-5C05-41CE-B9D7-278D5F67021A}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="11_Cliff" ID="{4FBED6B2-4BAA-41EC-A3E5-A1BA74226BC4}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="29_Tundra" ID="{19E4996B-B290-422F-A4D8-B8234C8E6877}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="14_Sand_river" ID="{14F44DB3-1DC6-425F-BB67-DE20138BEE18}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="36_Minsk" ID="{4888BF5C-D0E6-42B9-B884-D4F06053ABEF}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="10_Serene_coast" ID="{9BA71353-6C0D-42C7-B787-F24DCEBE6B9F}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="18_Airfield" ID="{9E6B3918-38F6-42E7-BFC4-29FBAF180C2D}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="33_Klondike" ID="{7124B508-ED50-42FA-8E66-D63CE5C77924}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="28_Fishing_bay" ID="{E33CCEB7-94FA-449A-8311-7FE04875F96F}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="07_Himmelsdorf" ID="{E47B721A-B6C0-44DB-89EE-B45716B1B4C4}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="35_Poland" ID="{8F759F13-625F-454E-8999-2C65946E80D7}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="26_Westfield" ID="{78A22FDE-6D50-456B-B7A3-143231D1DF5F}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="20_Live_oaks" ID="{15457EE1-D74A-4613-BE05-08781AC30F9D}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="01_Paris" ID="{526FD1D2-659D-4632-8934-78F426CE07FC}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="17_Ruinberg" ID="{BDE35647-6CA3-4668-9B3D-112E35A90305}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="32_Province" ID="{CD4E7F3D-B77D-4710-AF30-70431522254C}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="24_Redshire" ID="{C496E461-F224-4712-B108-E13AC59C134A}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="music_dron_stop" ID="{923A6E64-EF55-478C-834A-34BF06F67DAA}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="08_Overlord" ID="{54FDDF75-47E4-47EB-A5CE-75CB37A87C94}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="16_Caucasus" ID="{A98CFDDB-449E-47FF-ADF4-B9FFEF453005}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="04_Mines" ID="{B1546101-7DBC-485A-8F64-65A91D170CB5}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="13_Prokhorovka" ID="{23D0E3F5-21DF-49A9-AE7F-84A61AC3DEB7}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="34_Pilsen" ID="{8FD01550-84D7-49CF-AAA5-8FC31F048202}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="19_Lakeville" ID="{2E82A6B7-94B2-4A85-8CB4-D4F66A1A3BD3}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="42_Kharkiv" ID="{099499BD-C098-4AD4-8E33-A5DBB2B7A594}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="06_Steppes" ID="{518655D4-B05D-4B00-9BC3-C38D6445004B}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="44_Epic_Suburbia" ID="{F3B1AA02-1CD2-4B94-866D-01F6E406A309}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="22_Siegfried" ID="{03B7EFA2-3840-4BA7-8107-B9728A843A1A}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="21_Karelia" ID="{BF9B757D-E0C3-4C9B-99B0-C68FC752112C}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="38_Great_wall" ID="{18010B1D-E87E-4CAA-8A7F-A11526A20093}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="05_Malinovka" ID="{3A429F7D-7E3C-4CCE-A76B-6D3348530D37}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="40_Kursk" ID="{D88ACD0B-BEBF-4CF6-8579-F005B6CD8A10}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="03_Sweden" ID="{A0199E05-84E5-4D61-80E7-078BC5DC75A9}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="31_Epic_Normandy" ID="{494E7DD5-5A90-4D6F-92B1-B65325C64468}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="music_dron_endbattle_stop" ID="{667BEFA3-519E-4D90-BFF5-F365AFA0FEAE}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="15_El_halluf" ID="{7584343D-EA7D-4DD2-BFD5-7BFA777CF4CD}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="39_Highway" ID="{29FFC44D-B870-4E14-910D-58077876EF2B}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="43_Off" ID="{F1BE3255-93EE-4EF1-99F4-62C4F88CA3DC}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="12_Murovanka" ID="{F72926FB-9722-4FAC-8F72-FAF8E0A06D49}" WorkUnitID="{9136FD01-D55C-43D0-B0D2-9CD1A7C5E6B2}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="loginscreen" ID="{ED09ED8C-E57A-465D-9547-5BB5481C60EB}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Loginscreen" ID="{8AE7808A-2004-41B1-8DBA-FC387D01CD4A}" WorkUnitID="{FD2495C0-0D73-4E0D-98C9-DEE9C62822A2}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Loginscreen" ID="{8AE7808A-2004-41B1-8DBA-FC387D01CD4A}" WorkUnitID="{FD2495C0-0D73-4E0D-98C9-DEE9C62822A2}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList>
 						<ObjectRef Name="loginscreen_music_stop_longfade" ID="{B55CB314-24F7-4C5E-8E43-A72010ED2785}"/>
@@ -74,8 +74,8 @@
 				</SoundBank>
 				<SoundBank Name="voiceover" ID="{A89863C1-05DF-422B-B29A-1E3F1211D44A}">
 					<ObjectInclusionList>
-						<ObjectRef Name="lightbulb" ID="{511FE419-73B9-4C40-B67B-7AE942E805FD}" WorkUnitID="{DFF2755B-9A8F-4FB9-A356-F3AC81BDD167}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="notifications_vo_old" ID="{D03DDD48-FF7F-4C74-A4B3-176E3DD04E58}" WorkUnitID="{B8424251-D94B-4427-BF66-A85D3ACABAE7}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="lightbulb" ID="{511FE419-73B9-4C40-B67B-7AE942E805FD}" WorkUnitID="{DFF2755B-9A8F-4FB9-A356-F3AC81BDD167}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="notifications_vo_old" ID="{D03DDD48-FF7F-4C74-A4B3-176E3DD04E58}" WorkUnitID="{B8424251-D94B-4427-BF66-A85D3ACABAE7}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

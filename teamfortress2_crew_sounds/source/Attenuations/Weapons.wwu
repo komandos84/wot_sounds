@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{FDC8E3CF-67CA-424D-8EA4-187769599D6D}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{FDC8E3CF-67CA-424D-8EA4-187769599D6D}" SchemaVersion="97">
 	<Attenuations>
 		<WorkUnit Name="Weapons" ID="{FDC8E3CF-67CA-424D-8EA4-187769599D6D}" PersistMode="Standalone">
 			<ChildrenList>

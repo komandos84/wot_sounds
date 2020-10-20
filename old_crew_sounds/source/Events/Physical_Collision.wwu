@@ -1,203 +1,127 @@
-<WwiseDocument Type="WorkUnit" ID="{14E124CE-CD20-43C1-A9C6-B7B662EE2E29}" SchemaVersion="85">
-  <Events>
-    <WorkUnit Name="Physical_Collision" ID="{14E124CE-CD20-43C1-A9C6-B7B662EE2E29}" PersistMode="Standalone">
-      <Comment>Vehicles colliding with other vehicles and objects</Comment>
-      <ChildrenList>
-        <Folder Name="tank_collision" ID="{D376C610-2AD4-4BD2-99C8-03F53281EEC7}" ShortID="131199884">
-          <Comment>A vehicle colliding with another vehicle</Comment>
-          <ChildrenList>
-            <Folder Name="PC" ID="{A5C7756D-EAF0-49E6-BCC2-47C3F74D76FE}" ShortID="350312026">
-              <ChildrenList>
-                <Event Name="phys_coll_heavy_pc" ID="{AF186165-F5B3-433E-8127-7585F3149684}">
-                  <Comment>Event - Hard collision with a vehicle</Comment>
-                  <ChildrenList></ChildrenList>
-                </Event>
-                <Event Name="phys_coll_med_pc" ID="{20439EA5-DCAD-4F83-9687-925C43B8FA5B}">
-                  <Comment>Event - Medium collision with a vehicle</Comment>
-                  <ChildrenList></ChildrenList>
-                </Event>
-                <Event Name="phys_coll_light_pc" ID="{79761B1A-8383-44B8-819C-B0875C0435D4}">
-                  <Comment>Event - Soft collision with a vehicle</Comment>
-                  <ChildrenList></ChildrenList>
-                </Event>
-                <Event Name="phys_friction_pc" ID="{FDD78582-4858-4931-A628-26F0682127EE}">
-                  <Comment>Event - Vehicles rubbing against each other</Comment>
-                  <ChildrenList></ChildrenList>
-                </Event>
-                <Event Name="phys_friction_after_coll_pc" ID="{82D88585-6072-448E-A9A6-B00507C31AA7}">
-                  <Comment>Event - Vehicles rubbing against each other after collision</Comment>
-                  <ChildrenList></ChildrenList>
-                </Event>
-                <Event Name="collision_tank_friction_pc" ID="{7E45C29A-14C1-4299-AE9B-5624C8FD22F9}">
-                  <ChildrenList></ChildrenList>
-                </Event>
-                <Event Name="collision_tank_pc" ID="{A5D609A3-3B58-4144-8B52-CC6A4259C3BD}">
-                  <ChildrenList></ChildrenList>
-                </Event>
-                <Event Name="collision_tank_silence_pc" ID="{DECE6069-9174-4D99-9E1E-DF02CC23CC83}">
-                  <ChildrenList></ChildrenList>
-                </Event>
-                <Event Name="collision_tank_damage" ID="{8DF829B1-204A-4AB8-9794-DD629E4F4455}">
-                  <ChildrenList></ChildrenList>
-                </Event>
-              </ChildrenList>
-            </Folder>
-            <Folder Name="NPC" ID="{23679E83-9870-462D-848A-78D04CD4CE85}" ShortID="570987636">
-              <ChildrenList>
-                <Event Name="phys_coll_heavy_npc" ID="{2245BA47-B0EF-4483-B76F-1A291AFD5F8A}">
-                  <Comment>Event - Hard collision with a vehicle</Comment>
-                  <ChildrenList></ChildrenList>
-                </Event>
-                <Event Name="phys_friction_npc" ID="{4F0BB6E8-FFDE-4295-9CAF-44BF75724527}">
-                  <Comment>Event - Vehicles rubbing against each other</Comment>
-                  <ChildrenList></ChildrenList>
-                </Event>
-                <Event Name="phys_friction_after_coll_npc" ID="{DFAA7662-E1B6-4C3C-A4EF-ADCE2FAFEF5B}">
-                  <Comment>Event - Vehicles rubbing against each other after collision</Comment>
-                  <ChildrenList></ChildrenList>
-                </Event>
-                <Event Name="phys_coll_med_npc" ID="{B9CEED75-4E0B-46FC-A7A0-2024D61689C0}">
-                  <Comment>Event - Medium collision with a vehicle</Comment>
-                  <ChildrenList></ChildrenList>
-                </Event>
-                <Event Name="phys_coll_light_npc" ID="{878659E8-4220-44D4-B125-69C46E0A1475}">
-                  <Comment>Event - Soft collision with a vehicle</Comment>
-                  <ChildrenList></ChildrenList>
-                </Event>
-              </ChildrenList>
-            </Folder>
-            <Event Name="phys_coll_ramming_light" ID="{199829EC-8C37-4CDC-98FC-F8B9AF460580}">
-              <Comment>Event - Soft ramming</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="phys_coll_ramming_heavy" ID="{909A760C-C9B2-454C-85C9-583A33ED14CF}">
-              <Comment>Event - Hard ramming</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-          </ChildrenList>
-        </Folder>
-        <Folder Name="surface_collision" ID="{B4F9109B-44B6-48F1-9496-4A73C6968CEC}" ShortID="1071670475">
-          <Comment>A vehicle colliding with objects</Comment>
-          <ChildrenList>
-            <Event Name="water_coll_heavy" ID="{0FE03A6A-060E-4756-B125-10875D145E46}">
-              <Comment>Event - Hard collision with water</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="water_coll_light" ID="{BB8BF959-1A1E-468D-A472-5E2A6A5665AF}">
-              <Comment>Event - Soft collision with water</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-          </ChildrenList>
-        </Folder>
-        <Folder Name="physical_surface_collision" ID="{3452953E-87E5-495E-B4DD-C82843E58229}" ShortID="647130546">
-          <ChildrenList>
-            <Event Name="collision_static_object_suspension_ground" ID="{A7F07A1C-46E2-479F-91F1-C04578F48F53}">
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="collision_static_object_hull_ground" ID="{CD84BE1C-099C-4778-A955-6AD31DCDF69D}">
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="collision_static_object_suspension_snow" ID="{28059E3C-F283-49F8-B4C7-8D61C23432D8}">
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="collision_static_object_hull_snow" ID="{9B1DC39C-E174-4F3A-A105-4BCAE5DCF484}">
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="collision_static_object_suspension_sand" ID="{CE7BBF2F-26D2-452E-B42C-1CED0075F07E}">
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="collision_static_object_hull_sand" ID="{92A6B39E-F2A1-4A29-83B1-F0FC7326D231}">
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="collision_static_object_suspension_wood" ID="{478CA136-CA83-4F80-B5BB-D1EEF69B1C0C}">
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="collision_static_object_hull_wood" ID="{932AC0C0-A6DF-4C30-94A9-8D78EF5CED8C}">
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="collision_static_object_suspension_water" ID="{ACF4D5D1-1396-47B4-A203-598B024C511A}" />
-            <Event Name="collision_static_object_hull_water" ID="{955BB60D-DB56-4355-8468-081839BAEA07}" />
-            <Event Name="collision_static_object_suspension_stone" ID="{4725770B-77FE-498C-A022-21167D70C83B}">
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="collision_static_object_hull_stone" ID="{BA23DAF5-CE1B-4993-997C-3EF4D90F9EFD}">
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="collision_static_object_suspension_metal" ID="{578B9B42-2B51-41F8-AC0F-B7EFA8D12325}">
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="collision_static_object_hull_metal" ID="{19CC7CE5-C098-4436-BC6B-84ECC3F62603}">
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="collision_static_object_damage" ID="{FED957D4-5625-42F3-889B-67A266F1A5A8}">
-              <Comment>Event that is called upon causing damage when a vehicle collides with a surface. The event is called over the main collision event.</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Folder Name="NPC" ID="{6C0C1C34-E3F9-42F0-828B-E8096881DCBF}" ShortID="848238696">
-              <ChildrenList>
-                <Event Name="collision_static_object_hull_NPC" ID="{68A5147D-9A85-4534-BFAF-0ECCE90E0BA4}">
-                  <ChildrenList></ChildrenList>
-                </Event>
-                <Event Name="collision_static_object_suspension_NPC" ID="{DB453781-9686-4F5D-9820-801EA72B989A}">
-                  <ChildrenList></ChildrenList>
-                </Event>
-              </ChildrenList>
-            </Folder>
-            <Folder Name="wheels_tech_collision" ID="{A59AB18C-4C81-46EB-9BEB-239331B9AA4D}" ShortID="361383370">
-              <ChildrenList>
-                <Event Name="collision_static_object_wheel_tech_suspension_snow" ID="{1A3967EC-C607-408B-ABBB-A951F0D81D0F}">
-                  <ChildrenList></ChildrenList>
-                </Event>
-                <Event Name="collision_static_object_wheel_tech_hull_wood" ID="{E6EE9DE8-F192-43DB-9DFC-8ED554AF5B5C}">
-                  <ChildrenList></ChildrenList>
-                </Event>
-                <Event Name="collision_static_object_wheel_tech_hull_water" ID="{8891DE7C-FE77-4626-972A-0CF9C93E95BC}" />
-                <Event Name="collision_static_object_wheel_tech_suspension_ground" ID="{6C3B61BC-D456-47F7-A824-54976CEB01CF}">
-                  <ChildrenList></ChildrenList>
-                </Event>
-                <Event Name="collision_static_object_wheel_tech_hull_ground" ID="{49493CA1-B52F-45BA-8CC2-C25CC8EF0A0A}">
-                  <ChildrenList></ChildrenList>
-                </Event>
-                <Event Name="collision_static_object_wheel_tech_hull_snow" ID="{539F5F34-5E8E-4309-B653-02FE7F9F2A19}">
-                  <ChildrenList></ChildrenList>
-                </Event>
-                <Event Name="collision_static_object_wheel_tech_suspension_sand" ID="{24324272-A180-45F7-8653-C7E2DF7F2538}">
-                  <ChildrenList></ChildrenList>
-                </Event>
-                <Event Name="collision_static_object_wheel_tech_hull_sand" ID="{6D7648CD-C2C4-4C23-9F07-9983989A7F78}">
-                  <ChildrenList></ChildrenList>
-                </Event>
-                <Event Name="collision_static_object_wheel_tech_suspension_wood" ID="{2FCC0468-888B-4C0B-A010-153D1F16CC51}">
-                  <ChildrenList></ChildrenList>
-                </Event>
-                <Event Name="collision_static_object_wheel_tech_suspension_water" ID="{C3F6F37C-9AD7-40AA-AEEC-6FB7E8BA261C}" />
-                <Event Name="collision_static_object_wheel_tech_suspension_stone" ID="{F5002D73-BB33-4F9F-9DBB-B7CDB52D469D}">
-                  <ChildrenList></ChildrenList>
-                </Event>
-                <Event Name="collision_static_object_wheel_tech_hull_stone" ID="{F3836594-0CD7-4C3E-9050-21A4A488E6FB}">
-                  <ChildrenList></ChildrenList>
-                </Event>
-                <Event Name="collision_static_object_wheel_tech_suspension_metal" ID="{B6DE2637-0803-4FA4-AC17-B66F5C087AFC}">
-                  <ChildrenList></ChildrenList>
-                </Event>
-                <Event Name="collision_static_object_wheel_tech_hull_metal" ID="{5057D509-986D-4552-B7DD-365A71A2472C}">
-                  <ChildrenList></ChildrenList>
-                </Event>
-              </ChildrenList>
-            </Folder>
-          </ChildrenList>
-        </Folder>
-        <Folder Name="physical_distr_objects_collision" ID="{A33031B0-FEA4-4128-95EE-9A5BE47C7EE6}" ShortID="978246337">
-          <ChildrenList>
-            <Event Name="collision_distr_object_pc" ID="{6B611D1B-8EFC-491F-987D-BA66593B1C3C}">
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="collision_distr_object_npc" ID="{A6E98916-D63A-4538-9FA3-8C285CD80753}">
-              <Comment>Event - placeholder</Comment>
-            </Event>
-          </ChildrenList>
-        </Folder>
-      </ChildrenList>
-    </WorkUnit>
-  </Events>
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{14E124CE-CD20-43C1-A9C6-B7B662EE2E29}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Physical_Collision" ID="{14E124CE-CD20-43C1-A9C6-B7B662EE2E29}" PersistMode="Standalone">
+			<Comment>Vehicles colliding with other vehicles and objects</Comment>
+			<ChildrenList>
+				<Folder Name="tank_collision" ID="{D376C610-2AD4-4BD2-99C8-03F53281EEC7}" ShortID="131199884">
+					<Comment>A vehicle colliding with another vehicle</Comment>
+					<ChildrenList>
+						<Folder Name="PC" ID="{A5C7756D-EAF0-49E6-BCC2-47C3F74D76FE}" ShortID="350312026">
+							<ChildrenList>
+								<Event Name="phys_coll_heavy_pc" ID="{AF186165-F5B3-433E-8127-7585F3149684}">
+									<Comment>Event - Hard collision with a vehicle</Comment>
+								</Event>
+								<Event Name="phys_coll_med_pc" ID="{20439EA5-DCAD-4F83-9687-925C43B8FA5B}">
+									<Comment>Event - Medium collision with a vehicle</Comment>
+								</Event>
+								<Event Name="phys_coll_light_pc" ID="{79761B1A-8383-44B8-819C-B0875C0435D4}">
+									<Comment>Event - Soft collision with a vehicle</Comment>
+								</Event>
+								<Event Name="phys_friction_pc" ID="{FDD78582-4858-4931-A628-26F0682127EE}">
+									<Comment>Event - Vehicles rubbing against each other</Comment>
+								</Event>
+								<Event Name="phys_friction_after_coll_pc" ID="{82D88585-6072-448E-A9A6-B00507C31AA7}">
+									<Comment>Event - Vehicles rubbing against each other after collision</Comment>
+								</Event>
+								<Event Name="collision_tank_friction_pc" ID="{7E45C29A-14C1-4299-AE9B-5624C8FD22F9}"/>
+								<Event Name="collision_tank_pc" ID="{A5D609A3-3B58-4144-8B52-CC6A4259C3BD}"/>
+								<Event Name="collision_tank_silence_pc" ID="{DECE6069-9174-4D99-9E1E-DF02CC23CC83}"/>
+								<Event Name="collision_tank_damage" ID="{8DF829B1-204A-4AB8-9794-DD629E4F4455}"/>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="NPC" ID="{23679E83-9870-462D-848A-78D04CD4CE85}" ShortID="570987636">
+							<ChildrenList>
+								<Event Name="phys_coll_heavy_npc" ID="{2245BA47-B0EF-4483-B76F-1A291AFD5F8A}">
+									<Comment>Event - Hard collision with a vehicle</Comment>
+								</Event>
+								<Event Name="phys_friction_npc" ID="{4F0BB6E8-FFDE-4295-9CAF-44BF75724527}">
+									<Comment>Event - Vehicles rubbing against each other</Comment>
+								</Event>
+								<Event Name="phys_friction_after_coll_npc" ID="{DFAA7662-E1B6-4C3C-A4EF-ADCE2FAFEF5B}">
+									<Comment>Event - Vehicles rubbing against each other after collision</Comment>
+								</Event>
+								<Event Name="phys_coll_med_npc" ID="{B9CEED75-4E0B-46FC-A7A0-2024D61689C0}">
+									<Comment>Event - Medium collision with a vehicle</Comment>
+								</Event>
+								<Event Name="phys_coll_light_npc" ID="{878659E8-4220-44D4-B125-69C46E0A1475}">
+									<Comment>Event - Soft collision with a vehicle</Comment>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Event Name="phys_coll_ramming_light" ID="{199829EC-8C37-4CDC-98FC-F8B9AF460580}">
+							<Comment>Event - Soft ramming</Comment>
+						</Event>
+						<Event Name="phys_coll_ramming_heavy" ID="{909A760C-C9B2-454C-85C9-583A33ED14CF}">
+							<Comment>Event - Hard ramming</Comment>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="surface_collision" ID="{B4F9109B-44B6-48F1-9496-4A73C6968CEC}" ShortID="1071670475">
+					<Comment>A vehicle colliding with objects</Comment>
+					<ChildrenList>
+						<Event Name="water_coll_heavy" ID="{0FE03A6A-060E-4756-B125-10875D145E46}">
+							<Comment>Event - Hard collision with water</Comment>
+						</Event>
+						<Event Name="water_coll_light" ID="{BB8BF959-1A1E-468D-A472-5E2A6A5665AF}">
+							<Comment>Event - Soft collision with water</Comment>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="physical_surface_collision" ID="{3452953E-87E5-495E-B4DD-C82843E58229}" ShortID="647130546">
+					<ChildrenList>
+						<Event Name="collision_static_object_suspension_ground" ID="{A7F07A1C-46E2-479F-91F1-C04578F48F53}"/>
+						<Event Name="collision_static_object_hull_ground" ID="{CD84BE1C-099C-4778-A955-6AD31DCDF69D}"/>
+						<Event Name="collision_static_object_suspension_snow" ID="{28059E3C-F283-49F8-B4C7-8D61C23432D8}"/>
+						<Event Name="collision_static_object_hull_snow" ID="{9B1DC39C-E174-4F3A-A105-4BCAE5DCF484}"/>
+						<Event Name="collision_static_object_suspension_sand" ID="{CE7BBF2F-26D2-452E-B42C-1CED0075F07E}"/>
+						<Event Name="collision_static_object_hull_sand" ID="{92A6B39E-F2A1-4A29-83B1-F0FC7326D231}"/>
+						<Event Name="collision_static_object_suspension_wood" ID="{478CA136-CA83-4F80-B5BB-D1EEF69B1C0C}"/>
+						<Event Name="collision_static_object_hull_wood" ID="{932AC0C0-A6DF-4C30-94A9-8D78EF5CED8C}"/>
+						<Event Name="collision_static_object_suspension_water" ID="{ACF4D5D1-1396-47B4-A203-598B024C511A}"/>
+						<Event Name="collision_static_object_hull_water" ID="{955BB60D-DB56-4355-8468-081839BAEA07}"/>
+						<Event Name="collision_static_object_suspension_stone" ID="{4725770B-77FE-498C-A022-21167D70C83B}"/>
+						<Event Name="collision_static_object_hull_stone" ID="{BA23DAF5-CE1B-4993-997C-3EF4D90F9EFD}"/>
+						<Event Name="collision_static_object_suspension_metal" ID="{578B9B42-2B51-41F8-AC0F-B7EFA8D12325}"/>
+						<Event Name="collision_static_object_hull_metal" ID="{19CC7CE5-C098-4436-BC6B-84ECC3F62603}"/>
+						<Event Name="collision_static_object_damage" ID="{FED957D4-5625-42F3-889B-67A266F1A5A8}">
+							<Comment>Event that is called upon causing damage when a vehicle collides with a surface. The event is called over the main collision event.</Comment>
+						</Event>
+						<Folder Name="NPC" ID="{6C0C1C34-E3F9-42F0-828B-E8096881DCBF}" ShortID="848238696">
+							<ChildrenList>
+								<Event Name="collision_static_object_hull_NPC" ID="{68A5147D-9A85-4534-BFAF-0ECCE90E0BA4}"/>
+								<Event Name="collision_static_object_suspension_NPC" ID="{DB453781-9686-4F5D-9820-801EA72B989A}"/>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="wheels_tech_collision" ID="{A59AB18C-4C81-46EB-9BEB-239331B9AA4D}" ShortID="361383370">
+							<ChildrenList>
+								<Event Name="collision_static_object_wheel_tech_suspension_snow" ID="{1A3967EC-C607-408B-ABBB-A951F0D81D0F}"/>
+								<Event Name="collision_static_object_wheel_tech_hull_wood" ID="{E6EE9DE8-F192-43DB-9DFC-8ED554AF5B5C}"/>
+								<Event Name="collision_static_object_wheel_tech_hull_water" ID="{8891DE7C-FE77-4626-972A-0CF9C93E95BC}"/>
+								<Event Name="collision_static_object_wheel_tech_suspension_ground" ID="{6C3B61BC-D456-47F7-A824-54976CEB01CF}"/>
+								<Event Name="collision_static_object_wheel_tech_hull_ground" ID="{49493CA1-B52F-45BA-8CC2-C25CC8EF0A0A}"/>
+								<Event Name="collision_static_object_wheel_tech_hull_snow" ID="{539F5F34-5E8E-4309-B653-02FE7F9F2A19}"/>
+								<Event Name="collision_static_object_wheel_tech_suspension_sand" ID="{24324272-A180-45F7-8653-C7E2DF7F2538}"/>
+								<Event Name="collision_static_object_wheel_tech_hull_sand" ID="{6D7648CD-C2C4-4C23-9F07-9983989A7F78}"/>
+								<Event Name="collision_static_object_wheel_tech_suspension_wood" ID="{2FCC0468-888B-4C0B-A010-153D1F16CC51}"/>
+								<Event Name="collision_static_object_wheel_tech_suspension_water" ID="{C3F6F37C-9AD7-40AA-AEEC-6FB7E8BA261C}"/>
+								<Event Name="collision_static_object_wheel_tech_suspension_stone" ID="{F5002D73-BB33-4F9F-9DBB-B7CDB52D469D}"/>
+								<Event Name="collision_static_object_wheel_tech_hull_stone" ID="{F3836594-0CD7-4C3E-9050-21A4A488E6FB}"/>
+								<Event Name="collision_static_object_wheel_tech_suspension_metal" ID="{B6DE2637-0803-4FA4-AC17-B66F5C087AFC}"/>
+								<Event Name="collision_static_object_wheel_tech_hull_metal" ID="{5057D509-986D-4552-B7DD-365A71A2472C}"/>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="physical_distr_objects_collision" ID="{A33031B0-FEA4-4128-95EE-9A5BE47C7EE6}" ShortID="978246337">
+					<ChildrenList>
+						<Event Name="collision_distr_object_pc" ID="{6B611D1B-8EFC-491F-987D-BA66593B1C3C}"/>
+						<Event Name="collision_distr_object_npc" ID="{A6E98916-D63A-4538-9FA3-8C285CD80753}">
+							<Comment>Event - placeholder</Comment>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
 </WwiseDocument>

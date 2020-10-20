@@ -1,894 +1,895 @@
-<WwiseDocument Type="WorkUnit" ID="{87FF0202-7DD4-4D0F-A267-00520CCB358C}" SchemaVersion="85">
-  <GameParameters>
-    <WorkUnit Name="Vehicles" ID="{87FF0202-7DD4-4D0F-A267-00520CCB358C}" PersistMode="Standalone">
-      <ChildrenList>
-        <GameParameter Name="RTPC_int_start_stop" ID="{90A4789E-2B00-4A5B-8B47-FCDBB960CF8D}">
-          <Comment>Internal RTPC - Used for damaging and repairing the enging.
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{87FF0202-7DD4-4D0F-A267-00520CCB358C}" SchemaVersion="97">
+	<GameParameters>
+		<WorkUnit Name="Vehicles" ID="{87FF0202-7DD4-4D0F-A267-00520CCB358C}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="RTPC_int_start_stop" ID="{90A4789E-2B00-4A5B-8B47-FCDBB960CF8D}">
+					<Comment>Internal RTPC - Used for damaging and repairing the enging.
 100 - the engine is damaged
 -100 - 0 - the engine is repaired</Comment>
-          <PropertyList>
-            <Property Name="InitialValue" Type="Real64" Value="-100" />
-            <Property Name="Min" Type="Real64" Value="-100" />
-          </PropertyList>
-        </GameParameter>
-        <GameParameter Name="RTPC_ext_rpm" ID="{150E60BC-D73F-495E-8FDA-4F8EB2F90CF3}">
-          <Comment>External RTPC - Transmits relative values of the engine rpm. 
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="-100"/>
+						<Property Name="Min" Type="Real64" Value="-100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_ext_rpm" ID="{150E60BC-D73F-495E-8FDA-4F8EB2F90CF3}">
+					<Comment>External RTPC - Transmits relative values of the engine rpm. 
 Used for NPC vehicles</Comment>
-          <PropertyList>
-            <Property Name="FilterTimeDown" Type="Real64" Value="1" />
-            <Property Name="FilterTimeUp" Type="Real64" Value="2" />
-            <Property Name="InitialValue" Type="Real64" Value="0" />
-            <Property Name="RTPCRamping" Type="int16" Value="1" />
-            <Property Name="SlewRateDown" Type="Real64" Value="200" />
-            <Property Name="SlewRateUp" Type="Real64" Value="100" />
-          </PropertyList>
-        </GameParameter>
-        <GameParameter Name="RTPC_ext_gear_num" ID="{B28094AE-FA9A-405E-AE03-25FD8712E8BC}">
-          <Comment>External RTPC - The number of enabled transmission gear (0–4). 
+					<PropertyList>
+						<Property Name="FilterTimeDown" Type="Real64" Value="1"/>
+						<Property Name="FilterTimeUp" Type="Real64" Value="2"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="200"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_ext_gear_num" ID="{B28094AE-FA9A-405E-AE03-25FD8712E8BC}">
+					<Comment>External RTPC - The number of enabled transmission gear (0–4). 
 Used for all NPC vehicles</Comment>
-          <PropertyList>
-            <Property Name="InitialValue" Type="Real64" Value="0" />
-            <Property Name="Max" Type="Real64" Value="4" />
-            <Property Name="RTPCRamping" Type="int16" Value="1" />
-            <Property Name="SlewRateDown" Type="Real64" Value="8" />
-            <Property Name="SlewRateUp" Type="Real64" Value="8" />
-          </PropertyList>
-        </GameParameter>
-        <GameParameter Name="RTPC_ext_speed_abs" ID="{381C7D96-3069-4C21-9DED-55A520974E64}">
-          <Comment>External RTPC - Transmits the absolute vehicle speed (meters per second)</Comment>
-          <PropertyList>
-            <Property Name="InitialValue" Type="Real64" Value="0" />
-            <Property Name="Max" Type="Real64" Value="30" />
-            <Property Name="Min" Type="Real64" Value="-15" />
-          </PropertyList>
-        </GameParameter>
-        <GameParameter Name="RTPC_ext_speed_rel" ID="{1BC16D05-7BBA-4C79-9BD6-E0A99EAC6B4A}">
-          <Comment>External RTPC - Transmits the relative vehicle speed.
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="4"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="8"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="8"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_ext_speed_abs" ID="{381C7D96-3069-4C21-9DED-55A520974E64}">
+					<Comment>External RTPC - Transmits the absolute vehicle speed (meters per second)</Comment>
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="30"/>
+						<Property Name="Min" Type="Real64" Value="-15"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_ext_speed_rel" ID="{1BC16D05-7BBA-4C79-9BD6-E0A99EAC6B4A}">
+					<Comment>External RTPC - Transmits the relative vehicle speed.
 Negative values - moving backward
 Positive values - moving forward</Comment>
-          <PropertyList>
-            <Property Name="FilterTimeDown" Type="Real64" Value="1" />
-            <Property Name="FilterTimeUp" Type="Real64" Value="2" />
-            <Property Name="InitialValue" Type="Real64" Value="0" />
-            <Property Name="Max" Type="Real64" Value="1" />
-            <Property Name="Min" Type="Real64" Value="-1" />
-            <Property Name="RTPCRamping" Type="int16" Value="2" />
-          </PropertyList>
-        </GameParameter>
-        <GameParameter Name="RTPC_ext_rot_speed_abs" ID="{C9B0AC2A-2246-4CFD-80CC-A69982DC985C}">
-          <Comment>External RTPC - Transmits the traverse speed in absolute values</Comment>
-          <PropertyList>
-            <Property Name="InitialValue" Type="Real64" Value="0" />
-            <Property Name="Max" Type="Real64" Value="1.5" />
-            <Property Name="Min" Type="Real64" Value="-1.5" />
-          </PropertyList>
-        </GameParameter>
-        <GameParameter Name="RTPC_ext_rot_speed_rel" ID="{A755C95D-E442-4B6A-85EC-335EC16C045A}">
-          <Comment>External RTPC - transmits the relative traverse speed</Comment>
-          <PropertyList>
-            <Property Name="InitialValue" Type="Real64" Value="0" />
-            <Property Name="Max" Type="Real64" Value="1.5" />
-            <Property Name="Min" Type="Real64" Value="-1.5" />
-            <Property Name="RTPCRamping" Type="int16" Value="1" />
-            <Property Name="SlewRateDown" Type="Real64" Value="2" />
-            <Property Name="SlewRateUp" Type="Real64" Value="2" />
-          </PropertyList>
-        </GameParameter>
-        <GameParameter Name="RTPC_ext_acc_abs" ID="{600F431A-4FA8-414E-8A77-EAB4271C444E}">
-          <Comment>External RTPC - Transmits the information about vehicle acceleration, n\Range from -1 through 1
+					<PropertyList>
+						<Property Name="FilterTimeDown" Type="Real64" Value="1"/>
+						<Property Name="FilterTimeUp" Type="Real64" Value="2"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+						<Property Name="Min" Type="Real64" Value="-1"/>
+						<Property Name="RTPCRamping" Type="int16" Value="2"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_ext_rot_speed_abs" ID="{C9B0AC2A-2246-4CFD-80CC-A69982DC985C}">
+					<Comment>External RTPC - Transmits the traverse speed in absolute values</Comment>
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1.5"/>
+						<Property Name="Min" Type="Real64" Value="-1.5"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_ext_rot_speed_rel" ID="{A755C95D-E442-4B6A-85EC-335EC16C045A}">
+					<Comment>External RTPC - transmits the relative traverse speed</Comment>
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1.5"/>
+						<Property Name="Min" Type="Real64" Value="-1.5"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="2"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="2"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_ext_acc_abs" ID="{600F431A-4FA8-414E-8A77-EAB4271C444E}">
+					<Comment>External RTPC - Transmits the information about vehicle acceleration, n\Range from -1 through 1
 -1 - Moving backward
 1 - Moving forward
 
 Values greater than 1 remain for possible excess of standard acceleration values (when moving down from a hill, for example)</Comment>
-          <PropertyList>
-            <Property Name="InitialValue" Type="Real64" Value="0" />
-            <Property Name="Max" Type="Real64" Value="1.5" />
-            <Property Name="Min" Type="Real64" Value="-1.5" />
-            <Property Name="RTPCRamping" Type="int16" Value="1" />
-            <Property Name="SlewRateDown" Type="Real64" Value="2" />
-            <Property Name="SlewRateUp" Type="Real64" Value="2" />
-          </PropertyList>
-        </GameParameter>
-        <GameParameter Name="RTPC_ext_engine_load" ID="{974806A9-7B6B-4492-868C-C59CFFC0E65F}">
-          <Comment>External RTPC - The parameter for NPC vehicles. It transmits the engine state of an NPC (not player's) vehicle. 
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1.5"/>
+						<Property Name="Min" Type="Real64" Value="-1.5"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="2"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="2"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_ext_engine_load" ID="{974806A9-7B6B-4492-868C-C59CFFC0E65F}">
+					<Comment>External RTPC - The parameter for NPC vehicles. It transmits the engine state of an NPC (not player's) vehicle. 
 0 - the engine is killed
 1 - the engine is working while the vehicle is staying idel (Idle)
 2 - the engine is working, the vehicle is moving</Comment>
-          <PropertyList>
-            <Property Name="InitialValue" Type="Real64" Value="0" />
-            <Property Name="Max" Type="Real64" Value="2" />
-            <Property Name="RTPCRamping" Type="int16" Value="1" />
-            <Property Name="SlewRateDown" Type="Real64" Value="4" />
-            <Property Name="SlewRateUp" Type="Real64" Value="2" />
-          </PropertyList>
-        </GameParameter>
-        <GameParameter Name="RTPC_ext_physic_load" ID="{4FDC414A-38EC-4A94-A208-AED9B4AB449A}">
-          <Comment>External RTPC - Transmits the state of engine effort. 
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="2"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="4"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="2"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_ext_physic_load" ID="{4FDC414A-38EC-4A94-A208-AED9B4AB449A}">
+					<Comment>External RTPC - Transmits the state of engine effort. 
 0 - the vehicle is moving down from a hill 
 0.5 - the vehicle is moving along smooth surface
 1 - the vehicle is moving up a hill</Comment>
-          <PropertyList>
-            <Property Name="FilterTimeDown" Type="Real64" Value="3" />
-            <Property Name="FilterTimeUp" Type="Real64" Value="0.5" />
-            <Property Name="InitialValue" Type="Real64" Value="-1" />
-            <Property Name="Max" Type="Real64" Value="1" />
-            <Property Name="Min" Type="Real64" Value="-1" />
-            <Property Name="RTPCRamping" Type="int16" Value="2" />
-            <Property Name="SlewRateDown" Type="Real64" Value="1" />
-            <Property Name="SlewRateUp" Type="Real64" Value="2" />
-          </PropertyList>
-        </GameParameter>
-        <GameParameter Name="RTPC_int_velocity" ID="{A1D3ECA1-94DB-4F0C-9361-E28C7A8D59F3}">
-          <Comment>Internal RTPC - Used for proper engine start at NPC vehicles.</Comment>
-          <PropertyList>
-            <Property Name="InitialValue" Type="Real64" Value="0" />
-            <Property Name="RTPCRamping" Type="int16" Value="1" />
-            <Property Name="SlewRateDown" Type="Real64" Value="0" />
-            <Property Name="SlewRateUp" Type="Real64" Value="10" />
-          </PropertyList>
-        </GameParameter>
-        <GameParameter Name="RTPC_ext_roughness_abs" ID="{77853731-23BD-4752-A365-D45D2EA114AC}">
-          <Comment>External RTPC - Transmits the moment of hull rumbling upon moving along irregular terrain</Comment>
-          <PropertyList>
-            <Property Name="InitialValue" Type="Real64" Value="0" />
-            <Property Name="Max" Type="Real64" Value="1" />
-            <Property Name="RTPCRamping" Type="int16" Value="1" />
-            <Property Name="SlewRateDown" Type="Real64" Value="1" />
-            <Property Name="SlewRateUp" Type="Real64" Value="0" />
-          </PropertyList>
-        </GameParameter>
-        <GameParameter Name="RTPC_ext_hardness" ID="{6B6F68DF-EDFD-4CC9-BADC-815221E19F89}">
-          <Comment>External RTPC - Transmits the type of terrain a vehicle is moving along. 
+					<PropertyList>
+						<Property Name="FilterTimeDown" Type="Real64" Value="3"/>
+						<Property Name="FilterTimeUp" Type="Real64" Value="0.5"/>
+						<Property Name="InitialValue" Type="Real64" Value="-1"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+						<Property Name="Min" Type="Real64" Value="-1"/>
+						<Property Name="RTPCRamping" Type="int16" Value="2"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="1"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="2"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_int_velocity" ID="{A1D3ECA1-94DB-4F0C-9361-E28C7A8D59F3}">
+					<Comment>Internal RTPC - Used for proper engine start at NPC vehicles.</Comment>
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="0"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="10"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_ext_roughness_abs" ID="{77853731-23BD-4752-A365-D45D2EA114AC}">
+					<Comment>External RTPC - Transmits the moment of hull rumbling upon moving along irregular terrain</Comment>
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="1"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_ext_hardness" ID="{6B6F68DF-EDFD-4CC9-BADC-815221E19F89}">
+					<Comment>External RTPC - Transmits the type of terrain a vehicle is moving along. 
 0 - the softest terrain
 1 - the hardest terrain</Comment>
-          <PropertyList>
-            <Property Name="InitialValue" Type="Real64" Value="0" />
-            <Property Name="Max" Type="Real64" Value="1" />
-            <Property Name="RTPCRamping" Type="int16" Value="1" />
-            <Property Name="SlewRateDown" Type="Real64" Value="0" />
-            <Property Name="SlewRateUp" Type="Real64" Value="0" />
-          </PropertyList>
-        </GameParameter>
-        <Folder Name="vehicles_sc_decel" ID="{8920D159-0D90-483F-91F9-C7414CFF0573}" ShortID="451842130">
-          <ChildrenList>
-            <GameParameter Name="RTPC_int_sc_decel_V55_PC" ID="{96EE8CD2-756D-43BE-B7F6-39CEDECD7AC3}">
-              <Comment>Internal RTPC - Managed by Wwise Meter controlling the idle volume for PC vehicles</Comment>
-              <PropertyList>
-                <Property Name="FilterTimeDown" Type="Real64" Value="1" />
-                <Property Name="FilterTimeUp" Type="Real64" Value="1" />
-                <Property Name="InitialValue" Type="Real64" Value="-60" />
-                <Property Name="Max" Type="Real64" Value="0" />
-                <Property Name="Min" Type="Real64" Value="-60" />
-                <Property Name="RTPCRamping" Type="int16" Value="2" />
-              </PropertyList>
-            </GameParameter>
-            <GameParameter Name="RTPC_int_sc_decel_FordGAA_PC" ID="{C58947AB-F3F1-464A-941E-B721BA9A7032}">
-              <Comment>Internal RTPC - Managed by Wwise Meter controlling the idle volume for PC vehicles</Comment>
-              <PropertyList>
-                <Property Name="FilterTimeDown" Type="Real64" Value="1" />
-                <Property Name="FilterTimeUp" Type="Real64" Value="1" />
-                <Property Name="InitialValue" Type="Real64" Value="-60" />
-                <Property Name="Max" Type="Real64" Value="0" />
-                <Property Name="Min" Type="Real64" Value="-60" />
-                <Property Name="RTPCRamping" Type="int16" Value="2" />
-              </PropertyList>
-            </GameParameter>
-            <GameParameter Name="RTPC_int_sc_decel_FordGAA_NPC" ID="{4A75973C-D588-4F81-82B4-6D47E2A19E5F}">
-              <Comment>Internal RTPC - Managed by Wwise Meter controlling the idle volume for NPC vehicles</Comment>
-              <PropertyList>
-                <Property Name="FilterTimeDown" Type="Real64" Value="1" />
-                <Property Name="FilterTimeUp" Type="Real64" Value="1" />
-                <Property Name="InitialValue" Type="Real64" Value="-60" />
-                <Property Name="Max" Type="Real64" Value="0" />
-                <Property Name="Min" Type="Real64" Value="-60" />
-                <Property Name="RTPCRamping" Type="int16" Value="2" />
-              </PropertyList>
-            </GameParameter>
-            <GameParameter Name="RTPC_int_sc_decel_V55_NPC" ID="{43CF3539-6C39-40B9-B37C-81DFCAFDE13B}">
-              <Comment>Internal RTPC - Managed by Wwise Meter controlling the idle volume for NPC vehicles</Comment>
-              <PropertyList>
-                <Property Name="FilterTimeDown" Type="Real64" Value="1" />
-                <Property Name="FilterTimeUp" Type="Real64" Value="1" />
-                <Property Name="InitialValue" Type="Real64" Value="-60" />
-                <Property Name="Max" Type="Real64" Value="0" />
-                <Property Name="Min" Type="Real64" Value="-60" />
-                <Property Name="RTPCRamping" Type="int16" Value="2" />
-              </PropertyList>
-            </GameParameter>
-            <GameParameter Name="RTPC_int_sc_decel_Continental_R975_PC" ID="{8A0852D8-B7D3-43A2-B4B2-4BEBD04A1885}">
-              <Comment>Internal RTPC - Managed by Wwise Meter controlling the idle volume for PC vehicles</Comment>
-              <PropertyList>
-                <Property Name="FilterTimeDown" Type="Real64" Value="1" />
-                <Property Name="FilterTimeUp" Type="Real64" Value="1" />
-                <Property Name="InitialValue" Type="Real64" Value="-60" />
-                <Property Name="Max" Type="Real64" Value="0" />
-                <Property Name="Min" Type="Real64" Value="-60" />
-                <Property Name="RTPCRamping" Type="int16" Value="2" />
-              </PropertyList>
-            </GameParameter>
-            <GameParameter Name="RTPC_int_sc_decel_Continental_R975_NPC" ID="{E3DD2186-88AA-4EAF-B1EA-D0513D04E84D}">
-              <Comment>Internal RTPC - Managed by Wwise Meter controlling the idle volume for NPC vehicles</Comment>
-              <PropertyList>
-                <Property Name="FilterTimeDown" Type="Real64" Value="1" />
-                <Property Name="FilterTimeUp" Type="Real64" Value="1" />
-                <Property Name="InitialValue" Type="Real64" Value="-60" />
-                <Property Name="Max" Type="Real64" Value="0" />
-                <Property Name="Min" Type="Real64" Value="-60" />
-                <Property Name="RTPCRamping" Type="int16" Value="2" />
-              </PropertyList>
-            </GameParameter>
-            <GameParameter Name="RTPC_int_sc_decel_ContinentalR_PC" ID="{420ADCD0-F16D-4DB3-B72B-23D30D50D476}">
-              <Comment>Internal RTPC - Managed by Wwise Meter controlling the idle volume for PC vehicles</Comment>
-              <PropertyList>
-                <Property Name="FilterTimeDown" Type="Real64" Value="1" />
-                <Property Name="FilterTimeUp" Type="Real64" Value="1" />
-                <Property Name="InitialValue" Type="Real64" Value="-60" />
-                <Property Name="Max" Type="Real64" Value="0" />
-                <Property Name="Min" Type="Real64" Value="-60" />
-                <Property Name="RTPCRamping" Type="int16" Value="2" />
-              </PropertyList>
-            </GameParameter>
-            <GameParameter Name="RTPC_int_sc_decel_ContinentalR_NPC" ID="{EEAC815B-A594-4B45-A836-4AF25B2F9A10}">
-              <Comment>Internal RTPC - Managed by Wwise Meter controlling the idle volume for NPC vehicles</Comment>
-              <PropertyList>
-                <Property Name="FilterTimeDown" Type="Real64" Value="1" />
-                <Property Name="FilterTimeUp" Type="Real64" Value="1" />
-                <Property Name="InitialValue" Type="Real64" Value="-60" />
-                <Property Name="Max" Type="Real64" Value="0" />
-                <Property Name="Min" Type="Real64" Value="-60" />
-                <Property Name="RTPCRamping" Type="int16" Value="2" />
-              </PropertyList>
-            </GameParameter>
-            <GameParameter Name="RTPC_int_sc_decel_Gaz_aa_PC" ID="{9F04C02B-56B6-45CA-A0AC-DD6B811DB9DA}">
-              <Comment>Internal RTPC - Managed by Wwise Meter controlling the idle volume for PC vehicles</Comment>
-              <PropertyList>
-                <Property Name="FilterTimeDown" Type="Real64" Value="1" />
-                <Property Name="FilterTimeUp" Type="Real64" Value="1" />
-                <Property Name="InitialValue" Type="Real64" Value="-60" />
-                <Property Name="Max" Type="Real64" Value="0" />
-                <Property Name="Min" Type="Real64" Value="-60" />
-                <Property Name="RTPCRamping" Type="int16" Value="2" />
-              </PropertyList>
-            </GameParameter>
-            <GameParameter Name="RTPC_int_sc_decel_Gaz_aa_NPC" ID="{EC6FC2E1-893A-44C6-A238-2F9079AB06F6}">
-              <Comment>Internal RTPC - Managed by Wwise Meter controlling the idle volume for NPC vehicles</Comment>
-              <PropertyList>
-                <Property Name="FilterTimeDown" Type="Real64" Value="1" />
-                <Property Name="FilterTimeUp" Type="Real64" Value="1" />
-                <Property Name="InitialValue" Type="Real64" Value="-60" />
-                <Property Name="Max" Type="Real64" Value="0" />
-                <Property Name="Min" Type="Real64" Value="-60" />
-                <Property Name="RTPCRamping" Type="int16" Value="2" />
-              </PropertyList>
-            </GameParameter>
-            <GameParameter Name="RTPC_int_sc_decel_V2K_PC" ID="{700C73EC-9742-44C1-86FE-ED448AAFF665}">
-              <Comment>Internal RTPC - Managed by Wwise Meter controlling the idle volume for PC vehicles</Comment>
-              <PropertyList>
-                <Property Name="FilterTimeDown" Type="Real64" Value="1" />
-                <Property Name="FilterTimeUp" Type="Real64" Value="1" />
-                <Property Name="InitialValue" Type="Real64" Value="-60" />
-                <Property Name="Max" Type="Real64" Value="0" />
-                <Property Name="Min" Type="Real64" Value="-60" />
-                <Property Name="RTPCRamping" Type="int16" Value="2" />
-              </PropertyList>
-            </GameParameter>
-            <GameParameter Name="RTPC_int_sc_decel_V2K_NPC" ID="{ABF908B7-9659-474C-A92C-1A7A1CD4AE47}">
-              <Comment>Internal RTPC - Managed by Wwise Meter controlling the idle volume for NPC vehicles</Comment>
-              <PropertyList>
-                <Property Name="FilterTimeDown" Type="Real64" Value="1" />
-                <Property Name="FilterTimeUp" Type="Real64" Value="1" />
-                <Property Name="InitialValue" Type="Real64" Value="-60" />
-                <Property Name="Max" Type="Real64" Value="0" />
-                <Property Name="Min" Type="Real64" Value="-60" />
-                <Property Name="RTPCRamping" Type="int16" Value="2" />
-              </PropertyList>
-            </GameParameter>
-            <GameParameter Name="RTPC_int_sc_decel_Hetzer_PC" ID="{48DB7E0E-A8E0-4CBF-B4CE-43365C62997E}">
-              <Comment>Internal RTPC - Managed by Wwise Meter controlling the idle volume for PC vehicles</Comment>
-              <PropertyList>
-                <Property Name="FilterTimeDown" Type="Real64" Value="1" />
-                <Property Name="FilterTimeUp" Type="Real64" Value="1" />
-                <Property Name="InitialValue" Type="Real64" Value="-60" />
-                <Property Name="Max" Type="Real64" Value="0" />
-                <Property Name="Min" Type="Real64" Value="-60" />
-                <Property Name="RTPCRamping" Type="int16" Value="2" />
-              </PropertyList>
-            </GameParameter>
-            <GameParameter Name="RTPC_int_sc_decel_Hetzer_NPC" ID="{88A63365-5E55-4C06-9C43-2D327BDEAEA0}">
-              <Comment>Internal RTPC - Managed by Wwise Meter controlling the idle volume for NPC vehicles</Comment>
-              <PropertyList>
-                <Property Name="FilterTimeDown" Type="Real64" Value="1" />
-                <Property Name="FilterTimeUp" Type="Real64" Value="1" />
-                <Property Name="InitialValue" Type="Real64" Value="-60" />
-                <Property Name="Max" Type="Real64" Value="0" />
-                <Property Name="Min" Type="Real64" Value="-60" />
-                <Property Name="RTPCRamping" Type="int16" Value="2" />
-              </PropertyList>
-            </GameParameter>
-            <GameParameter Name="RTPC_int_sc_gearShift_eng_PC" ID="{DA891CF7-A8D1-45A2-B670-14AEC98A5712}">
-              <PropertyList>
-                <Property Name="InitialValue" Type="Real64" Value="-60" />
-                <Property Name="Max" Type="Real64" Value="0" />
-                <Property Name="Min" Type="Real64" Value="-60" />
-              </PropertyList>
-            </GameParameter>
-            <GameParameter Name="RTPC_int_sc_gearShift_eng_NPC" ID="{81E98D70-4FA9-47E8-877B-DD59EB93402F}">
-              <PropertyList>
-                <Property Name="InitialValue" Type="Real64" Value="-60" />
-                <Property Name="Max" Type="Real64" Value="0" />
-                <Property Name="Min" Type="Real64" Value="-60" />
-              </PropertyList>
-            </GameParameter>
-            <GameParameter Name="RTPC_int_sc_decel_Cadilac42_PC" ID="{18AF3530-ADA0-4D59-889A-C1B645F38DBC}">
-              <Comment>Internal RTPC - Managed by Wwise Meter controlling the idle volume for PC vehicles</Comment>
-              <PropertyList>
-                <Property Name="FilterTimeDown" Type="Real64" Value="1" />
-                <Property Name="FilterTimeUp" Type="Real64" Value="1" />
-                <Property Name="InitialValue" Type="Real64" Value="-60" />
-                <Property Name="Max" Type="Real64" Value="0" />
-                <Property Name="Min" Type="Real64" Value="-60" />
-                <Property Name="RTPCRamping" Type="int16" Value="2" />
-              </PropertyList>
-            </GameParameter>
-            <GameParameter Name="RTPC_int_sc_decel_Cadilac42_NPC" ID="{614A83EC-D693-4079-9FF6-5B2E1F6A50DD}">
-              <Comment>Internal RTPC - Managed by Wwise Meter controlling the idle volume for NPC vehicles</Comment>
-              <PropertyList>
-                <Property Name="FilterTimeDown" Type="Real64" Value="1" />
-                <Property Name="FilterTimeUp" Type="Real64" Value="1" />
-                <Property Name="InitialValue" Type="Real64" Value="-60" />
-                <Property Name="Max" Type="Real64" Value="0" />
-                <Property Name="Min" Type="Real64" Value="-60" />
-                <Property Name="RTPCRamping" Type="int16" Value="2" />
-              </PropertyList>
-            </GameParameter>
-          </ChildrenList>
-        </Folder>
-        <GameParameter Name="RTPC_ext_speed_rel2" ID="{89A02176-B30D-44FE-9354-ECEC348E5965}">
-          <Comment>External RTPC - Transmits the relative vehicle speed.
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="0"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<Folder Name="vehicles_sc_decel" ID="{8920D159-0D90-483F-91F9-C7414CFF0573}" ShortID="451842130">
+					<ChildrenList>
+						<GameParameter Name="RTPC_int_sc_decel_V55_PC" ID="{96EE8CD2-756D-43BE-B7F6-39CEDECD7AC3}">
+							<Comment>Internal RTPC - Managed by Wwise Meter controlling the idle volume for PC vehicles</Comment>
+							<PropertyList>
+								<Property Name="FilterTimeDown" Type="Real64" Value="1"/>
+								<Property Name="FilterTimeUp" Type="Real64" Value="1"/>
+								<Property Name="InitialValue" Type="Real64" Value="-60"/>
+								<Property Name="Max" Type="Real64" Value="0"/>
+								<Property Name="Min" Type="Real64" Value="-60"/>
+								<Property Name="RTPCRamping" Type="int16" Value="2"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_int_sc_decel_FordGAA_PC" ID="{C58947AB-F3F1-464A-941E-B721BA9A7032}">
+							<Comment>Internal RTPC - Managed by Wwise Meter controlling the idle volume for PC vehicles</Comment>
+							<PropertyList>
+								<Property Name="FilterTimeDown" Type="Real64" Value="1"/>
+								<Property Name="FilterTimeUp" Type="Real64" Value="1"/>
+								<Property Name="InitialValue" Type="Real64" Value="-60"/>
+								<Property Name="Max" Type="Real64" Value="0"/>
+								<Property Name="Min" Type="Real64" Value="-60"/>
+								<Property Name="RTPCRamping" Type="int16" Value="2"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_int_sc_decel_FordGAA_NPC" ID="{4A75973C-D588-4F81-82B4-6D47E2A19E5F}">
+							<Comment>Internal RTPC - Managed by Wwise Meter controlling the idle volume for NPC vehicles</Comment>
+							<PropertyList>
+								<Property Name="FilterTimeDown" Type="Real64" Value="1"/>
+								<Property Name="FilterTimeUp" Type="Real64" Value="1"/>
+								<Property Name="InitialValue" Type="Real64" Value="-60"/>
+								<Property Name="Max" Type="Real64" Value="0"/>
+								<Property Name="Min" Type="Real64" Value="-60"/>
+								<Property Name="RTPCRamping" Type="int16" Value="2"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_int_sc_decel_V55_NPC" ID="{43CF3539-6C39-40B9-B37C-81DFCAFDE13B}">
+							<Comment>Internal RTPC - Managed by Wwise Meter controlling the idle volume for NPC vehicles</Comment>
+							<PropertyList>
+								<Property Name="FilterTimeDown" Type="Real64" Value="1"/>
+								<Property Name="FilterTimeUp" Type="Real64" Value="1"/>
+								<Property Name="InitialValue" Type="Real64" Value="-60"/>
+								<Property Name="Max" Type="Real64" Value="0"/>
+								<Property Name="Min" Type="Real64" Value="-60"/>
+								<Property Name="RTPCRamping" Type="int16" Value="2"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_int_sc_decel_Continental_R975_PC" ID="{8A0852D8-B7D3-43A2-B4B2-4BEBD04A1885}">
+							<Comment>Internal RTPC - Managed by Wwise Meter controlling the idle volume for PC vehicles</Comment>
+							<PropertyList>
+								<Property Name="FilterTimeDown" Type="Real64" Value="1"/>
+								<Property Name="FilterTimeUp" Type="Real64" Value="1"/>
+								<Property Name="InitialValue" Type="Real64" Value="-60"/>
+								<Property Name="Max" Type="Real64" Value="0"/>
+								<Property Name="Min" Type="Real64" Value="-60"/>
+								<Property Name="RTPCRamping" Type="int16" Value="2"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_int_sc_decel_Continental_R975_NPC" ID="{E3DD2186-88AA-4EAF-B1EA-D0513D04E84D}">
+							<Comment>Internal RTPC - Managed by Wwise Meter controlling the idle volume for NPC vehicles</Comment>
+							<PropertyList>
+								<Property Name="FilterTimeDown" Type="Real64" Value="1"/>
+								<Property Name="FilterTimeUp" Type="Real64" Value="1"/>
+								<Property Name="InitialValue" Type="Real64" Value="-60"/>
+								<Property Name="Max" Type="Real64" Value="0"/>
+								<Property Name="Min" Type="Real64" Value="-60"/>
+								<Property Name="RTPCRamping" Type="int16" Value="2"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_int_sc_decel_ContinentalR_PC" ID="{420ADCD0-F16D-4DB3-B72B-23D30D50D476}">
+							<Comment>Internal RTPC - Managed by Wwise Meter controlling the idle volume for PC vehicles</Comment>
+							<PropertyList>
+								<Property Name="FilterTimeDown" Type="Real64" Value="1"/>
+								<Property Name="FilterTimeUp" Type="Real64" Value="1"/>
+								<Property Name="InitialValue" Type="Real64" Value="-60"/>
+								<Property Name="Max" Type="Real64" Value="0"/>
+								<Property Name="Min" Type="Real64" Value="-60"/>
+								<Property Name="RTPCRamping" Type="int16" Value="2"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_int_sc_decel_ContinentalR_NPC" ID="{EEAC815B-A594-4B45-A836-4AF25B2F9A10}">
+							<Comment>Internal RTPC - Managed by Wwise Meter controlling the idle volume for NPC vehicles</Comment>
+							<PropertyList>
+								<Property Name="FilterTimeDown" Type="Real64" Value="1"/>
+								<Property Name="FilterTimeUp" Type="Real64" Value="1"/>
+								<Property Name="InitialValue" Type="Real64" Value="-60"/>
+								<Property Name="Max" Type="Real64" Value="0"/>
+								<Property Name="Min" Type="Real64" Value="-60"/>
+								<Property Name="RTPCRamping" Type="int16" Value="2"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_int_sc_decel_Gaz_aa_PC" ID="{9F04C02B-56B6-45CA-A0AC-DD6B811DB9DA}">
+							<Comment>Internal RTPC - Managed by Wwise Meter controlling the idle volume for PC vehicles</Comment>
+							<PropertyList>
+								<Property Name="FilterTimeDown" Type="Real64" Value="1"/>
+								<Property Name="FilterTimeUp" Type="Real64" Value="1"/>
+								<Property Name="InitialValue" Type="Real64" Value="-60"/>
+								<Property Name="Max" Type="Real64" Value="0"/>
+								<Property Name="Min" Type="Real64" Value="-60"/>
+								<Property Name="RTPCRamping" Type="int16" Value="2"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_int_sc_decel_Gaz_aa_NPC" ID="{EC6FC2E1-893A-44C6-A238-2F9079AB06F6}">
+							<Comment>Internal RTPC - Managed by Wwise Meter controlling the idle volume for NPC vehicles</Comment>
+							<PropertyList>
+								<Property Name="FilterTimeDown" Type="Real64" Value="1"/>
+								<Property Name="FilterTimeUp" Type="Real64" Value="1"/>
+								<Property Name="InitialValue" Type="Real64" Value="-60"/>
+								<Property Name="Max" Type="Real64" Value="0"/>
+								<Property Name="Min" Type="Real64" Value="-60"/>
+								<Property Name="RTPCRamping" Type="int16" Value="2"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_int_sc_decel_V2K_PC" ID="{700C73EC-9742-44C1-86FE-ED448AAFF665}">
+							<Comment>Internal RTPC - Managed by Wwise Meter controlling the idle volume for PC vehicles</Comment>
+							<PropertyList>
+								<Property Name="FilterTimeDown" Type="Real64" Value="1"/>
+								<Property Name="FilterTimeUp" Type="Real64" Value="1"/>
+								<Property Name="InitialValue" Type="Real64" Value="-60"/>
+								<Property Name="Max" Type="Real64" Value="0"/>
+								<Property Name="Min" Type="Real64" Value="-60"/>
+								<Property Name="RTPCRamping" Type="int16" Value="2"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_int_sc_decel_V2K_NPC" ID="{ABF908B7-9659-474C-A92C-1A7A1CD4AE47}">
+							<Comment>Internal RTPC - Managed by Wwise Meter controlling the idle volume for NPC vehicles</Comment>
+							<PropertyList>
+								<Property Name="FilterTimeDown" Type="Real64" Value="1"/>
+								<Property Name="FilterTimeUp" Type="Real64" Value="1"/>
+								<Property Name="InitialValue" Type="Real64" Value="-60"/>
+								<Property Name="Max" Type="Real64" Value="0"/>
+								<Property Name="Min" Type="Real64" Value="-60"/>
+								<Property Name="RTPCRamping" Type="int16" Value="2"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_int_sc_decel_Hetzer_PC" ID="{48DB7E0E-A8E0-4CBF-B4CE-43365C62997E}">
+							<Comment>Internal RTPC - Managed by Wwise Meter controlling the idle volume for PC vehicles</Comment>
+							<PropertyList>
+								<Property Name="FilterTimeDown" Type="Real64" Value="1"/>
+								<Property Name="FilterTimeUp" Type="Real64" Value="1"/>
+								<Property Name="InitialValue" Type="Real64" Value="-60"/>
+								<Property Name="Max" Type="Real64" Value="0"/>
+								<Property Name="Min" Type="Real64" Value="-60"/>
+								<Property Name="RTPCRamping" Type="int16" Value="2"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_int_sc_decel_Hetzer_NPC" ID="{88A63365-5E55-4C06-9C43-2D327BDEAEA0}">
+							<Comment>Internal RTPC - Managed by Wwise Meter controlling the idle volume for NPC vehicles</Comment>
+							<PropertyList>
+								<Property Name="FilterTimeDown" Type="Real64" Value="1"/>
+								<Property Name="FilterTimeUp" Type="Real64" Value="1"/>
+								<Property Name="InitialValue" Type="Real64" Value="-60"/>
+								<Property Name="Max" Type="Real64" Value="0"/>
+								<Property Name="Min" Type="Real64" Value="-60"/>
+								<Property Name="RTPCRamping" Type="int16" Value="2"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_int_sc_gearShift_eng_PC" ID="{DA891CF7-A8D1-45A2-B670-14AEC98A5712}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="-60"/>
+								<Property Name="Max" Type="Real64" Value="0"/>
+								<Property Name="Min" Type="Real64" Value="-60"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_int_sc_gearShift_eng_NPC" ID="{81E98D70-4FA9-47E8-877B-DD59EB93402F}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="-60"/>
+								<Property Name="Max" Type="Real64" Value="0"/>
+								<Property Name="Min" Type="Real64" Value="-60"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_int_sc_decel_Cadilac42_PC" ID="{18AF3530-ADA0-4D59-889A-C1B645F38DBC}">
+							<Comment>Internal RTPC - Managed by Wwise Meter controlling the idle volume for PC vehicles</Comment>
+							<PropertyList>
+								<Property Name="FilterTimeDown" Type="Real64" Value="1"/>
+								<Property Name="FilterTimeUp" Type="Real64" Value="1"/>
+								<Property Name="InitialValue" Type="Real64" Value="-60"/>
+								<Property Name="Max" Type="Real64" Value="0"/>
+								<Property Name="Min" Type="Real64" Value="-60"/>
+								<Property Name="RTPCRamping" Type="int16" Value="2"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_int_sc_decel_Cadilac42_NPC" ID="{614A83EC-D693-4079-9FF6-5B2E1F6A50DD}">
+							<Comment>Internal RTPC - Managed by Wwise Meter controlling the idle volume for NPC vehicles</Comment>
+							<PropertyList>
+								<Property Name="FilterTimeDown" Type="Real64" Value="1"/>
+								<Property Name="FilterTimeUp" Type="Real64" Value="1"/>
+								<Property Name="InitialValue" Type="Real64" Value="-60"/>
+								<Property Name="Max" Type="Real64" Value="0"/>
+								<Property Name="Min" Type="Real64" Value="-60"/>
+								<Property Name="RTPCRamping" Type="int16" Value="2"/>
+							</PropertyList>
+						</GameParameter>
+					</ChildrenList>
+				</Folder>
+				<GameParameter Name="RTPC_ext_speed_rel2" ID="{89A02176-B30D-44FE-9354-ECEC348E5965}">
+					<Comment>External RTPC - Transmits the relative vehicle speed.
 Negative values - moving backward
 Positive values - moving forward</Comment>
-          <PropertyList>
-            <Property Name="InitialValue" Type="Real64" Value="0" />
-            <Property Name="Max" Type="Real64" Value="1.5" />
-            <Property Name="Min" Type="Real64" Value="-1.5" />
-            <Property Name="RTPCRamping" Type="int16" Value="1" />
-            <Property Name="SlewRateDown" Type="Real64" Value="6" />
-            <Property Name="SlewRateUp" Type="Real64" Value="6" />
-          </PropertyList>
-        </GameParameter>
-        <GameParameter Name="RTPC_ext_move" ID="{20CDC86A-5C2D-4FDB-839F-0F87DF15C137}">
-          <Comment>External RTPC - Activated when a vehicle starts moving backward. 
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1.5"/>
+						<Property Name="Min" Type="Real64" Value="-1.5"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="6"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="6"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_ext_move" ID="{20CDC86A-5C2D-4FDB-839F-0F87DF15C137}">
+					<Comment>External RTPC - Activated when a vehicle starts moving backward. 
 Reaches the maximum value (100) within 10 seconds.</Comment>
-          <PropertyList>
-            <Property Name="FilterTimeUp" Type="Real64" Value="1" />
-            <Property Name="InitialValue" Type="Real64" Value="0" />
-            <Property Name="RTPCRamping" Type="int16" Value="1" />
-            <Property Name="SlewRateDown" Type="Real64" Value="0" />
-            <Property Name="SlewRateUp" Type="Real64" Value="10" />
-          </PropertyList>
-        </GameParameter>
-        <GameParameter Name="RTPC_ext_treads_sum_affect" ID="{6A742BE8-F2F0-4D8F-A3C9-975DDFF9ED61}">
-          <Comment>External RTPC - This parameter includes several parameters: 
+					<PropertyList>
+						<Property Name="FilterTimeUp" Type="Real64" Value="1"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="0"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="10"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_ext_treads_sum_affect" ID="{6A742BE8-F2F0-4D8F-A3C9-975DDFF9ED61}">
+					<Comment>External RTPC - This parameter includes several parameters: 
 RTPC_ext_rot_speed_rel ; RTPC_ext_roughness ; RTPC_ext_physic_load</Comment>
-          <PropertyList>
-            <Property Name="InitialValue" Type="Real64" Value="0" />
-            <Property Name="Max" Type="Real64" Value="1" />
-          </PropertyList>
-        </GameParameter>
-        <GameParameter Name="RTPC_ext_gear_2" ID="{264C394A-85A8-4CDF-83F6-7ED070A828E1}">
-          <Comment>External RTPC - Transmits the moment of switching the second gear. \Used for NPC vehicles</Comment>
-          <PropertyList>
-            <Property Name="InitialValue" Type="Real64" Value="0" />
-            <Property Name="RTPCRamping" Type="int16" Value="1" />
-            <Property Name="SlewRateDown" Type="Real64" Value="0" />
-            <Property Name="SlewRateUp" Type="Real64" Value="25" />
-          </PropertyList>
-        </GameParameter>
-        <GameParameter Name="RTPC_ext_gear_3" ID="{4D8CC9B3-44CA-44D1-8CC1-B4280D9AD0A1}">
-          <Comment>External RTPC - Transmits the moment of switching the third gear. \Used for NPC vehicles</Comment>
-          <PropertyList>
-            <Property Name="InitialValue" Type="Real64" Value="0" />
-            <Property Name="RTPCRamping" Type="int16" Value="1" />
-            <Property Name="SlewRateDown" Type="Real64" Value="0" />
-            <Property Name="SlewRateUp" Type="Real64" Value="25" />
-          </PropertyList>
-        </GameParameter>
-        <Folder Name="vehicles_global" ID="{1EE85D3A-9D3A-4539-BB28-DD909CCC8E76}" ShortID="999331004">
-          <ChildrenList>
-            <GameParameter Name="RTPC_ext_engine_load_global" ID="{D2EEF708-8B0E-411F-A51B-5E048AAA5FA8}">
-              <Comment>External global RTPC - The parameter for NPC vehicles. It transmits the engine state of an NPC (not player's) vehicle. 
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_ext_gear_2" ID="{264C394A-85A8-4CDF-83F6-7ED070A828E1}">
+					<Comment>External RTPC - Transmits the moment of switching the second gear. \Used for NPC vehicles</Comment>
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="0"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="25"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_ext_gear_3" ID="{4D8CC9B3-44CA-44D1-8CC1-B4280D9AD0A1}">
+					<Comment>External RTPC - Transmits the moment of switching the third gear. \Used for NPC vehicles</Comment>
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="0"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="25"/>
+					</PropertyList>
+				</GameParameter>
+				<Folder Name="vehicles_global" ID="{1EE85D3A-9D3A-4539-BB28-DD909CCC8E76}" ShortID="999331004">
+					<ChildrenList>
+						<GameParameter Name="RTPC_ext_engine_load_global" ID="{D2EEF708-8B0E-411F-A51B-5E048AAA5FA8}">
+							<Comment>External global RTPC - The parameter for NPC vehicles. It transmits the engine state of an NPC (not player's) vehicle. 
 0 - the engine is killed
 1 - the engine is working while the vehicle is staying idel (Idle)
 2 - the engine is working, the vehicle is moving
 It is global, so it can work at buses</Comment>
-              <PropertyList>
-                <Property Name="InitialValue" Type="Real64" Value="0" />
-                <Property Name="Max" Type="Real64" Value="2" />
-                <Property Name="RTPCRamping" Type="int16" Value="1" />
-                <Property Name="SlewRateDown" Type="Real64" Value="4" />
-                <Property Name="SlewRateUp" Type="Real64" Value="2" />
-              </PropertyList>
-            </GameParameter>
-            <GameParameter Name="RTPC_ext_physic_load_global" ID="{8F0AC952-FE05-43A1-9537-4F827B1BBF6F}">
-              <Comment>External global RTPC - Transmits the state of engine effort. 
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="2"/>
+								<Property Name="RTPCRamping" Type="int16" Value="1"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="4"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="2"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_ext_physic_load_global" ID="{8F0AC952-FE05-43A1-9537-4F827B1BBF6F}">
+							<Comment>External global RTPC - Transmits the state of engine effort. 
 0 - the vehicle is moving down from a hill 
 0.5 - the vehicle is moving along smooth surface
 1 - the vehicle is moving up a hill 
 It is global, so it can work at buses</Comment>
-              <PropertyList>
-                <Property Name="FilterTimeDown" Type="Real64" Value="2.5" />
-                <Property Name="FilterTimeUp" Type="Real64" Value="2.5" />
-                <Property Name="InitialValue" Type="Real64" Value="-1" />
-                <Property Name="Max" Type="Real64" Value="1" />
-                <Property Name="Min" Type="Real64" Value="-1" />
-                <Property Name="RTPCRamping" Type="int16" Value="2" />
-                <Property Name="SlewRateDown" Type="Real64" Value="1" />
-                <Property Name="SlewRateUp" Type="Real64" Value="1" />
-              </PropertyList>
-            </GameParameter>
-            <GameParameter Name="RTPC_ext_roughness_global" ID="{ED11586E-0EF5-4A2D-9E22-EA58FA006537}">
-              <Comment>External global RTPC - Transmits the moment of hull rumbling upon moving along irregular terrain 
+							<PropertyList>
+								<Property Name="FilterTimeDown" Type="Real64" Value="2.5"/>
+								<Property Name="FilterTimeUp" Type="Real64" Value="2.5"/>
+								<Property Name="InitialValue" Type="Real64" Value="-1"/>
+								<Property Name="Max" Type="Real64" Value="1"/>
+								<Property Name="Min" Type="Real64" Value="-1"/>
+								<Property Name="RTPCRamping" Type="int16" Value="2"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="1"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="1"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_ext_roughness_global" ID="{ED11586E-0EF5-4A2D-9E22-EA58FA006537}">
+							<Comment>External global RTPC - Transmits the moment of hull rumbling upon moving along irregular terrain 
 It is global, so it can work at buses</Comment>
-              <PropertyList>
-                <Property Name="InitialValue" Type="Real64" Value="0" />
-                <Property Name="Max" Type="Real64" Value="1" />
-                <Property Name="RTPCRamping" Type="int16" Value="1" />
-                <Property Name="SlewRateDown" Type="Real64" Value="3" />
-                <Property Name="SlewRateUp" Type="Real64" Value="0" />
-              </PropertyList>
-            </GameParameter>
-            <GameParameter Name="RTPC_ext_speed_rel_global" ID="{77D82C61-CF82-4508-A42D-A5081B137F26}">
-              <Comment>External global RTPC - Transmits the relative vehicle speed.
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="1"/>
+								<Property Name="RTPCRamping" Type="int16" Value="1"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="3"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="0"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_ext_speed_rel_global" ID="{77D82C61-CF82-4508-A42D-A5081B137F26}">
+							<Comment>External global RTPC - Transmits the relative vehicle speed.
 Negative values - moving backward
 Positive values - moving forward 
 It is global, so it can work at buses</Comment>
-              <PropertyList>
-                <Property Name="FilterTimeDown" Type="Real64" Value="1" />
-                <Property Name="FilterTimeUp" Type="Real64" Value="4" />
-                <Property Name="InitialValue" Type="Real64" Value="0" />
-                <Property Name="Max" Type="Real64" Value="1" />
-                <Property Name="Min" Type="Real64" Value="-1" />
-                <Property Name="RTPCRamping" Type="int16" Value="2" />
-              </PropertyList>
-            </GameParameter>
-            <GameParameter Name="RTPC_ext_speed_abs_global" ID="{9DBB765C-9E5B-4594-841E-F97657DD4D42}">
-              <Comment>External global RTPC - Transmits the absolute vehicle speed (meters per second) 
+							<PropertyList>
+								<Property Name="FilterTimeDown" Type="Real64" Value="1"/>
+								<Property Name="FilterTimeUp" Type="Real64" Value="4"/>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="1"/>
+								<Property Name="Min" Type="Real64" Value="-1"/>
+								<Property Name="RTPCRamping" Type="int16" Value="2"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_ext_speed_abs_global" ID="{9DBB765C-9E5B-4594-841E-F97657DD4D42}">
+							<Comment>External global RTPC - Transmits the absolute vehicle speed (meters per second) 
 It is global, so it can work at buses</Comment>
-              <PropertyList>
-                <Property Name="InitialValue" Type="Real64" Value="0" />
-                <Property Name="Max" Type="Real64" Value="30" />
-                <Property Name="Min" Type="Real64" Value="-15" />
-                <Property Name="RTPCRamping" Type="int16" Value="1" />
-                <Property Name="SlewRateDown" Type="Real64" Value="100" />
-                <Property Name="SlewRateUp" Type="Real64" Value="100" />
-              </PropertyList>
-            </GameParameter>
-          </ChildrenList>
-        </Folder>
-        <Folder Name="surface" ID="{21E1EA81-AE5E-4EEF-84B0-2E29B67EFF42}" ShortID="252586047">
-          <ChildrenList>
-            <GameParameter Name="RTPC_ext_friction" ID="{A18FB8B6-C5FF-4991-B788-8EDA6AF2CF4D}">
-              <Comment>External RTPC - Transmits information on vehicle sliding (used for the old physics)</Comment>
-              <PropertyList>
-                <Property Name="FilterTimeDown" Type="Real64" Value="2" />
-                <Property Name="FilterTimeUp" Type="Real64" Value="1" />
-                <Property Name="InitialValue" Type="Real64" Value="0" />
-                <Property Name="Max" Type="Real64" Value="1" />
-                <Property Name="RTPCRamping" Type="int16" Value="2" />
-                <Property Name="SlewRateDown" Type="Real64" Value="3" />
-                <Property Name="SlewRateUp" Type="Real64" Value="3" />
-              </PropertyList>
-            </GameParameter>
-            <GameParameter Name="RTPC_ext_ground" ID="{F65543A3-E64F-446F-A61D-C057A0625A67}">
-              <Comment>External RTPC - Transmits the terrain (ground) type the vehicle is moving along</Comment>
-              <PropertyList>
-                <Property Name="InitialValue" Type="Real64" Value="0" />
-                <Property Name="Max" Type="Real64" Value="1" />
-                <Property Name="RTPCRamping" Type="int16" Value="1" />
-                <Property Name="SlewRateDown" Type="Real64" Value="4" />
-                <Property Name="SlewRateUp" Type="Real64" Value="4" />
-              </PropertyList>
-            </GameParameter>
-            <GameParameter Name="RTPC_ext_sand" ID="{843AC8AE-31F2-43BF-9C14-4F0E3EB7AB20}">
-              <Comment>External RTPC - Transmits the terrain (sand) type the vehicle is moving along</Comment>
-              <PropertyList>
-                <Property Name="InitialValue" Type="Real64" Value="0" />
-                <Property Name="Max" Type="Real64" Value="1" />
-                <Property Name="RTPCRamping" Type="int16" Value="1" />
-                <Property Name="SlewRateDown" Type="Real64" Value="4" />
-                <Property Name="SlewRateUp" Type="Real64" Value="4" />
-              </PropertyList>
-            </GameParameter>
-            <GameParameter Name="RTPC_ext_snow" ID="{EE62D5ED-F2B4-4153-AE06-AE9C6B084501}">
-              <Comment>External RTPC - Transmits the terrain (snow) type the vehicle is moving along</Comment>
-              <PropertyList>
-                <Property Name="InitialValue" Type="Real64" Value="0" />
-                <Property Name="Max" Type="Real64" Value="1" />
-                <Property Name="RTPCRamping" Type="int16" Value="1" />
-                <Property Name="SlewRateDown" Type="Real64" Value="4" />
-                <Property Name="SlewRateUp" Type="Real64" Value="4" />
-              </PropertyList>
-            </GameParameter>
-            <GameParameter Name="RTPC_ext_stone" ID="{D6EACC2E-1C92-4812-9C43-16DE15E9ECB3}">
-              <Comment>External RTPC - Transmits the terrain (rock) type the vehicle is moving along</Comment>
-              <PropertyList>
-                <Property Name="InitialValue" Type="Real64" Value="0" />
-                <Property Name="Max" Type="Real64" Value="1" />
-                <Property Name="RTPCRamping" Type="int16" Value="1" />
-                <Property Name="SlewRateDown" Type="Real64" Value="4" />
-                <Property Name="SlewRateUp" Type="Real64" Value="4" />
-              </PropertyList>
-            </GameParameter>
-            <GameParameter Name="RTPC_ext_wood" ID="{A0AAC532-7B26-40F3-B5A5-52B82DFEA1E4}">
-              <Comment>External RTPC - Transmits the terrain (wood) type the vehicle is moving along</Comment>
-              <PropertyList>
-                <Property Name="InitialValue" Type="Real64" Value="0" />
-                <Property Name="Max" Type="Real64" Value="1" />
-                <Property Name="RTPCRamping" Type="int16" Value="1" />
-                <Property Name="SlewRateDown" Type="Real64" Value="4" />
-                <Property Name="SlewRateUp" Type="Real64" Value="4" />
-              </PropertyList>
-            </GameParameter>
-            <GameParameter Name="RTPC_ext_water" ID="{72B2A4F9-E922-4283-9C0D-40C573A6E8DC}">
-              <Comment>External RTPC - Transmits the terrain (water) type the vehicle is moving along</Comment>
-              <PropertyList>
-                <Property Name="InitialValue" Type="Real64" Value="0" />
-                <Property Name="Max" Type="Real64" Value="1" />
-                <Property Name="RTPCRamping" Type="int16" Value="1" />
-                <Property Name="SlewRateDown" Type="Real64" Value="4" />
-                <Property Name="SlewRateUp" Type="Real64" Value="4" />
-              </PropertyList>
-            </GameParameter>
-            <GameParameter Name="RTPC_ext_flying" ID="{79483A8C-AD79-4661-BB5A-05E0841593EB}">
-              <Comment>External RTPC - Transmits vehicle position. 
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="30"/>
+								<Property Name="Min" Type="Real64" Value="-15"/>
+								<Property Name="RTPCRamping" Type="int16" Value="1"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="100"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="100"/>
+							</PropertyList>
+						</GameParameter>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="surface" ID="{21E1EA81-AE5E-4EEF-84B0-2E29B67EFF42}" ShortID="252586047">
+					<ChildrenList>
+						<GameParameter Name="RTPC_ext_friction" ID="{A18FB8B6-C5FF-4991-B788-8EDA6AF2CF4D}">
+							<Comment>External RTPC - Transmits information on vehicle sliding (used for the old physics)</Comment>
+							<PropertyList>
+								<Property Name="FilterTimeDown" Type="Real64" Value="2"/>
+								<Property Name="FilterTimeUp" Type="Real64" Value="1"/>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="1"/>
+								<Property Name="RTPCRamping" Type="int16" Value="2"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="3"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="3"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_ext_ground" ID="{F65543A3-E64F-446F-A61D-C057A0625A67}">
+							<Comment>External RTPC - Transmits the terrain (ground) type the vehicle is moving along</Comment>
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="1"/>
+								<Property Name="RTPCRamping" Type="int16" Value="1"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="4"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="4"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_ext_sand" ID="{843AC8AE-31F2-43BF-9C14-4F0E3EB7AB20}">
+							<Comment>External RTPC - Transmits the terrain (sand) type the vehicle is moving along</Comment>
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="1"/>
+								<Property Name="RTPCRamping" Type="int16" Value="1"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="4"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="4"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_ext_snow" ID="{EE62D5ED-F2B4-4153-AE06-AE9C6B084501}">
+							<Comment>External RTPC - Transmits the terrain (snow) type the vehicle is moving along</Comment>
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="1"/>
+								<Property Name="RTPCRamping" Type="int16" Value="1"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="4"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="4"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_ext_stone" ID="{D6EACC2E-1C92-4812-9C43-16DE15E9ECB3}">
+							<Comment>External RTPC - Transmits the terrain (rock) type the vehicle is moving along</Comment>
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="1"/>
+								<Property Name="RTPCRamping" Type="int16" Value="1"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="4"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="4"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_ext_wood" ID="{A0AAC532-7B26-40F3-B5A5-52B82DFEA1E4}">
+							<Comment>External RTPC - Transmits the terrain (wood) type the vehicle is moving along</Comment>
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="1"/>
+								<Property Name="RTPCRamping" Type="int16" Value="1"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="4"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="4"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_ext_water" ID="{72B2A4F9-E922-4283-9C0D-40C573A6E8DC}">
+							<Comment>External RTPC - Transmits the terrain (water) type the vehicle is moving along</Comment>
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="1"/>
+								<Property Name="RTPCRamping" Type="int16" Value="1"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="4"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="4"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_ext_flying" ID="{79483A8C-AD79-4661-BB5A-05E0841593EB}">
+							<Comment>External RTPC - Transmits vehicle position. 
 0 - a vehicle is on the ground
 1 - the vehicle is in the air (does not touch the terrain)</Comment>
-              <PropertyList>
-                <Property Name="InitialValue" Type="Real64" Value="0" />
-                <Property Name="Max" Type="Real64" Value="1" />
-                <Property Name="RTPCRamping" Type="int16" Value="1" />
-                <Property Name="SlewRateDown" Type="Real64" Value="8" />
-                <Property Name="SlewRateUp" Type="Real64" Value="8" />
-              </PropertyList>
-            </GameParameter>
-            <GameParameter Name="RTPC_int_meter_surface_balance" ID="{C7C857A2-8D53-44D1-9ED8-4D204B927C21}">
-              <PropertyList>
-                <Property Name="InitialValue" Type="Real64" Value="0" />
-                <Property Name="Max" Type="Real64" Value="0" />
-                <Property Name="Min" Type="Real64" Value="-48" />
-              </PropertyList>
-            </GameParameter>
-          </ChildrenList>
-        </Folder>
-        <Folder Name="new_physic" ID="{7BE0C780-70A8-444C-A5D9-145FAAC24542}" ShortID="165237273">
-          <ChildrenList>
-            <GameParameter Name="RTPC_ext_physic_rpm_rel" ID="{880A02A4-B171-4E19-8C62-5803B4F45048}">
-              <Comment>External RTPC - Transmits relative values of the engine rpm. 
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="1"/>
+								<Property Name="RTPCRamping" Type="int16" Value="1"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="8"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="8"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_int_meter_surface_balance" ID="{C7C857A2-8D53-44D1-9ED8-4D204B927C21}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="0"/>
+								<Property Name="Min" Type="Real64" Value="-48"/>
+							</PropertyList>
+						</GameParameter>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="new_physic" ID="{7BE0C780-70A8-444C-A5D9-145FAAC24542}" ShortID="165237273">
+					<ChildrenList>
+						<GameParameter Name="RTPC_ext_physic_rpm_rel" ID="{880A02A4-B171-4E19-8C62-5803B4F45048}">
+							<Comment>External RTPC - Transmits relative values of the engine rpm. 
 For PC vehicles (the new physics)</Comment>
-              <PropertyList>
-                <Property Name="InitialValue" Type="Real64" Value="0" />
-                <Property Name="Max" Type="Real64" Value="1.2" />
-                <Property Name="RTPCRamping" Type="int16" Value="1" />
-                <Property Name="SlewRateDown" Type="Real64" Value="2" />
-                <Property Name="SlewRateUp" Type="Real64" Value="1" />
-              </PropertyList>
-            </GameParameter>
-            <GameParameter Name="RTPC_ext_slide_friction" ID="{A6A360C2-5AA4-41D9-91CB-3B6A1DFB8605}">
-              <Comment>External RTPC - Transmits the information on vehicle sliding (used for the new physics)</Comment>
-              <PropertyList>
-                <Property Name="FilterTimeDown" Type="Real64" Value="1" />
-                <Property Name="FilterTimeUp" Type="Real64" Value="1" />
-                <Property Name="InitialValue" Type="Real64" Value="0" />
-                <Property Name="Max" Type="Real64" Value="1" />
-                <Property Name="RTPCRamping" Type="int16" Value="2" />
-                <Property Name="SlewRateDown" Type="Real64" Value="1" />
-                <Property Name="SlewRateUp" Type="Real64" Value="1" />
-              </PropertyList>
-            </GameParameter>
-            <GameParameter Name="RTPC_ext_physic_gear" ID="{C8599A55-F2F7-43F9-B4CD-F5C5E4A6A459}">
-              <Comment>External RTPC - Transmits the number of selected gear (0–9).
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="1.2"/>
+								<Property Name="RTPCRamping" Type="int16" Value="1"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="2"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="1"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_ext_slide_friction" ID="{A6A360C2-5AA4-41D9-91CB-3B6A1DFB8605}">
+							<Comment>External RTPC - Transmits the information on vehicle sliding (used for the new physics)</Comment>
+							<PropertyList>
+								<Property Name="FilterTimeDown" Type="Real64" Value="1"/>
+								<Property Name="FilterTimeUp" Type="Real64" Value="1"/>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="1"/>
+								<Property Name="RTPCRamping" Type="int16" Value="2"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="1"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="1"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_ext_physic_gear" ID="{C8599A55-F2F7-43F9-B4CD-F5C5E4A6A459}">
+							<Comment>External RTPC - Transmits the number of selected gear (0–9).
 Used for PC vehicles (for the new physics)</Comment>
-              <PropertyList>
-                <Property Name="InitialValue" Type="Real64" Value="0" />
-                <Property Name="Max" Type="Real64" Value="9" />
-                <Property Name="RTPCRamping" Type="int16" Value="1" />
-                <Property Name="SlewRateDown" Type="Real64" Value="16" />
-                <Property Name="SlewRateUp" Type="Real64" Value="16" />
-              </PropertyList>
-            </GameParameter>
-            <GameParameter Name="RTPC_ext_speed_scroll" ID="{6CADAD6C-43E1-4DB7-B92B-7EB1D7F64491}">
-              <Comment>External RTPC - Transmits the information on the roller velocity rate.
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="9"/>
+								<Property Name="RTPCRamping" Type="int16" Value="1"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="16"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="16"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_ext_speed_scroll" ID="{6CADAD6C-43E1-4DB7-B92B-7EB1D7F64491}">
+							<Comment>External RTPC - Transmits the information on the roller velocity rate.
  (Typically, relates to the absolute vehicle speed in m/s)</Comment>
-              <PropertyList>
-                <Property Name="InitialValue" Type="Real64" Value="0" />
-                <Property Name="Max" Type="Real64" Value="30" />
-                <Property Name="Min" Type="Real64" Value="-15" />
-              </PropertyList>
-            </GameParameter>
-            <GameParameter Name="RTPC_ext_physic_gear_2" ID="{9ACACDDE-332F-4E09-93F3-08E26B7F68CE}">
-              <Comment>External RTPC - Transmits the moment of switching to the second gear. 
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="30"/>
+								<Property Name="Min" Type="Real64" Value="-15"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_ext_physic_gear_2" ID="{9ACACDDE-332F-4E09-93F3-08E26B7F68CE}">
+							<Comment>External RTPC - Transmits the moment of switching to the second gear. 
 Used for PC vehicles</Comment>
-              <PropertyList>
-                <Property Name="InitialValue" Type="Real64" Value="0" />
-                <Property Name="RTPCRamping" Type="int16" Value="1" />
-                <Property Name="SlewRateDown" Type="Real64" Value="0" />
-                <Property Name="SlewRateUp" Type="Real64" Value="25" />
-              </PropertyList>
-            </GameParameter>
-            <GameParameter Name="RTPC_ext_physic_gear_3" ID="{FEA8BB91-11DE-4992-9E6B-F43982577B97}">
-              <Comment>External RTPC - Transmits the moment of switching to the third gear. 
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="RTPCRamping" Type="int16" Value="1"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="0"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="25"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_ext_physic_gear_3" ID="{FEA8BB91-11DE-4992-9E6B-F43982577B97}">
+							<Comment>External RTPC - Transmits the moment of switching to the third gear. 
 Used for PC vehicles</Comment>
-              <PropertyList>
-                <Property Name="InitialValue" Type="Real64" Value="0" />
-                <Property Name="RTPCRamping" Type="int16" Value="1" />
-                <Property Name="SlewRateDown" Type="Real64" Value="0" />
-                <Property Name="SlewRateUp" Type="Real64" Value="25" />
-              </PropertyList>
-            </GameParameter>
-            <GameParameter Name="RTPC_ext_physic_gear_4" ID="{6F4A3F60-54BF-4E4B-B414-D4E8EA39EE61}">
-              <Comment>External RTPC - Transmits the moment of switching to the fourth gear. 
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="RTPCRamping" Type="int16" Value="1"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="0"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="25"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_ext_physic_gear_4" ID="{6F4A3F60-54BF-4E4B-B414-D4E8EA39EE61}">
+							<Comment>External RTPC - Transmits the moment of switching to the fourth gear. 
 Used for PC vehicles</Comment>
-              <PropertyList>
-                <Property Name="InitialValue" Type="Real64" Value="0" />
-                <Property Name="RTPCRamping" Type="int16" Value="1" />
-                <Property Name="SlewRateDown" Type="Real64" Value="0" />
-                <Property Name="SlewRateUp" Type="Real64" Value="25" />
-              </PropertyList>
-            </GameParameter>
-            <GameParameter Name="RTPC_ext_physic_gear_5" ID="{E5D36CB3-CA41-4B7F-9CA2-43E059690361}">
-              <Comment>External RTPC - Transmits the moment of switching to the fifth gear. 
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="RTPCRamping" Type="int16" Value="1"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="0"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="25"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_ext_physic_gear_5" ID="{E5D36CB3-CA41-4B7F-9CA2-43E059690361}">
+							<Comment>External RTPC - Transmits the moment of switching to the fifth gear. 
 Used for PC vehicles</Comment>
-              <PropertyList>
-                <Property Name="InitialValue" Type="Real64" Value="0" />
-                <Property Name="RTPCRamping" Type="int16" Value="1" />
-                <Property Name="SlewRateDown" Type="Real64" Value="0" />
-                <Property Name="SlewRateUp" Type="Real64" Value="25" />
-              </PropertyList>
-            </GameParameter>
-            <GameParameter Name="RTPC_ext_physic_gear_6" ID="{5CB5034E-7015-4FB8-8B50-B3E5B8EE0CF4}">
-              <Comment>External RTPC - Transmits the moment of switching to the sixth gear. 
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="RTPCRamping" Type="int16" Value="1"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="0"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="25"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_ext_physic_gear_6" ID="{5CB5034E-7015-4FB8-8B50-B3E5B8EE0CF4}">
+							<Comment>External RTPC - Transmits the moment of switching to the sixth gear. 
 Used for PC vehicles</Comment>
-              <PropertyList>
-                <Property Name="InitialValue" Type="Real64" Value="0" />
-                <Property Name="RTPCRamping" Type="int16" Value="1" />
-                <Property Name="SlewRateDown" Type="Real64" Value="0" />
-                <Property Name="SlewRateUp" Type="Real64" Value="25" />
-              </PropertyList>
-            </GameParameter>
-            <GameParameter Name="RTPC_ext_physic_gear_7" ID="{590D90C1-970A-49AE-86D3-7528C59F5DC5}">
-              <Comment>External RTPC - Transmits the moment of switching to the seventh gear. 
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="RTPCRamping" Type="int16" Value="1"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="0"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="25"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_ext_physic_gear_7" ID="{590D90C1-970A-49AE-86D3-7528C59F5DC5}">
+							<Comment>External RTPC - Transmits the moment of switching to the seventh gear. 
 Used for PC vehicles</Comment>
-              <PropertyList>
-                <Property Name="InitialValue" Type="Real64" Value="0" />
-                <Property Name="RTPCRamping" Type="int16" Value="1" />
-                <Property Name="SlewRateDown" Type="Real64" Value="0" />
-                <Property Name="SlewRateUp" Type="Real64" Value="25" />
-              </PropertyList>
-            </GameParameter>
-            <GameParameter Name="RTPC_ext_physic_gear_8" ID="{2D84970C-1F75-42AD-9BBB-25D442012D90}">
-              <Comment>External RTPC - Transmits the moment of switching to the eigth gear. 
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="RTPCRamping" Type="int16" Value="1"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="0"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="25"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_ext_physic_gear_8" ID="{2D84970C-1F75-42AD-9BBB-25D442012D90}">
+							<Comment>External RTPC - Transmits the moment of switching to the eigth gear. 
 Used for PC vehicles</Comment>
-              <PropertyList>
-                <Property Name="InitialValue" Type="Real64" Value="0" />
-                <Property Name="RTPCRamping" Type="int16" Value="1" />
-                <Property Name="SlewRateDown" Type="Real64" Value="0" />
-                <Property Name="SlewRateUp" Type="Real64" Value="25" />
-              </PropertyList>
-            </GameParameter>
-            <GameParameter Name="RTPC_ext_physic_rpm_abs" ID="{5CE781BC-A63C-4D4F-94BA-B9EB2C26511A}">
-              <Comment>External RTPC - Transmits absolute values of the engine rpm.
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="RTPCRamping" Type="int16" Value="1"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="0"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="25"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_ext_physic_rpm_abs" ID="{5CE781BC-A63C-4D4F-94BA-B9EB2C26511A}">
+							<Comment>External RTPC - Transmits absolute values of the engine rpm.
 Used for PC vehicles (for the new physics)</Comment>
-              <PropertyList>
-                <Property Name="FilterTimeDown" Type="Real64" Value="0.5" />
-                <Property Name="FilterTimeUp" Type="Real64" Value="0.5" />
-                <Property Name="InitialValue" Type="Real64" Value="0" />
-                <Property Name="Max" Type="Real64" Value="3500" />
-                <Property Name="RTPCRamping" Type="int16" Value="1" />
-                <Property Name="SlewRateDown" Type="Real64" Value="2700" />
-                <Property Name="SlewRateUp" Type="Real64" Value="2700" />
-              </PropertyList>
-            </GameParameter>
-            <GameParameter Name="RTPC_ext_engine_state" ID="{68B12ECE-0F4D-4453-A33A-1D2D5F31664B}">
-              <Comment>External RTPC - The parameter for PC vehicles. It transmits the engine state of a player's vehicle 
+							<PropertyList>
+								<Property Name="FilterTimeDown" Type="Real64" Value="0.5"/>
+								<Property Name="FilterTimeUp" Type="Real64" Value="0.5"/>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="3500"/>
+								<Property Name="RTPCRamping" Type="int16" Value="1"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="2700"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="2700"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_ext_engine_state" ID="{68B12ECE-0F4D-4453-A33A-1D2D5F31664B}">
+							<Comment>External RTPC - The parameter for PC vehicles. It transmits the engine state of a player's vehicle 
 0 - the engine is working, the vehicle is not moving (Ilde)
 1 - the engine is working, the vehicle is moving</Comment>
-              <PropertyList>
-                <Property Name="InitialValue" Type="Real64" Value="0" />
-                <Property Name="Max" Type="Real64" Value="1" />
-                <Property Name="RTPCRamping" Type="int16" Value="1" />
-                <Property Name="SlewRateDown" Type="Real64" Value="4" />
-                <Property Name="SlewRateUp" Type="Real64" Value="2" />
-              </PropertyList>
-            </GameParameter>
-            <GameParameter Name="RTPC_ext_turbine" ID="{6881047D-54C0-4C0A-8000-94DA1F81F246}">
-              <PropertyList>
-                <Property Name="InitialValue" Type="Real64" Value="0" />
-                <Property Name="RTPCRamping" Type="int16" Value="1" />
-                <Property Name="SlewRateDown" Type="Real64" Value="30" />
-                <Property Name="SlewRateUp" Type="Real64" Value="65" />
-              </PropertyList>
-            </GameParameter>
-            <GameParameter Name="RTPC_ext_client_rpm_abs" ID="{DC308E72-9AF9-4D25-9079-A17693CD1A21}">
-              <Comment>External RTPC - Transmits absolute values of engine rpm.
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="1"/>
+								<Property Name="RTPCRamping" Type="int16" Value="1"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="4"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="2"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_ext_turbine" ID="{6881047D-54C0-4C0A-8000-94DA1F81F246}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="RTPCRamping" Type="int16" Value="1"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="30"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="65"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_ext_client_rpm_abs" ID="{DC308E72-9AF9-4D25-9079-A17693CD1A21}">
+							<Comment>External RTPC - Transmits absolute values of engine rpm.
 Calculated on the client. Used for PC vehicles</Comment>
-              <PropertyList>
-                <Property Name="FilterTimeDown" Type="Real64" Value="0.1" />
-                <Property Name="FilterTimeUp" Type="Real64" Value="0.1" />
-                <Property Name="InitialValue" Type="Real64" Value="0" />
-                <Property Name="Max" Type="Real64" Value="3500" />
-                <Property Name="RTPCRamping" Type="int16" Value="1" />
-                <Property Name="SlewRateDown" Type="Real64" Value="3000" />
-                <Property Name="SlewRateUp" Type="Real64" Value="3000" />
-              </PropertyList>
-            </GameParameter>
-            <GameParameter Name="RTPC_ext_client_rpm_rel" ID="{E0C67332-C216-4F1B-8D39-F419DD91A241}">
-              <Comment>External RTPC - Transmits relative values of engine rpm.
+							<PropertyList>
+								<Property Name="FilterTimeDown" Type="Real64" Value="0.1"/>
+								<Property Name="FilterTimeUp" Type="Real64" Value="0.1"/>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="3500"/>
+								<Property Name="RTPCRamping" Type="int16" Value="1"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="3000"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="3000"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_ext_client_rpm_rel" ID="{E0C67332-C216-4F1B-8D39-F419DD91A241}">
+							<Comment>External RTPC - Transmits relative values of engine rpm.
 Calculated on the client. Used for PC vehicles</Comment>
-              <PropertyList>
-                <Property Name="InitialValue" Type="Real64" Value="0" />
-                <Property Name="Max" Type="Real64" Value="1.2" />
-                <Property Name="SlewRateDown" Type="Real64" Value="2" />
-                <Property Name="SlewRateUp" Type="Real64" Value="1" />
-              </PropertyList>
-            </GameParameter>
-          </ChildrenList>
-        </Folder>
-        <GameParameter Name="RTPC_ext_vehicle_weight" ID="{7FB3777C-84E0-43CA-B8B8-297236D037F0}">
-          <Comment>External RTPC - Transmits the value of the vehicle weight</Comment>
-          <PropertyList>
-            <Property Name="InitialValue" Type="Real64" Value="0" />
-            <Property Name="Max" Type="Real64" Value="200" />
-          </PropertyList>
-        </GameParameter>
-        <GameParameter Name="RTPC_ext_roughness2" ID="{225FED44-E50D-4CB9-BA18-530D75AD5BA1}">
-          <Comment>External RTPC - External RTPC - Transmits the moment of hull rumbling upon moving along irregular terrain 
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="1.2"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="2"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="1"/>
+							</PropertyList>
+						</GameParameter>
+					</ChildrenList>
+				</Folder>
+				<GameParameter Name="RTPC_ext_vehicle_weight" ID="{7FB3777C-84E0-43CA-B8B8-297236D037F0}">
+					<Comment>External RTPC - Transmits the value of the vehicle weight</Comment>
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="200"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_ext_roughness2" ID="{225FED44-E50D-4CB9-BA18-530D75AD5BA1}">
+					<Comment>External RTPC - External RTPC - Transmits the moment of hull rumbling upon moving along irregular terrain 
 The parameter may have negative values (vehicle pitch downwards)</Comment>
-          <PropertyList>
-            <Property Name="InitialValue" Type="Real64" Value="0" />
-            <Property Name="Max" Type="Real64" Value="1" />
-            <Property Name="Min" Type="Real64" Value="-1" />
-          </PropertyList>
-        </GameParameter>
-        <GameParameter Name="RTPC_ext_roughness_abs_" ID="{298F2938-E226-437F-97F8-93934E74ACDC}">
-          <Comment>External RTPC - Transmits the moment of hull rumbling upon moving along irregular terrain</Comment>
-          <PropertyList>
-            <Property Name="InitialValue" Type="Real64" Value="0" />
-            <Property Name="Max" Type="Real64" Value="1" />
-            <Property Name="RTPCRamping" Type="int16" Value="1" />
-            <Property Name="SlewRateDown" Type="Real64" Value="3" />
-            <Property Name="SlewRateUp" Type="Real64" Value="0" />
-          </PropertyList>
-        </GameParameter>
-        <GameParameter Name="RTPC_int_treads_type" ID="{C0F1E835-0B0E-44B7-BBC3-C2EB9B7CD6E5}">
-          <PropertyList>
-            <Property Name="InitialValue" Type="Real64" Value="0" />
-            <Property Name="Max" Type="Real64" Value="7" />
-          </PropertyList>
-        </GameParameter>
-        <GameParameter Name="RTPC_ext_engine_power" ID="{0CDDC167-9F7B-4F1F-B3C3-303AD710D373}">
-          <PropertyList>
-            <Property Name="InitialValue" Type="Real64" Value="0" />
-            <Property Name="Max" Type="Real64" Value="2000" />
-          </PropertyList>
-        </GameParameter>
-        <Folder Name="actions_with_keys" ID="{EED72859-F3A6-40E1-AE70-8A028E1560BA}" ShortID="174290125">
-          <ChildrenList>
-            <GameParameter Name="RTPC_int_key_forward" ID="{A3B3D672-930C-4044-A037-C826D35FC94E}">
-              <PropertyList>
-                <Property Name="InitialValue" Type="Real64" Value="0" />
-              </PropertyList>
-            </GameParameter>
-            <GameParameter Name="RTPC_int_key_backward" ID="{08F8A473-BE3D-43FD-BBF4-614020530DC3}">
-              <PropertyList>
-                <Property Name="InitialValue" Type="Real64" Value="0" />
-              </PropertyList>
-            </GameParameter>
-            <GameParameter Name="RTPC_int_key_left" ID="{C18362E2-2739-4679-BFDF-C643CC2B3933}">
-              <PropertyList>
-                <Property Name="InitialValue" Type="Real64" Value="0" />
-              </PropertyList>
-            </GameParameter>
-            <GameParameter Name="RTPC_int_key_right" ID="{325EDE9F-0187-4C65-9D41-69855CF89079}">
-              <PropertyList>
-                <Property Name="InitialValue" Type="Real64" Value="0" />
-              </PropertyList>
-            </GameParameter>
-            <GameParameter Name="RTPC_int_key_left_and_right" ID="{9FC6A471-E39C-4F17-8E09-9B66F1426C2E}" />
-            <GameParameter Name="RTPC_int_key_stop" ID="{49A68DAA-3138-4694-8E4C-653FFBFA1055}">
-              <PropertyList>
-                <Property Name="InitialValue" Type="Real64" Value="0" />
-              </PropertyList>
-            </GameParameter>
-            <GameParameter Name="RTPC_ext_key_engine_state" ID="{A5BB105F-B481-46A0-B0F4-8299664AF9A6}">
-              <PropertyList>
-                <Property Name="InitialValue" Type="Real64" Value="0" />
-                <Property Name="Max" Type="Real64" Value="1" />
-              </PropertyList>
-            </GameParameter>
-          </ChildrenList>
-        </Folder>
-        <GameParameter Name="RTPC_int_start_mute" ID="{73744AA3-1800-46F8-BE9C-FC323B56D938}">
-          <PropertyList>
-            <Property Name="InitialValue" Type="Real64" Value="0" />
-            <Property Name="RTPCRamping" Type="int16" Value="1" />
-            <Property Name="SlewRateDown" Type="Real64" Value="30" />
-            <Property Name="SlewRateUp" Type="Real64" Value="0" />
-          </PropertyList>
-        </GameParameter>
-        <GameParameter Name="RTPC_ext_turbine_npc" ID="{36262FEE-7C63-4F2B-B5C0-85F2B85E737A}">
-          <PropertyList>
-            <Property Name="InitialValue" Type="Real64" Value="0" />
-            <Property Name="RTPCRamping" Type="int16" Value="1" />
-            <Property Name="SlewRateDown" Type="Real64" Value="30" />
-            <Property Name="SlewRateUp" Type="Real64" Value="65" />
-          </PropertyList>
-        </GameParameter>
-        <Folder Name="wheeled_vehicle" ID="{882FDA7A-CCAA-4A80-AC6C-6810D46EF0F2}" ShortID="349899058">
-          <ChildrenList>
-            <GameParameter Name="RTPC_ext_wheels_turning" ID="{582AF357-D147-4780-B2E0-1BE93C8E9F90}">
-              <PropertyList>
-                <Property Name="InitialValue" Type="Real64" Value="0" />
-                <Property Name="Max" Type="Real64" Value="90" />
-                <Property Name="Min" Type="Real64" Value="-90" />
-                <Property Name="SlewRateDown" Type="Real64" Value="90" />
-                <Property Name="SlewRateUp" Type="Real64" Value="90" />
-              </PropertyList>
-            </GameParameter>
-            <GameParameter Name="RTPC_ext_wheel_vehicle_mode" ID="{EC207F28-88A8-475D-BFB8-DC42F185E1CC}">
-              <PropertyList>
-                <Property Name="InitialValue" Type="Real64" Value="0" />
-                <Property Name="RTPCRamping" Type="int16" Value="1" />
-                <Property Name="SlewRateDown" Type="Real64" Value="36" />
-                <Property Name="SlewRateUp" Type="Real64" Value="35" />
-              </PropertyList>
-            </GameParameter>
-            <GameParameter Name="RTPC_ext_engine_damage_risk" ID="{816F4F41-DFDB-4C4C-A146-37A960F792E4}">
-              <PropertyList>
-                <Property Name="InitialValue" Type="Real64" Value="0" />
-                <Property Name="RTPCRamping" Type="int16" Value="1" />
-                <Property Name="SlewRateDown" Type="Real64" Value="200" />
-                <Property Name="SlewRateUp" Type="Real64" Value="100" />
-              </PropertyList>
-            </GameParameter>
-          </ChildrenList>
-        </Folder>
-        <GameParameter Name="RTPC_ext_heeling_rel" ID="{F196CBE2-63E6-4A9D-BBFD-164D19E4E203}">
-          <PropertyList>
-            <Property Name="InitialValue" Type="Real64" Value="0" />
-          </PropertyList>
-        </GameParameter>
-        <GameParameter Name="RTPC_ext_doppler" ID="{F29FF57F-43F7-4B78-9886-E16A931B8524}">
-          <PropertyList>
-            <Property Name="InitialValue" Type="Real64" Value="0" />
-            <Property Name="Max" Type="Real64" Value="200" />
-            <Property Name="Min" Type="Real64" Value="-200" />
-          </PropertyList>
-        </GameParameter>
-        <Folder Name="vehicles_sc_accel" ID="{7759534D-CC7B-4C28-9A9B-79273ECEA5D8}" ShortID="891900272">
-          <ChildrenList>
-            <GameParameter Name="RTPC_int_sc_accel_Cadilac42_PC" ID="{0F4D4B8D-634F-4A54-8681-2BD8CE110356}">
-              <PropertyList>
-                <Property Name="FilterTimeDown" Type="Real64" Value="1" />
-                <Property Name="FilterTimeUp" Type="Real64" Value="1" />
-                <Property Name="InitialValue" Type="Real64" Value="-60" />
-                <Property Name="Max" Type="Real64" Value="0" />
-                <Property Name="Min" Type="Real64" Value="-60" />
-                <Property Name="RTPCRamping" Type="int16" Value="2" />
-              </PropertyList>
-            </GameParameter>
-            <GameParameter Name="RTPC_int_sc_accel_Cadilac42_NPC" ID="{AF68BCE4-39B9-4B04-955A-2F3D6E92BFDB}">
-              <PropertyList>
-                <Property Name="FilterTimeDown" Type="Real64" Value="1" />
-                <Property Name="FilterTimeUp" Type="Real64" Value="1" />
-                <Property Name="InitialValue" Type="Real64" Value="-60" />
-                <Property Name="Max" Type="Real64" Value="0" />
-                <Property Name="Min" Type="Real64" Value="-60" />
-                <Property Name="RTPCRamping" Type="int16" Value="2" />
-              </PropertyList>
-            </GameParameter>
-          </ChildrenList>
-        </Folder>
-      </ChildrenList>
-    </WorkUnit>
-  </GameParameters>
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+						<Property Name="Min" Type="Real64" Value="-1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_ext_roughness_abs_" ID="{298F2938-E226-437F-97F8-93934E74ACDC}">
+					<Comment>External RTPC - Transmits the moment of hull rumbling upon moving along irregular terrain</Comment>
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="3"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_int_treads_type" ID="{C0F1E835-0B0E-44B7-BBC3-C2EB9B7CD6E5}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="7"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_ext_engine_power" ID="{0CDDC167-9F7B-4F1F-B3C3-303AD710D373}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="2000"/>
+					</PropertyList>
+				</GameParameter>
+				<Folder Name="actions_with_keys" ID="{EED72859-F3A6-40E1-AE70-8A028E1560BA}" ShortID="174290125">
+					<ChildrenList>
+						<GameParameter Name="RTPC_int_key_forward" ID="{A3B3D672-930C-4044-A037-C826D35FC94E}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_int_key_backward" ID="{08F8A473-BE3D-43FD-BBF4-614020530DC3}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_int_key_left" ID="{C18362E2-2739-4679-BFDF-C643CC2B3933}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_int_key_right" ID="{325EDE9F-0187-4C65-9D41-69855CF89079}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_int_key_left_and_right" ID="{9FC6A471-E39C-4F17-8E09-9B66F1426C2E}"/>
+						<GameParameter Name="RTPC_int_key_stop" ID="{49A68DAA-3138-4694-8E4C-653FFBFA1055}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_ext_key_engine_state" ID="{A5BB105F-B481-46A0-B0F4-8299664AF9A6}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="1"/>
+							</PropertyList>
+						</GameParameter>
+					</ChildrenList>
+				</Folder>
+				<GameParameter Name="RTPC_int_start_mute" ID="{73744AA3-1800-46F8-BE9C-FC323B56D938}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="30"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_ext_turbine_npc" ID="{36262FEE-7C63-4F2B-B5C0-85F2B85E737A}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="30"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="65"/>
+					</PropertyList>
+				</GameParameter>
+				<Folder Name="wheeled_vehicle" ID="{882FDA7A-CCAA-4A80-AC6C-6810D46EF0F2}" ShortID="349899058">
+					<ChildrenList>
+						<GameParameter Name="RTPC_ext_wheels_turning" ID="{582AF357-D147-4780-B2E0-1BE93C8E9F90}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="90"/>
+								<Property Name="Min" Type="Real64" Value="-90"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="90"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="90"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_ext_wheel_vehicle_mode" ID="{EC207F28-88A8-475D-BFB8-DC42F185E1CC}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="RTPCRamping" Type="int16" Value="1"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="36"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="35"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_ext_engine_damage_risk" ID="{816F4F41-DFDB-4C4C-A146-37A960F792E4}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="RTPCRamping" Type="int16" Value="1"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="200"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="100"/>
+							</PropertyList>
+						</GameParameter>
+					</ChildrenList>
+				</Folder>
+				<GameParameter Name="RTPC_ext_heeling_rel" ID="{F196CBE2-63E6-4A9D-BBFD-164D19E4E203}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_ext_doppler" ID="{F29FF57F-43F7-4B78-9886-E16A931B8524}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="200"/>
+						<Property Name="Min" Type="Real64" Value="-200"/>
+					</PropertyList>
+				</GameParameter>
+				<Folder Name="vehicles_sc_accel" ID="{7759534D-CC7B-4C28-9A9B-79273ECEA5D8}" ShortID="891900272">
+					<ChildrenList>
+						<GameParameter Name="RTPC_int_sc_accel_Cadilac42_PC" ID="{0F4D4B8D-634F-4A54-8681-2BD8CE110356}">
+							<PropertyList>
+								<Property Name="FilterTimeDown" Type="Real64" Value="1"/>
+								<Property Name="FilterTimeUp" Type="Real64" Value="1"/>
+								<Property Name="InitialValue" Type="Real64" Value="-60"/>
+								<Property Name="Max" Type="Real64" Value="0"/>
+								<Property Name="Min" Type="Real64" Value="-60"/>
+								<Property Name="RTPCRamping" Type="int16" Value="2"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_int_sc_accel_Cadilac42_NPC" ID="{AF68BCE4-39B9-4B04-955A-2F3D6E92BFDB}">
+							<PropertyList>
+								<Property Name="FilterTimeDown" Type="Real64" Value="1"/>
+								<Property Name="FilterTimeUp" Type="Real64" Value="1"/>
+								<Property Name="InitialValue" Type="Real64" Value="-60"/>
+								<Property Name="Max" Type="Real64" Value="0"/>
+								<Property Name="Min" Type="Real64" Value="-60"/>
+								<Property Name="RTPCRamping" Type="int16" Value="2"/>
+							</PropertyList>
+						</GameParameter>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
 </WwiseDocument>

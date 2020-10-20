@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{6643029F-DE7F-4053-8847-4B9D0530E4DC}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{6643029F-DE7F-4053-8847-4B9D0530E4DC}" SchemaVersion="97">
 	<Switches>
 		<WorkUnit Name="Roughness" ID="{6643029F-DE7F-4053-8847-4B9D0530E4DC}" PersistMode="Standalone">
 			<ChildrenList>
@@ -58,12 +58,12 @@
 									<Flags>5</Flags>
 								</Point>
 								<Point>
-									<XPos>-7.50000000000002E-02</XPos>
+									<XPos>-0.0750000000000002</XPos>
 									<YPos>1</YPos>
 									<Flags>0</Flags>
 								</Point>
 								<Point>
-									<XPos>7.50000000000002E-02</XPos>
+									<XPos>0.0750000000000002</XPos>
 									<YPos>2</YPos>
 									<Flags>0</Flags>
 								</Point>

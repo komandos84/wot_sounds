@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{264C3264-F469-41F8-B302-659F23F8D8D9}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{264C3264-F469-41F8-B302-659F23F8D8D9}" SchemaVersion="97">
 	<Modulators>
 		<WorkUnit Name="ambient" ID="{264C3264-F469-41F8-B302-659F23F8D8D9}" PersistMode="Standalone">
 			<ChildrenList>

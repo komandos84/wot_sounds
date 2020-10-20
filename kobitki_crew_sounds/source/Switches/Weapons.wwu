@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{218B0B44-C685-426F-AF9E-3B21A3A12A3E}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{218B0B44-C685-426F-AF9E-3B21A3A12A3E}" SchemaVersion="97">
 	<Switches>
 		<WorkUnit Name="Weapons" ID="{218B0B44-C685-426F-AF9E-3B21A3A12A3E}" PersistMode="Standalone">
 			<ChildrenList>

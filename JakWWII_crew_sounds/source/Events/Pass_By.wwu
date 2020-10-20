@@ -1,44 +1,35 @@
-<WwiseDocument Type="WorkUnit" ID="{07647DD8-2A57-456D-9D48-5DA0F17A1424}" SchemaVersion="85">
-  <Events>
-    <WorkUnit Name="Pass_By" ID="{07647DD8-2A57-456D-9D48-5DA0F17A1424}" PersistMode="Standalone">
-      <Comment>Tracers</Comment>
-      <ChildrenList>
-        <Event Name="psb_auto_NPC" ID="{5DAD8486-CBB9-4BCB-B001-151732FAE814}">
-          <Comment>Event - Tracer auto NPC</Comment>
-          <ChildrenList></ChildrenList>
-        </Event>
-        <Event Name="psb_main_NPC" ID="{FEE296E2-AB67-4A62-9AB1-9B232E6DE59C}">
-          <Comment>Event - Tracer main NPC</Comment>
-          <ChildrenList></ChildrenList>
-        </Event>
-        <Event Name="psb_small_NPC" ID="{A71B44A2-78D8-4696-994E-D00955A0DD8C}">
-          <Comment>Event - Tracer small NPC</Comment>
-          <ChildrenList></ChildrenList>
-        </Event>
-        <Event Name="psb_large_NPC" ID="{E5D224AB-02D4-48A2-8370-01922C0A05BE}">
-          <Comment>Event - Tracer large NPC</Comment>
-          <ChildrenList></ChildrenList>
-        </Event>
-        <Event Name="psb_main_PC" ID="{5C674321-7DF2-4291-83E2-156C318DBB5D}">
-          <Comment>Event - Tracer main PC</Comment>
-          <ChildrenList></ChildrenList>
-        </Event>
-        <Event Name="psb_small_PC" ID="{64456C04-433A-4392-B5BA-9D6D7CD69E90}">
-          <Comment>Event - Tracer small PC</Comment>
-          <ChildrenList></ChildrenList>
-        </Event>
-        <Event Name="psb_large_PC" ID="{24CBB04A-7BA5-49C2-BD96-BBBFEF68894C}">
-          <Comment>Event - Tracer large PC</Comment>
-          <ChildrenList></ChildrenList>
-        </Event>
-        <Event Name="psb_auto_PC" ID="{EDC74A3E-7DC9-4FEA-9923-3EDB5590A875}">
-          <Comment>Event - Tracer auto PC</Comment>
-          <ChildrenList></ChildrenList>
-        </Event>
-        <Event Name="psb_npc_stop" ID="{B92A6155-F101-4B51-A0AA-7D48810D6184}">
-          <ChildrenList></ChildrenList>
-        </Event>
-      </ChildrenList>
-    </WorkUnit>
-  </Events>
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{07647DD8-2A57-456D-9D48-5DA0F17A1424}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Pass_By" ID="{07647DD8-2A57-456D-9D48-5DA0F17A1424}" PersistMode="Standalone">
+			<Comment>Tracers</Comment>
+			<ChildrenList>
+				<Event Name="psb_auto_NPC" ID="{5DAD8486-CBB9-4BCB-B001-151732FAE814}">
+					<Comment>Event - Tracer auto NPC</Comment>
+				</Event>
+				<Event Name="psb_main_NPC" ID="{FEE296E2-AB67-4A62-9AB1-9B232E6DE59C}">
+					<Comment>Event - Tracer main NPC</Comment>
+				</Event>
+				<Event Name="psb_small_NPC" ID="{A71B44A2-78D8-4696-994E-D00955A0DD8C}">
+					<Comment>Event - Tracer small NPC</Comment>
+				</Event>
+				<Event Name="psb_large_NPC" ID="{E5D224AB-02D4-48A2-8370-01922C0A05BE}">
+					<Comment>Event - Tracer large NPC</Comment>
+				</Event>
+				<Event Name="psb_main_PC" ID="{5C674321-7DF2-4291-83E2-156C318DBB5D}">
+					<Comment>Event - Tracer main PC</Comment>
+				</Event>
+				<Event Name="psb_small_PC" ID="{64456C04-433A-4392-B5BA-9D6D7CD69E90}">
+					<Comment>Event - Tracer small PC</Comment>
+				</Event>
+				<Event Name="psb_large_PC" ID="{24CBB04A-7BA5-49C2-BD96-BBBFEF68894C}">
+					<Comment>Event - Tracer large PC</Comment>
+				</Event>
+				<Event Name="psb_auto_PC" ID="{EDC74A3E-7DC9-4FEA-9923-3EDB5590A875}">
+					<Comment>Event - Tracer auto PC</Comment>
+				</Event>
+				<Event Name="psb_npc_stop" ID="{B92A6155-F101-4B51-A0AA-7D48810D6184}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
 </WwiseDocument>

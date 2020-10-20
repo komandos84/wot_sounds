@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{69FEFA84-0A7D-4B6B-A2F4-857E89E14287}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{69FEFA84-0A7D-4B6B-A2F4-857E89E14287}" SchemaVersion="97">
 	<Events>
 		<WorkUnit Name="Explosive_objects" ID="{69FEFA84-0A7D-4B6B-A2F4-857E89E14287}" PersistMode="Standalone">
 			<Comment>Explosive objects</Comment>

@@ -1,42 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{9202B687-A6FE-4C94-A2CF-27E3539A2168}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{9202B687-A6FE-4C94-A2CF-27E3539A2168}" SchemaVersion="97">
 	<Events>
 		<WorkUnit Name="Wheel_vehicle" ID="{9202B687-A6FE-4C94-A2CF-27E3539A2168}" PersistMode="Standalone">
 			<ChildrenList>
 				<Folder Name="wheel_vehicle" ID="{E13D6B07-DB58-4B45-B67A-626F31C3C58E}" ShortID="905779604">
 					<ChildrenList>
-						<Event Name="wheel_vehicle_wheel_damaged" ID="{3A95D142-4C3B-42C0-A826-1864C94A7317}">
-							<ChildrenList></ChildrenList>
-						</Event>
-						<Event Name="wheel_vehicle_wheel_repaired" ID="{125A8D05-698E-43D6-8AA6-A77E3244CC49}">
-							<ChildrenList></ChildrenList>
-						</Event>
-						<Event Name="wheel_vehicle_speed_low" ID="{2B4BBD0A-6040-40B1-913C-D3BD8DD5340F}">
-							<ChildrenList></ChildrenList>
-						</Event>
-						<Event Name="wheel_vehicle_speed_high" ID="{72C124B2-4A07-4B39-812F-490CF763CC2D}">
-							<ChildrenList></ChildrenList>
-						</Event>
+						<Event Name="wheel_vehicle_wheel_damaged" ID="{3A95D142-4C3B-42C0-A826-1864C94A7317}"/>
+						<Event Name="wheel_vehicle_wheel_repaired" ID="{125A8D05-698E-43D6-8AA6-A77E3244CC49}"/>
+						<Event Name="wheel_vehicle_speed_low" ID="{2B4BBD0A-6040-40B1-913C-D3BD8DD5340F}"/>
+						<Event Name="wheel_vehicle_speed_high" ID="{72C124B2-4A07-4B39-812F-490CF763CC2D}"/>
 						<Folder Name="wheel_vehicle_engine" ID="{CD758630-AE9A-4F81-9842-027450FC8C65}" ShortID="1009444542">
 							<ChildrenList>
-								<Event Name="wheel_vehicle_silence" ID="{D7C35171-757E-49F3-803F-77C33C0E1AD7}">
-									<ChildrenList></ChildrenList>
-								</Event>
+								<Event Name="wheel_vehicle_silence" ID="{D7C35171-757E-49F3-803F-77C33C0E1AD7}"/>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="burnOut" ID="{94D776F4-681B-4934-AFFF-9D0D189F6B17}" ShortID="969073990">
 							<ChildrenList>
-								<Event Name="wheel_vehicle_burnout" ID="{CE4A53B7-5419-4F0F-B6BD-9F551FBC2271}">
-									<ChildrenList></ChildrenList>
-								</Event>
+								<Event Name="wheel_vehicle_burnout" ID="{CE4A53B7-5419-4F0F-B6BD-9F551FBC2271}"/>
 							</ChildrenList>
 						</Folder>
-						<Event Name="wheel_vehicle_wheel_metal_damaged" ID="{1D883A7C-3A02-4606-B468-C21AA90E7B56}">
-							<ChildrenList></ChildrenList>
-						</Event>
-						<Event Name="wheel_vehicle_wheel_metal_repaired" ID="{70375C9D-E4F8-4AB9-8D9C-B261383FB3A8}">
-							<ChildrenList></ChildrenList>
-						</Event>
+						<Event Name="wheel_vehicle_wheel_metal_damaged" ID="{1D883A7C-3A02-4606-B468-C21AA90E7B56}"/>
+						<Event Name="wheel_vehicle_wheel_metal_repaired" ID="{70375C9D-E4F8-4AB9-8D9C-B261383FB3A8}"/>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

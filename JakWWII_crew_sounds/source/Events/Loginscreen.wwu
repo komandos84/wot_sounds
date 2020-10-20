@@ -1,31 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{FD2495C0-0D73-4E0D-98C9-DEE9C62822A2}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{FD2495C0-0D73-4E0D-98C9-DEE9C62822A2}" SchemaVersion="97">
 	<Events>
 		<WorkUnit Name="Loginscreen" ID="{FD2495C0-0D73-4E0D-98C9-DEE9C62822A2}" PersistMode="Standalone">
 			<ChildrenList>
 				<Folder Name="Loginscreen" ID="{8AE7808A-2004-41B1-8DBA-FC387D01CD4A}" ShortID="128475641">
 					<ChildrenList>
-						<Event Name="loginscreen_music_start" ID="{662732CA-6574-4B1E-872B-D378DC303B36}">
-							<ChildrenList></ChildrenList>
-						</Event>
-						<Event Name="loginscreen_mute" ID="{39054800-30C4-4DD3-8D95-7C8FA6E712D8}">
-							<ChildrenList></ChildrenList>
-						</Event>
-						<Event Name="loginscreen_unmute" ID="{20C025B9-CADA-454C-B3CA-00CC5898649D}">
-							<ChildrenList></ChildrenList>
-						</Event>
-						<Event Name="loginscreen_ambient_start" ID="{DCA68B0B-40B9-4CBB-B188-CC7F57FF0CBB}">
-							<ChildrenList></ChildrenList>
-						</Event>
-						<Event Name="loginscreen_ambient_stop" ID="{E339DF54-75C5-4EEF-A869-0485D2448A6C}">
-							<ChildrenList></ChildrenList>
-						</Event>
-						<Event Name="loginscreen_music_pause" ID="{DB63054C-21CE-4447-9AD9-8BC5E678DD25}">
-							<ChildrenList></ChildrenList>
-						</Event>
-						<Event Name="loginscreen_music_resume" ID="{D3137202-65F3-4699-9D5F-B0984C043CEF}">
-							<ChildrenList></ChildrenList>
-						</Event>
+						<Event Name="loginscreen_music_start" ID="{662732CA-6574-4B1E-872B-D378DC303B36}"/>
+						<Event Name="loginscreen_mute" ID="{39054800-30C4-4DD3-8D95-7C8FA6E712D8}"/>
+						<Event Name="loginscreen_unmute" ID="{20C025B9-CADA-454C-B3CA-00CC5898649D}"/>
+						<Event Name="loginscreen_ambient_start" ID="{DCA68B0B-40B9-4CBB-B188-CC7F57FF0CBB}"/>
+						<Event Name="loginscreen_ambient_stop" ID="{E339DF54-75C5-4EEF-A869-0485D2448A6C}"/>
+						<Event Name="loginscreen_music_pause" ID="{DB63054C-21CE-4447-9AD9-8BC5E678DD25}"/>
+						<Event Name="loginscreen_music_resume" ID="{D3137202-65F3-4699-9D5F-B0984C043CEF}"/>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

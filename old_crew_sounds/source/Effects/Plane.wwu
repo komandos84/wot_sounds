@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{EAE77839-3737-4427-9C7F-8A24EE1D1482}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{EAE77839-3737-4427-9C7F-8A24EE1D1482}" SchemaVersion="97">
 	<Effects>
 		<WorkUnit Name="Plane" ID="{EAE77839-3737-4427-9C7F-8A24EE1D1482}" PersistMode="Standalone">
 			<ChildrenList>
@@ -150,7 +150,7 @@
 											</Point>
 											<Point>
 												<XPos>250.565428109855</XPos>
-												<YPos>9.95828587883385E-02</YPos>
+												<YPos>0.0995828587883385</YPos>
 												<Flags>0</Flags>
 											</Point>
 											<Point>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{80DBB3A5-37DF-47BE-8808-944426EF58ED}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{80DBB3A5-37DF-47BE-8808-944426EF58ED}" SchemaVersion="97">
 	<Events>
 		<WorkUnit Name="Plane" ID="{80DBB3A5-37DF-47BE-8808-944426EF58ED}" PersistMode="Standalone">
 			<Comment>Самолеты и ПВО на картах </Comment>

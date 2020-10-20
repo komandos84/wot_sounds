@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{92F13063-1A29-49C4-BB15-4E692FDE5D59}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{92F13063-1A29-49C4-BB15-4E692FDE5D59}" SchemaVersion="97">
 	<Effects>
 		<WorkUnit Name="Explosive_objects" ID="{92F13063-1A29-49C4-BB15-4E692FDE5D59}" PersistMode="Standalone">
 			<ChildrenList>

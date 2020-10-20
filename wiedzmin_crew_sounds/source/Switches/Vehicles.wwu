@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{AABE942A-F661-4D0A-81FF-83665B07239D}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{AABE942A-F661-4D0A-81FF-83665B07239D}" SchemaVersion="97">
 	<Switches>
 		<WorkUnit Name="Vehicles" ID="{AABE942A-F661-4D0A-81FF-83665B07239D}" PersistMode="Standalone">
 			<ChildrenList>
@@ -467,7 +467,7 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>-9.99999999999996E-02</XPos>
+											<XPos>-0.0999999999999996</XPos>
 											<YPos>2</YPos>
 											<Flags>0</Flags>
 										</Point>
@@ -1026,12 +1026,12 @@
 									<Flags>5</Flags>
 								</Point>
 								<Point>
-									<XPos>-9.99999999999996E-02</XPos>
+									<XPos>-0.0999999999999996</XPos>
 									<YPos>2</YPos>
 									<Flags>0</Flags>
 								</Point>
 								<Point>
-									<XPos>9.99999999999996E-02</XPos>
+									<XPos>0.0999999999999996</XPos>
 									<YPos>1</YPos>
 									<Flags>0</Flags>
 								</Point>

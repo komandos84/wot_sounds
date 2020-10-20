@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{0B97D1E6-A360-4851-AC1C-91C973104188}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{0B97D1E6-A360-4851-AC1C-91C973104188}" SchemaVersion="97">
 	<GameParameters>
 		<WorkUnit Name="Music" ID="{0B97D1E6-A360-4851-AC1C-91C973104188}" PersistMode="Standalone">
 			<Comment>Music</Comment>

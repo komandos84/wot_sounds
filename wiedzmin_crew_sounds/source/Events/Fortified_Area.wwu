@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{A584D01B-B079-48C1-9A52-5206FA314BC5}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{A584D01B-B079-48C1-9A52-5206FA314BC5}" SchemaVersion="97">
 	<Events>
 		<WorkUnit Name="Fortified_Area" ID="{A584D01B-B079-48C1-9A52-5206FA314BC5}" PersistMode="Standalone">
 			<Comment>Strongholds</Comment>
