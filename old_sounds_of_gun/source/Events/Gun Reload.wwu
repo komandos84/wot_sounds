@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{258FCDEE-B4FE-42C2-8FEE-6A41D76BDD47}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{258FCDEE-B4FE-42C2-8FEE-6A41D76BDD47}" SchemaVersion="97">
 	<Events>
 		<WorkUnit Name="Gun Reload" ID="{258FCDEE-B4FE-42C2-8FEE-6A41D76BDD47}" PersistMode="Standalone">
 			<Comment>Gun reloading</Comment>

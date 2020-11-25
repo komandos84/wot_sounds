@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{65190E54-2D13-4236-B92A-68EECE61A842}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{65190E54-2D13-4236-B92A-68EECE61A842}" SchemaVersion="97">
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{65190E54-2D13-4236-B92A-68EECE61A842}" PersistMode="Standalone">
 			<PropertyList>
@@ -137,9 +137,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="71_KwK_L46_04" ID="{CA40CDE6-3BE2-43BF-AD34-EBD5872D0C2A}" ShortID="772011479">
+														<AudioFileSource Name="71_KwK_L46_04" ID="{CA40CDE6-3BE2-43BF-AD34-EBD5872D0C2A}">
 															<Language>SFX</Language>
 															<AudioFile>71_KwK_L46_04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="772011479"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -201,9 +204,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="75mm_fire_02" ID="{A1C1F44C-043F-4E8E-8880-E9AA5200FBAB}" ShortID="740280308">
+														<AudioFileSource Name="75mm_fire_02" ID="{A1C1F44C-043F-4E8E-8880-E9AA5200FBAB}">
 															<Language>SFX</Language>
 															<AudioFile>75mm_fire_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="740280308"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -220,9 +226,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="75mm_fire_03" ID="{37C41547-4BF3-4D65-B55C-AA366F2BEEEB}" ShortID="868502555">
+														<AudioFileSource Name="75mm_fire_03" ID="{37C41547-4BF3-4D65-B55C-AA366F2BEEEB}">
 															<Language>SFX</Language>
 															<AudioFile>75mm_fire_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="868502555"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -239,9 +248,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="75mm_fire_04" ID="{D75B172A-0BFE-4AA6-ACDC-D13057CBCB25}" ShortID="153802733">
+														<AudioFileSource Name="75mm_fire_04" ID="{D75B172A-0BFE-4AA6-ACDC-D13057CBCB25}">
 															<Language>SFX</Language>
 															<AudioFile>75mm_fire_04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="153802733"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -258,9 +270,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="75mm_fire_09" ID="{A80A8938-823D-4C46-BA5B-85F46F7BC7A6}" ShortID="614852201">
+														<AudioFileSource Name="75mm_fire_09" ID="{A80A8938-823D-4C46-BA5B-85F46F7BC7A6}">
 															<Language>SFX</Language>
 															<AudioFile>75mm_fire_09.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="614852201"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -277,9 +292,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="75mm_fire_13" ID="{EFE212C4-0D6D-4D7A-84C2-CC45C197886B}" ShortID="953241792">
+														<AudioFileSource Name="75mm_fire_13" ID="{EFE212C4-0D6D-4D7A-84C2-CC45C197886B}">
 															<Language>SFX</Language>
 															<AudioFile>75mm_fire_13.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="953241792"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -296,9 +314,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="medium_close_up_01" ID="{E6900A91-B435-4BE4-9CDC-BD2340407404}" ShortID="554491415">
+														<AudioFileSource Name="medium_close_up_01" ID="{E6900A91-B435-4BE4-9CDC-BD2340407404}">
 															<Language>SFX</Language>
 															<AudioFile>medium_close_up_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="554491415"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -315,9 +336,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="medium_close_up_02" ID="{EED74E42-4FE4-42C3-99EF-9E255C099AF6}" ShortID="830361857">
+														<AudioFileSource Name="medium_close_up_02" ID="{EED74E42-4FE4-42C3-99EF-9E255C099AF6}">
 															<Language>SFX</Language>
 															<AudioFile>medium_close_up_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="830361857"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -334,9 +358,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="medium_close_up_03" ID="{82EB9A6D-0899-4D31-870D-CE67EB3838F2}" ShortID="815726711">
+														<AudioFileSource Name="medium_close_up_03" ID="{82EB9A6D-0899-4D31-870D-CE67EB3838F2}">
 															<Language>SFX</Language>
 															<AudioFile>medium_close_up_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="815726711"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -353,31 +380,31 @@
 												<CustomStateList>
 													<CustomState>
 														<StateRef Name="STATE_viewPlayMode_sniper_ceilless" ID="{2E037C3D-50E0-434A-B018-29231D9083D7}"/>
-														<State Name="" ID="{E98AD3CD-3A6E-44B0-8F78-3912B0FE61C8}" ShortID="262436412"/>
+														<CustomState Name="" ID="{E98AD3CD-3A6E-44B0-8F78-3912B0FE61C8}" ShortID="262436412"/>
 													</CustomState>
 													<CustomState>
 														<StateRef Name="STATE_viewPlayMode_sniper" ID="{B84360EE-0891-43A8-9F9B-76A898F6C9B6}"/>
-														<State Name="" ID="{6347BCB9-CD26-4390-A489-A47CF65C9381}" ShortID="344457264">
+														<CustomState Name="" ID="{6347BCB9-CD26-4390-A489-A47CF65C9381}" ShortID="344457264">
 															<PropertyList>
 																<Property Name="Lowpass" Type="int16" Value="35"/>
 															</PropertyList>
-														</State>
+														</CustomState>
 													</CustomState>
 													<CustomState>
 														<StateRef Name="STATE_viewPlayMode_arcade" ID="{38532EFB-0C84-4858-9839-3FFE7D765E45}"/>
-														<State Name="" ID="{04649675-FC4D-4DFD-B435-C682F132520E}" ShortID="313870581"/>
+														<CustomState Name="" ID="{04649675-FC4D-4DFD-B435-C682F132520E}" ShortID="313870581"/>
 													</CustomState>
 													<CustomState>
 														<StateRef Name="STATE_viewPlayMode_strategic" ID="{851DD47E-B7C7-4DEA-A07F-83D254EF6192}"/>
-														<State Name="" ID="{311CC3D3-C476-45ED-8CD8-6DBD0A1552B6}" ShortID="473886787">
+														<CustomState Name="" ID="{311CC3D3-C476-45ED-8CD8-6DBD0A1552B6}" ShortID="473886787">
 															<PropertyList>
 																<Property Name="Lowpass" Type="int16" Value="15"/>
 															</PropertyList>
-														</State>
+														</CustomState>
 													</CustomState>
 													<CustomState>
 														<StateRef Name="STATE_viewPlayMode_arcade_ceilless" ID="{460305C3-914D-4E7A-B2FF-B5E3FEE9D830}"/>
-														<State Name="" ID="{ADC619A3-9FF6-4DF9-8F87-EFE4ABB2DFF5}" ShortID="477650350"/>
+														<CustomState Name="" ID="{ADC619A3-9FF6-4DF9-8F87-EFE4ABB2DFF5}" ShortID="477650350"/>
 													</CustomState>
 												</CustomStateList>
 											</StateInfo>
@@ -413,9 +440,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="64_TNSH_05" ID="{F34CE775-8868-419B-AF6B-C119603A887D}" ShortID="192583277">
+														<AudioFileSource Name="64_TNSH_05" ID="{F34CE775-8868-419B-AF6B-C119603A887D}">
 															<Language>SFX</Language>
 															<AudioFile>64_TNSH_05.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="192583277"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -507,9 +537,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="70_Gochkis_05" ID="{7EB5349F-2A0B-4486-A22C-D7E2D2A42885}" ShortID="555968626">
+														<AudioFileSource Name="70_Gochkis_05" ID="{7EB5349F-2A0B-4486-A22C-D7E2D2A42885}">
 															<Language>SFX</Language>
 															<AudioFile>70_Gochkis_05.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="555968626"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -543,31 +576,31 @@
 												<CustomStateList>
 													<CustomState>
 														<StateRef Name="STATE_viewPlayMode_sniper_ceilless" ID="{2E037C3D-50E0-434A-B018-29231D9083D7}"/>
-														<State Name="" ID="{2471A60E-6F6D-4721-96B7-4CC8672E9FBD}" ShortID="1028339613"/>
+														<CustomState Name="" ID="{2471A60E-6F6D-4721-96B7-4CC8672E9FBD}" ShortID="1028339613"/>
 													</CustomState>
 													<CustomState>
 														<StateRef Name="STATE_viewPlayMode_sniper" ID="{B84360EE-0891-43A8-9F9B-76A898F6C9B6}"/>
-														<State Name="" ID="{BE6664A0-15D9-464A-9DCE-1200C4FF3F3F}" ShortID="314690135">
+														<CustomState Name="" ID="{BE6664A0-15D9-464A-9DCE-1200C4FF3F3F}" ShortID="314690135">
 															<PropertyList>
 																<Property Name="Lowpass" Type="int16" Value="35"/>
 															</PropertyList>
-														</State>
+														</CustomState>
 													</CustomState>
 													<CustomState>
 														<StateRef Name="STATE_viewPlayMode_arcade" ID="{38532EFB-0C84-4858-9839-3FFE7D765E45}"/>
-														<State Name="" ID="{58EB99EE-FF99-4B29-8C04-2A85F06DA097}" ShortID="215933653"/>
+														<CustomState Name="" ID="{58EB99EE-FF99-4B29-8C04-2A85F06DA097}" ShortID="215933653"/>
 													</CustomState>
 													<CustomState>
 														<StateRef Name="STATE_viewPlayMode_strategic" ID="{851DD47E-B7C7-4DEA-A07F-83D254EF6192}"/>
-														<State Name="" ID="{7BE5C320-B175-401D-BC34-B9C182D853A4}" ShortID="468089672">
+														<CustomState Name="" ID="{7BE5C320-B175-401D-BC34-B9C182D853A4}" ShortID="468089672">
 															<PropertyList>
 																<Property Name="Lowpass" Type="int16" Value="15"/>
 															</PropertyList>
-														</State>
+														</CustomState>
 													</CustomState>
 													<CustomState>
 														<StateRef Name="STATE_viewPlayMode_arcade_ceilless" ID="{460305C3-914D-4E7A-B2FF-B5E3FEE9D830}"/>
-														<State Name="" ID="{DAF350E1-1667-420C-AEBA-5606C8FCB14F}" ShortID="904672821"/>
+														<CustomState Name="" ID="{DAF350E1-1667-420C-AEBA-5606C8FCB14F}" ShortID="904672821"/>
 													</CustomState>
 												</CustomStateList>
 											</StateInfo>
@@ -625,9 +658,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Breda_062_3" ID="{D3595A4D-71BB-40F3-B131-D0401C2425C8}" ShortID="825580639">
+														<AudioFileSource Name="Breda_062_3" ID="{D3595A4D-71BB-40F3-B131-D0401C2425C8}">
 															<Language>SFX</Language>
 															<AudioFile>Breda_062_3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="825580639"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -665,9 +701,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="large_fire_closeup_low_04" ID="{A917E28E-E7F7-44AF-996D-D22BEF0027A9}" ShortID="545330740">
+												<AudioFileSource Name="large_fire_closeup_low_04" ID="{A917E28E-E7F7-44AF-996D-D22BEF0027A9}">
 													<Language>SFX</Language>
 													<AudioFile>large_fire_closeup_low_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="545330740"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -684,9 +723,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="large_fire_closeup_low_05" ID="{12E6D760-D56C-4358-845E-7CFDCFD78EC2}" ShortID="582605760">
+												<AudioFileSource Name="large_fire_closeup_low_05" ID="{12E6D760-D56C-4358-845E-7CFDCFD78EC2}">
 													<Language>SFX</Language>
 													<AudioFile>large_fire_closeup_low_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="582605760"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -703,9 +745,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="large_fire_closeup_03" ID="{5D2F0BB8-FF0B-46DF-BDF2-F8BE9F3212BE}" ShortID="402987592">
+												<AudioFileSource Name="large_fire_closeup_03" ID="{5D2F0BB8-FF0B-46DF-BDF2-F8BE9F3212BE}">
 													<Language>SFX</Language>
 													<AudioFile>large_fire_closeup_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="402987592"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -722,31 +767,31 @@
 										<CustomStateList>
 											<CustomState>
 												<StateRef Name="STATE_viewPlayMode_sniper_ceilless" ID="{2E037C3D-50E0-434A-B018-29231D9083D7}"/>
-												<State Name="" ID="{A6312C37-8428-4FF3-8232-48D9DDE8C9F9}" ShortID="1072417343"/>
+												<CustomState Name="" ID="{A6312C37-8428-4FF3-8232-48D9DDE8C9F9}" ShortID="1072417343"/>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="STATE_viewPlayMode_sniper" ID="{B84360EE-0891-43A8-9F9B-76A898F6C9B6}"/>
-												<State Name="" ID="{0A3CC241-A770-4760-8604-555C75D81441}" ShortID="616335456">
+												<CustomState Name="" ID="{0A3CC241-A770-4760-8604-555C75D81441}" ShortID="616335456">
 													<PropertyList>
 														<Property Name="Lowpass" Type="int16" Value="35"/>
 													</PropertyList>
-												</State>
+												</CustomState>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="STATE_viewPlayMode_arcade" ID="{38532EFB-0C84-4858-9839-3FFE7D765E45}"/>
-												<State Name="" ID="{21340538-B108-46EF-BD91-D537A1E81D12}" ShortID="895455081"/>
+												<CustomState Name="" ID="{21340538-B108-46EF-BD91-D537A1E81D12}" ShortID="895455081"/>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="STATE_viewPlayMode_strategic" ID="{851DD47E-B7C7-4DEA-A07F-83D254EF6192}"/>
-												<State Name="" ID="{EC08AB84-56C0-4669-A81D-5BD39741B2E6}" ShortID="553039840">
+												<CustomState Name="" ID="{EC08AB84-56C0-4669-A81D-5BD39741B2E6}" ShortID="553039840">
 													<PropertyList>
 														<Property Name="Lowpass" Type="int16" Value="15"/>
 													</PropertyList>
-												</State>
+												</CustomState>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="STATE_viewPlayMode_arcade_ceilless" ID="{460305C3-914D-4E7A-B2FF-B5E3FEE9D830}"/>
-												<State Name="" ID="{33BEB23D-88E9-4818-9B4B-A7F4B1CA52C6}" ShortID="479217697"/>
+												<CustomState Name="" ID="{33BEB23D-88E9-4818-9B4B-A7F4B1CA52C6}" ShortID="479217697"/>
 											</CustomState>
 										</CustomStateList>
 									</StateInfo>
@@ -804,9 +849,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="D1_fire_01" ID="{2D27C0BB-5A41-454C-B27B-5C7375FB627C}" ShortID="104752495">
+												<AudioFileSource Name="D1_fire_01" ID="{2D27C0BB-5A41-454C-B27B-5C7375FB627C}">
 													<Language>SFX</Language>
 													<AudioFile>D1_fire_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="104752495"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -823,9 +871,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="D1_fire_02" ID="{D6CD7615-3279-4975-B10E-5E4F363E076C}" ShortID="75510457">
+												<AudioFileSource Name="D1_fire_02" ID="{D6CD7615-3279-4975-B10E-5E4F363E076C}">
 													<Language>SFX</Language>
 													<AudioFile>D1_fire_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="75510457"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -842,31 +893,31 @@
 										<CustomStateList>
 											<CustomState>
 												<StateRef Name="STATE_viewPlayMode_sniper_ceilless" ID="{2E037C3D-50E0-434A-B018-29231D9083D7}"/>
-												<State Name="" ID="{FECBE599-2512-4E8A-B95E-B0E8C4F3DCD3}" ShortID="106743735"/>
+												<CustomState Name="" ID="{FECBE599-2512-4E8A-B95E-B0E8C4F3DCD3}" ShortID="106743735"/>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="STATE_viewPlayMode_sniper" ID="{B84360EE-0891-43A8-9F9B-76A898F6C9B6}"/>
-												<State Name="" ID="{E85F4C26-2060-47E6-A072-814BEA5B771A}" ShortID="555559474">
+												<CustomState Name="" ID="{E85F4C26-2060-47E6-A072-814BEA5B771A}" ShortID="555559474">
 													<PropertyList>
 														<Property Name="Lowpass" Type="int16" Value="35"/>
 													</PropertyList>
-												</State>
+												</CustomState>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="STATE_viewPlayMode_arcade" ID="{38532EFB-0C84-4858-9839-3FFE7D765E45}"/>
-												<State Name="" ID="{21D0D5B5-5B25-4BE7-ACD6-7E69B0E80B05}" ShortID="361222245"/>
+												<CustomState Name="" ID="{21D0D5B5-5B25-4BE7-ACD6-7E69B0E80B05}" ShortID="361222245"/>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="STATE_viewPlayMode_strategic" ID="{851DD47E-B7C7-4DEA-A07F-83D254EF6192}"/>
-												<State Name="" ID="{14436CEC-0C12-4691-A8B8-F78C1F3EEF49}" ShortID="369516004">
+												<CustomState Name="" ID="{14436CEC-0C12-4691-A8B8-F78C1F3EEF49}" ShortID="369516004">
 													<PropertyList>
 														<Property Name="Lowpass" Type="int16" Value="15"/>
 													</PropertyList>
-												</State>
+												</CustomState>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="STATE_viewPlayMode_arcade_ceilless" ID="{460305C3-914D-4E7A-B2FF-B5E3FEE9D830}"/>
-												<State Name="" ID="{8F88BAD0-E378-48AC-BC45-DF3B13255040}" ShortID="202502761"/>
+												<CustomState Name="" ID="{8F88BAD0-E378-48AC-BC45-DF3B13255040}" ShortID="202502761"/>
 											</CustomState>
 										</CustomStateList>
 									</StateInfo>
@@ -907,9 +958,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="large_fire_closeup_00" ID="{32060FFD-B938-4A45-B2A7-3FF3D3678736}" ShortID="999766456">
+												<AudioFileSource Name="large_fire_closeup_00" ID="{32060FFD-B938-4A45-B2A7-3FF3D3678736}">
 													<Language>SFX</Language>
 													<AudioFile>large_fire_closeup_00.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="999766456"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -926,9 +980,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="large_fire_closeup_01" ID="{E55BE8BF-1008-4C89-B36A-6C07DBE7999F}" ShortID="934043558">
+												<AudioFileSource Name="large_fire_closeup_01" ID="{E55BE8BF-1008-4C89-B36A-6C07DBE7999F}">
 													<Language>SFX</Language>
 													<AudioFile>large_fire_closeup_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="934043558"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -945,9 +1002,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="large_fire_closeup_02" ID="{9CC348B1-8CC8-4749-8048-8485FA5B6461}" ShortID="617252912">
+												<AudioFileSource Name="large_fire_closeup_02" ID="{9CC348B1-8CC8-4749-8048-8485FA5B6461}">
 													<Language>SFX</Language>
 													<AudioFile>large_fire_closeup_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="617252912"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -964,31 +1024,31 @@
 										<CustomStateList>
 											<CustomState>
 												<StateRef Name="STATE_viewPlayMode_sniper_ceilless" ID="{2E037C3D-50E0-434A-B018-29231D9083D7}"/>
-												<State Name="" ID="{94074A10-4336-42B7-82A3-67E9E8EB417B}" ShortID="433123085"/>
+												<CustomState Name="" ID="{94074A10-4336-42B7-82A3-67E9E8EB417B}" ShortID="433123085"/>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="STATE_viewPlayMode_sniper" ID="{B84360EE-0891-43A8-9F9B-76A898F6C9B6}"/>
-												<State Name="" ID="{B770F83C-5397-4C66-8FF2-2FB05985DA86}" ShortID="1009672498">
+												<CustomState Name="" ID="{B770F83C-5397-4C66-8FF2-2FB05985DA86}" ShortID="1009672498">
 													<PropertyList>
 														<Property Name="Lowpass" Type="int16" Value="35"/>
 													</PropertyList>
-												</State>
+												</CustomState>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="STATE_viewPlayMode_arcade" ID="{38532EFB-0C84-4858-9839-3FFE7D765E45}"/>
-												<State Name="" ID="{59679BD0-03EF-4BDB-A232-22AACA7F0151}" ShortID="185509957"/>
+												<CustomState Name="" ID="{59679BD0-03EF-4BDB-A232-22AACA7F0151}" ShortID="185509957"/>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="STATE_viewPlayMode_strategic" ID="{851DD47E-B7C7-4DEA-A07F-83D254EF6192}"/>
-												<State Name="" ID="{C518CA6A-E6B2-4050-A356-994B1D6779EA}" ShortID="746343141">
+												<CustomState Name="" ID="{C518CA6A-E6B2-4050-A356-994B1D6779EA}" ShortID="746343141">
 													<PropertyList>
 														<Property Name="Lowpass" Type="int16" Value="15"/>
 													</PropertyList>
-												</State>
+												</CustomState>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="STATE_viewPlayMode_arcade_ceilless" ID="{460305C3-914D-4E7A-B2FF-B5E3FEE9D830}"/>
-												<State Name="" ID="{B0AC2EC6-0F2C-446A-ABC8-DE2874D44FC3}" ShortID="274979782"/>
+												<CustomState Name="" ID="{B0AC2EC6-0F2C-446A-ABC8-DE2874D44FC3}" ShortID="274979782"/>
 											</CustomState>
 										</CustomStateList>
 									</StateInfo>
@@ -1020,9 +1080,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Flak85mm_fire_00" ID="{C354F5EE-F5B3-4EF3-AE3A-7A30F5A8C483}" ShortID="741956974">
+												<AudioFileSource Name="Flak85mm_fire_00" ID="{C354F5EE-F5B3-4EF3-AE3A-7A30F5A8C483}">
 													<Language>SFX</Language>
 													<AudioFile>Flak85mm_fire_00.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="741956974"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1039,9 +1102,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Flak85mm_fire_01" ID="{C22EE24A-7D07-4A1F-9F73-C12DF3051902}" ShortID="1006022206">
+												<AudioFileSource Name="Flak85mm_fire_01" ID="{C22EE24A-7D07-4A1F-9F73-C12DF3051902}">
 													<Language>SFX</Language>
 													<AudioFile>Flak85mm_fire_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1006022206"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1058,9 +1124,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Flak88mm_fire_01" ID="{F83FC629-2EDE-40A9-8C2D-B9D54D33E163}" ShortID="435275021">
+												<AudioFileSource Name="Flak88mm_fire_01" ID="{F83FC629-2EDE-40A9-8C2D-B9D54D33E163}">
 													<Language>SFX</Language>
 													<AudioFile>Flak88mm_fire_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="435275021"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1077,31 +1146,31 @@
 										<CustomStateList>
 											<CustomState>
 												<StateRef Name="STATE_viewPlayMode_sniper_ceilless" ID="{2E037C3D-50E0-434A-B018-29231D9083D7}"/>
-												<State Name="" ID="{8CD871F9-BE13-47D2-9C3C-4EE6E745883B}" ShortID="878830045"/>
+												<CustomState Name="" ID="{8CD871F9-BE13-47D2-9C3C-4EE6E745883B}" ShortID="878830045"/>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="STATE_viewPlayMode_sniper" ID="{B84360EE-0891-43A8-9F9B-76A898F6C9B6}"/>
-												<State Name="" ID="{B575C96A-4DCE-4FD6-B63F-A81BA5128D4C}" ShortID="948780249">
+												<CustomState Name="" ID="{B575C96A-4DCE-4FD6-B63F-A81BA5128D4C}" ShortID="948780249">
 													<PropertyList>
 														<Property Name="Lowpass" Type="int16" Value="35"/>
 													</PropertyList>
-												</State>
+												</CustomState>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="STATE_viewPlayMode_arcade" ID="{38532EFB-0C84-4858-9839-3FFE7D765E45}"/>
-												<State Name="" ID="{FEB27760-2B92-439A-A8EB-16FA7B386417}" ShortID="581371883"/>
+												<CustomState Name="" ID="{FEB27760-2B92-439A-A8EB-16FA7B386417}" ShortID="581371883"/>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="STATE_viewPlayMode_strategic" ID="{851DD47E-B7C7-4DEA-A07F-83D254EF6192}"/>
-												<State Name="" ID="{41DE2753-009A-46AA-9E53-A6DB067C1471}" ShortID="845637748">
+												<CustomState Name="" ID="{41DE2753-009A-46AA-9E53-A6DB067C1471}" ShortID="845637748">
 													<PropertyList>
 														<Property Name="Lowpass" Type="int16" Value="15"/>
 													</PropertyList>
-												</State>
+												</CustomState>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="STATE_viewPlayMode_arcade_ceilless" ID="{460305C3-914D-4E7A-B2FF-B5E3FEE9D830}"/>
-												<State Name="" ID="{896A2EA7-F38C-4270-9D5C-0744AF0C6301}" ShortID="4464256"/>
+												<CustomState Name="" ID="{896A2EA7-F38C-4270-9D5C-0744AF0C6301}" ShortID="4464256"/>
 											</CustomState>
 										</CustomStateList>
 									</StateInfo>
@@ -1142,9 +1211,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Tiger88mm_fire_02" ID="{C9E6EB98-C1B4-425E-BBE7-36E685E03722}" ShortID="486977166">
+												<AudioFileSource Name="Tiger88mm_fire_02" ID="{C9E6EB98-C1B4-425E-BBE7-36E685E03722}">
 													<Language>SFX</Language>
 													<AudioFile>Tiger88mm_fire_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="486977166"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1161,9 +1233,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Tiger88mm_fire_03" ID="{1CA46E9D-FC0E-46BA-9305-7A5657EA69AA}" ShortID="788717377">
+												<AudioFileSource Name="Tiger88mm_fire_03" ID="{1CA46E9D-FC0E-46BA-9305-7A5657EA69AA}">
 													<Language>SFX</Language>
 													<AudioFile>Tiger88mm_fire_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="788717377"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1180,31 +1255,31 @@
 										<CustomStateList>
 											<CustomState>
 												<StateRef Name="STATE_viewPlayMode_sniper_ceilless" ID="{2E037C3D-50E0-434A-B018-29231D9083D7}"/>
-												<State Name="" ID="{429B29CC-5390-4F88-AFE8-D423530218C3}" ShortID="969095474"/>
+												<CustomState Name="" ID="{429B29CC-5390-4F88-AFE8-D423530218C3}" ShortID="969095474"/>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="STATE_viewPlayMode_sniper" ID="{B84360EE-0891-43A8-9F9B-76A898F6C9B6}"/>
-												<State Name="" ID="{A9595DB7-3E0C-4BD6-AFDD-D7033C11E5F1}" ShortID="250458946">
+												<CustomState Name="" ID="{A9595DB7-3E0C-4BD6-AFDD-D7033C11E5F1}" ShortID="250458946">
 													<PropertyList>
 														<Property Name="Lowpass" Type="int16" Value="35"/>
 													</PropertyList>
-												</State>
+												</CustomState>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="STATE_viewPlayMode_arcade" ID="{38532EFB-0C84-4858-9839-3FFE7D765E45}"/>
-												<State Name="" ID="{725E3840-717E-4B56-A95B-0F13FBD08DA8}" ShortID="963279794"/>
+												<CustomState Name="" ID="{725E3840-717E-4B56-A95B-0F13FBD08DA8}" ShortID="963279794"/>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="STATE_viewPlayMode_strategic" ID="{851DD47E-B7C7-4DEA-A07F-83D254EF6192}"/>
-												<State Name="" ID="{7655CED4-71DC-4784-AED2-8F4C5E65DBA4}" ShortID="299839353">
+												<CustomState Name="" ID="{7655CED4-71DC-4784-AED2-8F4C5E65DBA4}" ShortID="299839353">
 													<PropertyList>
 														<Property Name="Lowpass" Type="int16" Value="15"/>
 													</PropertyList>
-												</State>
+												</CustomState>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="STATE_viewPlayMode_arcade_ceilless" ID="{460305C3-914D-4E7A-B2FF-B5E3FEE9D830}"/>
-												<State Name="" ID="{F79EC8EA-331F-4F05-9BEC-C4DB204A41A1}" ShortID="142573710"/>
+												<CustomState Name="" ID="{F79EC8EA-331F-4F05-9BEC-C4DB204A41A1}" ShortID="142573710"/>
 											</CustomState>
 										</CustomStateList>
 									</StateInfo>
@@ -1249,9 +1324,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="wirbelwind_20mm_fire_01" ID="{012B1F86-E092-43CB-9E02-5046A9363DF2}" ShortID="836979996">
+												<AudioFileSource Name="wirbelwind_20mm_fire_01" ID="{012B1F86-E092-43CB-9E02-5046A9363DF2}">
 													<Language>SFX</Language>
 													<AudioFile>wirbelwind_20mm_fire_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="836979996"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1268,31 +1346,31 @@
 										<CustomStateList>
 											<CustomState>
 												<StateRef Name="STATE_viewPlayMode_sniper_ceilless" ID="{2E037C3D-50E0-434A-B018-29231D9083D7}"/>
-												<State Name="" ID="{A4B2DBB6-F31C-4850-AEFA-30D8466D12BF}" ShortID="865428402"/>
+												<CustomState Name="" ID="{A4B2DBB6-F31C-4850-AEFA-30D8466D12BF}" ShortID="865428402"/>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="STATE_viewPlayMode_sniper" ID="{B84360EE-0891-43A8-9F9B-76A898F6C9B6}"/>
-												<State Name="" ID="{92B69520-8222-4B5A-A6FB-6FE890062363}" ShortID="426457688">
+												<CustomState Name="" ID="{92B69520-8222-4B5A-A6FB-6FE890062363}" ShortID="426457688">
 													<PropertyList>
 														<Property Name="Lowpass" Type="int16" Value="35"/>
 													</PropertyList>
-												</State>
+												</CustomState>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="STATE_viewPlayMode_arcade" ID="{38532EFB-0C84-4858-9839-3FFE7D765E45}"/>
-												<State Name="" ID="{6683CA98-159D-4EC7-A0A2-ABD41449E573}" ShortID="901638233"/>
+												<CustomState Name="" ID="{6683CA98-159D-4EC7-A0A2-ABD41449E573}" ShortID="901638233"/>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="STATE_viewPlayMode_strategic" ID="{851DD47E-B7C7-4DEA-A07F-83D254EF6192}"/>
-												<State Name="" ID="{288E58B6-EC40-47D9-9A90-BFC8896EC92F}" ShortID="653406783">
+												<CustomState Name="" ID="{288E58B6-EC40-47D9-9A90-BFC8896EC92F}" ShortID="653406783">
 													<PropertyList>
 														<Property Name="Lowpass" Type="int16" Value="15"/>
 													</PropertyList>
-												</State>
+												</CustomState>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="STATE_viewPlayMode_arcade_ceilless" ID="{460305C3-914D-4E7A-B2FF-B5E3FEE9D830}"/>
-												<State Name="" ID="{366DD185-EDDA-4D78-803F-B90BA5FAD6A9}" ShortID="194466539"/>
+												<CustomState Name="" ID="{366DD185-EDDA-4D78-803F-B90BA5FAD6A9}" ShortID="194466539"/>
 											</CustomState>
 										</CustomStateList>
 									</StateInfo>
@@ -1344,9 +1422,12 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="gun_reloaded" ID="{B963A8DD-BE60-4320-B220-FA58783A2A02}" ShortID="949253839">
+								<AudioFileSource Name="gun_reloaded" ID="{B963A8DD-BE60-4320-B220-FA58783A2A02}">
 									<Language>SFX</Language>
 									<AudioFile>gun_reloaded.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="949253839"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>

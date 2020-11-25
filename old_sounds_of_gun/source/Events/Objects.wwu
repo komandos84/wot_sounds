@@ -1,244 +1,187 @@
-<WwiseDocument Type="WorkUnit" ID="{DF70839A-5810-43A0-BBD6-B0BD8C97A32C}" SchemaVersion="85">
-  <Events>
-    <WorkUnit Name="Objects" ID="{DF70839A-5810-43A0-BBD6-B0BD8C97A32C}" PersistMode="Standalone">
-      <Comment>Destructible objects on maps</Comment>
-      <ChildrenList>
-        <Folder Name="generative_destruction" ID="{29DFA0EE-993F-4513-BB8C-84BEF70EC334}" ShortID="265100505">
-          <ChildrenList>
-            <Event Name="obj_generative" ID="{CCF35921-B86A-4F0E-83D1-E6D3BDC08098}">
-              <ChildrenList></ChildrenList>
-            </Event>
-          </ChildrenList>
-        </Folder>
-        <Folder Name="unique_destruction" ID="{043B5D91-8CFF-47F9-A15C-E635B0BEE14B}" ShortID="932141791">
-          <ChildrenList>
-            <Event Name="obj_ammo_expl_02" ID="{157F16ED-37F3-4CE8-9288-EDD863738F3C}">
-              <Comment>Event - Ammo explosion</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="obj_auto_crash" ID="{BA063938-6ED2-473B-9DDC-C5660AC47FD5}">
-              <Comment>Event - Vehicle</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="obj_ammo_expl_01" ID="{D6D3F891-89E9-4088-965C-9834BBC60A88}">
-              <Comment>Event - Ammo explosion</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="obj_barrel_of_fuel" ID="{3F1B3949-1DA6-46F7-AC8F-5DC227E12D34}">
-              <Comment>Event - Destruction of fuel tankers</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="obj_bicycle" ID="{44BE1694-D332-4B9C-86AD-CA3CC9017940}">
-              <Comment>Event - Bicycle</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="obj_bidon" ID="{0D195C1B-7514-4ECE-86B4-D89CB73D2943}">
-              <Comment>Event - Iron tank</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="obj_bowl_iron" ID="{93D53C62-9294-4DD3-9720-5A7FAB502C2A}">
-              <Comment>Event - Metal vessels</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="obj_brick_metall_brew" ID="{D7F56F64-BBDF-443B-992E-BE546FF1F09D}">
-              <Comment>Event - Brick-and-metal wall near water</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="obj_car_corps" ID="{D800F4DC-68A7-4679-8070-F30320C8BD8C}">
-              <Comment>Event - Vehicle</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="obj_dog_house" ID="{AD73ADA6-A551-4ECA-8000-38028EEB41D1}">
-              <Comment>Event - Booth</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="obj_fence_light_wood" ID="{F7D1B34B-D485-4E59-9874-F4433D12408D}">
-              <Comment>Event - Wooden fence</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="obj_fence_stone_metall_mid" ID="{0EA5DCDC-9CFC-4CBF-997B-35CFF34FD2AF}">
-              <Comment>Event - Obstacle of rock and metal</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="obj_fence_stone_mid" ID="{50E67856-FACE-4B26-9012-E57687A44E60}">
-              <Comment>Event - Rock obstacle</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="obj_fence_wire" ID="{A1F0081A-5C0F-48B8-AE27-5F85058CF5C6}">
-              <Comment>Event - Wire fence</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="obj_fence_wood_common" ID="{B645EC19-B8FD-42B2-A231-7F7CF8834ACC}">
-              <Comment>Event - Wooden obstacle (fence)</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="obj_fence_wood_wattle" ID="{00E5746E-6215-4168-9C5C-00B8077DE401}">
-              <Comment>Event - Pleached fence</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="obj_firewood" ID="{0A20A852-0221-4495-809A-DDDF9F82A2F5}">
-              <Comment>Event - Large destruction of logs</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="obj_firewood_small" ID="{73E72759-F911-4CBA-BBAC-1898DAE3FA24}">
-              <Comment>Event - Small destruction of logs</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="obj_fuel_barrel_mid" ID="{B2B11CE4-8BA7-4F99-92DF-0CCF20EE0F47}">
-              <Comment>Event - Medium fuel tanker</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="obj_fuel_barrel_V_6" ID="{C1B6F295-BFC2-483B-A6ED-3E36EFF79DD1}">
-              <Comment>Event - Metal structures and objects</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="obj_fuel_tank" ID="{5CEDCC04-7F89-438A-B760-3F1B5441E5AA}">
-              <Comment>Event - Fuel barrels</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="obj_hay_stack" ID="{EFF8E54F-32B1-48EA-BAC4-C3CD448ACC16}">
-              <Comment>Event - Haystack</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="obj_house_burn" ID="{56F1CB4B-BDB0-4EC0-9737-B0D9C39A919C}">
-              <Comment>Event - Burning object (large fire)</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="obj_ice_crack" ID="{9F7D8EC6-34B3-47BA-874B-4557BE73B40B}">
-              <Comment>Event - Ice</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="obj_linen" ID="{5E82F423-1D89-4834-AAFA-C577462749A8}">
-              <Comment>Event - Clothes</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="obj_metal_wood" ID="{A4EE6950-019A-40F9-B3AB-F36A8D9FBAB8}">
-              <Comment>Event - Wooden-and-metal obstacle</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="obj_pole" ID="{3DE6EEF3-FF6D-4AB8-9E89-31DF3408B1CA}">
-              <Comment>Event - Telegraph pole destroyed</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="obj_pole_down" ID="{61D35BC6-8EF1-42F2-AB2C-B0D042F0C9D6}">
-              <Comment>Event - Falling telergaph pole</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="obj_pole_laying" ID="{BDEB95D3-27BF-4E56-9032-AB642E62F577}">
-              <Comment>Event - Logs</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="obj_pole_metall_touch" ID="{E4F5A527-86B1-4E6D-BDF3-27E3C1A79776}">
-              <Comment>Event - Running into a metal pole</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="obj_sandbag" ID="{2ED51912-5FD6-457E-B355-5D348A44B49F}">
-              <Comment>Event - Fence made of sacks with sand</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="obj_skeleton" ID="{8977F8E9-6091-4AFA-BFCE-1F0DE7953FE2}">
-              <Comment>Event - Wooden barrel destroyed</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="obj_squeak" ID="{D35570D6-E9D3-4B31-9D04-26D1C2FD840E}">
-              <Comment>Event - Metal scraping</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="obj_stone_building_mid" ID="{3522545D-6659-438C-AF40-A87C4308EF38}">
-              <Comment>Event - Stone building destroyed</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="obj_stone_crash_light" ID="{EDD3022F-B513-4537-AAF7-FDA434047CC0}">
-              <Comment>Event - Stone structure destroyed (small)</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="obj_stone_crash_mid" ID="{FB32B1B8-3576-4588-B655-93955AFDF8A1}">
-              <Comment>Event - Medium stone fence</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="obj_stone_wood" ID="{DC2DF83F-E949-45F4-B9CA-63B5428A9B94}">
-              <Comment>Event - Wood-and-stone obstacle</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="obj_tent_crash" ID="{C0B07A9D-86D1-491E-B381-92A4EB2F7A0B}">
-              <Comment>Event - Large object destroyed</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="obj_toilet" ID="{D8027B74-4DFF-4E06-8CE4-36775C427A6C}">
-              <Comment>Event - Small structure destroyed</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="obj_touch" ID="{32A5F3CC-B49E-4F63-99D6-C2E6E61E6C8C}">
-              <Comment>Event - NOT APPLIED</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="obj_touchdown_street_lights" ID="{E1DF2D69-B3A5-4598-84C0-89C1C8448584}">
-              <Comment>Event - Falling street lamp</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="obj_treefall_creak" ID="{8C1CD82D-3D2F-4166-A2D4-63FC6EA6C653}">
-              <Comment>Event - Tree destroyed</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="obj_treefall_down" ID="{3AB7B786-9666-4655-AC37-E7DEF1F74C61}">
-              <Comment>Event - Tree knocked down</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="obj_weapons_01" ID="{604E0E23-9F1C-4037-ADE2-8D0F2472715D}">
-              <Comment>Event - Military vehicles</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="obj_weapons_crash_large_01" ID="{4033D6B7-2E00-48BE-BE27-A9A80D2274DF}">
-              <Comment>Event - Large military vehicles</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="obj_wire_barricade" ID="{2C2D263C-3CC4-464C-B51B-F479FB8BA9F4}">
-              <Comment>Event - Wire barricade</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="obj_wood_barrel" ID="{1FAB34F0-6E07-4BE1-B4BA-122202224898}">
-              <Comment>Event - Wooden barrel</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="obj_wood_box_mid" ID="{39A9ECF5-D216-4E08-A8B5-6DC7CB4339C1}">
-              <Comment>Event - Medium wooden structure destroyed</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="obj_wood_brew_barrel" ID="{23D1C129-45BD-4E32-BB73-64F709C6DC0E}">
-              <Comment>Event - Barrel filled with liquid</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="obj_wood_crash_light" ID="{3262A449-7A27-4249-9062-82A3CCFB5DE6}">
-              <Comment>Event - Wooden structure</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="obj_wood_house" ID="{EF8842E8-853F-4110-B6A0-CBBCE2C9AC4F}">
-              <Comment>Event - Wooden building</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="obj_wood_structure" ID="{2E8F3985-4EF4-46CD-AA2E-47D191AC3E4A}">
-              <Comment>Event - Wooden structure</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="obj_pole_metall_crack" ID="{C31DEC81-8653-4007-B93B-937879E7A4F2}">
-              <Comment>Event - Metal pole</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="obj_road_sign" ID="{FD7E2181-D024-4741-A725-41694D771192}">
-              <Comment>Event - Road sign</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="obj_wattled_basket" ID="{66268296-5A08-452E-BDD8-B036CF0FEC00}">
-              <Comment>Event - Basket</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="obj_bicyclewithsallcart" ID="{B63ECBB5-0E82-428F-9D27-A445BF93EBEE}">
-              <Comment>Event - Bicycle</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-          </ChildrenList>
-        </Folder>
-      </ChildrenList>
-    </WorkUnit>
-  </Events>
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DF70839A-5810-43A0-BBD6-B0BD8C97A32C}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Objects" ID="{DF70839A-5810-43A0-BBD6-B0BD8C97A32C}" PersistMode="Standalone">
+			<Comment>Destructible objects on maps</Comment>
+			<ChildrenList>
+				<Folder Name="generative_destruction" ID="{29DFA0EE-993F-4513-BB8C-84BEF70EC334}" ShortID="265100505">
+					<ChildrenList>
+						<Event Name="obj_generative" ID="{CCF35921-B86A-4F0E-83D1-E6D3BDC08098}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="unique_destruction" ID="{043B5D91-8CFF-47F9-A15C-E635B0BEE14B}" ShortID="932141791">
+					<ChildrenList>
+						<Event Name="obj_ammo_expl_02" ID="{157F16ED-37F3-4CE8-9288-EDD863738F3C}">
+							<Comment>Event - Ammo explosion</Comment>
+						</Event>
+						<Event Name="obj_auto_crash" ID="{BA063938-6ED2-473B-9DDC-C5660AC47FD5}">
+							<Comment>Event - Vehicle</Comment>
+						</Event>
+						<Event Name="obj_ammo_expl_01" ID="{D6D3F891-89E9-4088-965C-9834BBC60A88}">
+							<Comment>Event - Ammo explosion</Comment>
+						</Event>
+						<Event Name="obj_barrel_of_fuel" ID="{3F1B3949-1DA6-46F7-AC8F-5DC227E12D34}">
+							<Comment>Event - Destruction of fuel tankers</Comment>
+						</Event>
+						<Event Name="obj_bicycle" ID="{44BE1694-D332-4B9C-86AD-CA3CC9017940}">
+							<Comment>Event - Bicycle</Comment>
+						</Event>
+						<Event Name="obj_bidon" ID="{0D195C1B-7514-4ECE-86B4-D89CB73D2943}">
+							<Comment>Event - Iron tank</Comment>
+						</Event>
+						<Event Name="obj_bowl_iron" ID="{93D53C62-9294-4DD3-9720-5A7FAB502C2A}">
+							<Comment>Event - Metal vessels</Comment>
+						</Event>
+						<Event Name="obj_brick_metall_brew" ID="{D7F56F64-BBDF-443B-992E-BE546FF1F09D}">
+							<Comment>Event - Brick-and-metal wall near water</Comment>
+						</Event>
+						<Event Name="obj_car_corps" ID="{D800F4DC-68A7-4679-8070-F30320C8BD8C}">
+							<Comment>Event - Vehicle</Comment>
+						</Event>
+						<Event Name="obj_dog_house" ID="{AD73ADA6-A551-4ECA-8000-38028EEB41D1}">
+							<Comment>Event - Booth</Comment>
+						</Event>
+						<Event Name="obj_fence_light_wood" ID="{F7D1B34B-D485-4E59-9874-F4433D12408D}">
+							<Comment>Event - Wooden fence</Comment>
+						</Event>
+						<Event Name="obj_fence_stone_metall_mid" ID="{0EA5DCDC-9CFC-4CBF-997B-35CFF34FD2AF}">
+							<Comment>Event - Obstacle of rock and metal</Comment>
+						</Event>
+						<Event Name="obj_fence_stone_mid" ID="{50E67856-FACE-4B26-9012-E57687A44E60}">
+							<Comment>Event - Rock obstacle</Comment>
+						</Event>
+						<Event Name="obj_fence_wire" ID="{A1F0081A-5C0F-48B8-AE27-5F85058CF5C6}">
+							<Comment>Event - Wire fence</Comment>
+						</Event>
+						<Event Name="obj_fence_wood_common" ID="{B645EC19-B8FD-42B2-A231-7F7CF8834ACC}">
+							<Comment>Event - Wooden obstacle (fence)</Comment>
+						</Event>
+						<Event Name="obj_fence_wood_wattle" ID="{00E5746E-6215-4168-9C5C-00B8077DE401}">
+							<Comment>Event - Pleached fence</Comment>
+						</Event>
+						<Event Name="obj_firewood" ID="{0A20A852-0221-4495-809A-DDDF9F82A2F5}">
+							<Comment>Event - Large destruction of logs</Comment>
+						</Event>
+						<Event Name="obj_firewood_small" ID="{73E72759-F911-4CBA-BBAC-1898DAE3FA24}">
+							<Comment>Event - Small destruction of logs</Comment>
+						</Event>
+						<Event Name="obj_fuel_barrel_mid" ID="{B2B11CE4-8BA7-4F99-92DF-0CCF20EE0F47}">
+							<Comment>Event - Medium fuel tanker</Comment>
+						</Event>
+						<Event Name="obj_fuel_barrel_V_6" ID="{C1B6F295-BFC2-483B-A6ED-3E36EFF79DD1}">
+							<Comment>Event - Metal structures and objects</Comment>
+						</Event>
+						<Event Name="obj_fuel_tank" ID="{5CEDCC04-7F89-438A-B760-3F1B5441E5AA}">
+							<Comment>Event - Fuel barrels</Comment>
+						</Event>
+						<Event Name="obj_hay_stack" ID="{EFF8E54F-32B1-48EA-BAC4-C3CD448ACC16}">
+							<Comment>Event - Haystack</Comment>
+						</Event>
+						<Event Name="obj_house_burn" ID="{56F1CB4B-BDB0-4EC0-9737-B0D9C39A919C}">
+							<Comment>Event - Burning object (large fire)</Comment>
+						</Event>
+						<Event Name="obj_ice_crack" ID="{9F7D8EC6-34B3-47BA-874B-4557BE73B40B}">
+							<Comment>Event - Ice</Comment>
+						</Event>
+						<Event Name="obj_linen" ID="{5E82F423-1D89-4834-AAFA-C577462749A8}">
+							<Comment>Event - Clothes</Comment>
+						</Event>
+						<Event Name="obj_metal_wood" ID="{A4EE6950-019A-40F9-B3AB-F36A8D9FBAB8}">
+							<Comment>Event - Wooden-and-metal obstacle</Comment>
+						</Event>
+						<Event Name="obj_pole" ID="{3DE6EEF3-FF6D-4AB8-9E89-31DF3408B1CA}">
+							<Comment>Event - Telegraph pole destroyed</Comment>
+						</Event>
+						<Event Name="obj_pole_down" ID="{61D35BC6-8EF1-42F2-AB2C-B0D042F0C9D6}">
+							<Comment>Event - Falling telergaph pole</Comment>
+						</Event>
+						<Event Name="obj_pole_laying" ID="{BDEB95D3-27BF-4E56-9032-AB642E62F577}">
+							<Comment>Event - Logs</Comment>
+						</Event>
+						<Event Name="obj_pole_metall_touch" ID="{E4F5A527-86B1-4E6D-BDF3-27E3C1A79776}">
+							<Comment>Event - Running into a metal pole</Comment>
+						</Event>
+						<Event Name="obj_sandbag" ID="{2ED51912-5FD6-457E-B355-5D348A44B49F}">
+							<Comment>Event - Fence made of sacks with sand</Comment>
+						</Event>
+						<Event Name="obj_skeleton" ID="{8977F8E9-6091-4AFA-BFCE-1F0DE7953FE2}">
+							<Comment>Event - Wooden barrel destroyed</Comment>
+						</Event>
+						<Event Name="obj_squeak" ID="{D35570D6-E9D3-4B31-9D04-26D1C2FD840E}">
+							<Comment>Event - Metal scraping</Comment>
+						</Event>
+						<Event Name="obj_stone_building_mid" ID="{3522545D-6659-438C-AF40-A87C4308EF38}">
+							<Comment>Event - Stone building destroyed</Comment>
+						</Event>
+						<Event Name="obj_stone_crash_light" ID="{EDD3022F-B513-4537-AAF7-FDA434047CC0}">
+							<Comment>Event - Stone structure destroyed (small)</Comment>
+						</Event>
+						<Event Name="obj_stone_crash_mid" ID="{FB32B1B8-3576-4588-B655-93955AFDF8A1}">
+							<Comment>Event - Medium stone fence</Comment>
+						</Event>
+						<Event Name="obj_stone_wood" ID="{DC2DF83F-E949-45F4-B9CA-63B5428A9B94}">
+							<Comment>Event - Wood-and-stone obstacle</Comment>
+						</Event>
+						<Event Name="obj_tent_crash" ID="{C0B07A9D-86D1-491E-B381-92A4EB2F7A0B}">
+							<Comment>Event - Large object destroyed</Comment>
+						</Event>
+						<Event Name="obj_toilet" ID="{D8027B74-4DFF-4E06-8CE4-36775C427A6C}">
+							<Comment>Event - Small structure destroyed</Comment>
+						</Event>
+						<Event Name="obj_touch" ID="{32A5F3CC-B49E-4F63-99D6-C2E6E61E6C8C}">
+							<Comment>Event - NOT APPLIED</Comment>
+						</Event>
+						<Event Name="obj_touchdown_street_lights" ID="{E1DF2D69-B3A5-4598-84C0-89C1C8448584}">
+							<Comment>Event - Falling street lamp</Comment>
+						</Event>
+						<Event Name="obj_treefall_creak" ID="{8C1CD82D-3D2F-4166-A2D4-63FC6EA6C653}">
+							<Comment>Event - Tree destroyed</Comment>
+						</Event>
+						<Event Name="obj_treefall_down" ID="{3AB7B786-9666-4655-AC37-E7DEF1F74C61}">
+							<Comment>Event - Tree knocked down</Comment>
+						</Event>
+						<Event Name="obj_weapons_01" ID="{604E0E23-9F1C-4037-ADE2-8D0F2472715D}">
+							<Comment>Event - Military vehicles</Comment>
+						</Event>
+						<Event Name="obj_weapons_crash_large_01" ID="{4033D6B7-2E00-48BE-BE27-A9A80D2274DF}">
+							<Comment>Event - Large military vehicles</Comment>
+						</Event>
+						<Event Name="obj_wire_barricade" ID="{2C2D263C-3CC4-464C-B51B-F479FB8BA9F4}">
+							<Comment>Event - Wire barricade</Comment>
+						</Event>
+						<Event Name="obj_wood_barrel" ID="{1FAB34F0-6E07-4BE1-B4BA-122202224898}">
+							<Comment>Event - Wooden barrel</Comment>
+						</Event>
+						<Event Name="obj_wood_box_mid" ID="{39A9ECF5-D216-4E08-A8B5-6DC7CB4339C1}">
+							<Comment>Event - Medium wooden structure destroyed</Comment>
+						</Event>
+						<Event Name="obj_wood_brew_barrel" ID="{23D1C129-45BD-4E32-BB73-64F709C6DC0E}">
+							<Comment>Event - Barrel filled with liquid</Comment>
+						</Event>
+						<Event Name="obj_wood_crash_light" ID="{3262A449-7A27-4249-9062-82A3CCFB5DE6}">
+							<Comment>Event - Wooden structure</Comment>
+						</Event>
+						<Event Name="obj_wood_house" ID="{EF8842E8-853F-4110-B6A0-CBBCE2C9AC4F}">
+							<Comment>Event - Wooden building</Comment>
+						</Event>
+						<Event Name="obj_wood_structure" ID="{2E8F3985-4EF4-46CD-AA2E-47D191AC3E4A}">
+							<Comment>Event - Wooden structure</Comment>
+						</Event>
+						<Event Name="obj_pole_metall_crack" ID="{C31DEC81-8653-4007-B93B-937879E7A4F2}">
+							<Comment>Event - Metal pole</Comment>
+						</Event>
+						<Event Name="obj_road_sign" ID="{FD7E2181-D024-4741-A725-41694D771192}">
+							<Comment>Event - Road sign</Comment>
+						</Event>
+						<Event Name="obj_wattled_basket" ID="{66268296-5A08-452E-BDD8-B036CF0FEC00}">
+							<Comment>Event - Basket</Comment>
+						</Event>
+						<Event Name="obj_bicyclewithsallcart" ID="{B63ECBB5-0E82-428F-9D27-A445BF93EBEE}">
+							<Comment>Event - Bicycle</Comment>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
 </WwiseDocument>

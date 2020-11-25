@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{30EF7719-C2F2-494A-B864-AFD99E1D84E6}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{30EF7719-C2F2-494A-B864-AFD99E1D84E6}" SchemaVersion="97">
 	<Queries>
 		<WorkUnit Name="Default Work Unit" ID="{30EF7719-C2F2-494A-B864-AFD99E1D84E6}" PersistMode="Standalone">
 			<ChildrenList>
 				<Query Name="123" ID="{9C0D956E-D115-45DB-A30C-DE720F7FDCD7}">
 					<PropertyList>
 						<Property Name="Platform" Type="int16" Value="0"/>
-						<Property Name="StartFromHereObject" Type="string" Value="{49FED366-B530-42A8-993B-924873AAB707}"/>
 					</PropertyList>
+					<ReferenceList>
+						<Reference Name="StartObject">
+							<ObjectRef Name="Interactive Music Hierarchy" ID="{49FED366-B530-42A8-993B-924873AAB707}" WorkUnitID="{49FED366-B530-42A8-993B-924873AAB707}"/>
+						</Reference>
+					</ReferenceList>
 					<ChildrenList>
 						<SearchCriteria Name="GeneralShort ID" ID="{0CC5D46B-EE4E-4AAB-951F-BD4032BB2B67}" SearchOperationID="{5A52DB39-C09B-4D8C-9AAF-2EB9016E2E66}">
 							<PropertyList>

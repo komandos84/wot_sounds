@@ -1,748 +1,749 @@
-<WwiseDocument Type="WorkUnit" ID="{3E06EC61-2AFE-4EF0-A281-63208A81131D}" SchemaVersion="85">
-  <Modulators>
-    <WorkUnit Name="Objects" ID="{3E06EC61-2AFE-4EF0-A281-63208A81131D}" PersistMode="Standalone">
-      <ChildrenList>
-        <ModulatorEnvelope Name="obj_distr_wood_small" ID="{D0AD2191-B589-438E-A1BA-62CC9A48F7AE}" ShortID="899940306">
-          <Comment>The duration of debris is controoled by Decay Time value (in secs)</Comment>
-          <PropertyList>
-            <Property Name="EnvelopeAttackTime" Type="Real64" Value="0" />
-            <Property Name="EnvelopeAutoRelease" Type="bool" Value="True" />
-            <Property Name="EnvelopeDecayTime" Type="Real64" Value="0">
-              <RTPCList>
-                <RTPC Name="" ID="{EA54283E-CDD7-4223-B724-1C0E705033E1}" ShortID="900373265">
-                  <ReferenceList>
-                    <Reference Name="ControlInput">
-                      <ObjectRef Name="RTPC_ext_objects_debrisAmount" ID="{476F4A12-1EF4-4189-AE85-74F5FA5F231A}" WorkUnitID="{24070570-E03E-401A-9914-3252EF7703D9}" />
-                    </Reference>
-                  </ReferenceList>
-                  <Curve Name="" ID="{49592ED5-99BD-483C-809B-CB4E9BAC8605}">
-                    <PropertyList>
-                      <Property Name="Flags" Type="int32" Value="1" />
-                    </PropertyList>
-                    <PointList>
-                      <Point>
-                        <XPos>0</XPos>
-                        <YPos>0.1</YPos>
-                        <Flags>5</Flags>
-                      </Point>
-                      <Point>
-                        <XPos>100</XPos>
-                        <YPos>2.5</YPos>
-                        <Flags>37</Flags>
-                      </Point>
-                    </PointList>
-                  </Curve>
-                </RTPC>
-              </RTPCList>
-            </Property>
-            <Property Name="EnvelopeReleaseTime" Type="Real64" Value="0" />
-            <Property Name="EnvelopeSustainLevel" Type="Real64" Value="0" />
-          </PropertyList>
-        </ModulatorEnvelope>
-        <ModulatorEnvelope Name="obj_distr_wood_medium" ID="{0D192392-9A9C-45D7-B7FC-4D4C1FF9DE0A}" ShortID="980293520">
-          <Comment>The duration of debris is controoled by Decay Time value (in secs)</Comment>
-          <PropertyList>
-            <Property Name="EnvelopeAttackTime" Type="Real64" Value="0" />
-            <Property Name="EnvelopeAutoRelease" Type="bool" Value="True" />
-            <Property Name="EnvelopeDecayTime" Type="Real64" Value="0">
-              <RTPCList>
-                <RTPC Name="" ID="{26154EF0-7CC1-4D50-9CD6-94B367D2EA98}" ShortID="22645075">
-                  <ReferenceList>
-                    <Reference Name="ControlInput">
-                      <ObjectRef Name="RTPC_ext_objects_debrisAmount" ID="{476F4A12-1EF4-4189-AE85-74F5FA5F231A}" WorkUnitID="{24070570-E03E-401A-9914-3252EF7703D9}" />
-                    </Reference>
-                  </ReferenceList>
-                  <Curve Name="" ID="{2B938728-CFBB-4D04-B5D2-45E7D1E588C0}">
-                    <PropertyList>
-                      <Property Name="Flags" Type="int32" Value="1" />
-                    </PropertyList>
-                    <PointList>
-                      <Point>
-                        <XPos>0</XPos>
-                        <YPos>0.1</YPos>
-                        <Flags>5</Flags>
-                      </Point>
-                      <Point>
-                        <XPos>100</XPos>
-                        <YPos>2.5</YPos>
-                        <Flags>37</Flags>
-                      </Point>
-                    </PointList>
-                  </Curve>
-                </RTPC>
-              </RTPCList>
-            </Property>
-            <Property Name="EnvelopeReleaseTime" Type="Real64" Value="0" />
-            <Property Name="EnvelopeSustainLevel" Type="Real64" Value="0" />
-          </PropertyList>
-        </ModulatorEnvelope>
-        <ModulatorEnvelope Name="obj_distr_wood_large" ID="{CF05E8E2-97AC-4E8B-B0BA-F7FB777D47CC}" ShortID="315694189">
-          <Comment>The duration of debris is controoled by Decay Time value (in secs)</Comment>
-          <PropertyList>
-            <Property Name="EnvelopeAttackTime" Type="Real64" Value="0" />
-            <Property Name="EnvelopeAutoRelease" Type="bool" Value="True" />
-            <Property Name="EnvelopeDecayTime" Type="Real64" Value="0">
-              <RTPCList>
-                <RTPC Name="" ID="{F3566333-7CD7-46FA-AA5F-C72E8CB3A6AC}" ShortID="752672547">
-                  <ReferenceList>
-                    <Reference Name="ControlInput">
-                      <ObjectRef Name="RTPC_ext_objects_debrisAmount" ID="{476F4A12-1EF4-4189-AE85-74F5FA5F231A}" WorkUnitID="{24070570-E03E-401A-9914-3252EF7703D9}" />
-                    </Reference>
-                  </ReferenceList>
-                  <Curve Name="" ID="{4C6D893A-2C89-4F55-9F99-26E89D1FE8D1}">
-                    <PropertyList>
-                      <Property Name="Flags" Type="int32" Value="1" />
-                    </PropertyList>
-                    <PointList>
-                      <Point>
-                        <XPos>0</XPos>
-                        <YPos>0.1</YPos>
-                        <Flags>5</Flags>
-                      </Point>
-                      <Point>
-                        <XPos>100</XPos>
-                        <YPos>3</YPos>
-                        <Flags>37</Flags>
-                      </Point>
-                    </PointList>
-                  </Curve>
-                </RTPC>
-              </RTPCList>
-            </Property>
-            <Property Name="EnvelopeReleaseTime" Type="Real64" Value="0" />
-            <Property Name="EnvelopeSustainLevel" Type="Real64" Value="0" />
-          </PropertyList>
-        </ModulatorEnvelope>
-        <ModulatorEnvelope Name="obj_distr_wood_heavy" ID="{77F6DCCE-3EE8-4DEA-86F5-E91365CFB2F3}" ShortID="1005885349">
-          <Comment>The duration of debris is controoled by Decay Time value (in secs)</Comment>
-          <PropertyList>
-            <Property Name="EnvelopeAttackTime" Type="Real64" Value="0" />
-            <Property Name="EnvelopeAutoRelease" Type="bool" Value="True" />
-            <Property Name="EnvelopeDecayTime" Type="Real64" Value="0">
-              <RTPCList>
-                <RTPC Name="" ID="{DD8CB101-2D97-4C9B-BA1A-5B903F6AD6B6}" ShortID="64279683">
-                  <ReferenceList>
-                    <Reference Name="ControlInput">
-                      <ObjectRef Name="RTPC_ext_objects_debrisAmount" ID="{476F4A12-1EF4-4189-AE85-74F5FA5F231A}" WorkUnitID="{24070570-E03E-401A-9914-3252EF7703D9}" />
-                    </Reference>
-                  </ReferenceList>
-                  <Curve Name="" ID="{46E91848-F94A-4A25-9A41-3FC80C451C5F}">
-                    <PropertyList>
-                      <Property Name="Flags" Type="int32" Value="1" />
-                    </PropertyList>
-                    <PointList>
-                      <Point>
-                        <XPos>0</XPos>
-                        <YPos>0.1</YPos>
-                        <Flags>5</Flags>
-                      </Point>
-                      <Point>
-                        <XPos>100</XPos>
-                        <YPos>4</YPos>
-                        <Flags>37</Flags>
-                      </Point>
-                    </PointList>
-                  </Curve>
-                </RTPC>
-              </RTPCList>
-            </Property>
-            <Property Name="EnvelopeReleaseTime" Type="Real64" Value="0" />
-            <Property Name="EnvelopeSustainLevel" Type="Real64" Value="0" />
-          </PropertyList>
-        </ModulatorEnvelope>
-        <ModulatorEnvelope Name="obj_distr_stone_small" ID="{72593BA7-86BC-4409-B0DF-E11A5C56896B}" ShortID="778445610">
-          <Comment>The duration of debris is controoled by Decay Time value (in secs)</Comment>
-          <PropertyList>
-            <Property Name="EnvelopeAttackTime" Type="Real64" Value="0" />
-            <Property Name="EnvelopeAutoRelease" Type="bool" Value="True" />
-            <Property Name="EnvelopeDecayTime" Type="Real64" Value="0">
-              <RTPCList>
-                <RTPC Name="" ID="{6419132C-681A-4D0D-8B1B-38E7B6D01618}" ShortID="723971679">
-                  <ReferenceList>
-                    <Reference Name="ControlInput">
-                      <ObjectRef Name="RTPC_ext_objects_debrisAmount" ID="{476F4A12-1EF4-4189-AE85-74F5FA5F231A}" WorkUnitID="{24070570-E03E-401A-9914-3252EF7703D9}" />
-                    </Reference>
-                  </ReferenceList>
-                  <Curve Name="" ID="{A16FD9AA-C0B2-4264-877F-51701D578B89}">
-                    <PropertyList>
-                      <Property Name="Flags" Type="int32" Value="1" />
-                    </PropertyList>
-                    <PointList>
-                      <Point>
-                        <XPos>0</XPos>
-                        <YPos>0.1</YPos>
-                        <Flags>5</Flags>
-                      </Point>
-                      <Point>
-                        <XPos>100</XPos>
-                        <YPos>2.8</YPos>
-                        <Flags>37</Flags>
-                      </Point>
-                    </PointList>
-                  </Curve>
-                </RTPC>
-              </RTPCList>
-            </Property>
-            <Property Name="EnvelopeReleaseTime" Type="Real64" Value="0" />
-            <Property Name="EnvelopeSustainLevel" Type="Real64" Value="0" />
-          </PropertyList>
-        </ModulatorEnvelope>
-        <ModulatorEnvelope Name="obj_distr_stone_medium" ID="{E2180731-9C48-4749-84CF-E050B4B23236}" ShortID="86732697">
-          <Comment>The duration of debris is controoled by Decay Time value (in secs)</Comment>
-          <PropertyList>
-            <Property Name="EnvelopeAttackTime" Type="Real64" Value="0" />
-            <Property Name="EnvelopeAutoRelease" Type="bool" Value="True" />
-            <Property Name="EnvelopeDecayTime" Type="Real64" Value="0">
-              <RTPCList>
-                <RTPC Name="" ID="{DBA69D4D-2E4C-4FC6-8D30-B7919B8E180E}" ShortID="352082663">
-                  <ReferenceList>
-                    <Reference Name="ControlInput">
-                      <ObjectRef Name="RTPC_ext_objects_debrisAmount" ID="{476F4A12-1EF4-4189-AE85-74F5FA5F231A}" WorkUnitID="{24070570-E03E-401A-9914-3252EF7703D9}" />
-                    </Reference>
-                  </ReferenceList>
-                  <Curve Name="" ID="{280C6201-EC40-465E-9222-4B27BEDE1369}">
-                    <PropertyList>
-                      <Property Name="Flags" Type="int32" Value="1" />
-                    </PropertyList>
-                    <PointList>
-                      <Point>
-                        <XPos>0</XPos>
-                        <YPos>0.1</YPos>
-                        <Flags>5</Flags>
-                      </Point>
-                      <Point>
-                        <XPos>100</XPos>
-                        <YPos>2.8</YPos>
-                        <Flags>37</Flags>
-                      </Point>
-                    </PointList>
-                  </Curve>
-                </RTPC>
-              </RTPCList>
-            </Property>
-            <Property Name="EnvelopeReleaseTime" Type="Real64" Value="0" />
-            <Property Name="EnvelopeSustainLevel" Type="Real64" Value="0" />
-          </PropertyList>
-        </ModulatorEnvelope>
-        <ModulatorEnvelope Name="obj_distr_stone_large" ID="{B0DA5BF4-21B6-454D-B9F8-4A7396AEEFAD}" ShortID="378812737">
-          <Comment>The duration of debris is controoled by Decay Time value (in secs)</Comment>
-          <PropertyList>
-            <Property Name="EnvelopeAttackTime" Type="Real64" Value="0" />
-            <Property Name="EnvelopeAutoRelease" Type="bool" Value="True" />
-            <Property Name="EnvelopeDecayTime" Type="Real64" Value="0">
-              <RTPCList>
-                <RTPC Name="" ID="{742EC7AD-6CAC-4563-8EFC-DAAF1166350D}" ShortID="1035695276">
-                  <ReferenceList>
-                    <Reference Name="ControlInput">
-                      <ObjectRef Name="RTPC_ext_objects_debrisAmount" ID="{476F4A12-1EF4-4189-AE85-74F5FA5F231A}" WorkUnitID="{24070570-E03E-401A-9914-3252EF7703D9}" />
-                    </Reference>
-                  </ReferenceList>
-                  <Curve Name="" ID="{EF4BF6B7-2114-475C-B72B-6ED54654F3ED}">
-                    <PropertyList>
-                      <Property Name="Flags" Type="int32" Value="1" />
-                    </PropertyList>
-                    <PointList>
-                      <Point>
-                        <XPos>0</XPos>
-                        <YPos>0.1</YPos>
-                        <Flags>5</Flags>
-                      </Point>
-                      <Point>
-                        <XPos>100</XPos>
-                        <YPos>3</YPos>
-                        <Flags>37</Flags>
-                      </Point>
-                    </PointList>
-                  </Curve>
-                </RTPC>
-              </RTPCList>
-            </Property>
-            <Property Name="EnvelopeReleaseTime" Type="Real64" Value="0" />
-            <Property Name="EnvelopeSustainLevel" Type="Real64" Value="0" />
-          </PropertyList>
-        </ModulatorEnvelope>
-        <ModulatorEnvelope Name="obj_distr_stone_heavy" ID="{ADEBEF89-B7BE-4DE5-9962-5A5D681BA5B2}" ShortID="937109684">
-          <Comment>The duration of debris is controoled by Decay Time value (in secs)</Comment>
-          <PropertyList>
-            <Property Name="EnvelopeAttackTime" Type="Real64" Value="0" />
-            <Property Name="EnvelopeAutoRelease" Type="bool" Value="True" />
-            <Property Name="EnvelopeDecayTime" Type="Real64" Value="0">
-              <RTPCList>
-                <RTPC Name="" ID="{73B67B6D-0240-4B41-9718-D6DB005F8D27}" ShortID="580838785">
-                  <ReferenceList>
-                    <Reference Name="ControlInput">
-                      <ObjectRef Name="RTPC_ext_objects_debrisAmount" ID="{476F4A12-1EF4-4189-AE85-74F5FA5F231A}" WorkUnitID="{24070570-E03E-401A-9914-3252EF7703D9}" />
-                    </Reference>
-                  </ReferenceList>
-                  <Curve Name="" ID="{D9E135E7-1ED5-48A6-9C0E-B23BDEB95564}">
-                    <PropertyList>
-                      <Property Name="Flags" Type="int32" Value="1" />
-                    </PropertyList>
-                    <PointList>
-                      <Point>
-                        <XPos>0</XPos>
-                        <YPos>0.1</YPos>
-                        <Flags>5</Flags>
-                      </Point>
-                      <Point>
-                        <XPos>100</XPos>
-                        <YPos>4</YPos>
-                        <Flags>37</Flags>
-                      </Point>
-                    </PointList>
-                  </Curve>
-                </RTPC>
-              </RTPCList>
-            </Property>
-            <Property Name="EnvelopeReleaseTime" Type="Real64" Value="0" />
-            <Property Name="EnvelopeSustainLevel" Type="Real64" Value="0" />
-          </PropertyList>
-        </ModulatorEnvelope>
-        <ModulatorEnvelope Name="obj_distr_metal_small" ID="{7D45AFC2-9624-40FD-86F6-49490D31DFCD}" ShortID="232805753">
-          <Comment>The duration of debris is controoled by Decay Time value (in secs)</Comment>
-          <PropertyList>
-            <Property Name="EnvelopeAttackTime" Type="Real64" Value="0" />
-            <Property Name="EnvelopeAutoRelease" Type="bool" Value="True" />
-            <Property Name="EnvelopeDecayTime" Type="Real64" Value="0">
-              <RTPCList>
-                <RTPC Name="" ID="{219D2117-8CBC-4FE4-8B57-CFC9C6E55111}" ShortID="409057932">
-                  <ReferenceList>
-                    <Reference Name="ControlInput">
-                      <ObjectRef Name="RTPC_ext_objects_debrisAmount" ID="{476F4A12-1EF4-4189-AE85-74F5FA5F231A}" WorkUnitID="{24070570-E03E-401A-9914-3252EF7703D9}" />
-                    </Reference>
-                  </ReferenceList>
-                  <Curve Name="" ID="{F56CDC63-782B-412B-811C-3284DC66418F}">
-                    <PropertyList>
-                      <Property Name="Flags" Type="int32" Value="1" />
-                    </PropertyList>
-                    <PointList>
-                      <Point>
-                        <XPos>0</XPos>
-                        <YPos>0.1</YPos>
-                        <Flags>5</Flags>
-                      </Point>
-                      <Point>
-                        <XPos>100</XPos>
-                        <YPos>2.8</YPos>
-                        <Flags>37</Flags>
-                      </Point>
-                    </PointList>
-                  </Curve>
-                </RTPC>
-              </RTPCList>
-            </Property>
-            <Property Name="EnvelopeReleaseTime" Type="Real64" Value="0" />
-            <Property Name="EnvelopeSustainLevel" Type="Real64" Value="0" />
-          </PropertyList>
-        </ModulatorEnvelope>
-        <ModulatorEnvelope Name="obj_distr_metal_medium" ID="{BF48A731-F08C-40F0-A192-B0AC003F580D}" ShortID="433034870">
-          <Comment>The duration of debris is controoled by Decay Time value (in secs)</Comment>
-          <PropertyList>
-            <Property Name="EnvelopeAttackTime" Type="Real64" Value="0" />
-            <Property Name="EnvelopeAutoRelease" Type="bool" Value="True" />
-            <Property Name="EnvelopeDecayTime" Type="Real64" Value="0">
-              <RTPCList>
-                <RTPC Name="" ID="{B7BFB43D-209C-4449-A757-A74141F2151B}" ShortID="263521687">
-                  <ReferenceList>
-                    <Reference Name="ControlInput">
-                      <ObjectRef Name="RTPC_ext_objects_debrisAmount" ID="{476F4A12-1EF4-4189-AE85-74F5FA5F231A}" WorkUnitID="{24070570-E03E-401A-9914-3252EF7703D9}" />
-                    </Reference>
-                  </ReferenceList>
-                  <Curve Name="" ID="{6B584ABB-357B-40E1-A2AE-FBC944AA0D38}">
-                    <PropertyList>
-                      <Property Name="Flags" Type="int32" Value="1" />
-                    </PropertyList>
-                    <PointList>
-                      <Point>
-                        <XPos>0</XPos>
-                        <YPos>0.1</YPos>
-                        <Flags>5</Flags>
-                      </Point>
-                      <Point>
-                        <XPos>100</XPos>
-                        <YPos>3</YPos>
-                        <Flags>37</Flags>
-                      </Point>
-                    </PointList>
-                  </Curve>
-                </RTPC>
-              </RTPCList>
-            </Property>
-            <Property Name="EnvelopeReleaseTime" Type="Real64" Value="0" />
-            <Property Name="EnvelopeSustainLevel" Type="Real64" Value="0" />
-          </PropertyList>
-        </ModulatorEnvelope>
-        <ModulatorEnvelope Name="obj_distr_metal_large" ID="{F98ECCE4-D9B3-4E32-8C2C-1BCDA658B624}" ShortID="350032448">
-          <Comment>The duration of debris is controoled by Decay Time value (in secs)</Comment>
-          <PropertyList>
-            <Property Name="EnvelopeAttackTime" Type="Real64" Value="0" />
-            <Property Name="EnvelopeAutoRelease" Type="bool" Value="True" />
-            <Property Name="EnvelopeDecayTime" Type="Real64" Value="0">
-              <RTPCList>
-                <RTPC Name="" ID="{B389F2E8-CA38-45C4-8918-D48A6CC421C7}" ShortID="896770826">
-                  <ReferenceList>
-                    <Reference Name="ControlInput">
-                      <ObjectRef Name="RTPC_ext_objects_debrisAmount" ID="{476F4A12-1EF4-4189-AE85-74F5FA5F231A}" WorkUnitID="{24070570-E03E-401A-9914-3252EF7703D9}" />
-                    </Reference>
-                  </ReferenceList>
-                  <Curve Name="" ID="{661C67D5-6FB8-4931-B8F0-C81D14DE44ED}">
-                    <PropertyList>
-                      <Property Name="Flags" Type="int32" Value="1" />
-                    </PropertyList>
-                    <PointList>
-                      <Point>
-                        <XPos>0</XPos>
-                        <YPos>0.1</YPos>
-                        <Flags>5</Flags>
-                      </Point>
-                      <Point>
-                        <XPos>100</XPos>
-                        <YPos>3</YPos>
-                        <Flags>37</Flags>
-                      </Point>
-                    </PointList>
-                  </Curve>
-                </RTPC>
-              </RTPCList>
-            </Property>
-            <Property Name="EnvelopeReleaseTime" Type="Real64" Value="0" />
-            <Property Name="EnvelopeSustainLevel" Type="Real64" Value="0" />
-          </PropertyList>
-        </ModulatorEnvelope>
-        <ModulatorEnvelope Name="obj_distr_metal_heavy" ID="{3A1A9FAE-06AD-459C-94EA-057D49EE5D6C}" ShortID="10876667">
-          <Comment>The duration of debris is controoled by Decay Time value (in secs)</Comment>
-          <PropertyList>
-            <Property Name="EnvelopeAttackTime" Type="Real64" Value="0" />
-            <Property Name="EnvelopeAutoRelease" Type="bool" Value="True" />
-            <Property Name="EnvelopeDecayTime" Type="Real64" Value="0">
-              <RTPCList>
-                <RTPC Name="" ID="{1A497FBB-89D2-4966-8CD9-3937B5FA24C1}" ShortID="423813137">
-                  <ReferenceList>
-                    <Reference Name="ControlInput">
-                      <ObjectRef Name="RTPC_ext_objects_debrisAmount" ID="{476F4A12-1EF4-4189-AE85-74F5FA5F231A}" WorkUnitID="{24070570-E03E-401A-9914-3252EF7703D9}" />
-                    </Reference>
-                  </ReferenceList>
-                  <Curve Name="" ID="{EA19C448-914D-4AF3-8344-1667BD240630}">
-                    <PropertyList>
-                      <Property Name="Flags" Type="int32" Value="1" />
-                    </PropertyList>
-                    <PointList>
-                      <Point>
-                        <XPos>0</XPos>
-                        <YPos>0.1</YPos>
-                        <Flags>5</Flags>
-                      </Point>
-                      <Point>
-                        <XPos>100</XPos>
-                        <YPos>4</YPos>
-                        <Flags>37</Flags>
-                      </Point>
-                    </PointList>
-                  </Curve>
-                </RTPC>
-              </RTPCList>
-            </Property>
-            <Property Name="EnvelopeReleaseTime" Type="Real64" Value="0" />
-            <Property Name="EnvelopeSustainLevel" Type="Real64" Value="0" />
-          </PropertyList>
-        </ModulatorEnvelope>
-        <ModulatorEnvelope Name="obj_distr_glass_small" ID="{94E6C9BE-08F6-4458-846C-2A000AF4D801}" ShortID="634575095">
-          <Comment>The duration of debris is controoled by Decay Time value (in secs)</Comment>
-          <PropertyList>
-            <Property Name="EnvelopeAttackTime" Type="Real64" Value="0" />
-            <Property Name="EnvelopeAutoRelease" Type="bool" Value="True" />
-            <Property Name="EnvelopeDecayTime" Type="Real64" Value="0">
-              <RTPCList>
-                <RTPC Name="" ID="{7AA527E1-8E4C-41CA-B557-3A964419F552}" ShortID="695797106">
-                  <ReferenceList>
-                    <Reference Name="ControlInput">
-                      <ObjectRef Name="RTPC_ext_objects_debrisAmount" ID="{476F4A12-1EF4-4189-AE85-74F5FA5F231A}" WorkUnitID="{24070570-E03E-401A-9914-3252EF7703D9}" />
-                    </Reference>
-                  </ReferenceList>
-                  <Curve Name="" ID="{72CC56D2-3532-42F9-B931-7D0ED15CA0A1}">
-                    <PropertyList>
-                      <Property Name="Flags" Type="int32" Value="1" />
-                    </PropertyList>
-                    <PointList>
-                      <Point>
-                        <XPos>0</XPos>
-                        <YPos>0.1</YPos>
-                        <Flags>5</Flags>
-                      </Point>
-                      <Point>
-                        <XPos>100</XPos>
-                        <YPos>2.8</YPos>
-                        <Flags>37</Flags>
-                      </Point>
-                    </PointList>
-                  </Curve>
-                </RTPC>
-              </RTPCList>
-            </Property>
-            <Property Name="EnvelopeReleaseTime" Type="Real64" Value="0" />
-            <Property Name="EnvelopeSustainLevel" Type="Real64" Value="0" />
-          </PropertyList>
-        </ModulatorEnvelope>
-        <ModulatorEnvelope Name="obj_distr_glass_medium" ID="{6762C056-CA72-48B3-BF93-32A31EE921EB}" ShortID="53874086">
-          <Comment>The duration of debris is controoled by Decay Time value (in secs)</Comment>
-          <PropertyList>
-            <Property Name="EnvelopeAttackTime" Type="Real64" Value="0" />
-            <Property Name="EnvelopeAutoRelease" Type="bool" Value="True" />
-            <Property Name="EnvelopeDecayTime" Type="Real64" Value="0">
-              <RTPCList>
-                <RTPC Name="" ID="{ED9AE674-DEDD-4C92-AED2-E84803BB06F2}" ShortID="452887200">
-                  <ReferenceList>
-                    <Reference Name="ControlInput">
-                      <ObjectRef Name="RTPC_ext_objects_debrisAmount" ID="{476F4A12-1EF4-4189-AE85-74F5FA5F231A}" WorkUnitID="{24070570-E03E-401A-9914-3252EF7703D9}" />
-                    </Reference>
-                  </ReferenceList>
-                  <Curve Name="" ID="{C6CCE91E-CB8C-44C4-8C16-59D3E5CFE83B}">
-                    <PropertyList>
-                      <Property Name="Flags" Type="int32" Value="1" />
-                    </PropertyList>
-                    <PointList>
-                      <Point>
-                        <XPos>0</XPos>
-                        <YPos>0.1</YPos>
-                        <Flags>5</Flags>
-                      </Point>
-                      <Point>
-                        <XPos>100</XPos>
-                        <YPos>2.5</YPos>
-                        <Flags>37</Flags>
-                      </Point>
-                    </PointList>
-                  </Curve>
-                </RTPC>
-              </RTPCList>
-            </Property>
-            <Property Name="EnvelopeReleaseTime" Type="Real64" Value="0" />
-            <Property Name="EnvelopeSustainLevel" Type="Real64" Value="0" />
-          </PropertyList>
-        </ModulatorEnvelope>
-        <ModulatorEnvelope Name="obj_distr_glass_large" ID="{D79A11CD-2AAA-4357-A927-240CAB191A72}" ShortID="733453366">
-          <Comment>The duration of debris is controoled by Decay Time value (in secs)</Comment>
-          <PropertyList>
-            <Property Name="EnvelopeAttackTime" Type="Real64" Value="0" />
-            <Property Name="EnvelopeAutoRelease" Type="bool" Value="True" />
-            <Property Name="EnvelopeDecayTime" Type="Real64" Value="0">
-              <RTPCList>
-                <RTPC Name="" ID="{5862F992-4982-42D8-8061-58F325D11286}" ShortID="687790542">
-                  <ReferenceList>
-                    <Reference Name="ControlInput">
-                      <ObjectRef Name="RTPC_ext_objects_debrisAmount" ID="{476F4A12-1EF4-4189-AE85-74F5FA5F231A}" WorkUnitID="{24070570-E03E-401A-9914-3252EF7703D9}" />
-                    </Reference>
-                  </ReferenceList>
-                  <Curve Name="" ID="{711610C9-731D-43BE-B69C-7C41C57F80AD}">
-                    <PropertyList>
-                      <Property Name="Flags" Type="int32" Value="1" />
-                    </PropertyList>
-                    <PointList>
-                      <Point>
-                        <XPos>0</XPos>
-                        <YPos>0.1</YPos>
-                        <Flags>5</Flags>
-                      </Point>
-                      <Point>
-                        <XPos>100</XPos>
-                        <YPos>3</YPos>
-                        <Flags>37</Flags>
-                      </Point>
-                    </PointList>
-                  </Curve>
-                </RTPC>
-              </RTPCList>
-            </Property>
-            <Property Name="EnvelopeReleaseTime" Type="Real64" Value="0" />
-            <Property Name="EnvelopeSustainLevel" Type="Real64" Value="0" />
-          </PropertyList>
-        </ModulatorEnvelope>
-        <ModulatorEnvelope Name="obj_distr_glass_heavy" ID="{778B2FBA-0FAB-4347-8E6E-7881314E8412}" ShortID="1065262671">
-          <Comment>The duration of debris is controoled by Decay Time value (in secs)</Comment>
-          <PropertyList>
-            <Property Name="EnvelopeAttackTime" Type="Real64" Value="0" />
-            <Property Name="EnvelopeAutoRelease" Type="bool" Value="True" />
-            <Property Name="EnvelopeDecayTime" Type="Real64" Value="0">
-              <RTPCList>
-                <RTPC Name="" ID="{181A7F08-BCD9-4010-BA0C-BCFFCBF9E210}" ShortID="323425238">
-                  <ReferenceList>
-                    <Reference Name="ControlInput">
-                      <ObjectRef Name="RTPC_ext_objects_debrisAmount" ID="{476F4A12-1EF4-4189-AE85-74F5FA5F231A}" WorkUnitID="{24070570-E03E-401A-9914-3252EF7703D9}" />
-                    </Reference>
-                  </ReferenceList>
-                  <Curve Name="" ID="{DAB7B5C5-D256-4BFC-85B2-B35AF722F977}">
-                    <PropertyList>
-                      <Property Name="Flags" Type="int32" Value="1" />
-                    </PropertyList>
-                    <PointList>
-                      <Point>
-                        <XPos>0</XPos>
-                        <YPos>0.1</YPos>
-                        <Flags>5</Flags>
-                      </Point>
-                      <Point>
-                        <XPos>100</XPos>
-                        <YPos>4</YPos>
-                        <Flags>37</Flags>
-                      </Point>
-                    </PointList>
-                  </Curve>
-                </RTPC>
-              </RTPCList>
-            </Property>
-            <Property Name="EnvelopeReleaseTime" Type="Real64" Value="0" />
-            <Property Name="EnvelopeSustainLevel" Type="Real64" Value="0" />
-          </PropertyList>
-        </ModulatorEnvelope>
-        <ModulatorEnvelope Name="obj_distr_cloth_small" ID="{4E9E805D-59B8-4E0F-AE0E-5861B8010175}" ShortID="637698981">
-          <Comment>The duration of debris is controoled by Decay Time value (in secs)</Comment>
-          <PropertyList>
-            <Property Name="EnvelopeAttackTime" Type="Real64" Value="0" />
-            <Property Name="EnvelopeAutoRelease" Type="bool" Value="True" />
-            <Property Name="EnvelopeDecayTime" Type="Real64" Value="0">
-              <RTPCList>
-                <RTPC Name="" ID="{F1DC0797-1E22-47AF-861A-4C9FA0F58B8B}" ShortID="666796822">
-                  <ReferenceList>
-                    <Reference Name="ControlInput">
-                      <ObjectRef Name="RTPC_ext_objects_debrisAmount" ID="{476F4A12-1EF4-4189-AE85-74F5FA5F231A}" WorkUnitID="{24070570-E03E-401A-9914-3252EF7703D9}" />
-                    </Reference>
-                  </ReferenceList>
-                  <Curve Name="" ID="{EFC8B3E9-CD9F-498B-AF7E-34E716860D98}">
-                    <PropertyList>
-                      <Property Name="Flags" Type="int32" Value="1" />
-                    </PropertyList>
-                    <PointList>
-                      <Point>
-                        <XPos>0</XPos>
-                        <YPos>0.1</YPos>
-                        <Flags>5</Flags>
-                      </Point>
-                      <Point>
-                        <XPos>100</XPos>
-                        <YPos>1.8</YPos>
-                        <Flags>37</Flags>
-                      </Point>
-                    </PointList>
-                  </Curve>
-                </RTPC>
-              </RTPCList>
-            </Property>
-            <Property Name="EnvelopeReleaseTime" Type="Real64" Value="0" />
-            <Property Name="EnvelopeSustainLevel" Type="Real64" Value="0" />
-          </PropertyList>
-        </ModulatorEnvelope>
-        <ModulatorEnvelope Name="obj_distr_cloth_medium" ID="{4C3BE2F7-3155-4A51-A199-56E44D18F1B4}" ShortID="581393533">
-          <Comment>The duration of debris is controoled by Decay Time value (in secs)</Comment>
-          <PropertyList>
-            <Property Name="EnvelopeAttackTime" Type="Real64" Value="0" />
-            <Property Name="EnvelopeAutoRelease" Type="bool" Value="True" />
-            <Property Name="EnvelopeDecayTime" Type="Real64" Value="0">
-              <RTPCList>
-                <RTPC Name="" ID="{B177BFD1-D41E-45E0-B9E3-4C34307359EB}" ShortID="1001822141">
-                  <ReferenceList>
-                    <Reference Name="ControlInput">
-                      <ObjectRef Name="RTPC_ext_objects_debrisAmount" ID="{476F4A12-1EF4-4189-AE85-74F5FA5F231A}" WorkUnitID="{24070570-E03E-401A-9914-3252EF7703D9}" />
-                    </Reference>
-                  </ReferenceList>
-                  <Curve Name="" ID="{75931E4D-2147-44EF-A7FC-E797852E4D28}">
-                    <PropertyList>
-                      <Property Name="Flags" Type="int32" Value="1" />
-                    </PropertyList>
-                    <PointList>
-                      <Point>
-                        <XPos>0</XPos>
-                        <YPos>0.1</YPos>
-                        <Flags>5</Flags>
-                      </Point>
-                      <Point>
-                        <XPos>100</XPos>
-                        <YPos>2</YPos>
-                        <Flags>37</Flags>
-                      </Point>
-                    </PointList>
-                  </Curve>
-                </RTPC>
-              </RTPCList>
-            </Property>
-            <Property Name="EnvelopeReleaseTime" Type="Real64" Value="0" />
-            <Property Name="EnvelopeSustainLevel" Type="Real64" Value="0" />
-          </PropertyList>
-        </ModulatorEnvelope>
-        <ModulatorEnvelope Name="obj_distr_cloth_large" ID="{FC88A11D-0464-4493-A4ED-20ECDFA86D3A}" ShortID="487597981">
-          <Comment>The duration of debris is controoled by Decay Time value (in secs)</Comment>
-          <PropertyList>
-            <Property Name="EnvelopeAttackTime" Type="Real64" Value="0" />
-            <Property Name="EnvelopeAutoRelease" Type="bool" Value="True" />
-            <Property Name="EnvelopeDecayTime" Type="Real64" Value="0">
-              <RTPCList>
-                <RTPC Name="" ID="{AB8B6837-15D2-4C50-9D21-0FD655018C04}" ShortID="1022568911">
-                  <ReferenceList>
-                    <Reference Name="ControlInput">
-                      <ObjectRef Name="RTPC_ext_objects_debrisAmount" ID="{476F4A12-1EF4-4189-AE85-74F5FA5F231A}" WorkUnitID="{24070570-E03E-401A-9914-3252EF7703D9}" />
-                    </Reference>
-                  </ReferenceList>
-                  <Curve Name="" ID="{18BDA183-E706-43C8-9F81-37A3C3FB01DC}">
-                    <PropertyList>
-                      <Property Name="Flags" Type="int32" Value="1" />
-                    </PropertyList>
-                    <PointList>
-                      <Point>
-                        <XPos>0</XPos>
-                        <YPos>0.1</YPos>
-                        <Flags>5</Flags>
-                      </Point>
-                      <Point>
-                        <XPos>100</XPos>
-                        <YPos>2.5</YPos>
-                        <Flags>37</Flags>
-                      </Point>
-                    </PointList>
-                  </Curve>
-                </RTPC>
-              </RTPCList>
-            </Property>
-            <Property Name="EnvelopeReleaseTime" Type="Real64" Value="0" />
-            <Property Name="EnvelopeSustainLevel" Type="Real64" Value="0" />
-          </PropertyList>
-        </ModulatorEnvelope>
-        <ModulatorEnvelope Name="obj_distr_cloth_heavy" ID="{8E738F77-CD0E-4967-B1B2-EAECCBE12408}" ShortID="639277268">
-          <Comment>The duration of debris is controoled by Decay Time value (in secs)</Comment>
-          <PropertyList>
-            <Property Name="EnvelopeAttackTime" Type="Real64" Value="0" />
-            <Property Name="EnvelopeAutoRelease" Type="bool" Value="True" />
-            <Property Name="EnvelopeDecayTime" Type="Real64" Value="0">
-              <RTPCList>
-                <RTPC Name="" ID="{348F2D6E-5602-4347-867F-7C68C3409C11}" ShortID="716219061">
-                  <ReferenceList>
-                    <Reference Name="ControlInput">
-                      <ObjectRef Name="RTPC_ext_objects_debrisAmount" ID="{476F4A12-1EF4-4189-AE85-74F5FA5F231A}" WorkUnitID="{24070570-E03E-401A-9914-3252EF7703D9}" />
-                    </Reference>
-                  </ReferenceList>
-                  <Curve Name="" ID="{9BBEE6C2-A72D-48F9-895C-986C7062358D}">
-                    <PropertyList>
-                      <Property Name="Flags" Type="int32" Value="1" />
-                    </PropertyList>
-                    <PointList>
-                      <Point>
-                        <XPos>0</XPos>
-                        <YPos>0.1</YPos>
-                        <Flags>5</Flags>
-                      </Point>
-                      <Point>
-                        <XPos>100</XPos>
-                        <YPos>3</YPos>
-                        <Flags>37</Flags>
-                      </Point>
-                    </PointList>
-                  </Curve>
-                </RTPC>
-              </RTPCList>
-            </Property>
-            <Property Name="EnvelopeReleaseTime" Type="Real64" Value="0" />
-            <Property Name="EnvelopeSustainLevel" Type="Real64" Value="0" />
-          </PropertyList>
-        </ModulatorEnvelope>
-      </ChildrenList>
-    </WorkUnit>
-  </Modulators>
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3E06EC61-2AFE-4EF0-A281-63208A81131D}" SchemaVersion="97">
+	<Modulators>
+		<WorkUnit Name="Objects" ID="{3E06EC61-2AFE-4EF0-A281-63208A81131D}" PersistMode="Standalone">
+			<ChildrenList>
+				<ModulatorEnvelope Name="obj_distr_wood_small" ID="{D0AD2191-B589-438E-A1BA-62CC9A48F7AE}" ShortID="899940306">
+					<Comment>The duration of debris is controoled by Decay Time value (in secs)</Comment>
+					<PropertyList>
+						<Property Name="EnvelopeAttackTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeAutoRelease" Type="bool" Value="True"/>
+						<Property Name="EnvelopeDecayTime" Type="Real64" Value="0">
+							<RTPCList>
+								<RTPC Name="" ID="{EA54283E-CDD7-4223-B724-1C0E705033E1}" ShortID="900373265">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_ext_objects_debrisAmount" ID="{476F4A12-1EF4-4189-AE85-74F5FA5F231A}" WorkUnitID="{24070570-E03E-401A-9914-3252EF7703D9}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{49592ED5-99BD-483C-809B-CB4E9BAC8605}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0.1</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>2.5</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeSustainLevel" Type="Real64" Value="0"/>
+					</PropertyList>
+				</ModulatorEnvelope>
+				<ModulatorEnvelope Name="obj_distr_wood_medium" ID="{0D192392-9A9C-45D7-B7FC-4D4C1FF9DE0A}" ShortID="980293520">
+					<Comment>The duration of debris is controoled by Decay Time value (in secs)</Comment>
+					<PropertyList>
+						<Property Name="EnvelopeAttackTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeAutoRelease" Type="bool" Value="True"/>
+						<Property Name="EnvelopeDecayTime" Type="Real64" Value="0">
+							<RTPCList>
+								<RTPC Name="" ID="{26154EF0-7CC1-4D50-9CD6-94B367D2EA98}" ShortID="22645075">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_ext_objects_debrisAmount" ID="{476F4A12-1EF4-4189-AE85-74F5FA5F231A}" WorkUnitID="{24070570-E03E-401A-9914-3252EF7703D9}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{2B938728-CFBB-4D04-B5D2-45E7D1E588C0}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0.1</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>2.5</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeSustainLevel" Type="Real64" Value="0"/>
+					</PropertyList>
+				</ModulatorEnvelope>
+				<ModulatorEnvelope Name="obj_distr_wood_large" ID="{CF05E8E2-97AC-4E8B-B0BA-F7FB777D47CC}" ShortID="315694189">
+					<Comment>The duration of debris is controoled by Decay Time value (in secs)</Comment>
+					<PropertyList>
+						<Property Name="EnvelopeAttackTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeAutoRelease" Type="bool" Value="True"/>
+						<Property Name="EnvelopeDecayTime" Type="Real64" Value="0">
+							<RTPCList>
+								<RTPC Name="" ID="{F3566333-7CD7-46FA-AA5F-C72E8CB3A6AC}" ShortID="752672547">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_ext_objects_debrisAmount" ID="{476F4A12-1EF4-4189-AE85-74F5FA5F231A}" WorkUnitID="{24070570-E03E-401A-9914-3252EF7703D9}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{4C6D893A-2C89-4F55-9F99-26E89D1FE8D1}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0.1</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>3</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeSustainLevel" Type="Real64" Value="0"/>
+					</PropertyList>
+				</ModulatorEnvelope>
+				<ModulatorEnvelope Name="obj_distr_wood_heavy" ID="{77F6DCCE-3EE8-4DEA-86F5-E91365CFB2F3}" ShortID="1005885349">
+					<Comment>The duration of debris is controoled by Decay Time value (in secs)</Comment>
+					<PropertyList>
+						<Property Name="EnvelopeAttackTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeAutoRelease" Type="bool" Value="True"/>
+						<Property Name="EnvelopeDecayTime" Type="Real64" Value="0">
+							<RTPCList>
+								<RTPC Name="" ID="{DD8CB101-2D97-4C9B-BA1A-5B903F6AD6B6}" ShortID="64279683">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_ext_objects_debrisAmount" ID="{476F4A12-1EF4-4189-AE85-74F5FA5F231A}" WorkUnitID="{24070570-E03E-401A-9914-3252EF7703D9}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{46E91848-F94A-4A25-9A41-3FC80C451C5F}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0.1</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>4</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeSustainLevel" Type="Real64" Value="0"/>
+					</PropertyList>
+				</ModulatorEnvelope>
+				<ModulatorEnvelope Name="obj_distr_stone_small" ID="{72593BA7-86BC-4409-B0DF-E11A5C56896B}" ShortID="778445610">
+					<Comment>The duration of debris is controoled by Decay Time value (in secs)</Comment>
+					<PropertyList>
+						<Property Name="EnvelopeAttackTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeAutoRelease" Type="bool" Value="True"/>
+						<Property Name="EnvelopeDecayTime" Type="Real64" Value="0">
+							<RTPCList>
+								<RTPC Name="" ID="{6419132C-681A-4D0D-8B1B-38E7B6D01618}" ShortID="723971679">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_ext_objects_debrisAmount" ID="{476F4A12-1EF4-4189-AE85-74F5FA5F231A}" WorkUnitID="{24070570-E03E-401A-9914-3252EF7703D9}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{A16FD9AA-C0B2-4264-877F-51701D578B89}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0.1</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>2.8</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeSustainLevel" Type="Real64" Value="0"/>
+					</PropertyList>
+				</ModulatorEnvelope>
+				<ModulatorEnvelope Name="obj_distr_stone_medium" ID="{E2180731-9C48-4749-84CF-E050B4B23236}" ShortID="86732697">
+					<Comment>The duration of debris is controoled by Decay Time value (in secs)</Comment>
+					<PropertyList>
+						<Property Name="EnvelopeAttackTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeAutoRelease" Type="bool" Value="True"/>
+						<Property Name="EnvelopeDecayTime" Type="Real64" Value="0">
+							<RTPCList>
+								<RTPC Name="" ID="{DBA69D4D-2E4C-4FC6-8D30-B7919B8E180E}" ShortID="352082663">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_ext_objects_debrisAmount" ID="{476F4A12-1EF4-4189-AE85-74F5FA5F231A}" WorkUnitID="{24070570-E03E-401A-9914-3252EF7703D9}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{280C6201-EC40-465E-9222-4B27BEDE1369}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0.1</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>2.8</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeSustainLevel" Type="Real64" Value="0"/>
+					</PropertyList>
+				</ModulatorEnvelope>
+				<ModulatorEnvelope Name="obj_distr_stone_large" ID="{B0DA5BF4-21B6-454D-B9F8-4A7396AEEFAD}" ShortID="378812737">
+					<Comment>The duration of debris is controoled by Decay Time value (in secs)</Comment>
+					<PropertyList>
+						<Property Name="EnvelopeAttackTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeAutoRelease" Type="bool" Value="True"/>
+						<Property Name="EnvelopeDecayTime" Type="Real64" Value="0">
+							<RTPCList>
+								<RTPC Name="" ID="{742EC7AD-6CAC-4563-8EFC-DAAF1166350D}" ShortID="1035695276">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_ext_objects_debrisAmount" ID="{476F4A12-1EF4-4189-AE85-74F5FA5F231A}" WorkUnitID="{24070570-E03E-401A-9914-3252EF7703D9}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{EF4BF6B7-2114-475C-B72B-6ED54654F3ED}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0.1</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>3</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeSustainLevel" Type="Real64" Value="0"/>
+					</PropertyList>
+				</ModulatorEnvelope>
+				<ModulatorEnvelope Name="obj_distr_stone_heavy" ID="{ADEBEF89-B7BE-4DE5-9962-5A5D681BA5B2}" ShortID="937109684">
+					<Comment>The duration of debris is controoled by Decay Time value (in secs)</Comment>
+					<PropertyList>
+						<Property Name="EnvelopeAttackTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeAutoRelease" Type="bool" Value="True"/>
+						<Property Name="EnvelopeDecayTime" Type="Real64" Value="0">
+							<RTPCList>
+								<RTPC Name="" ID="{73B67B6D-0240-4B41-9718-D6DB005F8D27}" ShortID="580838785">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_ext_objects_debrisAmount" ID="{476F4A12-1EF4-4189-AE85-74F5FA5F231A}" WorkUnitID="{24070570-E03E-401A-9914-3252EF7703D9}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{D9E135E7-1ED5-48A6-9C0E-B23BDEB95564}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0.1</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>4</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeSustainLevel" Type="Real64" Value="0"/>
+					</PropertyList>
+				</ModulatorEnvelope>
+				<ModulatorEnvelope Name="obj_distr_metal_small" ID="{7D45AFC2-9624-40FD-86F6-49490D31DFCD}" ShortID="232805753">
+					<Comment>The duration of debris is controoled by Decay Time value (in secs)</Comment>
+					<PropertyList>
+						<Property Name="EnvelopeAttackTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeAutoRelease" Type="bool" Value="True"/>
+						<Property Name="EnvelopeDecayTime" Type="Real64" Value="0">
+							<RTPCList>
+								<RTPC Name="" ID="{219D2117-8CBC-4FE4-8B57-CFC9C6E55111}" ShortID="409057932">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_ext_objects_debrisAmount" ID="{476F4A12-1EF4-4189-AE85-74F5FA5F231A}" WorkUnitID="{24070570-E03E-401A-9914-3252EF7703D9}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{F56CDC63-782B-412B-811C-3284DC66418F}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0.1</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>2.8</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeSustainLevel" Type="Real64" Value="0"/>
+					</PropertyList>
+				</ModulatorEnvelope>
+				<ModulatorEnvelope Name="obj_distr_metal_medium" ID="{BF48A731-F08C-40F0-A192-B0AC003F580D}" ShortID="433034870">
+					<Comment>The duration of debris is controoled by Decay Time value (in secs)</Comment>
+					<PropertyList>
+						<Property Name="EnvelopeAttackTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeAutoRelease" Type="bool" Value="True"/>
+						<Property Name="EnvelopeDecayTime" Type="Real64" Value="0">
+							<RTPCList>
+								<RTPC Name="" ID="{B7BFB43D-209C-4449-A757-A74141F2151B}" ShortID="263521687">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_ext_objects_debrisAmount" ID="{476F4A12-1EF4-4189-AE85-74F5FA5F231A}" WorkUnitID="{24070570-E03E-401A-9914-3252EF7703D9}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{6B584ABB-357B-40E1-A2AE-FBC944AA0D38}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0.1</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>3</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeSustainLevel" Type="Real64" Value="0"/>
+					</PropertyList>
+				</ModulatorEnvelope>
+				<ModulatorEnvelope Name="obj_distr_metal_large" ID="{F98ECCE4-D9B3-4E32-8C2C-1BCDA658B624}" ShortID="350032448">
+					<Comment>The duration of debris is controoled by Decay Time value (in secs)</Comment>
+					<PropertyList>
+						<Property Name="EnvelopeAttackTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeAutoRelease" Type="bool" Value="True"/>
+						<Property Name="EnvelopeDecayTime" Type="Real64" Value="0">
+							<RTPCList>
+								<RTPC Name="" ID="{B389F2E8-CA38-45C4-8918-D48A6CC421C7}" ShortID="896770826">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_ext_objects_debrisAmount" ID="{476F4A12-1EF4-4189-AE85-74F5FA5F231A}" WorkUnitID="{24070570-E03E-401A-9914-3252EF7703D9}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{661C67D5-6FB8-4931-B8F0-C81D14DE44ED}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0.1</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>3</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeSustainLevel" Type="Real64" Value="0"/>
+					</PropertyList>
+				</ModulatorEnvelope>
+				<ModulatorEnvelope Name="obj_distr_metal_heavy" ID="{3A1A9FAE-06AD-459C-94EA-057D49EE5D6C}" ShortID="10876667">
+					<Comment>The duration of debris is controoled by Decay Time value (in secs)</Comment>
+					<PropertyList>
+						<Property Name="EnvelopeAttackTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeAutoRelease" Type="bool" Value="True"/>
+						<Property Name="EnvelopeDecayTime" Type="Real64" Value="0">
+							<RTPCList>
+								<RTPC Name="" ID="{1A497FBB-89D2-4966-8CD9-3937B5FA24C1}" ShortID="423813137">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_ext_objects_debrisAmount" ID="{476F4A12-1EF4-4189-AE85-74F5FA5F231A}" WorkUnitID="{24070570-E03E-401A-9914-3252EF7703D9}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{EA19C448-914D-4AF3-8344-1667BD240630}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0.1</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>4</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeSustainLevel" Type="Real64" Value="0"/>
+					</PropertyList>
+				</ModulatorEnvelope>
+				<ModulatorEnvelope Name="obj_distr_glass_small" ID="{94E6C9BE-08F6-4458-846C-2A000AF4D801}" ShortID="634575095">
+					<Comment>The duration of debris is controoled by Decay Time value (in secs)</Comment>
+					<PropertyList>
+						<Property Name="EnvelopeAttackTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeAutoRelease" Type="bool" Value="True"/>
+						<Property Name="EnvelopeDecayTime" Type="Real64" Value="0">
+							<RTPCList>
+								<RTPC Name="" ID="{7AA527E1-8E4C-41CA-B557-3A964419F552}" ShortID="695797106">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_ext_objects_debrisAmount" ID="{476F4A12-1EF4-4189-AE85-74F5FA5F231A}" WorkUnitID="{24070570-E03E-401A-9914-3252EF7703D9}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{72CC56D2-3532-42F9-B931-7D0ED15CA0A1}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0.1</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>2.8</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeSustainLevel" Type="Real64" Value="0"/>
+					</PropertyList>
+				</ModulatorEnvelope>
+				<ModulatorEnvelope Name="obj_distr_glass_medium" ID="{6762C056-CA72-48B3-BF93-32A31EE921EB}" ShortID="53874086">
+					<Comment>The duration of debris is controoled by Decay Time value (in secs)</Comment>
+					<PropertyList>
+						<Property Name="EnvelopeAttackTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeAutoRelease" Type="bool" Value="True"/>
+						<Property Name="EnvelopeDecayTime" Type="Real64" Value="0">
+							<RTPCList>
+								<RTPC Name="" ID="{ED9AE674-DEDD-4C92-AED2-E84803BB06F2}" ShortID="452887200">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_ext_objects_debrisAmount" ID="{476F4A12-1EF4-4189-AE85-74F5FA5F231A}" WorkUnitID="{24070570-E03E-401A-9914-3252EF7703D9}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{C6CCE91E-CB8C-44C4-8C16-59D3E5CFE83B}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0.1</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>2.5</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeSustainLevel" Type="Real64" Value="0"/>
+					</PropertyList>
+				</ModulatorEnvelope>
+				<ModulatorEnvelope Name="obj_distr_glass_large" ID="{D79A11CD-2AAA-4357-A927-240CAB191A72}" ShortID="733453366">
+					<Comment>The duration of debris is controoled by Decay Time value (in secs)</Comment>
+					<PropertyList>
+						<Property Name="EnvelopeAttackTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeAutoRelease" Type="bool" Value="True"/>
+						<Property Name="EnvelopeDecayTime" Type="Real64" Value="0">
+							<RTPCList>
+								<RTPC Name="" ID="{5862F992-4982-42D8-8061-58F325D11286}" ShortID="687790542">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_ext_objects_debrisAmount" ID="{476F4A12-1EF4-4189-AE85-74F5FA5F231A}" WorkUnitID="{24070570-E03E-401A-9914-3252EF7703D9}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{711610C9-731D-43BE-B69C-7C41C57F80AD}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0.1</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>3</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeSustainLevel" Type="Real64" Value="0"/>
+					</PropertyList>
+				</ModulatorEnvelope>
+				<ModulatorEnvelope Name="obj_distr_glass_heavy" ID="{778B2FBA-0FAB-4347-8E6E-7881314E8412}" ShortID="1065262671">
+					<Comment>The duration of debris is controoled by Decay Time value (in secs)</Comment>
+					<PropertyList>
+						<Property Name="EnvelopeAttackTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeAutoRelease" Type="bool" Value="True"/>
+						<Property Name="EnvelopeDecayTime" Type="Real64" Value="0">
+							<RTPCList>
+								<RTPC Name="" ID="{181A7F08-BCD9-4010-BA0C-BCFFCBF9E210}" ShortID="323425238">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_ext_objects_debrisAmount" ID="{476F4A12-1EF4-4189-AE85-74F5FA5F231A}" WorkUnitID="{24070570-E03E-401A-9914-3252EF7703D9}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{DAB7B5C5-D256-4BFC-85B2-B35AF722F977}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0.1</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>4</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeSustainLevel" Type="Real64" Value="0"/>
+					</PropertyList>
+				</ModulatorEnvelope>
+				<ModulatorEnvelope Name="obj_distr_cloth_small" ID="{4E9E805D-59B8-4E0F-AE0E-5861B8010175}" ShortID="637698981">
+					<Comment>The duration of debris is controoled by Decay Time value (in secs)</Comment>
+					<PropertyList>
+						<Property Name="EnvelopeAttackTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeAutoRelease" Type="bool" Value="True"/>
+						<Property Name="EnvelopeDecayTime" Type="Real64" Value="0">
+							<RTPCList>
+								<RTPC Name="" ID="{F1DC0797-1E22-47AF-861A-4C9FA0F58B8B}" ShortID="666796822">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_ext_objects_debrisAmount" ID="{476F4A12-1EF4-4189-AE85-74F5FA5F231A}" WorkUnitID="{24070570-E03E-401A-9914-3252EF7703D9}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{EFC8B3E9-CD9F-498B-AF7E-34E716860D98}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0.1</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>1.8</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeSustainLevel" Type="Real64" Value="0"/>
+					</PropertyList>
+				</ModulatorEnvelope>
+				<ModulatorEnvelope Name="obj_distr_cloth_medium" ID="{4C3BE2F7-3155-4A51-A199-56E44D18F1B4}" ShortID="581393533">
+					<Comment>The duration of debris is controoled by Decay Time value (in secs)</Comment>
+					<PropertyList>
+						<Property Name="EnvelopeAttackTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeAutoRelease" Type="bool" Value="True"/>
+						<Property Name="EnvelopeDecayTime" Type="Real64" Value="0">
+							<RTPCList>
+								<RTPC Name="" ID="{B177BFD1-D41E-45E0-B9E3-4C34307359EB}" ShortID="1001822141">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_ext_objects_debrisAmount" ID="{476F4A12-1EF4-4189-AE85-74F5FA5F231A}" WorkUnitID="{24070570-E03E-401A-9914-3252EF7703D9}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{75931E4D-2147-44EF-A7FC-E797852E4D28}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0.1</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>2</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeSustainLevel" Type="Real64" Value="0"/>
+					</PropertyList>
+				</ModulatorEnvelope>
+				<ModulatorEnvelope Name="obj_distr_cloth_large" ID="{FC88A11D-0464-4493-A4ED-20ECDFA86D3A}" ShortID="487597981">
+					<Comment>The duration of debris is controoled by Decay Time value (in secs)</Comment>
+					<PropertyList>
+						<Property Name="EnvelopeAttackTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeAutoRelease" Type="bool" Value="True"/>
+						<Property Name="EnvelopeDecayTime" Type="Real64" Value="0">
+							<RTPCList>
+								<RTPC Name="" ID="{AB8B6837-15D2-4C50-9D21-0FD655018C04}" ShortID="1022568911">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_ext_objects_debrisAmount" ID="{476F4A12-1EF4-4189-AE85-74F5FA5F231A}" WorkUnitID="{24070570-E03E-401A-9914-3252EF7703D9}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{18BDA183-E706-43C8-9F81-37A3C3FB01DC}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0.1</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>2.5</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeSustainLevel" Type="Real64" Value="0"/>
+					</PropertyList>
+				</ModulatorEnvelope>
+				<ModulatorEnvelope Name="obj_distr_cloth_heavy" ID="{8E738F77-CD0E-4967-B1B2-EAECCBE12408}" ShortID="639277268">
+					<Comment>The duration of debris is controoled by Decay Time value (in secs)</Comment>
+					<PropertyList>
+						<Property Name="EnvelopeAttackTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeAutoRelease" Type="bool" Value="True"/>
+						<Property Name="EnvelopeDecayTime" Type="Real64" Value="0">
+							<RTPCList>
+								<RTPC Name="" ID="{348F2D6E-5602-4347-867F-7C68C3409C11}" ShortID="716219061">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_ext_objects_debrisAmount" ID="{476F4A12-1EF4-4189-AE85-74F5FA5F231A}" WorkUnitID="{24070570-E03E-401A-9914-3252EF7703D9}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{9BBEE6C2-A72D-48F9-895C-986C7062358D}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0.1</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>3</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeSustainLevel" Type="Real64" Value="0"/>
+					</PropertyList>
+				</ModulatorEnvelope>
+			</ChildrenList>
+		</WorkUnit>
+	</Modulators>
 </WwiseDocument>

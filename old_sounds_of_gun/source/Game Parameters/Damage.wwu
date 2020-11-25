@@ -1,28 +1,29 @@
-<WwiseDocument Type="WorkUnit" ID="{D2EF0A16-0466-4B9B-9FA8-B5DADE67576F}" SchemaVersion="85">
-  <GameParameters>
-    <WorkUnit Name="Damage" ID="{D2EF0A16-0466-4B9B-9FA8-B5DADE67576F}" PersistMode="Standalone">
-      <Comment>Damage</Comment>
-      <ChildrenList>
-        <GameParameter Name="RTPC_ext_drop_energy" ID="{3EB9A210-9DDE-48DB-B3EC-3F98725C79AA}">
-          <Comment>External RTPC - volume level of the sound of turret falling on the terrain (turret_drop_soft, turret_drop_solid).</Comment>
-          <PropertyList>
-            <Property Name="InitialValue" Type="Real64" Value="0" />
-            <Property Name="Max" Type="Real64" Value="1" />
-          </PropertyList>
-        </GameParameter>
-        <GameParameter Name="RTPC_int_eng_backache_sc" ID="{609D0DCA-ACDE-450B-9C1D-1E5E16F1732F}">
-          <PropertyList>
-            <Property Name="InitialValue" Type="Real64" Value="-48" />
-            <Property Name="Max" Type="Real64" Value="0" />
-            <Property Name="Min" Type="Real64" Value="-48" />
-          </PropertyList>
-        </GameParameter>
-        <GameParameter Name="RTPC_int_eng_damage" ID="{3BD982D3-39FE-431B-8EC4-286A348BDFD1}">
-          <PropertyList>
-            <Property Name="InitialValue" Type="Real64" Value="0" />
-          </PropertyList>
-        </GameParameter>
-      </ChildrenList>
-    </WorkUnit>
-  </GameParameters>
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D2EF0A16-0466-4B9B-9FA8-B5DADE67576F}" SchemaVersion="97">
+	<GameParameters>
+		<WorkUnit Name="Damage" ID="{D2EF0A16-0466-4B9B-9FA8-B5DADE67576F}" PersistMode="Standalone">
+			<Comment>Damage</Comment>
+			<ChildrenList>
+				<GameParameter Name="RTPC_ext_drop_energy" ID="{3EB9A210-9DDE-48DB-B3EC-3F98725C79AA}">
+					<Comment>External RTPC - volume level of the sound of turret falling on the terrain (turret_drop_soft, turret_drop_solid).</Comment>
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_int_eng_backache_sc" ID="{609D0DCA-ACDE-450B-9C1D-1E5E16F1732F}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="-48"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_int_eng_damage" ID="{3BD982D3-39FE-431B-8EC4-286A348BDFD1}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
 </WwiseDocument>

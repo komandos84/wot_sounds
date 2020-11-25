@@ -1,53 +1,54 @@
-<WwiseDocument Type="WorkUnit" ID="{72FD8B74-F203-4367-8458-8FEBB2542ED6}" SchemaVersion="85">
-  <Switches>
-    <WorkUnit Name="Common" ID="{72FD8B74-F203-4367-8458-8FEBB2542ED6}" PersistMode="Standalone">
-      <ChildrenList>
-        <SwitchGroup Name="SWITCH_int_reflectTail" ID="{20B8C779-C353-459F-A6A1-A9EA9C8CEF14}">
-          <Comment>The switch is used both for managing tracers from shots and for managing tracers from explosions. It is planned to use it for hits as well. 
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{72FD8B74-F203-4367-8458-8FEBB2542ED6}" SchemaVersion="97">
+	<Switches>
+		<WorkUnit Name="Common" ID="{72FD8B74-F203-4367-8458-8FEBB2542ED6}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="SWITCH_int_reflectTail" ID="{20B8C779-C353-459F-A6A1-A9EA9C8CEF14}">
+					<Comment>The switch is used both for managing tracers from shots and for managing tracers from explosions. It is planned to use it for hits as well. 
 \Currently only three values of this parameters are applied (0–2), however 10 values are reserved.</Comment>
-          <PropertyList>
-            <Property Name="UseGameParameter" Type="bool" Value="True" />
-          </PropertyList>
-          <ChildrenList>
-            <Switch Name="SWITCH_int_reflectTail_village" ID="{69E0FAE1-C78C-4D3F-8742-BBEEEB0CB691}" />
-            <Switch Name="SWITCH_int_reflectTail_forest" ID="{5E92AC19-DB6E-41C8-B2AF-1288FA41CEF0}" />
-            <Switch Name="SWITCH_int_reflectTail_field" ID="{D5D146D9-99D8-4DB3-9DC1-2400AA3E9CE9}" />
-          </ChildrenList>
-          <SwitchOnRTPC>
-            <GameParameterRef Name="RTPC_ext_reflectTail" ID="{7493AB43-028A-414A-8094-4ADF5E2D9939}" />
-            <Curve Name="" ID="{551D26A5-6841-40E8-A1EF-8BBB3954811F}">
-              <PropertyList>
-                <Property Name="Flags" Type="int32" Value="65537" />
-              </PropertyList>
-              <PointList>
-                <Point>
-                  <XPos>0</XPos>
-                  <YPos>3</YPos>
-                  <Flags>5</Flags>
-                </Point>
-                <Point>
-                  <XPos>1</XPos>
-                  <YPos>2</YPos>
-                  <Flags>0</Flags>
-                </Point>
-                <Point>
-                  <XPos>2</XPos>
-                  <YPos>1</YPos>
-                  <Flags>37</Flags>
-                </Point>
-              </PointList>
-            </Curve>
-          </SwitchOnRTPC>
-        </SwitchGroup>
-        <SwitchGroup Name="SWITCH_viewPlayMode" ID="{0226E0F6-41E8-462E-8D65-CF14B5874908}">
-          <Comment>NOT APPLIED</Comment>
-          <ChildrenList>
-            <Switch Name="SWITCH_viewPlayMode_arcade" ID="{DE4711B3-FFDF-47D0-97B2-000F5E96D3C8}" />
-            <Switch Name="SWITCH_viewPlayMode_sniper" ID="{BA08A2B4-8BA9-48D6-AB99-12100142EB8A}" />
-            <Switch Name="SWITCH_viewPlayMode_strategic" ID="{D69DA2D2-6D2F-491C-8BBF-1FCA4A025FE3}" />
-          </ChildrenList>
-        </SwitchGroup>
-      </ChildrenList>
-    </WorkUnit>
-  </Switches>
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="SWITCH_int_reflectTail_village" ID="{69E0FAE1-C78C-4D3F-8742-BBEEEB0CB691}"/>
+						<Switch Name="SWITCH_int_reflectTail_forest" ID="{5E92AC19-DB6E-41C8-B2AF-1288FA41CEF0}"/>
+						<Switch Name="SWITCH_int_reflectTail_field" ID="{D5D146D9-99D8-4DB3-9DC1-2400AA3E9CE9}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="RTPC_ext_reflectTail" ID="{7493AB43-028A-414A-8094-4ADF5E2D9939}"/>
+						<Curve Name="" ID="{551D26A5-6841-40E8-A1EF-8BBB3954811F}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>3</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>1</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>2</XPos>
+									<YPos>1</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+				<SwitchGroup Name="SWITCH_viewPlayMode" ID="{0226E0F6-41E8-462E-8D65-CF14B5874908}">
+					<Comment>NOT APPLIED</Comment>
+					<ChildrenList>
+						<Switch Name="SWITCH_viewPlayMode_arcade" ID="{DE4711B3-FFDF-47D0-97B2-000F5E96D3C8}"/>
+						<Switch Name="SWITCH_viewPlayMode_sniper" ID="{BA08A2B4-8BA9-48D6-AB99-12100142EB8A}"/>
+						<Switch Name="SWITCH_viewPlayMode_strategic" ID="{D69DA2D2-6D2F-491C-8BBF-1FCA4A025FE3}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
 </WwiseDocument>

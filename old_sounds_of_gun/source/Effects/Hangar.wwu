@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{657590BD-CF1E-422E-B16B-C256C61A8CBC}" SchemaVersion="85">
+<WwiseDocument Type="WorkUnit" ID="{657590BD-CF1E-422E-B16B-C256C61A8CBC}" SchemaVersion="97">
 	<Effects>
 		<WorkUnit Name="Hangar" ID="{657590BD-CF1E-422E-B16B-C256C61A8CBC}" PersistMode="Standalone">
 			<ChildrenList>

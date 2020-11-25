@@ -1,69 +1,55 @@
-<WwiseDocument Type="WorkUnit" ID="{4ECDFA07-9562-424F-9FA7-83146961FF6E}" SchemaVersion="85">
-  <Events>
-    <WorkUnit Name="Explosions" ID="{4ECDFA07-9562-424F-9FA7-83146961FF6E}" PersistMode="Standalone">
-      <Comment>Explosions</Comment>
-      <ChildrenList>
-        <Event Name="expl_fuel_NPC" ID="{3A7512BF-0055-4B38-A13F-2641220687F4}">
-          <Comment>Event - Vehicle destroyed upon fuel explosion NPC</Comment>
-          <ChildrenList></ChildrenList>
-        </Event>
-        <Event Name="expl_ammo_PC" ID="{A70335BF-9799-471F-91DA-F969F82884F7}">
-          <Comment>Event - Vehicle destroyed PC</Comment>
-          <ChildrenList></ChildrenList>
-        </Event>
-        <Event Name="expl_burnup_ammo_NPC" ID="{75997EC1-D2D6-4A22-9C61-1CF6AA7E3E88}">
-          <Comment>Event - Vehicle destroyed upon ammo rack explosion NPC</Comment>
-          <ChildrenList></ChildrenList>
-        </Event>
-        <Event Name="expl_submersion_death" ID="{84A0B1F4-6ABF-4A51-9F1A-97A310DFFC20}">
-          <Comment>Event - Vehicle destroyed upon drowning PC</Comment>
-          <ChildrenList></ChildrenList>
-        </Event>
-        <Event Name="expl_ram_death_NPC" ID="{9B4F7EE5-18DD-4DD2-8AE3-309CC30A5141}">
-          <Comment>Event - Vehicle destroyed by ramming NPC</Comment>
-          <ChildrenList></ChildrenList>
-        </Event>
-        <Event Name="expl_crew_death_l_PC" ID="{7C06ABD8-CB36-4878-BB47-F2FAAF74AA6D}">
-          <Comment>Event - Vehicle crew injured PC large</Comment>
-          <ChildrenList></ChildrenList>
-        </Event>
-        <Event Name="expl_crew_death_m_PC" ID="{B47FE19B-F595-4D3A-A620-7A18C75E7A86}">
-          <Comment>Event - Vehicle crew injured PC medium</Comment>
-          <ChildrenList></ChildrenList>
-        </Event>
-        <Event Name="expl_crew_death_s_NPC" ID="{AAE37128-90BD-448F-BC26-D5E6A260BA5A}">
-          <Comment>Event - Vehicle crew injured  NPC small</Comment>
-          <ChildrenList></ChildrenList>
-        </Event>
-        <Event Name="expl_fuel_PC" ID="{97D76E0A-87BA-4B72-833B-6C66A59250A8}">
-          <Comment>Event - Vehicle destroyed upon fuel explosion PC</Comment>
-          <ChildrenList></ChildrenList>
-        </Event>
-        <Event Name="expl_ammo_NPC" ID="{0A9DAE05-6BD2-4278-BFAF-D7A28C856521}">
-          <Comment>Event - Vehicle destroyed NPC</Comment>
-          <ChildrenList></ChildrenList>
-        </Event>
-        <Event Name="expl_burnup_ammo_PC" ID="{B2EE5D21-CE4F-463C-A521-5E1B5412DF34}">
-          <Comment>Event - Vehicle destroyed upon ammo rack explosion PC</Comment>
-          <ChildrenList></ChildrenList>
-        </Event>
-        <Event Name="expl_crew_death_s_PC" ID="{7B4B543E-08CB-44DE-90F2-EE82908565C8}">
-          <Comment>Event - Vehicle crew injured PC small</Comment>
-          <ChildrenList></ChildrenList>
-        </Event>
-        <Event Name="expl_ram_death_PC" ID="{40457ACB-45D2-4CDE-8A1C-02A08FC68A9D}">
-          <Comment>Event - Vehicle destroyed by ramming PC</Comment>
-          <ChildrenList></ChildrenList>
-        </Event>
-        <Event Name="expl_crew_death_m_NPC" ID="{2C223700-65D9-4DB2-BB14-BD3226769BF7}">
-          <Comment>Event - Vehicle crew injured NPC medium</Comment>
-          <ChildrenList></ChildrenList>
-        </Event>
-        <Event Name="expl_crew_death_l_NPC" ID="{56B9EE51-1ACA-4166-BDB1-39301A64E2B5}">
-          <Comment>Event - Vehicle crew injured NPC large</Comment>
-          <ChildrenList></ChildrenList>
-        </Event>
-      </ChildrenList>
-    </WorkUnit>
-  </Events>
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4ECDFA07-9562-424F-9FA7-83146961FF6E}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Explosions" ID="{4ECDFA07-9562-424F-9FA7-83146961FF6E}" PersistMode="Standalone">
+			<Comment>Explosions</Comment>
+			<ChildrenList>
+				<Event Name="expl_fuel_NPC" ID="{3A7512BF-0055-4B38-A13F-2641220687F4}">
+					<Comment>Event - Vehicle destroyed upon fuel explosion NPC</Comment>
+				</Event>
+				<Event Name="expl_ammo_PC" ID="{A70335BF-9799-471F-91DA-F969F82884F7}">
+					<Comment>Event - Vehicle destroyed PC</Comment>
+				</Event>
+				<Event Name="expl_burnup_ammo_NPC" ID="{75997EC1-D2D6-4A22-9C61-1CF6AA7E3E88}">
+					<Comment>Event - Vehicle destroyed upon ammo rack explosion NPC</Comment>
+				</Event>
+				<Event Name="expl_submersion_death" ID="{84A0B1F4-6ABF-4A51-9F1A-97A310DFFC20}">
+					<Comment>Event - Vehicle destroyed upon drowning PC</Comment>
+				</Event>
+				<Event Name="expl_ram_death_NPC" ID="{9B4F7EE5-18DD-4DD2-8AE3-309CC30A5141}">
+					<Comment>Event - Vehicle destroyed by ramming NPC</Comment>
+				</Event>
+				<Event Name="expl_crew_death_l_PC" ID="{7C06ABD8-CB36-4878-BB47-F2FAAF74AA6D}">
+					<Comment>Event - Vehicle crew injured PC large</Comment>
+				</Event>
+				<Event Name="expl_crew_death_m_PC" ID="{B47FE19B-F595-4D3A-A620-7A18C75E7A86}">
+					<Comment>Event - Vehicle crew injured PC medium</Comment>
+				</Event>
+				<Event Name="expl_crew_death_s_NPC" ID="{AAE37128-90BD-448F-BC26-D5E6A260BA5A}">
+					<Comment>Event - Vehicle crew injured  NPC small</Comment>
+				</Event>
+				<Event Name="expl_fuel_PC" ID="{97D76E0A-87BA-4B72-833B-6C66A59250A8}">
+					<Comment>Event - Vehicle destroyed upon fuel explosion PC</Comment>
+				</Event>
+				<Event Name="expl_ammo_NPC" ID="{0A9DAE05-6BD2-4278-BFAF-D7A28C856521}">
+					<Comment>Event - Vehicle destroyed NPC</Comment>
+				</Event>
+				<Event Name="expl_burnup_ammo_PC" ID="{B2EE5D21-CE4F-463C-A521-5E1B5412DF34}">
+					<Comment>Event - Vehicle destroyed upon ammo rack explosion PC</Comment>
+				</Event>
+				<Event Name="expl_crew_death_s_PC" ID="{7B4B543E-08CB-44DE-90F2-EE82908565C8}">
+					<Comment>Event - Vehicle crew injured PC small</Comment>
+				</Event>
+				<Event Name="expl_ram_death_PC" ID="{40457ACB-45D2-4CDE-8A1C-02A08FC68A9D}">
+					<Comment>Event - Vehicle destroyed by ramming PC</Comment>
+				</Event>
+				<Event Name="expl_crew_death_m_NPC" ID="{2C223700-65D9-4DB2-BB14-BD3226769BF7}">
+					<Comment>Event - Vehicle crew injured NPC medium</Comment>
+				</Event>
+				<Event Name="expl_crew_death_l_NPC" ID="{56B9EE51-1ACA-4166-BDB1-39301A64E2B5}">
+					<Comment>Event - Vehicle crew injured NPC large</Comment>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
 </WwiseDocument>

@@ -1,288 +1,223 @@
-<WwiseDocument Type="WorkUnit" ID="{B8424251-D94B-4427-BF66-A85D3ACABAE7}" SchemaVersion="85">
-  <Events>
-    <WorkUnit Name="Voiceover_old" ID="{B8424251-D94B-4427-BF66-A85D3ACABAE7}" PersistMode="Standalone">
-      <Comment>Voice notifications</Comment>
-      <ChildrenList>
-        <Folder Name="notifications_vo_old" ID="{D03DDD48-FF7F-4C74-A4B3-176E3DD04E58}" ShortID="850003353">
-          <Comment>Voice notifications</Comment>
-          <ChildrenList>
-            <Event Name="vo_ally_killed_by_player" ID="{6969568C-4664-4460-9478-55B0CA64655E}">
-              <Comment>Event - You have destroyed an allied vehicle</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_ammo_bay_damaged" ID="{45421B23-FB27-4193-BDA9-DBB516006D11}">
-              <Comment>Event - Ammo Rack is damaged</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_armor_not_pierced_by_player" ID="{74CD5F4A-1675-4AE6-A466-BF781CCA45FF}">
-              <Comment>Event - We didn't penetrate the armor</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_armor_ricochet_by_player" ID="{E85489E1-329C-4DEC-BEB6-B679457F6871}">
-              <Comment>Event - Ricochet</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_commander_killed" ID="{92B48457-C218-4AC1-A306-C27EE29BA70E}">
-              <Comment>Event - The Commander is down</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_driver_killed" ID="{F7884A83-E61C-41CB-BB37-26CEEAF10EDB}">
-              <Comment>Event - The Driver is injured</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_enemy_fire_started_by_player" ID="{FAC94916-0D4F-4459-8EE0-D0BCEBBEB693}">
-              <Comment>Event - The enemy is on fire</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_enemy_hp_damaged_by_explosion_at_direct_hit_by_player" ID="{9324DA8F-C617-4A80-8B59-8B12ED2358B7}">
-              <Comment>Event - Critical hit</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_enemy_hp_damaged_by_projectile_and_chassis_damaged_by_player" ID="{1BEB357A-F112-492A-A546-916A091F314D}">
-              <Comment>Event - Penetration</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_engine_functional" ID="{A9390B25-8813-47B2-8C62-20566F6D55D1}">
-              <Comment>Event - We've repaired the engine, but we can't go very fast</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_start_battle" ID="{E1E3167C-453C-463C-ABA4-B8EE1F7EEFB1}">
-              <Comment>Event - Move out (Let's get this show on the road)</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_engine_damaged" ID="{392F9886-1EE8-4598-A787-65F463A6EB25}">
-              <Comment>Event - The engine is damaged</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_radio_damaged" ID="{247A7B94-B03F-43FC-9059-98867C37D1BC}">
-              <Comment>Event - The radio was hit</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_enemy_no_hp_damage_at_no_attempt_and_chassis_damaged_by_player" ID="{8A467B58-E732-4B43-9BE4-DDD304836F43}">
-              <Comment>Event - Critical hit</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_enemy_killed_by_player" ID="{DF8C4EDC-A299-4EB6-A7CB-E7DDFB156B09}">
-              <Comment>Event - The enemy is destroyed</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_track_functional_can_move" ID="{7D2472A2-20A0-4393-8FC6-6C73D618B3C1}">
-              <Comment>Event - We fixed the track! Get going!</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_vehicle_destroyed" ID="{483C19A0-16AC-4C48-A37E-66E5D7645E3A}">
-              <Comment>Event - The vehicle is destroyed</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_gun_damaged" ID="{FF55E4EB-B78A-44F3-86A2-50ABC9FA6177}">
-              <Comment>Event - Our main gun is damaged</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_track_functional" ID="{84F2C281-8B03-49BC-8168-6C0DDF7A4D60}">
-              <Comment>Event - We fixed the track</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_surveying_devices_functional" ID="{FCDC1E9B-2633-4C33-8A27-543D4D11DF64}">
-              <Comment>Event - Optics repaired</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_enemy_no_hp_damage_at_attempt_and_gun_damaged_by_player" ID="{D6F0580A-95D6-4215-8E20-66FD148766F5}">
-              <Comment>Event - We didn't penetrate the armor</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_turret_rotator_destroyed" ID="{F0ECC000-ACD0-49F1-9A01-3A925B1BB1A4}">
-              <Comment>Event - The turret controls are busted, we cant turn it</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_fire_started" ID="{34F32E00-1343-41D2-9EFE-7B0441844CE0}">
-              <Comment>Event - We're on fire</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_gun_functional" ID="{E6274837-6550-4540-A9BF-2E3C6961B9B0}">
-              <Comment>Event - We've fixed the main gun, but it is still not very accurate</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_track_damaged" ID="{99664736-87F4-4001-AC37-D168301F7D36}">
-              <Comment>Event - Track hit</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_radioman_killed" ID="{31DDDA5F-D79D-4204-9056-8C184480A675}">
-              <Comment>Event - The Radio man is bleeding</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_target_lost" ID="{2917D537-3E2A-45F3-9918-0D19DB5E318C}">
-              <Comment>Event - We can't see the target</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_enemy_no_hp_damage_at_no_attempt_and_gun_damaged_by_player" ID="{45F823E6-0D4F-455F-929F-7746EE08E9F3}">
-              <Comment>Event - Critical hit</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_enemy_hp_damaged_by_projectile_by_player" ID="{32C39CDF-393A-4006-98C4-7923D6CC2308}">
-              <Comment>Event - Penetration</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_enemy_no_hp_damage_at_attempt_and_chassis_damaged_by_player" ID="{806081D9-E986-4A5F-B92D-871ED01DC947}">
-              <Comment>Event - We didn't penetrate the armor</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_target_captured" ID="{59EF87E7-A7CC-4358-A0A9-A70A53A0CC68}">
-              <Comment>Event - We locked on the target</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_fuel_tank_damaged" ID="{312EB5FE-E7F5-4A27-AA45-402C7F1FF16D}">
-              <Comment>Event - Our fuel is hit</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_enemy_killed" ID="{E4504866-DE43-4FCA-B431-D3437538006E}">
-              <Comment>Event - Enemy vehicle destroyed</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_surveying_devices_crit_damaged" ID="{BA0CFCDC-4BC1-41A4-9333-9348ACBEE557}">
-              <Comment>Event - The periscope is damaged</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_turret_rotator_damaged" ID="{142F27C2-AE29-4055-A4E7-B390CAD824C2}">
-              <Comment>Event - The turret ring is damaged, we can barely turn it</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_gun_destroyed" ID="{F44ED66E-9BA8-4595-A2E5-B3535B39D471}">
-              <Comment>Event - The main gun is knocked out</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_damage_by_near_explosion_by_player" ID="{941D5AD3-5776-44EB-BE57-04202A85DA4A}">
-              <Comment>Event - That was close</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_damage_by_near_explosion_by_enemy" ID="{6FE380B1-775B-4A39-A230-DE71C8D3D43A}">
-              <Comment>Event - That was close</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_crew_deactivated" ID="{D4503D28-FF33-4A4F-AA22-F06E4D5315F9}">
-              <Comment>Event - Crew members are killed</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_track_destroyed" ID="{1F92C455-59F6-4178-A703-B6271F93FC6D}">
-              <Comment>Event - We're immobilized</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_gunner_killed" ID="{0DE3301B-97E9-42C7-A870-945062C4EE2B}">
-              <Comment>Event - The Gunner is dead</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_enemy_no_hp_damage_at_no_attempt_by_player" ID="{E5559116-EB43-4260-8D2E-72D72FDBA1AF}">
-              <Comment>Event - Critical hit</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_engine_destroyed" ID="{39136F27-582A-445E-B6DD-D4B1D41CC812}">
-              <Comment>Event - Critical engine damage - we're stuck here</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_loader_killed" ID="{67D7E451-978D-4ACE-85D3-0B4D84F50B8B}">
-              <Comment>Event - The Loader bought the harm</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_surveying_devices_destroyed" ID="{BAB43F07-929D-4C19-A75F-546CCFF5C2A8}">
-              <Comment>Event - We can barely see through the scope</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_enemy_hp_damaged_by_projectile_and_gun_damaged_by_player" ID="{904558E8-5BDD-4E8A-930D-BD5961E3374E}">
-              <Comment>Event - Penetration</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_target_unlocked" ID="{A17DFF0B-6A19-4A9E-806D-25A35F24C458}">
-              <Comment>Event - Dismiss</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_turret_rotator_functional" ID="{A311DEFC-B572-4D53-8DFA-1D4C5E03A2E6}">
-              <Comment>Event - We've fixed the turret, but it still not turning very fast</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_surveying_devices_damaged" ID="{98BBB618-1A1D-42ED-A8D3-1EB8C274DD63}">
-              <Comment>Event - The periscope is damaged</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_fire_stopped" ID="{4E27AF1E-0EC4-4344-A91F-AA45FFECF774}">
-              <Comment>Event - The fire is out</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-          </ChildrenList>
-        </Folder>
-        <Folder Name="notifications_dp" ID="{781D4B0D-189F-49FF-A4B5-C48EFDA284E5}" ShortID="27156003">
-          <Comment>Dynamic platoon</Comment>
-          <ChildrenList>
-            <Event Name="vo_dp_player_joined_platoon" ID="{7524AB0D-43A1-4EA6-A687-4B7E16D895FD}">
-              <Comment>Event - Player has joined a platoon</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_dp_platoon_created" ID="{02F3BB4F-008E-430C-9B91-9B56744D5AB4}">
-              <Comment>Event - Platoon has been created</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_dp_platoon_dismissed" ID="{69A03FB9-ADF8-40A2-8DD0-225F3D16E774}">
-              <Comment>Event - Detachment dismissed</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_dp_platoon_joined" ID="{145609ED-4BB9-4847-B70C-4A05212540EB}">
-              <Comment>Event - You have joined a platoon</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_dp_been_excluded_platoon" ID="{9E42A613-0451-4FFE-80DD-DB7D3A9E2CA4}">
-              <Comment>Event - You were excluded by the Commander</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_dp_assistance_been_requested" ID="{0DE5BDEE-07C8-498A-AB3F-90C55621364F}">
-              <Comment>Event - You are invited to join Platoon</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_dp_left_platoon" ID="{95D7A859-8ED2-4CF5-8CED-4DB664B2C216}">
-              <Comment>Event - You have left the Platoon</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-          </ChildrenList>
-        </Folder>
-        <Folder Name="notifications_flt" ID="{40F79E4C-7562-428D-ACDB-513DF49906C4}" ShortID="337338854">
-          <Comment>Rampage</Comment>
-          <ChildrenList>
-            <Event Name="old_vo_flt_repair" ID="{7B8E992C-F299-435C-A378-26320C692EE2}">
-              <Comment>Event - Repairs complete</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_flt_take_flag" ID="{F5ED82A7-1FE3-4047-ACC7-DC50868A86ED}">
-              <Comment>Event - We've got the flag</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_flt_deliver_flag" ID="{6B2E6785-922E-44A6-8AA5-F5A1D9884E23}">
-              <Comment>Event - Flag delivered</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_flt_enemy_take_flag" ID="{F7313A06-82D0-4EA3-9DC0-344E64B15F59}">
-              <Comment>Event - Enemy captured the flag</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_flt_ally_flag" ID="{FED7E78A-7046-4DF6-B8BF-4B161DD403E7}">
-              <Comment>Event - Flag captured, cover me</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_flt_drop_flag" ID="{65030392-4A3A-484A-865A-4DA54714992B}">
-              <Comment>Event - We lost the flag</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_flt_ally_captured" ID="{4C7782A1-6BAC-4414-8579-42C6695AA347}">
-              <Comment>Event - Flag delivered</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="vo_flt_combat_reserve" ID="{63322562-3CB9-4BBE-A351-4E90B9025CC2}">
-              <Comment>Event - Combat Reserve received</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-            <Event Name="old_vo_flt_ready_for_action" ID="{A300CDA7-EC3E-4D6B-AA63-0255810CFFDE}">
-              <Comment>Event - Prepared</Comment>
-              <ChildrenList></ChildrenList>
-            </Event>
-          </ChildrenList>
-        </Folder>
-      </ChildrenList>
-    </WorkUnit>
-  </Events>
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B8424251-D94B-4427-BF66-A85D3ACABAE7}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Voiceover_old" ID="{B8424251-D94B-4427-BF66-A85D3ACABAE7}" PersistMode="Standalone">
+			<Comment>Voice notifications</Comment>
+			<ChildrenList>
+				<Folder Name="notifications_vo_old" ID="{D03DDD48-FF7F-4C74-A4B3-176E3DD04E58}" ShortID="850003353">
+					<Comment>Voice notifications</Comment>
+					<ChildrenList>
+						<Event Name="vo_ally_killed_by_player" ID="{6969568C-4664-4460-9478-55B0CA64655E}">
+							<Comment>Event - You have destroyed an allied vehicle</Comment>
+						</Event>
+						<Event Name="vo_ammo_bay_damaged" ID="{45421B23-FB27-4193-BDA9-DBB516006D11}">
+							<Comment>Event - Ammo Rack is damaged</Comment>
+						</Event>
+						<Event Name="vo_armor_not_pierced_by_player" ID="{74CD5F4A-1675-4AE6-A466-BF781CCA45FF}">
+							<Comment>Event - We didn't penetrate the armor</Comment>
+						</Event>
+						<Event Name="vo_armor_ricochet_by_player" ID="{E85489E1-329C-4DEC-BEB6-B679457F6871}">
+							<Comment>Event - Ricochet</Comment>
+						</Event>
+						<Event Name="vo_commander_killed" ID="{92B48457-C218-4AC1-A306-C27EE29BA70E}">
+							<Comment>Event - The Commander is down</Comment>
+						</Event>
+						<Event Name="vo_driver_killed" ID="{F7884A83-E61C-41CB-BB37-26CEEAF10EDB}">
+							<Comment>Event - The Driver is injured</Comment>
+						</Event>
+						<Event Name="vo_enemy_fire_started_by_player" ID="{FAC94916-0D4F-4459-8EE0-D0BCEBBEB693}">
+							<Comment>Event - The enemy is on fire</Comment>
+						</Event>
+						<Event Name="vo_enemy_hp_damaged_by_explosion_at_direct_hit_by_player" ID="{9324DA8F-C617-4A80-8B59-8B12ED2358B7}">
+							<Comment>Event - Critical hit</Comment>
+						</Event>
+						<Event Name="vo_enemy_hp_damaged_by_projectile_and_chassis_damaged_by_player" ID="{1BEB357A-F112-492A-A546-916A091F314D}">
+							<Comment>Event - Penetration</Comment>
+						</Event>
+						<Event Name="vo_engine_functional" ID="{A9390B25-8813-47B2-8C62-20566F6D55D1}">
+							<Comment>Event - We've repaired the engine, but we can't go very fast</Comment>
+						</Event>
+						<Event Name="vo_start_battle" ID="{E1E3167C-453C-463C-ABA4-B8EE1F7EEFB1}">
+							<Comment>Event - Move out (Let's get this show on the road)</Comment>
+						</Event>
+						<Event Name="vo_engine_damaged" ID="{392F9886-1EE8-4598-A787-65F463A6EB25}">
+							<Comment>Event - The engine is damaged</Comment>
+						</Event>
+						<Event Name="vo_radio_damaged" ID="{247A7B94-B03F-43FC-9059-98867C37D1BC}">
+							<Comment>Event - The radio was hit</Comment>
+						</Event>
+						<Event Name="vo_enemy_no_hp_damage_at_no_attempt_and_chassis_damaged_by_player" ID="{8A467B58-E732-4B43-9BE4-DDD304836F43}">
+							<Comment>Event - Critical hit</Comment>
+						</Event>
+						<Event Name="vo_enemy_killed_by_player" ID="{DF8C4EDC-A299-4EB6-A7CB-E7DDFB156B09}">
+							<Comment>Event - The enemy is destroyed</Comment>
+						</Event>
+						<Event Name="vo_track_functional_can_move" ID="{7D2472A2-20A0-4393-8FC6-6C73D618B3C1}">
+							<Comment>Event - We fixed the track! Get going!</Comment>
+						</Event>
+						<Event Name="vo_vehicle_destroyed" ID="{483C19A0-16AC-4C48-A37E-66E5D7645E3A}">
+							<Comment>Event - The vehicle is destroyed</Comment>
+						</Event>
+						<Event Name="vo_gun_damaged" ID="{FF55E4EB-B78A-44F3-86A2-50ABC9FA6177}">
+							<Comment>Event - Our main gun is damaged</Comment>
+						</Event>
+						<Event Name="vo_track_functional" ID="{84F2C281-8B03-49BC-8168-6C0DDF7A4D60}">
+							<Comment>Event - We fixed the track</Comment>
+						</Event>
+						<Event Name="vo_surveying_devices_functional" ID="{FCDC1E9B-2633-4C33-8A27-543D4D11DF64}">
+							<Comment>Event - Optics repaired</Comment>
+						</Event>
+						<Event Name="vo_enemy_no_hp_damage_at_attempt_and_gun_damaged_by_player" ID="{D6F0580A-95D6-4215-8E20-66FD148766F5}">
+							<Comment>Event - We didn't penetrate the armor</Comment>
+						</Event>
+						<Event Name="vo_turret_rotator_destroyed" ID="{F0ECC000-ACD0-49F1-9A01-3A925B1BB1A4}">
+							<Comment>Event - The turret controls are busted, we cant turn it</Comment>
+						</Event>
+						<Event Name="vo_fire_started" ID="{34F32E00-1343-41D2-9EFE-7B0441844CE0}">
+							<Comment>Event - We're on fire</Comment>
+						</Event>
+						<Event Name="vo_gun_functional" ID="{E6274837-6550-4540-A9BF-2E3C6961B9B0}">
+							<Comment>Event - We've fixed the main gun, but it is still not very accurate</Comment>
+						</Event>
+						<Event Name="vo_track_damaged" ID="{99664736-87F4-4001-AC37-D168301F7D36}">
+							<Comment>Event - Track hit</Comment>
+						</Event>
+						<Event Name="vo_radioman_killed" ID="{31DDDA5F-D79D-4204-9056-8C184480A675}">
+							<Comment>Event - The Radio man is bleeding</Comment>
+						</Event>
+						<Event Name="vo_target_lost" ID="{2917D537-3E2A-45F3-9918-0D19DB5E318C}">
+							<Comment>Event - We can't see the target</Comment>
+						</Event>
+						<Event Name="vo_enemy_no_hp_damage_at_no_attempt_and_gun_damaged_by_player" ID="{45F823E6-0D4F-455F-929F-7746EE08E9F3}">
+							<Comment>Event - Critical hit</Comment>
+						</Event>
+						<Event Name="vo_enemy_hp_damaged_by_projectile_by_player" ID="{32C39CDF-393A-4006-98C4-7923D6CC2308}">
+							<Comment>Event - Penetration</Comment>
+						</Event>
+						<Event Name="vo_enemy_no_hp_damage_at_attempt_and_chassis_damaged_by_player" ID="{806081D9-E986-4A5F-B92D-871ED01DC947}">
+							<Comment>Event - We didn't penetrate the armor</Comment>
+						</Event>
+						<Event Name="vo_target_captured" ID="{59EF87E7-A7CC-4358-A0A9-A70A53A0CC68}">
+							<Comment>Event - We locked on the target</Comment>
+						</Event>
+						<Event Name="vo_fuel_tank_damaged" ID="{312EB5FE-E7F5-4A27-AA45-402C7F1FF16D}">
+							<Comment>Event - Our fuel is hit</Comment>
+						</Event>
+						<Event Name="vo_enemy_killed" ID="{E4504866-DE43-4FCA-B431-D3437538006E}">
+							<Comment>Event - Enemy vehicle destroyed</Comment>
+						</Event>
+						<Event Name="vo_surveying_devices_crit_damaged" ID="{BA0CFCDC-4BC1-41A4-9333-9348ACBEE557}">
+							<Comment>Event - The periscope is damaged</Comment>
+						</Event>
+						<Event Name="vo_turret_rotator_damaged" ID="{142F27C2-AE29-4055-A4E7-B390CAD824C2}">
+							<Comment>Event - The turret ring is damaged, we can barely turn it</Comment>
+						</Event>
+						<Event Name="vo_gun_destroyed" ID="{F44ED66E-9BA8-4595-A2E5-B3535B39D471}">
+							<Comment>Event - The main gun is knocked out</Comment>
+						</Event>
+						<Event Name="vo_damage_by_near_explosion_by_player" ID="{941D5AD3-5776-44EB-BE57-04202A85DA4A}">
+							<Comment>Event - That was close</Comment>
+						</Event>
+						<Event Name="vo_damage_by_near_explosion_by_enemy" ID="{6FE380B1-775B-4A39-A230-DE71C8D3D43A}">
+							<Comment>Event - That was close</Comment>
+						</Event>
+						<Event Name="vo_crew_deactivated" ID="{D4503D28-FF33-4A4F-AA22-F06E4D5315F9}">
+							<Comment>Event - Crew members are killed</Comment>
+						</Event>
+						<Event Name="vo_track_destroyed" ID="{1F92C455-59F6-4178-A703-B6271F93FC6D}">
+							<Comment>Event - We're immobilized</Comment>
+						</Event>
+						<Event Name="vo_gunner_killed" ID="{0DE3301B-97E9-42C7-A870-945062C4EE2B}">
+							<Comment>Event - The Gunner is dead</Comment>
+						</Event>
+						<Event Name="vo_enemy_no_hp_damage_at_no_attempt_by_player" ID="{E5559116-EB43-4260-8D2E-72D72FDBA1AF}">
+							<Comment>Event - Critical hit</Comment>
+						</Event>
+						<Event Name="vo_engine_destroyed" ID="{39136F27-582A-445E-B6DD-D4B1D41CC812}">
+							<Comment>Event - Critical engine damage - we're stuck here</Comment>
+						</Event>
+						<Event Name="vo_loader_killed" ID="{67D7E451-978D-4ACE-85D3-0B4D84F50B8B}">
+							<Comment>Event - The Loader bought the harm</Comment>
+						</Event>
+						<Event Name="vo_surveying_devices_destroyed" ID="{BAB43F07-929D-4C19-A75F-546CCFF5C2A8}">
+							<Comment>Event - We can barely see through the scope</Comment>
+						</Event>
+						<Event Name="vo_enemy_hp_damaged_by_projectile_and_gun_damaged_by_player" ID="{904558E8-5BDD-4E8A-930D-BD5961E3374E}">
+							<Comment>Event - Penetration</Comment>
+						</Event>
+						<Event Name="vo_target_unlocked" ID="{A17DFF0B-6A19-4A9E-806D-25A35F24C458}">
+							<Comment>Event - Dismiss</Comment>
+						</Event>
+						<Event Name="vo_turret_rotator_functional" ID="{A311DEFC-B572-4D53-8DFA-1D4C5E03A2E6}">
+							<Comment>Event - We've fixed the turret, but it still not turning very fast</Comment>
+						</Event>
+						<Event Name="vo_surveying_devices_damaged" ID="{98BBB618-1A1D-42ED-A8D3-1EB8C274DD63}">
+							<Comment>Event - The periscope is damaged</Comment>
+						</Event>
+						<Event Name="vo_fire_stopped" ID="{4E27AF1E-0EC4-4344-A91F-AA45FFECF774}">
+							<Comment>Event - The fire is out</Comment>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="notifications_dp" ID="{781D4B0D-189F-49FF-A4B5-C48EFDA284E5}" ShortID="27156003">
+					<Comment>Dynamic platoon</Comment>
+					<ChildrenList>
+						<Event Name="vo_dp_player_joined_platoon" ID="{7524AB0D-43A1-4EA6-A687-4B7E16D895FD}">
+							<Comment>Event - Player has joined a platoon</Comment>
+						</Event>
+						<Event Name="vo_dp_platoon_created" ID="{02F3BB4F-008E-430C-9B91-9B56744D5AB4}">
+							<Comment>Event - Platoon has been created</Comment>
+						</Event>
+						<Event Name="vo_dp_platoon_dismissed" ID="{69A03FB9-ADF8-40A2-8DD0-225F3D16E774}">
+							<Comment>Event - Detachment dismissed</Comment>
+						</Event>
+						<Event Name="vo_dp_platoon_joined" ID="{145609ED-4BB9-4847-B70C-4A05212540EB}">
+							<Comment>Event - You have joined a platoon</Comment>
+						</Event>
+						<Event Name="vo_dp_been_excluded_platoon" ID="{9E42A613-0451-4FFE-80DD-DB7D3A9E2CA4}">
+							<Comment>Event - You were excluded by the Commander</Comment>
+						</Event>
+						<Event Name="vo_dp_assistance_been_requested" ID="{0DE5BDEE-07C8-498A-AB3F-90C55621364F}">
+							<Comment>Event - You are invited to join Platoon</Comment>
+						</Event>
+						<Event Name="vo_dp_left_platoon" ID="{95D7A859-8ED2-4CF5-8CED-4DB664B2C216}">
+							<Comment>Event - You have left the Platoon</Comment>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="notifications_flt" ID="{40F79E4C-7562-428D-ACDB-513DF49906C4}" ShortID="337338854">
+					<Comment>Rampage</Comment>
+					<ChildrenList>
+						<Event Name="old_vo_flt_repair" ID="{7B8E992C-F299-435C-A378-26320C692EE2}">
+							<Comment>Event - Repairs complete</Comment>
+						</Event>
+						<Event Name="vo_flt_take_flag" ID="{F5ED82A7-1FE3-4047-ACC7-DC50868A86ED}">
+							<Comment>Event - We've got the flag</Comment>
+						</Event>
+						<Event Name="vo_flt_deliver_flag" ID="{6B2E6785-922E-44A6-8AA5-F5A1D9884E23}">
+							<Comment>Event - Flag delivered</Comment>
+						</Event>
+						<Event Name="vo_flt_enemy_take_flag" ID="{F7313A06-82D0-4EA3-9DC0-344E64B15F59}">
+							<Comment>Event - Enemy captured the flag</Comment>
+						</Event>
+						<Event Name="vo_flt_ally_flag" ID="{FED7E78A-7046-4DF6-B8BF-4B161DD403E7}">
+							<Comment>Event - Flag captured, cover me</Comment>
+						</Event>
+						<Event Name="vo_flt_drop_flag" ID="{65030392-4A3A-484A-865A-4DA54714992B}">
+							<Comment>Event - We lost the flag</Comment>
+						</Event>
+						<Event Name="vo_flt_ally_captured" ID="{4C7782A1-6BAC-4414-8579-42C6695AA347}">
+							<Comment>Event - Flag delivered</Comment>
+						</Event>
+						<Event Name="vo_flt_combat_reserve" ID="{63322562-3CB9-4BBE-A351-4E90B9025CC2}">
+							<Comment>Event - Combat Reserve received</Comment>
+						</Event>
+						<Event Name="old_vo_flt_ready_for_action" ID="{A300CDA7-EC3E-4D6B-AA63-0255810CFFDE}">
+							<Comment>Event - Prepared</Comment>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
 </WwiseDocument>
