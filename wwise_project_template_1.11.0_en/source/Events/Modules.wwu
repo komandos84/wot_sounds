@@ -1,0 +1,132 @@
+<WwiseDocument Type="WorkUnit" ID="{E44AA8E0-0104-42AD-A2CB-DAF85C6ED70A}" SchemaVersion="97">
+  <Events>
+    <WorkUnit Name="Modules" ID="{E44AA8E0-0104-42AD-A2CB-DAF85C6ED70A}" PersistMode="Standalone">
+      <Comment>Modules mounted on a vehicle</Comment>
+      <ChildrenList>
+        <Folder Name="consumables" ID="{7846F17A-7E0C-4879-81A6-4D3EA56ECF81}" ShortID="39671281">
+          <Comment>A group of events for triggering or using equipment (consumables) in gameplay</Comment>
+          <ChildrenList>
+            <Event Name="cons_wet_ammo" ID="{8990D2F3-1B32-4C78-B04F-DD03B640EDBA}">
+              <Comment>Wet ammo. It is triggered when the ammo bay reaches 0 HP, as well as other conditions of equipment use. Starting with 0.5s delay.</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="cons_co2" ID="{393B05C2-4A9F-4183-8663-9528233AE60B}">
+              <Comment>CO2 tanks. It is triggered when tanks reaches 0 HP, as well as other conditions of equipment use. Starting with 0.5s delay.</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="cons_cyclone_filter" ID="{1CC2C34F-9F2A-48F0-860F-1EEBE66CB137}">
+              <Comment>Cyclone filter. It is triggered when engine reaches 0 HP, as well as other conditions of equipment use. Starting with 0.5s delay.</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="cons_gun_rammer_start" ID="{7A62D2F4-6296-47C4-8DF5-A9837EB68C13}">
+              <Comment>Gun rammer. Informs player about accelerated reloading. Triggered 1.5s before the end of reload</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="cons_toolbox_start" ID="{597DA42A-CFD2-4B7B-9B70-502B379723DA}">
+              <Comment>Toolbox</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="cons_supply_start" ID="{3591FE20-11EA-468C-A77B-C76E18D841F8}">
+              <Comment>Improved supply</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="cons_ventilation" ID="{4529DD43-7FB5-4108-A328-94ADFC930DFB}">
+              <Comment>Improved ventilation. Works only in sniper mode. Starts with the battle start</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="cons_turbine" ID="{9EC55F68-C233-4A4C-B7A9-B8B174A41811}">
+              <Comment>Turbine. Mixes the content of the turbine to the engine system</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="cons_grousers_start" ID="{7598BB9F-6B85-4640-9803-FE2D99318420}">
+              <Comment>Additional grousers. Blends (changes) the content of caterpillars and surface</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="cons_tracks_start" ID="{7F00002D-8887-4A4F-AB56-D2BAD34E4D9B}">
+              <Comment>Low-noise exhaust system (formerly called "low-noise tracks"). Filters the engine and applies tremolo to the high end of the spectrum</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="cons_radio_interference" ID="{364BD04A-D55F-4365-84D0-D9796FD332A2}">
+              <Comment>Radio interference. Plays in addition to the sound of the lamp. Autodaking with white noise on the auto_duck_wpn_30ms bus</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="cons_radio_sighted_for_team" ID="{1F0A3CBE-2F91-496F-AE17-8DDE9D66640F}">
+              <Comment>Improved radio communication. Additional sfx at the moment of triggering (the enemy is spotted by the player).</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="cons_springs" ID="{0C699904-0DA8-4F1F-90B7-E78AA37253C1}">
+              <Comment>Reinforced springs. Called with SFX of the end of the restoration of hit points of suspension with 750ms delay</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="cons_spall_liner_start" ID="{91770652-CAE1-43D3-86E5-5B024D9D0C28}">
+              <Comment>Spall liner. Changing the content of imp_npc_pc and imp_surface when the lining is triggered with high-explosive damage</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="cons_ui_activation" ID="{9622AFF4-E1FB-47A9-BA7F-2E727D7CBF87}">
+              <Comment>Equipment activation UI. Supports flare animation in HUD. Called only when there is animation.</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="cons_toolbox_stop" ID="{BDBAAEC6-7F41-4C2A-9285-F3326E89E6D6}">
+              <Comment>Toolbox</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="cons_grousers_stop" ID="{0D6C2CFD-0B13-4691-B72E-B2E4B8AEE107}">
+              <Comment>Additional grousers. Blends (changes) the content of caterpillars and surface</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="cons_tracks_stop" ID="{F3003E3C-0AED-4240-9E52-FCFBF535BA4A}">
+              <Comment>Low-noise exhaust system (formerly called "low-noise tracks"). Filters the engine and applies tremolo to the high end of the spectrum</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="cons_spall_liner_stop" ID="{CA158EFF-F23C-41C0-9122-DC4432A44B18}">
+              <Comment>Spall liner. Changing the content of imp_npc_pc and imp_surface when the lining is triggered with high-explosive damage</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+          </ChildrenList>
+        </Folder>
+        <Folder Name="damaged_modules" ID="{DB224C88-8C42-4CB9-9C64-194A44A9A403}" ShortID="626387238">
+          <ChildrenList>
+            <Event Name="crew_member_contusion" ID="{75A5A228-3CCE-4010-8EBA-A6B22BAC4DE9}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="gun_damaged" ID="{16385815-4F0D-4ED3-A905-4BB04C46E2D5}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="camo_net_start" ID="{14DD238B-A1F4-482A-9FB7-D021C5C9003A}">
+              <Comment>Evemt - Camo net installation sound</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="fuel_tank_damaged" ID="{8660AC4E-7552-4751-8CBF-503425344A6F}">
+              <Comment>Event - Fuel Tanks hit</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="surveying_devices_destroyed" ID="{BEF34718-0987-4CDA-8BAA-5EBD8D24E23D}">
+              <Comment>Event - Surveying devices destroyed sound</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="stereo_trumpet_start" ID="{BA4450B0-1698-40CE-BC6D-D496DCCF101D}">
+              <Comment>Event - Binocular Telescope activation sound</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="ammo_bay_damaged" ID="{C45E17E8-DFAF-4DBF-91DE-C19BFE89F9B2}">
+              <Comment>Event - Ammo bay damages sound</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="radio_damaged" ID="{4FC6DB76-5B69-4EAC-A9B7-152396902971}">
+              <Comment>Event - Radio damaged sound</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="camo_net_stop" ID="{1F135B66-01F3-46F1-BDDC-C499826EB1E9}">
+              <Comment>Event - Camouflage Net </Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="stereo_trumpet_stop" ID="{E5A27455-7948-40B5-8EDB-8A22C3F587C3}">
+              <Comment>Event - Binocular Telescope deactivation sound</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+          </ChildrenList>
+        </Folder>
+      </ChildrenList>
+    </WorkUnit>
+  </Events>
+</WwiseDocument>

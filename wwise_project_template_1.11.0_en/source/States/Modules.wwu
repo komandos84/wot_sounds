@@ -1,0 +1,24 @@
+<WwiseDocument Type="WorkUnit" ID="{13E055B6-95A9-4669-9A37-BDAA04C3CCA2}" SchemaVersion="97">
+  <States>
+    <WorkUnit Name="Modules" ID="{13E055B6-95A9-4669-9A37-BDAA04C3CCA2}" PersistMode="Standalone">
+      <ChildrenList>
+        <StateGroup Name="STATE_cons_grousers" ID="{6B818D86-B45A-4F48-97ED-E02D6623F5C3}">
+          <Comment>Additional grousers. Blends (changes) the content of caterpillars and surface</Comment>
+          <ChildrenList>
+            <State Name="None" ID="{20A4F274-09D5-40BC-BEFA-6AF49271825F}" />
+            <State Name="STATE_cons_grousers_on" ID="{7D2A824A-7CE9-41F9-925F-EA74D5382CDE}" />
+            <State Name="STATE_cons_grousers_off" ID="{05894459-982C-4CED-A7E8-72FC57C81EEA}" />
+          </ChildrenList>
+        </StateGroup>
+        <StateGroup Name="STATE_cons_spall_liner" ID="{1AB4898D-8BB6-4857-9AAC-E3386839B317}">
+          <Comment>Spall liner. Changing the content of imp_npc_pc and imp_surface when the lining is triggered with high-explosive damage</Comment>
+          <ChildrenList>
+            <State Name="None" ID="{A2873D03-8B6F-4D23-B2B9-21E8DB4A7A55}" />
+            <State Name="STATE_cons_spall_liner_on" ID="{6031048B-F3D2-41A0-8003-9E057B986F59}" />
+            <State Name="STATE_cons_spall_liner_off" ID="{356F1A10-D27C-4C26-9F65-CC90342B6866}" />
+          </ChildrenList>
+        </StateGroup>
+      </ChildrenList>
+    </WorkUnit>
+  </States>
+</WwiseDocument>

@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EAE77839-3737-4427-9C7F-8A24EE1D1482}" SchemaVersion="97">
+	<Effects>
+		<WorkUnit Name="Plane" ID="{EAE77839-3737-4427-9C7F-8A24EE1D1482}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="plane_crashe_flanger" ID="{6E4821C2-B4DD-4714-BA4C-814303B41C24}" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
+					<PropertyList>
+						<Property Name="DelayTime" Type="Real32" Value="4.4"/>
+						<Property Name="ModDepth" Type="Real32" Value="51.1"/>
+						<Property Name="ModFrequency" Type="Real32" Value="0.1"/>
+						<Property Name="ModPWM" Type="Real32" Value="100"/>
+						<Property Name="WetDryMix" Type="Real32" Value="0">
+							<RTPCList>
+								<RTPC Name="" ID="{7AB7E43D-A07B-467D-865D-B7F901DDEE0B}" ShortID="652301265">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_int_distance_1000m" ID="{233FF10A-53C3-4F3F-AB42-E299DFCF3509}" WorkUnitID="{99AED538-0B7F-42D5-942E-04185D409E05}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{B1490B48-1F6B-48D0-87B1-6BBE27C0E665}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>548.38449</XPos>
+												<YPos>24.85207</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1000</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+				<Effect Name="plate_crashe_delay" ID="{9434CBFC-069B-4FA4-A437-54EA79A4E382}" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+					<PropertyList>
+						<Property Name="DelayTime" Type="Real32" Value="0.25"/>
+						<Property Name="WetDryMix" Type="Real32" Value="100"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="plane_eq_bomber" ID="{5272BE5B-1583-4D94-A1F5-119EB8338EC1}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FrequencyBand2" Type="Real32" Value="279"/>
+						<Property Name="GainBand2" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{57C5ABB0-3524-439B-8C33-75A2565D312C}" ShortID="827055983">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_int_distance_1000m" ID="{233FF10A-53C3-4F3F-AB42-E299DFCF3509}" WorkUnitID="{99AED538-0B7F-42D5-942E-04185D409E05}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{F4C9D340-08A2-49B6-AFB5-5A9EFA4B50C3}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>600</XPos>
+												<YPos>6</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1000</XPos>
+												<YPos>6</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="QFactorBand2" Type="Real32" Value="2"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="plane_bombardment" ID="{D6B1B7DF-3A00-43A0-829C-4136EE4DB165}" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
+					<PropertyList>
+						<Property Name="ModDepth" Type="Real32" Value="16.8"/>
+						<Property Name="ModFrequency" Type="Real32" Value="0.28"/>
+						<Property Name="WetDryMix" Type="Real32" Value="0">
+							<RTPCList>
+								<RTPC Name="" ID="{2CEF65C6-A867-4531-9B7F-C4257239FAD9}" ShortID="434496331">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_int_distance_1100m" ID="{3B5B0664-7137-4DE0-A597-542B423EF9E9}" WorkUnitID="{99AED538-0B7F-42D5-942E-04185D409E05}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{3CDF2DA3-C495-4B0A-A587-4FA5B1DFB6D3}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>196.49664</XPos>
+												<YPos>7.88771</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1100</XPos>
+												<YPos>33.93048</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+				<Effect Name="plane_bombardment_stereo_delay" ID="{F397D21E-6C78-428D-8A53-3C28109BD040}" PluginName="Wwise Stereo Delay" CompanyID="0" PluginID="135" PluginType="3">
+					<PropertyList>
+						<Property Name="DryLevel" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{CDFE764C-E93B-49DC-B65C-55DD7147B882}" ShortID="545014312">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_int_distance_1100m" ID="{3B5B0664-7137-4DE0-A597-542B423EF9E9}" WorkUnitID="{99AED538-0B7F-42D5-942E-04185D409E05}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{98D59133-6387-4CAA-B539-4FA1FEE3EE9F}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0.07472</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>250.565428109855</XPos>
+												<YPos>0.0995828587883385</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1100</XPos>
+												<YPos>-96</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="LeftDelayTime" Type="Real32" Value="0.362"/>
+						<Property Name="RightDelayTime" Type="Real32" Value="0.416"/>
+						<Property Name="WetLevel" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{6676E4E3-6324-4789-A0DD-C609E107DB81}" ShortID="112059098">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_int_distance_1100m" ID="{3B5B0664-7137-4DE0-A597-542B423EF9E9}" WorkUnitID="{99AED538-0B7F-42D5-942E-04185D409E05}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{A1525E2C-535A-4B71-827C-ACE1B8B9D558}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-96</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>490.4685</XPos>
+												<YPos>-15.59404</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1100</XPos>
+												<YPos>-4.45341</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+				<Effect Name="plane_bombardment_parametric_eq" ID="{59ACEAF7-8EEE-42D1-A8A8-CADF94463028}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FilterTypeBand1" Type="int32" Value="6"/>
+						<Property Name="FrequencyBand1" Type="Real32" Value="85"/>
+						<Property Name="GainBand1" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{B3832C2A-244C-4B8A-A65A-8A6136CE3095}" ShortID="227485485">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_int_distance_1100m" ID="{3B5B0664-7137-4DE0-A597-542B423EF9E9}" WorkUnitID="{99AED538-0B7F-42D5-942E-04185D409E05}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{38709A96-718B-47D5-A9E5-1F1BF148337C}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>440</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>660</XPos>
+												<YPos>2</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>932</XPos>
+												<YPos>5</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1100</XPos>
+												<YPos>5</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="OnOffBand2" Type="bool" Value="False"/>
+						<Property Name="OnOffBand3" Type="bool" Value="False"/>
+						<Property Name="QFactorBand1" Type="Real32" Value="1.5"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="plane_bombardment_parametric_eq_distant" ID="{62F83BD0-189E-4161-A5A7-D03084664A39}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FrequencyBand1" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{8127E7BC-748D-43A3-A70F-9B7246D94D23}" ShortID="494903205">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_int_distance_1100m" ID="{3B5B0664-7137-4DE0-A597-542B423EF9E9}" WorkUnitID="{99AED538-0B7F-42D5-942E-04185D409E05}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{8F624C3F-81AA-4FDD-89AC-6E652397E87D}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="5"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>3000</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>108.40064</XPos>
+												<YPos>6037.70891</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>184.81421</XPos>
+												<YPos>2632.92685</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>325.20194</XPos>
+												<YPos>6349.6342</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>410.5008</XPos>
+												<YPos>2387.55329</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>438.93376</XPos>
+												<YPos>9836.0459</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>531.34088</XPos>
+												<YPos>3899.15792</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>593.53796</XPos>
+												<YPos>8380.37742</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>682.39095</XPos>
+												<YPos>5893.99367</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>753.47335</XPos>
+												<YPos>10214.73556</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>838.77221</XPos>
+												<YPos>3780.15605</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>900.96931</XPos>
+												<YPos>10708.12305</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>982.71405</XPos>
+												<YPos>4706.18359</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1039.57997</XPos>
+												<YPos>7498.847</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1100</XPos>
+												<YPos>3098.30566</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="GainBand1" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{BC53224C-1864-425C-AD6E-62141AB52074}" ShortID="1011119870">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_int_distance_1100m" ID="{3B5B0664-7137-4DE0-A597-542B423EF9E9}" WorkUnitID="{99AED538-0B7F-42D5-942E-04185D409E05}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{2DF62D2F-C493-41B9-BDEE-52D934112276}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>69.30533</XPos>
+												<YPos>2.65775</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>124.39418</XPos>
+												<YPos>-2.00684</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>165.26656</XPos>
+												<YPos>2.34282</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>174.15186</XPos>
+												<YPos>-1.623</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>277.22132</XPos>
+												<YPos>2.65775</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>325.201938610662</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>325.20294</XPos>
+												<YPos>-2.52362</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>385.62197</XPos>
+												<YPos>2.40708</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>463.8116</XPos>
+												<YPos>-2.26892</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>463.8126</XPos>
+												<YPos>1.88232</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>545.55735</XPos>
+												<YPos>-1.6385</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>559.77383</XPos>
+												<YPos>3.33643</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>618.4168</XPos>
+												<YPos>1.28514</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>680.61389</XPos>
+												<YPos>-1.51911</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>705.49273</XPos>
+												<YPos>1.51911</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>824.55574</XPos>
+												<YPos>-1.75955</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>852.98869</XPos>
+												<YPos>3.22479</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>893.86107</XPos>
+												<YPos>-5.21515</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>941.841680129241</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>988.04523</XPos>
+												<YPos>4.96699</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1032.47172859451</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1100</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="OnOffBand2" Type="bool" Value="False"/>
+						<Property Name="OnOffBand3" Type="bool" Value="False"/>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
+	</Effects>
+</WwiseDocument>

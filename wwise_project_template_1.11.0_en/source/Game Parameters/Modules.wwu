@@ -1,0 +1,20 @@
+<WwiseDocument Type="WorkUnit" ID="{25AC8FF3-C0B3-4A77-AB42-4EB6358BD0E2}" SchemaVersion="97">
+  <GameParameters>
+    <WorkUnit Name="Modules" ID="{25AC8FF3-C0B3-4A77-AB42-4EB6358BD0E2}" PersistMode="Standalone">
+      <ChildrenList>
+        <GameParameter Name="RTPC_int_cons_metal_debree_spall_liner" ID="{60BE622E-0550-4851-9E1F-ADDF716FC14D}">
+          <Comment>Includes envelope so metal splinters do not sound in 01_metal_base_pierce in impacts -- splash</Comment>
+          <PropertyList>
+            <Property Name="InitialValue" Type="Real64" Value="100" />
+          </PropertyList>
+        </GameParameter>
+        <GameParameter Name="RTPC_int_cons_turbine_volume" ID="{E47BABB2-06C7-485C-B46D-1339A7C527D2}">
+          <Comment>Internal parameter. Adjusts the volume of the turbine (equipment) depending on the engine. The value is set in the event of a specific PC engine</Comment>
+          <PropertyList>
+            <Property Name="InitialValue" Type="Real64" Value="100" />
+          </PropertyList>
+        </GameParameter>
+      </ChildrenList>
+    </WorkUnit>
+  </GameParameters>
+</WwiseDocument>
