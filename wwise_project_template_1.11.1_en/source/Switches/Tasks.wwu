@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A62A8A17-F500-4153-9AA2-CB25898785CF}" SchemaVersion="97">
+	<Switches>
+		<WorkUnit Name="Tasks" ID="{A62A8A17-F500-4153-9AA2-CB25898785CF}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="SWITCH_ext_battle_pass_video_language" ID="{8D893C42-9CD8-4833-98A4-F2D4C2568A97}">
+					<ChildrenList>
+						<Switch Name="SWITCH_ext_battle_pass_video_language_RU" ID="{2F3E9D51-5A64-4F90-B73C-4534F7007E97}"/>
+						<Switch Name="SWITCH_ext_battle_pass_video_language_EN" ID="{84595B8A-EF6B-45E4-AA2B-4C75E9BCDD55}"/>
+						<Switch Name="SWITCH_ext_battle_pass_video_language_CN" ID="{ABCDCA37-C3FD-476B-8E03-2B7DAD86F369}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

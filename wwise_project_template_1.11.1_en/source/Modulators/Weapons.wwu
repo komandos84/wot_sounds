@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DEAA7E47-7715-42B3-8921-92451509E619}" SchemaVersion="97">
+	<Modulators>
+		<WorkUnit Name="Weapons" ID="{DEAA7E47-7715-42B3-8921-92451509E619}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="sub_multichanel" ID="{9633CF64-3988-4772-A0D4-191A8439D4A7}" ShortID="547745154">
+					<ChildrenList>
+						<ModulatorEnvelope Name="sub" ID="{9B19487C-F646-4E3E-8D93-AF07ED26A283}" ShortID="404802088">
+							<PropertyList>
+								<Property Name="EnvelopeAttackCurve" Type="Real64" Value="55"/>
+								<Property Name="EnvelopeAttackTime" Type="Real64" Value="0.3"/>
+								<Property Name="EnvelopeDecayTime" Type="Real64" Value="0"/>
+								<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0"/>
+								<Property Name="EnvelopeSustainLevel" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{67A40B84-159B-461B-8189-2B58F2436A8A}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+						</ModulatorEnvelope>
+						<ModulatorEnvelope Name="ADSR_hyge_1500ms" ID="{DAD660FB-844D-4652-B680-E195EAF8DE0C}" ShortID="499006452">
+							<PropertyList>
+								<Property Name="EnvelopeAttackCurve" Type="Real64" Value="0"/>
+								<Property Name="EnvelopeAttackTime" Type="Real64" Value="0"/>
+								<Property Name="EnvelopeDecayTime" Type="Real64" Value="1.5"/>
+								<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0"/>
+								<Property Name="EnvelopeSustainLevel" Type="Real64" Value="0"/>
+							</PropertyList>
+						</ModulatorEnvelope>
+						<ModulatorEnvelope Name="ADSR_5500ms" ID="{BB611B1C-0B99-4B68-AFEE-C3CB29E51216}" ShortID="919060602">
+							<PropertyList>
+								<Property Name="EnvelopeAttackCurve" Type="Real64" Value="0"/>
+								<Property Name="EnvelopeAttackTime" Type="Real64" Value="0"/>
+								<Property Name="EnvelopeDecayTime" Type="Real64" Value="5.5"/>
+								<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0"/>
+								<Property Name="EnvelopeSustainLevel" Type="Real64" Value="0"/>
+							</PropertyList>
+						</ModulatorEnvelope>
+						<ModulatorEnvelope Name="sub_low" ID="{8A751F46-D2C1-4C33-8CE4-F4FA36F7E4F0}" ShortID="433883849">
+							<PropertyList>
+								<Property Name="EnvelopeAttackTime" Type="Real64" Value="0"/>
+								<Property Name="EnvelopeDecayTime" Type="Real64" Value="0"/>
+								<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0"/>
+							</PropertyList>
+						</ModulatorEnvelope>
+						<ModulatorEnvelope Name="ADSR_3000ms" ID="{9638E831-B1B0-4E4C-BAED-F19CA08055FE}" ShortID="122568743">
+							<PropertyList>
+								<Property Name="EnvelopeAttackCurve" Type="Real64" Value="0"/>
+								<Property Name="EnvelopeAttackTime" Type="Real64" Value="0"/>
+								<Property Name="EnvelopeDecayTime" Type="Real64" Value="3"/>
+								<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0"/>
+								<Property Name="EnvelopeSustainLevel" Type="Real64" Value="0"/>
+							</PropertyList>
+						</ModulatorEnvelope>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Modulators>
+</WwiseDocument>

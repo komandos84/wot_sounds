@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0276B885-F86A-4DC3-9CC6-A554BC37EE8D}" SchemaVersion="97">
+	<Modulators>
+		<WorkUnit Name="Vehicles" ID="{0276B885-F86A-4DC3-9CC6-A554BC37EE8D}" PersistMode="Standalone">
+			<ChildrenList>
+				<ModulatorEnvelope Name="Vehicles_trds" ID="{8A08753E-D4E8-43FF-BE0B-A19EC70408D9}" ShortID="105382198">
+					<PropertyList>
+						<Property Name="EnvelopeAutoRelease" Type="bool" Value="True"/>
+						<Property Name="EnvelopeDecayTime" Type="Real64" Value="1"/>
+						<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0.001"/>
+						<Property Name="EnvelopeSustainLevel" Type="Real64" Value="50"/>
+						<Property Name="EnvelopeSustainTime" Type="Real64" Value="2"/>
+						<Property Name="EnvelopeTriggerOn" Type="int32" Value="2"/>
+						<Property Name="ModulatorScope" Type="int32" Value="0"/>
+					</PropertyList>
+				</ModulatorEnvelope>
+				<ModulatorLfo Name="LFO_transmission_ufo" ID="{C1AA3E47-A38B-415E-8884-89779E2C0C83}" ShortID="282957092">
+					<PropertyList>
+						<Property Name="LfoDepth" Type="Real64" Value="20.5">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{2D59229E-03E5-4680-ABA0-3FF377AF7C30}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="5"/>
+											<Property Name="Min" Type="Real64" Value="-5"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="LfoFrequency" Type="Real64" Value="15.3">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{89B8792D-6857-4A84-B2C2-FD552BAB8750}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="2"/>
+											<Property Name="Min" Type="Real64" Value="-2"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+				</ModulatorLfo>
+				<ModulatorLfo Name="LFO_transmission_400hz" ID="{4128856E-3A7E-41DB-988C-0BB7114FD991}" ShortID="706108061">
+					<PropertyList>
+						<Property Name="LfoAttack" Type="Real64" Value="0.05"/>
+						<Property Name="LfoFrequency" Type="Real64" Value="0.35"/>
+						<Property Name="LfoSmoothing" Type="Real64" Value="39"/>
+						<Property Name="LfoWaveform" Type="int32" Value="1"/>
+					</PropertyList>
+				</ModulatorLfo>
+				<ModulatorEnvelope Name="Vehicles_eng_accel_int" ID="{CD2E08B0-ADA5-4FFB-B425-CC9C0F6636A5}" ShortID="416749334">
+					<PropertyList>
+						<Property Name="EnvelopeAttackTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeAutoRelease" Type="bool" Value="True"/>
+						<Property Name="EnvelopeDecayTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeReleaseTime" Type="Real64" Value="2.5"/>
+						<Property Name="EnvelopeStopPlayback" Type="bool" Value="False"/>
+						<Property Name="EnvelopeSustainTime" Type="Real64" Value="1"/>
+					</PropertyList>
+				</ModulatorEnvelope>
+				<ModulatorLfo Name="LFO_eng_damage_risk" ID="{1EBCEF64-886C-4020-805D-77E08985239D}" ShortID="542140772">
+					<PropertyList>
+						<Property Name="LfoDepth" Type="Real64" Value="0">
+							<RTPCList>
+								<RTPC Name="" ID="{A0F3C66D-C61A-4F91-BE14-3D220F3D08AD}" ShortID="425706507">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_ext_engine_damage_risk" ID="{816F4F41-DFDB-4C4C-A146-37A960F792E4}" WorkUnitID="{87FF0202-7DD4-4D0F-A267-00520CCB358C}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{3F8C85DB-3631-4A13-B22B-BB6D862C6EFC}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>100</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="LfoFrequency" Type="Real64" Value="10"/>
+						<Property Name="LfoWaveform" Type="int32" Value="5"/>
+					</PropertyList>
+				</ModulatorLfo>
+			</ChildrenList>
+		</WorkUnit>
+	</Modulators>
+</WwiseDocument>

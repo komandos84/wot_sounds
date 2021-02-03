@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{65CEFED0-4EDD-441E-8705-DEFEBACD8469}" SchemaVersion="97">
+	<Modulators>
+		<WorkUnit Name="Default Work Unit" ID="{65CEFED0-4EDD-441E-8705-DEFEBACD8469}" PersistMode="Standalone">
+			<ChildrenList>
+				<ModulatorLfo Name="LFO_AUX_environment_reflection_frequency" ID="{49550DA5-1DAC-4D46-8534-F98B859F298F}" ShortID="927888351">
+					<PropertyList>
+						<Property Name="LfoDepth" Type="Real64" Value="67.9"/>
+						<Property Name="LfoFrequency" Type="Real64" Value="1.58">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{D65BF378-74D5-4158-899E-1F7F88190D78}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="9053"/>
+											<Property Name="Min" Type="Real64" Value="-8525.98"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="LfoInitialPhase" Type="Real64">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{0C14D374-38CB-4F10-A4A0-2F9FD31E3A4B}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="180"/>
+											<Property Name="Min" Type="Real64" Value="-180"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="LfoWaveform" Type="int32" Value="1"/>
+						<Property Name="ModulatorScope" Type="int32" Value="3"/>
+					</PropertyList>
+				</ModulatorLfo>
+			</ChildrenList>
+		</WorkUnit>
+	</Modulators>
+</WwiseDocument>

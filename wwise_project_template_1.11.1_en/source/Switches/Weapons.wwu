@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{218B0B44-C685-426F-AF9E-3B21A3A12A3E}" SchemaVersion="97">
+	<Switches>
+		<WorkUnit Name="Weapons" ID="{218B0B44-C685-426F-AF9E-3B21A3A12A3E}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="wpn_auto_duck_30ms" ID="{9BFD010C-40AE-435E-AE26-DF0513470851}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="wpn_auto_duck_30ms" ID="{9067079E-F09E-4BC5-847E-D2DE550EAE46}"/>
+						<Switch Name="wpn_auto_duck_0ms" ID="{4121F768-D9CC-4088-BC67-3A1F6CD3D31E}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="RTPC_ext_menu_volume_effects" ID="{7FC45ED1-AC20-488C-ADF2-2FC071CC89DB}"/>
+						<Curve Name="" ID="{DCE28236-23EA-4203-9F33-607EA534D304}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>2</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>25</XPos>
+									<YPos>1</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>100</XPos>
+									<YPos>0</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+				<SwitchGroup Name="wpn_auto_duck_50ms" ID="{488EF5EB-DE00-41D5-B4AE-32734DCE5C04}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="wpn_auto_duck_50ms" ID="{7D16C6D1-6C5D-4EE7-A7C3-ED27AF245028}"/>
+						<Switch Name="wpn_auto_duck_0ms" ID="{668EC1EB-512C-4FA2-9B71-174F45A7BA2B}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="RTPC_ext_menu_volume_effects" ID="{7FC45ED1-AC20-488C-ADF2-2FC071CC89DB}"/>
+						<Curve Name="" ID="{3A08B049-EB5E-4A32-901F-E29B17A77809}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>2</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>25</XPos>
+									<YPos>1</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>100</XPos>
+									<YPos>0</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

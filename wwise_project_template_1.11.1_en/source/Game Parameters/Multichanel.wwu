@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B5A67743-BE24-41E4-BE9F-3890AD3CDD9C}" SchemaVersion="97">
+	<GameParameters>
+		<WorkUnit Name="Multichanel" ID="{B5A67743-BE24-41E4-BE9F-3890AD3CDD9C}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="RTPC_int_multichanel" ID="{8DCB3F31-B96D-450B-809F-A3B56FCD3B92}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

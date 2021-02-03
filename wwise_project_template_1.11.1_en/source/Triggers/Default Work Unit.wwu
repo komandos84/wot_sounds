@@ -1,0 +1,220 @@
+<WwiseDocument Type="WorkUnit" ID="{FFA2EC29-4A80-4FD9-AC3C-2402E5FF07D3}" SchemaVersion="97">
+  <Triggers>
+    <WorkUnit Name="Default Work Unit" ID="{FFA2EC29-4A80-4FD9-AC3C-2402E5FF07D3}" PersistMode="Standalone">
+      <ChildrenList>
+        <Folder Name="08_Overlord_stinger" ID="{C71613BD-F790-4835-940A-6C0AAC75EC82}" ShortID="76081882">
+          <ChildrenList>
+            <Trigger Name="overlord_stinger" ID="{F480055C-2D91-46DE-BE26-F0F477C8AB75}" />
+          </ChildrenList>
+        </Folder>
+        <Folder Name="07_Himmelsdorf_stinger" ID="{29C585AB-266A-410A-AEFE-5EF77BD9D06E}" ShortID="341360146">
+          <ChildrenList>
+            <Trigger Name="himmelsdorf_stinger" ID="{045AEECA-8284-421C-9355-DFFC243AF067}" />
+          </ChildrenList>
+        </Folder>
+        <Folder Name="06_Steppes_stinger" ID="{45EBBFEC-4F48-4088-9D2F-ACFCD6D82F0A}" ShortID="78122098">
+          <ChildrenList>
+            <Trigger Name="steppes_stinger" ID="{B9FC6018-35D5-4356-B3E5-37742F3F05DD}" />
+          </ChildrenList>
+        </Folder>
+        <Folder Name="05_Malinovka_stinger" ID="{AA6EFAF5-2129-4D09-8911-AC5C625200BB}" ShortID="303636826">
+          <ChildrenList>
+            <Trigger Name="malinovka_stinger" ID="{75A0930B-8AFD-4E69-92F2-65B58105AD67}" />
+          </ChildrenList>
+        </Folder>
+        <Folder Name="04_Mines_stinger" ID="{D6F37A3B-11AA-4711-A6A2-EC260B5654B5}" ShortID="536106515">
+          <ChildrenList>
+            <Trigger Name="mines_stinger" ID="{155A2145-CC00-4D16-B0E8-D354C1C5E84A}">
+              <Comment>Stinger for the Hills map</Comment>
+            </Trigger>
+          </ChildrenList>
+        </Folder>
+        <Folder Name="01_Paris_stinger" ID="{75B5E912-9FC6-42F4-95A0-B3CA7F65EA81}" ShortID="434352977">
+          <ChildrenList>
+            <Trigger Name="paris_stinger" ID="{EF9BAB80-779E-4EE3-98DA-C61AD82C26CC}" />
+          </ChildrenList>
+        </Folder>
+        <Folder Name="02_Abbey_stinger" ID="{8C3ADBA4-56C7-459C-87CA-9B2D9C70BB4D}" ShortID="1043166638">
+          <ChildrenList>
+            <Trigger Name="abbey_stinger" ID="{7B59EA84-1C25-43A1-BD2E-FCB5B54ECB95}" />
+          </ChildrenList>
+        </Folder>
+        <Folder Name="09_Ensk_stinger" ID="{3DD137DB-1335-4E6D-A260-C419B9964E21}" ShortID="108578965">
+          <ChildrenList>
+            <Trigger Name="ensk_stinger" ID="{30801EF9-C521-454D-A12C-5E152DB98AF3}" />
+          </ChildrenList>
+        </Folder>
+        <Folder Name="10_Serene_coast_stinger" ID="{6EB364FF-1F70-4517-BDBC-3C542B821589}" ShortID="1063457246">
+          <ChildrenList>
+            <Trigger Name="serene_coast_stinger" ID="{10DE27A8-AFA4-45DA-B893-21293315B2F2}" />
+          </ChildrenList>
+        </Folder>
+        <Folder Name="11_Cliff_stinger" ID="{B8E34DCB-77D4-4F79-98AF-032293D3604A}" ShortID="344751637">
+          <ChildrenList>
+            <Trigger Name="cliff_stinger" ID="{A87BCF0E-BEE8-4ED7-AC60-9D06FB366AB9}" />
+          </ChildrenList>
+        </Folder>
+        <Folder Name="12_Murovanka_stinger" ID="{6547C56A-F529-4128-BDDF-D903257E1629}" ShortID="483513194">
+          <ChildrenList>
+            <Trigger Name="murovanka_stinger" ID="{7D754B32-D6FA-4E40-AA3D-8D1C679758B7}" />
+          </ChildrenList>
+        </Folder>
+        <Folder Name="13_Prokhorovka_stinger" ID="{A828DEED-BA45-4490-A1F8-10B2EC111759}" ShortID="719133116">
+          <ChildrenList>
+            <Trigger Name="prokhorovka_stinger" ID="{B793830E-DD92-46B5-AE9F-D7FEBBBF2252}" />
+          </ChildrenList>
+        </Folder>
+        <Folder Name="14_Sand_river_stinger" ID="{FBD21504-9A91-4AEC-AC35-B4E67107366C}" ShortID="768244232">
+          <ChildrenList>
+            <Trigger Name="sand_river_stinger" ID="{23B1DF14-81FD-4616-A1CC-A64E96D9D920}" />
+          </ChildrenList>
+        </Folder>
+        <Folder Name="15_El_halluf_stinger" ID="{B5A0B777-9F8D-4DDB-9CD8-7849AB0FBA59}" ShortID="395152066">
+          <ChildrenList>
+            <Trigger Name="el_halluf_stinger" ID="{D7023CC4-52B6-46A0-B694-0B7D8BD84DD6}" />
+          </ChildrenList>
+        </Folder>
+        <Folder Name="16_Caucasus_stinger" ID="{76D6F2A6-CF03-4DE1-BC2C-A562018310EA}" ShortID="405388353">
+          <ChildrenList>
+            <Trigger Name="caucasus_stinger" ID="{9F88321D-1B7F-40A7-BAA8-C6946BF27323}" />
+          </ChildrenList>
+        </Folder>
+        <Folder Name="17_Ruinberg_stinger" ID="{1DC043E3-6684-4B4F-A28A-276E023E2B66}" ShortID="1031831956">
+          <ChildrenList>
+            <Trigger Name="ruinberg_stinger" ID="{4B48CD8D-BC4D-45E7-9FA7-AE39BA0F5C3B}" />
+          </ChildrenList>
+        </Folder>
+        <Folder Name="18_Airfield_stinger" ID="{626D3A9E-0583-4809-B6A3-F4F2D3452EF7}" ShortID="941881142">
+          <ChildrenList>
+            <Trigger Name="airfield_stinger" ID="{DAC1605B-8655-475C-A67E-AC9988E3EFCE}" />
+          </ChildrenList>
+        </Folder>
+        <Folder Name="19_lakeville_stinger" ID="{C358C908-E8E7-4F09-B4EE-6C6C73ADCA5A}" ShortID="910144341">
+          <ChildrenList>
+            <Trigger Name="lakeville_stinger" ID="{2909F8AC-ED91-440D-82A7-3F2D906FD5B6}" />
+          </ChildrenList>
+        </Folder>
+        <Folder Name="20_Live_oaks_stinger" ID="{240A4144-628D-4347-B6B5-1746B78FC180}" ShortID="982328039">
+          <ChildrenList>
+            <Trigger Name="liveoaks_stinger" ID="{EA19ABBA-12C6-4C29-95D3-9D3FD24C2AB8}" />
+          </ChildrenList>
+        </Folder>
+        <Folder Name="21_Karelia_stinger" ID="{B593EA55-35D0-478A-B42B-88F1840E4E89}" ShortID="325311748">
+          <ChildrenList>
+            <Trigger Name="karelia_stinger" ID="{4E73D45B-15B0-4D7F-9B59-CF6F348E2524}" />
+          </ChildrenList>
+        </Folder>
+        <Folder Name="22_Siegfried_stinger" ID="{BDDB3AB9-94F7-4F85-A1BD-A6EA96CE3D60}" ShortID="246383088">
+          <ChildrenList>
+            <Trigger Name="siegfried_stinger" ID="{01EB27F7-72E8-4541-A540-1F62C398AC18}" />
+          </ChildrenList>
+        </Folder>
+        <Folder Name="23_Mannerheim_stinger" ID="{04042E28-3BA6-40DB-859D-26A56EB90C83}" ShortID="133223949">
+          <ChildrenList>
+            <Trigger Name="mannerheim_stinger" ID="{75401CAC-5BBC-4892-A671-9A82D57BE151}" />
+          </ChildrenList>
+        </Folder>
+        <Folder Name="24_Redshire_stinger" ID="{FD14D17B-8552-4BCC-902A-E6185A9F6BF2}" ShortID="569236546">
+          <ChildrenList>
+            <Trigger Name="redshire_stinger" ID="{88474661-E5BA-4747-BEE6-9D9CF70DF73E}" />
+          </ChildrenList>
+        </Folder>
+        <Folder Name="25_Fjords_stinger" ID="{ED498147-6E52-4B88-A27F-4FD709FE3926}" ShortID="234953977">
+          <ChildrenList>
+            <Trigger Name="fjords_stinger" ID="{907E7EAC-0731-4879-9B8B-B7A2A4024EA5}" />
+          </ChildrenList>
+        </Folder>
+        <Folder Name="26_Westfield_stinger" ID="{518ED7A0-1D0C-46D5-A708-B13F81A1358D}" ShortID="1006643876">
+          <ChildrenList>
+            <Trigger Name="westfield_stinger" ID="{8B4ECDD6-2F3E-4469-9951-F900144DB982}" />
+          </ChildrenList>
+        </Folder>
+        <Folder Name="27_Erlenberg_stinger" ID="{F96D7E01-8739-4B43-905E-AD101CB5DCCC}" ShortID="474462074">
+          <ChildrenList>
+            <Trigger Name="erlenberg_stinger" ID="{445CE343-503D-4A0A-A293-C3A144D2EAE7}" />
+          </ChildrenList>
+        </Folder>
+        <Folder Name="28_Fishing_bay_stinger" ID="{D88A2351-1E4C-45F2-986D-6E54649C96A5}" ShortID="922814874">
+          <ChildrenList>
+            <Trigger Name="fishingbay_stinger" ID="{E0CCBDEA-106A-41E5-B3CD-5CA8E8C40242}" />
+          </ChildrenList>
+        </Folder>
+        <Folder Name="29_Tundra_stinger" ID="{3AF97767-6728-4977-A4FA-9B18B64A4EAD}" ShortID="153911585">
+          <ChildrenList>
+            <Trigger Name="tundra_stinger" ID="{4D80660D-0BA0-425B-BD77-438F31B7A612}" />
+          </ChildrenList>
+        </Folder>
+        <Folder Name="03_Sweden_stinger" ID="{F94535EF-A3F1-49F0-B2CC-D2D41A0A4107}" ShortID="529554986">
+          <ChildrenList>
+            <Trigger Name="sweden_stinger" ID="{D885D62A-CDBE-4EFB-923D-1706B370FF8F}" />
+          </ChildrenList>
+        </Folder>
+        <Folder Name="32_Province" ID="{557BAD7C-3CBB-41A8-ADDC-CE742A961FBB}" ShortID="223862887">
+          <ChildrenList>
+            <Trigger Name="province_stinger" ID="{2DAF94CE-86CE-47AA-94F9-D8152D0C72A5}" />
+          </ChildrenList>
+        </Folder>
+        <Folder Name="33_Klondike_stinger" ID="{41AD518B-ABD9-4BB4-AE4A-A0049EA46714}" ShortID="186965583">
+          <ChildrenList>
+            <Trigger Name="klondike_stinger" ID="{8B940AA4-9AAF-4018-86F1-9A33F2EF5D2E}" />
+          </ChildrenList>
+        </Folder>
+        <Folder Name="34_Pilsen_stinger" ID="{868EA175-81DF-4D18-8EA2-E288CB7F5F00}" ShortID="815479168">
+          <ChildrenList>
+            <Trigger Name="pilsen_stinger" ID="{9C062B15-118E-42BB-97EB-68D5B1FF3A1C}" />
+          </ChildrenList>
+        </Folder>
+        <Folder Name="35_Poland_stinger" ID="{1A217BAD-0736-410D-AACA-F61549A38460}" ShortID="842100051">
+          <ChildrenList>
+            <Trigger Name="poland_stinger" ID="{9A488368-CCD1-424B-B078-1A4D46F5EA6A}" />
+          </ChildrenList>
+        </Folder>
+        <Folder Name="36_Minsk_stinger" ID="{71CF652F-922D-46F5-A7EF-4098ECBED8D0}" ShortID="583907107">
+          <ChildrenList>
+            <Trigger Name="minsk_stinger" ID="{A3F5FCEB-4486-4F50-B6D5-0192E503AE25}" />
+          </ChildrenList>
+        </Folder>
+        <Folder Name="37_Munchen_stinger" ID="{13834EA2-93EA-4E91-A6E8-DA16DAFA1A54}" ShortID="287100414">
+          <ChildrenList>
+            <Trigger Name="munchen_stinger" ID="{1749D8DF-E049-41E7-A5F8-0F60F8530DFD}" />
+          </ChildrenList>
+        </Folder>
+        <Folder Name="38_Great_wall_stinger" ID="{F3899578-B5C4-42F4-BADA-B52D5EB3C4F7}" ShortID="720096979">
+          <ChildrenList>
+            <Trigger Name="great_wall_stinger" ID="{B46B567E-47EC-486D-9D6B-674FF42CAEBE}" />
+          </ChildrenList>
+        </Folder>
+        <Folder Name="39_Highway_stinger" ID="{CDD61943-E4E1-4281-B41E-98038645B1E5}" ShortID="481743848">
+          <ChildrenList>
+            <Trigger Name="highway_stinger" ID="{846334EC-162C-4ED7-B3B7-400AB45E592C}" />
+          </ChildrenList>
+        </Folder>
+        <Folder Name="40_kursk_stinger" ID="{4DD35F96-4652-4ACF-AA94-AF5D52724830}" ShortID="968544081">
+          <ChildrenList>
+            <Trigger Name="kursk_stinger" ID="{443A8DA1-DF51-4559-8EF2-50DAD93C8059}" />
+          </ChildrenList>
+        </Folder>
+        <Folder Name="41_Lost_city_stinger" ID="{00202D2D-9BEF-462B-82CD-FFB9BB73DBEC}" ShortID="594984032">
+          <ChildrenList>
+            <Trigger Name="lost_city_stinger" ID="{ECD1EA04-A247-4168-BE6E-CA671B652841}" />
+          </ChildrenList>
+        </Folder>
+        <Folder Name="42_Kharkiv_stinger" ID="{79FA5505-4799-459D-B07E-36335D8A457B}" ShortID="894054301">
+          <ChildrenList>
+            <Trigger Name="kharkiv" ID="{A16060A0-F136-44D4-B9DF-1A6768B4C170}" />
+          </ChildrenList>
+        </Folder>
+        <Folder Name="43_Berlin" ID="{1BF17C5F-7B63-4A32-8A9E-440716B222E7}" ShortID="832889800">
+          <ChildrenList>
+            <Trigger Name="berlin_stinger" ID="{CF3F34E8-5451-4F6E-84FD-FD3E931E5EC2}" />
+          </ChildrenList>
+        </Folder>
+        <Folder Name="44_Perl_river_stinger" ID="{A2701798-9CFB-48A5-A0BB-F7310B20658A}" ShortID="838209703">
+          <ChildrenList>
+            <Trigger Name="perl_river" ID="{08EB4F7E-26FF-4C3E-B6CA-54FF5F8AEF69}" />
+          </ChildrenList>
+        </Folder>
+      </ChildrenList>
+    </WorkUnit>
+  </Triggers>
+</WwiseDocument>
