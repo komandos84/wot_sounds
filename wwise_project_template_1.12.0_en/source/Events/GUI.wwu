@@ -324,6 +324,9 @@ Example The "Campaign" tab in the Personal Missions window, "Missions and Specia
             <Event Name="ui_target_lost" ID="{3E53D58C-2FFE-4052-897F-59E0CA80301D}">
               <ChildrenList></ChildrenList>
             </Event>
+            <Event Name="expl_enemy_NPC" ID="{233A77CB-7C63-4457-A1D2-21E002BD82FB}">
+              <ChildrenList></ChildrenList>
+            </Event>
           </ChildrenList>
         </Folder>
         <Folder Name="multichanel_test" ID="{4E062ACC-462B-4B0E-B292-14CBF9C47A43}" ShortID="1062952102">
@@ -391,6 +394,25 @@ Example The "Campaign" tab in the Personal Missions window, "Missions and Specia
               <ChildrenList></ChildrenList>
             </Event>
             <Event Name="dt_pc_destroyed_slide_out" ID="{4AE45504-6493-438D-AB3D-EAFA2DA03E81}">
+              <ChildrenList></ChildrenList>
+            </Event>
+          </ChildrenList>
+        </Folder>
+        <Folder Name="battle_results" ID="{24F2BD22-7EB4-443F-BCED-E16791111259}" ShortID="592587621">
+          <ChildrenList>
+            <Event Name="battle_results_victory" ID="{75B1DAB3-1893-416F-AAD7-46958C1CB38C}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="battle_results_draw" ID="{9F84EBE3-66AD-4B83-9509-4410ECC43441}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="battle_results_defeat" ID="{EBD967E2-70D9-4220-A166-CD69B92AA05B}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="battle_results_stats" ID="{70666CD4-9DE0-4F18-BB85-4B3AE80B9591}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="battle_results_rollout" ID="{E89B9533-012D-4CA2-B009-A4A772F26ACB}">
               <ChildrenList></ChildrenList>
             </Event>
           </ChildrenList>
