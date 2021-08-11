@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7DB04E64-5A8F-413B-A8A0-F487E4B01017}" SchemaVersion="97">
+	<Modulators>
+		<WorkUnit Name="Plane" ID="{7DB04E64-5A8F-413B-A8A0-F487E4B01017}" PersistMode="Standalone">
+			<ChildrenList>
+				<ModulatorLfo Name="LFO_plane_bomber_pitch_01" ID="{757EAD4C-6AB8-4B86-874A-7C75265CD72C}" ShortID="971652045">
+					<PropertyList>
+						<Property Name="LfoDepth" Type="Real64">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{8C911747-9432-4770-A78E-7CB62B55F50E}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Min" Type="Real64" Value="-10"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="LfoFrequency" Type="Real64" Value="0.25">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{BF3550BC-7F50-470D-A5B5-50DCC8FBD412}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="0.02"/>
+											<Property Name="Min" Type="Real64" Value="-0.02"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+				</ModulatorLfo>
+				<ModulatorEnvelope Name="plane_pitch_crashe" ID="{8E4C489B-9E6A-4E99-88E7-8AD065459C6F}" ShortID="50174672">
+					<PropertyList>
+						<Property Name="EnvelopeAttackCurve" Type="Real64" Value="100"/>
+						<Property Name="EnvelopeAttackTime" Type="Real64" Value="40"/>
+						<Property Name="EnvelopeDecayTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeSustainLevel" Type="Real64" Value="0"/>
+						<Property Name="ModulatorScope" Type="int32" Value="0"/>
+					</PropertyList>
+				</ModulatorEnvelope>
+				<ModulatorLfo Name="LFO_helicopter_minsk" ID="{7FB17881-1D0A-4067-81C6-FF987C30F80B}" ShortID="591436131">
+					<PropertyList>
+						<Property Name="LfoFrequency" Type="Real64" Value="0.585"/>
+						<Property Name="LfoWaveform" Type="int32" Value="5"/>
+					</PropertyList>
+				</ModulatorLfo>
+				<ModulatorLfo Name="LFO_plane_bomber_pitch_02" ID="{B4CE7383-6C38-4D67-85CD-3C0F31DCD6F7}" ShortID="730002098">
+					<PropertyList>
+						<Property Name="LfoDepth" Type="Real64">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{B25D35FC-002A-4C51-B052-559D91A57379}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Min" Type="Real64" Value="-10"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="LfoFrequency" Type="Real64" Value="0.21">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{3F925085-5467-410E-AB97-E0158C3559B2}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="0.02"/>
+											<Property Name="Min" Type="Real64" Value="-0.02"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+				</ModulatorLfo>
+				<ModulatorLfo Name="LFO_plane_bomber_pitch_03" ID="{39CA15B6-F0B3-405A-A1F2-10A44D8D8FF7}" ShortID="135335687">
+					<PropertyList>
+						<Property Name="LfoDepth" Type="Real64">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{4016BD68-61A6-42E7-9E61-4857ED34D965}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Min" Type="Real64" Value="-10"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="LfoFrequency" Type="Real64" Value="0.16">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{6624925B-68DC-4B9E-ADAF-740C71B4294D}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="0.02"/>
+											<Property Name="Min" Type="Real64" Value="-0.02"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+				</ModulatorLfo>
+				<ModulatorLfo Name="LFO_plane_bomber_pitch_04" ID="{90E6E395-2A13-41F5-A7FE-C742DC28FD62}" ShortID="343341749">
+					<PropertyList>
+						<Property Name="LfoDepth" Type="Real64">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{54981792-5F42-4632-8ACD-53BB8763D755}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Min" Type="Real64" Value="-10"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="LfoFrequency" Type="Real64" Value="0.12">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{F99DD22B-253A-4043-B852-BC630E8A5130}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="0.02"/>
+											<Property Name="Min" Type="Real64" Value="-0.02"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+				</ModulatorLfo>
+			</ChildrenList>
+		</WorkUnit>
+	</Modulators>
+</WwiseDocument>

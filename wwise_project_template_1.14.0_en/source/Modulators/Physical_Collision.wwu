@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4BB0526B-7883-436E-AAD3-EC1BA2C8179B}" SchemaVersion="97">
+	<Modulators>
+		<WorkUnit Name="Physical_Collision" ID="{4BB0526B-7883-436E-AAD3-EC1BA2C8179B}" PersistMode="Standalone">
+			<ChildrenList>
+				<ModulatorEnvelope Name="Vehicles_collision" ID="{0AB0EE30-8DD6-45DF-A396-327C87C4BB5E}" ShortID="984401422">
+					<PropertyList>
+						<Property Name="EnvelopeAttackTime" Type="Real64" Value="0">
+							<RTPCList>
+								<RTPC Name="" ID="{8C85B1B0-22E1-45BD-AC08-5257D4127711}" ShortID="812236098">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_ext_collision_impulse_object" ID="{4E7DB0EF-CD63-4897-8937-C14736B60EF4}" WorkUnitID="{700832D4-51C8-4711-8A21-279B3D02B4AB}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{61105C3D-B509-41B4-A075-93123BA59382}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0.15</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>Log2</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="EnvelopeDecayTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeReleaseTime" Type="Real64" Value="2.5"/>
+						<Property Name="EnvelopeStopPlayback" Type="bool" Value="False"/>
+						<Property Name="EnvelopeSustainTime" Type="Real64" Value="1"/>
+					</PropertyList>
+				</ModulatorEnvelope>
+				<ModulatorEnvelope Name="Vehicles_collision_surface" ID="{7131AF34-5FEB-473B-B18D-07D1967AFFC5}" ShortID="353585182">
+					<PropertyList>
+						<Property Name="EnvelopeAttackCurve" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeAttackTime" Type="Real64" Value="3.132">
+							<RTPCList>
+								<RTPC Name="" ID="{E2AC1DF9-4051-494E-95F9-B3F39C6697E6}" ShortID="758677548">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_ext_collision_impulse_object" ID="{4E7DB0EF-CD63-4897-8937-C14736B60EF4}" WorkUnitID="{700832D4-51C8-4711-8A21-279B3D02B4AB}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{E0150E83-4F84-467E-B8EF-70E1A58A865A}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0.5</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>0.3</XPos>
+												<YPos>1</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>4</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="EnvelopeDecayTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeStopPlayback" Type="bool" Value="False"/>
+						<Property Name="EnvelopeSustainTime" Type="Real64" Value="3"/>
+					</PropertyList>
+				</ModulatorEnvelope>
+				<ModulatorEnvelope Name="Vehicles_distr_obj_collision" ID="{82FDCA90-3D5C-40DB-8235-15701349A5AD}" ShortID="47058876">
+					<PropertyList>
+						<Property Name="EnvelopeAttackTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeAutoRelease" Type="bool" Value="True"/>
+						<Property Name="EnvelopeDecayTime" Type="Real64" Value="0">
+							<RTPCList>
+								<RTPC Name="" ID="{2397C949-2BE0-450F-A57E-8C8011A3908F}" ShortID="394335697">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_ext_collision_impulse_object" ID="{4E7DB0EF-CD63-4897-8937-C14736B60EF4}" WorkUnitID="{700832D4-51C8-4711-8A21-279B3D02B4AB}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{70495FBB-5D20-4777-AC6E-D22BB1AD3D26}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0.1</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>0.5</XPos>
+												<YPos>0.4</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>1</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeSustainLevel" Type="Real64" Value="0"/>
+					</PropertyList>
+				</ModulatorEnvelope>
+			</ChildrenList>
+		</WorkUnit>
+	</Modulators>
+</WwiseDocument>

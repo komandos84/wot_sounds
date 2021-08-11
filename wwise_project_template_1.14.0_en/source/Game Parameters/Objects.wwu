@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{24070570-E03E-401A-9914-3252EF7703D9}" SchemaVersion="97">
+	<GameParameters>
+		<WorkUnit Name="Objects" ID="{24070570-E03E-401A-9914-3252EF7703D9}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="RTPC_ext_objects_metal_1" ID="{A8C614ED-BE9E-4427-854C-E3977A5D3678}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_ext_objects_metal_2" ID="{8DCC755B-D869-4BEC-ABDF-CCA794975940}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_ext_objects_wood_1" ID="{A1E67ED3-ADA7-48E1-BBCE-0D3AB5EA1A20}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_ext_objects_wood_2" ID="{6090B73D-6CBB-4656-88C8-9470311CB16C}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_ext_objects_stone_1" ID="{1AE61AD9-8634-4668-BB60-8F35D2F70DCB}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_ext_objects_stone_2" ID="{94B195C0-B964-4DFB-8869-0D7E536A4241}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_ext_objects_glass" ID="{71B2BB02-DA20-4D6F-B95E-C3251086C713}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_ext_objects_snow" ID="{FEF1EECA-F714-46E7-9C1A-90524DC08568}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_ext_objects_cloth" ID="{248F0217-6AF5-466A-B482-BABA42C79B31}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_ext_objects_debrisAmount" ID="{476F4A12-1EF4-4189-AE85-74F5FA5F231A}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_ext_objects_weight" ID="{7959D897-E5D9-431B-98D5-37FE9A958354}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="10000"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

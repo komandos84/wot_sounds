@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{27DA0D57-5778-4E17-A3FC-5D68B1F5CDC6}" SchemaVersion="97">
+	<Switches>
+		<WorkUnit Name="Damage" ID="{27DA0D57-5778-4E17-A3FC-5D68B1F5CDC6}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="SWITCH_int_eng_damage" ID="{6A38A50F-7869-4596-91CD-4987F9662B1A}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="SWITCH_int_eng_damage_on" ID="{DA90A82C-B894-4B34-8571-8C942F72D09B}"/>
+						<Switch Name="SWITCH_int_eng_damage_off" ID="{6FFBEB50-1F7F-4668-9942-085B7EDBC201}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="RTPC_int_eng_damage" ID="{3BD982D3-39FE-431B-8EC4-286A348BDFD1}"/>
+						<Curve Name="" ID="{9A488671-CA69-4650-A618-847979C373AC}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>2</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>50</XPos>
+									<YPos>1</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>100</XPos>
+									<YPos>1</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>
