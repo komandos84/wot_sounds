@@ -446,6 +446,7 @@
 						</Property>
 					</PropertyList>
 				</Language>
+				<Language Name="Sabaton_v2" ID="{4EBB76B6-223B-4A9E-B29E-25E2AD8B6486}"/>
 				<Language Name="SFX" ID="{08DD6169-A10F-419A-8112-C96DE3265289}"/>
 				<Language Name="Skill4ltu" ID="{0B198699-94B6-47A0-AF16-72D44FCF983E}">
 					<PropertyList>
@@ -481,6 +482,19 @@
 				<Language Name="Turkish" ID="{6A946E7B-1BE0-4881-9957-BACB3867FEF9}"/>
 				<Language Name="uniqueCrewSpecialVoice" ID="{0AFB00FC-CAB2-4B0A-B1F7-B0D0C68FC3ED}"/>
 				<Language Name="Vietnamese" ID="{4C2F2FFB-3EB4-418A-B9A6-F53C557DAD5F}"/>
+				<Language Name="WT21_en_US_armand" ID="{67563F78-11D3-4649-A4F9-519E8816F852}"/>
+				<Language Name="WT21_en_US_elisa" ID="{BFC9C768-95D4-4BFD-8C76-E3F409A5D8CC}"/>
+				<Language Name="WT21_en_US_krieger" ID="{E0F6DA6E-821F-4D25-8F75-42690504D4DF}"/>
+				<Language Name="WT21_en_US_letov" ID="{33A59831-5DB2-42F3-A19F-0424F4DA6AFE}"/>
+				<Language Name="WT21_ru_RU_armand" ID="{5B65A296-9BD6-47E4-B9B5-941AD4BA4D6E}"/>
+				<Language Name="WT21_ru_RU_elisa" ID="{199C2CF2-B5DF-4C1D-82CA-12960499800E}"/>
+				<Language Name="WT21_ru_RU_krieger" ID="{5BAD0BF7-6E3F-4546-B3F9-B513A4317D78}"/>
+				<Language Name="WT21_ru_RU_letov" ID="{E4D8963C-A7F3-4808-B83B-763FCF32006D}"/>
+				<Language Name="WT21_zh_CN_armand" ID="{903CAF5D-769B-4686-984F-B1B79E82561C}"/>
+				<Language Name="WT21_zh_CN_elisa" ID="{8BDFEC46-5EB1-432D-887C-FB9FF03EB01F}"/>
+				<Language Name="WT21_zh_CN_krieger" ID="{750EA918-703F-48DF-A753-77C7DD7D2117}"/>
+				<Language Name="WT21_zh_CN_letov" ID="{B9FABC6F-8D4A-4ADD-926E-72E4CA57A78B}"/>
+				<Language Name="YHA_cn_CN" ID="{EB9034EC-6B96-40E8-849A-6A994EF13D51}"/>
 				<Language Name="Yusha" ID="{FDB45B6D-E96D-4A1E-94FA-919B9630641C}">
 					<PropertyList>
 						<Property Name="VolumeOffset" Type="Real64">

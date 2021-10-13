@@ -23,6 +23,9 @@
 						<Event Name="music_paris_dron_relaxed" ID="{4C7D152A-6A56-4760-9A87-17A052B63911}">
 							<ChildrenList></ChildrenList>
 						</Event>
+						<Event Name="music_paris_battle" ID="{CA235AA1-B6AC-4867-BA79-6DBD2F980443}">
+							<ChildrenList></ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="02_Abbey" ID="{EF0D4822-33D2-4135-8470-294C5FA58C78}" ShortID="769961215">
@@ -544,6 +547,9 @@
 						<Event Name="music_mannerheim_result_drawn" ID="{0FFAFA26-7DB1-4994-A496-F78698376977}">
 							<ChildrenList></ChildrenList>
 						</Event>
+						<Event Name="music_mannerheim_battle" ID="{F6A8872D-3C67-4F2C-8712-FB19E722C6A2}">
+							<ChildrenList></ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="24_Redshire" ID="{C496E461-F224-4712-B108-E13AC59C134A}" ShortID="411944868">
@@ -1036,6 +1042,75 @@
 							<ChildrenList></ChildrenList>
 						</Event>
 						<Event Name="music_perl_river_loading_screen" ID="{B044117A-9D98-47C4-94E0-E6CEDEB5B7C1}">
+							<ChildrenList></ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="47_Japort" ID="{709427E1-3DD9-4977-8DA8-20974196CDEC}" ShortID="132326145">
+					<ChildrenList>
+						<Event Name="music_japort_result_drawn" ID="{01751914-914A-49F3-BFD8-2CCF47A32D7C}">
+							<ChildrenList></ChildrenList>
+						</Event>
+						<Event Name="music_japort_result_defeat" ID="{16175C32-34E8-429E-B9F5-51AA6A5E9AC9}">
+							<ChildrenList></ChildrenList>
+						</Event>
+						<Event Name="music_japort_dron_intensive" ID="{3D369B06-2636-4596-B220-65028E029CEA}">
+							<ChildrenList></ChildrenList>
+						</Event>
+						<Event Name="music_japort_loading_screen" ID="{1EECE49E-C264-4B9A-BA1C-58E26FDEBBD1}">
+							<ChildrenList></ChildrenList>
+						</Event>
+						<Event Name="music_japort_dron_relaxed" ID="{4B58AC20-6165-4902-9B22-507035DA1E0A}">
+							<ChildrenList></ChildrenList>
+						</Event>
+						<Event Name="music_japort_result_win" ID="{AAFEF4FA-FA7C-4388-916C-57AB22397FFE}">
+							<ChildrenList></ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="48_Sabaton" ID="{6D16AD1F-C519-499D-9B4C-6312F6BE05CF}" ShortID="714040096">
+					<ChildrenList>
+						<Event Name="music_sabaton_dron_intensive" ID="{80A81EC9-2629-4D04-9552-5686575FB3A2}">
+							<ChildrenList></ChildrenList>
+						</Event>
+						<Event Name="music_sabaton_dron_relaxed" ID="{FB21FE61-9BFE-49F6-B5E3-D2FE98B36C36}">
+							<ChildrenList></ChildrenList>
+						</Event>
+						<Event Name="music_sabaton_loading_screen" ID="{FEADA5F0-D310-4752-8980-2DB4B94E3611}">
+							<ChildrenList></ChildrenList>
+						</Event>
+						<Event Name="music_sabaton_result_defeat" ID="{20A41309-0B3F-45C9-AD43-ED565D9A5D2E}">
+							<ChildrenList></ChildrenList>
+						</Event>
+						<Event Name="music_sabaton_result_drawn" ID="{B2744C2D-3A40-47FB-873B-9EE50C3826FA}">
+							<ChildrenList></ChildrenList>
+						</Event>
+						<Event Name="music_sabaton_result_win" ID="{FB5C609B-4986-4463-B19F-737EB9A1213C}">
+							<ChildrenList></ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="01_Paris_CN" ID="{EA553EE7-6842-4112-A48F-7F1926F61CEB}" ShortID="81131948">
+					<ChildrenList>
+						<Event Name="music_paris_loading_screen_cn" ID="{445DBE57-3284-4D2C-83AA-2DE36A3B8D46}">
+							<ChildrenList></ChildrenList>
+						</Event>
+						<Event Name="music_paris_dron_intensive_cn" ID="{5534A868-C504-44A1-AD4B-D898C46B8F0B}">
+							<ChildrenList></ChildrenList>
+						</Event>
+						<Event Name="music_paris_result_win_cn" ID="{A2770135-5CB3-49F3-B711-953F4E807680}">
+							<ChildrenList></ChildrenList>
+						</Event>
+						<Event Name="music_paris_result_drawn_cn" ID="{D73E3454-634A-4925-8B83-9584A3DDF254}">
+							<ChildrenList></ChildrenList>
+						</Event>
+						<Event Name="music_paris_result_defeat_cn" ID="{A3D3BFA7-3331-49DA-AA98-6A09A0964339}">
+							<ChildrenList></ChildrenList>
+						</Event>
+						<Event Name="music_paris_dron_relaxed_cn" ID="{508EB253-406A-4EF4-8121-9B5703A8DD8D}">
+							<ChildrenList></ChildrenList>
+						</Event>
+						<Event Name="music_paris_battle_cn" ID="{9EDE4F1D-0BED-4B90-8BA7-2AFAC025B76C}">
 							<ChildrenList></ChildrenList>
 						</Event>
 					</ChildrenList>

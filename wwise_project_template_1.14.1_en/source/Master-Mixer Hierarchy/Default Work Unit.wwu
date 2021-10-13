@@ -8335,6 +8335,48 @@ Auto-Duck for HDRdbc bus</Comment>
                             </DuckItem>
                           </DuckingList>
                         </Bus>
+                        <Bus Name="010_vo_events_conditions" ID="{AA6E27F8-4593-4122-8431-BA4FDFEDB04A}">
+                          <Comment>Bus for environment-dependant voiceover, VO 2.0, used for WT21 event</Comment>
+                          <PropertyList>
+                            <Property Name="CenterPercentage" Type="int32">
+                              <ValueList>
+                                <Value>100</Value>
+                              </ValueList>
+                            </Property>
+                          </PropertyList>
+                          <ReferenceList>
+                            <Reference Name="Effect0">
+                              <Custom>
+                                <Effect Name="McDSP_FutzBox_(Custom)" ID="{9CA9E9D5-FC0F-460B-A05E-EB799AE8C7A2}" ShortID="704297022" PluginName="McDSP FutzBox" CompanyID="256" PluginID="110" PluginType="3">
+                                  <PropertyList>
+                                    <Property Name="Balance" Type="Real32" Value="77" />
+                                    <Property Name="DistortionAmount" Type="Real32" Value="100" />
+                                    <Property Name="DistortionIntensity" Type="Real32" Value="100" />
+                                    <Property Name="DistortionMode" Type="int32" Value="6" />
+                                    <Property Name="DistortionRectify" Type="Real32" Value="52" />
+                                    <Property Name="EQFilterType" Type="int32" Value="0" />
+                                    <Property Name="EQFreq" Type="Real32" Value="981.7478" />
+                                    <Property Name="EQGain" Type="Real32" Value="-0.6720002" />
+                                    <Property Name="EQQ" Type="Real32" Value="86.4" />
+                                    <Property Name="FiltersHPFFreq" Type="Real32" Value="493.2078" />
+                                    <Property Name="FiltersHPFQ" Type="Real32" Value="8.8" />
+                                    <Property Name="FiltersLPFFreq" Type="Real32" Value="6475.49" />
+                                    <Property Name="FiltersLPFQ" Type="Real32" Value="15.6" />
+                                    <Property Name="GateReleaseTime" Type="Real32" Value="64.26877" />
+                                    <Property Name="GateThreshold" Type="Real32" Value="0" />
+                                    <Property Name="NoiseHPFFreq" Type="Real32" Value="1811.59" />
+                                    <Property Name="NoiseLPFFreq" Type="Real32" Value="2674.684" />
+                                    <Property Name="NoiseLevel" Type="Real32" Value="-33.46739" />
+                                    <Property Name="NoiseRange" Type="Real32" Value="-27.84" />
+                                    <Property Name="NoiseRecovery" Type="Real32" Value="18.92474" />
+                                    <Property Name="OutputGain" Type="Real32" Value="0.5" />
+                                    <Property Name="SIMType" Type="int32" Value="60" />
+                                  </PropertyList>
+                                </Effect>
+                              </Custom>
+                            </Reference>
+                          </ReferenceList>
+                        </Bus>
                       </ChildrenList>
                     </Bus>
                   </ChildrenList>
@@ -12773,6 +12815,217 @@ Auto-Duck for HDRdbc bus</Comment>
                     </CustomStateList>
                   </StateInfo>
                 </Bus>
+                <Bus Name="CN_events" ID="{8180657E-AED7-476C-938E-134C32BFD49C}">
+                  <PropertyList>
+                    <Property Name="CenterPercentage" Type="int32">
+                      <ValueList>
+                        <Value>100</Value>
+                      </ValueList>
+                    </Property>
+                  </PropertyList>
+                  <StateInfo>
+                    <StateGroupList>
+                      <StateGroupInfo>
+                        <StateGroupRef Name="STATE_video_overlay" ID="{45D461A4-9865-43D6-8958-86FA4A12A448}" />
+                      </StateGroupInfo>
+                      <StateGroupInfo>
+                        <StateGroupRef Name="STATE_overlay_hangar_general" ID="{205CE61E-ECDD-491F-AD4E-6AF16B15594A}" />
+                      </StateGroupInfo>
+                      <StateGroupInfo>
+                        <StateGroupRef Name="STATE_mode_selector" ID="{817CE4E6-BC6D-41AE-B2E8-6407AC4E7D90}" />
+                      </StateGroupInfo>
+                      <StateGroupInfo>
+                        <StateGroupRef Name="STATE_hangar_place" ID="{F4715A4A-9FB0-48CB-878A-9E4FD19471B3}" />
+                      </StateGroupInfo>
+                    </StateGroupList>
+                    <CustomStateList>
+                      <CustomState>
+                        <StateRef Name="STATE_hangar_place_dog_tags" ID="{67CCB58C-1AD9-405F-A04C-41A23E4E88DD}" />
+                        <CustomState Name="" ID="{BBBD6570-1045-42B7-8AE9-91B4BC623845}" ShortID="500856243">
+                          <PropertyList>
+                            <Property Name="BusVolume" Type="Real64" Value="-96" />
+                          </PropertyList>
+                        </CustomState>
+                      </CustomState>
+                      <CustomState>
+                        <StateRef Name="STATE_hangar_place_shop" ID="{68AFA601-9290-4075-A068-46CEC525C970}" />
+                        <CustomState Name="" ID="{DC54E8B2-6D3B-44F9-AF3F-7E1668902AEF}" ShortID="345031172">
+                          <PropertyList>
+                            <Property Name="BusVolume" Type="Real64" Value="-96" />
+                          </PropertyList>
+                        </CustomState>
+                      </CustomState>
+                      <CustomState>
+                        <StateRef Name="STATE_hangar_place_lootboxes" ID="{E82E0D66-2092-40D0-977B-D80E1298FEF3}" />
+                        <CustomState Name="" ID="{06129607-B916-4D66-81E4-C3D03BC2FE8D}" ShortID="10446236">
+                          <PropertyList>
+                            <Property Name="BusVolume" Type="Real64" Value="-96" />
+                          </PropertyList>
+                        </CustomState>
+                      </CustomState>
+                      <CustomState>
+                        <StateRef Name="STATE_hangar_place_researches_preview" ID="{1F47C73E-84DE-41B3-96CE-92BE934B0B17}" />
+                        <CustomState Name="" ID="{0F5D5DC9-FF33-4648-B09B-C60D8B73F75D}" ShortID="690589011">
+                          <PropertyList>
+                            <Property Name="BusVolume" Type="Real64" Value="-96" />
+                          </PropertyList>
+                        </CustomState>
+                      </CustomState>
+                      <CustomState>
+                        <StateRef Name="STATE_video_overlay_on" ID="{39DCBFCB-2C77-42B7-825E-B186493AF79A}" />
+                        <CustomState Name="" ID="{7BEE952C-5E15-4C2E-A985-FCEA78F28214}" ShortID="756044914">
+                          <PropertyList>
+                            <Property Name="BusVolume" Type="Real64" Value="-96" />
+                          </PropertyList>
+                        </CustomState>
+                      </CustomState>
+                      <CustomState>
+                        <StateRef Name="STATE_hangar_place_acc_dashboard" ID="{70D84D2B-8B2F-433C-B13E-F7A945265787}" />
+                        <CustomState Name="" ID="{1E315985-7B08-4ABA-A48E-0E3517253E4F}" ShortID="2397294">
+                          <PropertyList>
+                            <Property Name="BusVolume" Type="Real64" Value="-96" />
+                          </PropertyList>
+                        </CustomState>
+                      </CustomState>
+                      <CustomState>
+                        <StateRef Name="STATE_overlay_hangar_general_on" ID="{02FBFA78-F4DF-43CF-905F-68C34613A84F}" />
+                        <CustomState Name="" ID="{0C4DC4DF-98A2-4121-A228-A3E258A1FDEA}" ShortID="116310655">
+                          <PropertyList>
+                            <Property Name="BusVolume" Type="Real64" Value="-6" />
+                          </PropertyList>
+                        </CustomState>
+                      </CustomState>
+                      <CustomState>
+                        <StateRef Name="STATE_mode_selector_off" ID="{966371D3-F725-44DB-B084-162FF4123CF8}" />
+                        <CustomState Name="" ID="{0B4F7B28-E871-47FC-BD3B-AC7662946904}" ShortID="269874429" />
+                      </CustomState>
+                      <CustomState>
+                        <StateRef Name="STATE_overlay_hangar_general_off" ID="{6C92CBF3-3A6B-456A-96B4-3C1A2726E463}" />
+                        <CustomState Name="" ID="{D1D1F40C-05E1-4881-8817-C2D72A0346FC}" ShortID="477588575" />
+                      </CustomState>
+                      <CustomState>
+                        <StateRef Name="STATE_hangar_place_customization" ID="{17A1E408-1E5F-4585-BBD4-71D33F5EE345}" />
+                        <CustomState Name="" ID="{0F1131C8-75C3-436C-B073-9F3876524A55}" ShortID="128275677">
+                          <PropertyList>
+                            <Property Name="BusVolume" Type="Real64" Value="-96" />
+                          </PropertyList>
+                        </CustomState>
+                      </CustomState>
+                      <CustomState>
+                        <StateRef Name="STATE_hangar_place_clans" ID="{CF70A315-BC23-4590-99B5-F98A8A8F940B}" />
+                        <CustomState Name="" ID="{7F8DA57F-E9C5-47F1-8322-6D25E48DFB1D}" ShortID="324326299">
+                          <PropertyList>
+                            <Property Name="BusVolume" Type="Real64" Value="-96" />
+                          </PropertyList>
+                        </CustomState>
+                      </CustomState>
+                      <CustomState>
+                        <StateRef Name="STATE_hangar_place_research" ID="{6DB32473-41BC-4659-893A-B5308EB06C85}" />
+                        <CustomState Name="" ID="{B474CC53-4072-447D-B614-79024341D67F}" ShortID="531933434">
+                          <PropertyList>
+                            <Property Name="BusVolume" Type="Real64" Value="-96" />
+                          </PropertyList>
+                        </CustomState>
+                      </CustomState>
+                      <CustomState>
+                        <StateRef Name="STATE_hangar_place_garage" ID="{D25049B4-2C90-473A-BAAC-D5C3CBE62033}" />
+                        <CustomState Name="" ID="{F7D06065-80E8-4C83-845B-5552EBA3DCB5}" ShortID="225700266" />
+                      </CustomState>
+                      <CustomState>
+                        <StateRef Name="STATE_video_overlay_off" ID="{EC6772CA-A2B4-479C-B5BD-54D7C35FFBBB}" />
+                        <CustomState Name="" ID="{E6E5EC32-D83C-4535-9015-C3F7AE729E96}" ShortID="426663598" />
+                      </CustomState>
+                      <CustomState>
+                        <StateRef Name="STATE_hangar_place_achievements" ID="{69A8A595-A314-4800-9527-B3A3BC8EA2D4}" />
+                        <CustomState Name="" ID="{B989C02E-DCE5-4D50-933A-BD3C225786FA}" ShortID="630365448">
+                          <PropertyList>
+                            <Property Name="BusVolume" Type="Real64" Value="-96" />
+                          </PropertyList>
+                        </CustomState>
+                      </CustomState>
+                      <CustomState>
+                        <StateRef Name="STATE_hangar_place_noobieCenter" ID="{1962C9F9-149A-4921-BA84-624CC6529C57}" />
+                        <CustomState Name="" ID="{38C233F4-19AA-40A4-A0D8-4E0FD820D1D2}" ShortID="205578210">
+                          <PropertyList>
+                            <Property Name="BusVolume" Type="Real64" Value="-96" />
+                          </PropertyList>
+                        </CustomState>
+                      </CustomState>
+                      <CustomState>
+                        <StateRef Name="STATE_hangar_place_personalMissions" ID="{C6BE04DE-E635-4984-A09D-FEE4DA74DDD0}" />
+                        <CustomState Name="" ID="{B08EEBBA-E006-4D5B-86D5-E348FC5E5614}" ShortID="16532814">
+                          <PropertyList>
+                            <Property Name="BusVolume" Type="Real64" Value="-96" />
+                          </PropertyList>
+                        </CustomState>
+                      </CustomState>
+                      <CustomState>
+                        <StateRef Name="STATE_mode_selector_on" ID="{F15D5205-6903-4A94-98B8-BAA9EBA81537}" />
+                        <CustomState Name="" ID="{6BA9287C-8640-4FCB-AC40-5C7755EF7A8D}" ShortID="776803089">
+                          <PropertyList>
+                            <Property Name="BusVolume" Type="Real64" Value="-96" />
+                          </PropertyList>
+                        </CustomState>
+                      </CustomState>
+                      <CustomState>
+                        <StateRef Name="STATE_hangar_place_consumables" ID="{8A7D2F91-6EF4-4AF7-A67C-E40C810254A4}" />
+                        <CustomState Name="" ID="{388D8098-B119-485D-8306-EA96CB633749}" ShortID="252956359">
+                          <PropertyList>
+                            <Property Name="BusVolume" Type="Real64" Value="-96" />
+                          </PropertyList>
+                        </CustomState>
+                      </CustomState>
+                      <CustomState>
+                        <StateRef Name="STATE_hangar_place_shop_preview" ID="{986B5D59-1176-4D90-8C9A-1E5BF3DEE150}" />
+                        <CustomState Name="" ID="{711C9472-1B90-487E-ACBC-84126273BE19}" ShortID="38939910">
+                          <PropertyList>
+                            <Property Name="BusVolume" Type="Real64" Value="-96" />
+                          </PropertyList>
+                        </CustomState>
+                      </CustomState>
+                      <CustomState>
+                        <StateRef Name="STATE_hangar_place_tasks" ID="{59CAC0FE-A5DB-4DDD-9833-FFD91617B2A5}" />
+                        <CustomState Name="" ID="{D29ABB83-C888-4354-8F11-2E5549003C85}" ShortID="76183538">
+                          <PropertyList>
+                            <Property Name="BusVolume" Type="Real64" Value="-96" />
+                          </PropertyList>
+                        </CustomState>
+                      </CustomState>
+                      <CustomState>
+                        <StateRef Name="STATE_hangar_place_warehouse" ID="{3C6E3EEF-2A9F-4DF0-992B-1DB6ACB1CDD5}" />
+                        <CustomState Name="" ID="{7B3E7459-AF8C-477F-A84A-D51D8E3384A5}" ShortID="737346758">
+                          <PropertyList>
+                            <Property Name="BusVolume" Type="Real64" Value="-96" />
+                          </PropertyList>
+                        </CustomState>
+                      </CustomState>
+                      <CustomState>
+                        <StateRef Name="STATE_hangar_place_barracks" ID="{B17ADA94-E2DB-4E0F-AD44-3BD718336256}" />
+                        <CustomState Name="" ID="{9932C781-699C-4D14-9A57-96FD902E2C03}" ShortID="1023741451">
+                          <PropertyList>
+                            <Property Name="BusVolume" Type="Real64" Value="-96" />
+                          </PropertyList>
+                        </CustomState>
+                      </CustomState>
+                      <CustomState>
+                        <StateRef Name="STATE_hangar_place_browser" ID="{94079D08-501B-4EA5-A9B3-496C7AE06141}" />
+                        <CustomState Name="" ID="{A6720BF8-194F-40C6-B85D-37F24DB8C142}" ShortID="710884472">
+                          <PropertyList>
+                            <Property Name="BusVolume" Type="Real64" Value="-96" />
+                          </PropertyList>
+                        </CustomState>
+                      </CustomState>
+                      <CustomState>
+                        <StateRef Name="STATE_hangar_place_menu_guide" ID="{83ECABB7-770E-4F7D-BE04-61EA94A0CCAB}" />
+                        <CustomState Name="" ID="{6A99695D-6F08-41F6-B593-BB941C1F65E2}" ShortID="578982714">
+                          <PropertyList>
+                            <Property Name="BusVolume" Type="Real64" Value="-96" />
+                          </PropertyList>
+                        </CustomState>
+                      </CustomState>
+                    </CustomStateList>
+                  </StateInfo>
+                </Bus>
               </ChildrenList>
               <StateInfo>
                 <StateGroupList>
@@ -15935,6 +16188,203 @@ Auto-Duck for HDRdbc bus</Comment>
                       <CustomState>
                         <StateRef Name="STATE_hangar_place_menu_guide" ID="{83ECABB7-770E-4F7D-BE04-61EA94A0CCAB}" />
                         <CustomState Name="" ID="{4209F00B-9530-4783-BFF9-56388F93A228}" ShortID="173614454" />
+                      </CustomState>
+                    </CustomStateList>
+                  </StateInfo>
+                </Bus>
+                <Bus Name="Lobby_music_cn_events" ID="{B093D088-3629-4E1E-B181-98B7B66D6ACC}">
+                  <PropertyList>
+                    <Property Name="CenterPercentage" Type="int32">
+                      <ValueList>
+                        <Value>100</Value>
+                      </ValueList>
+                    </Property>
+                  </PropertyList>
+                  <StateInfo>
+                    <StateGroupList>
+                      <StateGroupInfo>
+                        <StateGroupRef Name="STATE_mode_selector" ID="{817CE4E6-BC6D-41AE-B2E8-6407AC4E7D90}" />
+                      </StateGroupInfo>
+                      <StateGroupInfo>
+                        <StateGroupRef Name="STATE_overlay_hangar_general" ID="{205CE61E-ECDD-491F-AD4E-6AF16B15594A}" />
+                      </StateGroupInfo>
+                      <StateGroupInfo>
+                        <StateGroupRef Name="STATE_hangar_place" ID="{F4715A4A-9FB0-48CB-878A-9E4FD19471B3}" />
+                      </StateGroupInfo>
+                    </StateGroupList>
+                    <CustomStateList>
+                      <CustomState>
+                        <StateRef Name="STATE_hangar_place_dog_tags" ID="{67CCB58C-1AD9-405F-A04C-41A23E4E88DD}" />
+                        <CustomState Name="" ID="{5AF55851-1B2E-4857-BA77-E8D7D4C8AE94}" ShortID="516136195">
+                          <PropertyList>
+                            <Property Name="BusVolume" Type="Real64" Value="-96" />
+                          </PropertyList>
+                        </CustomState>
+                      </CustomState>
+                      <CustomState>
+                        <StateRef Name="STATE_hangar_place_shop" ID="{68AFA601-9290-4075-A068-46CEC525C970}" />
+                        <CustomState Name="" ID="{99CE764B-E84D-4574-A949-841A1EA75673}" ShortID="215085172">
+                          <PropertyList>
+                            <Property Name="BusVolume" Type="Real64" Value="-96" />
+                          </PropertyList>
+                        </CustomState>
+                      </CustomState>
+                      <CustomState>
+                        <StateRef Name="STATE_hangar_place_lootboxes" ID="{E82E0D66-2092-40D0-977B-D80E1298FEF3}" />
+                        <CustomState Name="" ID="{9A12BFA1-5A95-46C9-8073-F17FA064C4E3}" ShortID="374438530">
+                          <PropertyList>
+                            <Property Name="BusVolume" Type="Real64" Value="-96" />
+                          </PropertyList>
+                        </CustomState>
+                      </CustomState>
+                      <CustomState>
+                        <StateRef Name="STATE_hangar_place_researches_preview" ID="{1F47C73E-84DE-41B3-96CE-92BE934B0B17}" />
+                        <CustomState Name="" ID="{FA06621F-C89C-4B6E-8B3B-E530A154F306}" ShortID="346053895">
+                          <PropertyList>
+                            <Property Name="BusVolume" Type="Real64" Value="-96" />
+                          </PropertyList>
+                        </CustomState>
+                      </CustomState>
+                      <CustomState>
+                        <StateRef Name="STATE_hangar_place_acc_dashboard" ID="{70D84D2B-8B2F-433C-B13E-F7A945265787}" />
+                        <CustomState Name="" ID="{32EF99ED-3778-48DF-B4D5-5278C0E80647}" ShortID="649978595">
+                          <PropertyList>
+                            <Property Name="BusVolume" Type="Real64" Value="-96" />
+                          </PropertyList>
+                        </CustomState>
+                      </CustomState>
+                      <CustomState>
+                        <StateRef Name="STATE_overlay_hangar_general_on" ID="{02FBFA78-F4DF-43CF-905F-68C34613A84F}" />
+                        <CustomState Name="" ID="{A4FA548C-22C9-47D8-B87D-61BE3BEDA6F8}" ShortID="333067183">
+                          <PropertyList>
+                            <Property Name="BusVolume" Type="Real64" Value="-6" />
+                            <Property Name="Lowpass" Type="int16" Value="40" />
+                          </PropertyList>
+                        </CustomState>
+                      </CustomState>
+                      <CustomState>
+                        <StateRef Name="STATE_mode_selector_off" ID="{966371D3-F725-44DB-B084-162FF4123CF8}" />
+                        <CustomState Name="" ID="{42790C2D-EFCD-496E-87C7-BB7B9A641864}" ShortID="295534667" />
+                      </CustomState>
+                      <CustomState>
+                        <StateRef Name="STATE_overlay_hangar_general_off" ID="{6C92CBF3-3A6B-456A-96B4-3C1A2726E463}" />
+                        <CustomState Name="" ID="{015568AA-EE5B-4FD4-BAAA-6C21BE80499F}" ShortID="906226329" />
+                      </CustomState>
+                      <CustomState>
+                        <StateRef Name="STATE_hangar_place_customization" ID="{17A1E408-1E5F-4585-BBD4-71D33F5EE345}" />
+                        <CustomState Name="" ID="{597FE6D2-968C-4482-BEA4-F9A666BE237F}" ShortID="299767011">
+                          <PropertyList>
+                            <Property Name="BusVolume" Type="Real64" Value="-96" />
+                          </PropertyList>
+                        </CustomState>
+                      </CustomState>
+                      <CustomState>
+                        <StateRef Name="STATE_hangar_place_clans" ID="{CF70A315-BC23-4590-99B5-F98A8A8F940B}" />
+                        <CustomState Name="" ID="{10CE0B04-C7B2-425B-A6E9-6FBC759C5ADC}" ShortID="322450637">
+                          <PropertyList>
+                            <Property Name="BusVolume" Type="Real64" Value="-96" />
+                          </PropertyList>
+                        </CustomState>
+                      </CustomState>
+                      <CustomState>
+                        <StateRef Name="STATE_hangar_place_research" ID="{6DB32473-41BC-4659-893A-B5308EB06C85}" />
+                        <CustomState Name="" ID="{17256FC4-529D-4AC2-A0B6-AA19A33FFCAF}" ShortID="717562237">
+                          <PropertyList>
+                            <Property Name="BusVolume" Type="Real64" Value="-96" />
+                          </PropertyList>
+                        </CustomState>
+                      </CustomState>
+                      <CustomState>
+                        <StateRef Name="STATE_hangar_place_garage" ID="{D25049B4-2C90-473A-BAAC-D5C3CBE62033}" />
+                        <CustomState Name="" ID="{86ED912D-A645-405E-8617-4F940288F2E6}" ShortID="832899408" />
+                      </CustomState>
+                      <CustomState>
+                        <StateRef Name="STATE_hangar_place_achievements" ID="{69A8A595-A314-4800-9527-B3A3BC8EA2D4}" />
+                        <CustomState Name="" ID="{10F4B2DB-88C5-4843-845E-8F8ECB151F14}" ShortID="750842331">
+                          <PropertyList>
+                            <Property Name="BusVolume" Type="Real64" Value="-96" />
+                          </PropertyList>
+                        </CustomState>
+                      </CustomState>
+                      <CustomState>
+                        <StateRef Name="STATE_hangar_place_noobieCenter" ID="{1962C9F9-149A-4921-BA84-624CC6529C57}" />
+                        <CustomState Name="" ID="{B768BFCC-3F8D-4555-BEC1-5C5C59AA547B}" ShortID="214367619">
+                          <PropertyList>
+                            <Property Name="BusVolume" Type="Real64" Value="-96" />
+                          </PropertyList>
+                        </CustomState>
+                      </CustomState>
+                      <CustomState>
+                        <StateRef Name="STATE_hangar_place_personalMissions" ID="{C6BE04DE-E635-4984-A09D-FEE4DA74DDD0}" />
+                        <CustomState Name="" ID="{3329DAE8-3AC9-4196-88A8-275E3C4BFCAD}" ShortID="131475265">
+                          <PropertyList>
+                            <Property Name="BusVolume" Type="Real64" Value="-96" />
+                          </PropertyList>
+                        </CustomState>
+                      </CustomState>
+                      <CustomState>
+                        <StateRef Name="STATE_mode_selector_on" ID="{F15D5205-6903-4A94-98B8-BAA9EBA81537}" />
+                        <CustomState Name="" ID="{2A59A49A-101E-4AB5-9F0D-6DE6C8615216}" ShortID="1037651454">
+                          <PropertyList>
+                            <Property Name="BusVolume" Type="Real64" Value="-96" />
+                          </PropertyList>
+                        </CustomState>
+                      </CustomState>
+                      <CustomState>
+                        <StateRef Name="STATE_hangar_place_consumables" ID="{8A7D2F91-6EF4-4AF7-A67C-E40C810254A4}" />
+                        <CustomState Name="" ID="{EFB1508E-9E7E-4906-BBB5-36BCBA72A63C}" ShortID="567480440">
+                          <PropertyList>
+                            <Property Name="BusVolume" Type="Real64" Value="-96" />
+                          </PropertyList>
+                        </CustomState>
+                      </CustomState>
+                      <CustomState>
+                        <StateRef Name="STATE_hangar_place_shop_preview" ID="{986B5D59-1176-4D90-8C9A-1E5BF3DEE150}" />
+                        <CustomState Name="" ID="{14265C6F-1ACF-4BCD-AE04-D54F6060C0D1}" ShortID="319857659">
+                          <PropertyList>
+                            <Property Name="BusVolume" Type="Real64" Value="-96" />
+                          </PropertyList>
+                        </CustomState>
+                      </CustomState>
+                      <CustomState>
+                        <StateRef Name="STATE_hangar_place_tasks" ID="{59CAC0FE-A5DB-4DDD-9833-FFD91617B2A5}" />
+                        <CustomState Name="" ID="{2239F7FF-E84B-4C57-85EE-3B702D7BC5BF}" ShortID="428394546">
+                          <PropertyList>
+                            <Property Name="BusVolume" Type="Real64" Value="-96" />
+                          </PropertyList>
+                        </CustomState>
+                      </CustomState>
+                      <CustomState>
+                        <StateRef Name="STATE_hangar_place_warehouse" ID="{3C6E3EEF-2A9F-4DF0-992B-1DB6ACB1CDD5}" />
+                        <CustomState Name="" ID="{7CE6C9E9-99FE-4A48-91C0-29CC468C0399}" ShortID="771093529">
+                          <PropertyList>
+                            <Property Name="BusVolume" Type="Real64" Value="-96" />
+                          </PropertyList>
+                        </CustomState>
+                      </CustomState>
+                      <CustomState>
+                        <StateRef Name="STATE_hangar_place_barracks" ID="{B17ADA94-E2DB-4E0F-AD44-3BD718336256}" />
+                        <CustomState Name="" ID="{F790FA83-5F3A-489A-B15D-4994B4760120}" ShortID="380294729">
+                          <PropertyList>
+                            <Property Name="BusVolume" Type="Real64" Value="-96" />
+                          </PropertyList>
+                        </CustomState>
+                      </CustomState>
+                      <CustomState>
+                        <StateRef Name="STATE_hangar_place_browser" ID="{94079D08-501B-4EA5-A9B3-496C7AE06141}" />
+                        <CustomState Name="" ID="{5C8D1E58-0868-482E-B903-5748FF277C73}" ShortID="394440182">
+                          <PropertyList>
+                            <Property Name="BusVolume" Type="Real64" Value="-96" />
+                          </PropertyList>
+                        </CustomState>
+                      </CustomState>
+                      <CustomState>
+                        <StateRef Name="STATE_hangar_place_menu_guide" ID="{83ECABB7-770E-4F7D-BE04-61EA94A0CCAB}" />
+                        <CustomState Name="" ID="{0149E21C-55BE-4DBC-9ABF-950D3CD45BAB}" ShortID="1047165161">
+                          <PropertyList>
+                            <Property Name="BusVolume" Type="Real64" Value="-96" />
+                          </PropertyList>
+                        </CustomState>
                       </CustomState>
                     </CustomStateList>
                   </StateInfo>

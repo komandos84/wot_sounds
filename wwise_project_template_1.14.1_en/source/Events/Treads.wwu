@@ -28,6 +28,12 @@
         <Event Name="wheels_suspension_npc" ID="{88AF1C94-301F-4F77-B335-FB4A7E31117D}">
           <ChildrenList></ChildrenList>
         </Event>
+        <Event Name="trds_yoh_pc" ID="{1DC70277-117D-4376-8778-6613962E2C71}">
+          <ChildrenList></ChildrenList>
+        </Event>
+        <Event Name="trds_yoh_npc" ID="{5E8926D1-D857-4539-BCEB-9CDD3DE5BCF3}">
+          <ChildrenList></ChildrenList>
+        </Event>
       </ChildrenList>
     </WorkUnit>
   </Events>
