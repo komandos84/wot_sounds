@@ -915,18 +915,18 @@
                                     <PointList>
                                       <Point>
                                         <XPos>0</XPos>
-                                        <YPos>-1</YPos>
+                                        <YPos>-0.5</YPos>
                                         <Flags>5</Flags>
                                         <SegmentShape>Log2</SegmentShape>
                                       </Point>
                                       <Point>
                                         <XPos>1.72815</XPos>
-                                        <YPos>-3.3786</YPos>
+                                        <YPos>-2</YPos>
                                         <Flags>0</Flags>
                                       </Point>
                                       <Point>
                                         <XPos>2.49029</XPos>
-                                        <YPos>-3.3786</YPos>
+                                        <YPos>-2.5</YPos>
                                         <Flags>0</Flags>
                                         <SegmentShape>InvertedSCurve</SegmentShape>
                                       </Point>
@@ -7136,12 +7136,12 @@ The NPC bus is compensated -6db relatively PC bus in HDR scheme.</Comment>
                                   </Point>
                                   <Point>
                                     <XPos>1.74272</XPos>
-                                    <YPos>-3</YPos>
+                                    <YPos>-2</YPos>
                                     <Flags>0</Flags>
                                   </Point>
                                   <Point>
                                     <XPos>2.50486</XPos>
-                                    <YPos>-3</YPos>
+                                    <YPos>-2.5</YPos>
                                     <Flags>0</Flags>
                                     <SegmentShape>InvertedSCurve</SegmentShape>
                                   </Point>
@@ -8635,11 +8635,7 @@ Auto-Duck for HDRdbc bus</Comment>
                       </CustomState>
                       <CustomState>
                         <StateRef Name="STATE_hangar_place_achievements" ID="{69A8A595-A314-4800-9527-B3A3BC8EA2D4}" />
-                        <CustomState Name="" ID="{565EBAC6-0D55-4723-B380-D53D53744C71}" ShortID="152873216">
-                          <PropertyList>
-                            <Property Name="BusVolume" Type="Real64" Value="-96" />
-                          </PropertyList>
-                        </CustomState>
+                        <CustomState Name="" ID="{565EBAC6-0D55-4723-B380-D53D53744C71}" ShortID="152873216" />
                       </CustomState>
                       <CustomState>
                         <StateRef Name="STATE_hangar_place_noobieCenter" ID="{1962C9F9-149A-4921-BA84-624CC6529C57}" />
@@ -8667,11 +8663,7 @@ Auto-Duck for HDRdbc bus</Comment>
                       </CustomState>
                       <CustomState>
                         <StateRef Name="STATE_hangar_place_shop_preview" ID="{986B5D59-1176-4D90-8C9A-1E5BF3DEE150}" />
-                        <CustomState Name="" ID="{0599A25A-6F31-4AE7-96B8-A632DE830414}" ShortID="669963593">
-                          <PropertyList>
-                            <Property Name="BusVolume" Type="Real64" Value="-96" />
-                          </PropertyList>
-                        </CustomState>
+                        <CustomState Name="" ID="{0599A25A-6F31-4AE7-96B8-A632DE830414}" ShortID="669963593" />
                       </CustomState>
                       <CustomState>
                         <StateRef Name="STATE_hangar_place_tasks" ID="{59CAC0FE-A5DB-4DDD-9833-FFD91617B2A5}" />
@@ -8683,11 +8675,7 @@ Auto-Duck for HDRdbc bus</Comment>
                       </CustomState>
                       <CustomState>
                         <StateRef Name="STATE_hangar_place_barracks" ID="{B17ADA94-E2DB-4E0F-AD44-3BD718336256}" />
-                        <CustomState Name="" ID="{0C114DD3-B938-407B-A2F7-61CEF3D5748F}" ShortID="137664514">
-                          <PropertyList>
-                            <Property Name="BusVolume" Type="Real64" Value="-96" />
-                          </PropertyList>
-                        </CustomState>
+                        <CustomState Name="" ID="{0C114DD3-B938-407B-A2F7-61CEF3D5748F}" ShortID="137664514" />
                       </CustomState>
                       <CustomState>
                         <StateRef Name="STATE_gameplace_hangar" ID="{0A75F168-9864-4E69-8856-619A6B552E21}" />

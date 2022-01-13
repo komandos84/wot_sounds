@@ -273,6 +273,15 @@
 					</PropertyList>
 				</Language>
 				<Language Name="English(Cel_21)" ID="{1E3B809F-88CE-44CB-A0B5-17E81F57589B}"/>
+				<Language Name="English(Cel_22)" ID="{65B76574-5248-4476-9228-FCFE16388A37}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>4</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
 				<Language Name="English(India)" ID="{B5744701-1119-4828-A6B7-16118AD0C7EE}">
 					<PropertyList>
 						<Property Name="VolumeOffset" Type="Real64">
@@ -437,6 +446,7 @@
 				<Language Name="Romanian" ID="{E615F231-6135-45A6-B602-4CAD3342B0D0}"/>
 				<Language Name="Russian" ID="{3A26457B-7413-4A3D-A0B2-0A01FBE6B802}"/>
 				<Language Name="Russian(Cel_21)" ID="{28B79619-B7CC-4C94-B0AB-0F80FC8B1BB8}"/>
+				<Language Name="Russian(Cel_22)" ID="{91A65B0C-D82D-48CE-B92E-89ACC66CD223}"/>
 				<Language Name="Russian(Race)" ID="{17C4EE3E-175B-4AAB-A73C-C64CEEA8ADBD}">
 					<PropertyList>
 						<Property Name="VolumeOffset" Type="Real64">
