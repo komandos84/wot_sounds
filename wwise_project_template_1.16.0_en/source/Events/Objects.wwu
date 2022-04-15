@@ -251,6 +251,30 @@
             <Event Name="obj_water_tower" ID="{AB948485-92A0-4F50-B343-0DBF77E13333}">
               <ChildrenList></ChildrenList>
             </Event>
+            <Event Name="obj_treefall_creak_small" ID="{D779651E-3C62-47DA-B191-8ED4E544EBF1}">
+              <Comment>Event - Breaking tree</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="obj_treefall_creak_med" ID="{BA5FCC50-1F02-4021-BD97-F0809F4D98FC}">
+              <Comment>Event - Breaking tree</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="obj_treefall_creak_big" ID="{5BDA6BEB-6A3D-4287-8B7A-9E0600A1143B}">
+              <Comment>Event - Breaking tree</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="obj_treefall_down_small" ID="{12B58891-4974-430C-BEAD-06D07FEBC31F}">
+              <Comment>Event - Falling tree</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="obj_treefall_down_med" ID="{6B467AC8-2017-484B-A0D8-35541848EBD5}">
+              <Comment>Event - Falling tree</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="obj_treefall_down_big" ID="{42DB9C40-31B8-436C-AC6B-C086E1D38781}">
+              <Comment>Event - Falling tree</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
           </ChildrenList>
         </Folder>
       </ChildrenList>

@@ -113,6 +113,46 @@
         <Event Name="eng_Skoda_Prague_npc" ID="{D7FE2756-2CA0-472B-8507-38D3058FB210}">
           <ChildrenList></ChildrenList>
         </Event>
+        <Folder Name="vehicle_type_control" ID="{21601060-9B4C-4084-9130-71FCEDEC2D80}" ShortID="282565517">
+          <ChildrenList>
+            <Event Name="vehicleControl_pausePC_resumeNPC" ID="{F014432C-DF26-4E80-88CB-72972F0E8358}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="vehicleControl_pauseNPC_resumePC" ID="{F8A11A08-AC85-4633-8AE8-5B2B3F77DEE9}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="eng_cadillac_series_42_comb" ID="{DCA78FC1-E56C-4C1C-A31F-F3FE063022AA}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="eng_Continental_R975_comb" ID="{C0D135D9-E13A-40C1-8094-816A922288A7}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="eng_ContinentalR_comb" ID="{98ECE2D4-4C73-40E7-BB5A-13B2F39B9F19}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="eng_ContinentalR_STRV_comb" ID="{61AFD6CD-648E-4FC6-A4D3-5E7719BA16FA}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="eng_Ford_GAA_comb" ID="{8D25D089-A386-43F2-823E-E4953E1F9ADF}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="eng_gaz_aa_comb" ID="{C489A9A1-628F-4253-88A3-5AABC0E37962}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="eng_Hetzer_comb" ID="{72FF138D-C86D-4D4C-A84C-863354D36E26}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="eng_Skoda_Prague_comb" ID="{AD971110-F4BD-423A-9D65-6A759E4F7650}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="eng_V2K_comb" ID="{C8DB89C5-6FB3-471A-95AE-23BF5E4B57A5}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="eng_v55_comb" ID="{C163E83C-4E5E-4197-B2D9-A3447B26A2AD}">
+              <ChildrenList></ChildrenList>
+            </Event>
+          </ChildrenList>
+        </Folder>
       </ChildrenList>
     </WorkUnit>
   </Events>

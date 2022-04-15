@@ -28,6 +28,22 @@
         <Event Name="wheels_suspension_npc" ID="{88AF1C94-301F-4F77-B335-FB4A7E31117D}">
           <ChildrenList></ChildrenList>
         </Event>
+        <Folder Name="vehicle_type_control" ID="{C875E21C-8286-4DDC-BC2E-AF92DC2C0BBE}" ShortID="436136232">
+          <ChildrenList>
+            <Event Name="trds_chf_comb" ID="{16644FB7-869D-4908-B7A0-39EB0DA70D8E}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="trds_med_comb" ID="{13D994AD-ED00-4C24-A43E-567EC1395440}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="wheels_suspension_comb" ID="{FC9655A7-CA13-47D7-A2D3-ABB567076497}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="trds_yoh_comb" ID="{262DCA1C-EC9D-4FAE-87AD-E73BBFC7E5C9}">
+              <ChildrenList></ChildrenList>
+            </Event>
+          </ChildrenList>
+        </Folder>
         <Event Name="trds_yoh_pc" ID="{1DC70277-117D-4376-8778-6613962E2C71}">
           <ChildrenList></ChildrenList>
         </Event>
