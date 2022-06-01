@@ -1910,6 +1910,15 @@ also a default state for NPC vehicles in battle (non-damaged PC vehicles)</Comme
             </SwitchGroup>
           </ChildrenList>
         </Folder>
+        <SwitchGroup Name="SWITCH_ext_eng_start_control" ID="{FC274424-5053-4A3E-B065-B60A05DA0B89}">
+          <Comment>The switch that controls the sound at the start of the engine event.
+It is originally made to control the engine start sound, for cases when the events on the same tank start repeatedly.
+It is not used in the postmortem, because it looks like it is not needed there</Comment>
+          <ChildrenList>
+            <Switch Name="SWITCH_ext_eng_start_control_starting" ID="{8DB80E2D-A8B7-49CA-9FC3-5883F0F85EEA}" />
+            <Switch Name="SWITCH_ext_eng_start_control_idle" ID="{3510E5B0-AC37-4B5A-8687-DFF56B16888C}" />
+          </ChildrenList>
+        </SwitchGroup>
       </ChildrenList>
     </WorkUnit>
   </Switches>

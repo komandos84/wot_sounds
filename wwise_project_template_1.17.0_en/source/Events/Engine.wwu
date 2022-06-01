@@ -145,9 +145,6 @@
             <Event Name="eng_Skoda_Prague_comb" ID="{AD971110-F4BD-423A-9D65-6A759E4F7650}">
               <ChildrenList></ChildrenList>
             </Event>
-            <Event Name="eng_V2K_comb" ID="{C8DB89C5-6FB3-471A-95AE-23BF5E4B57A5}">
-              <ChildrenList></ChildrenList>
-            </Event>
             <Event Name="eng_v55_comb" ID="{C163E83C-4E5E-4197-B2D9-A3447B26A2AD}">
               <ChildrenList></ChildrenList>
             </Event>
