@@ -85,6 +85,12 @@
               <Time>0.5</Time>
               <IsShared>false</IsShared>
             </Transition>
+            <Transition>
+              <StartState Name="None" ID="{D4638A1B-F0B7-4488-BA36-DF6AB4C78088}" />
+              <EndState Name="STATE_arenastate_battle" ID="{126BE672-210F-42AA-A692-B31FF206C30E}" />
+              <Time>0.5</Time>
+              <IsShared>false</IsShared>
+            </Transition>
           </TransitionList>
         </StateGroup>
         <StateGroup Name="STATE_gameplace" ID="{F1BD5445-7799-46B9-9915-3A70F970E7E5}">
@@ -138,6 +144,7 @@
             <State Name="STATE_hangar_place_menu_guide" ID="{83ECABB7-770E-4F7D-BE04-61EA94A0CCAB}">
               <Comment>The state is called the moment the player enters the "Manual" menu item</Comment>
             </State>
+            <State Name="STATE_hangar_place_post_progression" ID="{518B7B16-7B32-4696-91C5-FCD91009096D}" />
           </ChildrenList>
           <TransitionList>
             <Transition>
@@ -188,6 +195,8 @@
             <State Name="STATE_gamemode_bootcamp" ID="{D757020F-C273-4C72-B0C1-F016DA9E1626}" />
             <State Name="STATE_gamemode_battle_of_bloggers" ID="{8D0F7DFD-A502-44E7-84D4-D4BE2B84A81B}" />
             <State Name="STATE_gamemode_weekend_brawl" ID="{B98A4EF0-217D-49C6-828E-B9DEACF6C3B2}" />
+            <State Name="STATE_gamemode_r4" ID="{8BE29FE0-CB15-431B-A5A3-F591596D495C}" />
+            <State Name="STATE_gamemode_maps_training" ID="{EACE1216-25FC-4EC4-B5F1-4CABB68F2558}" />
           </ChildrenList>
         </StateGroup>
         <StateGroup Name="STATE_gamemode_progress_page" ID="{CB7FE8BB-4C1B-414C-980C-D43BE093291F}">
@@ -312,7 +321,7 @@ All player interfaces are hidden, except the game account</Comment>
         <StateGroup Name="STATE_hangar_place_tasks" ID="{113541AA-85BD-47BB-8E69-847E26E94E33}">
           <Comment>The State group is for the TASKS tab to switch between Events, Battle Pass, Missions, Daily Tasks</Comment>
           <PropertyList>
-            <Property Name="DefaultTransitionTime" Type="Real64" Value="1.5" />
+            <Property Name="DefaultTransitionTime" Type="Real64" Value="4" />
           </PropertyList>
           <ChildrenList>
             <State Name="None" ID="{34617C48-AAFF-4FE9-960F-F82A0ECE8A88}" />
