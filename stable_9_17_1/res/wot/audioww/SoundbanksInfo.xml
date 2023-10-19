@@ -1,0 +1,755 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows_HighRes" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>D:\Repozytoria\wot_sounds\kobitki_crew_sounds\source\</ProjectRoot>
+		<SourceFilesRoot>D:\Repozytoria\wot_sounds\kobitki_crew_sounds\source\.cache\Windows_HighRes\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Repozytoria\wot_sounds\kobitki_crew_sounds\source\GeneratedSoundBanks\WinHighRes\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Repozytoria\wot_sounds\kobitki_crew_sounds\source\GeneratedSoundBanks\Windows_HighRes</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="519278518">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="14876115" Name="AUX_ev_football_arena" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\VOICE_GUI\AUX_ev_football_arena"/>
+				<AuxBus Id="375152608" Name="AUX_env_Village" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\HDR_dbc\Additional_post_effects\SFX_control_1\AUX_env_Village"/>
+				<AuxBus Id="394482750" Name="AUX_eng_PC_flanger" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\HDR_dbc\Additional_post_effects\secondary\AUX_ambient_control\AUX_eng_PC_flanger"/>
+				<AuxBus Id="401969492" Name="AUX_flange_plane" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\HDR_dbc\Additional_post_effects\secondary\AUX_ambient_control\AUX_flange_plane"/>
+				<AuxBus Id="647771714" Name="AUX_vehicle_control" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\HDR_dbc\Additional_post_effects\secondary\AUX_vehicle_control"/>
+				<AuxBus Id="1460769535" Name="AUX_env_Closed_space" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\HDR_dbc\Additional_post_effects\SFX_control_1\AUX_env_Closed_space"/>
+				<AuxBus Id="1529986663" Name="AUX_sfx_control" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\HDR_dbc\Additional_post_effects\secondary\AUX_sfx_control"/>
+				<AuxBus Id="1822577572" Name="AUX_eng_broken" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\HDR_dbc\Additional_post_effects\secondary\045_impact_filter_ducking_group\VEHICLE_control\130_eng_trds_PC\AUX_eng_broken"/>
+				<AuxBus Id="1889485509" Name="AUX_env_City" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\HDR_dbc\Additional_post_effects\SFX_control_1\AUX_env_City"/>
+				<AuxBus Id="2152316841" Name="AUX_env_Mountain" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\HDR_dbc\Additional_post_effects\SFX_control_1\AUX_env_Mountain"/>
+				<AuxBus Id="2343778479" Name="AUX_wpn_50_75mm_reverb_01" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\HDR_dbc\Additional_post_effects\secondary\AUX_sfx_control\AUX_wpn_50_75mm_reverb_01"/>
+				<AuxBus Id="2543630464" Name="AUX_env_Mountain_close" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\HDR_dbc\Additional_post_effects\SFX_control_1\AUX_env_Mountain_close"/>
+				<AuxBus Id="2577149115" Name="AUX_wpn_50_75mm_reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\HDR_dbc\Additional_post_effects\secondary\AUX_vehicle_control\AUX_wpn_50_75mm_reverb"/>
+				<AuxBus Id="2682597557" Name="AUX_reverb_expl_ally_NPC" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\VOICE_GUI\AUX_reverb_expl_ally_NPC"/>
+				<AuxBus Id="2805659155" Name="AUX_env_Forest" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\HDR_dbc\Additional_post_effects\SFX_control_1\AUX_env_Forest"/>
+				<AuxBus Id="3460988317" Name="AUX_reverb_hangar_dark_sfx" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\LOBBY\Hangar\AUX_reverb_hangar_dark_sfx"/>
+				<AuxBus Id="3515001147" Name="AUX_wpn_85_107mm_reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\HDR_dbc\Additional_post_effects\secondary\AUX_vehicle_control\AUX_wpn_85_107mm_reverb"/>
+				<AuxBus Id="3520008452" Name="AUX_ev_football_engine" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\HDR_dbc\Additional_post_effects\secondary\045_impact_filter_ducking_group\VEHICLE_control\AUX_ev_football_engine"/>
+				<AuxBus Id="3824605991" Name="AUX_collision_reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\HDR_dbc\Additional_post_effects\secondary\AUX_vehicle_control\AUX_collision_reverb"/>
+				<AuxBus Id="3945567761" Name="AUX_reverb_hangar_dark_gui" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\VOICE_GUI\AUX_reverb_hangar_dark_gui"/>
+				<AuxBus Id="4015978123" Name="AUX_NY_comp" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\HDR_dbc\Additional_post_effects\secondary\SFX_control_2\AUX_NY_comp"/>
+				<AuxBus Id="4031197743" Name="AUX_wpn_85_107mm_reverb_01" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\HDR_dbc\Additional_post_effects\secondary\AUX_sfx_control\AUX_wpn_85_107mm_reverb_01"/>
+				<AuxBus Id="4104599319" Name="AUX_reverb_hangar_light_sfx" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\LOBBY\Hangar\AUX_reverb_hangar_light_sfx"/>
+				<AuxBus Id="4124628391" Name="AUX_reverb_hangar_light_gui" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\VOICE_GUI\AUX_reverb_hangar_light_gui"/>
+				<AuxBus Id="4186278069" Name="AUX_multiband_dist_01" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\LOBBY\Hangar\AUX_multiband_dist_01"/>
+				<AuxBus Id="4241804578" Name="AUX_ambient_control" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\HDR_dbc\Additional_post_effects\secondary\AUX_ambient_control"/>
+			</IncludedAuxBusses>
+			<GameParameters>
+				<GameParameter Id="81471525" Name="RTPC_int_distance_1000m" ObjectPath="\Game Parameters\Common\RTPC_int_distance_1000m"/>
+				<GameParameter Id="248010418" Name="RTPC_int_device_laptop_lowcut_trigger" ObjectPath="\Game Parameters\Settings\RTPC_int_device_laptop_lowcut_trigger"/>
+				<GameParameter Id="257494316" Name="RTPC_ext_menu_volume_master" ObjectPath="\Game Parameters\Settings\RTPC_ext_menu_volume_master"/>
+				<GameParameter Id="494846457" Name="RTPC_int_HDR_threshold" ObjectPath="\Game Parameters\Common\RTPC_int_HDR_threshold"/>
+				<GameParameter Id="529901698" Name="RTPC_int_wind_ducking_amount" ObjectPath="\Game Parameters\Ambient\wind\RTPC_int_wind_ducking_amount"/>
+				<GameParameter Id="566631840" Name="RTPC_ext_camera_height" ObjectPath="\Game Parameters\Ambient\wind\RTPC_ext_camera_height"/>
+				<GameParameter Id="695757872" Name="RTPC_ext_menu_volume_effects" ObjectPath="\Game Parameters\Settings\RTPC_ext_menu_volume_effects"/>
+				<GameParameter Id="896614031" Name="RTPC_ext_viewPlayMode" ObjectPath="\Game Parameters\Common\RTPC_ext_viewPlayMode"/>
+				<GameParameter Id="1047122343" Name="RTPC_ext_menu_volume_music_hangar" ObjectPath="\Game Parameters\Settings\RTPC_ext_menu_volume_music_hangar"/>
+				<GameParameter Id="1631196118" Name="RTPC_ext_menu_volume_ambient" ObjectPath="\Game Parameters\Settings\RTPC_ext_menu_volume_ambient"/>
+				<GameParameter Id="1647601246" Name="RTPC_int_music_dron_outro_velocity" ObjectPath="\Game Parameters\Interactive_music\RTPC_int_music_dron_outro_velocity"/>
+				<GameParameter Id="1833954181" Name="RTPC_int_eng_damage" ObjectPath="\Game Parameters\Damage\RTPC_int_eng_damage"/>
+				<GameParameter Id="1978220576" Name="RTPC_ext_menu_volume_voice" ObjectPath="\Game Parameters\Settings\RTPC_ext_menu_volume_voice"/>
+				<GameParameter Id="2151720954" Name="RTPC_int_bass_boost_band_frequency_device_id" ObjectPath="\Game Parameters\Settings\RTPC_int_bass_boost_band_frequency_device_id"/>
+				<GameParameter Id="2370945719" Name="RTPC_ext_menu_volume_music" ObjectPath="\Game Parameters\Settings\RTPC_ext_menu_volume_music"/>
+				<GameParameter Id="2466770167" Name="RTPC_ext_roughness_global" ObjectPath="\Game Parameters\Vehicles\vehicles_global\RTPC_ext_roughness_global"/>
+				<GameParameter Id="2497463650" Name="RTPC_ext_speed_rel_global" ObjectPath="\Game Parameters\Vehicles\vehicles_global\RTPC_ext_speed_rel_global"/>
+				<GameParameter Id="2686672294" Name="RTPC_int_dynamic_range" ObjectPath="\Game Parameters\Settings\RTPC_int_dynamic_range"/>
+				<GameParameter Id="3259059030" Name="RTPC_int_impact_sidechain" ObjectPath="\Game Parameters\Common\RTPC_int_impact_sidechain"/>
+				<GameParameter Id="3261467983" Name="RTPC_int_bass_boost_band_gain_device_id" ObjectPath="\Game Parameters\Settings\RTPC_int_bass_boost_band_gain_device_id"/>
+				<GameParameter Id="3266425556" Name="RTPC_ext_camera_height_rel" ObjectPath="\Game Parameters\Ambient\wind\RTPC_ext_camera_height_rel"/>
+				<GameParameter Id="3348539219" Name="RTPC_ext_menu_volume_gui" ObjectPath="\Game Parameters\Settings\RTPC_ext_menu_volume_gui"/>
+				<GameParameter Id="3391116920" Name="RTPC_int_vo_ducking" ObjectPath="\Game Parameters\Common\RTPC_int_vo_ducking"/>
+				<GameParameter Id="3394325855" Name="RTPC_int_explosion_sidechain" ObjectPath="\Game Parameters\Common\RTPC_int_explosion_sidechain"/>
+				<GameParameter Id="3436964933" Name="RTPC_int_meter_surface_balance" ObjectPath="\Game Parameters\Vehicles\surface\RTPC_int_meter_surface_balance"/>
+				<GameParameter Id="3546315937" Name="RTPC_ext_menu_volume_vehicles" ObjectPath="\Game Parameters\Settings\RTPC_ext_menu_volume_vehicles"/>
+				<GameParameter Id="3567163588" Name="RTPC_ext_physic_load_global" ObjectPath="\Game Parameters\Vehicles\vehicles_global\RTPC_ext_physic_load_global"/>
+				<GameParameter Id="3643357862" Name="RTPC_int_imp_wise_gain" ObjectPath="\Game Parameters\Impacts\RTPC_int_imp_wise_gain"/>
+				<GameParameter Id="3753532465" Name="RTPC_int_bass_boost_trigger" ObjectPath="\Game Parameters\Settings\RTPC_int_bass_boost_trigger"/>
+				<GameParameter Id="3870047102" Name="RTPC_ext_slowmo_factor" ObjectPath="\Game Parameters\Common\RTPC_ext_slowmo_factor"/>
+				<GameParameter Id="4171884463" Name="RTPC_int_multichanel" ObjectPath="\Game Parameters\Multichanel\RTPC_int_multichanel"/>
+				<GameParameter Id="4245421398" Name="RTPC_ext_engine_load_global" ObjectPath="\Game Parameters\Vehicles\vehicles_global\RTPC_ext_engine_load_global"/>
+				<GameParameter Id="4247354303" Name="RTPC_int_bass_boost_gain_compensation" ObjectPath="\Game Parameters\Settings\RTPC_int_bass_boost_gain_compensation"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="974744403" Name="STATE_viewPlayMode" ObjectPath="\States\Common\STATE_viewPlayMode">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Common\STATE_viewPlayMode\None"/>
+						<State Id="132799494" Name="STATE_viewPlayMode_arcade" ObjectPath="\States\Common\STATE_viewPlayMode\STATE_viewPlayMode_arcade"/>
+						<State Id="85928243" Name="STATE_viewPlayMode_sniper" ObjectPath="\States\Common\STATE_viewPlayMode\STATE_viewPlayMode_sniper"/>
+						<State Id="4289862936" Name="STATE_viewPlayMode_strategic" ObjectPath="\States\Common\STATE_viewPlayMode\STATE_viewPlayMode_strategic"/>
+						<State Id="2318091565" Name="STATE_viewPlayMode_arcade_ceilless" ObjectPath="\States\Common\STATE_viewPlayMode\STATE_viewPlayMode_arcade_ceilless"/>
+						<State Id="360996942" Name="STATE_viewPlayMode_sniper_ceilless" ObjectPath="\States\Common\STATE_viewPlayMode\STATE_viewPlayMode_sniper_ceilless"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="1530490698" Name="STATE_gameplace" ObjectPath="\States\Common\STATE_gameplace">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Common\STATE_gameplace\None"/>
+						<State Id="3132916336" Name="STATE_gameplace_hangar" ObjectPath="\States\Common\STATE_gameplace\STATE_gameplace_hangar"/>
+						<State Id="2222908990" Name="STATE_gameplace_arena" ObjectPath="\States\Common\STATE_gameplace\STATE_gameplace_arena"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="2110943632" Name="STATE_underwater" ObjectPath="\States\Common\STATE_underwater">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Common\STATE_underwater\None"/>
+						<State Id="2628170294" Name="STATE_underwater_off" ObjectPath="\States\Common\STATE_underwater\STATE_underwater_off"/>
+						<State Id="1493907064" Name="STATE_underwater_on" ObjectPath="\States\Common\STATE_underwater\STATE_underwater_on"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="2544266487" Name="STATE_arenastate" ObjectPath="\States\Common\STATE_arenastate">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Common\STATE_arenastate\None"/>
+						<State Id="26253895" Name="STATE_arenastate_waiting" ObjectPath="\States\Common\STATE_arenastate\STATE_arenastate_waiting"/>
+						<State Id="1506040602" Name="STATE_arenastate_counter" ObjectPath="\States\Common\STATE_arenastate\STATE_arenastate_counter"/>
+						<State Id="668236828" Name="STATE_arenastate_battle" ObjectPath="\States\Common\STATE_arenastate\STATE_arenastate_battle"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="2617026835" Name="STATE_fortified_area" ObjectPath="\States\Default Work Unit\STATE_fortified_area">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\STATE_fortified_area\None"/>
+						<State Id="3067221881" Name="STATE_fortified_area_on" ObjectPath="\States\Default Work Unit\STATE_fortified_area\STATE_fortified_area_on"/>
+						<State Id="1035658885" Name="STATE_fortified_area_off" ObjectPath="\States\Default Work Unit\STATE_fortified_area\STATE_fortified_area_off"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="2773731236" Name="STATE_hangar_filtered" ObjectPath="\States\Default Work Unit\STATE_hangar_filtered">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\STATE_hangar_filtered\None"/>
+						<State Id="19640060" Name="STATE_hangar_filtered_on" ObjectPath="\States\Default Work Unit\STATE_hangar_filtered\STATE_hangar_filtered_on"/>
+						<State Id="3418647162" Name="STATE_hangar_filtered_off" ObjectPath="\States\Default Work Unit\STATE_hangar_filtered\STATE_hangar_filtered_off"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+		<SoundBank Id="4041657371" Language="SFX" Hash="3422700981">
+			<ObjectPath>\SoundBanks\Default Work Unit\voiceover</ObjectPath>
+			<ShortName>voiceover</ShortName>
+			<Path>voiceover.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1253553576" Name="gun_reloaded" ObjectPath="\Events\GUI\notificationFX\gun_reloaded">
+					<IncludedMemoryFiles>
+						<File Id="771267161" Language="SFX">
+							<ShortName>354705206.wav</ShortName>
+							<Path>SFX\354705206_8D842051.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3972281637" Name="start_battle_mod" ObjectPath="\Events\Voiceover_old\notifications_vo_old\start_battle_mod">
+					<IncludedMemoryFiles>
+						<File Id="152177461" Language="SFX">
+							<ShortName>109756135.wav</ShortName>
+							<Path>SFX\109756135_8D842051.wem</Path>
+						</File>
+						<File Id="551707764" Language="SFX">
+							<ShortName>850978829.wav</ShortName>
+							<Path>SFX\850978829_8D842051.wem</Path>
+						</File>
+						<File Id="619966618" Language="SFX">
+							<ShortName>698709613.wav</ShortName>
+							<Path>SFX\698709613_8D842051.wem</Path>
+						</File>
+						<File Id="690076040" Language="SFX">
+							<ShortName>438416274.wav</ShortName>
+							<Path>SFX\438416274_8D842051.wem</Path>
+						</File>
+						<File Id="845336019" Language="SFX">
+							<ShortName>231139868.wav</ShortName>
+							<Path>SFX\231139868_8D842051.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2301863335" Name="vo_ally_killed_by_player" ObjectPath="\Events\Voiceover_old\notifications_vo_old\vo_ally_killed_by_player">
+					<IncludedMemoryFiles>
+						<File Id="186097804" Language="SFX">
+							<ShortName>441536893.wav</ShortName>
+							<Path>SFX\441536893_8D842051.wem</Path>
+						</File>
+						<File Id="478822869" Language="SFX">
+							<ShortName>253867078.wav</ShortName>
+							<Path>SFX\253867078_8D842051.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3166122996" Name="vo_ammo_bay_damaged" ObjectPath="\Events\Voiceover_old\notifications_vo_old\vo_ammo_bay_damaged">
+					<IncludedMemoryFiles>
+						<File Id="37264008" Language="SFX">
+							<ShortName>487060457.wav</ShortName>
+							<Path>SFX\487060457_8D842051.wem</Path>
+						</File>
+						<File Id="938986799" Language="SFX">
+							<ShortName>87726513.wav</ShortName>
+							<Path>SFX\87726513_8D842051.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1332081395" Name="vo_armor_not_pierced_by_player" ObjectPath="\Events\Voiceover_old\notifications_vo_old\vo_armor_not_pierced_by_player">
+					<IncludedMemoryFiles>
+						<File Id="375770929" Language="SFX">
+							<ShortName>1000148823.wav</ShortName>
+							<Path>SFX\1000148823_8D842051.wem</Path>
+						</File>
+						<File Id="939857559" Language="SFX">
+							<ShortName>20114024.wav</ShortName>
+							<Path>SFX\20114024_8D842051.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2655350512" Name="vo_armor_ricochet_by_player" ObjectPath="\Events\Voiceover_old\notifications_vo_old\vo_armor_ricochet_by_player">
+					<IncludedMemoryFiles>
+						<File Id="966034289" Language="SFX">
+							<ShortName>613013029.wav</ShortName>
+							<Path>SFX\613013029_8D842051.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1946435397" Name="vo_commander_killed" ObjectPath="\Events\Voiceover_old\notifications_vo_old\vo_commander_killed">
+					<IncludedMemoryFiles>
+						<File Id="642825431" Language="SFX">
+							<ShortName>155478204.wav</ShortName>
+							<Path>SFX\155478204_8D842051.wem</Path>
+						</File>
+						<File Id="786400206" Language="SFX">
+							<ShortName>908124710.wav</ShortName>
+							<Path>SFX\908124710_8D842051.wem</Path>
+						</File>
+						<File Id="917189764" Language="SFX">
+							<ShortName>444953267.wav</ShortName>
+							<Path>SFX\444953267_8D842051.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1988695347" Name="vo_crew_deactivated" ObjectPath="\Events\Voiceover_old\notifications_vo_old\vo_crew_deactivated">
+					<IncludedMemoryFiles>
+						<File Id="1022984446" Language="SFX">
+							<ShortName>987180671.wav</ShortName>
+							<Path>SFX\987180671_8D842051.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2509625173" Name="vo_damage_by_near_explosion_by_player" ObjectPath="\Events\Voiceover_old\notifications_vo_old\vo_damage_by_near_explosion_by_player">
+					<IncludedMemoryFiles>
+						<File Id="159003149" Language="SFX">
+							<ShortName>602911891.wav</ShortName>
+							<Path>SFX\602911891_8D842051.wem</Path>
+						</File>
+						<File Id="268242504" Language="SFX">
+							<ShortName>152461286.wav</ShortName>
+							<Path>SFX\152461286_8D842051.wem</Path>
+						</File>
+						<File Id="297622761" Language="SFX">
+							<ShortName>592469889.wav</ShortName>
+							<Path>SFX\592469889_8D842051.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="664892591" Name="vo_driver_killed" ObjectPath="\Events\Voiceover_old\notifications_vo_old\vo_driver_killed">
+					<IncludedMemoryFiles>
+						<File Id="896386117" Language="SFX">
+							<ShortName>826674632.wav</ShortName>
+							<Path>SFX\826674632_8D842051.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3563950026" Name="vo_enemy_fire_started_by_player" ObjectPath="\Events\Voiceover_old\notifications_vo_old\vo_enemy_fire_started_by_player">
+					<IncludedMemoryFiles>
+						<File Id="215974334" Language="SFX">
+							<ShortName>400105925.wav</ShortName>
+							<Path>SFX\400105925_8D842051.wem</Path>
+						</File>
+						<File Id="230473477" Language="SFX">
+							<ShortName>802382355.wav</ShortName>
+							<Path>SFX\802382355_8D842051.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4209631318" Name="vo_enemy_hp_damaged_by_explosion_at_direct_hit_by_player" ObjectPath="\Events\Voiceover_old\notifications_vo_old\vo_enemy_hp_damaged_by_explosion_at_direct_hit_by_player">
+					<IncludedMemoryFiles>
+						<File Id="17585718" Language="SFX">
+							<ShortName>924139396.wav</ShortName>
+							<Path>SFX\924139396_8D842051.wem</Path>
+						</File>
+						<File Id="99462012" Language="SFX">
+							<ShortName>74578491.wav</ShortName>
+							<Path>SFX\74578491_8D842051.wem</Path>
+						</File>
+						<File Id="212651966" Language="SFX">
+							<ShortName>26662178.wav</ShortName>
+							<Path>SFX\26662178_8D842051.wem</Path>
+						</File>
+						<File Id="387155953" Language="SFX">
+							<ShortName>919588509.wav</ShortName>
+							<Path>SFX\919588509_8D842051.wem</Path>
+						</File>
+						<File Id="563035603" Language="SFX">
+							<ShortName>763694814.wav</ShortName>
+							<Path>SFX\763694814_8D842051.wem</Path>
+						</File>
+						<File Id="789891300" Language="SFX">
+							<ShortName>555517187.wav</ShortName>
+							<Path>SFX\555517187_8D842051.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="136522141" Name="vo_enemy_hp_damaged_by_projectile_and_chassis_damaged_by_player" ObjectPath="\Events\Voiceover_old\notifications_vo_old\vo_enemy_hp_damaged_by_projectile_and_chassis_damaged_by_player">
+					<IncludedMemoryFiles>
+						<File Id="17585718" Language="SFX">
+							<ShortName>924139396.wav</ShortName>
+							<Path>SFX\924139396_8D842051.wem</Path>
+						</File>
+						<File Id="99462012" Language="SFX">
+							<ShortName>74578491.wav</ShortName>
+							<Path>SFX\74578491_8D842051.wem</Path>
+						</File>
+						<File Id="212651966" Language="SFX">
+							<ShortName>26662178.wav</ShortName>
+							<Path>SFX\26662178_8D842051.wem</Path>
+						</File>
+						<File Id="387155953" Language="SFX">
+							<ShortName>919588509.wav</ShortName>
+							<Path>SFX\919588509_8D842051.wem</Path>
+						</File>
+						<File Id="563035603" Language="SFX">
+							<ShortName>763694814.wav</ShortName>
+							<Path>SFX\763694814_8D842051.wem</Path>
+						</File>
+						<File Id="789891300" Language="SFX">
+							<ShortName>555517187.wav</ShortName>
+							<Path>SFX\555517187_8D842051.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="102434383" Name="vo_enemy_hp_damaged_by_projectile_and_gun_damaged_by_player" ObjectPath="\Events\Voiceover_old\notifications_vo_old\vo_enemy_hp_damaged_by_projectile_and_gun_damaged_by_player">
+					<IncludedMemoryFiles>
+						<File Id="17585718" Language="SFX">
+							<ShortName>924139396.wav</ShortName>
+							<Path>SFX\924139396_8D842051.wem</Path>
+						</File>
+						<File Id="99462012" Language="SFX">
+							<ShortName>74578491.wav</ShortName>
+							<Path>SFX\74578491_8D842051.wem</Path>
+						</File>
+						<File Id="212651966" Language="SFX">
+							<ShortName>26662178.wav</ShortName>
+							<Path>SFX\26662178_8D842051.wem</Path>
+						</File>
+						<File Id="387155953" Language="SFX">
+							<ShortName>919588509.wav</ShortName>
+							<Path>SFX\919588509_8D842051.wem</Path>
+						</File>
+						<File Id="563035603" Language="SFX">
+							<ShortName>763694814.wav</ShortName>
+							<Path>SFX\763694814_8D842051.wem</Path>
+						</File>
+						<File Id="789891300" Language="SFX">
+							<ShortName>555517187.wav</ShortName>
+							<Path>SFX\555517187_8D842051.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1057290642" Name="vo_enemy_hp_damaged_by_projectile_by_player" ObjectPath="\Events\Voiceover_old\notifications_vo_old\vo_enemy_hp_damaged_by_projectile_by_player">
+					<IncludedMemoryFiles>
+						<File Id="17585718" Language="SFX">
+							<ShortName>924139396.wav</ShortName>
+							<Path>SFX\924139396_8D842051.wem</Path>
+						</File>
+						<File Id="99462012" Language="SFX">
+							<ShortName>74578491.wav</ShortName>
+							<Path>SFX\74578491_8D842051.wem</Path>
+						</File>
+						<File Id="212651966" Language="SFX">
+							<ShortName>26662178.wav</ShortName>
+							<Path>SFX\26662178_8D842051.wem</Path>
+						</File>
+						<File Id="387155953" Language="SFX">
+							<ShortName>919588509.wav</ShortName>
+							<Path>SFX\919588509_8D842051.wem</Path>
+						</File>
+						<File Id="563035603" Language="SFX">
+							<ShortName>763694814.wav</ShortName>
+							<Path>SFX\763694814_8D842051.wem</Path>
+						</File>
+						<File Id="789891300" Language="SFX">
+							<ShortName>555517187.wav</ShortName>
+							<Path>SFX\555517187_8D842051.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1316861587" Name="vo_enemy_killed" ObjectPath="\Events\Voiceover_old\notifications_vo_old\vo_enemy_killed" MaxAttenuation="0.000000"/>
+				<Event Id="1122640859" Name="vo_enemy_killed_by_player" ObjectPath="\Events\Voiceover_old\notifications_vo_old\vo_enemy_killed_by_player">
+					<IncludedMemoryFiles>
+						<File Id="123679946" Language="SFX">
+							<ShortName>858448046.wav</ShortName>
+							<Path>SFX\858448046_8D842051.wem</Path>
+						</File>
+						<File Id="216937408" Language="SFX">
+							<ShortName>856138937.wav</ShortName>
+							<Path>SFX\856138937_8D842051.wem</Path>
+						</File>
+						<File Id="217213795" Language="SFX">
+							<ShortName>278637609.wav</ShortName>
+							<Path>SFX\278637609_8D842051.wem</Path>
+						</File>
+						<File Id="289235689" Language="SFX">
+							<ShortName>189716043.wav</ShortName>
+							<Path>SFX\189716043_8D842051.wem</Path>
+						</File>
+						<File Id="451548717" Language="SFX">
+							<ShortName>652281492.wav</ShortName>
+							<Path>SFX\652281492_8D842051.wem</Path>
+						</File>
+						<File Id="702132933" Language="SFX">
+							<ShortName>786232431.wav</ShortName>
+							<Path>SFX\786232431_8D842051.wem</Path>
+						</File>
+						<File Id="711110137" Language="SFX">
+							<ShortName>987614054.wav</ShortName>
+							<Path>SFX\987614054_8D842051.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3406769" Name="vo_enemy_no_hp_damage_at_attempt_and_chassis_damaged_by_player" ObjectPath="\Events\Voiceover_old\notifications_vo_old\vo_enemy_no_hp_damage_at_attempt_and_chassis_damaged_by_player">
+					<IncludedMemoryFiles>
+						<File Id="375770929" Language="SFX">
+							<ShortName>1000148823.wav</ShortName>
+							<Path>SFX\1000148823_8D842051.wem</Path>
+						</File>
+						<File Id="939857559" Language="SFX">
+							<ShortName>20114024.wav</ShortName>
+							<Path>SFX\20114024_8D842051.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3175172091" Name="vo_enemy_no_hp_damage_at_attempt_and_gun_damaged_by_player" ObjectPath="\Events\Voiceover_old\notifications_vo_old\vo_enemy_no_hp_damage_at_attempt_and_gun_damaged_by_player">
+					<IncludedMemoryFiles>
+						<File Id="375770929" Language="SFX">
+							<ShortName>1000148823.wav</ShortName>
+							<Path>SFX\1000148823_8D842051.wem</Path>
+						</File>
+						<File Id="939857559" Language="SFX">
+							<ShortName>20114024.wav</ShortName>
+							<Path>SFX\20114024_8D842051.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="730352367" Name="vo_enemy_no_hp_damage_at_no_attempt_and_chassis_damaged_by_player" ObjectPath="\Events\Voiceover_old\notifications_vo_old\vo_enemy_no_hp_damage_at_no_attempt_and_chassis_damaged_by_player">
+					<IncludedMemoryFiles>
+						<File Id="375770929" Language="SFX">
+							<ShortName>1000148823.wav</ShortName>
+							<Path>SFX\1000148823_8D842051.wem</Path>
+						</File>
+						<File Id="939857559" Language="SFX">
+							<ShortName>20114024.wav</ShortName>
+							<Path>SFX\20114024_8D842051.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1713814001" Name="vo_enemy_no_hp_damage_at_no_attempt_and_gun_damaged_by_player" ObjectPath="\Events\Voiceover_old\notifications_vo_old\vo_enemy_no_hp_damage_at_no_attempt_and_gun_damaged_by_player">
+					<IncludedMemoryFiles>
+						<File Id="375770929" Language="SFX">
+							<ShortName>1000148823.wav</ShortName>
+							<Path>SFX\1000148823_8D842051.wem</Path>
+						</File>
+						<File Id="939857559" Language="SFX">
+							<ShortName>20114024.wav</ShortName>
+							<Path>SFX\20114024_8D842051.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3207438912" Name="vo_enemy_no_hp_damage_at_no_attempt_by_player" ObjectPath="\Events\Voiceover_old\notifications_vo_old\vo_enemy_no_hp_damage_at_no_attempt_by_player">
+					<IncludedMemoryFiles>
+						<File Id="375770929" Language="SFX">
+							<ShortName>1000148823.wav</ShortName>
+							<Path>SFX\1000148823_8D842051.wem</Path>
+						</File>
+						<File Id="939857559" Language="SFX">
+							<ShortName>20114024.wav</ShortName>
+							<Path>SFX\20114024_8D842051.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1702267773" Name="vo_engine_damaged" ObjectPath="\Events\Voiceover_old\notifications_vo_old\vo_engine_damaged">
+					<IncludedMemoryFiles>
+						<File Id="549252477" Language="SFX">
+							<ShortName>59420282.wav</ShortName>
+							<Path>SFX\59420282_8D842051.wem</Path>
+						</File>
+						<File Id="770303935" Language="SFX">
+							<ShortName>433963936.wav</ShortName>
+							<Path>SFX\433963936_8D842051.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1302422561" Name="vo_engine_destroyed" ObjectPath="\Events\Voiceover_old\notifications_vo_old\vo_engine_destroyed">
+					<IncludedMemoryFiles>
+						<File Id="174609447" Language="SFX">
+							<ShortName>496018347.wav</ShortName>
+							<Path>SFX\496018347_8D842051.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4148607935" Name="vo_engine_functional" ObjectPath="\Events\Voiceover_old\notifications_vo_old\vo_engine_functional">
+					<IncludedMemoryFiles>
+						<File Id="128795604" Language="SFX">
+							<ShortName>250976560.wav</ShortName>
+							<Path>SFX\250976560_8D842051.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1396083645" Name="vo_fire_started" ObjectPath="\Events\Voiceover_old\notifications_vo_old\vo_fire_started">
+					<IncludedMemoryFiles>
+						<File Id="927451684" Language="SFX">
+							<ShortName>93501732.wav</ShortName>
+							<Path>SFX\93501732_8D842051.wem</Path>
+						</File>
+						<File Id="954487818" Language="SFX">
+							<ShortName>866557076.wav</ShortName>
+							<Path>SFX\866557076_8D842051.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3616464105" Name="vo_fire_stopped" ObjectPath="\Events\Voiceover_old\notifications_vo_old\vo_fire_stopped">
+					<IncludedMemoryFiles>
+						<File Id="101965507" Language="SFX">
+							<ShortName>752077454.wav</ShortName>
+							<Path>SFX\752077454_8D842051.wem</Path>
+						</File>
+						<File Id="254442393" Language="SFX">
+							<ShortName>639856612.wav</ShortName>
+							<Path>SFX\639856612_8D842051.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1641781602" Name="vo_fuel_tank_damaged" ObjectPath="\Events\Voiceover_old\notifications_vo_old\vo_fuel_tank_damaged">
+					<IncludedMemoryFiles>
+						<File Id="579709457" Language="SFX">
+							<ShortName>533818007.wav</ShortName>
+							<Path>SFX\533818007_8D842051.wem</Path>
+						</File>
+						<File Id="869319142" Language="SFX">
+							<ShortName>1002220899.wav</ShortName>
+							<Path>SFX\1002220899_8D842051.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="693799259" Name="vo_gun_damaged" ObjectPath="\Events\Voiceover_old\notifications_vo_old\vo_gun_damaged">
+					<IncludedMemoryFiles>
+						<File Id="418097678" Language="SFX">
+							<ShortName>667665005.wav</ShortName>
+							<Path>SFX\667665005_8D842051.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="825236543" Name="vo_gun_destroyed" ObjectPath="\Events\Voiceover_old\notifications_vo_old\vo_gun_destroyed">
+					<IncludedMemoryFiles>
+						<File Id="592554810" Language="SFX">
+							<ShortName>22452503.wav</ShortName>
+							<Path>SFX\22452503_8D842051.wem</Path>
+						</File>
+						<File Id="601963296" Language="SFX">
+							<ShortName>170898090.wav</ShortName>
+							<Path>SFX\170898090_8D842051.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4011208105" Name="vo_gun_functional" ObjectPath="\Events\Voiceover_old\notifications_vo_old\vo_gun_functional">
+					<IncludedMemoryFiles>
+						<File Id="768902840" Language="SFX">
+							<ShortName>254213687.wav</ShortName>
+							<Path>SFX\254213687_8D842051.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1107412350" Name="vo_gunner_killed" ObjectPath="\Events\Voiceover_old\notifications_vo_old\vo_gunner_killed">
+					<IncludedMemoryFiles>
+						<File Id="641375881" Language="SFX">
+							<ShortName>785080130.wav</ShortName>
+							<Path>SFX\785080130_8D842051.wem</Path>
+						</File>
+						<File Id="702136334" Language="SFX">
+							<ShortName>95979981.wav</ShortName>
+							<Path>SFX\95979981_8D842051.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1781671118" Name="vo_loader_killed" ObjectPath="\Events\Voiceover_old\notifications_vo_old\vo_loader_killed">
+					<IncludedMemoryFiles>
+						<File Id="1062161234" Language="SFX">
+							<ShortName>290391764.wav</ShortName>
+							<Path>SFX\290391764_8D842051.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="575170028" Name="vo_radio_damaged" ObjectPath="\Events\Voiceover_old\notifications_vo_old\vo_radio_damaged">
+					<IncludedMemoryFiles>
+						<File Id="734532686" Language="SFX">
+							<ShortName>692265122.wav</ShortName>
+							<Path>SFX\692265122_8D842051.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3928775652" Name="vo_radioman_killed" ObjectPath="\Events\Voiceover_old\notifications_vo_old\vo_radioman_killed">
+					<IncludedMemoryFiles>
+						<File Id="168256352" Language="SFX">
+							<ShortName>881565234.wav</ShortName>
+							<Path>SFX\881565234_8D842051.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2775977275" Name="vo_surveying_devices_damaged" ObjectPath="\Events\Voiceover_old\notifications_vo_old\vo_surveying_devices_damaged">
+					<IncludedMemoryFiles>
+						<File Id="481432511" Language="SFX">
+							<ShortName>619710482.wav</ShortName>
+							<Path>SFX\619710482_8D842051.wem</Path>
+						</File>
+						<File Id="651378849" Language="SFX">
+							<ShortName>1024321231.wav</ShortName>
+							<Path>SFX\1024321231_8D842051.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1112395295" Name="vo_surveying_devices_destroyed" ObjectPath="\Events\Voiceover_old\notifications_vo_old\vo_surveying_devices_destroyed">
+					<IncludedMemoryFiles>
+						<File Id="77356628" Language="SFX">
+							<ShortName>331777583.wav</ShortName>
+							<Path>SFX\331777583_8D842051.wem</Path>
+						</File>
+						<File Id="995448859" Language="SFX">
+							<ShortName>553137814.wav</ShortName>
+							<Path>SFX\553137814_8D842051.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="998311689" Name="vo_surveying_devices_functional" ObjectPath="\Events\Voiceover_old\notifications_vo_old\vo_surveying_devices_functional">
+					<IncludedMemoryFiles>
+						<File Id="502961419" Language="SFX">
+							<ShortName>63457512.wav</ShortName>
+							<Path>SFX\63457512_8D842051.wem</Path>
+						</File>
+						<File Id="999178287" Language="SFX">
+							<ShortName>125380613.wav</ShortName>
+							<Path>SFX\125380613_8D842051.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1491984609" Name="vo_target_captured" ObjectPath="\Events\Voiceover_old\notifications_vo_old\vo_target_captured">
+					<IncludedMemoryFiles>
+						<File Id="62594969" Language="SFX">
+							<ShortName>112812167.wav</ShortName>
+							<Path>SFX\112812167_8D842051.wem</Path>
+						</File>
+						<File Id="1052909277" Language="SFX">
+							<ShortName>592664826.wav</ShortName>
+							<Path>SFX\592664826_8D842051.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2836359293" Name="vo_target_lost" ObjectPath="\Events\Voiceover_old\notifications_vo_old\vo_target_lost">
+					<IncludedMemoryFiles>
+						<File Id="195434600" Language="SFX">
+							<ShortName>722532057.wav</ShortName>
+							<Path>SFX\722532057_8D842051.wem</Path>
+						</File>
+						<File Id="845273532" Language="SFX">
+							<ShortName>19812053.wav</ShortName>
+							<Path>SFX\19812053_8D842051.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="85617264" Name="vo_target_unlocked" ObjectPath="\Events\Voiceover_old\notifications_vo_old\vo_target_unlocked">
+					<IncludedMemoryFiles>
+						<File Id="903170588" Language="SFX">
+							<ShortName>36853134.wav</ShortName>
+							<Path>SFX\36853134_8D842051.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="766987452" Name="vo_track_damaged" ObjectPath="\Events\Voiceover_old\notifications_vo_old\vo_track_damaged">
+					<IncludedMemoryFiles>
+						<File Id="708193548" Language="SFX">
+							<ShortName>794934482.wav</ShortName>
+							<Path>SFX\794934482_8D842051.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1244332268" Name="vo_track_destroyed" ObjectPath="\Events\Voiceover_old\notifications_vo_old\vo_track_destroyed">
+					<IncludedMemoryFiles>
+						<File Id="350789339" Language="SFX">
+							<ShortName>298403418.wav</ShortName>
+							<Path>SFX\298403418_8D842051.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3498324732" Name="vo_track_functional" ObjectPath="\Events\Voiceover_old\notifications_vo_old\vo_track_functional">
+					<IncludedMemoryFiles>
+						<File Id="996368883" Language="SFX">
+							<ShortName>131750344.wav</ShortName>
+							<Path>SFX\131750344_8D842051.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="311966861" Name="vo_track_functional_can_move" ObjectPath="\Events\Voiceover_old\notifications_vo_old\vo_track_functional_can_move">
+					<IncludedMemoryFiles>
+						<File Id="996368883" Language="SFX">
+							<ShortName>131750344.wav</ShortName>
+							<Path>SFX\131750344_8D842051.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="47755571" Name="vo_turret_rotator_damaged" ObjectPath="\Events\Voiceover_old\notifications_vo_old\vo_turret_rotator_damaged">
+					<IncludedMemoryFiles>
+						<File Id="30958974" Language="SFX">
+							<ShortName>952297632.wav</ShortName>
+							<Path>SFX\952297632_8D842051.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1630212423" Name="vo_turret_rotator_destroyed" ObjectPath="\Events\Voiceover_old\notifications_vo_old\vo_turret_rotator_destroyed">
+					<IncludedMemoryFiles>
+						<File Id="497367895" Language="SFX">
+							<ShortName>132134861.wav</ShortName>
+							<Path>SFX\132134861_8D842051.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="257621937" Name="vo_turret_rotator_functional" ObjectPath="\Events\Voiceover_old\notifications_vo_old\vo_turret_rotator_functional">
+					<IncludedMemoryFiles>
+						<File Id="998197572" Language="SFX">
+							<ShortName>643979605.wav</ShortName>
+							<Path>SFX\643979605_8D842051.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3917054405" Name="vo_vehicle_destroyed" ObjectPath="\Events\Voiceover_old\notifications_vo_old\vo_vehicle_destroyed">
+					<IncludedMemoryFiles>
+						<File Id="24885097" Language="SFX">
+							<ShortName>897640449.wav</ShortName>
+							<Path>SFX\897640449_8D842051.wem</Path>
+						</File>
+						<File Id="112994076" Language="SFX">
+							<ShortName>717197448.wav</ShortName>
+							<Path>SFX\717197448_8D842051.wem</Path>
+						</File>
+						<File Id="601501587" Language="SFX">
+							<ShortName>396833513.wav</ShortName>
+							<Path>SFX\396833513_8D842051.wem</Path>
+						</File>
+						<File Id="760281731" Language="SFX">
+							<ShortName>148431301.wav</ShortName>
+							<Path>SFX\148431301_8D842051.wem</Path>
+						</File>
+						<File Id="788688433" Language="SFX">
+							<ShortName>634819176.wav</ShortName>
+							<Path>SFX\634819176_8D842051.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
