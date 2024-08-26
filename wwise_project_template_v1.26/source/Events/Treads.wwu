@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6451563F-CABC-4121-83A6-0536B4D3587B}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Treads" ID="{6451563F-CABC-4121-83A6-0536B4D3587B}" PersistMode="Standalone">
+			<Comment>Гусеницы и рафнес </Comment>
+			<ChildrenList>
+				<Event Name="trds_chf_npc" ID="{08B4C05E-B0B4-4B13-809E-04B16F0D44A0}">
+					<Comment>Ивент - Нации : Германия, США, Франция, Великобритания, Чехословакия, Япония  NPC</Comment>
+				</Event>
+				<Event Name="trds_med_npc" ID="{9EBA0992-C8F5-48CC-9370-D117785CC35D}">
+					<Comment>Ивент - Нации : СССР, Китай  NPC</Comment>
+				</Event>
+				<Event Name="trds_t34_pc" ID="{F570713C-7A3E-470C-B050-10447D255C3C}">
+					<Comment>Ивент - только для Т-34 СССP</Comment>
+				</Event>
+				<Event Name="ambient_wind_blown" ID="{D16C9EEB-91BD-4C6E-A9C4-3FC28BBAD683}">
+					<Comment>Ивент - Задувания ветра при большой скорости движения танка</Comment>
+				</Event>
+				<Event Name="treads_type_pc" ID="{E7EC5C18-162B-4C9A-9A09-BA6255FC888D}"/>
+				<Event Name="wheels_suspension_pc" ID="{18A38287-2770-4A11-A97D-2CEDAD8E7001}"/>
+				<Event Name="wheels_suspension_npc" ID="{88AF1C94-301F-4F77-B335-FB4A7E31117D}"/>
+				<Folder Name="vehicle_type_control" ID="{C875E21C-8286-4DDC-BC2E-AF92DC2C0BBE}" ShortID="436136232">
+					<ChildrenList>
+						<Event Name="trds_chf_comb" ID="{16644FB7-869D-4908-B7A0-39EB0DA70D8E}"/>
+						<Event Name="trds_med_comb" ID="{13D994AD-ED00-4C24-A43E-567EC1395440}"/>
+						<Event Name="wheels_suspension_comb" ID="{FC9655A7-CA13-47D7-A2D3-ABB567076497}"/>
+						<Event Name="trds_yoh_comb" ID="{262DCA1C-EC9D-4FAE-87AD-E73BBFC7E5C9}"/>
+					</ChildrenList>
+				</Folder>
+				<Event Name="trds_yoh_pc" ID="{1DC70277-117D-4376-8778-6613962E2C71}"/>
+				<Event Name="trds_yoh_npc" ID="{5E8926D1-D857-4539-BCEB-9CDD3DE5BCF3}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
