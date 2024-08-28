@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{C044B3DD-6964-461D-8E5B-56EE262C712E}" SchemaVersion="97">
+<WwiseDocument Type="WorkUnit" ID="{C044B3DD-6964-461D-8E5B-56EE262C712E}" SchemaVersion="119">
 	<Queries>
 		<WorkUnit Name="Build_queries" ID="{C044B3DD-6964-461D-8E5B-56EE262C712E}" PersistMode="Standalone">
 			<ChildrenList>
@@ -7,7 +7,6 @@
 					<PropertyList>
 						<Property Name="ObjectType" Type="int32" Value="800"/>
 					</PropertyList>
-					<ReferenceList/>
 					<ChildrenList>
 						<SearchCriteria Name="PropertyValue" ID="{D5426453-71D4-4832-8DA9-AECCA457A3DA}" SearchOperationID="{560736B7-4F5C-4EF7-9354-8D8DC6BBD70A}">
 							<PropertyList>

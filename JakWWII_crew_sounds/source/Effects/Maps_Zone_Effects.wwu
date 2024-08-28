@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{F5F6A6A5-94E6-4B78-889E-457783FEFBB3}" SchemaVersion="97">
+<WwiseDocument Type="WorkUnit" ID="{F5F6A6A5-94E6-4B78-889E-457783FEFBB3}" SchemaVersion="119">
 	<Effects>
 		<WorkUnit Name="Maps_Zone_Effects" ID="{F5F6A6A5-94E6-4B78-889E-457783FEFBB3}" PersistMode="Standalone">
 			<ChildrenList>
@@ -31,41 +31,17 @@
 				</Effect>
 				<Effect Name="Map_Zone_Reverb_Forest" ID="{488220AD-D196-4431-B8E7-08E9A7C16242}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 					<PropertyList>
-						<Property Name="DryLevel" Type="Real32">
-							<ValueList>
-								<Value>-96</Value>
-							</ValueList>
-						</Property>
-						<Property Name="IRConvolutionSmooth" Type="Real32">
-							<ValueList>
-								<Value>25</Value>
-							</ValueList>
-						</Property>
-						<Property Name="IRConvolutionStop" Type="Real64">
-							<ValueList>
-								<Value>3.68995464852608</Value>
-							</ValueList>
-						</Property>
+						<Property Name="DryLevel" Type="Real32" Value="-96"/>
+						<Property Name="IRConvolutionSmooth" Type="Real32" Value="25"/>
+						<Property Name="IRConvolutionStop" Type="Real64" Value="3.68995464852608"/>
 						<Property Name="IRConvolutionThreshold" Type="Real32">
 							<ValueList>
 								<Value>-60</Value>
 							</ValueList>
 						</Property>
-						<Property Name="IRGraphicEQAutomate" Type="bool">
-							<ValueList>
-								<Value>True</Value>
-							</ValueList>
-						</Property>
-						<Property Name="IRLevel" Type="Real32">
-							<ValueList>
-								<Value>-17</Value>
-							</ValueList>
-						</Property>
-						<Property Name="PreDelay" Type="Real32">
-							<ValueList>
-								<Value>53</Value>
-							</ValueList>
-						</Property>
+						<Property Name="IRGraphicEQAutomate" Type="bool" Value="True"/>
+						<Property Name="IRLevel" Type="Real32" Value="-17"/>
+						<Property Name="PreDelay" Type="Real32" Value="53"/>
 					</PropertyList>
 					<ChildrenList>
 						<PluginMediaSource Name="Deep forest" ID="{EDE1044C-D411-416D-9AE4-AC09A447DBB6}">
@@ -78,10 +54,11 @@
 							</MediaIDList>
 						</PluginMediaSource>
 					</ChildrenList>
-					<PluginData><ConvolutionData>
+					<PluginData>
+	<ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
-				<Curve Name="" ID="{321E401B-E4B0-43CD-ACAA-AA2940A0043B}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="19"/>
 					</PropertyList>
@@ -115,7 +92,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLPF">
-				<Curve Name="" ID="{F592EA05-F96B-4204-A2A0-EE0C08AAA0C1}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="5"/>
 					</PropertyList>
@@ -134,7 +111,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLevel">
-				<Curve Name="" ID="{07A76886-7256-4C86-8CE1-04781F8C8E60}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="1"/>
 					</PropertyList>
@@ -153,7 +130,8 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData></PluginData>
+	</ConvolutionData>
+</PluginData>
 				</Effect>
 				<Effect Name="Map_Zone_Pitch_Village" ID="{FFE3BD0D-52A3-44B1-B222-AEB655305A58}" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
 					<PropertyList>
@@ -185,41 +163,13 @@
 				</Effect>
 				<Effect Name="Map_Zone_Reverb_Mountain" ID="{A4DD463F-8E18-4E45-A859-6FD1903E94CE}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 					<PropertyList>
-						<Property Name="DryLevel" Type="Real32">
-							<ValueList>
-								<Value>-96</Value>
-							</ValueList>
-						</Property>
-						<Property Name="IRConvolutionStop" Type="Real64">
-							<ValueList>
-								<Value>0.874677083333333</Value>
-							</ValueList>
-						</Property>
-						<Property Name="IRGraphicEQAutomate" Type="bool">
-							<ValueList>
-								<Value>True</Value>
-							</ValueList>
-						</Property>
-						<Property Name="IRLevel" Type="Real32">
-							<ValueList>
-								<Value>-8.5</Value>
-							</ValueList>
-						</Property>
-						<Property Name="PreDelay" Type="Real32">
-							<ValueList>
-								<Value>300</Value>
-							</ValueList>
-						</Property>
-						<Property Name="StereoWidth" Type="Real32">
-							<ValueList>
-								<Value>104</Value>
-							</ValueList>
-						</Property>
-						<Property Name="WetLevel" Type="Real32">
-							<ValueList>
-								<Value>11</Value>
-							</ValueList>
-						</Property>
+						<Property Name="DryLevel" Type="Real32" Value="-96"/>
+						<Property Name="IRConvolutionStop" Type="Real64" Value="0.874677083333333"/>
+						<Property Name="IRGraphicEQAutomate" Type="bool" Value="True"/>
+						<Property Name="IRLevel" Type="Real32" Value="-8.5"/>
+						<Property Name="PreDelay" Type="Real32" Value="300"/>
+						<Property Name="StereoWidth" Type="Real32" Value="104"/>
+						<Property Name="WetLevel" Type="Real32" Value="11"/>
 					</PropertyList>
 					<ChildrenList>
 						<PluginMediaSource Name="Canyons" ID="{785299F0-D5F4-4D6B-A3BD-BBD96C7D8CF8}">
@@ -232,10 +182,11 @@
 							</MediaIDList>
 						</PluginMediaSource>
 					</ChildrenList>
-					<PluginData><ConvolutionData>
+					<PluginData>
+	<ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
-				<Curve Name="" ID="{7619E7D8-9FAA-4102-9B1A-2FF7E0BC23F0}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="19"/>
 					</PropertyList>
@@ -274,7 +225,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLPF">
-				<Curve Name="" ID="{C595520D-B048-43A9-A1AC-C8E63B5B4F77}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="5"/>
 					</PropertyList>
@@ -293,7 +244,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLevel">
-				<Curve Name="" ID="{F29886A8-ACEE-4B1A-9EAC-F552040679FF}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="1"/>
 					</PropertyList>
@@ -312,41 +263,15 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData></PluginData>
+	</ConvolutionData>
+</PluginData>
 				</Effect>
 				<Effect Name="Map_Zone_Delay_Mountain" ID="{D89BAFAB-4EE7-40DE-8C11-603900AFA1C5}" PluginName="Wwise Stereo Delay" CompanyID="0" PluginID="135" PluginType="3">
 					<PropertyList>
 						<Property Name="DryLevel" Type="Real32" Value="-96"/>
 						<Property Name="EnableCrossFeed" Type="bool" Value="True"/>
 						<Property Name="EnableFeedback" Type="bool" Value="True"/>
-						<Property Name="FilterFrequency" Type="Real32" Value="1502">
-							<RTPCList>
-								<RTPC Name="" ID="{3770D843-79EC-4782-B66C-BD49B0F6258C}" ShortID="854049015">
-									<ReferenceList>
-										<Reference Name="ControlInput">
-											<ObjectRef Name="LFO_AUX_environment_reflection_frequency" ID="{49550DA5-1DAC-4D46-8534-F98B859F298F}" WorkUnitID="{65CEFED0-4EDD-441E-8705-DEFEBACD8469}"/>
-										</Reference>
-									</ReferenceList>
-									<Curve Name="" ID="{A5821AAC-283B-400A-9C01-5BE8FF28EF31}">
-										<PropertyList>
-											<Property Name="Flags" Type="int32" Value="5"/>
-										</PropertyList>
-										<PointList>
-											<Point>
-												<XPos>0</XPos>
-												<YPos>366.18762</YPos>
-												<Flags>21</Flags>
-											</Point>
-											<Point>
-												<XPos>1</XPos>
-												<YPos>1235.64639</YPos>
-												<Flags>53</Flags>
-											</Point>
-										</PointList>
-									</Curve>
-								</RTPC>
-							</RTPCList>
-						</Property>
+						<Property Name="FilterFrequency" Type="Real32" Value="1502"/>
 						<Property Name="FilterType" Type="int32" Value="4"/>
 						<Property Name="FrontRearBalance" Type="Real32" Value="0"/>
 						<Property Name="LeftCrossfeed" Type="Real32" Value="-15.7"/>
@@ -357,6 +282,45 @@
 						<Property Name="RightFeedback" Type="Real32" Value="-14.1"/>
 						<Property Name="WetLevel" Type="Real32" Value="6"/>
 					</PropertyList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{3770D843-79EC-4782-B66C-BD49B0F6258C}" ShortID="854049015">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="FilterFrequency"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="LFO_AUX_environment_reflection_frequency" ID="{49550DA5-1DAC-4D46-8534-F98B859F298F}" WorkUnitID="{65CEFED0-4EDD-441E-8705-DEFEBACD8469}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{A5821AAC-283B-400A-9C01-5BE8FF28EF31}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="5"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>366.18762</YPos>
+																<Flags>21</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>1235.64639</YPos>
+																<Flags>53</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 				</Effect>
 				<Effect Name="Map_Zone_Delay_Mountain_close" ID="{2045A7A2-DEC3-4C66-AF17-246F43A8F561}" PluginName="Wwise Stereo Delay" CompanyID="0" PluginID="135" PluginType="3">
 					<PropertyList>
@@ -375,36 +339,12 @@
 				</Effect>
 				<Effect Name="Map_Zone_Reverb_Mountain_close" ID="{52140E44-1D5B-4CB4-9EC6-53DCEEF40E41}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 					<PropertyList>
-						<Property Name="DryLevel" Type="Real32">
-							<ValueList>
-								<Value>-96.3</Value>
-							</ValueList>
-						</Property>
-						<Property Name="IRConvolutionStop" Type="Real64">
-							<ValueList>
-								<Value>0.9055</Value>
-							</ValueList>
-						</Property>
-						<Property Name="IRLevel" Type="Real32">
-							<ValueList>
-								<Value>0.5</Value>
-							</ValueList>
-						</Property>
-						<Property Name="InputLFELevel" Type="Real32">
-							<ValueList>
-								<Value>-11.3</Value>
-							</ValueList>
-						</Property>
-						<Property Name="StereoWidth" Type="Real32">
-							<ValueList>
-								<Value>0</Value>
-							</ValueList>
-						</Property>
-						<Property Name="WetLevel" Type="Real32">
-							<ValueList>
-								<Value>24</Value>
-							</ValueList>
-						</Property>
+						<Property Name="DryLevel" Type="Real32" Value="-96.3"/>
+						<Property Name="IRConvolutionStop" Type="Real64" Value="0.9055"/>
+						<Property Name="IRLevel" Type="Real32" Value="0.5"/>
+						<Property Name="InputLFELevel" Type="Real32" Value="-11.3"/>
+						<Property Name="StereoWidth" Type="Real32" Value="0"/>
+						<Property Name="WetLevel" Type="Real32" Value="24"/>
 					</PropertyList>
 					<ChildrenList>
 						<PluginMediaSource Name="AK Blue Noise Room 01" ID="{F7442900-70A4-4D6A-9DA5-87B21F82FD52}">
@@ -413,14 +353,15 @@
 								<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Rooms\AK Blue Noise Room 01.wav"/>
 							</PropertyList>
 							<MediaIDList>
-								<MediaID ID="358895006"/>
+								<MediaID ID="830379118"/>
 							</MediaIDList>
 						</PluginMediaSource>
 					</ChildrenList>
-					<PluginData><ConvolutionData>
+					<PluginData>
+	<ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
-				<Curve Name="" ID="{D8523808-573D-412A-AA61-0761D934670C}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="19"/>
 					</PropertyList>
@@ -439,7 +380,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLPF">
-				<Curve Name="" ID="{3F940301-3CB0-4D59-B01F-9E4E36C8EA1D}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="5"/>
 					</PropertyList>
@@ -458,7 +399,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLevel">
-				<Curve Name="" ID="{3C7F896B-A1DE-4EFF-B7AD-237CE25F100B}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="1"/>
 					</PropertyList>
@@ -477,7 +418,8 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData></PluginData>
+	</ConvolutionData>
+</PluginData>
 				</Effect>
 				<Effect Name="Map_Zone_Delay_Mountain_close2" ID="{B8738DA5-6D61-4CE3-BE9F-E9EF8545A81A}" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
 					<PropertyList>

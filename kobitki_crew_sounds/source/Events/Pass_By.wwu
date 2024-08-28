@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{07647DD8-2A57-456D-9D48-5DA0F17A1424}" SchemaVersion="97">
+<WwiseDocument Type="WorkUnit" ID="{07647DD8-2A57-456D-9D48-5DA0F17A1424}" SchemaVersion="119">
 	<Events>
 		<WorkUnit Name="Pass_By" ID="{07647DD8-2A57-456D-9D48-5DA0F17A1424}" PersistMode="Standalone">
 			<Comment>Трассеры</Comment>

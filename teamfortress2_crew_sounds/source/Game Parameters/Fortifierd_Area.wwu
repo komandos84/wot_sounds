@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{E10885BD-A6FC-47D0-9A19-8119968DCD4E}" SchemaVersion="97">
+<WwiseDocument Type="WorkUnit" ID="{E10885BD-A6FC-47D0-9A19-8119968DCD4E}" SchemaVersion="119">
 	<GameParameters>
 		<WorkUnit Name="Fortifierd_Area" ID="{E10885BD-A6FC-47D0-9A19-8119968DCD4E}" PersistMode="Standalone">
 			<Comment>Укрепрайон</Comment>

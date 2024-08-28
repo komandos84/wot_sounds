@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{C0BBF201-80A3-412C-A5D7-6FCA227B7C87}" SchemaVersion="97">
+<WwiseDocument Type="WorkUnit" ID="{C0BBF201-80A3-412C-A5D7-6FCA227B7C87}" SchemaVersion="119">
 	<GameParameters>
 		<WorkUnit Name="Plane" ID="{C0BBF201-80A3-412C-A5D7-6FCA227B7C87}" PersistMode="Standalone">
 			<Comment>Самолеты</Comment>

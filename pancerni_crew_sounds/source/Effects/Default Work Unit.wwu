@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{8B6FEDBF-4E65-4D47-A19C-C7FBA129CFB5}" SchemaVersion="97">
+<WwiseDocument Type="WorkUnit" ID="{8B6FEDBF-4E65-4D47-A19C-C7FBA129CFB5}" SchemaVersion="119">
 	<Effects>
 		<WorkUnit Name="Default Work Unit" ID="{8B6FEDBF-4E65-4D47-A19C-C7FBA129CFB5}" PersistMode="Standalone">
 			<ChildrenList>
 				<Effect Name="New_Wwise_Flanger" ID="{501F5BB3-3ADD-41DB-97D8-42F61CF5F36B}" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
 					<PropertyList>
-						<Property Name="WetDryMix" Type="Real32" Value="0">
-							<RTPCList>
-								<RTPC Name="" ID="{0D94B955-AED7-46FB-A31B-E94CEDB94B9D}" ShortID="61952540"/>
-							</RTPCList>
-						</Property>
+						<Property Name="WetDryMix" Type="Real32" Value="0"/>
 					</PropertyList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{0D94B955-AED7-46FB-A31B-E94CEDB94B9D}" ShortID="61952540">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="WetDryMix"/>
+										</PropertyList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 				</Effect>
 				<Effect Name="ev_football_distortion_eng" ID="{1E2F43BC-0406-44FF-8963-979C4225F9F1}" PluginName="iZotope Trash Multiband Distortion" CompanyID="259" PluginID="9" PluginType="3">
 					<PropertyList>
@@ -45,26 +54,9 @@
 				</Effect>
 				<Effect Name="ev_halloween_reverb_reversed" ID="{9444BAAC-0568-494F-82DD-31780AF12AB7}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 					<PropertyList>
-						<Property Name="IRChannelSelect" Type="int32">
-							<ValueList>
-								<Value>4</Value>
-							</ValueList>
-						</Property>
-						<Property Name="IRConvolutionStop" Type="Real64">
-							<ValueList>
-								<Value>1.027</Value>
-							</ValueList>
-						</Property>
-						<Property Name="IRGraphicEQAutomate" Type="bool">
-							<ValueList>
-								<Value>True</Value>
-							</ValueList>
-						</Property>
-						<Property Name="WetLevel" Type="Real32">
-							<ValueList>
-								<Value>-25</Value>
-							</ValueList>
-						</Property>
+						<Property Name="IRConvolutionStop" Type="Real64" Value="1.027"/>
+						<Property Name="IRGraphicEQAutomate" Type="bool" Value="True"/>
+						<Property Name="WetLevel" Type="Real32" Value="-25"/>
 					</PropertyList>
 					<ChildrenList>
 						<PluginMediaSource Name="ev_halloween_reverced" ID="{9E27AF06-04A1-4FDF-A5D0-09B5383BFC2C}">
@@ -77,10 +69,11 @@
 							</MediaIDList>
 						</PluginMediaSource>
 					</ChildrenList>
-					<PluginData><ConvolutionData>
+					<PluginData>
+	<ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
-				<Curve Name="" ID="{9FD5941A-B5DD-4041-AA6E-10564F7F086C}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="19"/>
 					</PropertyList>
@@ -118,7 +111,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLPF">
-				<Curve Name="" ID="{3405CD3E-8C1D-4D56-8639-33E128DC6CEE}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="5"/>
 					</PropertyList>
@@ -137,7 +130,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLevel">
-				<Curve Name="" ID="{BEA7775A-8014-472C-AAF9-9D967988DF7F}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="1"/>
 					</PropertyList>
@@ -156,7 +149,8 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData></PluginData>
+	</ConvolutionData>
+</PluginData>
 				</Effect>
 				<Effect Name="ev_halloween_eq_vo" ID="{7CB5FB0D-D79B-4A19-8E87-6C849328D22E}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 					<PropertyList>
@@ -185,6 +179,7 @@
 						<Property Name="NoiseThresh" Type="Real32" Value="-32.64"/>
 						<Property Name="SIMTuning" Type="Real32" Value="173.2283"/>
 						<Property Name="SIMType" Type="int32" Value="62"/>
+						<Property Name="Version" Type="int32" Value="1"/>
 					</PropertyList>
 				</Effect>
 				<Effect Name="ev_halloween_vo_harmonizer_01" ID="{FF91C3E5-D900-408D-A786-A529631BB71E}" PluginName="Wwise Harmonizer" CompanyID="0" PluginID="138" PluginType="3">

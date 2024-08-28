@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{08AF131D-D050-4732-BD35-CB88EBED303E}" SchemaVersion="97">
+<WwiseDocument Type="WorkUnit" ID="{08AF131D-D050-4732-BD35-CB88EBED303E}" SchemaVersion="119">
 	<GameParameters>
 		<WorkUnit Name="Turret" ID="{08AF131D-D050-4732-BD35-CB88EBED303E}" PersistMode="Standalone">
 			<Comment>Turret</Comment>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{6E76A620-F9B5-47F4-8C0B-13AA1956131B}" SchemaVersion="97">
+<WwiseDocument Type="WorkUnit" ID="{6E76A620-F9B5-47F4-8C0B-13AA1956131B}" SchemaVersion="119">
 	<Events>
 		<WorkUnit Name="Utilite_events" ID="{6E76A620-F9B5-47F4-8C0B-13AA1956131B}" PersistMode="Standalone">
 			<Comment>Managing events</Comment>

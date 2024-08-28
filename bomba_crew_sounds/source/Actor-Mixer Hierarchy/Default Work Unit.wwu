@@ -1,39 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{58DCE783-A7FD-4F7E-8F52-4025EEEECA9F}" SchemaVersion="97">
+<WwiseDocument Type="WorkUnit" ID="{58DCE783-A7FD-4F7E-8F52-4025EEEECA9F}" SchemaVersion="119">
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{58DCE783-A7FD-4F7E-8F52-4025EEEECA9F}" PersistMode="Standalone">
 			<ChildrenList>
 				<ActorMixer Name="voice_gui" ID="{F86B30C7-16BC-45E0-AD04-62E2332D656D}" ShortID="453484928">
-					<PropertyList>
-						<Property Name="Volume" Type="Real64">
-							<RTPCList>
-								<RTPC Name="" ID="{03C70772-7115-4F8F-986C-46FDCA500981}" ShortID="740402054">
-									<ReferenceList>
-										<Reference Name="ControlInput">
-											<ObjectRef Name="RTPC_ext_menu_volume_voice" ID="{19FD8A65-97B2-4439-B28B-48630F80034E}" WorkUnitID="{BB513C75-BDCB-4E08-823F-ED595872D1E4}"/>
-										</Reference>
-									</ReferenceList>
-									<Curve Name="" ID="{3A65E292-BACA-46E9-A2E3-FEA72CBE330B}">
-										<PropertyList>
-											<Property Name="Flags" Type="int32" Value="3"/>
-										</PropertyList>
-										<PointList>
-											<Point>
-												<XPos>0</XPos>
-												<YPos>-200</YPos>
-												<Flags>5</Flags>
-											</Point>
-											<Point>
-												<XPos>100</XPos>
-												<YPos>12</YPos>
-												<Flags>37</Flags>
-											</Point>
-										</PointList>
-									</Curve>
-								</RTPC>
-							</RTPCList>
-						</Property>
-					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Vorbis Quality Low" ID="{AD876647-70E5-492F-86C9-FFDED7CB6C9E}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -7768,6 +7738,45 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{03C70772-7115-4F8F-986C-46FDCA500981}" ShortID="740402054">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="RTPC_ext_menu_volume_voice" ID="{19FD8A65-97B2-4439-B28B-48630F80034E}" WorkUnitID="{BB513C75-BDCB-4E08-823F-ED595872D1E4}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{3A65E292-BACA-46E9-A2E3-FEA72CBE330B}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>12</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>

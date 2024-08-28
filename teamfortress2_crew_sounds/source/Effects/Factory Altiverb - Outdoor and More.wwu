@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{C0E78DAA-768A-438F-8F7B-3701395185C3}" SchemaVersion="97">
+<WwiseDocument Type="WorkUnit" ID="{C0E78DAA-768A-438F-8F7B-3701395185C3}" SchemaVersion="119">
 	<Effects>
 		<WorkUnit Name="Factory Altiverb - Outdoor and More" ID="{C0E78DAA-768A-438F-8F7B-3701395185C3}" PersistMode="Standalone">
 			<ChildrenList>
@@ -11,16 +11,8 @@
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32">
-											<ValueList>
-												<Value>-12</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionStop" Type="Real64">
-											<ValueList>
-												<Value>0.793863828502419</Value>
-											</ValueList>
-										</Property>
+										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
+										<Property Name="IRConvolutionStop" Type="Real64" Value="0.793863828502419"/>
 										<Property Name="IRConvolutionThreshold" Type="Real32">
 											<ValueList>
 												<Value>-70</Value>
@@ -31,16 +23,8 @@
 												<Value>-11</Value>
 											</ValueList>
 										</Property>
-										<Property Name="IRLevel" Type="Real32">
-											<ValueList>
-												<Value>-17</Value>
-											</ValueList>
-										</Property>
-										<Property Name="PreDelay" Type="Real32">
-											<ValueList>
-												<Value>26</Value>
-											</ValueList>
-										</Property>
+										<Property Name="IRLevel" Type="Real32" Value="-17"/>
+										<Property Name="PreDelay" Type="Real32" Value="26"/>
 									</PropertyList>
 									<ChildrenList>
 										<PluginMediaSource Name="AE_AlleyIntimate" ID="{5D81E7C6-DC92-45AC-81D1-597D3615B24A}">
@@ -53,10 +37,11 @@
 											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData><ConvolutionData>
+									<PluginData>
+	<ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
-				<Curve Name="" ID="{86ED78DF-2B56-41E7-AC69-6938AC3E1419}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="19"/>
 					</PropertyList>
@@ -75,7 +60,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLPF">
-				<Curve Name="" ID="{256782B4-295C-4156-AD5E-0EE6712C6DBD}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="5"/>
 					</PropertyList>
@@ -94,7 +79,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLevel">
-				<Curve Name="" ID="{714A6E4C-93F0-42E1-B97D-8528AA15EAFA}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="1"/>
 					</PropertyList>
@@ -113,22 +98,15 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData></PluginData>
+	</ConvolutionData>
+</PluginData>
 								</Effect>
 								<Effect Name="LongDeepAlley" ID="{C1DFB6E9-5626-4094-BC45-97997340CBE6}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32">
-											<ValueList>
-												<Value>-12</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionStop" Type="Real64">
-											<ValueList>
-												<Value>1.46922554347826</Value>
-											</ValueList>
-										</Property>
+										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
+										<Property Name="IRConvolutionStop" Type="Real64" Value="1.46922554347826"/>
 										<Property Name="IRConvolutionThreshold" Type="Real32">
 											<ValueList>
 												<Value>-60</Value>
@@ -139,16 +117,8 @@
 												<Value>11</Value>
 											</ValueList>
 										</Property>
-										<Property Name="IRLevel" Type="Real32">
-											<ValueList>
-												<Value>-24</Value>
-											</ValueList>
-										</Property>
-										<Property Name="PreDelay" Type="Real32">
-											<ValueList>
-												<Value>31</Value>
-											</ValueList>
-										</Property>
+										<Property Name="IRLevel" Type="Real32" Value="-24"/>
+										<Property Name="PreDelay" Type="Real32" Value="31"/>
 									</PropertyList>
 									<ChildrenList>
 										<PluginMediaSource Name="AE_LongDeepAlley" ID="{6891C3F5-3910-4D71-BCE2-09D91210E9DF}">
@@ -161,10 +131,11 @@
 											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData><ConvolutionData>
+									<PluginData>
+	<ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
-				<Curve Name="" ID="{AFB65843-957A-4D73-8ED2-BFF2D8484102}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="19"/>
 					</PropertyList>
@@ -183,7 +154,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLPF">
-				<Curve Name="" ID="{27D5A35F-C86D-4B73-8C35-47AE7996E5E3}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="5"/>
 					</PropertyList>
@@ -202,7 +173,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLevel">
-				<Curve Name="" ID="{E2491728-5C9A-4A94-8ECC-EA04491D7A22}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="1"/>
 					</PropertyList>
@@ -221,42 +192,23 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData></PluginData>
+	</ConvolutionData>
+</PluginData>
 								</Effect>
 								<Effect Name="NarrowShortAlley" ID="{5F21B86B-F430-44FF-A9BF-37B1DEF8105B}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32">
-											<ValueList>
-												<Value>-12</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionSmooth" Type="Real32">
-											<ValueList>
-												<Value>3</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionStop" Type="Real64">
-											<ValueList>
-												<Value>1.14019640700483</Value>
-											</ValueList>
-										</Property>
+										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
+										<Property Name="IRConvolutionSmooth" Type="Real32" Value="3"/>
+										<Property Name="IRConvolutionStop" Type="Real64" Value="1.14019640700483"/>
 										<Property Name="IRLRMix" Type="Real32">
 											<ValueList>
 												<Value>-23</Value>
 											</ValueList>
 										</Property>
-										<Property Name="IRLevel" Type="Real32">
-											<ValueList>
-												<Value>-16</Value>
-											</ValueList>
-										</Property>
-										<Property Name="PreDelay" Type="Real32">
-											<ValueList>
-												<Value>28</Value>
-											</ValueList>
-										</Property>
+										<Property Name="IRLevel" Type="Real32" Value="-16"/>
+										<Property Name="PreDelay" Type="Real32" Value="28"/>
 									</PropertyList>
 									<ChildrenList>
 										<PluginMediaSource Name="AE_NarrowShortAlley" ID="{97A51D93-4600-462A-AF15-3951DE84480C}">
@@ -269,10 +221,11 @@
 											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData><ConvolutionData>
+									<PluginData>
+	<ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
-				<Curve Name="" ID="{F8A112F1-5D87-4EC0-AA45-22CEC6925FB2}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="19"/>
 					</PropertyList>
@@ -291,7 +244,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLPF">
-				<Curve Name="" ID="{0590E3C4-8387-4610-8863-B2A52D58544C}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="5"/>
 					</PropertyList>
@@ -310,7 +263,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLevel">
-				<Curve Name="" ID="{ACC49D6A-C138-4169-9F42-442899F39587}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="1"/>
 					</PropertyList>
@@ -329,7 +282,8 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData></PluginData>
+	</ConvolutionData>
+</PluginData>
 								</Effect>
 							</ChildrenList>
 						</Folder>
@@ -339,21 +293,9 @@
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32">
-											<ValueList>
-												<Value>-12</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionSmooth" Type="Real32">
-											<ValueList>
-												<Value>6</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionStop" Type="Real64">
-											<ValueList>
-												<Value>1.22951690821256</Value>
-											</ValueList>
-										</Property>
+										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
+										<Property Name="IRConvolutionSmooth" Type="Real32" Value="6"/>
+										<Property Name="IRConvolutionStop" Type="Real64" Value="1.22951690821256"/>
 										<Property Name="IRConvolutionThreshold" Type="Real32">
 											<ValueList>
 												<Value>-78</Value>
@@ -364,16 +306,8 @@
 												<Value>-5</Value>
 											</ValueList>
 										</Property>
-										<Property Name="IRLevel" Type="Real32">
-											<ValueList>
-												<Value>-17</Value>
-											</ValueList>
-										</Property>
-										<Property Name="PreDelay" Type="Real32">
-											<ValueList>
-												<Value>37</Value>
-											</ValueList>
-										</Property>
+										<Property Name="IRLevel" Type="Real32" Value="-17"/>
+										<Property Name="PreDelay" Type="Real32" Value="37"/>
 									</PropertyList>
 									<ChildrenList>
 										<PluginMediaSource Name="AE_DistantBuilding_MicsClose" ID="{CBE8A74C-4663-4EB4-B2B9-DFEFFC55721E}">
@@ -386,10 +320,11 @@
 											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData><ConvolutionData>
+									<PluginData>
+	<ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
-				<Curve Name="" ID="{29F052B6-CEB2-4E8E-A83D-BC02B8917C9E}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="19"/>
 					</PropertyList>
@@ -408,7 +343,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLPF">
-				<Curve Name="" ID="{4600BB47-3838-44CE-8D81-A28F5EDC93CD}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="5"/>
 					</PropertyList>
@@ -427,7 +362,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLevel">
-				<Curve Name="" ID="{FDCE75B6-92F5-4CB1-B9EE-27BFE04EDBF6}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="1"/>
 					</PropertyList>
@@ -446,27 +381,16 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData></PluginData>
+	</ConvolutionData>
+</PluginData>
 								</Effect>
 								<Effect Name="DistantBuilding_MicsFar" ID="{22EE2792-F5F3-4B26-A6E1-843A0A964677}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32">
-											<ValueList>
-												<Value>-12</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionSmooth" Type="Real32">
-											<ValueList>
-												<Value>7</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionStop" Type="Real64">
-											<ValueList>
-												<Value>1.35468576388889</Value>
-											</ValueList>
-										</Property>
+										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
+										<Property Name="IRConvolutionSmooth" Type="Real32" Value="7"/>
+										<Property Name="IRConvolutionStop" Type="Real64" Value="1.35468576388889"/>
 										<Property Name="IRConvolutionThreshold" Type="Real32">
 											<ValueList>
 												<Value>-65</Value>
@@ -477,16 +401,8 @@
 												<Value>-9</Value>
 											</ValueList>
 										</Property>
-										<Property Name="IRLevel" Type="Real32">
-											<ValueList>
-												<Value>-28</Value>
-											</ValueList>
-										</Property>
-										<Property Name="PreDelay" Type="Real32">
-											<ValueList>
-												<Value>47</Value>
-											</ValueList>
-										</Property>
+										<Property Name="IRLevel" Type="Real32" Value="-28"/>
+										<Property Name="PreDelay" Type="Real32" Value="47"/>
 									</PropertyList>
 									<ChildrenList>
 										<PluginMediaSource Name="AE_DistantBuilding_MicsFar" ID="{78F2EF96-A978-4992-8E74-2ED63EE41047}">
@@ -499,10 +415,11 @@
 											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData><ConvolutionData>
+									<PluginData>
+	<ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
-				<Curve Name="" ID="{EA313819-7695-49F4-861A-BADBBAEEDA23}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="19"/>
 					</PropertyList>
@@ -521,7 +438,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLPF">
-				<Curve Name="" ID="{3374659C-896C-4D69-B1A3-BD17FDB12A07}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="5"/>
 					</PropertyList>
@@ -540,7 +457,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLevel">
-				<Curve Name="" ID="{EF8F9491-85E7-4520-BF08-82A17CCE83A0}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="1"/>
 					</PropertyList>
@@ -559,7 +476,8 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData></PluginData>
+	</ConvolutionData>
+</PluginData>
 								</Effect>
 							</ChildrenList>
 						</Folder>
@@ -569,21 +487,9 @@
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32">
-											<ValueList>
-												<Value>-12</Value>
-											</ValueList>
-										</Property>
-										<Property Name="FrontRearDelay" Type="Real32">
-											<ValueList>
-												<Value>3</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionStop" Type="Real64">
-											<ValueList>
-												<Value>1.45462817028986</Value>
-											</ValueList>
-										</Property>
+										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
+										<Property Name="FrontRearDelay" Type="Real32" Value="3"/>
+										<Property Name="IRConvolutionStop" Type="Real64" Value="1.45462817028986"/>
 										<Property Name="IRConvolutionThreshold" Type="Real32">
 											<ValueList>
 												<Value>-70</Value>
@@ -594,16 +500,8 @@
 												<Value>-11</Value>
 											</ValueList>
 										</Property>
-										<Property Name="IRLevel" Type="Real32">
-											<ValueList>
-												<Value>-16</Value>
-											</ValueList>
-										</Property>
-										<Property Name="PreDelay" Type="Real32">
-											<ValueList>
-												<Value>12</Value>
-											</ValueList>
-										</Property>
+										<Property Name="IRLevel" Type="Real32" Value="-16"/>
+										<Property Name="PreDelay" Type="Real32" Value="12"/>
 									</PropertyList>
 									<ChildrenList>
 										<PluginMediaSource Name="AE_ForestAuterlitz_BetweenTrees" ID="{DE0A91AE-9963-4DED-987D-88FC16776C14}">
@@ -616,10 +514,11 @@
 											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData><ConvolutionData>
+									<PluginData>
+	<ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
-				<Curve Name="" ID="{A14D96AE-54AC-4B61-BF3D-A59A063AF6DF}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="19"/>
 					</PropertyList>
@@ -638,7 +537,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLPF">
-				<Curve Name="" ID="{5DAB0CF3-4C73-4240-8EB8-569C41AA3B19}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="5"/>
 					</PropertyList>
@@ -657,7 +556,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLevel">
-				<Curve Name="" ID="{1A32D87B-779F-45CC-BB6A-5029D31EEA88}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="1"/>
 					</PropertyList>
@@ -676,22 +575,15 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData></PluginData>
+	</ConvolutionData>
+</PluginData>
 								</Effect>
 								<Effect Name="ForestAuterlitz_DenseClose" ID="{1E3979AB-2FBC-4380-8E6A-3E8A71CEC166}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32">
-											<ValueList>
-												<Value>-12</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionStop" Type="Real64">
-											<ValueList>
-												<Value>1.31993365036232</Value>
-											</ValueList>
-										</Property>
+										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
+										<Property Name="IRConvolutionStop" Type="Real64" Value="1.31993365036232"/>
 										<Property Name="IRConvolutionThreshold" Type="Real32">
 											<ValueList>
 												<Value>-77</Value>
@@ -702,11 +594,7 @@
 												<Value>34</Value>
 											</ValueList>
 										</Property>
-										<Property Name="IRLevel" Type="Real32">
-											<ValueList>
-												<Value>-12</Value>
-											</ValueList>
-										</Property>
+										<Property Name="IRLevel" Type="Real32" Value="-12"/>
 									</PropertyList>
 									<ChildrenList>
 										<PluginMediaSource Name="AE_ForestAuterlitz_DenseClose" ID="{CDA065EA-748A-47AE-8F5B-7D4B29F3A23E}">
@@ -719,10 +607,11 @@
 											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData><ConvolutionData>
+									<PluginData>
+	<ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
-				<Curve Name="" ID="{7F40FEAF-8992-4CA6-933E-F3785419D2F5}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="19"/>
 					</PropertyList>
@@ -741,7 +630,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLPF">
-				<Curve Name="" ID="{FAB89328-366C-4BDB-B934-893D329D793F}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="5"/>
 					</PropertyList>
@@ -760,7 +649,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLevel">
-				<Curve Name="" ID="{1C8F3D25-13E5-49A6-890C-FFA461CEE136}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="1"/>
 					</PropertyList>
@@ -779,37 +668,22 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData></PluginData>
+	</ConvolutionData>
+</PluginData>
 								</Effect>
 								<Effect Name="ForestAuterlitz_DenseFar" ID="{0F74A865-50E7-4277-956F-A54FFB0E301C}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32">
-											<ValueList>
-												<Value>-12</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionSmooth" Type="Real32">
-											<ValueList>
-												<Value>9</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionStop" Type="Real64">
-											<ValueList>
-												<Value>1.49278004227053</Value>
-											</ValueList>
-										</Property>
+										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
+										<Property Name="IRConvolutionSmooth" Type="Real32" Value="9"/>
+										<Property Name="IRConvolutionStop" Type="Real64" Value="1.49278004227053"/>
 										<Property Name="IRConvolutionThreshold" Type="Real32">
 											<ValueList>
 												<Value>-83</Value>
 											</ValueList>
 										</Property>
-										<Property Name="IRLevel" Type="Real32">
-											<ValueList>
-												<Value>-15</Value>
-											</ValueList>
-										</Property>
+										<Property Name="IRLevel" Type="Real32" Value="-15"/>
 									</PropertyList>
 									<ChildrenList>
 										<PluginMediaSource Name="AE_ForestAuterlitz_DenseFar" ID="{A28C96C6-5323-4407-8EA3-E2011B78F872}">
@@ -822,10 +696,11 @@
 											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData><ConvolutionData>
+									<PluginData>
+	<ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
-				<Curve Name="" ID="{607370AB-AE21-420A-A79E-BD78F9367838}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="19"/>
 					</PropertyList>
@@ -844,7 +719,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLPF">
-				<Curve Name="" ID="{A589AA9E-A465-4648-AE38-5CEFBDFBBB47}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="5"/>
 					</PropertyList>
@@ -863,7 +738,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLevel">
-				<Curve Name="" ID="{6459614E-3F76-45E1-9263-39372481BBBF}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="1"/>
 					</PropertyList>
@@ -882,32 +757,21 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData></PluginData>
+	</ConvolutionData>
+</PluginData>
 								</Effect>
 								<Effect Name="ForestAuterlitz_WideOpen" ID="{2239E747-92DD-4A09-81B6-AEAD2528D282}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32">
-											<ValueList>
-												<Value>-12</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionStop" Type="Real64">
-											<ValueList>
-												<Value>1.13573913043478</Value>
-											</ValueList>
-										</Property>
+										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
+										<Property Name="IRConvolutionStop" Type="Real64" Value="1.13573913043478"/>
 										<Property Name="IRLRMix" Type="Real32">
 											<ValueList>
 												<Value>44</Value>
 											</ValueList>
 										</Property>
-										<Property Name="IRLevel" Type="Real32">
-											<ValueList>
-												<Value>-12</Value>
-											</ValueList>
-										</Property>
+										<Property Name="IRLevel" Type="Real32" Value="-12"/>
 									</PropertyList>
 									<ChildrenList>
 										<PluginMediaSource Name="AE_ForestAuterlitz_WideOpen" ID="{5DD365BC-4CD8-4AFD-B5BF-15061C611248}">
@@ -920,10 +784,11 @@
 											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData><ConvolutionData>
+									<PluginData>
+	<ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
-				<Curve Name="" ID="{60B326EF-5C62-4E95-BE71-716F36297B2E}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="19"/>
 					</PropertyList>
@@ -942,7 +807,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLPF">
-				<Curve Name="" ID="{8A823DE1-30DB-4209-88D6-31ADB0C4C8F0}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="5"/>
 					</PropertyList>
@@ -961,7 +826,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLevel">
-				<Curve Name="" ID="{7F562A8D-BAB9-4DB7-A21F-1BB9E74BB0FA}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="1"/>
 					</PropertyList>
@@ -980,7 +845,8 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData></PluginData>
+	</ConvolutionData>
+</PluginData>
 								</Effect>
 							</ChildrenList>
 						</Folder>
@@ -990,21 +856,9 @@
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32">
-											<ValueList>
-												<Value>-12</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionSmooth" Type="Real32">
-											<ValueList>
-												<Value>11</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionStop" Type="Real64">
-											<ValueList>
-												<Value>1.81183574879227</Value>
-											</ValueList>
-										</Property>
+										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
+										<Property Name="IRConvolutionSmooth" Type="Real32" Value="11"/>
+										<Property Name="IRConvolutionStop" Type="Real64" Value="1.81183574879227"/>
 										<Property Name="IRConvolutionThreshold" Type="Real32">
 											<ValueList>
 												<Value>-70</Value>
@@ -1015,11 +869,7 @@
 												<Value>5</Value>
 											</ValueList>
 										</Property>
-										<Property Name="IRLevel" Type="Real32">
-											<ValueList>
-												<Value>-16</Value>
-											</ValueList>
-										</Property>
+										<Property Name="IRLevel" Type="Real32" Value="-16"/>
 									</PropertyList>
 									<ChildrenList>
 										<PluginMediaSource Name="AE_Tunnel" ID="{8DB8FDD3-EE88-4513-920B-1D65FAB465DC}">
@@ -1032,10 +882,11 @@
 											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData><ConvolutionData>
+									<PluginData>
+	<ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
-				<Curve Name="" ID="{B822E767-CA62-4F45-BEDF-435E6F92E519}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="19"/>
 					</PropertyList>
@@ -1054,7 +905,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLPF">
-				<Curve Name="" ID="{6520A98C-181F-4F6F-BC1C-0EBA14B3EE69}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="5"/>
 					</PropertyList>
@@ -1073,7 +924,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLevel">
-				<Curve Name="" ID="{128FDAF2-6AD3-4187-AD8B-7049317CB590}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="1"/>
 					</PropertyList>
@@ -1092,7 +943,8 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData></PluginData>
+	</ConvolutionData>
+</PluginData>
 								</Effect>
 							</ChildrenList>
 						</Folder>
@@ -1102,16 +954,8 @@
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32">
-											<ValueList>
-												<Value>-12</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionStop" Type="Real64">
-											<ValueList>
-												<Value>1.38839130434783</Value>
-											</ValueList>
-										</Property>
+										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
+										<Property Name="IRConvolutionStop" Type="Real64" Value="1.38839130434783"/>
 										<Property Name="IRConvolutionThreshold" Type="Real32">
 											<ValueList>
 												<Value>-60</Value>
@@ -1122,16 +966,8 @@
 												<Value>-9</Value>
 											</ValueList>
 										</Property>
-										<Property Name="IRLevel" Type="Real32">
-											<ValueList>
-												<Value>-17</Value>
-											</ValueList>
-										</Property>
-										<Property Name="PreDelay" Type="Real32">
-											<ValueList>
-												<Value>23</Value>
-											</ValueList>
-										</Property>
+										<Property Name="IRLevel" Type="Real32" Value="-17"/>
+										<Property Name="PreDelay" Type="Real32" Value="23"/>
 									</PropertyList>
 									<ChildrenList>
 										<PluginMediaSource Name="AE_Street_CloseEcho" ID="{842CC81F-10B1-46DD-84D3-240C98D3F2F0}">
@@ -1144,10 +980,11 @@
 											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData><ConvolutionData>
+									<PluginData>
+	<ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
-				<Curve Name="" ID="{CE9B8F91-9A77-48B0-B459-C81D882B5F56}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="19"/>
 					</PropertyList>
@@ -1166,7 +1003,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLPF">
-				<Curve Name="" ID="{8280C6CA-C0E1-4846-BD07-5FC541035E40}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="5"/>
 					</PropertyList>
@@ -1185,7 +1022,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLevel">
-				<Curve Name="" ID="{F1AA7C48-BD02-4688-9E1C-00F658F41DC0}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="1"/>
 					</PropertyList>
@@ -1204,22 +1041,15 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData></PluginData>
+	</ConvolutionData>
+</PluginData>
 								</Effect>
 								<Effect Name="ComplexEcho" ID="{E934CD9A-AC49-4015-8E51-6EE4DB6A8634}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32">
-											<ValueList>
-												<Value>-12</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionStop" Type="Real64">
-											<ValueList>
-												<Value>1.24507820048309</Value>
-											</ValueList>
-										</Property>
+										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
+										<Property Name="IRConvolutionStop" Type="Real64" Value="1.24507820048309"/>
 										<Property Name="IRConvolutionThreshold" Type="Real32">
 											<ValueList>
 												<Value>-70</Value>
@@ -1230,16 +1060,8 @@
 												<Value>-11</Value>
 											</ValueList>
 										</Property>
-										<Property Name="IRLevel" Type="Real32">
-											<ValueList>
-												<Value>-16</Value>
-											</ValueList>
-										</Property>
-										<Property Name="PreDelay" Type="Real32">
-											<ValueList>
-												<Value>12</Value>
-											</ValueList>
-										</Property>
+										<Property Name="IRLevel" Type="Real32" Value="-16"/>
+										<Property Name="PreDelay" Type="Real32" Value="12"/>
 									</PropertyList>
 									<ChildrenList>
 										<PluginMediaSource Name="AE_Street_ComplexEcho" ID="{2DFDA45C-B47A-40DF-A01A-FE479B552372}">
@@ -1252,10 +1074,11 @@
 											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData><ConvolutionData>
+									<PluginData>
+	<ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
-				<Curve Name="" ID="{1B73F2C3-E7B0-42BE-971F-6EF53F84F52A}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="19"/>
 					</PropertyList>
@@ -1274,7 +1097,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLPF">
-				<Curve Name="" ID="{51961ECE-943D-4F3B-A741-F55441267C3E}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="5"/>
 					</PropertyList>
@@ -1293,7 +1116,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLevel">
-				<Curve Name="" ID="{6634B419-B3D0-4CE3-A55B-9693B0C2FFEE}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="1"/>
 					</PropertyList>
@@ -1312,22 +1135,15 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData></PluginData>
+	</ConvolutionData>
+</PluginData>
 								</Effect>
 								<Effect Name="ComplexDistantEcho" ID="{87CB8176-AFB2-41B3-BDCB-0E7A39AA2FA8}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32">
-											<ValueList>
-												<Value>-12</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionStop" Type="Real64">
-											<ValueList>
-												<Value>1.49745471014492</Value>
-											</ValueList>
-										</Property>
+										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
+										<Property Name="IRConvolutionStop" Type="Real64" Value="1.49745471014492"/>
 										<Property Name="IRConvolutionThreshold" Type="Real32">
 											<ValueList>
 												<Value>-65</Value>
@@ -1338,16 +1154,8 @@
 												<Value>-40</Value>
 											</ValueList>
 										</Property>
-										<Property Name="IRLevel" Type="Real32">
-											<ValueList>
-												<Value>-16</Value>
-											</ValueList>
-										</Property>
-										<Property Name="PreDelay" Type="Real32">
-											<ValueList>
-												<Value>15</Value>
-											</ValueList>
-										</Property>
+										<Property Name="IRLevel" Type="Real32" Value="-16"/>
+										<Property Name="PreDelay" Type="Real32" Value="15"/>
 									</PropertyList>
 									<ChildrenList>
 										<PluginMediaSource Name="AE_Street_ComplexDistantEcho" ID="{0FF97EEE-61DA-4CD5-8F75-D8A6D0AE7C73}">
@@ -1360,10 +1168,11 @@
 											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData><ConvolutionData>
+									<PluginData>
+	<ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
-				<Curve Name="" ID="{D05D887D-00A5-4352-A2CB-C3506E0FC7D8}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="19"/>
 					</PropertyList>
@@ -1382,7 +1191,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLPF">
-				<Curve Name="" ID="{289DAB0A-E251-4FCD-957A-0F73E872946B}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="5"/>
 					</PropertyList>
@@ -1401,7 +1210,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLevel">
-				<Curve Name="" ID="{96826529-8681-4366-828F-CDFC3EC73CCD}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="1"/>
 					</PropertyList>
@@ -1420,27 +1229,16 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData></PluginData>
+	</ConvolutionData>
+</PluginData>
 								</Effect>
 								<Effect Name="DistantEcho" ID="{98DB1465-072F-40FF-84B7-97380DBBFD50}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32">
-											<ValueList>
-												<Value>-12</Value>
-											</ValueList>
-										</Property>
-										<Property Name="DryLevel" Type="Real32">
-											<ValueList>
-												<Value>-96.3</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionStop" Type="Real64">
-											<ValueList>
-												<Value>0.869616847826087</Value>
-											</ValueList>
-										</Property>
+										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
+										<Property Name="DryLevel" Type="Real32" Value="-96.3"/>
+										<Property Name="IRConvolutionStop" Type="Real64" Value="0.869616847826087"/>
 										<Property Name="IRConvolutionThreshold" Type="Real32">
 											<ValueList>
 												<Value>-65</Value>
@@ -1451,16 +1249,8 @@
 												<Value>18</Value>
 											</ValueList>
 										</Property>
-										<Property Name="IRLevel" Type="Real32">
-											<ValueList>
-												<Value>-12</Value>
-											</ValueList>
-										</Property>
-										<Property Name="PreDelay" Type="Real32">
-											<ValueList>
-												<Value>12</Value>
-											</ValueList>
-										</Property>
+										<Property Name="IRLevel" Type="Real32" Value="-12"/>
+										<Property Name="PreDelay" Type="Real32" Value="12"/>
 									</PropertyList>
 									<ChildrenList>
 										<PluginMediaSource Name="AE_Street_DistantEcho" ID="{97A51EC9-F17A-41DE-9639-245B44C52A39}">
@@ -1473,10 +1263,11 @@
 											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData><ConvolutionData>
+									<PluginData>
+	<ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
-				<Curve Name="" ID="{DEEAEA2D-FF32-44F1-A8DC-3F5584401595}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="19"/>
 					</PropertyList>
@@ -1495,7 +1286,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLPF">
-				<Curve Name="" ID="{FE3762A5-DC7B-427A-979F-14D209A0F1C8}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="5"/>
 					</PropertyList>
@@ -1514,7 +1305,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLevel">
-				<Curve Name="" ID="{C111F990-27DC-4098-B0AB-40A4D80D370F}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="1"/>
 					</PropertyList>
@@ -1533,27 +1324,16 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData></PluginData>
+	</ConvolutionData>
+</PluginData>
 								</Effect>
 								<Effect Name="DistantSlaps" ID="{FED200E2-F7CC-45AC-8339-5BF19AE8DC4A}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32">
-											<ValueList>
-												<Value>-12</Value>
-											</ValueList>
-										</Property>
-										<Property Name="DryLevel" Type="Real32">
-											<ValueList>
-												<Value>-3.3</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionStop" Type="Real64">
-											<ValueList>
-												<Value>1.1992545289855</Value>
-											</ValueList>
-										</Property>
+										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
+										<Property Name="DryLevel" Type="Real32" Value="-3.3"/>
+										<Property Name="IRConvolutionStop" Type="Real64" Value="1.1992545289855"/>
 										<Property Name="IRConvolutionThreshold" Type="Real32">
 											<ValueList>
 												<Value>-64</Value>
@@ -1564,21 +1344,9 @@
 												<Value>-1</Value>
 											</ValueList>
 										</Property>
-										<Property Name="IRLevel" Type="Real32">
-											<ValueList>
-												<Value>-19</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRStretch" Type="Real32">
-											<ValueList>
-												<Value>126</Value>
-											</ValueList>
-										</Property>
-										<Property Name="PreDelay" Type="Real32">
-											<ValueList>
-												<Value>15</Value>
-											</ValueList>
-										</Property>
+										<Property Name="IRLevel" Type="Real32" Value="-19"/>
+										<Property Name="IRStretch" Type="Real32" Value="126"/>
+										<Property Name="PreDelay" Type="Real32" Value="15"/>
 									</PropertyList>
 									<ChildrenList>
 										<PluginMediaSource Name="AE_Street_DistantSlaps" ID="{E3F4F6F9-4F26-488A-B4BE-8483ACFBB97E}">
@@ -1591,10 +1359,11 @@
 											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData><ConvolutionData>
+									<PluginData>
+	<ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
-				<Curve Name="" ID="{CD3BB43C-166F-41B8-84C6-5D3997A90287}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="19"/>
 					</PropertyList>
@@ -1613,7 +1382,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLPF">
-				<Curve Name="" ID="{3C1F4E2A-3F50-449D-8C66-62F5860D8456}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="5"/>
 					</PropertyList>
@@ -1632,7 +1401,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLevel">
-				<Curve Name="" ID="{5AE8D4DD-22C7-40CD-977E-86DFDDF3AE69}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="1"/>
 					</PropertyList>
@@ -1651,32 +1420,17 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData></PluginData>
+	</ConvolutionData>
+</PluginData>
 								</Effect>
 								<Effect Name="EquallySpacedEchoes" ID="{AD08D197-5418-4635-9434-D23F18A14ADD}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32">
-											<ValueList>
-												<Value>-12</Value>
-											</ValueList>
-										</Property>
-										<Property Name="FrontRearDelay" Type="Real32">
-											<ValueList>
-												<Value>6</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionSmooth" Type="Real32">
-											<ValueList>
-												<Value>6</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionStop" Type="Real64">
-											<ValueList>
-												<Value>1.43612394323672</Value>
-											</ValueList>
-										</Property>
+										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
+										<Property Name="FrontRearDelay" Type="Real32" Value="6"/>
+										<Property Name="IRConvolutionSmooth" Type="Real32" Value="6"/>
+										<Property Name="IRConvolutionStop" Type="Real64" Value="1.43612394323672"/>
 										<Property Name="IRConvolutionThreshold" Type="Real32">
 											<ValueList>
 												<Value>-70</Value>
@@ -1687,16 +1441,8 @@
 												<Value>28</Value>
 											</ValueList>
 										</Property>
-										<Property Name="IRLevel" Type="Real32">
-											<ValueList>
-												<Value>-15</Value>
-											</ValueList>
-										</Property>
-										<Property Name="PreDelay" Type="Real32">
-											<ValueList>
-												<Value>30</Value>
-											</ValueList>
-										</Property>
+										<Property Name="IRLevel" Type="Real32" Value="-15"/>
+										<Property Name="PreDelay" Type="Real32" Value="30"/>
 									</PropertyList>
 									<ChildrenList>
 										<PluginMediaSource Name="AE_Street_EquallySpacedEchoes" ID="{8B8AAC41-A32A-43F2-A384-1C4361988517}">
@@ -1709,10 +1455,11 @@
 											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData><ConvolutionData>
+									<PluginData>
+	<ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
-				<Curve Name="" ID="{031DC898-099F-4A33-8911-CAB2AF1DFC28}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="19"/>
 					</PropertyList>
@@ -1731,7 +1478,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLPF">
-				<Curve Name="" ID="{A0340884-D996-4DC8-8E89-CBAB296FD2D1}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="5"/>
 					</PropertyList>
@@ -1750,7 +1497,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLevel">
-				<Curve Name="" ID="{42239316-2260-4772-949B-CDE152719519}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="1"/>
 					</PropertyList>
@@ -1769,37 +1516,22 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData></PluginData>
+	</ConvolutionData>
+</PluginData>
 								</Effect>
 								<Effect Name="LongAndComplex" ID="{5C94DA5C-15F2-456F-A42A-CE14A659874B}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32">
-											<ValueList>
-												<Value>-12</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionStop" Type="Real64">
-											<ValueList>
-												<Value>1.48808423913043</Value>
-											</ValueList>
-										</Property>
+										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
+										<Property Name="IRConvolutionStop" Type="Real64" Value="1.48808423913043"/>
 										<Property Name="IRConvolutionThreshold" Type="Real32">
 											<ValueList>
 												<Value>-70</Value>
 											</ValueList>
 										</Property>
-										<Property Name="IRLevel" Type="Real32">
-											<ValueList>
-												<Value>-11</Value>
-											</ValueList>
-										</Property>
-										<Property Name="PreDelay" Type="Real32">
-											<ValueList>
-												<Value>11</Value>
-											</ValueList>
-										</Property>
+										<Property Name="IRLevel" Type="Real32" Value="-11"/>
+										<Property Name="PreDelay" Type="Real32" Value="11"/>
 									</PropertyList>
 									<ChildrenList>
 										<PluginMediaSource Name="AE_Street_LongAndComplex" ID="{4587D099-672B-46FA-AC31-F6D8A8CD2EF3}">
@@ -1812,10 +1544,11 @@
 											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData><ConvolutionData>
+									<PluginData>
+	<ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
-				<Curve Name="" ID="{B0ECAD8D-77E1-44C1-99D4-8B5E66D70FDC}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="19"/>
 					</PropertyList>
@@ -1834,7 +1567,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLPF">
-				<Curve Name="" ID="{B5793676-5A67-45C3-B953-570B8454B046}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="5"/>
 					</PropertyList>
@@ -1853,7 +1586,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLevel">
-				<Curve Name="" ID="{BDA482AB-D34C-443A-8AB8-AFBE78E483D5}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="1"/>
 					</PropertyList>
@@ -1872,27 +1605,16 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData></PluginData>
+	</ConvolutionData>
+</PluginData>
 								</Effect>
 								<Effect Name="LoudEcho" ID="{23889FA1-0C6E-47EB-87D4-C2688465C490}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32">
-											<ValueList>
-												<Value>-12</Value>
-											</ValueList>
-										</Property>
-										<Property Name="FrontRearDelay" Type="Real32">
-											<ValueList>
-												<Value>7</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionStop" Type="Real64">
-											<ValueList>
-												<Value>1.27833627717391</Value>
-											</ValueList>
-										</Property>
+										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
+										<Property Name="FrontRearDelay" Type="Real32" Value="7"/>
+										<Property Name="IRConvolutionStop" Type="Real64" Value="1.27833627717391"/>
 										<Property Name="IRConvolutionThreshold" Type="Real32">
 											<ValueList>
 												<Value>-50</Value>
@@ -1903,16 +1625,8 @@
 												<Value>-5</Value>
 											</ValueList>
 										</Property>
-										<Property Name="IRLevel" Type="Real32">
-											<ValueList>
-												<Value>-17</Value>
-											</ValueList>
-										</Property>
-										<Property Name="PreDelay" Type="Real32">
-											<ValueList>
-												<Value>15</Value>
-											</ValueList>
-										</Property>
+										<Property Name="IRLevel" Type="Real32" Value="-17"/>
+										<Property Name="PreDelay" Type="Real32" Value="15"/>
 									</PropertyList>
 									<ChildrenList>
 										<PluginMediaSource Name="AE_Street_LoudEcho" ID="{FAF8C3B4-EDC5-470B-8A45-65578EA8F12B}">
@@ -1925,10 +1639,11 @@
 											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData><ConvolutionData>
+									<PluginData>
+	<ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
-				<Curve Name="" ID="{A698AB2F-5CC0-4F84-9F8D-4C3468CE9BCF}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="19"/>
 					</PropertyList>
@@ -1947,7 +1662,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLPF">
-				<Curve Name="" ID="{64031CDD-50EB-4E2B-9AA0-B372C400C438}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="5"/>
 					</PropertyList>
@@ -1966,7 +1681,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLevel">
-				<Curve Name="" ID="{29F879AE-F21B-4A5D-9A41-2C28D13C510E}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="1"/>
 					</PropertyList>
@@ -1985,22 +1700,15 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData></PluginData>
+	</ConvolutionData>
+</PluginData>
 								</Effect>
 								<Effect Name="LongNoEchoes" ID="{15890451-B708-4DA9-838F-1F09F56D6FB7}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32">
-											<ValueList>
-												<Value>-12</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionStop" Type="Real64">
-											<ValueList>
-												<Value>1.4917270531401</Value>
-											</ValueList>
-										</Property>
+										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
+										<Property Name="IRConvolutionStop" Type="Real64" Value="1.4917270531401"/>
 										<Property Name="IRConvolutionThreshold" Type="Real32">
 											<ValueList>
 												<Value>-80</Value>
@@ -2011,16 +1719,8 @@
 												<Value>1</Value>
 											</ValueList>
 										</Property>
-										<Property Name="IRLevel" Type="Real32">
-											<ValueList>
-												<Value>-15</Value>
-											</ValueList>
-										</Property>
-										<Property Name="PreDelay" Type="Real32">
-											<ValueList>
-												<Value>19</Value>
-											</ValueList>
-										</Property>
+										<Property Name="IRLevel" Type="Real32" Value="-15"/>
+										<Property Name="PreDelay" Type="Real32" Value="19"/>
 									</PropertyList>
 									<ChildrenList>
 										<PluginMediaSource Name="AE_Street_LongNoEchoes" ID="{6F9CBF77-70DC-4338-93FF-6324C3492DD6}">
@@ -2033,10 +1733,11 @@
 											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData><ConvolutionData>
+									<PluginData>
+	<ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
-				<Curve Name="" ID="{AD0070CD-4FB2-4FD5-B2CE-7362C924FD2D}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="19"/>
 					</PropertyList>
@@ -2055,7 +1756,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLPF">
-				<Curve Name="" ID="{BFB8699D-9118-4609-A400-4B05DAB6A002}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="5"/>
 					</PropertyList>
@@ -2074,7 +1775,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLevel">
-				<Curve Name="" ID="{6A000CA4-7E16-4571-A4A2-DB3962AF1223}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="1"/>
 					</PropertyList>
@@ -2093,27 +1794,16 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData></PluginData>
+	</ConvolutionData>
+</PluginData>
 								</Effect>
 								<Effect Name="LongSixWideEchoes" ID="{C0C26D4A-DA2C-44DC-A63A-686E0A3F624A}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32">
-											<ValueList>
-												<Value>-12</Value>
-											</ValueList>
-										</Property>
-										<Property Name="FrontRearDelay" Type="Real32">
-											<ValueList>
-												<Value>3</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionStop" Type="Real64">
-											<ValueList>
-												<Value>1.75574252717391</Value>
-											</ValueList>
-										</Property>
+										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
+										<Property Name="FrontRearDelay" Type="Real32" Value="3"/>
+										<Property Name="IRConvolutionStop" Type="Real64" Value="1.75574252717391"/>
 										<Property Name="IRConvolutionThreshold" Type="Real32">
 											<ValueList>
 												<Value>-70</Value>
@@ -2124,16 +1814,8 @@
 												<Value>-45</Value>
 											</ValueList>
 										</Property>
-										<Property Name="IRLevel" Type="Real32">
-											<ValueList>
-												<Value>-15</Value>
-											</ValueList>
-										</Property>
-										<Property Name="PreDelay" Type="Real32">
-											<ValueList>
-												<Value>3</Value>
-											</ValueList>
-										</Property>
+										<Property Name="IRLevel" Type="Real32" Value="-15"/>
+										<Property Name="PreDelay" Type="Real32" Value="3"/>
 									</PropertyList>
 									<ChildrenList>
 										<PluginMediaSource Name="AE_Street_LongSixWideEchoes" ID="{B8AF2380-13B3-4A00-96BD-DB2BACC55152}">
@@ -2146,10 +1828,11 @@
 											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData><ConvolutionData>
+									<PluginData>
+	<ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
-				<Curve Name="" ID="{1EE10E41-BA17-400F-B666-E144B849A521}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="19"/>
 					</PropertyList>
@@ -2168,7 +1851,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLPF">
-				<Curve Name="" ID="{C83B457E-D32F-4278-98D8-1D5F870A0B5E}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="5"/>
 					</PropertyList>
@@ -2187,7 +1870,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLevel">
-				<Curve Name="" ID="{6BAAF396-8173-491A-A05F-B3C8D6A7E8CF}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="1"/>
 					</PropertyList>
@@ -2206,27 +1889,16 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData></PluginData>
+	</ConvolutionData>
+</PluginData>
 								</Effect>
 								<Effect Name="OpenThreeEchoes" ID="{401401C1-A4E3-4720-AD98-CB5B3C916B2B}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.  
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32">
-											<ValueList>
-												<Value>-12</Value>
-											</ValueList>
-										</Property>
-										<Property Name="FrontRearDelay" Type="Real32">
-											<ValueList>
-												<Value>9</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionStop" Type="Real64">
-											<ValueList>
-												<Value>1.17451313405797</Value>
-											</ValueList>
-										</Property>
+										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
+										<Property Name="FrontRearDelay" Type="Real32" Value="9"/>
+										<Property Name="IRConvolutionStop" Type="Real64" Value="1.17451313405797"/>
 										<Property Name="IRConvolutionThreshold" Type="Real32">
 											<ValueList>
 												<Value>-74</Value>
@@ -2237,16 +1909,8 @@
 												<Value>5</Value>
 											</ValueList>
 										</Property>
-										<Property Name="IRLevel" Type="Real32">
-											<ValueList>
-												<Value>-13</Value>
-											</ValueList>
-										</Property>
-										<Property Name="PreDelay" Type="Real32">
-											<ValueList>
-												<Value>18</Value>
-											</ValueList>
-										</Property>
+										<Property Name="IRLevel" Type="Real32" Value="-13"/>
+										<Property Name="PreDelay" Type="Real32" Value="18"/>
 									</PropertyList>
 									<ChildrenList>
 										<PluginMediaSource Name="AE_Street_OpenThreeEchoes" ID="{F6DAFCBE-235C-4058-8670-A0047D9E92C2}">
@@ -2259,10 +1923,11 @@
 											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData><ConvolutionData>
+									<PluginData>
+	<ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
-				<Curve Name="" ID="{9DB5FBCE-FA46-4314-9B78-568AC2B1D464}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="19"/>
 					</PropertyList>
@@ -2281,7 +1946,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLPF">
-				<Curve Name="" ID="{0CBA2524-5920-4600-8B68-E390EA16F87D}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="5"/>
 					</PropertyList>
@@ -2300,7 +1965,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLevel">
-				<Curve Name="" ID="{3619EFE2-A068-4F60-8E34-E9B25B333CFE}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="1"/>
 					</PropertyList>
@@ -2319,27 +1984,16 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData></PluginData>
+	</ConvolutionData>
+</PluginData>
 								</Effect>
 								<Effect Name="OpenShortTwoEchoes" ID="{7DC26658-B270-4262-B5FB-E29B3D6683A8}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32">
-											<ValueList>
-												<Value>-12</Value>
-											</ValueList>
-										</Property>
-										<Property Name="FrontRearDelay" Type="Real32">
-											<ValueList>
-												<Value>40</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionStop" Type="Real64">
-											<ValueList>
-												<Value>1.34140625</Value>
-											</ValueList>
-										</Property>
+										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
+										<Property Name="FrontRearDelay" Type="Real32" Value="40"/>
+										<Property Name="IRConvolutionStop" Type="Real64" Value="1.34140625"/>
 										<Property Name="IRConvolutionThreshold" Type="Real32">
 											<ValueList>
 												<Value>-66</Value>
@@ -2350,16 +2004,8 @@
 												<Value>1</Value>
 											</ValueList>
 										</Property>
-										<Property Name="IRLevel" Type="Real32">
-											<ValueList>
-												<Value>-19</Value>
-											</ValueList>
-										</Property>
-										<Property Name="PreDelay" Type="Real32">
-											<ValueList>
-												<Value>20</Value>
-											</ValueList>
-										</Property>
+										<Property Name="IRLevel" Type="Real32" Value="-19"/>
+										<Property Name="PreDelay" Type="Real32" Value="20"/>
 									</PropertyList>
 									<ChildrenList>
 										<PluginMediaSource Name="AE_Street_OpenShortTwoEchoes" ID="{E90A3FB9-A568-45D5-832A-DBEAC014F058}">
@@ -2372,10 +2018,11 @@
 											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData><ConvolutionData>
+									<PluginData>
+	<ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
-				<Curve Name="" ID="{A11567DD-E7E0-41BA-AC51-4DD1C36219D0}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="19"/>
 					</PropertyList>
@@ -2394,7 +2041,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLPF">
-				<Curve Name="" ID="{1447509E-B73D-4307-B30F-46D6F50EE5C8}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="5"/>
 					</PropertyList>
@@ -2413,7 +2060,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLevel">
-				<Curve Name="" ID="{18840B63-250F-43BE-B2B1-75090AFE8628}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="1"/>
 					</PropertyList>
@@ -2432,27 +2079,16 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData></PluginData>
+	</ConvolutionData>
+</PluginData>
 								</Effect>
 								<Effect Name="PheeeewEcho_01" ID="{FA5C3026-2163-4643-9C53-98F051751ABE}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32">
-											<ValueList>
-												<Value>-12</Value>
-											</ValueList>
-										</Property>
-										<Property Name="FrontRearDelay" Type="Real32">
-											<ValueList>
-												<Value>11</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionStop" Type="Real64">
-											<ValueList>
-												<Value>1.38011979166667</Value>
-											</ValueList>
-										</Property>
+										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
+										<Property Name="FrontRearDelay" Type="Real32" Value="11"/>
+										<Property Name="IRConvolutionStop" Type="Real64" Value="1.38011979166667"/>
 										<Property Name="IRConvolutionThreshold" Type="Real32">
 											<ValueList>
 												<Value>-60</Value>
@@ -2463,16 +2099,8 @@
 												<Value>2</Value>
 											</ValueList>
 										</Property>
-										<Property Name="IRLevel" Type="Real32">
-											<ValueList>
-												<Value>-10</Value>
-											</ValueList>
-										</Property>
-										<Property Name="PreDelay" Type="Real32">
-											<ValueList>
-												<Value>31</Value>
-											</ValueList>
-										</Property>
+										<Property Name="IRLevel" Type="Real32" Value="-10"/>
+										<Property Name="PreDelay" Type="Real32" Value="31"/>
 									</PropertyList>
 									<ChildrenList>
 										<PluginMediaSource Name="AE_Street_PheeeewEcho_01" ID="{6132AC69-F352-4AEE-978C-BAD82EA81A97}">
@@ -2485,10 +2113,11 @@
 											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData><ConvolutionData>
+									<PluginData>
+	<ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
-				<Curve Name="" ID="{7518F57E-B2F4-4C57-ABD0-FEBF2155F313}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="19"/>
 					</PropertyList>
@@ -2507,7 +2136,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLPF">
-				<Curve Name="" ID="{01D1FEA3-E66E-4361-A817-9A8EB8DC2C41}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="5"/>
 					</PropertyList>
@@ -2526,7 +2155,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLevel">
-				<Curve Name="" ID="{EEF76EC6-F2C5-402B-9C1D-45A7987492B0}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="1"/>
 					</PropertyList>
@@ -2545,27 +2174,16 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData></PluginData>
+	</ConvolutionData>
+</PluginData>
 								</Effect>
 								<Effect Name="PheeeewEcho_02" ID="{6E62F55F-9118-4ABB-AD99-E4C7C37FC181}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32">
-											<ValueList>
-												<Value>-12</Value>
-											</ValueList>
-										</Property>
-										<Property Name="FrontRearDelay" Type="Real32">
-											<ValueList>
-												<Value>32</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionStop" Type="Real64">
-											<ValueList>
-												<Value>1.07301811594203</Value>
-											</ValueList>
-										</Property>
+										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
+										<Property Name="FrontRearDelay" Type="Real32" Value="32"/>
+										<Property Name="IRConvolutionStop" Type="Real64" Value="1.07301811594203"/>
 										<Property Name="IRConvolutionThreshold" Type="Real32">
 											<ValueList>
 												<Value>-67</Value>
@@ -2576,16 +2194,8 @@
 												<Value>-3</Value>
 											</ValueList>
 										</Property>
-										<Property Name="IRLevel" Type="Real32">
-											<ValueList>
-												<Value>-14</Value>
-											</ValueList>
-										</Property>
-										<Property Name="PreDelay" Type="Real32">
-											<ValueList>
-												<Value>16</Value>
-											</ValueList>
-										</Property>
+										<Property Name="IRLevel" Type="Real32" Value="-14"/>
+										<Property Name="PreDelay" Type="Real32" Value="16"/>
 									</PropertyList>
 									<ChildrenList>
 										<PluginMediaSource Name="AE_Street_PheeeewEcho_02" ID="{98DDD2ED-B859-4175-8F8F-857381C0AC2F}">
@@ -2598,10 +2208,11 @@
 											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData><ConvolutionData>
+									<PluginData>
+	<ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
-				<Curve Name="" ID="{746565ED-D633-45F8-9485-36AC44B8FF17}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="19"/>
 					</PropertyList>
@@ -2620,7 +2231,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLPF">
-				<Curve Name="" ID="{5474A951-A9F0-4163-B283-E985B6DECAB7}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="5"/>
 					</PropertyList>
@@ -2639,7 +2250,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLevel">
-				<Curve Name="" ID="{2A2A809F-FD50-447B-9033-F45E2E02ED71}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="1"/>
 					</PropertyList>
@@ -2658,22 +2269,15 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData></PluginData>
+	</ConvolutionData>
+</PluginData>
 								</Effect>
 								<Effect Name="SlapsEchoClose" ID="{8DC386DA-3F95-4C43-8993-631734B0722D}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32">
-											<ValueList>
-												<Value>-12</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionStop" Type="Real64">
-											<ValueList>
-												<Value>1.02625905797101</Value>
-											</ValueList>
-										</Property>
+										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
+										<Property Name="IRConvolutionStop" Type="Real64" Value="1.02625905797101"/>
 										<Property Name="IRConvolutionThreshold" Type="Real32">
 											<ValueList>
 												<Value>-60</Value>
@@ -2684,16 +2288,8 @@
 												<Value>2</Value>
 											</ValueList>
 										</Property>
-										<Property Name="IRLevel" Type="Real32">
-											<ValueList>
-												<Value>-21</Value>
-											</ValueList>
-										</Property>
-										<Property Name="PreDelay" Type="Real32">
-											<ValueList>
-												<Value>51</Value>
-											</ValueList>
-										</Property>
+										<Property Name="IRLevel" Type="Real32" Value="-21"/>
+										<Property Name="PreDelay" Type="Real32" Value="51"/>
 									</PropertyList>
 									<ChildrenList>
 										<PluginMediaSource Name="AE_Street_SlapsEchoClose" ID="{19FAA381-C292-4C75-A057-CD1BA0FB7F71}">
@@ -2706,10 +2302,11 @@
 											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData><ConvolutionData>
+									<PluginData>
+	<ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
-				<Curve Name="" ID="{96A89EF0-BC05-4FFD-AFA3-0978E5AFAF75}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="19"/>
 					</PropertyList>
@@ -2728,7 +2325,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLPF">
-				<Curve Name="" ID="{D4D8D7C0-BE14-46DC-8E07-C323A67D5ECC}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="5"/>
 					</PropertyList>
@@ -2747,7 +2344,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLevel">
-				<Curve Name="" ID="{CEEE8F1C-3C2F-4026-8EDC-39D9D82F104E}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="1"/>
 					</PropertyList>
@@ -2766,22 +2363,15 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData></PluginData>
+	</ConvolutionData>
+</PluginData>
 								</Effect>
 								<Effect Name="SmoothIntimate" ID="{7DF1462C-BE58-4E5A-B895-A6B2DC1FC49C}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32">
-											<ValueList>
-												<Value>-12</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionStop" Type="Real64">
-											<ValueList>
-												<Value>0.942431310386473</Value>
-											</ValueList>
-										</Property>
+										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
+										<Property Name="IRConvolutionStop" Type="Real64" Value="0.942431310386473"/>
 										<Property Name="IRConvolutionThreshold" Type="Real32">
 											<ValueList>
 												<Value>-83</Value>
@@ -2792,16 +2382,8 @@
 												<Value>16</Value>
 											</ValueList>
 										</Property>
-										<Property Name="IRLevel" Type="Real32">
-											<ValueList>
-												<Value>-14</Value>
-											</ValueList>
-										</Property>
-										<Property Name="PreDelay" Type="Real32">
-											<ValueList>
-												<Value>55</Value>
-											</ValueList>
-										</Property>
+										<Property Name="IRLevel" Type="Real32" Value="-14"/>
+										<Property Name="PreDelay" Type="Real32" Value="55"/>
 									</PropertyList>
 									<ChildrenList>
 										<PluginMediaSource Name="AE_Street_SmoothIntimate" ID="{7D55369E-A2D0-48AC-A32F-09A2200AD208}">
@@ -2814,10 +2396,11 @@
 											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData><ConvolutionData>
+									<PluginData>
+	<ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
-				<Curve Name="" ID="{869259CA-0E4C-4332-B8D6-DE85FBBD0865}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="19"/>
 					</PropertyList>
@@ -2836,7 +2419,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLPF">
-				<Curve Name="" ID="{3C720981-6D1D-4B71-9F69-32F92D763C5C}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="5"/>
 					</PropertyList>
@@ -2855,7 +2438,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLevel">
-				<Curve Name="" ID="{9C1B0676-6110-4C88-8644-59CBB710B7EE}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="1"/>
 					</PropertyList>
@@ -2874,22 +2457,15 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData></PluginData>
+	</ConvolutionData>
+</PluginData>
 								</Effect>
 								<Effect Name="TwoFarBuildings" ID="{0BEE9347-3498-43C8-8AC4-2F777205CF3A}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32">
-											<ValueList>
-												<Value>-12</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionStop" Type="Real64">
-											<ValueList>
-												<Value>1.09178713768116</Value>
-											</ValueList>
-										</Property>
+										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
+										<Property Name="IRConvolutionStop" Type="Real64" Value="1.09178713768116"/>
 										<Property Name="IRConvolutionThreshold" Type="Real32">
 											<ValueList>
 												<Value>-60</Value>
@@ -2900,16 +2476,8 @@
 												<Value>4</Value>
 											</ValueList>
 										</Property>
-										<Property Name="IRLevel" Type="Real32">
-											<ValueList>
-												<Value>-15</Value>
-											</ValueList>
-										</Property>
-										<Property Name="PreDelay" Type="Real32">
-											<ValueList>
-												<Value>37</Value>
-											</ValueList>
-										</Property>
+										<Property Name="IRLevel" Type="Real32" Value="-15"/>
+										<Property Name="PreDelay" Type="Real32" Value="37"/>
 									</PropertyList>
 									<ChildrenList>
 										<PluginMediaSource Name="AE_Street_TwoFarBuildings" ID="{55F13B73-5C13-43DA-BACB-C30F64B06104}">
@@ -2922,10 +2490,11 @@
 											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData><ConvolutionData>
+									<PluginData>
+	<ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
-				<Curve Name="" ID="{CEFCDDB9-6F8E-4EB2-825B-58B198D73033}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="19"/>
 					</PropertyList>
@@ -2944,7 +2513,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLPF">
-				<Curve Name="" ID="{02ADED44-5263-40BC-B521-4E5A8772A02F}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="5"/>
 					</PropertyList>
@@ -2963,7 +2532,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLevel">
-				<Curve Name="" ID="{5FB2F58C-F64D-4399-929B-2C83F2777F06}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="1"/>
 					</PropertyList>
@@ -2982,22 +2551,15 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData></PluginData>
+	</ConvolutionData>
+</PluginData>
 								</Effect>
 								<Effect Name="WideEcho" ID="{17F76320-8B17-4B35-AD45-75D6966F28D0}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32">
-											<ValueList>
-												<Value>-12</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionStop" Type="Real64">
-											<ValueList>
-												<Value>1.09499479166667</Value>
-											</ValueList>
-										</Property>
+										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
+										<Property Name="IRConvolutionStop" Type="Real64" Value="1.09499479166667"/>
 										<Property Name="IRConvolutionThreshold" Type="Real32">
 											<ValueList>
 												<Value>-64</Value>
@@ -3008,16 +2570,8 @@
 												<Value>31</Value>
 											</ValueList>
 										</Property>
-										<Property Name="IRLevel" Type="Real32">
-											<ValueList>
-												<Value>-18</Value>
-											</ValueList>
-										</Property>
-										<Property Name="PreDelay" Type="Real32">
-											<ValueList>
-												<Value>51</Value>
-											</ValueList>
-										</Property>
+										<Property Name="IRLevel" Type="Real32" Value="-18"/>
+										<Property Name="PreDelay" Type="Real32" Value="51"/>
 									</PropertyList>
 									<ChildrenList>
 										<PluginMediaSource Name="AE_Street_WideEcho" ID="{81F0ECFF-BE0A-4550-AA1E-EA2EB2FFB080}">
@@ -3030,10 +2584,11 @@
 											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData><ConvolutionData>
+									<PluginData>
+	<ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
-				<Curve Name="" ID="{8E66720B-070D-4313-A1D7-8798DA12E734}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="19"/>
 					</PropertyList>
@@ -3052,7 +2607,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLPF">
-				<Curve Name="" ID="{1B4EBE6B-4216-4EF7-BF8D-EB5A194FB690}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="5"/>
 					</PropertyList>
@@ -3071,7 +2626,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLevel">
-				<Curve Name="" ID="{9ABD4C5A-1514-479B-842B-82CC72A2EC54}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="1"/>
 					</PropertyList>
@@ -3090,27 +2645,16 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData></PluginData>
+	</ConvolutionData>
+</PluginData>
 								</Effect>
 								<Effect Name="WideWithCars" ID="{115F392A-1C33-49E5-87D8-5E89E6A1F053}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32">
-											<ValueList>
-												<Value>-12</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionSmooth" Type="Real32">
-											<ValueList>
-												<Value>8</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionStop" Type="Real64">
-											<ValueList>
-												<Value>0.773524305555556</Value>
-											</ValueList>
-										</Property>
+										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
+										<Property Name="IRConvolutionSmooth" Type="Real32" Value="8"/>
+										<Property Name="IRConvolutionStop" Type="Real64" Value="0.773524305555556"/>
 										<Property Name="IRConvolutionThreshold" Type="Real32">
 											<ValueList>
 												<Value>-68</Value>
@@ -3121,16 +2665,8 @@
 												<Value>27</Value>
 											</ValueList>
 										</Property>
-										<Property Name="IRLevel" Type="Real32">
-											<ValueList>
-												<Value>-11</Value>
-											</ValueList>
-										</Property>
-										<Property Name="PreDelay" Type="Real32">
-											<ValueList>
-												<Value>20</Value>
-											</ValueList>
-										</Property>
+										<Property Name="IRLevel" Type="Real32" Value="-11"/>
+										<Property Name="PreDelay" Type="Real32" Value="20"/>
 									</PropertyList>
 									<ChildrenList>
 										<PluginMediaSource Name="AE_Street_WideWithCars" ID="{B08D7D55-8DD2-4C94-9347-6288FBA044F9}">
@@ -3143,10 +2679,11 @@
 											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData><ConvolutionData>
+									<PluginData>
+	<ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
-				<Curve Name="" ID="{1C0C3E13-A05E-4069-A81A-70997BC44024}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="19"/>
 					</PropertyList>
@@ -3165,7 +2702,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLPF">
-				<Curve Name="" ID="{53CC18CE-59BE-476E-A399-B4004423BC4F}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="5"/>
 					</PropertyList>
@@ -3184,7 +2721,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLevel">
-				<Curve Name="" ID="{3E5A121A-1A33-49EE-B12F-2B5890611C14}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="1"/>
 					</PropertyList>
@@ -3203,7 +2740,8 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData></PluginData>
+	</ConvolutionData>
+</PluginData>
 								</Effect>
 							</ChildrenList>
 						</Folder>
@@ -3213,16 +2751,8 @@
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32">
-											<ValueList>
-												<Value>-12</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionStop" Type="Real64">
-											<ValueList>
-												<Value>0.252205615942029</Value>
-											</ValueList>
-										</Property>
+										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
+										<Property Name="IRConvolutionStop" Type="Real64" Value="0.252205615942029"/>
 										<Property Name="IRConvolutionThreshold" Type="Real32">
 											<ValueList>
 												<Value>-70</Value>
@@ -3233,11 +2763,7 @@
 												<Value>-5</Value>
 											</ValueList>
 										</Property>
-										<Property Name="IRLevel" Type="Real32">
-											<ValueList>
-												<Value>-12</Value>
-											</ValueList>
-										</Property>
+										<Property Name="IRLevel" Type="Real32" Value="-12"/>
 									</PropertyList>
 									<ChildrenList>
 										<PluginMediaSource Name="AE_Attic_01" ID="{4FE9ABA0-B6FA-4502-9D66-ACE15EF6B7D3}">
@@ -3250,10 +2776,11 @@
 											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData><ConvolutionData>
+									<PluginData>
+	<ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
-				<Curve Name="" ID="{43EF82C8-9EC8-4C17-ACBE-FE53F3042C16}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="19"/>
 					</PropertyList>
@@ -3272,7 +2799,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLPF">
-				<Curve Name="" ID="{72D20D56-A6AC-4A74-A1C5-EFF9C457B6CE}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="5"/>
 					</PropertyList>
@@ -3291,7 +2818,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLevel">
-				<Curve Name="" ID="{816A9235-48AF-4CD1-BFC9-90E41EE15C42}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="1"/>
 					</PropertyList>
@@ -3310,22 +2837,15 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData></PluginData>
+	</ConvolutionData>
+</PluginData>
 								</Effect>
 								<Effect Name="Attic_02" ID="{B1D31439-6E63-4BC9-98B6-71E8D9D934E4}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32">
-											<ValueList>
-												<Value>-12</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionStop" Type="Real64">
-											<ValueList>
-												<Value>0.389665760869565</Value>
-											</ValueList>
-										</Property>
+										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
+										<Property Name="IRConvolutionStop" Type="Real64" Value="0.389665760869565"/>
 										<Property Name="IRConvolutionThreshold" Type="Real32">
 											<ValueList>
 												<Value>-62</Value>
@@ -3336,11 +2856,7 @@
 												<Value>-17</Value>
 											</ValueList>
 										</Property>
-										<Property Name="IRLevel" Type="Real32">
-											<ValueList>
-												<Value>-6</Value>
-											</ValueList>
-										</Property>
+										<Property Name="IRLevel" Type="Real32" Value="-6"/>
 									</PropertyList>
 									<ChildrenList>
 										<PluginMediaSource Name="AE_Attic_02" ID="{4A9D4ABB-ECA4-438E-9C41-20D400BD3292}">
@@ -3353,10 +2869,11 @@
 											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData><ConvolutionData>
+									<PluginData>
+	<ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
-				<Curve Name="" ID="{5BF95B12-8568-4028-B816-5D2E3022D9E4}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="19"/>
 					</PropertyList>
@@ -3375,7 +2892,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLPF">
-				<Curve Name="" ID="{43F36201-5BCB-474E-96A8-07B6EC8E94D0}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="5"/>
 					</PropertyList>
@@ -3394,7 +2911,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLevel">
-				<Curve Name="" ID="{4E5E5488-59B7-43BD-BC0A-DB13BD09F95C}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="1"/>
 					</PropertyList>
@@ -3413,22 +2930,15 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData></PluginData>
+	</ConvolutionData>
+</PluginData>
 								</Effect>
 								<Effect Name="Bathroom" ID="{4B9F7290-216D-41E2-958A-8404D665A0EE}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32">
-											<ValueList>
-												<Value>-12</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionStop" Type="Real64">
-											<ValueList>
-												<Value>1.00091862922705</Value>
-											</ValueList>
-										</Property>
+										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
+										<Property Name="IRConvolutionStop" Type="Real64" Value="1.00091862922705"/>
 										<Property Name="IRConvolutionThreshold" Type="Real32">
 											<ValueList>
 												<Value>-63</Value>
@@ -3439,11 +2949,7 @@
 												<Value>-31</Value>
 											</ValueList>
 										</Property>
-										<Property Name="IRLevel" Type="Real32">
-											<ValueList>
-												<Value>-15</Value>
-											</ValueList>
-										</Property>
+										<Property Name="IRLevel" Type="Real32" Value="-15"/>
 									</PropertyList>
 									<ChildrenList>
 										<PluginMediaSource Name="AE_Bathroom" ID="{E616F50D-2EDA-414E-B8CF-C78DBB027E83}">
@@ -3456,10 +2962,11 @@
 											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData><ConvolutionData>
+									<PluginData>
+	<ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
-				<Curve Name="" ID="{870AF30B-A6E2-49BE-BE62-B4B30CCBF0E9}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="19"/>
 					</PropertyList>
@@ -3478,7 +2985,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLPF">
-				<Curve Name="" ID="{6AC2F9E8-240F-489E-8672-990089232EDD}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="5"/>
 					</PropertyList>
@@ -3497,7 +3004,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLevel">
-				<Curve Name="" ID="{82B485E9-E559-4275-B6A8-FCE1FDFFE281}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="1"/>
 					</PropertyList>
@@ -3516,27 +3023,16 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData></PluginData>
+	</ConvolutionData>
+</PluginData>
 								</Effect>
 								<Effect Name="Bedroom" ID="{CB31448F-1272-4004-9231-65EFA2D5A2D4}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32">
-											<ValueList>
-												<Value>-12</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionSmooth" Type="Real32">
-											<ValueList>
-												<Value>9</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionStop" Type="Real64">
-											<ValueList>
-												<Value>0.59133008756039</Value>
-											</ValueList>
-										</Property>
+										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
+										<Property Name="IRConvolutionSmooth" Type="Real32" Value="9"/>
+										<Property Name="IRConvolutionStop" Type="Real64" Value="0.59133008756039"/>
 										<Property Name="IRConvolutionThreshold" Type="Real32">
 											<ValueList>
 												<Value>-60</Value>
@@ -3547,11 +3043,7 @@
 												<Value>31</Value>
 											</ValueList>
 										</Property>
-										<Property Name="IRLevel" Type="Real32">
-											<ValueList>
-												<Value>-23</Value>
-											</ValueList>
-										</Property>
+										<Property Name="IRLevel" Type="Real32" Value="-23"/>
 									</PropertyList>
 									<ChildrenList>
 										<PluginMediaSource Name="AE_Bedroom" ID="{D06BDB9B-7405-44F0-BBA1-1DFBFAA54287}">
@@ -3564,10 +3056,11 @@
 											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData><ConvolutionData>
+									<PluginData>
+	<ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
-				<Curve Name="" ID="{9D681D31-1626-4C09-B36B-D82912F74ABB}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="19"/>
 					</PropertyList>
@@ -3586,7 +3079,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLPF">
-				<Curve Name="" ID="{3F1983BF-EEFA-4742-878D-DDE06FC50076}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="5"/>
 					</PropertyList>
@@ -3605,7 +3098,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLevel">
-				<Curve Name="" ID="{ACDE1138-E724-4FF6-AED9-56C569414C64}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="1"/>
 					</PropertyList>
@@ -3624,22 +3117,15 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData></PluginData>
+	</ConvolutionData>
+</PluginData>
 								</Effect>
 								<Effect Name="Classroom" ID="{2DC5C6AB-AD35-4C61-B392-4628E066AF21}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32">
-											<ValueList>
-												<Value>-12</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionStop" Type="Real64">
-											<ValueList>
-												<Value>0.502397041062802</Value>
-											</ValueList>
-										</Property>
+										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
+										<Property Name="IRConvolutionStop" Type="Real64" Value="0.502397041062802"/>
 										<Property Name="IRConvolutionThreshold" Type="Real32">
 											<ValueList>
 												<Value>-70</Value>
@@ -3650,11 +3136,7 @@
 												<Value>6</Value>
 											</ValueList>
 										</Property>
-										<Property Name="IRLevel" Type="Real32">
-											<ValueList>
-												<Value>-5</Value>
-											</ValueList>
-										</Property>
+										<Property Name="IRLevel" Type="Real32" Value="-5"/>
 									</PropertyList>
 									<ChildrenList>
 										<PluginMediaSource Name="AE_Classroom" ID="{0365AA17-19E2-4293-AB8E-CB73EB495C95}">
@@ -3667,10 +3149,11 @@
 											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData><ConvolutionData>
+									<PluginData>
+	<ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
-				<Curve Name="" ID="{B8FE3E44-CA24-41E9-94ED-C218DC0CB796}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="19"/>
 					</PropertyList>
@@ -3689,7 +3172,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLPF">
-				<Curve Name="" ID="{D501539C-1233-4BA2-97FC-D20984013657}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="5"/>
 					</PropertyList>
@@ -3708,7 +3191,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLevel">
-				<Curve Name="" ID="{0FC39681-76A8-4B69-8BC7-438061598E28}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="1"/>
 					</PropertyList>
@@ -3727,27 +3210,16 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData></PluginData>
+	</ConvolutionData>
+</PluginData>
 								</Effect>
 								<Effect Name="Corridor" ID="{BF07E34F-67C0-43F6-BD7A-6B266536859C}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32">
-											<ValueList>
-												<Value>-12</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionSmooth" Type="Real32">
-											<ValueList>
-												<Value>7</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionStop" Type="Real64">
-											<ValueList>
-												<Value>0.632041213768116</Value>
-											</ValueList>
-										</Property>
+										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
+										<Property Name="IRConvolutionSmooth" Type="Real32" Value="7"/>
+										<Property Name="IRConvolutionStop" Type="Real64" Value="0.632041213768116"/>
 										<Property Name="IRConvolutionThreshold" Type="Real32">
 											<ValueList>
 												<Value>-65</Value>
@@ -3758,11 +3230,7 @@
 												<Value>15</Value>
 											</ValueList>
 										</Property>
-										<Property Name="IRLevel" Type="Real32">
-											<ValueList>
-												<Value>-16</Value>
-											</ValueList>
-										</Property>
+										<Property Name="IRLevel" Type="Real32" Value="-16"/>
 									</PropertyList>
 									<ChildrenList>
 										<PluginMediaSource Name="AE_Corridor" ID="{5110A1D7-9953-4DA9-8EA3-74A1095BC1B9}">
@@ -3775,10 +3243,11 @@
 											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData><ConvolutionData>
+									<PluginData>
+	<ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
-				<Curve Name="" ID="{3BEE9D4F-A15A-4EB3-83FA-2BED40C37431}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="19"/>
 					</PropertyList>
@@ -3797,7 +3266,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLPF">
-				<Curve Name="" ID="{56AB3FB3-40B8-40B2-90A5-6A2378781306}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="5"/>
 					</PropertyList>
@@ -3816,7 +3285,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLevel">
-				<Curve Name="" ID="{6CD2144B-0C7F-457A-AC35-F0E4ED2C5AAB}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="1"/>
 					</PropertyList>
@@ -3835,27 +3304,16 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData></PluginData>
+	</ConvolutionData>
+</PluginData>
 								</Effect>
 								<Effect Name="Hallway" ID="{0D3731CC-E532-4F15-9554-FCC2ED0F2533}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32">
-											<ValueList>
-												<Value>-12</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionSmooth" Type="Real32">
-											<ValueList>
-												<Value>7</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionStop" Type="Real64">
-											<ValueList>
-												<Value>0.973164251207729</Value>
-											</ValueList>
-										</Property>
+										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
+										<Property Name="IRConvolutionSmooth" Type="Real32" Value="7"/>
+										<Property Name="IRConvolutionStop" Type="Real64" Value="0.973164251207729"/>
 										<Property Name="IRConvolutionThreshold" Type="Real32">
 											<ValueList>
 												<Value>-63</Value>
@@ -3866,11 +3324,7 @@
 												<Value>-8</Value>
 											</ValueList>
 										</Property>
-										<Property Name="IRLevel" Type="Real32">
-											<ValueList>
-												<Value>-9</Value>
-											</ValueList>
-										</Property>
+										<Property Name="IRLevel" Type="Real32" Value="-9"/>
 									</PropertyList>
 									<ChildrenList>
 										<PluginMediaSource Name="AE_Hallway" ID="{0B05BD80-D9C7-4494-844C-919BDA7A5BF1}">
@@ -3883,10 +3337,11 @@
 											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData><ConvolutionData>
+									<PluginData>
+	<ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
-				<Curve Name="" ID="{BA68DB64-ACF1-440C-A5B0-49954567BF43}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="19"/>
 					</PropertyList>
@@ -3905,7 +3360,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLPF">
-				<Curve Name="" ID="{EC9C3DEB-22C1-4165-B2E2-766076635F53}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="5"/>
 					</PropertyList>
@@ -3924,7 +3379,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLevel">
-				<Curve Name="" ID="{E731DCEB-C4A1-4D7D-9D7C-98DAD5CE4E1F}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="1"/>
 					</PropertyList>
@@ -3943,27 +3398,16 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData></PluginData>
+	</ConvolutionData>
+</PluginData>
 								</Effect>
 								<Effect Name="LivingRoom_01" ID="{87D6BD4A-875B-45A3-900B-FCC17A978F38}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32">
-											<ValueList>
-												<Value>-12</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionSmooth" Type="Real32">
-											<ValueList>
-												<Value>8</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionStop" Type="Real64">
-											<ValueList>
-												<Value>0.448604619565217</Value>
-											</ValueList>
-										</Property>
+										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
+										<Property Name="IRConvolutionSmooth" Type="Real32" Value="8"/>
+										<Property Name="IRConvolutionStop" Type="Real64" Value="0.448604619565217"/>
 										<Property Name="IRConvolutionThreshold" Type="Real32">
 											<ValueList>
 												<Value>-74</Value>
@@ -3974,11 +3418,7 @@
 												<Value>-48</Value>
 											</ValueList>
 										</Property>
-										<Property Name="IRLevel" Type="Real32">
-											<ValueList>
-												<Value>-9</Value>
-											</ValueList>
-										</Property>
+										<Property Name="IRLevel" Type="Real32" Value="-9"/>
 									</PropertyList>
 									<ChildrenList>
 										<PluginMediaSource Name="AE_LivingRoom_01" ID="{948D85A9-A8B5-4D2B-B178-1E209BE7F400}">
@@ -3991,10 +3431,11 @@
 											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData><ConvolutionData>
+									<PluginData>
+	<ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
-				<Curve Name="" ID="{341D7835-DDD1-4B59-8424-FC8D3D1D45DF}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="19"/>
 					</PropertyList>
@@ -4013,7 +3454,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLPF">
-				<Curve Name="" ID="{2ED9E407-7BD0-465D-9D0A-F68CA7645A29}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="5"/>
 					</PropertyList>
@@ -4032,7 +3473,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLevel">
-				<Curve Name="" ID="{C0997DF3-1843-4BFC-A8FB-77C45AE97FC7}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="1"/>
 					</PropertyList>
@@ -4051,22 +3492,15 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData></PluginData>
+	</ConvolutionData>
+</PluginData>
 								</Effect>
 								<Effect Name="LivingRoom_02" ID="{1F16AF94-4D37-40B7-9172-FBEEF37CD6B6}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32">
-											<ValueList>
-												<Value>-12</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionStop" Type="Real64">
-											<ValueList>
-												<Value>0.594255736714976</Value>
-											</ValueList>
-										</Property>
+										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
+										<Property Name="IRConvolutionStop" Type="Real64" Value="0.594255736714976"/>
 										<Property Name="IRConvolutionThreshold" Type="Real32">
 											<ValueList>
 												<Value>-74</Value>
@@ -4077,16 +3511,8 @@
 												<Value>-5</Value>
 											</ValueList>
 										</Property>
-										<Property Name="IRLevel" Type="Real32">
-											<ValueList>
-												<Value>-10</Value>
-											</ValueList>
-										</Property>
-										<Property Name="PreDelay" Type="Real32">
-											<ValueList>
-												<Value>3</Value>
-											</ValueList>
-										</Property>
+										<Property Name="IRLevel" Type="Real32" Value="-10"/>
+										<Property Name="PreDelay" Type="Real32" Value="3"/>
 									</PropertyList>
 									<ChildrenList>
 										<PluginMediaSource Name="AE_LivingRoom_02" ID="{5A7B6485-E087-4B05-A324-EDCD48E8061D}">
@@ -4099,10 +3525,11 @@
 											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData><ConvolutionData>
+									<PluginData>
+	<ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
-				<Curve Name="" ID="{C3249B6C-3636-469C-9B62-427A0A27029F}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="19"/>
 					</PropertyList>
@@ -4121,7 +3548,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLPF">
-				<Curve Name="" ID="{B6A983ED-5165-4509-924E-A3F322A691B4}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="5"/>
 					</PropertyList>
@@ -4140,7 +3567,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLevel">
-				<Curve Name="" ID="{EF4E2F14-A053-4B37-80DB-A6BBEE83EEA8}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="1"/>
 					</PropertyList>
@@ -4159,27 +3586,16 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData></PluginData>
+	</ConvolutionData>
+</PluginData>
 								</Effect>
 								<Effect Name="SchoolHall" ID="{BB0D7BD2-44E6-4818-AC96-C0216B54E854}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32">
-											<ValueList>
-												<Value>-12</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionSmooth" Type="Real32">
-											<ValueList>
-												<Value>12</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionStop" Type="Real64">
-											<ValueList>
-												<Value>1.50340760869565</Value>
-											</ValueList>
-										</Property>
+										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
+										<Property Name="IRConvolutionSmooth" Type="Real32" Value="12"/>
+										<Property Name="IRConvolutionStop" Type="Real64" Value="1.50340760869565"/>
 										<Property Name="IRConvolutionThreshold" Type="Real32">
 											<ValueList>
 												<Value>-81</Value>
@@ -4190,11 +3606,7 @@
 												<Value>-4</Value>
 											</ValueList>
 										</Property>
-										<Property Name="IRLevel" Type="Real32">
-											<ValueList>
-												<Value>-20</Value>
-											</ValueList>
-										</Property>
+										<Property Name="IRLevel" Type="Real32" Value="-20"/>
 									</PropertyList>
 									<ChildrenList>
 										<PluginMediaSource Name="AE_SchoolHall" ID="{C6E99C24-52B7-4ADE-AE7B-3CC0A4FA9256}">
@@ -4207,10 +3619,11 @@
 											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData><ConvolutionData>
+									<PluginData>
+	<ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
-				<Curve Name="" ID="{A72E86FE-CEE5-42FF-BE43-BABFDE43D71E}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="19"/>
 					</PropertyList>
@@ -4229,7 +3642,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLPF">
-				<Curve Name="" ID="{FB037702-6476-4769-B760-7C2EB27B419E}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="5"/>
 					</PropertyList>
@@ -4248,7 +3661,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLevel">
-				<Curve Name="" ID="{4FBC60FA-8C61-432A-995C-56C5DA2EBE96}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="1"/>
 					</PropertyList>
@@ -4267,27 +3680,16 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData></PluginData>
+	</ConvolutionData>
+</PluginData>
 								</Effect>
 								<Effect Name="Staircase" ID="{127E52AD-3162-4A20-B3CF-D02B7FAD04B5}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32">
-											<ValueList>
-												<Value>-12</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionSmooth" Type="Real32">
-											<ValueList>
-												<Value>7</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionStop" Type="Real64">
-											<ValueList>
-												<Value>1.74063768115942</Value>
-											</ValueList>
-										</Property>
+										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
+										<Property Name="IRConvolutionSmooth" Type="Real32" Value="7"/>
+										<Property Name="IRConvolutionStop" Type="Real64" Value="1.74063768115942"/>
 										<Property Name="IRConvolutionThreshold" Type="Real32">
 											<ValueList>
 												<Value>-73</Value>
@@ -4298,16 +3700,8 @@
 												<Value>-11</Value>
 											</ValueList>
 										</Property>
-										<Property Name="IRLevel" Type="Real32">
-											<ValueList>
-												<Value>-20</Value>
-											</ValueList>
-										</Property>
-										<Property Name="PreDelay" Type="Real32">
-											<ValueList>
-												<Value>13</Value>
-											</ValueList>
-										</Property>
+										<Property Name="IRLevel" Type="Real32" Value="-20"/>
+										<Property Name="PreDelay" Type="Real32" Value="13"/>
 									</PropertyList>
 									<ChildrenList>
 										<PluginMediaSource Name="AE_Staircase" ID="{D4AE5DDF-8FBB-4A21-A3D0-9B1397794FED}">
@@ -4320,10 +3714,11 @@
 											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData><ConvolutionData>
+									<PluginData>
+	<ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
-				<Curve Name="" ID="{A61C0680-4FE3-409F-8484-5E7102DD36A5}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="19"/>
 					</PropertyList>
@@ -4342,7 +3737,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLPF">
-				<Curve Name="" ID="{1FA93FAB-AFA1-4AE6-9E95-17CD483EBE6B}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="5"/>
 					</PropertyList>
@@ -4361,7 +3756,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLevel">
-				<Curve Name="" ID="{3010DF76-D59F-4E93-8E00-67ADE41E97FE}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="1"/>
 					</PropertyList>
@@ -4380,7 +3775,8 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData></PluginData>
+	</ConvolutionData>
+</PluginData>
 								</Effect>
 							</ChildrenList>
 						</Folder>
@@ -4390,16 +3786,8 @@
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32">
-											<ValueList>
-												<Value>-12</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionStop" Type="Real64">
-											<ValueList>
-												<Value>0.669963919082126</Value>
-											</ValueList>
-										</Property>
+										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
+										<Property Name="IRConvolutionStop" Type="Real64" Value="0.669963919082126"/>
 										<Property Name="IRConvolutionThreshold" Type="Real32">
 											<ValueList>
 												<Value>-74</Value>
@@ -4410,11 +3798,7 @@
 												<Value>-13</Value>
 											</ValueList>
 										</Property>
-										<Property Name="IRLevel" Type="Real32">
-											<ValueList>
-												<Value>-16</Value>
-											</ValueList>
-										</Property>
+										<Property Name="IRLevel" Type="Real32" Value="-16"/>
 									</PropertyList>
 									<ChildrenList>
 										<PluginMediaSource Name="AE_FireDepartment" ID="{7A35A933-0DA2-4E18-888A-581A4E309154}">
@@ -4427,10 +3811,11 @@
 											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData><ConvolutionData>
+									<PluginData>
+	<ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
-				<Curve Name="" ID="{F70E085E-D8BC-4306-8424-0AAE858D3C95}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="19"/>
 					</PropertyList>
@@ -4449,7 +3834,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLPF">
-				<Curve Name="" ID="{F5317F84-E717-4F86-9EAE-1EAE0A3FD0F4}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="5"/>
 					</PropertyList>
@@ -4468,7 +3853,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLevel">
-				<Curve Name="" ID="{01E215DF-F03B-418F-8D59-A237D978FDDE}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="1"/>
 					</PropertyList>
@@ -4487,7 +3872,8 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData></PluginData>
+	</ConvolutionData>
+</PluginData>
 								</Effect>
 							</ChildrenList>
 						</Folder>
@@ -4497,26 +3883,14 @@
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32">
-											<ValueList>
-												<Value>-12</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionStop" Type="Real64">
-											<ValueList>
-												<Value>0.067125</Value>
-											</ValueList>
-										</Property>
+										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
+										<Property Name="IRConvolutionStop" Type="Real64" Value="0.067125"/>
 										<Property Name="IRLRMix" Type="Real32">
 											<ValueList>
 												<Value>12</Value>
 											</ValueList>
 										</Property>
-										<Property Name="IRLevel" Type="Real32">
-											<ValueList>
-												<Value>-17</Value>
-											</ValueList>
-										</Property>
+										<Property Name="IRLevel" Type="Real32" Value="-17"/>
 									</PropertyList>
 									<ChildrenList>
 										<PluginMediaSource Name="AE_Beetle" ID="{1674D796-9B0F-4EEC-97B0-916C8D8D8420}">
@@ -4529,10 +3903,11 @@
 											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData><ConvolutionData>
+									<PluginData>
+	<ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
-				<Curve Name="" ID="{E3C137F5-4D7C-421E-8E36-4CEEC0F1ADE3}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="19"/>
 					</PropertyList>
@@ -4551,7 +3926,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLPF">
-				<Curve Name="" ID="{B271BF29-D2E2-45E4-B3E2-461B6812AAD2}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="5"/>
 					</PropertyList>
@@ -4570,7 +3945,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLevel">
-				<Curve Name="" ID="{40000FE1-EE34-43CC-89C7-A62BC9358B49}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="1"/>
 					</PropertyList>
@@ -4589,22 +3964,15 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData></PluginData>
+	</ConvolutionData>
+</PluginData>
 								</Effect>
 								<Effect Name="Ford_TransitVanRear" ID="{2B7FF8E2-4D53-4A42-ADA3-402340BEF2EB}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32">
-											<ValueList>
-												<Value>-12</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionStop" Type="Real64">
-											<ValueList>
-												<Value>0.507961956521739</Value>
-											</ValueList>
-										</Property>
+										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
+										<Property Name="IRConvolutionStop" Type="Real64" Value="0.507961956521739"/>
 										<Property Name="IRConvolutionThreshold" Type="Real32">
 											<ValueList>
 												<Value>-75</Value>
@@ -4615,11 +3983,7 @@
 												<Value>37</Value>
 											</ValueList>
 										</Property>
-										<Property Name="IRLevel" Type="Real32">
-											<ValueList>
-												<Value>-10</Value>
-											</ValueList>
-										</Property>
+										<Property Name="IRLevel" Type="Real32" Value="-10"/>
 									</PropertyList>
 									<ChildrenList>
 										<PluginMediaSource Name="AE_Ford_TransitVanRear" ID="{2DD8FD21-A407-4CF0-A82C-6F6FDF6DA99D}">
@@ -4632,10 +3996,11 @@
 											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData><ConvolutionData>
+									<PluginData>
+	<ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
-				<Curve Name="" ID="{908BF1B3-C019-4A4C-8F95-FABB84765D41}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="19"/>
 					</PropertyList>
@@ -4654,7 +4019,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLPF">
-				<Curve Name="" ID="{D54D01C3-122A-46FC-99CA-6732777A6FAE}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="5"/>
 					</PropertyList>
@@ -4673,7 +4038,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLevel">
-				<Curve Name="" ID="{B8C287E8-656E-4B93-97E3-327CD91730C1}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="1"/>
 					</PropertyList>
@@ -4692,22 +4057,15 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData></PluginData>
+	</ConvolutionData>
+</PluginData>
 								</Effect>
 								<Effect Name="Helicopter_Sikorski" ID="{DEBC6B2B-CCD9-41D6-B1DB-4A98FAAF038D}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32">
-											<ValueList>
-												<Value>-12</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionStop" Type="Real64">
-											<ValueList>
-												<Value>0.313263888888889</Value>
-											</ValueList>
-										</Property>
+										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
+										<Property Name="IRConvolutionStop" Type="Real64" Value="0.313263888888889"/>
 										<Property Name="IRConvolutionThreshold" Type="Real32">
 											<ValueList>
 												<Value>-46</Value>
@@ -4718,11 +4076,7 @@
 												<Value>-58</Value>
 											</ValueList>
 										</Property>
-										<Property Name="IRLevel" Type="Real32">
-											<ValueList>
-												<Value>-8</Value>
-											</ValueList>
-										</Property>
+										<Property Name="IRLevel" Type="Real32" Value="-8"/>
 									</PropertyList>
 									<ChildrenList>
 										<PluginMediaSource Name="AE_Helicopter_Sikorski" ID="{8F35578D-E26C-4939-8D27-492301A43DD1}">
@@ -4735,10 +4089,11 @@
 											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData><ConvolutionData>
+									<PluginData>
+	<ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
-				<Curve Name="" ID="{AA089D4E-021E-4CAB-A356-B7C54697802F}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="19"/>
 					</PropertyList>
@@ -4757,7 +4112,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLPF">
-				<Curve Name="" ID="{00F60C7A-8FB3-48B4-9FE4-F46335D24970}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="5"/>
 					</PropertyList>
@@ -4776,7 +4131,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLevel">
-				<Curve Name="" ID="{1D232BC6-8935-4509-B197-8428933B136A}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="1"/>
 					</PropertyList>
@@ -4795,22 +4150,15 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData></PluginData>
+	</ConvolutionData>
+</PluginData>
 								</Effect>
 								<Effect Name="Honda_Element" ID="{FDC4E309-9F1E-4F04-A27F-3F573A5F4014}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32">
-											<ValueList>
-												<Value>-12</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionStop" Type="Real64">
-											<ValueList>
-												<Value>0.151583333333333</Value>
-											</ValueList>
-										</Property>
+										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
+										<Property Name="IRConvolutionStop" Type="Real64" Value="0.151583333333333"/>
 										<Property Name="IRConvolutionThreshold" Type="Real32">
 											<ValueList>
 												<Value>-30</Value>
@@ -4821,11 +4169,7 @@
 												<Value>-41</Value>
 											</ValueList>
 										</Property>
-										<Property Name="IRLevel" Type="Real32">
-											<ValueList>
-												<Value>-11</Value>
-											</ValueList>
-										</Property>
+										<Property Name="IRLevel" Type="Real32" Value="-11"/>
 									</PropertyList>
 									<ChildrenList>
 										<PluginMediaSource Name="AE_Honda_Element" ID="{A151283A-1CF6-4714-B3BF-AE6E281F3E4F}">
@@ -4838,10 +4182,11 @@
 											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData><ConvolutionData>
+									<PluginData>
+	<ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
-				<Curve Name="" ID="{C6038868-F266-4A9C-AB7B-BFB23CB89563}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="19"/>
 					</PropertyList>
@@ -4860,7 +4205,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLPF">
-				<Curve Name="" ID="{9585AD84-19DC-4A1B-862A-FB88F0F58443}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="5"/>
 					</PropertyList>
@@ -4879,7 +4224,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLevel">
-				<Curve Name="" ID="{39EC881C-67EB-4FFE-A496-187A89173EC3}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="1"/>
 					</PropertyList>
@@ -4898,22 +4243,15 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData></PluginData>
+	</ConvolutionData>
+</PluginData>
 								</Effect>
 								<Effect Name="Honda_ElementRear" ID="{8A3167A6-572D-48D3-A3B4-970E5F557F02}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32">
-											<ValueList>
-												<Value>-12</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionStop" Type="Real64">
-											<ValueList>
-												<Value>0.134125</Value>
-											</ValueList>
-										</Property>
+										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
+										<Property Name="IRConvolutionStop" Type="Real64" Value="0.134125"/>
 										<Property Name="IRConvolutionThreshold" Type="Real32">
 											<ValueList>
 												<Value>-32</Value>
@@ -4924,11 +4262,7 @@
 												<Value>-38</Value>
 											</ValueList>
 										</Property>
-										<Property Name="IRLevel" Type="Real32">
-											<ValueList>
-												<Value>-11</Value>
-											</ValueList>
-										</Property>
+										<Property Name="IRLevel" Type="Real32" Value="-11"/>
 									</PropertyList>
 									<ChildrenList>
 										<PluginMediaSource Name="AE_Honda_ElementRear" ID="{0898B161-6350-4971-876D-9A45DDA2B59F}">
@@ -4941,10 +4275,11 @@
 											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData><ConvolutionData>
+									<PluginData>
+	<ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
-				<Curve Name="" ID="{39FC0913-A4DF-4CA8-B9E7-6A8890DD45E5}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="19"/>
 					</PropertyList>
@@ -4963,7 +4298,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLPF">
-				<Curve Name="" ID="{87E5647E-8829-470B-ACBC-648B04B2AD66}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="5"/>
 					</PropertyList>
@@ -4982,7 +4317,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLevel">
-				<Curve Name="" ID="{AD9C8DE8-7030-48AE-A500-E824A8BC8161}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="1"/>
 					</PropertyList>
@@ -5001,27 +4336,16 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData></PluginData>
+	</ConvolutionData>
+</PluginData>
 								</Effect>
 								<Effect Name="Peugeot_PartnerFront" ID="{B84C1B8F-C954-4E7F-ABCF-1EF69852A3E9}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32">
-											<ValueList>
-												<Value>-12</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionSmooth" Type="Real32">
-											<ValueList>
-												<Value>5</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionStop" Type="Real64">
-											<ValueList>
-												<Value>0.309816198671498</Value>
-											</ValueList>
-										</Property>
+										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
+										<Property Name="IRConvolutionSmooth" Type="Real32" Value="5"/>
+										<Property Name="IRConvolutionStop" Type="Real64" Value="0.309816198671498"/>
 										<Property Name="IRConvolutionThreshold" Type="Real32">
 											<ValueList>
 												<Value>-70</Value>
@@ -5032,11 +4356,7 @@
 												<Value>52</Value>
 											</ValueList>
 										</Property>
-										<Property Name="IRLevel" Type="Real32">
-											<ValueList>
-												<Value>-18</Value>
-											</ValueList>
-										</Property>
+										<Property Name="IRLevel" Type="Real32" Value="-18"/>
 									</PropertyList>
 									<ChildrenList>
 										<PluginMediaSource Name="AE_Peugeot_PartnerFront" ID="{787BE913-8656-486F-8EA6-0480CF46CB3C}">
@@ -5049,10 +4369,11 @@
 											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData><ConvolutionData>
+									<PluginData>
+	<ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
-				<Curve Name="" ID="{FC0882C9-DEE1-4171-8EA2-071845118947}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="19"/>
 					</PropertyList>
@@ -5071,7 +4392,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLPF">
-				<Curve Name="" ID="{8FDB688C-19C0-4EE8-8F84-BCE71A88DA85}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="5"/>
 					</PropertyList>
@@ -5090,7 +4411,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLevel">
-				<Curve Name="" ID="{850FB6DC-7838-4028-9E06-4E8FC1C584F9}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="1"/>
 					</PropertyList>
@@ -5109,22 +4430,15 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData></PluginData>
+	</ConvolutionData>
+</PluginData>
 								</Effect>
 								<Effect Name="Peugeot_PartnerBackClosed" ID="{F9E60FF4-1F67-4447-8007-165DD144A29A}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32">
-											<ValueList>
-												<Value>-12</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionStop" Type="Real64">
-											<ValueList>
-												<Value>0.2328023852657</Value>
-											</ValueList>
-										</Property>
+										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
+										<Property Name="IRConvolutionStop" Type="Real64" Value="0.2328023852657"/>
 										<Property Name="IRConvolutionThreshold" Type="Real32">
 											<ValueList>
 												<Value>-64</Value>
@@ -5135,11 +4449,7 @@
 												<Value>4</Value>
 											</ValueList>
 										</Property>
-										<Property Name="IRLevel" Type="Real32">
-											<ValueList>
-												<Value>-20</Value>
-											</ValueList>
-										</Property>
+										<Property Name="IRLevel" Type="Real32" Value="-20"/>
 									</PropertyList>
 									<ChildrenList>
 										<PluginMediaSource Name="AE_Peugeot_PartnerBackClosed" ID="{6E98F0D6-FF7C-429C-AA49-2AD71673BB60}">
@@ -5152,10 +4462,11 @@
 											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData><ConvolutionData>
+									<PluginData>
+	<ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
-				<Curve Name="" ID="{A3EA6FEC-44E2-4E29-9E6D-E49578D1D321}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="19"/>
 					</PropertyList>
@@ -5174,7 +4485,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLPF">
-				<Curve Name="" ID="{D0C22274-29DC-4427-8D60-04ABD1137D08}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="5"/>
 					</PropertyList>
@@ -5193,7 +4504,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLevel">
-				<Curve Name="" ID="{0B355C2E-58C6-43DE-A44C-CAE62053556D}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="1"/>
 					</PropertyList>
@@ -5212,22 +4523,15 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData></PluginData>
+	</ConvolutionData>
+</PluginData>
 								</Effect>
 								<Effect Name="Train_BlueAngel" ID="{04F15A4B-055B-4104-A0D6-CE6B027EA8FE}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 									<Comment>Impulse response created by AudioEase.
 © 2011 AudioEase.  All rights reserved.</Comment>
 									<PropertyList>
-										<Property Name="CenterLevel" Type="Real32">
-											<ValueList>
-												<Value>-12</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IRConvolutionStop" Type="Real64">
-											<ValueList>
-												<Value>0.706763888888889</Value>
-											</ValueList>
-										</Property>
+										<Property Name="CenterLevel" Type="Real32" Value="-12"/>
+										<Property Name="IRConvolutionStop" Type="Real64" Value="0.706763888888889"/>
 										<Property Name="IRConvolutionThreshold" Type="Real32">
 											<ValueList>
 												<Value>-83</Value>
@@ -5238,11 +4542,7 @@
 												<Value>-8</Value>
 											</ValueList>
 										</Property>
-										<Property Name="IRLevel" Type="Real32">
-											<ValueList>
-												<Value>-18</Value>
-											</ValueList>
-										</Property>
+										<Property Name="IRLevel" Type="Real32" Value="-18"/>
 									</PropertyList>
 									<ChildrenList>
 										<PluginMediaSource Name="AE_Train_BlueAngel" ID="{110A7FC2-8B9E-4B72-89D4-4C5D5437E6A7}">
@@ -5255,10 +4555,11 @@
 											</MediaIDList>
 										</PluginMediaSource>
 									</ChildrenList>
-									<PluginData><ConvolutionData>
+									<PluginData>
+	<ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
-				<Curve Name="" ID="{6CA80B1B-8166-42E7-9F23-995C4F53C7D6}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="19"/>
 					</PropertyList>
@@ -5277,7 +4578,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLPF">
-				<Curve Name="" ID="{6064237D-9EBF-449D-8F73-5B42336C36CA}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="5"/>
 					</PropertyList>
@@ -5296,7 +4597,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLevel">
-				<Curve Name="" ID="{EAF2DF00-D033-4B37-9007-C2B5AAE2FE31}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="1"/>
 					</PropertyList>
@@ -5315,7 +4616,8 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData></PluginData>
+	</ConvolutionData>
+</PluginData>
 								</Effect>
 							</ChildrenList>
 						</Folder>

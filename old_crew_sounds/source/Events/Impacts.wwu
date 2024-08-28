@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{E2A1C0B3-95FC-4117-9B77-D78104DB631D}" SchemaVersion="97">
+<WwiseDocument Type="WorkUnit" ID="{E2A1C0B3-95FC-4117-9B77-D78104DB631D}" SchemaVersion="119">
 	<Events>
 		<WorkUnit Name="Impacts" ID="{E2A1C0B3-95FC-4117-9B77-D78104DB631D}" PersistMode="Standalone">
 			<Comment>The system of hitting PC and NPC vehicles</Comment>

@@ -1,45 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{E63DABFD-3A72-40D2-AF8A-2DB074B8B02F}" SchemaVersion="97">
+<WwiseDocument Type="WorkUnit" ID="{E63DABFD-3A72-40D2-AF8A-2DB074B8B02F}" SchemaVersion="119">
 	<Effects>
 		<WorkUnit Name="Weapons" ID="{E63DABFD-3A72-40D2-AF8A-2DB074B8B02F}" PersistMode="Standalone">
 			<ChildrenList>
 				<Effect Name="wpn_reverb_85_107mm_tank_interior" ID="{43BA364E-4DAD-418E-A9B6-F28DA8FC005F}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 					<PropertyList>
-						<Property Name="CenterLevel" Type="Real32">
-							<ValueList>
-								<Value>-96</Value>
-							</ValueList>
-						</Property>
-						<Property Name="DryLevel" Type="Real32">
-							<ValueList>
-								<Value>-96</Value>
-							</ValueList>
-						</Property>
-						<Property Name="IRConvolutionStop" Type="Real64">
-							<ValueList>
-								<Value>0.566510416666667</Value>
-							</ValueList>
-						</Property>
-						<Property Name="IRGraphicEQAutomate" Type="bool">
-							<ValueList>
-								<Value>True</Value>
-							</ValueList>
-						</Property>
-						<Property Name="IRLevelAutomate" Type="bool">
-							<ValueList>
-								<Value>False</Value>
-							</ValueList>
-						</Property>
-						<Property Name="PreDelay" Type="Real32">
-							<ValueList>
-								<Value>10</Value>
-							</ValueList>
-						</Property>
-						<Property Name="WetLevel" Type="Real32">
-							<ValueList>
-								<Value>-1</Value>
-							</ValueList>
-						</Property>
+						<Property Name="CenterLevel" Type="Real32" Value="-96"/>
+						<Property Name="DryLevel" Type="Real32" Value="-96"/>
+						<Property Name="IRConvolutionStop" Type="Real64" Value="0.566510416666667"/>
+						<Property Name="IRGraphicEQAutomate" Type="bool" Value="True"/>
+						<Property Name="IRLevelAutomate" Type="bool" Value="False"/>
+						<Property Name="PreDelay" Type="Real32" Value="10"/>
+						<Property Name="WetLevel" Type="Real32" Value="-1"/>
 					</PropertyList>
 					<ChildrenList>
 						<PluginMediaSource Name="IR_85-107mm_tank_interior" ID="{85197F88-0D2A-49DD-AEA4-6A7D71B57812}">
@@ -52,10 +24,11 @@
 							</MediaIDList>
 						</PluginMediaSource>
 					</ChildrenList>
-					<PluginData><ConvolutionData>
+					<PluginData>
+	<ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
-				<Curve Name="" ID="{FA2A52A9-2EF5-43CF-98D9-8280F24FC518}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="19"/>
 					</PropertyList>
@@ -83,12 +56,12 @@
 						</Point>
 						<Point>
 							<XPos>587.645076794203</XPos>
-							<YPos>-6.60037616204553E-02</YPos>
+							<YPos>-0.0660037616204553</YPos>
 							<Flags>0</Flags>
 						</Point>
 						<Point>
 							<XPos>19853.5651933809</XPos>
-							<YPos>-7.05505053518766E-02</YPos>
+							<YPos>-0.0705505053518766</YPos>
 							<Flags>0</Flags>
 						</Point>
 						<Point>
@@ -100,7 +73,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLPF">
-				<Curve Name="" ID="{D70CDDFD-E750-4571-9F82-285BD3DA3CAF}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="5"/>
 					</PropertyList>
@@ -119,7 +92,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLevel">
-				<Curve Name="" ID="{F35CEFD2-AE6E-4E78-9D63-4370D7BE8362}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="1"/>
 					</PropertyList>
@@ -138,25 +111,14 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData></PluginData>
+	</ConvolutionData>
+</PluginData>
 				</Effect>
 				<Effect Name="wpn_reverb_50_75mm_tank_interior" ID="{68CA402B-0A74-472A-A490-A09D34D43D02}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 					<PropertyList>
-						<Property Name="CenterLevel" Type="Real32">
-							<ValueList>
-								<Value>-96</Value>
-							</ValueList>
-						</Property>
-						<Property Name="DryLevel" Type="Real32">
-							<ValueList>
-								<Value>-96</Value>
-							</ValueList>
-						</Property>
-						<Property Name="IRConvolutionStop" Type="Real64">
-							<ValueList>
-								<Value>0.533854166666667</Value>
-							</ValueList>
-						</Property>
+						<Property Name="CenterLevel" Type="Real32" Value="-96"/>
+						<Property Name="DryLevel" Type="Real32" Value="-96"/>
+						<Property Name="IRConvolutionStop" Type="Real64" Value="0.533854166666667"/>
 					</PropertyList>
 					<ChildrenList>
 						<PluginMediaSource Name="IR_50-75mm_tank_interior" ID="{E6B4C441-5207-4FDE-A9BB-114151464D30}">
@@ -169,10 +131,11 @@
 							</MediaIDList>
 						</PluginMediaSource>
 					</ChildrenList>
-					<PluginData><ConvolutionData>
+					<PluginData>
+	<ConvolutionData>
 		<CurveList Version="1">
 			<CurveInfo Name="IRGraphicEQ">
-				<Curve Name="" ID="{CDA73969-B513-4411-8F7E-3BE75CD0DD62}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="19"/>
 					</PropertyList>
@@ -191,7 +154,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLPF">
-				<Curve Name="" ID="{3D4660A2-C70B-43C8-B41C-5BFA121785FD}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="5"/>
 					</PropertyList>
@@ -210,7 +173,7 @@
 				</Curve>
 			</CurveInfo>
 			<CurveInfo Name="IRLevel">
-				<Curve Name="" ID="{D995EC2A-A90D-441B-BD51-7B5BD9210193}">
+				<Curve Name="">
 					<PropertyList>
 						<Property Name="Flags" Type="int32" Value="1"/>
 					</PropertyList>
@@ -229,7 +192,8 @@
 				</Curve>
 			</CurveInfo>
 		</CurveList>
-	</ConvolutionData></PluginData>
+	</ConvolutionData>
+</PluginData>
 				</Effect>
 				<Effect Name="ptototype_eq_01" ID="{A737F742-0A68-41E3-95D1-128A3D1340A0}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 					<PropertyList>

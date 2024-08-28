@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{657590BD-CF1E-422E-B16B-C256C61A8CBC}" SchemaVersion="97">
+<WwiseDocument Type="WorkUnit" ID="{657590BD-CF1E-422E-B16B-C256C61A8CBC}" SchemaVersion="119">
 	<Effects>
 		<WorkUnit Name="Hangar" ID="{657590BD-CF1E-422E-B16B-C256C61A8CBC}" PersistMode="Standalone">
 			<ChildrenList>
@@ -9,137 +9,170 @@
 							<PropertyList>
 								<Property Name="FilterTypeBand1" Type="int32" Value="6"/>
 								<Property Name="FrequencyBand1" Type="Real32" Value="194"/>
-								<Property Name="GainBand1" Type="Real32">
-									<RTPCList>
-										<RTPC Name="" ID="{3E24D562-A214-477F-8B44-4B2835E8AEEC}" ShortID="236659672">
-											<ReferenceList>
-												<Reference Name="ControlInput">
-													<ObjectRef Name="RTPC_int_distance" ID="{BF3AB708-0AE6-46FC-B487-5F27895968F1}" WorkUnitID="{99AED538-0B7F-42D5-942E-04185D409E05}"/>
-												</Reference>
-											</ReferenceList>
-											<Curve Name="" ID="{8EF7596F-CA1D-4B33-910C-D13749B6D05E}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>0</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>200</XPos>
-														<YPos>-9</YPos>
-														<Flags>0</Flags>
-													</Point>
-													<Point>
-														<XPos>250</XPos>
-														<YPos>-9</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</RTPC>
-									</RTPCList>
-								</Property>
 								<Property Name="OnOffBand2" Type="bool" Value="False"/>
 								<Property Name="OnOffBand3" Type="bool" Value="False"/>
 								<Property Name="QFactorBand1" Type="Real32" Value="0.52"/>
 							</PropertyList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{3E24D562-A214-477F-8B44-4B2835E8AEEC}" ShortID="236659672">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="GainBand1"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="RTPC_int_distance" ID="{BF3AB708-0AE6-46FC-B487-5F27895968F1}" WorkUnitID="{99AED538-0B7F-42D5-942E-04185D409E05}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{8EF7596F-CA1D-4B33-910C-D13749B6D05E}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>200</XPos>
+																		<YPos>-9</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>250</XPos>
+																		<YPos>-9</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
 						</Effect>
 						<Effect Name="eq_scenario_02" ID="{62FCCC93-2EDE-43FB-B929-9BCDAD268249}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 							<PropertyList>
 								<Property Name="FilterTypeBand1" Type="int32" Value="6"/>
 								<Property Name="FrequencyBand1" Type="Real32" Value="194"/>
-								<Property Name="GainBand1" Type="Real32">
-									<RTPCList>
-										<RTPC Name="" ID="{C72AA5DD-0BB8-4A96-8908-193F31EA15E9}" ShortID="434214028">
-											<ReferenceList>
-												<Reference Name="ControlInput">
-													<ObjectRef Name="RTPC_int_distance" ID="{BF3AB708-0AE6-46FC-B487-5F27895968F1}" WorkUnitID="{99AED538-0B7F-42D5-942E-04185D409E05}"/>
-												</Reference>
-											</ReferenceList>
-											<Curve Name="" ID="{218BE13A-467A-4650-AFD2-D3B3B57F7F31}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>-1.7</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>105</XPos>
-														<YPos>-9</YPos>
-														<Flags>0</Flags>
-													</Point>
-													<Point>
-														<XPos>200</XPos>
-														<YPos>-18</YPos>
-														<Flags>0</Flags>
-													</Point>
-													<Point>
-														<XPos>250</XPos>
-														<YPos>-18</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</RTPC>
-									</RTPCList>
-								</Property>
 								<Property Name="OnOffBand2" Type="bool" Value="False"/>
 								<Property Name="OnOffBand3" Type="bool" Value="False"/>
 								<Property Name="QFactorBand1" Type="Real32" Value="0.52"/>
 							</PropertyList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{C72AA5DD-0BB8-4A96-8908-193F31EA15E9}" ShortID="434214028">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="GainBand1"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="RTPC_int_distance" ID="{BF3AB708-0AE6-46FC-B487-5F27895968F1}" WorkUnitID="{99AED538-0B7F-42D5-942E-04185D409E05}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{218BE13A-467A-4650-AFD2-D3B3B57F7F31}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-1.7</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>105</XPos>
+																		<YPos>-9</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>200</XPos>
+																		<YPos>-18</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>250</XPos>
+																		<YPos>-18</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
 						</Effect>
 						<Effect Name="eq_scenario_03" ID="{1E7BE3EB-6877-4467-8E19-CE8425D89BAB}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 							<PropertyList>
 								<Property Name="FilterTypeBand1" Type="int32" Value="6"/>
 								<Property Name="FrequencyBand1" Type="Real32" Value="194"/>
-								<Property Name="GainBand1" Type="Real32">
-									<RTPCList>
-										<RTPC Name="" ID="{E35B6DFE-5C98-47E1-B039-78651E094BAE}" ShortID="574502647">
-											<ReferenceList>
-												<Reference Name="ControlInput">
-													<ObjectRef Name="RTPC_int_distance" ID="{BF3AB708-0AE6-46FC-B487-5F27895968F1}" WorkUnitID="{99AED538-0B7F-42D5-942E-04185D409E05}"/>
-												</Reference>
-											</ReferenceList>
-											<Curve Name="" ID="{EDE5DD47-65B9-4A93-8DFD-85BEFA956C3C}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>0</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>18</XPos>
-														<YPos>0</YPos>
-														<Flags>0</Flags>
-													</Point>
-													<Point>
-														<XPos>200</XPos>
-														<YPos>-6</YPos>
-														<Flags>0</Flags>
-													</Point>
-													<Point>
-														<XPos>250</XPos>
-														<YPos>-6</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</RTPC>
-									</RTPCList>
-								</Property>
 								<Property Name="OnOffBand2" Type="bool" Value="False"/>
 								<Property Name="OnOffBand3" Type="bool" Value="False"/>
 								<Property Name="QFactorBand1" Type="Real32" Value="0.52"/>
 							</PropertyList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{E35B6DFE-5C98-47E1-B039-78651E094BAE}" ShortID="574502647">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="GainBand1"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="RTPC_int_distance" ID="{BF3AB708-0AE6-46FC-B487-5F27895968F1}" WorkUnitID="{99AED538-0B7F-42D5-942E-04185D409E05}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{EDE5DD47-65B9-4A93-8DFD-85BEFA956C3C}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>18</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>200</XPos>
+																		<YPos>-6</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>250</XPos>
+																		<YPos>-6</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
 						</Effect>
 						<Effect Name="delay_01" ID="{400DC752-7B78-4C9F-95D5-01963166C8A3}" PluginName="Wwise Stereo Delay" CompanyID="0" PluginID="135" PluginType="3">
 							<PropertyList>
@@ -227,6 +260,7 @@
 						<Property Name="NoiseLevel" Type="Real32" Value="-27.81253"/>
 						<Property Name="NoiseThresh" Type="Real32" Value="-5.76"/>
 						<Property Name="SIMType" Type="int32" Value="45"/>
+						<Property Name="Version" Type="int32" Value="1"/>
 					</PropertyList>
 				</Effect>
 				<Effect Name="hangar_h07_newyear_2018_Stereo_Delay" ID="{CB319A44-2882-483C-AB6F-E51B555B723F}" PluginName="Wwise Stereo Delay" CompanyID="0" PluginID="135" PluginType="3">

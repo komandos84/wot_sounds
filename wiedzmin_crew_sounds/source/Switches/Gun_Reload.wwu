@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{1BA9F272-6A2E-4E14-91B7-65C8DF95A27D}" SchemaVersion="97">
+<WwiseDocument Type="WorkUnit" ID="{1BA9F272-6A2E-4E14-91B7-65C8DF95A27D}" SchemaVersion="119">
 	<Switches>
 		<WorkUnit Name="Gun_Reload" ID="{1BA9F272-6A2E-4E14-91B7-65C8DF95A27D}" PersistMode="Standalone">
 			<ChildrenList>

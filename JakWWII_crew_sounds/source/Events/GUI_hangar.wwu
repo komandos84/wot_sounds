@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{5203E8BE-E37C-4636-9BE4-A2B5513675BB}" SchemaVersion="97">
+<WwiseDocument Type="WorkUnit" ID="{5203E8BE-E37C-4636-9BE4-A2B5513675BB}" SchemaVersion="119">
 	<Events>
 		<WorkUnit Name="GUI_hangar" ID="{5203E8BE-E37C-4636-9BE4-A2B5513675BB}" PersistMode="Standalone">
 			<ChildrenList>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{809486B9-6885-4F17-97D7-52C9062DAB72}" SchemaVersion="97">
+<WwiseDocument Type="WorkUnit" ID="{809486B9-6885-4F17-97D7-52C9062DAB72}" SchemaVersion="119">
 	<Presets>
 		<WorkUnit Name="Default Work Unit" ID="{809486B9-6885-4F17-97D7-52C9062DAB72}" PersistMode="Standalone">
 			<ChildrenList>
@@ -162,6 +162,42 @@
 						<FocusUsage>
 							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 						</FocusUsage>
+						<ObstructionVolumeUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+						</ObstructionVolumeUsage>
+						<ObstructionLPFUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+						</ObstructionLPFUsage>
+						<ObstructionHPFUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+						</ObstructionHPFUsage>
+						<OcclusionVolumeUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+						</OcclusionVolumeUsage>
+						<OcclusionLPFUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+						</OcclusionLPFUsage>
+						<OcclusionHPFUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+						</OcclusionHPFUsage>
+						<DiffractionVolumeUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+						</DiffractionVolumeUsage>
+						<DiffractionLPFUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+						</DiffractionLPFUsage>
+						<DiffractionHPFUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+						</DiffractionHPFUsage>
+						<TransmissionVolumeUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+						</TransmissionVolumeUsage>
+						<TransmissionLPFUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+						</TransmissionLPFUsage>
+						<TransmissionHPFUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+						</TransmissionHPFUsage>
 					</CurveUsageInfoList>
 				</Attenuation>
 				<Effect Name="Distant_Echo_1april" ID="{12544AFF-E165-4F2F-A2C1-D75876E41BF0}" PluginName="Wwise Stereo Delay" CompanyID="0" PluginID="135" PluginType="3">
@@ -182,42 +218,53 @@
 				</Effect>
 				<Effect Name="APCR_flyout" ID="{F0F22D90-DBBC-4352-8E2D-911B7AF36B33}" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
 					<PropertyList>
-						<Property Name="ModDepth" Type="Real32">
-							<RTPCList>
-								<RTPC Name="" ID="{8AA4E177-571A-4125-A467-A8D95EDE4532}">
-									<ReferenceList>
-										<Reference Name="ControlInput">
-											<Custom>
-												<ModulatorLfo Name="Modulator LFO (Custom)" ID="{A8CF624C-1AFF-451C-9F26-D16E37F40995}"/>
-											</Custom>
-										</Reference>
-									</ReferenceList>
-									<Curve Name="" ID="{6C6E4A4E-3DA3-4A80-97CC-9935C7D6CAEC}">
-										<PropertyList>
-											<Property Name="Flags" Type="int32" Value="1"/>
-										</PropertyList>
-										<PointList>
-											<Point>
-												<XPos>0</XPos>
-												<YPos>25</YPos>
-												<Flags>21</Flags>
-											</Point>
-											<Point>
-												<XPos>1</XPos>
-												<YPos>78.24675</YPos>
-												<Flags>53</Flags>
-											</Point>
-										</PointList>
-									</Curve>
-								</RTPC>
-							</RTPCList>
-						</Property>
 						<Property Name="ModFrequency" Type="Real32" Value="25"/>
 						<Property Name="ModPWM" Type="Real32" Value="8"/>
 						<Property Name="ModPhaseOffset" Type="Real32" Value="87"/>
 						<Property Name="ModSmoothing" Type="Real32" Value="41"/>
 						<Property Name="ModWaveform" Type="int32" Value="3"/>
 					</PropertyList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{8AA4E177-571A-4125-A467-A8D95EDE4532}">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="ModDepth"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<Custom>
+													<ModulatorLfo Name="Modulator LFO (Custom)" ID="{A8CF624C-1AFF-451C-9F26-D16E37F40995}"/>
+												</Custom>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{6C6E4A4E-3DA3-4A80-97CC-9935C7D6CAEC}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="1"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>25</YPos>
+																<Flags>21</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>78.24675</YPos>
+																<Flags>53</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 				</Effect>
 				<Effect Name="APCR_flyout_delay" ID="{17B69698-C10B-4622-823D-4338C2F8AE8A}" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
 					<PropertyList>
@@ -235,39 +282,51 @@
 				</Effect>
 				<Effect Name="HE_flyout" ID="{B60C6FEE-592B-4A5F-B5E4-95AFC42AA033}" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
 					<PropertyList>
-						<Property Name="ModDepth" Type="Real32" Value="63.7">
-							<RTPCList>
-								<RTPC Name="" ID="{8CAE6CE2-4553-4FAA-8184-00FA8F7761C8}">
-									<ReferenceList>
-										<Reference Name="ControlInput">
-											<Custom>
-												<ModulatorLfo Name="Modulator LFO (Custom)" ID="{7FAA395F-CA17-49F7-A7A1-54BAC1800203}"/>
-											</Custom>
-										</Reference>
-									</ReferenceList>
-									<Curve Name="" ID="{D78214F8-CF30-4B9A-8D18-8D0AC0166361}">
-										<PropertyList>
-											<Property Name="Flags" Type="int32" Value="1"/>
-										</PropertyList>
-										<PointList>
-											<Point>
-												<XPos>0</XPos>
-												<YPos>21.42856</YPos>
-												<Flags>21</Flags>
-											</Point>
-											<Point>
-												<XPos>1</XPos>
-												<YPos>85.38961</YPos>
-												<Flags>53</Flags>
-											</Point>
-										</PointList>
-									</Curve>
-								</RTPC>
-							</RTPCList>
-						</Property>
+						<Property Name="ModDepth" Type="Real32" Value="63.7"/>
 						<Property Name="ModFrequency" Type="Real32" Value="18.7"/>
 						<Property Name="ModWaveform" Type="int32" Value="3"/>
 					</PropertyList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{8CAE6CE2-4553-4FAA-8184-00FA8F7761C8}">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="ModDepth"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<Custom>
+													<ModulatorLfo Name="Modulator LFO (Custom)" ID="{7FAA395F-CA17-49F7-A7A1-54BAC1800203}"/>
+												</Custom>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{D78214F8-CF30-4B9A-8D18-8D0AC0166361}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="1"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>21.42856</YPos>
+																<Flags>21</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>85.38961</YPos>
+																<Flags>53</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 				</Effect>
 				<RandomSequenceContainer Name="APCR_flayout" ID="{783058E2-CECC-4135-899C-437F4C552F8D}">
 					<PropertyList>
@@ -309,11 +368,6 @@
 								<Value>-84</Value>
 							</ValueList>
 						</Property>
-						<Property Name="RenderEffect0" Type="bool">
-							<ValueList>
-								<Value>True</Value>
-							</ValueList>
-						</Property>
 						<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="0"/>
 					</PropertyList>
 					<ReferenceList>
@@ -323,77 +377,119 @@
 						<Reference Name="Conversion">
 							<ObjectRef Name="ADPCM Auto Detect Medium 16-48" ID="{E2BD9020-EFBF-4842-8B43-01DEAC354F36}" WorkUnitID="{B5EFB14B-A840-4B3E-9C23-270361C5C997}"/>
 						</Reference>
-						<Reference Name="Effect0">
-							<Custom>
-								<Effect Name="Wwise Delay (Custom)" ID="{564D038A-5C9B-495F-93F1-B01BD3BE041C}" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
-									<PropertyList>
-										<Property Name="DelayTime" Type="Real32" Value="0.04"/>
-										<Property Name="Feedback" Type="Real32" Value="48.5"/>
-									</PropertyList>
-								</Effect>
-							</Custom>
-						</Reference>
-						<Reference Name="Effect1">
-							<Custom>
-								<Effect Name="Wwise Tremolo (Custom)" ID="{5B11B422-658A-449E-B84E-2D7220CD2C91}" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
-									<PropertyList>
-										<Property Name="ModDepth" Type="Real32">
-											<RTPCList>
-												<RTPC Name="" ID="{06DE15D5-F2C3-4EA1-9079-2BA92D51A1DB}">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<Custom>
-																<ModulatorLfo Name="Modulator LFO (Custom)" ID="{204B947C-6F05-445B-9975-5417D8EB35B3}"/>
-															</Custom>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{6A2845A8-9606-4DEF-B3B0-7C67A6B977B3}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="1"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>25</YPos>
-																<Flags>21</Flags>
-															</Point>
-															<Point>
-																<XPos>1</XPos>
-																<YPos>78.24675</YPos>
-																<Flags>53</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
-										</Property>
-										<Property Name="ModFrequency" Type="Real32" Value="25"/>
-										<Property Name="ModPWM" Type="Real32" Value="8"/>
-										<Property Name="ModPhaseOffset" Type="Real32" Value="87"/>
-										<Property Name="ModSmoothing" Type="Real32" Value="41"/>
-										<Property Name="ModWaveform" Type="int32" Value="3"/>
-										<Property Name="OutputGain" Type="Real32" Value="2"/>
-									</PropertyList>
-								</Effect>
-							</Custom>
-						</Reference>
-						<Reference Name="Effect2">
-							<Custom>
-								<Effect Name="Wwise Parametric EQ (Custom)" ID="{08556D37-0142-471C-80FB-1CD2A0819523}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
-									<PropertyList>
-										<Property Name="FrequencyBand2" Type="Real32" Value="1100"/>
-										<Property Name="GainBand2" Type="Real32" Value="14"/>
-										<Property Name="OnOffBand1" Type="bool" Value="False"/>
-										<Property Name="OnOffBand3" Type="bool" Value="False"/>
-										<Property Name="QFactorBand2" Type="Real32" Value="9"/>
-									</PropertyList>
-								</Effect>
-							</Custom>
-						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="050_psb" ID="{592077DC-E57B-47F3-A7AD-FD5CFF280B2A}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}"/>
 						</Reference>
 					</ReferenceList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{5340DA43-70F3-4779-883C-217360951A52}">
+										<PropertyList>
+											<Property Name="Render" Type="bool" Value="True"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="Effect">
+												<Custom>
+													<Effect Name="Wwise Delay (Custom)" ID="{564D038A-5C9B-495F-93F1-B01BD3BE041C}" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+														<PropertyList>
+															<Property Name="DelayTime" Type="Real32" Value="0.04"/>
+															<Property Name="Feedback" Type="Real32" Value="48.5"/>
+														</PropertyList>
+													</Effect>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{6A06AF5B-6BC0-4D11-9A5A-9032FDA76CF8}">
+										<ReferenceList>
+											<Reference Name="Effect">
+												<Custom>
+													<Effect Name="Wwise Tremolo (Custom)" ID="{5B11B422-658A-449E-B84E-2D7220CD2C91}" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+														<PropertyList>
+															<Property Name="ModFrequency" Type="Real32" Value="25"/>
+															<Property Name="ModPWM" Type="Real32" Value="8"/>
+															<Property Name="ModPhaseOffset" Type="Real32" Value="87"/>
+															<Property Name="ModSmoothing" Type="Real32" Value="41"/>
+															<Property Name="ModWaveform" Type="int32" Value="3"/>
+															<Property Name="OutputGain" Type="Real32" Value="2"/>
+														</PropertyList>
+														<ObjectLists>
+															<ObjectList Name="RTPC">
+																<Reference>
+																	<Local>
+																		<RTPC Name="" ID="{06DE15D5-F2C3-4EA1-9079-2BA92D51A1DB}">
+																			<PropertyList>
+																				<Property Name="PropertyName" Type="string" Value="ModDepth"/>
+																			</PropertyList>
+																			<ReferenceList>
+																				<Reference Name="ControlInput">
+																					<Custom>
+																						<ModulatorLfo Name="Modulator LFO (Custom)" ID="{204B947C-6F05-445B-9975-5417D8EB35B3}"/>
+																					</Custom>
+																				</Reference>
+																				<Reference Name="Curve">
+																					<Custom>
+																						<Curve Name="" ID="{6A2845A8-9606-4DEF-B3B0-7C67A6B977B3}">
+																							<PropertyList>
+																								<Property Name="Flags" Type="int32" Value="1"/>
+																							</PropertyList>
+																							<PointList>
+																								<Point>
+																									<XPos>0</XPos>
+																									<YPos>25</YPos>
+																									<Flags>21</Flags>
+																								</Point>
+																								<Point>
+																									<XPos>1</XPos>
+																									<YPos>78.24675</YPos>
+																									<Flags>53</Flags>
+																								</Point>
+																							</PointList>
+																						</Curve>
+																					</Custom>
+																				</Reference>
+																			</ReferenceList>
+																		</RTPC>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</Effect>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{3F9BBF06-6F16-42D5-8C38-8C21B551D5A8}">
+										<ReferenceList>
+											<Reference Name="Effect">
+												<Custom>
+													<Effect Name="Wwise Parametric EQ (Custom)" ID="{08556D37-0142-471C-80FB-1CD2A0819523}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+														<PropertyList>
+															<Property Name="FrequencyBand2" Type="Real32" Value="1100"/>
+															<Property Name="GainBand2" Type="Real32" Value="14"/>
+															<Property Name="OnOffBand1" Type="bool" Value="False"/>
+															<Property Name="OnOffBand3" Type="bool" Value="False"/>
+															<Property Name="QFactorBand2" Type="Real32" Value="9"/>
+														</PropertyList>
+													</Effect>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="HE_flyout_small" ID="{BAFDECD9-3A61-4D32-91D4-FC31031051A7}">
 					<PropertyList>
@@ -454,50 +550,74 @@
 						<Reference Name="Conversion">
 							<ObjectRef Name="ADPCM Auto Detect Medium 16-48" ID="{E2BD9020-EFBF-4842-8B43-01DEAC354F36}" WorkUnitID="{B5EFB14B-A840-4B3E-9C23-270361C5C997}"/>
 						</Reference>
-						<Reference Name="Effect0">
-							<Custom>
-								<Effect Name="Wwise Tremolo (Custom)" ID="{8972AA24-CEE2-44F4-A6BC-1D7CB074FE00}" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
-									<PropertyList>
-										<Property Name="ModDepth" Type="Real32" Value="63.7">
-											<RTPCList>
-												<RTPC Name="" ID="{CAE000AB-7EFB-47C4-8BEA-FB0DE9CE0F28}">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<Custom>
-																<ModulatorLfo Name="Modulator LFO (Custom)" ID="{1381C28B-D38D-445F-B805-A556E9998FBB}"/>
-															</Custom>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{3D00E453-0275-4D4B-88EB-32A6CC56491A}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="1"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>8.11688</YPos>
-																<Flags>21</Flags>
-															</Point>
-															<Point>
-																<XPos>1</XPos>
-																<YPos>63.96103</YPos>
-																<Flags>53</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
-										</Property>
-										<Property Name="ModFrequency" Type="Real32" Value="25"/>
-										<Property Name="ModWaveform" Type="int32" Value="3"/>
-									</PropertyList>
-								</Effect>
-							</Custom>
-						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="050_psb" ID="{592077DC-E57B-47F3-A7AD-FD5CFF280B2A}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}"/>
 						</Reference>
 					</ReferenceList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{CB9E05A1-8F70-434E-8CD2-B0798D3691B5}">
+										<ReferenceList>
+											<Reference Name="Effect">
+												<Custom>
+													<Effect Name="Wwise Tremolo (Custom)" ID="{8972AA24-CEE2-44F4-A6BC-1D7CB074FE00}" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+														<PropertyList>
+															<Property Name="ModDepth" Type="Real32" Value="63.7"/>
+															<Property Name="ModFrequency" Type="Real32" Value="25"/>
+															<Property Name="ModWaveform" Type="int32" Value="3"/>
+														</PropertyList>
+														<ObjectLists>
+															<ObjectList Name="RTPC">
+																<Reference>
+																	<Local>
+																		<RTPC Name="" ID="{CAE000AB-7EFB-47C4-8BEA-FB0DE9CE0F28}">
+																			<PropertyList>
+																				<Property Name="PropertyName" Type="string" Value="ModDepth"/>
+																			</PropertyList>
+																			<ReferenceList>
+																				<Reference Name="ControlInput">
+																					<Custom>
+																						<ModulatorLfo Name="Modulator LFO (Custom)" ID="{1381C28B-D38D-445F-B805-A556E9998FBB}"/>
+																					</Custom>
+																				</Reference>
+																				<Reference Name="Curve">
+																					<Custom>
+																						<Curve Name="" ID="{3D00E453-0275-4D4B-88EB-32A6CC56491A}">
+																							<PropertyList>
+																								<Property Name="Flags" Type="int32" Value="1"/>
+																							</PropertyList>
+																							<PointList>
+																								<Point>
+																									<XPos>0</XPos>
+																									<YPos>8.11688</YPos>
+																									<Flags>21</Flags>
+																								</Point>
+																								<Point>
+																									<XPos>1</XPos>
+																									<YPos>63.96103</YPos>
+																									<Flags>53</Flags>
+																								</Point>
+																							</PointList>
+																						</Curve>
+																					</Custom>
+																				</Reference>
+																			</ReferenceList>
+																		</RTPC>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</Effect>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="HE_flyout_main" ID="{D7AB2482-9B6B-448D-A3E8-AED21566B13D}">
 					<PropertyList>
@@ -558,50 +678,74 @@
 						<Reference Name="Conversion">
 							<ObjectRef Name="ADPCM Auto Detect Medium 16-48" ID="{E2BD9020-EFBF-4842-8B43-01DEAC354F36}" WorkUnitID="{B5EFB14B-A840-4B3E-9C23-270361C5C997}"/>
 						</Reference>
-						<Reference Name="Effect0">
-							<Custom>
-								<Effect Name="Wwise Tremolo (Custom)" ID="{6EBDB808-A174-48D3-BE87-9D305C0BDA83}" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
-									<PropertyList>
-										<Property Name="ModDepth" Type="Real32" Value="63.7">
-											<RTPCList>
-												<RTPC Name="" ID="{8C64DB13-98B1-4A69-A2AF-BC18A90EA318}">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<Custom>
-																<ModulatorLfo Name="Modulator LFO (Custom)" ID="{DB602149-9ACF-4750-AB45-32F76ADA0B9E}"/>
-															</Custom>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{7C5F01EF-67D5-45EB-8AB9-EBC55470CC6A}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="1"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>8.11688</YPos>
-																<Flags>21</Flags>
-															</Point>
-															<Point>
-																<XPos>1</XPos>
-																<YPos>85.38961</YPos>
-																<Flags>53</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
-										</Property>
-										<Property Name="ModFrequency" Type="Real32" Value="25"/>
-										<Property Name="ModWaveform" Type="int32" Value="3"/>
-									</PropertyList>
-								</Effect>
-							</Custom>
-						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="050_psb" ID="{592077DC-E57B-47F3-A7AD-FD5CFF280B2A}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}"/>
 						</Reference>
 					</ReferenceList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{0E1050A5-FE7D-418D-B70C-A393C90AB6C8}">
+										<ReferenceList>
+											<Reference Name="Effect">
+												<Custom>
+													<Effect Name="Wwise Tremolo (Custom)" ID="{6EBDB808-A174-48D3-BE87-9D305C0BDA83}" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+														<PropertyList>
+															<Property Name="ModDepth" Type="Real32" Value="63.7"/>
+															<Property Name="ModFrequency" Type="Real32" Value="25"/>
+															<Property Name="ModWaveform" Type="int32" Value="3"/>
+														</PropertyList>
+														<ObjectLists>
+															<ObjectList Name="RTPC">
+																<Reference>
+																	<Local>
+																		<RTPC Name="" ID="{8C64DB13-98B1-4A69-A2AF-BC18A90EA318}">
+																			<PropertyList>
+																				<Property Name="PropertyName" Type="string" Value="ModDepth"/>
+																			</PropertyList>
+																			<ReferenceList>
+																				<Reference Name="ControlInput">
+																					<Custom>
+																						<ModulatorLfo Name="Modulator LFO (Custom)" ID="{DB602149-9ACF-4750-AB45-32F76ADA0B9E}"/>
+																					</Custom>
+																				</Reference>
+																				<Reference Name="Curve">
+																					<Custom>
+																						<Curve Name="" ID="{7C5F01EF-67D5-45EB-8AB9-EBC55470CC6A}">
+																							<PropertyList>
+																								<Property Name="Flags" Type="int32" Value="1"/>
+																							</PropertyList>
+																							<PointList>
+																								<Point>
+																									<XPos>0</XPos>
+																									<YPos>8.11688</YPos>
+																									<Flags>21</Flags>
+																								</Point>
+																								<Point>
+																									<XPos>1</XPos>
+																									<YPos>85.38961</YPos>
+																									<Flags>53</Flags>
+																								</Point>
+																							</PointList>
+																						</Curve>
+																					</Custom>
+																				</Reference>
+																			</ReferenceList>
+																		</RTPC>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</Effect>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="HE_flyout_large" ID="{A44AEE48-135C-4ABB-8B57-2B3186A3C5B7}">
 					<PropertyList>
@@ -663,50 +807,74 @@
 						<Reference Name="Conversion">
 							<ObjectRef Name="ADPCM Auto Detect Medium 16-48" ID="{E2BD9020-EFBF-4842-8B43-01DEAC354F36}" WorkUnitID="{B5EFB14B-A840-4B3E-9C23-270361C5C997}"/>
 						</Reference>
-						<Reference Name="Effect0">
-							<Custom>
-								<Effect Name="Wwise Tremolo (Custom)" ID="{7A0F32EB-E6C2-45E4-AB7D-24F75E51D88C}" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
-									<PropertyList>
-										<Property Name="ModDepth" Type="Real32" Value="63.7">
-											<RTPCList>
-												<RTPC Name="" ID="{4EB4E60A-82F1-4AA5-95EE-AFF9148D3536}">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<Custom>
-																<ModulatorLfo Name="Modulator LFO (Custom)" ID="{1F745611-19A5-429B-8196-843BBA15B290}"/>
-															</Custom>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{F5669810-4CC4-4DF5-8540-9C9D7E242C7F}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="1"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>21.42856</YPos>
-																<Flags>21</Flags>
-															</Point>
-															<Point>
-																<XPos>1</XPos>
-																<YPos>67.2078</YPos>
-																<Flags>53</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
-										</Property>
-										<Property Name="ModFrequency" Type="Real32" Value="18.7"/>
-										<Property Name="ModWaveform" Type="int32" Value="3"/>
-									</PropertyList>
-								</Effect>
-							</Custom>
-						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="050_psb" ID="{592077DC-E57B-47F3-A7AD-FD5CFF280B2A}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}"/>
 						</Reference>
 					</ReferenceList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{11ABABAA-5B9C-41EA-9E4A-28F42EF7FA4D}">
+										<ReferenceList>
+											<Reference Name="Effect">
+												<Custom>
+													<Effect Name="Wwise Tremolo (Custom)" ID="{7A0F32EB-E6C2-45E4-AB7D-24F75E51D88C}" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+														<PropertyList>
+															<Property Name="ModDepth" Type="Real32" Value="63.7"/>
+															<Property Name="ModFrequency" Type="Real32" Value="18.7"/>
+															<Property Name="ModWaveform" Type="int32" Value="3"/>
+														</PropertyList>
+														<ObjectLists>
+															<ObjectList Name="RTPC">
+																<Reference>
+																	<Local>
+																		<RTPC Name="" ID="{4EB4E60A-82F1-4AA5-95EE-AFF9148D3536}">
+																			<PropertyList>
+																				<Property Name="PropertyName" Type="string" Value="ModDepth"/>
+																			</PropertyList>
+																			<ReferenceList>
+																				<Reference Name="ControlInput">
+																					<Custom>
+																						<ModulatorLfo Name="Modulator LFO (Custom)" ID="{1F745611-19A5-429B-8196-843BBA15B290}"/>
+																					</Custom>
+																				</Reference>
+																				<Reference Name="Curve">
+																					<Custom>
+																						<Curve Name="" ID="{F5669810-4CC4-4DF5-8540-9C9D7E242C7F}">
+																							<PropertyList>
+																								<Property Name="Flags" Type="int32" Value="1"/>
+																							</PropertyList>
+																							<PointList>
+																								<Point>
+																									<XPos>0</XPos>
+																									<YPos>21.42856</YPos>
+																									<Flags>21</Flags>
+																								</Point>
+																								<Point>
+																									<XPos>1</XPos>
+																									<YPos>67.2078</YPos>
+																									<Flags>53</Flags>
+																								</Point>
+																							</PointList>
+																						</Curve>
+																					</Custom>
+																				</Reference>
+																			</ReferenceList>
+																		</RTPC>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</Effect>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="APCR_flyout_large" ID="{07909775-6D0C-4298-AFB5-EE64CE30BBF7}">
 					<PropertyList>
@@ -744,11 +912,6 @@
 								<Value>-84</Value>
 							</ValueList>
 						</Property>
-						<Property Name="RenderEffect0" Type="bool">
-							<ValueList>
-								<Value>True</Value>
-							</ValueList>
-						</Property>
 						<Property Name="UseMaxSoundPerInstance" Type="bool">
 							<ValueList>
 								<Value>True</Value>
@@ -763,76 +926,118 @@
 						<Reference Name="Conversion">
 							<ObjectRef Name="ADPCM Auto Detect Medium 16-48" ID="{E2BD9020-EFBF-4842-8B43-01DEAC354F36}" WorkUnitID="{B5EFB14B-A840-4B3E-9C23-270361C5C997}"/>
 						</Reference>
-						<Reference Name="Effect0">
-							<Custom>
-								<Effect Name="Wwise Delay (Custom)" ID="{BDC19AD9-9912-45B5-91A2-FF3562F5EAC9}" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
-									<PropertyList>
-										<Property Name="DelayTime" Type="Real32" Value="0.04"/>
-										<Property Name="Feedback" Type="Real32" Value="48.5"/>
-									</PropertyList>
-								</Effect>
-							</Custom>
-						</Reference>
-						<Reference Name="Effect1">
-							<Custom CreatedFrom="{3B09A271-D9D4-4A4E-B545-F681E8313E5F}">
-								<Effect Name="Fast_LF_Tremolo (Custom)" ID="{B4B00553-591B-4C70-9D49-722EF4E78CAE}" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
-									<PropertyList>
-										<Property Name="ModDepth" Type="Real32">
-											<RTPCList>
-												<RTPC Name="" ID="{549D4891-3BFE-4DF4-8501-E723F9BA0FEC}">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<Custom>
-																<ModulatorLfo Name="Modulator LFO (Custom)" ID="{0892DBDD-DD72-40CB-BDEC-6E2EA500ACD1}"/>
-															</Custom>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{D513871A-2A09-43A7-B719-8DE99980C33A}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="1"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>25</YPos>
-																<Flags>21</Flags>
-															</Point>
-															<Point>
-																<XPos>1</XPos>
-																<YPos>78.24675</YPos>
-																<Flags>53</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
-										</Property>
-										<Property Name="ModFrequency" Type="Real32" Value="25"/>
-										<Property Name="ModPWM" Type="Real32" Value="8"/>
-										<Property Name="ModPhaseOffset" Type="Real32" Value="87"/>
-										<Property Name="ModSmoothing" Type="Real32" Value="41"/>
-										<Property Name="ModWaveform" Type="int32" Value="3"/>
-									</PropertyList>
-								</Effect>
-							</Custom>
-						</Reference>
-						<Reference Name="Effect2">
-							<Custom>
-								<Effect Name="Wwise Parametric EQ (Custom)" ID="{2FB5BEB0-7B9E-4D96-84C2-40646221FB5E}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
-									<PropertyList>
-										<Property Name="FrequencyBand2" Type="Real32" Value="700"/>
-										<Property Name="GainBand2" Type="Real32" Value="14"/>
-										<Property Name="OnOffBand1" Type="bool" Value="False"/>
-										<Property Name="OnOffBand3" Type="bool" Value="False"/>
-										<Property Name="QFactorBand2" Type="Real32" Value="9"/>
-									</PropertyList>
-								</Effect>
-							</Custom>
-						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="050_psb" ID="{592077DC-E57B-47F3-A7AD-FD5CFF280B2A}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}"/>
 						</Reference>
 					</ReferenceList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{FB0E940D-98B6-4FF4-8636-E7DCEAC41C8F}">
+										<PropertyList>
+											<Property Name="Render" Type="bool" Value="True"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="Effect">
+												<Custom>
+													<Effect Name="Wwise Delay (Custom)" ID="{BDC19AD9-9912-45B5-91A2-FF3562F5EAC9}" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+														<PropertyList>
+															<Property Name="DelayTime" Type="Real32" Value="0.04"/>
+															<Property Name="Feedback" Type="Real32" Value="48.5"/>
+														</PropertyList>
+													</Effect>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{3F94CE8A-FA54-4D2E-9D33-91F9756911E4}">
+										<ReferenceList>
+											<Reference Name="Effect">
+												<Custom CreatedFrom="{3B09A271-D9D4-4A4E-B545-F681E8313E5F}">
+													<Effect Name="Fast_LF_Tremolo (Custom)" ID="{B4B00553-591B-4C70-9D49-722EF4E78CAE}" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+														<PropertyList>
+															<Property Name="ModFrequency" Type="Real32" Value="25"/>
+															<Property Name="ModPWM" Type="Real32" Value="8"/>
+															<Property Name="ModPhaseOffset" Type="Real32" Value="87"/>
+															<Property Name="ModSmoothing" Type="Real32" Value="41"/>
+															<Property Name="ModWaveform" Type="int32" Value="3"/>
+														</PropertyList>
+														<ObjectLists>
+															<ObjectList Name="RTPC">
+																<Reference>
+																	<Local>
+																		<RTPC Name="" ID="{549D4891-3BFE-4DF4-8501-E723F9BA0FEC}">
+																			<PropertyList>
+																				<Property Name="PropertyName" Type="string" Value="ModDepth"/>
+																			</PropertyList>
+																			<ReferenceList>
+																				<Reference Name="ControlInput">
+																					<Custom>
+																						<ModulatorLfo Name="Modulator LFO (Custom)" ID="{0892DBDD-DD72-40CB-BDEC-6E2EA500ACD1}"/>
+																					</Custom>
+																				</Reference>
+																				<Reference Name="Curve">
+																					<Custom>
+																						<Curve Name="" ID="{D513871A-2A09-43A7-B719-8DE99980C33A}">
+																							<PropertyList>
+																								<Property Name="Flags" Type="int32" Value="1"/>
+																							</PropertyList>
+																							<PointList>
+																								<Point>
+																									<XPos>0</XPos>
+																									<YPos>25</YPos>
+																									<Flags>21</Flags>
+																								</Point>
+																								<Point>
+																									<XPos>1</XPos>
+																									<YPos>78.24675</YPos>
+																									<Flags>53</Flags>
+																								</Point>
+																							</PointList>
+																						</Curve>
+																					</Custom>
+																				</Reference>
+																			</ReferenceList>
+																		</RTPC>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</Effect>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{5F087C27-D5A2-4914-A4C9-ED6809F5C95F}">
+										<ReferenceList>
+											<Reference Name="Effect">
+												<Custom>
+													<Effect Name="Wwise Parametric EQ (Custom)" ID="{2FB5BEB0-7B9E-4D96-84C2-40646221FB5E}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+														<PropertyList>
+															<Property Name="FrequencyBand2" Type="Real32" Value="700"/>
+															<Property Name="GainBand2" Type="Real32" Value="14"/>
+															<Property Name="OnOffBand1" Type="bool" Value="False"/>
+															<Property Name="OnOffBand3" Type="bool" Value="False"/>
+															<Property Name="QFactorBand2" Type="Real32" Value="9"/>
+														</PropertyList>
+													</Effect>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="APCR_flyout_main" ID="{D7BCA3E5-31FC-4840-957A-E321C1AE5077}">
 					<PropertyList>
@@ -874,11 +1079,6 @@
 								<Value>-84</Value>
 							</ValueList>
 						</Property>
-						<Property Name="RenderEffect0" Type="bool">
-							<ValueList>
-								<Value>True</Value>
-							</ValueList>
-						</Property>
 						<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="0"/>
 					</PropertyList>
 					<ReferenceList>
@@ -888,77 +1088,119 @@
 						<Reference Name="Conversion">
 							<ObjectRef Name="ADPCM Auto Detect Medium 16-48" ID="{E2BD9020-EFBF-4842-8B43-01DEAC354F36}" WorkUnitID="{B5EFB14B-A840-4B3E-9C23-270361C5C997}"/>
 						</Reference>
-						<Reference Name="Effect0">
-							<Custom>
-								<Effect Name="Wwise Delay (Custom)" ID="{22BD13C3-589A-4171-AE74-CABE450F58E0}" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
-									<PropertyList>
-										<Property Name="DelayTime" Type="Real32" Value="0.04"/>
-										<Property Name="Feedback" Type="Real32" Value="48.5"/>
-									</PropertyList>
-								</Effect>
-							</Custom>
-						</Reference>
-						<Reference Name="Effect1">
-							<Custom>
-								<Effect Name="Wwise Tremolo (Custom)" ID="{57B8554E-983F-416D-8CD6-BC37167F36F1}" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
-									<PropertyList>
-										<Property Name="ModDepth" Type="Real32">
-											<RTPCList>
-												<RTPC Name="" ID="{9DCC155E-701F-4E53-B4C9-2A0510BB889D}">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<Custom>
-																<ModulatorLfo Name="Modulator LFO (Custom)" ID="{D3F5DA7C-85AD-4F04-86F9-293529283B59}"/>
-															</Custom>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{2E04C08F-2807-427F-BC94-1F047F938BC7}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="1"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>25</YPos>
-																<Flags>21</Flags>
-															</Point>
-															<Point>
-																<XPos>1</XPos>
-																<YPos>78.24675</YPos>
-																<Flags>53</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
-										</Property>
-										<Property Name="ModFrequency" Type="Real32" Value="25"/>
-										<Property Name="ModPWM" Type="Real32" Value="8"/>
-										<Property Name="ModPhaseOffset" Type="Real32" Value="87"/>
-										<Property Name="ModSmoothing" Type="Real32" Value="41"/>
-										<Property Name="ModWaveform" Type="int32" Value="3"/>
-										<Property Name="OutputGain" Type="Real32" Value="2"/>
-									</PropertyList>
-								</Effect>
-							</Custom>
-						</Reference>
-						<Reference Name="Effect2">
-							<Custom>
-								<Effect Name="Wwise Parametric EQ (Custom)" ID="{E518F1BF-1ED3-42AF-B4EF-4394DCBEAB58}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
-									<PropertyList>
-										<Property Name="FrequencyBand2" Type="Real32" Value="1100"/>
-										<Property Name="GainBand2" Type="Real32" Value="14"/>
-										<Property Name="OnOffBand1" Type="bool" Value="False"/>
-										<Property Name="OnOffBand3" Type="bool" Value="False"/>
-										<Property Name="QFactorBand2" Type="Real32" Value="9"/>
-									</PropertyList>
-								</Effect>
-							</Custom>
-						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="050_psb" ID="{592077DC-E57B-47F3-A7AD-FD5CFF280B2A}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}"/>
 						</Reference>
 					</ReferenceList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{4FCB0C83-6F56-4686-8294-7C65D729C105}">
+										<PropertyList>
+											<Property Name="Render" Type="bool" Value="True"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="Effect">
+												<Custom>
+													<Effect Name="Wwise Delay (Custom)" ID="{22BD13C3-589A-4171-AE74-CABE450F58E0}" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+														<PropertyList>
+															<Property Name="DelayTime" Type="Real32" Value="0.04"/>
+															<Property Name="Feedback" Type="Real32" Value="48.5"/>
+														</PropertyList>
+													</Effect>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{C3CCB965-B0B3-4C55-9D81-582AE502DE72}">
+										<ReferenceList>
+											<Reference Name="Effect">
+												<Custom>
+													<Effect Name="Wwise Tremolo (Custom)" ID="{57B8554E-983F-416D-8CD6-BC37167F36F1}" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+														<PropertyList>
+															<Property Name="ModFrequency" Type="Real32" Value="25"/>
+															<Property Name="ModPWM" Type="Real32" Value="8"/>
+															<Property Name="ModPhaseOffset" Type="Real32" Value="87"/>
+															<Property Name="ModSmoothing" Type="Real32" Value="41"/>
+															<Property Name="ModWaveform" Type="int32" Value="3"/>
+															<Property Name="OutputGain" Type="Real32" Value="2"/>
+														</PropertyList>
+														<ObjectLists>
+															<ObjectList Name="RTPC">
+																<Reference>
+																	<Local>
+																		<RTPC Name="" ID="{9DCC155E-701F-4E53-B4C9-2A0510BB889D}">
+																			<PropertyList>
+																				<Property Name="PropertyName" Type="string" Value="ModDepth"/>
+																			</PropertyList>
+																			<ReferenceList>
+																				<Reference Name="ControlInput">
+																					<Custom>
+																						<ModulatorLfo Name="Modulator LFO (Custom)" ID="{D3F5DA7C-85AD-4F04-86F9-293529283B59}"/>
+																					</Custom>
+																				</Reference>
+																				<Reference Name="Curve">
+																					<Custom>
+																						<Curve Name="" ID="{2E04C08F-2807-427F-BC94-1F047F938BC7}">
+																							<PropertyList>
+																								<Property Name="Flags" Type="int32" Value="1"/>
+																							</PropertyList>
+																							<PointList>
+																								<Point>
+																									<XPos>0</XPos>
+																									<YPos>25</YPos>
+																									<Flags>21</Flags>
+																								</Point>
+																								<Point>
+																									<XPos>1</XPos>
+																									<YPos>78.24675</YPos>
+																									<Flags>53</Flags>
+																								</Point>
+																							</PointList>
+																						</Curve>
+																					</Custom>
+																				</Reference>
+																			</ReferenceList>
+																		</RTPC>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</Effect>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{14975443-9C95-476E-B95E-954C149306D3}">
+										<ReferenceList>
+											<Reference Name="Effect">
+												<Custom>
+													<Effect Name="Wwise Parametric EQ (Custom)" ID="{E518F1BF-1ED3-42AF-B4EF-4394DCBEAB58}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+														<PropertyList>
+															<Property Name="FrequencyBand2" Type="Real32" Value="1100"/>
+															<Property Name="GainBand2" Type="Real32" Value="14"/>
+															<Property Name="OnOffBand1" Type="bool" Value="False"/>
+															<Property Name="OnOffBand3" Type="bool" Value="False"/>
+															<Property Name="QFactorBand2" Type="Real32" Value="9"/>
+														</PropertyList>
+													</Effect>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="APCR_flyout_small" ID="{2593B90D-60D9-4876-8B79-4CF7DF8F9A62}">
 					<PropertyList>
@@ -1000,11 +1242,6 @@
 								<Value>-84</Value>
 							</ValueList>
 						</Property>
-						<Property Name="RenderEffect0" Type="bool">
-							<ValueList>
-								<Value>True</Value>
-							</ValueList>
-						</Property>
 						<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="0"/>
 					</PropertyList>
 					<ReferenceList>
@@ -1014,77 +1251,119 @@
 						<Reference Name="Conversion">
 							<ObjectRef Name="ADPCM Auto Detect Medium 16-48" ID="{E2BD9020-EFBF-4842-8B43-01DEAC354F36}" WorkUnitID="{B5EFB14B-A840-4B3E-9C23-270361C5C997}"/>
 						</Reference>
-						<Reference Name="Effect0">
-							<Custom>
-								<Effect Name="Wwise Delay (Custom)" ID="{20B617F1-7043-4677-9010-3AAF2497B172}" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
-									<PropertyList>
-										<Property Name="DelayTime" Type="Real32" Value="0.04"/>
-										<Property Name="Feedback" Type="Real32" Value="48.5"/>
-									</PropertyList>
-								</Effect>
-							</Custom>
-						</Reference>
-						<Reference Name="Effect1">
-							<Custom>
-								<Effect Name="Wwise Tremolo (Custom)" ID="{67F42720-A187-41FF-B2D0-B3FED0E40246}" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
-									<PropertyList>
-										<Property Name="ModDepth" Type="Real32">
-											<RTPCList>
-												<RTPC Name="" ID="{D8399C05-351F-49E0-B5B8-C9D6B28343C8}">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<Custom>
-																<ModulatorLfo Name="Modulator LFO (Custom)" ID="{60D9B45F-7413-47C5-9F72-0711FE66DA93}"/>
-															</Custom>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{E391D7AE-1A79-4EA2-ADC4-EAED904464A7}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="1"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>6.49351</YPos>
-																<Flags>21</Flags>
-															</Point>
-															<Point>
-																<XPos>1</XPos>
-																<YPos>78.24675</YPos>
-																<Flags>53</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
-										</Property>
-										<Property Name="ModFrequency" Type="Real32" Value="30"/>
-										<Property Name="ModPWM" Type="Real32" Value="8"/>
-										<Property Name="ModPhaseOffset" Type="Real32" Value="87"/>
-										<Property Name="ModSmoothing" Type="Real32" Value="41"/>
-										<Property Name="ModWaveform" Type="int32" Value="3"/>
-										<Property Name="OutputGain" Type="Real32" Value="2"/>
-									</PropertyList>
-								</Effect>
-							</Custom>
-						</Reference>
-						<Reference Name="Effect2">
-							<Custom>
-								<Effect Name="Wwise Parametric EQ (Custom)" ID="{B92DA886-6276-4B44-8D69-098CF467DCF8}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
-									<PropertyList>
-										<Property Name="FrequencyBand2" Type="Real32" Value="1500"/>
-										<Property Name="GainBand2" Type="Real32" Value="14"/>
-										<Property Name="OnOffBand1" Type="bool" Value="False"/>
-										<Property Name="OnOffBand3" Type="bool" Value="False"/>
-										<Property Name="QFactorBand2" Type="Real32" Value="9"/>
-									</PropertyList>
-								</Effect>
-							</Custom>
-						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="050_psb" ID="{592077DC-E57B-47F3-A7AD-FD5CFF280B2A}" WorkUnitID="{2234EDCC-911E-442D-AF7F-4A39A6816642}"/>
 						</Reference>
 					</ReferenceList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{1E50D7D6-0CAA-4E0C-8BFC-A6235DADD75E}">
+										<PropertyList>
+											<Property Name="Render" Type="bool" Value="True"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="Effect">
+												<Custom>
+													<Effect Name="Wwise Delay (Custom)" ID="{20B617F1-7043-4677-9010-3AAF2497B172}" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+														<PropertyList>
+															<Property Name="DelayTime" Type="Real32" Value="0.04"/>
+															<Property Name="Feedback" Type="Real32" Value="48.5"/>
+														</PropertyList>
+													</Effect>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{65B11316-585B-4F85-9C53-55217871BB78}">
+										<ReferenceList>
+											<Reference Name="Effect">
+												<Custom>
+													<Effect Name="Wwise Tremolo (Custom)" ID="{67F42720-A187-41FF-B2D0-B3FED0E40246}" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+														<PropertyList>
+															<Property Name="ModFrequency" Type="Real32" Value="30"/>
+															<Property Name="ModPWM" Type="Real32" Value="8"/>
+															<Property Name="ModPhaseOffset" Type="Real32" Value="87"/>
+															<Property Name="ModSmoothing" Type="Real32" Value="41"/>
+															<Property Name="ModWaveform" Type="int32" Value="3"/>
+															<Property Name="OutputGain" Type="Real32" Value="2"/>
+														</PropertyList>
+														<ObjectLists>
+															<ObjectList Name="RTPC">
+																<Reference>
+																	<Local>
+																		<RTPC Name="" ID="{D8399C05-351F-49E0-B5B8-C9D6B28343C8}">
+																			<PropertyList>
+																				<Property Name="PropertyName" Type="string" Value="ModDepth"/>
+																			</PropertyList>
+																			<ReferenceList>
+																				<Reference Name="ControlInput">
+																					<Custom>
+																						<ModulatorLfo Name="Modulator LFO (Custom)" ID="{60D9B45F-7413-47C5-9F72-0711FE66DA93}"/>
+																					</Custom>
+																				</Reference>
+																				<Reference Name="Curve">
+																					<Custom>
+																						<Curve Name="" ID="{E391D7AE-1A79-4EA2-ADC4-EAED904464A7}">
+																							<PropertyList>
+																								<Property Name="Flags" Type="int32" Value="1"/>
+																							</PropertyList>
+																							<PointList>
+																								<Point>
+																									<XPos>0</XPos>
+																									<YPos>6.49351</YPos>
+																									<Flags>21</Flags>
+																								</Point>
+																								<Point>
+																									<XPos>1</XPos>
+																									<YPos>78.24675</YPos>
+																									<Flags>53</Flags>
+																								</Point>
+																							</PointList>
+																						</Curve>
+																					</Custom>
+																				</Reference>
+																			</ReferenceList>
+																		</RTPC>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</Effect>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{3FA6C381-710D-4547-B962-E5A6162C2B00}">
+										<ReferenceList>
+											<Reference Name="Effect">
+												<Custom>
+													<Effect Name="Wwise Parametric EQ (Custom)" ID="{B92DA886-6276-4B44-8D69-098CF467DCF8}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+														<PropertyList>
+															<Property Name="FrequencyBand2" Type="Real32" Value="1500"/>
+															<Property Name="GainBand2" Type="Real32" Value="14"/>
+															<Property Name="OnOffBand1" Type="bool" Value="False"/>
+															<Property Name="OnOffBand3" Type="bool" Value="False"/>
+															<Property Name="QFactorBand2" Type="Real32" Value="9"/>
+														</PropertyList>
+													</Effect>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 				</RandomSequenceContainer>
 				<Effect Name="psb_flyout" ID="{6E22E901-A77E-4C5B-BAD1-A1ECCD17E86D}" PluginName="Wwise Stereo Delay" CompanyID="0" PluginID="135" PluginType="3">
 					<PropertyList>
@@ -1108,72 +1387,55 @@
 						<Property Name="EnableFeedback" Type="bool" Value="True"/>
 						<Property Name="LeftDelayTime" Type="Real32" Value="0.208"/>
 						<Property Name="RightDelayTime" Type="Real32" Value="0.312"/>
-						<Property Name="WetLevel" Type="Real32" Value="-96">
-							<RTPCList>
-								<RTPC Name="" ID="{F6C2889A-54EB-412C-AFA8-B1DED7DCC6BE}">
-									<ReferenceList>
-										<Reference Name="ControlInput">
-											<ObjectRef Name="RTPC_int_distance" ID="{BF3AB708-0AE6-46FC-B487-5F27895968F1}" WorkUnitID="{99AED538-0B7F-42D5-942E-04185D409E05}"/>
-										</Reference>
-									</ReferenceList>
-									<Curve Name="" ID="{65AF3414-1C3F-4989-B362-0E99D55E1814}">
-										<PropertyList>
-											<Property Name="Flags" Type="int32" Value="3"/>
-										</PropertyList>
-										<PointList>
-											<Point>
-												<XPos>0</XPos>
-												<YPos>-96</YPos>
-												<Flags>5</Flags>
-											</Point>
-											<Point>
-												<XPos>70</XPos>
-												<YPos>-15</YPos>
-												<Flags>0</Flags>
-											</Point>
-											<Point>
-												<XPos>250</XPos>
-												<YPos>-15</YPos>
-												<Flags>37</Flags>
-											</Point>
-										</PointList>
-									</Curve>
-								</RTPC>
-							</RTPCList>
-						</Property>
+						<Property Name="WetLevel" Type="Real32" Value="-96"/>
 					</PropertyList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{F6C2889A-54EB-412C-AFA8-B1DED7DCC6BE}">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="WetLevel"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="RTPC_int_distance" ID="{BF3AB708-0AE6-46FC-B487-5F27895968F1}" WorkUnitID="{99AED538-0B7F-42D5-942E-04185D409E05}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{65AF3414-1C3F-4989-B362-0E99D55E1814}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-96</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>70</XPos>
+																<YPos>-15</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>250</XPos>
+																<YPos>-15</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 				</Effect>
 				<Effect Name="dron_endbattle" ID="{D62A1BF2-10CC-460B-8AD1-89F8956A0495}" PluginName="McDSP FutzBox" CompanyID="256" PluginID="110" PluginType="3">
 					<PropertyList>
-						<Property Name="Balance" Type="Real32">
-							<RTPCList>
-								<RTPC Name="" ID="{B9F3C6C8-F1FD-4438-A908-62AE55B4417B}">
-									<ReferenceList>
-										<Reference Name="ControlInput">
-											<ObjectRef Name="RTPC_int_music_dron_outro_velocity" ID="{DD4C7EE3-1118-4B44-B17D-D5ACBFC1E18A}" WorkUnitID="{4077DA64-BB20-412A-BBAC-B8E4E8321E7F}"/>
-										</Reference>
-									</ReferenceList>
-									<Curve Name="" ID="{FFB0228D-57F2-4F45-9F7D-9CB84F538811}">
-										<PropertyList>
-											<Property Name="Flags" Type="int32" Value="1"/>
-										</PropertyList>
-										<PointList>
-											<Point>
-												<XPos>0</XPos>
-												<YPos>0</YPos>
-												<Flags>5</Flags>
-												<SegmentShape>Log2</SegmentShape>
-											</Point>
-											<Point>
-												<XPos>5</XPos>
-												<YPos>100</YPos>
-												<Flags>37</Flags>
-											</Point>
-										</PointList>
-									</Curve>
-								</RTPC>
-							</RTPCList>
-						</Property>
 						<Property Name="DistortionAmount" Type="Real32" Value="27"/>
 						<Property Name="DistortionIntensity" Type="Real32" Value="82"/>
 						<Property Name="DistortionMode" Type="int32" Value="2"/>
@@ -1184,75 +1446,130 @@
 						<Property Name="LoFiEnable" Type="bool" Value="False"/>
 						<Property Name="LoFiFilter" Type="Real32" Value="100"/>
 						<Property Name="NoiseLPFFreq" Type="Real32" Value="8110"/>
-						<Property Name="NoiseLevel" Type="Real32">
-							<RTPCList>
-								<RTPC Name="" ID="{E15DEFC5-FA60-4E97-826A-AE5F7123920A}">
-									<ReferenceList>
-										<Reference Name="ControlInput">
-											<ObjectRef Name="RTPC_int_music_dron_outro_velocity" ID="{DD4C7EE3-1118-4B44-B17D-D5ACBFC1E18A}" WorkUnitID="{4077DA64-BB20-412A-BBAC-B8E4E8321E7F}"/>
-										</Reference>
-									</ReferenceList>
-									<Curve Name="" ID="{DDFC39CC-4BCF-4702-BFB8-645045ADD32D}">
-										<PropertyList>
-											<Property Name="Flags" Type="int32" Value="1"/>
-										</PropertyList>
-										<PointList>
-											<Point>
-												<XPos>0</XPos>
-												<YPos>-59.53247</YPos>
-												<Flags>5</Flags>
-												<SegmentShape>Exp1</SegmentShape>
-											</Point>
-											<Point>
-												<XPos>1.77222</XPos>
-												<YPos>-60.04602</YPos>
-												<Flags>0</Flags>
-												<SegmentShape>SCurve</SegmentShape>
-											</Point>
-											<Point>
-												<XPos>5</XPos>
-												<YPos>-20.57143</YPos>
-												<Flags>37</Flags>
-											</Point>
-										</PointList>
-									</Curve>
-								</RTPC>
-							</RTPCList>
-						</Property>
 						<Property Name="NoiseRange" Type="Real32" Value="0"/>
 						<Property Name="NoiseRecovery" Type="Real32" Value="200"/>
-						<Property Name="OutputGain" Type="Real32">
-							<RTPCList>
-								<RTPC Name="" ID="{3BC70CE5-334D-4562-9431-7C520F9FF9DC}">
-									<ReferenceList>
-										<Reference Name="ControlInput">
-											<ObjectRef Name="RTPC_int_music_dron_outro_velocity" ID="{DD4C7EE3-1118-4B44-B17D-D5ACBFC1E18A}" WorkUnitID="{4077DA64-BB20-412A-BBAC-B8E4E8321E7F}"/>
-										</Reference>
-									</ReferenceList>
-									<Curve Name="" ID="{42CE0AE6-DB11-4B9C-A413-90D55B94C028}">
-										<PropertyList>
-											<Property Name="Flags" Type="int32" Value="1"/>
-										</PropertyList>
-										<PointList>
-											<Point>
-												<XPos>0</XPos>
-												<YPos>0</YPos>
-												<Flags>5</Flags>
-												<SegmentShape>Exp3</SegmentShape>
-											</Point>
-											<Point>
-												<XPos>5</XPos>
-												<YPos>-10.28572</YPos>
-												<Flags>37</Flags>
-											</Point>
-										</PointList>
-									</Curve>
-								</RTPC>
-							</RTPCList>
-						</Property>
 						<Property Name="SIMTuning" Type="Real32" Value="91"/>
 						<Property Name="SIMType" Type="int32" Value="26"/>
+						<Property Name="Version" Type="int32" Value="1"/>
 					</PropertyList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{B9F3C6C8-F1FD-4438-A908-62AE55B4417B}">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Balance"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="RTPC_int_music_dron_outro_velocity" ID="{DD4C7EE3-1118-4B44-B17D-D5ACBFC1E18A}" WorkUnitID="{4077DA64-BB20-412A-BBAC-B8E4E8321E7F}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{FFB0228D-57F2-4F45-9F7D-9CB84F538811}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="1"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Log2</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>5</XPos>
+																<YPos>100</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{E15DEFC5-FA60-4E97-826A-AE5F7123920A}">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="NoiseLevel"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="RTPC_int_music_dron_outro_velocity" ID="{DD4C7EE3-1118-4B44-B17D-D5ACBFC1E18A}" WorkUnitID="{4077DA64-BB20-412A-BBAC-B8E4E8321E7F}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{DDFC39CC-4BCF-4702-BFB8-645045ADD32D}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="1"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-59.53247</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Exp1</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>1.77222</XPos>
+																<YPos>-60.04602</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>SCurve</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>5</XPos>
+																<YPos>-20.57143</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{3BC70CE5-334D-4562-9431-7C520F9FF9DC}">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="OutputGain"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="RTPC_int_music_dron_outro_velocity" ID="{DD4C7EE3-1118-4B44-B17D-D5ACBFC1E18A}" WorkUnitID="{4077DA64-BB20-412A-BBAC-B8E4E8321E7F}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{42CE0AE6-DB11-4B9C-A413-90D55B94C028}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="1"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Exp3</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>5</XPos>
+																<YPos>-10.28572</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 				</Effect>
 				<Effect Name="Wwise Compressor Random Music Battle" ID="{FFC8E712-8259-49DD-95B7-D06C86EBCBCD}" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
 					<PropertyList>
@@ -1343,47 +1660,6 @@
 				</Effect>
 				<Effect Name="eng_distortion" ID="{EAB826B0-0F5E-4A88-83C6-336D5A80A6CE}" PluginName="iZotope Trash Multiband Distortion" CompanyID="259" PluginID="9" PluginType="3">
 					<PropertyList>
-						<Property Name="Distortion1Band1Mix" Type="Real32">
-							<RTPCList>
-								<RTPC Name="" ID="{ABDA1890-72F3-4D59-BEBC-97DFD3BBD9DC}">
-									<ReferenceList>
-										<Reference Name="ControlInput">
-											<ObjectRef Name="RTPC_ext_physic_load_global" ID="{8F0AC952-FE05-43A1-9537-4F827B1BBF6F}" WorkUnitID="{87FF0202-7DD4-4D0F-A267-00520CCB358C}"/>
-										</Reference>
-									</ReferenceList>
-									<Curve Name="" ID="{D8EDB434-0ED9-4CA8-8388-E5676C7D5715}">
-										<PropertyList>
-											<Property Name="Flags" Type="int32" Value="1"/>
-										</PropertyList>
-										<PointList>
-											<Point>
-												<XPos>-1</XPos>
-												<YPos>100</YPos>
-												<Flags>5</Flags>
-												<SegmentShape>SCurve</SegmentShape>
-											</Point>
-											<Point>
-												<XPos>0</XPos>
-												<YPos>0</YPos>
-												<Flags>0</Flags>
-												<SegmentShape>Exp2</SegmentShape>
-											</Point>
-											<Point>
-												<XPos>0.82389</XPos>
-												<YPos>20.20614</YPos>
-												<Flags>0</Flags>
-												<SegmentShape>Log3</SegmentShape>
-											</Point>
-											<Point>
-												<XPos>1</XPos>
-												<YPos>100</YPos>
-												<Flags>37</Flags>
-											</Point>
-										</PointList>
-									</Curve>
-								</RTPC>
-							</RTPCList>
-						</Property>
 						<Property Name="Distortion1Band1OutputGain" Type="Real32" Value="-7"/>
 						<Property Name="Distortion1Band1Overdrive" Type="Real32" Value="6.5"/>
 						<Property Name="Distortion1Band1Trash" Type="Real32" Value="0.3"/>
@@ -1391,50 +1667,61 @@
 						<Property Name="MultibandCrossover1" Type="Real32" Value="700"/>
 						<Property Name="MultibandCrossover2" Type="Real32" Value="9800"/>
 					</PropertyList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{ABDA1890-72F3-4D59-BEBC-97DFD3BBD9DC}">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Distortion1Band1Mix"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="RTPC_ext_physic_load_global" ID="{8F0AC952-FE05-43A1-9537-4F827B1BBF6F}" WorkUnitID="{87FF0202-7DD4-4D0F-A267-00520CCB358C}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{D8EDB434-0ED9-4CA8-8388-E5676C7D5715}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="1"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>-1</XPos>
+																<YPos>100</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>SCurve</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Exp2</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>0.82389</XPos>
+																<YPos>20.20614</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Log3</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>100</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 				</Effect>
 				<Effect Name="eng_distortion_133_eng_ext_pc" ID="{A89B9066-4963-450D-AF5E-6CA941437C60}" PluginName="iZotope Trash Multiband Distortion" CompanyID="259" PluginID="9" PluginType="3">
 					<PropertyList>
-						<Property Name="Distortion1Band1Mix" Type="Real32">
-							<RTPCList>
-								<RTPC Name="" ID="{1A35E533-44BD-426B-B2D6-8909E9649AE9}">
-									<ReferenceList>
-										<Reference Name="ControlInput">
-											<ObjectRef Name="RTPC_ext_physic_load_global" ID="{8F0AC952-FE05-43A1-9537-4F827B1BBF6F}" WorkUnitID="{87FF0202-7DD4-4D0F-A267-00520CCB358C}"/>
-										</Reference>
-									</ReferenceList>
-									<Curve Name="" ID="{35FFBD41-18CA-4190-9CFC-45005798866B}">
-										<PropertyList>
-											<Property Name="Flags" Type="int32" Value="1"/>
-										</PropertyList>
-										<PointList>
-											<Point>
-												<XPos>-1</XPos>
-												<YPos>100</YPos>
-												<Flags>5</Flags>
-												<SegmentShape>SCurve</SegmentShape>
-											</Point>
-											<Point>
-												<XPos>0</XPos>
-												<YPos>0</YPos>
-												<Flags>0</Flags>
-												<SegmentShape>Exp2</SegmentShape>
-											</Point>
-											<Point>
-												<XPos>0.75102</XPos>
-												<YPos>36.56977</YPos>
-												<Flags>0</Flags>
-												<SegmentShape>Log3</SegmentShape>
-											</Point>
-											<Point>
-												<XPos>1</XPos>
-												<YPos>100</YPos>
-												<Flags>37</Flags>
-											</Point>
-										</PointList>
-									</Curve>
-								</RTPC>
-							</RTPCList>
-						</Property>
 						<Property Name="Distortion1Band1OutputGain" Type="Real32" Value="-3"/>
 						<Property Name="Distortion1Band1Overdrive" Type="Real32" Value="2.5"/>
 						<Property Name="Distortion1Band1Trash" Type="Real32" Value="0.3"/>
@@ -1442,6 +1729,58 @@
 						<Property Name="MultibandCrossover1" Type="Real32" Value="200"/>
 						<Property Name="MultibandCrossover2" Type="Real32" Value="8420"/>
 					</PropertyList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{1A35E533-44BD-426B-B2D6-8909E9649AE9}">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Distortion1Band1Mix"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="RTPC_ext_physic_load_global" ID="{8F0AC952-FE05-43A1-9537-4F827B1BBF6F}" WorkUnitID="{87FF0202-7DD4-4D0F-A267-00520CCB358C}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{35FFBD41-18CA-4190-9CFC-45005798866B}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="1"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>-1</XPos>
+																<YPos>100</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>SCurve</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Exp2</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>0.75102</XPos>
+																<YPos>36.56977</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Log3</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>100</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 				</Effect>
 			</ChildrenList>
 		</WorkUnit>
