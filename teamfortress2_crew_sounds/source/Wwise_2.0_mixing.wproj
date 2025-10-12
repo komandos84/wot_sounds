@@ -1,13 +1,295 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="Project" SchemaVersion="119" WwiseVersion="v2023.1.4" WwiseBuild="8496">
 	<ProjectInfo>
-		<Project Name="WoT_sound_mod" ID="{655ED899-8C41-4BD4-9799-A8885909500D}">
+		<Project Name="Wwise_2.0_mixing" ID="{655ED899-8C41-4BD4-9799-A8885909500D}">
 			<Platforms>
 				<Platform Name="Windows_HighRes" ReferencePlatform="Windows" ID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EC}"/>
-				<Platform Name="Windows_LowRes" ReferencePlatform="Windows" ID="{476C6D0C-5ECB-4DD6-B930-2C6594B0FA2F}"/>
 			</Platforms>
 			<LanguageList>
-				<Language Name="Arabic" ID="{205FC0BD-3411-4AF9-90FC-0AE0D3C54C30}">
+				<Language Name="BB21_en_US_CabbageMechanic" ID="{B2DE31C7-283D-4F1F-8470-583F1AE46907}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
+				<Language Name="BB21_en_US_Circon" ID="{9D14FBDC-7CF5-4BA3-AF3C-1759230281D7}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
+				<Language Name="BB21_en_US_Cmdr_AF" ID="{654B8191-0546-4296-9D8B-333604D012CA}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
+				<Language Name="BB21_en_US_Conan" ID="{554033FE-36E6-4318-BBA3-165314E8E0FA}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
+				<Language Name="BB21_en_US_Dakillzor" ID="{DDA1BCE1-47C5-47AB-BAE1-39664844DED4}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
+				<Language Name="BB21_en_US_Orzanel" ID="{14E6020C-B522-4233-985B-F7742D709336}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
+				<Language Name="BB21_en_US_TragicLoss" ID="{795D8885-51DB-4E8A-9390-93288BA7C1E8}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
+				<Language Name="BB21_ja_JP_LF_kame" ID="{2047212B-D992-43E3-87D5-825E996A0C58}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
+				<Language Name="BB21_ko_KR_Summer_Cola" ID="{B5E035B8-1672-458F-801B-E41CD13B5E16}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
+				<Language Name="BB21_pl_PL_NewMulti2k" ID="{F2A5E0A5-0390-4E50-B85C-C09B5363D143}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
+				<Language Name="BB21_ru_RU_Amway" ID="{18FA93E4-0DFF-4444-B925-553661C87368}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
+				<Language Name="BB21_ru_RU_EviL_GrannY" ID="{5049C901-242B-4881-A19E-54EF40E8736D}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
+				<Language Name="BB21_ru_RU_Inspirer" ID="{8BBFA663-6CB7-4A3A-A61E-0656E5570E91}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
+				<Language Name="BB21_ru_RU_KorbenDallas" ID="{F6066C02-1D6A-4D84-872F-75BD91456FEB}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
+				<Language Name="BB21_ru_RU_LeBwa" ID="{6C081F2A-F286-4AF9-970F-692F669B43AA}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
+				<Language Name="BB21_ru_RU_Near_You" ID="{D9DEB901-655B-4893-9D0B-4D91DE791A93}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
+				<Language Name="BB21_ru_RU_Vspishka" ID="{9EE10EF5-7F2F-46E5-BF9E-97F534A0FB80}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
+				<Language Name="BB21_ru_RU_Yusha" ID="{23BFDE59-2C00-4FB0-938D-85A5CB5FF2FF}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
+				<Language Name="Belarusian_be_BY" ID="{C88A4D7F-0816-47C0-84B7-A841A0AB7B9F}"/>
+				<Language Name="Blogger_de_DE_Mailand" ID="{76F1E4B5-0285-470A-B013-93191CA2ACCF}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>14</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
+				<Language Name="Blogger_en_US_AwesomeEpicGuys" ID="{F46014B9-657F-4333-B044-71FC38EE1D51}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>14</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
+				<Language Name="Blogger_en_US_DezGamez" ID="{7BA613D5-49B8-420A-BEB1-F3251F91CF9C}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>14</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
+				<Language Name="Blogger_en_US_Skill4ltu" ID="{0B198699-94B6-47A0-AF16-72D44FCF983E}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>11</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
+				<Language Name="Blogger_ru_RU_Amway" ID="{1D792B4F-96DD-4188-9CE9-E2CE285EB996}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>14</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
+				<Language Name="Blogger_ru_RU_Korben" ID="{77CC89F0-3772-4712-9763-063B11B23EF2}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>15</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
+				<Language Name="Blogger_ru_RU_Levsha" ID="{C43EA651-A7B0-4B6B-B722-C02FD0B15A04}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>14</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
+				<Language Name="Blogger_ru_RU_Yusha" ID="{FDB45B6D-E96D-4A1E-94FA-919B9630641C}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>13</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
+				<Language Name="Chinese_zh_CN" ID="{C80F3701-F768-4480-9F17-B074266D748C}"/>
+				<Language Name="Chinese_zh_TW" ID="{CFFD285B-B653-4B4D-98E7-B49FF62580B1}"/>
+				<Language Name="Custom_en_US_Arnold" ID="{65B76574-5248-4476-9228-FCFE16388A37}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>4</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
+				<Language Name="Custom_en_US_Chuck" ID="{1E3B809F-88CE-44CB-A0B5-17E81F57589B}"/>
+				<Language Name="Custom_en_US_Cobra" ID="{CE53E896-B492-4494-8048-F2139C4CE1D8}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>9</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
+				<Language Name="Custom_en_US_Duke" ID="{6B05F002-3C84-4045-976C-25FB57570929}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>9</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
+				<Language Name="Custom_en_US_Offspring" ID="{4F2BF8E0-3F60-43B6-81F8-033809584FA2}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>5.5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
+				<Language Name="Custom_en_US_Race" ID="{5B002133-46B7-438B-A6C7-AA8138E4E8FD}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
+				<Language Name="Custom_en_US_Sabaton" ID="{B5744701-1119-4828-A6B7-16118AD0C7EE}">
 					<PropertyList>
 						<Property Name="VolumeOffset" Type="Real64">
 							<ValueList>
@@ -16,21 +298,110 @@
 						</Property>
 					</PropertyList>
 				</Language>
-				<Language Name="Bulgarian" ID="{7F98416C-EB82-4A41-98E5-8F3E62281F03}"/>
-				<Language Name="Chinese(HK)" ID="{DA3A156C-818B-4A69-B423-46145C472F42}"/>
-				<Language Name="Chinese(Malaysia)" ID="{E5C5E68F-D2B4-443F-9E13-2115213108EC}"/>
-				<Language Name="Chinese(PRC)" ID="{32902742-7D24-4A45-B8D7-DE2DA0ACD8AA}"/>
-				<Language Name="Chinese(Taiwan)" ID="{8BEA5923-026D-4C75-A006-E8549408390E}">
+				<Language Name="Custom_en_US_Sabaton_v2" ID="{4EBB76B6-223B-4A9E-B29E-25E2AD8B6486}"/>
+				<Language Name="Custom_it_IT_Buffon" ID="{3B6A6B69-FB2B-46D6-860B-1BDFCA35CCB6}"/>
+				<Language Name="Custom_ja_JP_GuP_Crew" ID="{4392D0CB-C274-4C7B-B576-6C76523BFC0E}">
 					<PropertyList>
 						<Property Name="VolumeOffset" Type="Real64">
 							<ValueList>
-								<Value>6</Value>
+								<Value>7</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
 				</Language>
-				<Language Name="Czech" ID="{D68BFD9F-B587-4D84-8AA6-F4013EBA3441}"/>
-				<Language Name="Danish" ID="{1F88B6E7-56CC-4E42-90A6-28E887C6156F}">
+				<Language Name="Custom_ja_JP_GuP_Crew_CN" ID="{2CD6B66C-8F1E-43A8-AE2D-47C410EA79C9}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>7</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
+				<Language Name="Custom_ja_JP_GuP_Miho" ID="{010F0225-AF2A-415F-96F5-C20FD3E1EA2A}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>7</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
+				<Language Name="Custom_ja_JP_valkirya1" ID="{CFD580DD-CEA6-4833-B24D-392052984841}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>7</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
+				<Language Name="Custom_ja_JP_valkirya2" ID="{B937EDFB-32F7-4171-BA15-607F1FEC3D51}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>7</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
+				<Language Name="Custom_ru_RU_Arnold" ID="{91A65B0C-D82D-48CE-B92E-89ACC66CD223}"/>
+				<Language Name="Custom_ru_RU_Chuck" ID="{28B79619-B7CC-4C94-B0AB-0F80FC8B1BB8}"/>
+				<Language Name="Custom_ru_RU_Gagarin" ID="{B4268D91-8B37-460C-AC82-1D57B2F5EC7F}"/>
+				<Language Name="Custom_ru_RU_GuP" ID="{F3AD93A8-EB6E-4590-B037-899338EFB978}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
+				<Language Name="Custom_ru_RU_Kamaz" ID="{0AFB00FC-CAB2-4B0A-B1F7-B0D0C68FC3ED}"/>
+				<Language Name="Custom_ru_RU_Race" ID="{17C4EE3E-175B-4AAB-A73C-C64CEEA8ADBD}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
+				<Language Name="Czech_cs_CZ" ID="{4DAF5303-5308-4734-8E66-59394236CB63}"/>
+				<Language Name="English_en_GB" ID="{220774AF-882D-460D-9470-9339AE143FB8}"/>
+				<Language Name="English_en_US" ID="{D2079BA8-52A4-4C72-953D-F6670A946E4C}"/>
+				<Language Name="Estonian_et_EE" ID="{BF40349C-C7F0-4015-BCF9-AAF88AA9889A}"/>
+				<Language Name="External" ID="{AD9C1D1D-C528-412C-892D-D8C08A67FA1C}"/>
+				<Language Name="French_fr_FR" ID="{8A088677-F790-49F5-80B5-05FBC52718BC}"/>
+				<Language Name="German_de_DE" ID="{FADD2C00-82CA-49EC-BD3A-28A45A2EA71F}"/>
+				<Language Name="Indonesian_id_ID" ID="{5030AAA2-5AFA-42FB-9A32-0663BEFB746A}"/>
+				<Language Name="Italian_it_IT" ID="{77E377BF-CCF3-4FF5-B626-452028A46778}"/>
+				<Language Name="Japanese_ja_JP" ID="{551DDF96-23CB-406C-888A-480C1F80096F}"/>
+				<Language Name="Kazakh_kk_KZ" ID="{C6213143-ED76-403B-9836-FC2985049EFA}"/>
+				<Language Name="Korean_ko_KR" ID="{D4D2151C-95E1-499E-8C9B-4C954C643F96}"/>
+				<Language Name="Latvian_lv_LV" ID="{3922E37D-7410-4D5F-9DA9-343A456D1F87}"/>
+				<Language Name="Lithuanian_lt_LT" ID="{E615F231-6135-45A6-B602-4CAD3342B0D0}"/>
+				<Language Name="Mixed" ID="{1F5D9014-D9D8-4767-9E09-C6AD099FD32A}"/>
+				<Language Name="Mod_ko_KR_Office" ID="{7186FCC3-E6A5-4F67-8928-61CED0F64F54}"/>
+				<Language Name="Mod_pl_PL_Ala" ID="{29743A0D-E0A7-414A-8B10-26F526C3F26A}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>12</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
+				<Language Name="Mod_pt_BR_Female" ID="{C38BE0FF-EDAD-460F-967A-4ADA0B6BDA9A}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>8.5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
+				<Language Name="Mod_ru_RU_Asya" ID="{E797F413-3EE5-4893-8295-37F462A2CCEF}">
 					<PropertyList>
 						<Property Name="VolumeOffset" Type="Real64">
 							<ValueList>
@@ -39,7 +410,7 @@
 						</Property>
 					</PropertyList>
 				</Language>
-				<Language Name="Dutch" ID="{28586D7A-B910-4DB2-83C6-671AE8932A63}">
+				<Language Name="Mod_ru_RU_Asya_Olya" ID="{1F75F20A-4929-4108-A009-FFF2A56CA438}">
 					<PropertyList>
 						<Property Name="VolumeOffset" Type="Real64">
 							<ValueList>
@@ -48,7 +419,76 @@
 						</Property>
 					</PropertyList>
 				</Language>
-				<Language Name="English(Australia)" ID="{D4B9007B-EEFA-4B28-9E8B-53BA74D5C25E}">
+				<Language Name="Mod_ru_RU_Deadpool" ID="{95DB9F53-4B03-4D96-A92C-A6C8F19D4F79}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>9</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
+				<Language Name="Mod_ru_RU_OlgaSerg" ID="{DFD86F77-A038-413F-9CEB-310031AACB49}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
+				<Language Name="Mod_ru_RU_Oreshkin" ID="{4074DFB7-FCEE-4C7E-AA7E-C4980FF7305E}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
+				<Language Name="Mod_ru_RU_SerB_clean" ID="{826C9768-7F09-4BDC-B7E2-06504EACCD49}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
+				<Language Name="Mod_ru_RU_SerB_fx" ID="{3411D1FA-EB60-4837-ACB9-7EA9DD008654}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
+				<Language Name="Mod_ru_RU_Solidon" ID="{698B51CD-BEE7-4F63-8487-CAAB3BA7F061}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
+				<Language Name="Mod_ru_RU_WGTV" ID="{C91400FA-923A-4132-B34C-026BA381AB30}">
+					<PropertyList>
+						<Property Name="VolumeOffset" Type="Real64">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Language>
+				<Language Name="Polish_pl_PL" ID="{551719CF-24AF-4C8C-AEC0-0A53FF117136}"/>
+				<Language Name="Portuguese_pt_BR" ID="{138904FE-6309-422E-B1B8-3F2EA4523E9B}"/>
+				<Language Name="Russian_ru_RU" ID="{3A26457B-7413-4A3D-A0B2-0A01FBE6B802}"/>
+				<Language Name="SFX" ID="{08DD6169-A10F-419A-8112-C96DE3265289}"/>
+				<Language Name="Spanish_es_AR" ID="{B3DCEC1F-62A5-4380-851E-A8E49A3C1DFF}"/>
+				<Language Name="Spanish_es_ES" ID="{F72261A8-9364-443C-8CEE-655227EBF4C5}"/>
+				<Language Name="Swedish_sv_SE" ID="{658E621F-471D-4056-B499-3CE3AC4E8D46}">
 					<PropertyList>
 						<Property Name="VolumeOffset" Type="Real64">
 							<ValueList>
@@ -57,149 +497,78 @@
 						</Property>
 					</PropertyList>
 				</Language>
-				<Language Name="English(India)" ID="{A122AE12-61E2-4127-B201-EE6451715202}">
-					<PropertyList>
-						<Property Name="VolumeOffset" Type="Real64">
-							<ValueList>
-								<Value>3</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-				</Language>
-				<Language Name="English(UK)" ID="{E7DB96BB-2C96-401C-A921-8ABFD62A767F}"/>
-				<Language Name="English(US)" ID="{DCBB6861-5777-4344-ACCD-86A0AE5E9AF0}"/>
-				<Language Name="External" ID="{1A75B68D-CC48-4DA3-BEFB-457F1DA01A26}"/>
-				<Language Name="Finnish" ID="{7BD76C31-ED58-4E62-85E7-7D8AC03DC4A4}"/>
-				<Language Name="French(Canada)" ID="{5CDAF585-F282-4616-B884-23C981E1C76C}"/>
-				<Language Name="French(France)" ID="{EAE3327C-DA97-48B3-B787-7804A2B7D9CC}"/>
-				<Language Name="German" ID="{FA04603A-33FF-46DB-8AA8-95DC71D5970F}"/>
-				<Language Name="Greek" ID="{9266745C-7FB1-447C-8B63-D1B838BB9C80}"/>
-				<Language Name="Hebrew" ID="{5C207DC7-E757-45A2-B76B-7A50F97079F8}">
-					<PropertyList>
-						<Property Name="VolumeOffset" Type="Real64">
-							<ValueList>
-								<Value>3</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-				</Language>
-				<Language Name="Hungarian" ID="{66B61B69-6F51-4569-9A40-36AAE3D86BCC}"/>
-				<Language Name="Indonesian" ID="{93563FB8-3F54-47D3-8D30-646FD763D9DB}"/>
-				<Language Name="Italian" ID="{54CAAC31-4413-4A05-9E45-8F0C3763FE2E}">
-					<PropertyList>
-						<Property Name="VolumeOffset" Type="Real64">
-							<ValueList>
-								<Value>3</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-				</Language>
-				<Language Name="Japanese" ID="{5475A185-CC94-4D79-A447-C223604C1E2D}"/>
-				<Language Name="Korean" ID="{8F328719-AFFD-4E60-A496-7CB422FC07D3}"/>
-				<Language Name="Latin" ID="{180F6308-BCE3-47A6-A888-5A1204A6A3CA}"/>
-				<Language Name="Mixed" ID="{96848119-F8F7-4779-9331-8BFC37558967}"/>
-				<Language Name="Norwegian" ID="{6E121D59-1CF4-408B-BF6E-D86347C67681}">
-					<PropertyList>
-						<Property Name="VolumeOffset" Type="Real64">
-							<ValueList>
-								<Value>3</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-				</Language>
-				<Language Name="Polish" ID="{168AA7B9-40D2-42FB-8AFF-64696E65894B}"/>
-				<Language Name="Portuguese(Brazil)" ID="{B94AEBC8-E2B3-4A72-88B0-97B63E00E98D}"/>
-				<Language Name="Portuguese(Portugal)" ID="{557BA99A-E00B-4FE1-83FA-2322B0E7FB47}"/>
-				<Language Name="Romanian" ID="{F8AE72A2-F4DC-49B3-AC83-01ACA508868E}"/>
-				<Language Name="Russian" ID="{A525FED1-1E7C-4E36-B75D-D78CABF76720}"/>
-				<Language Name="SFX" ID="{3642C821-6AF5-4541-88A3-9ED876757316}"/>
-				<Language Name="Slovenian" ID="{742341F2-3375-4B9B-8CAD-4F6A967F23C4}"/>
-				<Language Name="Spanish(Mexico)" ID="{7437C4A6-F7E5-47AE-B274-6DEFAF08E135}">
-					<PropertyList>
-						<Property Name="VolumeOffset" Type="Real64">
-							<ValueList>
-								<Value>3</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-				</Language>
-				<Language Name="Spanish(Spain)" ID="{04F0AB18-E62E-4253-B58D-9783BDCE9B8E}"/>
-				<Language Name="Spanish(US)" ID="{C3038403-F73C-4F81-BBDA-ADEC82DEEAAC}"/>
-				<Language Name="Swedish" ID="{B7A1B554-E47A-41C7-B10F-D7092F2DBAC7}">
-					<PropertyList>
-						<Property Name="VolumeOffset" Type="Real64">
-							<ValueList>
-								<Value>3</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-				</Language>
-				<Language Name="Thai" ID="{C7BBEF6B-9789-4FE0-AF0E-B088A3410309}"/>
-				<Language Name="Turkish" ID="{7B2EE807-8446-4837-8539-38C2B1233B03}"/>
-				<Language Name="Ukrainian" ID="{9B69DAC2-F496-4E38-9412-47D9B1922008}"/>
-				<Language Name="Vietnamese" ID="{14189AC6-D1BF-4C4D-BBF5-5297025D4C24}"/>
+				<Language Name="Thai_th_TH" ID="{7CF5B974-6AE5-4FB9-8415-995525028D60}"/>
+				<Language Name="Turkish_tr_TR" ID="{6A946E7B-1BE0-4881-9957-BACB3867FEF9}"/>
+				<Language Name="Ukrainian_uk_UA" ID="{A2FE0297-53C1-40FC-A714-7AE80BD0EB6A}"/>
+				<Language Name="Vietnamese_vi_VN" ID="{4C2F2FFB-3EB4-418A-B9A6-F53C557DAD5F}"/>
+				<Language Name="WT21_en_US_armand" ID="{67563F78-11D3-4649-A4F9-519E8816F852}"/>
+				<Language Name="WT21_en_US_elisa" ID="{BFC9C768-95D4-4BFD-8C76-E3F409A5D8CC}"/>
+				<Language Name="WT21_en_US_krieger" ID="{E0F6DA6E-821F-4D25-8F75-42690504D4DF}"/>
+				<Language Name="WT21_en_US_letov" ID="{33A59831-5DB2-42F3-A19F-0424F4DA6AFE}"/>
+				<Language Name="WT21_ru_RU_armand" ID="{5B65A296-9BD6-47E4-B9B5-941AD4BA4D6E}"/>
+				<Language Name="WT21_ru_RU_elisa" ID="{199C2CF2-B5DF-4C1D-82CA-12960499800E}"/>
+				<Language Name="WT21_ru_RU_krieger" ID="{5BAD0BF7-6E3F-4546-B3F9-B513A4317D78}"/>
+				<Language Name="WT21_ru_RU_letov" ID="{E4D8963C-A7F3-4808-B83B-763FCF32006D}"/>
+				<Language Name="WT21_zh_CN_armand" ID="{903CAF5D-769B-4686-984F-B1B79E82561C}"/>
+				<Language Name="WT21_zh_CN_elisa" ID="{8BDFEC46-5EB1-432D-887C-FB9FF03EB01F}"/>
+				<Language Name="WT21_zh_CN_krieger" ID="{750EA918-703F-48DF-A753-77C7DD7D2117}"/>
+				<Language Name="WT21_zh_CN_letov" ID="{B9FABC6F-8D4A-4ADD-926E-72E4CA57A78B}"/>
+				<Language Name="YHA_zh_CN" ID="{EB9034EC-6B96-40E8-849A-6A994EF13D51}"/>
 			</LanguageList>
 			<PropertyList>
-				<Property Name="DefaultLanguage" Type="string" Value="Russian"/>
+				<Property Name="DefaultLanguage" Type="string" Value="Russian_ru_RU"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
 						<Value Platform="Windows_HighRes"></Value>
-						<Value Platform="Windows_LowRes"></Value>
 					</ValueList>
 				</Property>
 				<Property Name="ExternalSourcesOutputPath" Type="string">
 					<ValueList>
 						<Value Platform="Windows_HighRes">GeneratedSoundBanks\Windows_HighRes</Value>
-						<Value Platform="Windows_LowRes">GeneratedSoundBanks\Windows_LowRes</Value>
 					</ValueList>
 				</Property>
 				<Property Name="GlobalVoiceInstancesLimit" Type="int16">
 					<ValueList>
 						<Value Platform="Windows_HighRes">110</Value>
-						<Value Platform="Windows_LowRes">70</Value>
 					</ValueList>
 				</Property>
-				<Property Name="LicenseKey" Type="string" Value="PHByb2plY3QgaWQ9IjM4ODYiIG1hc2s9IlZYTU45ODY0IiBlbmM9IjMiPjxsaWNlbnNlIGlkPSIxIiBuYW1lPSJXd2lzZSIgdHlwZT0iMyIgcGxhdGZvcm1zPSIxMCIgZXhwaXJlcz0iMjAyNC0xMC0wMSIgIC8+PGxpY2Vuc2UgaWQ9IjIxIiBuYW1lPSJNYWludGVuYW5jZSIgdHlwZT0iMyIgcGxhdGZvcm1zPSIxMCIgZXhwaXJlcz0iMjAyNC0xMC0wMSIgIC8+PGxpY2Vuc2UgaWQ9IjI0IiBuYW1lPSJMZXZlbCBDIExpY2Vuc2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMTAiIGV4cGlyZXM9IjIwMjQtMTAtMDEiICAvPjxsaWNlbnNlIGlkPSIxNCIgbmFtZT0iaVpvdG9wZSBUcmFzaCBCb3ggTW9kZWxzIiB0eXBlPSIzIiBwbGF0Zm9ybXM9IjEwIiBleHBpcmVzPSIyMDI0LTEwLTAxIiAgLz48bGljZW5zZSBpZD0iMTIiIG5hbWU9Imlab3RvcGUgVHJhc2ggTXVsdGktYmFuZCBEaXN0b3J0aW9ucyIgdHlwZT0iMyIgcGxhdGZvcm1zPSIxMCIgZXhwaXJlcz0iMjAyNC0xMC0wMSIgIC8+PGxpY2Vuc2UgaWQ9IjEwIiBuYW1lPSJNY0RTUCBCdW5kbGUgKE1MMSwgRnV0ekJveCkiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMTAiIGV4cGlyZXM9IjIwMjQtMTAtMDEiICAvPjxsaWNlbnNlIGlkPSI3IiBuYW1lPSJTb3VuZFNlZWQgQnVuZGxlIChJbXBhY3QsIEFpcikiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMTAiIGV4cGlyZXM9IjIwMjQtMTAtMDEiICAvPjxsaWNlbnNlIGlkPSI2IiBuYW1lPSJXd2lzZSBDb252b2x1dGlvbiBSZXZlcmIiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMTAiIGV4cGlyZXM9IjIwMjQtMTAtMDEiICAvPjxwbHVnaW4gaWQ9IjgzMjMwNzUiIG5hbWU9Ild3aXNlIENvbnZvbHV0aW9uIFJldmVyYiIgbGljZW5zZT0iNiIgLz48L3Byb2plY3Q+|ahuTILa6heD7Y2uMSvD4bNldmHoMgpjU4CHw0YMwy10+nZC8YQ33Htd3KXiwsyxhViSRkKiInSUeeBpy1/DCjWVG3iEFnVHea46qVyOIL00Nz2yaAOUmNHFKhI6VVugZMXRlPQ9JS9+2UQ1Vd1U2keikc1l29XocsnCf6NUEQfRD+8UQ25mxvXOVJgd0rmi0t0n8y6gZQcIEcc9yFAFTpTRZ2TXb82N5nqAZ8lCKjQ757zWnczlqoZ+mRqp0k6P/lyQrVtLPSX6ds3VvJMF4CPwR1vh1rVg/rUiv2nY8rgPEpRSUe+ZPyjWbiRZi/5nZhZ4BIMQ/EK+l3SrZWvvksA=="/>
+				<Property Name="LicenseKey" Type="string" Value="PHByb2plY3QgaWQ9IjM4ODYiIG1hc2s9IlZYTU45ODY0IiBlbmM9IjMiPjxsaWNlbnNlIGlkPSIxIiBuYW1lPSJXd2lzZSIgdHlwZT0iMyIgcGxhdGZvcm1zPSIxMCIgZXhwaXJlcz0iMjAyNi0xMC0wMSIgIC8+PGxpY2Vuc2UgaWQ9IjIxIiBuYW1lPSJNYWludGVuYW5jZSIgdHlwZT0iMyIgcGxhdGZvcm1zPSIxMCIgZXhwaXJlcz0iMjAyNi0xMC0wMSIgIC8+PGxpY2Vuc2UgaWQ9IjI0IiBuYW1lPSJMZXZlbCBDIExpY2Vuc2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMTAiIGV4cGlyZXM9IjIwMjYtMTAtMDEiICAvPjxsaWNlbnNlIGlkPSIxNCIgbmFtZT0iaVpvdG9wZSBUcmFzaCBCb3ggTW9kZWxzIiB0eXBlPSIzIiBwbGF0Zm9ybXM9IjEwIiBleHBpcmVzPSIyMDI2LTEwLTAxIiAgLz48bGljZW5zZSBpZD0iMTIiIG5hbWU9Imlab3RvcGUgVHJhc2ggTXVsdGktYmFuZCBEaXN0b3J0aW9ucyIgdHlwZT0iMyIgcGxhdGZvcm1zPSIxMCIgZXhwaXJlcz0iMjAyNi0xMC0wMSIgIC8+PGxpY2Vuc2UgaWQ9IjEwIiBuYW1lPSJNY0RTUCBCdW5kbGUgKE1MMSwgRnV0ekJveCkiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMTAiIGV4cGlyZXM9IjIwMjYtMTAtMDEiICAvPjxsaWNlbnNlIGlkPSI3IiBuYW1lPSJTb3VuZFNlZWQgQnVuZGxlIChJbXBhY3QsIEFpcikiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMTAiIGV4cGlyZXM9IjIwMjYtMTAtMDEiICAvPjxsaWNlbnNlIGlkPSI2IiBuYW1lPSJXd2lzZSBDb252b2x1dGlvbiBSZXZlcmIiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMTAiIGV4cGlyZXM9IjIwMjYtMTAtMDEiICAvPjxsaWNlbnNlIGlkPSI4IiBuYW1lPSJXd2lzZSBNb3Rpb24iIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMTAiIGV4cGlyZXM9IjIwMjYtMTAtMDEiICAvPjxwbHVnaW4gaWQ9IjgzMjMwNzUiIG5hbWU9Ild3aXNlIENvbnZvbHV0aW9uIFJldmVyYiIgbGljZW5zZT0iNiIgLz48cGx1Z2luIGlkPSIzMzU1NDQzOSIgbmFtZT0iV3dpc2UgTW90aW9uIFNjZVBhZCBSdW1ibGUiIGxpY2Vuc2U9IjgiIC8+PHBsdWdpbiBpZD0iMzM2MTk5NzUiIG5hbWU9Ild3aXNlIE1vdGlvbiBTY2VQYWQgSGFwdGljcyIgbGljZW5zZT0iOCIgLz48L3Byb2plY3Q+|ucyjalywtVivRHwH2W4tf+b9LV8jn7fEBE62g2oxDmsy19sazS5dAN2md50DKaW4CCgkexB0Jmg9mKCC+0tgfouUuyQU8oVkge5eOpXJUhOGlw7hrPUqdru0Y2VnHY/TSNrRkgiLGvuh9FSVCZNctXqogi7noVBkPWIKqQ7wzGl2+JFXvKUJF6P3YfHm/FpSoZrR5qjzE5njPKPjdUlDHpGI3pymnrcwQoxhBCZpfz3VfR/X4yU2mTvokL01d5b05lN5LYad9uylOaVPzBW/mR9FF/sb9pVod8m0qcWYx6ffcTYVDFkUYQmSCMYOuqHzdx1wCRQpekaro0lm8V+HnQ=="/>
 				<Property Name="RemoveUnusedGeneratedFiles" Type="bool" Value="False"/>
 				<Property Name="SoundBankGenerateDefinitionFile" Type="bool" Value="False"/>
+				<Property Name="SoundBankGenerateEstimatedDuration" Type="bool" Value="True"/>
 				<Property Name="SoundBankGenerateMaxAttenuationInfo" Type="bool" Value="True"/>
-				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>
+				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
 						<Value Platform="Windows_HighRes">.\GeneratedSoundBanks\WinHighRes\</Value>
-						<Value Platform="Windows_LowRes">.\GeneratedSoundBanks\WinLowRes\</Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPostGenerateCustomCmdDescription" Type="string">
 					<ValueList>
 						<Value>Generate PCK, Voiceovers, etc</Value>
 						<Value Platform="Windows_HighRes">Copy Streamed Files</Value>
-						<Value Platform="Windows_LowRes">Copy Streamed Files</Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPostGenerateCustomCmdLines" Type="string">
 					<ValueList>
-						<Value>$(WwiseProjectPath)\GeneratedSoundBanks\WinHighRes\PostBuild.cmd $(WwiseProjectPath) &gt;$(WwiseProjectPath)\GeneratedSoundBanks\WinHighRes\log.txt</Value>
+						<Value>$(WwiseProjectPath)\GeneratedSoundBanks\WinHighRes\PostBuild.cmd $(WwiseProjectPath) &gt;$(WwiseProjectPath)\GeneratedSoundBanks\WinHighRes\BuildLog.txt</Value>
 						<Value Platform="Windows_HighRes"></Value>
-						<Value Platform="Windows_LowRes"></Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPreGenerateCustomCmdDescription" Type="string">
 					<ValueList>
 						<Value Platform="Windows_HighRes"></Value>
-						<Value Platform="Windows_LowRes"></Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPreGenerateCustomCmdLines" Type="string">
 					<ValueList>
 						<Value Platform="Windows_HighRes"></Value>
-						<Value Platform="Windows_LowRes"></Value>
 					</ValueList>
 				</Property>
+				<Property Name="UseMaxDangerousVirtualVoices" Type="bool" Value="False"/>
 				<Property Name="VolumeThreshold" Type="Real64">
 					<ValueList>
 						<Value Platform="Windows_HighRes">-50</Value>
-						<Value Platform="Windows_LowRes">-50</Value>
 					</ValueList>
 				</Property>
 				<Property Name="WwiseVersionWhenCreated" Type="string" Value="Branch=wwise_v2014.1|Build=5195|VersionName=v2014.1.2|Config=Release"/>
@@ -1026,6 +1395,30 @@
 						<Property Name="ProximityLevel" Type="Real32">
 							<ValueList>
 								<Value>0</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</SharedPropertyList>
+				<SharedPropertyList ClassName="" PluginType="1" CompanyID="0" PluginID="3">
+					<PropertyList>
+						<Property Name="BlockSize" Type="int32">
+							<ValueList>
+								<Value>16</Value>
+							</ValueList>
+						</Property>
+						<Property Name="FilterHigh" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="FixLoopMethod" Type="int32">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Quality" Type="int32">
+							<ValueList>
+								<Value>75</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -8067,6 +8460,185 @@
 				</SharedPropertyList>
 				<SharedPropertyList ClassName="CustomState" PluginType="0" CompanyID="1" PluginID="79"/>
 				<SharedPropertyList ClassName="MidiFileSource" PluginType="0" CompanyID="1" PluginID="80"/>
+				<SharedPropertyList ClassName="" PluginType="2" CompanyID="269" PluginID="80">
+					<PropertyList>
+						<Property Name="Brake" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Crossfade" Type="Real32">
+							<ValueList>
+								<Value>300</Value>
+							</ValueList>
+						</Property>
+						<Property Name="DynamicControls" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="DynamicVolumes" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Gearbox" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="GrainRPM" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="GranularVolume" Type="Real32">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IdleFade" Type="Real32">
+							<ValueList>
+								<Value>25</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IdleGain" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="LFODepth" Type="Real32">
+							<ValueList>
+								<Value>2</Value>
+							</ValueList>
+						</Property>
+						<Property Name="LFOFreq" Type="Real32">
+							<ValueList>
+								<Value>5</Value>
+							</ValueList>
+						</Property>
+						<Property Name="LimiterKickback" Type="Real32">
+							<ValueList>
+								<Value>990</Value>
+							</ValueList>
+						</Property>
+						<Property Name="LimiterThreshold" Type="Real32">
+							<ValueList>
+								<Value>1000</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Load" Type="Real32">
+							<ValueList>
+								<Value>100</Value>
+							</ValueList>
+						</Property>
+						<Property Name="LoadMultiplier" Type="Real32">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Loop0Gain" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Loop0PitchValue" Type="Real32">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Loop1Gain" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Loop1PitchValue" Type="Real32">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Loop2Gain" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Loop2PitchValue" Type="Real32">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Loop3Gain" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Loop3PitchValue" Type="Real32">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Loop4Gain" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Loop4PitchValue" Type="Real32">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Loop5Gain" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Loop5PitchValue" Type="Real32">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="LoopVolume" Type="Real32">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="OffloadGain" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="OnloadGain" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="PitchValues" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="RPMMultiplier" Type="Real32">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ShuffleDepth" Type="Real32">
+							<ValueList>
+								<Value>10</Value>
+							</ValueList>
+						</Property>
+						<Property Name="StreamType" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Throttle" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</SharedPropertyList>
 				<SharedPropertyList ClassName="Metadata" PluginType="0" CompanyID="1" PluginID="81">
 					<PropertyList>
 						<Property Name="Color" Type="int16">
@@ -8082,6 +8654,175 @@
 						<Property Name="OverrideColor" Type="bool">
 							<ValueList>
 								<Value>False</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</SharedPropertyList>
+				<SharedPropertyList ClassName="" PluginType="2" CompanyID="269" PluginID="81">
+					<PropertyList>
+						<Property Name="Brake" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Crossfade" Type="Real32">
+							<ValueList>
+								<Value>300</Value>
+							</ValueList>
+						</Property>
+						<Property Name="DynamicControls" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="DynamicVolumes" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Gearbox" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="GrainRPM" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="GranularVolume" Type="Real32">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IdleFade" Type="Real32">
+							<ValueList>
+								<Value>25</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IdleGain" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="LFODepth" Type="Real32">
+							<ValueList>
+								<Value>2</Value>
+							</ValueList>
+						</Property>
+						<Property Name="LFOFreq" Type="Real32">
+							<ValueList>
+								<Value>5</Value>
+							</ValueList>
+						</Property>
+						<Property Name="LimiterKickback" Type="Real32">
+							<ValueList>
+								<Value>990</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Load" Type="Real32">
+							<ValueList>
+								<Value>100</Value>
+							</ValueList>
+						</Property>
+						<Property Name="LoadMultiplier" Type="Real32">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Loop0Gain" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Loop0PitchValue" Type="Real32">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Loop1Gain" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Loop1PitchValue" Type="Real32">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Loop2Gain" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Loop2PitchValue" Type="Real32">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Loop3Gain" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Loop3PitchValue" Type="Real32">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Loop4Gain" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Loop4PitchValue" Type="Real32">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Loop5Gain" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Loop5PitchValue" Type="Real32">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="LoopVolume" Type="Real32">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="OffloadGain" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="OnloadGain" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="PitchValues" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="RPMMultiplier" Type="Real32">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ShuffleDepth" Type="Real32">
+							<ValueList>
+								<Value>10</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Throttle" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -8106,6 +8847,370 @@
 						<Property Name="Time" Type="Real64">
 							<ValueList>
 								<Value>0</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</SharedPropertyList>
+				<SharedPropertyList ClassName="" PluginType="2" CompanyID="269" PluginID="82">
+					<PropertyList>
+						<Property Name="osc1AmFreq" Type="Real32">
+							<ValueList>
+								<Value>0.01</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc1AmGain" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc1AmOsc" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc1AmWaveshape" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc1BlendAmount" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc1CustomIndex" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc1FmFreq" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc1FmGain" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc1FmOsc" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc1FmWaveshape" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc1MainFreq" Type="Real32">
+							<ValueList>
+								<Value>200</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc1MainGain" Type="Real32">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc1MainOsc" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc1MainWaveshape" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc1MainWaveshapeSecondary" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc1VibratoFreq" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc1VibratoGain" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc1VibratoOsc" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc2AmFreq" Type="Real32">
+							<ValueList>
+								<Value>0.01</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc2AmGain" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc2AmOsc" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc2AmWaveshape" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc2BlendAmount" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc2CustomIndex" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc2FmFreq" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc2FmGain" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc2FmOsc" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc2FmWaveshape" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc2MainFreq" Type="Real32">
+							<ValueList>
+								<Value>200</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc2MainGain" Type="Real32">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc2MainOsc" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc2MainWaveshape" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc2MainWaveshapeSecondary" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc2VibratoFreq" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc2VibratoGain" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc2VibratoOsc" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc3AmFreq" Type="Real32">
+							<ValueList>
+								<Value>0.01</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc3AmGain" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc3AmOsc" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc3AmWaveshape" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc3BlendAmount" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc3CustomIndex" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc3FmFreq" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc3FmGain" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc3FmOsc" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc3FmWaveshape" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc3MainFreq" Type="Real32">
+							<ValueList>
+								<Value>200</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc3MainGain" Type="Real32">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc3MainOsc" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc3MainWaveshape" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc3MainWaveshapeSecondary" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc3VibratoFreq" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc3VibratoGain" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc3VibratoOsc" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc4AmFreq" Type="Real32">
+							<ValueList>
+								<Value>0.01</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc4AmGain" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc4AmOsc" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc4AmWaveshape" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc4BlendAmount" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc4CustomIndex" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc4FmFreq" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc4FmGain" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc4FmOsc" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc4FmWaveshape" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc4MainFreq" Type="Real32">
+							<ValueList>
+								<Value>200</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc4MainGain" Type="Real32">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc4MainOsc" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc4MainWaveshape" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc4MainWaveshapeSecondary" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc4VibratoFreq" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc4VibratoGain" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="osc4VibratoOsc" Type="bool">
+							<ValueList>
+								<Value>False</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -8172,7 +9277,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="Resonance Audio Renderer" PluginType="3" CompanyID="272" PluginID="100">
+				<SharedPropertyList ClassName="" PluginType="3" CompanyID="272" PluginID="100">
 					<PropertyList>
 						<Property Name="Color" Type="int16">
 							<ValueList>
@@ -8187,6 +9292,85 @@
 						<Property Name="OverrideColor" Type="bool">
 							<ValueList>
 								<Value>False</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</SharedPropertyList>
+				<SharedPropertyList ClassName="" PluginType="3" CompanyID="292" PluginID="100">
+					<PropertyList>
+						<Property Name="Color" Type="int16">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ControlHF" Type="Real32">
+							<ValueList>
+								<Value>5000</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ControlLF" Type="Real32">
+							<ValueList>
+								<Value>200</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ControlMF" Type="Real32">
+							<ValueList>
+								<Value>1000</Value>
+							</ValueList>
+						</Property>
+						<Property Name="DistanceUnit" Type="Real32">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="OverrideColor" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ReflectionsDelay" Type="Real32">
+							<ValueList>
+								<Value>0.01</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ReflectionsGain" Type="Real32">
+							<ValueList>
+								<Value>-12.041</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ReverbDecayHFRatio" Type="Real32">
+							<ValueList>
+								<Value>0.6</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ReverbDecayLFRatio" Type="Real32">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ReverbDecayTime" Type="Real32">
+							<ValueList>
+								<Value>0.7</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ReverbDelay" Type="Real32">
+							<ValueList>
+								<Value>0.03</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ReverbGain" Type="Real32">
+							<ValueList>
+								<Value>-15.917</Value>
+							</ValueList>
+						</Property>
+						<Property Name="RoomGain" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -10053,7 +11237,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="Wwise Convolution Reverb" PluginType="3" CompanyID="0" PluginID="127">
+				<SharedPropertyList ClassName="" PluginType="3" CompanyID="0" PluginID="127">
 					<PropertyList>
 						<Property Name="AlgoTypeSelect" Type="int32">
 							<ValueList>
@@ -10948,7 +12132,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="ASIO Output" PluginType="7" CompanyID="0" PluginID="168">
+				<SharedPropertyList ClassName="" PluginType="7" CompanyID="0" PluginID="168">
 					<PropertyList>
 						<Property Name="BaseChannel" Type="int32">
 							<ValueList>
@@ -10992,6 +12176,25 @@
 						<Property Name="RoomSize" Type="int32">
 							<ValueList>
 								<Value>3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</SharedPropertyList>
+				<SharedPropertyList ClassName="" PluginType="7" CompanyID="275" PluginID="170">
+					<PropertyList>
+						<Property Name="Color" Type="int16">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="OverrideColor" Type="bool">
+							<ValueList>
+								<Value>False</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -11131,6 +12334,34 @@
 						<Property Name="Wet" Type="Real32">
 							<ValueList>
 								<Value>0</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</SharedPropertyList>
+				<SharedPropertyList ClassName="" PluginType="6" CompanyID="0" PluginID="172">
+					<PropertyList>
+						<Property Name="Color" Type="int16">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="OverrideColor" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</SharedPropertyList>
+				<SharedPropertyList ClassName="" PluginType="3" CompanyID="0" PluginID="173">
+					<PropertyList>
+						<Property Name="Channel" Type="Real32">
+							<ValueList>
+								<Value>1</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -11333,7 +12564,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="SoundSeed Grain" PluginType="2" CompanyID="0" PluginID="183">
+				<SharedPropertyList ClassName="" PluginType="2" CompanyID="0" PluginID="183">
 					<PropertyList>
 						<Property Name="Amplitude" Type="Real32">
 							<ValueList>
@@ -12227,7 +13458,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="Impacter" PluginType="2" CompanyID="0" PluginID="184">
+				<SharedPropertyList ClassName="" PluginType="2" CompanyID="0" PluginID="184">
 					<PropertyList>
 						<Property Name="Color" Type="int16">
 							<ValueList>
@@ -12326,7 +13557,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="ParameterModulatorAssociation" PluginType="0" CompanyID="0" PluginID="185">
+				<SharedPropertyList ClassName="" PluginType="0" CompanyID="0" PluginID="185">
 					<PropertyList>
 						<Property Name="ModDisplayName" Type="string">
 							<ValueList>
@@ -12858,7 +14089,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="Wwise Channel Router" PluginType="3" CompanyID="0" PluginID="191">
+				<SharedPropertyList ClassName="" PluginType="3" CompanyID="0" PluginID="191">
 					<PropertyList>
 						<Property Name="BusChannelConfig" Type="int32">
 							<ValueList>
@@ -12901,8 +14132,37 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
+				<SharedPropertyList ClassName="" PluginType="6" CompanyID="292" PluginID="200">
+					<PropertyList>
+						<Property Name="Color" Type="int16">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="OverrideColor" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</SharedPropertyList>
 				<SharedPropertyList ClassName="" PluginType="2" CompanyID="0" PluginID="201">
 					<PropertyList>
+						<Property Name="Color" Type="int16">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="OverrideColor" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Token" Type="int32">
 							<ValueList>
 								<Value>0</Value>
@@ -12910,7 +14170,111 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="ASIO Input" PluginType="2" CompanyID="0" PluginID="204">
+				<SharedPropertyList ClassName="" PluginType="3" CompanyID="292" PluginID="201">
+					<PropertyList>
+						<Property Name="directGain" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="directGainHF" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="directGainLF" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="directGainMF" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="gain" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="innerAngle" Type="Real32">
+							<ValueList>
+								<Value>50</Value>
+							</ValueList>
+						</Property>
+						<Property Name="maxDistance" Type="Real32">
+							<ValueList>
+								<Value>10</Value>
+							</ValueList>
+						</Property>
+						<Property Name="minDistance" Type="Real32">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="omnidirectional" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="outerAngle" Type="Real32">
+							<ValueList>
+								<Value>340</Value>
+							</ValueList>
+						</Property>
+						<Property Name="outerGain" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="outerGainHF" Type="Real32">
+							<ValueList>
+								<Value>-21.938</Value>
+							</ValueList>
+						</Property>
+						<Property Name="outerGainLF" Type="Real32">
+							<ValueList>
+								<Value>-3.7417</Value>
+							</ValueList>
+						</Property>
+						<Property Name="outerGainMF" Type="Real32">
+							<ValueList>
+								<Value>-7.9588</Value>
+							</ValueList>
+						</Property>
+						<Property Name="override3DProperties" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="rolloffFactor" Type="Real32">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="roomGain" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="roomGainHF" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="roomGainLF" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="roomGainMF" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</SharedPropertyList>
+				<SharedPropertyList ClassName="" PluginType="2" CompanyID="0" PluginID="204">
 					<PropertyList>
 						<Property Name="BaseChannel" Type="int32">
 							<ValueList>
@@ -13145,7 +14509,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="Wwise Motion Source" PluginType="2" CompanyID="0" PluginID="409">
+				<SharedPropertyList ClassName="" PluginType="2" CompanyID="0" PluginID="409">
 					<PropertyList>
 						<Property Name="Channel1" Type="int16">
 							<ValueList>
@@ -13254,7 +14618,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="CrankcaseAudio REV" PluginType="2" CompanyID="261" PluginID="416">
+				<SharedPropertyList ClassName="" PluginType="2" CompanyID="261" PluginID="416">
 					<PropertyList>
 						<Property Name="Color" Type="int16">
 							<ValueList>
@@ -13303,7 +14667,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="EngineSimulationControlData" PluginType="0" CompanyID="261" PluginID="417">
+				<SharedPropertyList ClassName="" PluginType="0" CompanyID="261" PluginID="417">
 					<PropertyList>
 						<Property Name="ClutchRPMMergeTime" Type="Real32">
 							<ValueList>
@@ -13382,7 +14746,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="AccelDecelModelControlData" PluginType="0" CompanyID="261" PluginID="418">
+				<SharedPropertyList ClassName="" PluginType="0" CompanyID="261" PluginID="418">
 					<PropertyList>
 						<Property Name="CrossfadeDuration" Type="int32">
 							<ValueList>
@@ -13441,7 +14805,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="GranularModelControlData" PluginType="0" CompanyID="261" PluginID="419">
+				<SharedPropertyList ClassName="" PluginType="0" CompanyID="261" PluginID="419">
 					<PropertyList>
 						<Property Name="GrainWidth" Type="int32">
 							<ValueList>
@@ -13485,7 +14849,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="Wwise Motion" PluginType="7" CompanyID="0" PluginID="507">
+				<SharedPropertyList ClassName="" PluginType="7" CompanyID="0" PluginID="507">
 					<PropertyList>
 						<Property Name="BypassEffect" Type="bool">
 							<ValueList>
@@ -13533,7 +14897,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="Channel Router Settings" PluginType="9" CompanyID="0" PluginID="903">
+				<SharedPropertyList ClassName="" PluginType="9" CompanyID="0" PluginID="903">
 					<PropertyList>
 						<Property Name="Channel" Type="Uint32">
 							<ValueList>
@@ -13858,11 +15222,31 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="Tencent GME Source" PluginType="2" CompanyID="289" PluginID="9001">
+				<SharedPropertyList ClassName="" PluginType="7" CompanyID="289" PluginID="9000">
 					<PropertyList>
 						<Property Name="Color" Type="int16">
 							<ValueList>
 								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="GMEAuthBlob" Type="string">
+							<ValueList>
+								<Value></Value>
+							</ValueList>
+						</Property>
+						<Property Name="GMERoomID" Type="string">
+							<ValueList>
+								<Value>123abc</Value>
+							</ValueList>
+						</Property>
+						<Property Name="GMEUserID" Type="int64">
+							<ValueList>
+								<Value>123456</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>True</Value>
 							</ValueList>
 						</Property>
 						<Property Name="OverrideColor" Type="bool">
@@ -13872,21 +15256,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="Tencent GME Receive" PluginType="2" CompanyID="289" PluginID="9003">
-					<PropertyList>
-						<Property Name="Color" Type="int16">
-							<ValueList>
-								<Value>0</Value>
-							</ValueList>
-						</Property>
-						<Property Name="OverrideColor" Type="bool">
-							<ValueList>
-								<Value>False</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-				</SharedPropertyList>
-				<SharedPropertyList ClassName="Tencent GME Send" PluginType="3" CompanyID="289" PluginID="9004">
+				<SharedPropertyList ClassName="" PluginType="3" CompanyID="289" PluginID="9004">
 					<PropertyList>
 						<Property Name="Color" Type="int16">
 							<ValueList>
@@ -13905,7 +15275,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="Tencent GME Session" PluginType="3" CompanyID="289" PluginID="9005">
+				<SharedPropertyList ClassName="" PluginType="3" CompanyID="289" PluginID="9005">
 					<PropertyList>
 						<Property Name="Color" Type="int16">
 							<ValueList>
@@ -14115,7 +15485,7 @@
 					<WorkUnit Name="Events" ID="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Events\Ranked_battles">
-					<WorkUnit Name="Ranked_battles" ID="{BB8A842F-71E4-449A-AAE1-2639E9C479BD}" PersistMode="Standalone"/>
+					<WorkUnit Name="Ranked_battles" ID="{0269BBDB-5E18-48BA-BE14-83FF8E106860}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Game Parameters">
 					<WorkUnit Name="Game Parameters" ID="{4025818E-097F-4A72-B692-B8A2E2663DCB}" PersistMode="Standalone"/>

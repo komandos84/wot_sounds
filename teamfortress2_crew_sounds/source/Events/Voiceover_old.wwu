@@ -1034,7 +1034,7 @@
 				<Folder Name="notifications_flt" ID="{40F79E4C-7562-428D-ACDB-513DF49906C4}" ShortID="337338854">
 					<Comment>Бой до последнего</Comment>
 					<ChildrenList>
-						<Event Name="vo_flt_repair" ID="{7B8E992C-F299-435C-A378-26320C692EE2}">
+						<Event Name="vo_flt_repair_01" ID="{7B8E992C-F299-435C-A378-26320C692EE2}">
 							<Comment>Ивент - Ремонт проведен</Comment>
 						</Event>
 						<Event Name="vo_flt_take_flag" ID="{F5ED82A7-1FE3-4047-ACC7-DC50868A86ED}">
@@ -1058,7 +1058,7 @@
 						<Event Name="vo_flt_combat_reserve" ID="{63322562-3CB9-4BBE-A351-4E90B9025CC2}">
 							<Comment>Ивент - Получен боевой резерв</Comment>
 						</Event>
-						<Event Name="vo_flt_ready_for_action" ID="{A300CDA7-EC3E-4D6B-AA63-0255810CFFDE}">
+						<Event Name="vo_flt_ready_for_action_01" ID="{A300CDA7-EC3E-4D6B-AA63-0255810CFFDE}">
 							<Comment>Ивент - Готов</Comment>
 						</Event>
 					</ChildrenList>
