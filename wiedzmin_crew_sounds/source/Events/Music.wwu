@@ -44,16 +44,16 @@ Music is set depending on a map setting (region).</Comment>
 						<Event Name="music_desert" ID="{F176487D-42AE-4C3B-9614-BAAE85F3F478}"/>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="Loginscreen" ID="{8AE7808A-2004-41B1-8DBA-FC387D01CD4A}" ShortID="128475641">
+				<Folder Name="Loginscreen" ID="{6007C0DB-34BF-415C-BC16-D8B4D2BA4AD6}" ShortID="128475642">
 					<ChildrenList>
-						<Event Name="loginscreen_music_start" ID="{662732CA-6574-4B1E-872B-D378DC303B36}"/>
-						<Event Name="loginscreen_mute" ID="{39054800-30C4-4DD3-8D95-7C8FA6E712D8}"/>
-						<Event Name="loginscreen_unmute" ID="{20C025B9-CADA-454C-B3CA-00CC5898649D}"/>
+						<Event Name="loginscreen_music_start_01" ID="{A63D6BFE-D347-47E9-A2AB-9A1615BA2BB8}"/>
+						<Event Name="loginscreen_mute_01" ID="{D89BFF8B-B825-4D7F-A895-B0031A311B42}"/>
+						<Event Name="loginscreen_unmute_01" ID="{A17B91AE-BA7E-4BB6-BB96-B31E0AF4B938}"/>
 						<Event Name="loginscreen_music_stop_longfade" ID="{B55CB314-24F7-4C5E-8E43-A72010ED2785}"/>
-						<Event Name="loginscreen_ambient_start" ID="{DCA68B0B-40B9-4CBB-B188-CC7F57FF0CBB}"/>
-						<Event Name="loginscreen_ambient_stop" ID="{E339DF54-75C5-4EEF-A869-0485D2448A6C}"/>
-						<Event Name="loginscreen_music_pause" ID="{DB63054C-21CE-4447-9AD9-8BC5E678DD25}"/>
-						<Event Name="loginscreen_music_resume" ID="{D3137202-65F3-4699-9D5F-B0984C043CEF}"/>
+						<Event Name="loginscreen_ambient_start_01" ID="{056EFB75-3ADC-4A7E-918C-4C994F9F8B42}"/>
+						<Event Name="loginscreen_ambient_stop_01" ID="{9D3B5B0C-0FD8-425B-92D1-2F3D50B553E7}"/>
+						<Event Name="loginscreen_music_pause_01" ID="{0AEA5C75-D3BA-49C1-92C9-53A06B99BE23}"/>
+						<Event Name="loginscreen_music_resume_01" ID="{2F62DD1B-CA43-4436-8E0F-432C37D90838}"/>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
