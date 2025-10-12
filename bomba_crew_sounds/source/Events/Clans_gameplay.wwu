@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D9F0BACB-B06F-4738-953E-192FA63F9D09}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Clans_gameplay" ID="{D9F0BACB-B06F-4738-953E-192FA63F9D09}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="clans_stronghold_gameplay" ID="{918A07C2-99EB-4061-BC9B-D70CEE766096}" ShortID="936884313">
+					<ChildrenList>
+						<Folder Name="gui_clan_abilities" ID="{AE0460E4-BA87-4BAC-908D-1F1C02C4E09F}" ShortID="44209605">
+							<ChildrenList>
+								<Event Name="gui_clan_abl_ready_to_use" ID="{8481CFF6-385C-4BB5-AB9B-EC8F69CAAF6D}"/>
+								<Event Name="gui_clan_abl_insp_start" ID="{6553138C-46EE-4058-80B9-46E79CC73F30}"/>
+								<Event Name="gui_clan_abl_insp_end" ID="{0A027878-F139-48A9-9EAC-7A78E294C191}"/>
+								<Event Name="gui_clan_abl_insp_enter" ID="{8C1B6E02-9294-4504-AD26-593052DE3BF9}"/>
+								<Event Name="gui_clan_abl_insp_exit" ID="{15FCA8C1-6BD0-48EA-A16B-32F7759925F4}"/>
+								<Event Name="gui_clan_abl_art_aim" ID="{D78C68BB-3812-432C-975C-2F4754351962}"/>
+								<Event Name="gui_clan_abl_art_cancel" ID="{D45989C9-42EC-4A0E-931C-6753E67551FA}"/>
+								<Event Name="gui_clan_abl_art_apply" ID="{2397C11A-28AE-41F9-9F5C-B80B8A335895}"/>
+								<Event Name="gui_clan_abl_art_enter" ID="{65F6D1E1-ECEA-4758-8867-9C4BC67FDE09}"/>
+								<Event Name="gui_clan_abl_art_exit" ID="{9B065E13-E76F-46D4-B044-A965EF10F4A5}"/>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

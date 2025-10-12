@@ -1,0 +1,169 @@
+<WwiseDocument Type="WorkUnit" ID="{D2B6A51D-2F3A-41D8-AB7A-452D83834C18}" SchemaVersion="119">
+  <Events>
+    <WorkUnit Name="Engine" ID="{D2B6A51D-2F3A-41D8-AB7A-452D83834C18}" PersistMode="Standalone">
+      <Comment>Engines</Comment>
+      <ChildrenList>
+        <Event Name="eng_v55_npc" ID="{8F28640E-1415-48D7-B3A6-78B72CBA3684}">
+          <Comment>Event - Diesel engine of small power. NPC
+             RPM 300-800 - 1200-3200</Comment>
+          <ChildrenList></ChildrenList>
+        </Event>
+        <Event Name="eng_Ford_GAA_npc" ID="{443AFF2B-0904-4946-BD3B-E9A22C2E9418}">
+          <Comment>Event - Gasoline engine of medium power and higher. NPC
+             RPM 700-1300 - 1450-3200</Comment>
+          <ChildrenList></ChildrenList>
+        </Event>
+        <Event Name="eng_ContinentalR_npc" ID="{F7F6C19C-AD6F-4B40-8889-9AC55B2C1CE2}">
+          <Comment>Event - Gasoline engine of high power. NPC
+             RPM 400-1300 - 1800-3000</Comment>
+          <ChildrenList></ChildrenList>
+        </Event>
+        <Event Name="eng_gaz_aa_npc" ID="{992A27E1-7C0E-4221-9B20-198EA915613F}">
+          <Comment>Event - Gasoline engine of small power. NPC
+             RPM 800(500)-1100 - 1400-3400</Comment>
+          <ChildrenList></ChildrenList>
+        </Event>
+        <Event Name="eng_Continental_R975_npc" ID="{5D5A1C14-275E-4F3F-9D1B-2D47561AD307}">
+          <Comment>Event - Gasoline engine of low-to-medium power. NPC
+             RPM 400-1200  -  1450-3400</Comment>
+          <ChildrenList></ChildrenList>
+        </Event>
+        <Event Name="eng_V2K_npc" ID="{EE28AFA4-ED0F-4E52-BCDF-EEF3542BE11C}">
+          <Comment>Event - Diesel engine of high power. NPC
+             RPM 400-600 (800; 1100) - 1800-2200 (2600; 3200)</Comment>
+          <ChildrenList></ChildrenList>
+        </Event>
+        <Event Name="eng_Continental_R975_pc" ID="{3461C18D-A41D-4933-97FF-9FC39D1A1793}">
+          <Comment>Event - Gasoline engine of low-to-medium power. PC
+             RPM 400-1200  -  1450-3400</Comment>
+          <ChildrenList></ChildrenList>
+        </Event>
+        <Event Name="eng_ContinentalR_pc" ID="{D6029F57-9EEC-4F93-AC8C-5BE99F35C1BF}">
+          <Comment>Event - Gasoline engine of high power. PC
+             RPM 400-1300 - 1800-3000</Comment>
+          <ChildrenList></ChildrenList>
+        </Event>
+        <Event Name="eng_Ford_GAA_pc" ID="{3E08E100-C49F-4774-86B8-29EDF8A43039}">
+          <Comment>Event - Gasoline engine of medium and higher power. PC
+             RPM 700-1300 - 1450-3200</Comment>
+          <ChildrenList></ChildrenList>
+        </Event>
+        <Event Name="eng_gaz_aa_pc" ID="{7DD898FE-424F-45DE-B0A9-33C991750C5C}">
+          <Comment>Event - Gasoline engine of small power. PC
+             RPM 800(500)-1100 - 1400-3400</Comment>
+          <ChildrenList></ChildrenList>
+        </Event>
+        <Event Name="eng_V2K_pc" ID="{05EB6A0C-C5B7-4D75-B15B-D25C9E9C91FE}">
+          <Comment>Event - Diesel engine of high power. PC
+             RPM 400-600 (800; 1100) - 1800-2200 (2600; 3200)</Comment>
+          <ChildrenList></ChildrenList>
+        </Event>
+        <Event Name="eng_v55_pc" ID="{7B50CC59-1E6C-4CD4-B268-835702D259AD}">
+          <Comment>Event - Diesel engine of small power. PC
+             RPM 300-800 - 1200-3200</Comment>
+          <ChildrenList></ChildrenList>
+        </Event>
+        <Event Name="eng_Hetzer_pc" ID="{570F480D-BC08-4059-B632-9FEC68F16639}">
+          <Comment>Event - Diesel engine of high power. PC
+             RPM 400-600 (800; 1100) - 1800-2200 (2600; 3200)</Comment>
+          <ChildrenList></ChildrenList>
+        </Event>
+        <Event Name="eng_Hetzer_npc" ID="{87E955AA-07AF-4E89-833B-C7252A19919F}">
+          <Comment>Event - Diesel engine of high power. NPC
+             RPM 400-600 (800; 1100) - 1800-2200 (2600; 3200)</Comment>
+          <ChildrenList></ChildrenList>
+        </Event>
+        <Folder Name="eng_damage" ID="{4A9042E2-3755-4496-9415-A24C88906326}" ShortID="624680662">
+          <ChildrenList>
+            <Event Name="eng_broken" ID="{281CB3F4-668B-4E95-9408-E12F56559797}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="eng_still_broken" ID="{DDEC1785-6A2D-48AC-99DF-FCE18BFC7341}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="eng_restoring" ID="{B217AD65-1AD5-402B-8D2F-B690C287D00C}">
+              <Comment>Event - Repairing an engine upon receiving critical damage</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="eng_stopping" ID="{5719C60C-066C-4C71-AC72-AF9B9CE6B9A3}">
+              <Comment>Event - Engine stop upon receiving critical damage</Comment>
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="eng_repairing_broken" ID="{98C7F890-CDE7-4AF4-8A2B-87BFBDDB9CE1}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Folder Name="wheeled_vehicle" ID="{B3251C44-048E-44CD-9945-40A9DBF122D0}" ShortID="102604012">
+              <ChildrenList>
+                <Event Name="eng_damage_risk" ID="{33BABBBE-8C2D-42D2-95E4-75507407B81C}">
+                  <ChildrenList></ChildrenList>
+                </Event>
+              </ChildrenList>
+            </Folder>
+          </ChildrenList>
+        </Folder>
+        <Event Name="eng_ContinentalR_STRV_pc" ID="{D06065C0-6E1D-47A4-BFF9-A91A49662D7D}">
+          <Comment>Event - Gasoline engine of high power. PC
+             RPM 400-1300 - 1800-3000</Comment>
+          <ChildrenList></ChildrenList>
+        </Event>
+        <Event Name="eng_ContinentalR_STRV_npc" ID="{42412421-FB2A-453C-8FE5-2F7EE3C6F3ED}">
+          <Comment>Event - Gasoline engine of high power. NPC
+             RPM 400-1300 - 1800-3000</Comment>
+          <ChildrenList></ChildrenList>
+        </Event>
+        <Event Name="eng_cadillac_series_42_pc" ID="{C3AD99FA-45EE-4825-B15E-5AD661C04E56}">
+          <ChildrenList></ChildrenList>
+        </Event>
+        <Event Name="eng_cadillac_series_42_npc" ID="{0AC81ED9-53AB-4988-AB74-2DAD49A70529}">
+          <ChildrenList></ChildrenList>
+        </Event>
+        <Event Name="eng_Skoda_Prague_pc" ID="{A8B5E08D-1E96-44EE-985F-67394C8DDB17}">
+          <ChildrenList></ChildrenList>
+        </Event>
+        <Event Name="eng_Skoda_Prague_npc" ID="{D7FE2756-2CA0-472B-8507-38D3058FB210}">
+          <ChildrenList></ChildrenList>
+        </Event>
+        <Folder Name="vehicle_type_control" ID="{21601060-9B4C-4084-9130-71FCEDEC2D80}" ShortID="282565517">
+          <ChildrenList>
+            <Event Name="vehicleControl_pausePC_resumeNPC" ID="{F014432C-DF26-4E80-88CB-72972F0E8358}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="vehicleControl_pauseNPC_resumePC" ID="{F8A11A08-AC85-4633-8AE8-5B2B3F77DEE9}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="eng_cadillac_series_42_comb" ID="{DCA78FC1-E56C-4C1C-A31F-F3FE063022AA}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="eng_Continental_R975_comb" ID="{C0D135D9-E13A-40C1-8094-816A922288A7}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="eng_ContinentalR_comb" ID="{98ECE2D4-4C73-40E7-BB5A-13B2F39B9F19}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="eng_ContinentalR_STRV_comb" ID="{61AFD6CD-648E-4FC6-A4D3-5E7719BA16FA}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="eng_Ford_GAA_comb" ID="{8D25D089-A386-43F2-823E-E4953E1F9ADF}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="eng_gaz_aa_comb" ID="{C489A9A1-628F-4253-88A3-5AABC0E37962}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="eng_Hetzer_comb" ID="{72FF138D-C86D-4D4C-A84C-863354D36E26}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="eng_Skoda_Prague_comb" ID="{AD971110-F4BD-423A-9D65-6A759E4F7650}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="eng_V2K_comb" ID="{C8DB89C5-6FB3-471A-95AE-23BF5E4B57A5}">
+              <ChildrenList></ChildrenList>
+            </Event>
+            <Event Name="eng_v55_comb" ID="{C163E83C-4E5E-4197-B2D9-A3447B26A2AD}">
+              <ChildrenList></ChildrenList>
+            </Event>
+          </ChildrenList>
+        </Folder>
+      </ChildrenList>
+    </WorkUnit>
+  </Events>
+</WwiseDocument>
