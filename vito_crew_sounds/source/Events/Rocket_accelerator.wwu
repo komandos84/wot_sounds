@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{96EBAD99-DC8F-44CC-B94C-52BD29001CC4}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Rocket_accelerator" ID="{96EBAD99-DC8F-44CC-B94C-52BD29001CC4}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="ev_rocket_accel_ready" ID="{FE29DB22-DDCF-4598-8EDC-0F87BCB348A2}"/>
+				<Event Name="ev_rocket_accel_start_PC" ID="{846D55B6-6244-4FFE-8ADE-A35188C907AF}"/>
+				<Event Name="ev_rocket_accel_stop_PC" ID="{C7D4AECD-D4CC-4439-BCD7-548CFC3B4C53}"/>
+				<Event Name="ev_rocket_accel_disable" ID="{0C5923D5-879F-4C55-BA08-1C9948FDE3F1}"/>
+				<Event Name="ev_rocket_accel_empty" ID="{C3731A49-5E0D-47F3-A352-CD9F3BC795DF}"/>
+				<Event Name="ev_rocket_accel_start_NPC" ID="{F510E39D-C217-43AF-9CD1-0E93A2303FF3}"/>
+				<Event Name="ev_rocket_accel_stop_NPC" ID="{62A09806-AF7F-428C-BE53-E24CC0E197C9}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
