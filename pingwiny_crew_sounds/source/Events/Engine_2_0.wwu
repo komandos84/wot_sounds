@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1384AA29-BC5C-4C8F-843E-38C7E5E02FAB}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Engine_2_0" ID="{1384AA29-BC5C-4C8F-843E-38C7E5E02FAB}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="eng_leyland_l60" ID="{8D8E3372-DA04-4527-86CB-1518F5A1B2A0}" ShortID="5702936">
+					<ChildrenList>
+						<Event Name="eng_leyland_l60_PC" ID="{3C4397E4-4BC6-4133-A40A-CCA28E22BA13}">
+							<ChildrenList></ChildrenList>
+						</Event>
+						<Event Name="eng_leyland_l60_NPC" ID="{B6D78FF5-1FD9-4E37-A8EE-E995A5686532}">
+							<ChildrenList></ChildrenList>
+						</Event>
+						<Event Name="eng_leyland_l60_comb" ID="{1D96613A-F0EC-4F8B-B585-7A0D59BE2F2F}">
+							<ChildrenList></ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="eng_mtu_mb_838" ID="{D0F7E55A-B028-4486-A829-1AE10E7EBCA7}" ShortID="363582117">
+					<ChildrenList>
+						<Event Name="eng_mtu_mb_838_comb" ID="{6721CCC4-DE09-4A0C-956F-D299F04FE49A}">
+							<ChildrenList></ChildrenList>
+						</Event>
+						<Event Name="eng_mtu_mb_838_NPC" ID="{77B084EF-ECB0-4684-A3AB-74BF0BEA29B6}">
+							<ChildrenList></ChildrenList>
+						</Event>
+						<Event Name="eng_mtu_mb_838_PC" ID="{A1C3B0CF-CAD1-45AB-818E-36FED6CF3ACC}">
+							<ChildrenList></ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="eng_brdm_2" ID="{1F42F470-B5FB-4A34-9097-BC23EAA9B1D9}" ShortID="467846231">
+					<ChildrenList>
+						<Event Name="eng_brdm_2_pc" ID="{5FD0F92B-B05D-466F-8549-547C0A00BC97}">
+							<ChildrenList></ChildrenList>
+						</Event>
+						<Event Name="eng_brdm_2_npc" ID="{B024F1D9-A4D5-4F68-919E-26C257D1BDEB}">
+							<ChildrenList></ChildrenList>
+						</Event>
+						<Event Name="eng_brdm_2_comb" ID="{1DED32A9-9517-4AAC-9728-E3604426D102}">
+							<ChildrenList></ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="eng_patria" ID="{45F5ADAE-0C09-4ECF-8FBC-B6518C50FEF6}" ShortID="729962421">
+					<ChildrenList>
+						<Event Name="eng_patria_pc" ID="{FD6AF511-1E10-4562-9D33-DE4756CB5DCC}">
+							<ChildrenList></ChildrenList>
+						</Event>
+						<Event Name="eng_patria_npc" ID="{0D0E3D57-3B7A-4C24-8BEE-2B16C811AEE9}">
+							<ChildrenList></ChildrenList>
+						</Event>
+						<Event Name="eng_patria_comb" ID="{BA60A3EF-A203-4CEB-A1A4-CEEB121EB898}">
+							<ChildrenList></ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="eng_gte" ID="{7B1A1779-2693-4D05-A462-2F67AC6FF6F5}" ShortID="933200412">
+					<ChildrenList>
+						<Event Name="eng_gte_pc" ID="{42D5FA37-9C70-4E7F-8F34-22BFA52A90C0}">
+							<ChildrenList></ChildrenList>
+						</Event>
+						<Event Name="eng_gte_npc" ID="{8F9C9496-BDDD-48BF-8E2F-2CFED0DB78E3}">
+							<ChildrenList></ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
